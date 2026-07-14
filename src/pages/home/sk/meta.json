@@ -1,0 +1,241 @@
+{
+  "slug": "",
+  "title": "Taxi Šibenik - Služba, na ktorú sa môžete spoľahnúť | Taxi Antonio",
+  "description": "Taxi Šibenik pre miestne jazdy na požiadanie, vyzdvihnutie pri nemocnici a hoteloch, autobusový a trajektový prístav a spojenia na ostrovy. Vodič hovoriaci po anglicky. Rezervujte priamo s Antoniom.",
+  "keywords": "taxi šibenik, taxi sibenik, taxi sibenik nemocnica, sibenik hotel taxi, sibenik trajektovy pristav taxi, taxi zlarin prvic",
+  "og_image": "https://taxisibenik.hr/assets/img/hero-bg.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "TAXI Šibenik & Skradin - Antonio",
+      "url": "https://taxisibenik.hr/sk/",
+      "telephone": "+385994471013",
+      "email": "info@taxisibenik.hr",
+      "areaServed": [
+        "Šibenik",
+        "Skradin",
+        "Split",
+        "Zadar",
+        "Dubrovnik",
+        "Zagreb"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Šibenik",
+        "postalCode": "22000",
+        "addressCountry": "HR"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "142"
+      },
+      "priceRange": "€€",
+      "alternateName": "TAXI Antonio",
+      "@id": "https://taxisibenik.hr/sk/#business",
+      "image": "https://taxisibenik.hr/assets/img/hero-bg.webp",
+      "paymentAccepted": "Hotovosť, Kreditná karta",
+      "currenciesAccepted": "EUR",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 43.6956974,
+        "longitude": 15.7891511
+      },
+      "hasMap": "https://www.google.com/maps?cid=4748268601430744277",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "07:00",
+          "closes": "21:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "06:00",
+          "closes": "15:00"
+        }
+      ],
+      "sameAs": [
+        "https://web.facebook.com/profile.php?id=61579783829997",
+        "https://www.instagram.com/taxi_sibenik/",
+        "https://www.tiktok.com/@taxisibenik",
+        "https://www.tripadvisor.com/Attraction_Review-g295375-d24821165-Reviews-TAXI_Sibenik_Skradin_Antonio-Sibenik_Sibenik_Knin_County_Dalmatia.html",
+        "https://www.google.com/maps?cid=4748268601430744277"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Taxi a transferová služba",
+      "name": "Taxi Šibenik by TAXI Antonio",
+      "areaServed": {
+        "@type": "City",
+        "name": "Šibenik"
+      },
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Taxi a transferové služby",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Miestne taxi jazdy v Šibeniku"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Letiskové transfery"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Medzimestské transfery"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Hotelové transfery"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Výlety do Krky a na Plitvice"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Ako si zarezervujem taxi zo Šibeniku?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Zavolajte na +385 99 447 1013, napíšte na WhatsApp alebo pošlite e-mail. Antonio potrebuje miesto vyzdvihnutia, cieľ cesty a preferovaný čas vyzdvihnutia alebo príchodu."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ako dlho vopred si mám rezervovať?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Požiadavky na poslednú chvíľu prijímam v rámci pracovných hodín, no rezervácia vopred zaručuje dostupnosť."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Čo znamená „pevná cena“? Čo je zahrnuté?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pevné ceny zahŕňajú prepravu, palivo, mýto a pomoc s batožinou. Žiadne skryté poplatky. Ďalšie zastávky alebo dlhé čakanie môžu stáť viac, čo je oznámené vopred."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Prijímate zálohové platby?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Áno. Potvrdenie rezervácie si vyžaduje zálohu vo výške 20 % (minimálne 20 eur). Jazdy s cenou 20 eur alebo nižšou si vyžadujú plnú platbu vopred. Zálohy je možné uhradiť bankovým prevodom (SEPA) alebo kartou, pričom zvyšok sa doplatí v deň transferu."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Prijímate platby kartou v aute?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Áno, prijímam karty a iné bezkontaktné spôsoby platby."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Vyzdvihujete cestujúcich pri nemocnici v Šibeniku?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Áno. Antonio vozí cestujúcich do Všeobecnej nemocnice v Šibeniku a z nej a smie vojsť autom priamo do areálu nemocnice, takže nie je potrebná dlhá chôdza z parkoviska."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Odveziete ma na trajekt na ostrovy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Áno. Antonio vysadí a vyzdvihne v šibenickom trajektovom a katamaranovom prístave pre Zlarin, Prvić, Kaprije a Žirje a pri lodi na Obonjan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Vyzdvihujete pri šibenických hoteloch, autobusovej a železničnej stanici?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Áno. Antonio obsluhuje všetky miestne hotely, autobusovú stanicu, železničné stanice Šibenik a Perković a trajektový prístav, s pomocou s batožinou a menovkou na požiadanie."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Čo ak má môj let meškanie?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Prílety letov sledujem v reálnom čase a čas vyzdvihnutia sa automaticky prispôsobí, bez príplatku."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Čo sa stane, ak potrebujem zrušiť rezerváciu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Zrušenia sa musia vykonať písomne e-mailom. Viac ako 72 hodín pred rezerváciou platí plná refundácia pri bankovom prevode, alebo plná refundácia znížená o 10 eur manipulačný poplatok pri platbe kartou. Zrušenia v rámci 72 hodín alebo nedostavenie sa nie sú refundovateľné. Zmena termínu je kedykoľvek zdarma."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Zvládnete väčšiu skupinu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Do Škody Superb sa zmestia až 4 cestujúci. Pri väčších skupinách je možné zariadiť prepravu cez miestnych, starostlivo vybraných partnerov."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ponúkate detské sedačky?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Áno, detské a podsedákové sedačky sú dostupné na požiadanie."
+          }
+        }
+      ]
+    }
+  ]
+}

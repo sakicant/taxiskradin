@@ -1,0 +1,54 @@
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Lépjen kapcsolatba</span>
+      <h1>Kapcsolat: TAXI Šibenik</h1>
+      <p class="page-hero-sub">Közvetlen kapcsolat velem, nem egy call centerrel. Hívjon, írjon WhatsAppon, vagy küldjön üzenetet lentebb.</p>
+      <div class="hero-actions">
+        <a href="tel:+385994471013" class="btn btn-primary">Hívja most a taxit</a>
+        <a href="https://wa.me/385994471013?text=J%C3%B3%20napot%2C%20Antonio%21%20A%20taxisibenik.hr%20weboldal%C3%A1n%20tal%C3%A1ltam%20%C3%96nt%2C%20%C3%A9s%20van%20egy%20k%C3%A9rd%C3%A9sem%3A%20" target="_blank" rel="noopener" class="btn btn-secondary">WhatsApp üzenet küldése</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact contact-page">
+    <div class="container contact-inner">
+      <div class="contact-info">
+        <span class="eyebrow">Szolgáltatások</span>
+        <ul class="contact-details">
+          <li><a href="/hu/">Helyi šibeniki taxi</a></li>
+          <li><a href="https://taxiskradin.hr" target="_blank" rel="noopener">Taxi Skradin</a></li>
+          <li><a href="/hu/repteri-transzferek/">Reptéri transzferek</a></li>
+          <li><a href="/hu/varosok-kozotti-transzferek/">Városok közötti transzferek</a></li>
+          <li><a href="/hu/kirandulasok/">Kirándulások</a></li>
+        </ul>
+      </div>
+
+      <form class="contact-form" id="contact-form" action="/contact.php" method="POST">
+        <h3>Küldjön nekem üzenetet</h3>
+        <label for="name">Név</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">WhatsApp-szám (opcionális)</label>
+        <input type="tel" id="phone" name="phone" placeholder="Adja meg az országhívó számot">
+
+        <label for="topic">Téma</label>
+        <select id="topic" name="topic" required>
+          <option value="General inquiry">Általános érdeklődés</option>
+          <option value="Booking">Foglalás</option>
+          <option value="Quote request">Árajánlatkérés</option>
+          <option value="Day trip">Kirándulás</option>
+          <option value="Complaint">Panasz</option>
+          <option value="Other">Egyéb</option>
+        </select>
+
+        <label for="message">Üzenet</label>
+        <textarea id="message" name="message" rows="5" required placeholder="Adja meg a felvételi helyet, a dátumot és az úti célt..."></textarea>
+
+        <button type="submit" class="btn btn-primary">Üzenet küldése</button>
+        <p class="form-note" id="form-note"></p>
+      </form>
+    </div>
+  </section>

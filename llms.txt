@@ -1,0 +1,34 @@
+# TAXI Antonio (taxisibenik.hr)
+
+> Licensed private taxi and transfer service based in Šibenik, Croatia, run by one local driver, Antonio Šakić. Fixed-price, door-to-door airport transfers, city-to-city transfers, day trips and local taxi rides across Dalmatia in a comfortable Škoda Superb for up to 4 passengers. Every fare is agreed in advance, with no meter. Phone/WhatsApp: +385 99 447 1013. Email: info@taxisibenik.hr.
+
+## Key facts
+
+- One driver, one car: Antonio Šakić, a Škoda Superb seating up to 4 passengers with luggage.
+- Fixed prices per car (not per person), agreed before travel. A 20% advance payment (minimum €20) confirms a booking; the balance is paid on the day in cash or by card.
+- Bookings need at least 2 hours' notice.
+- Serves Šibenik and the wider Dalmatian coast and interior, and all four regional airports: Split (SPU), Zadar (ZAD), Zagreb (ZAG) and Dubrovnik (DBV).
+- For larger groups or a van, Antonio arranges it through a hand-picked network of trusted local drivers, staying the single point of contact.
+
+## Main pages
+
+- [Taxi Šibenik (home)](https://taxisibenik.hr/): Local taxi and transfers across Šibenik and the region.
+- [Airport Transfers](https://taxisibenik.hr/airport-transfers-from-sibenik/): Fixed-price transfers to and from Split, Zadar, Zagreb and Dubrovnik airports, with flight monitoring.
+- [City-to-City Transfers](https://taxisibenik.hr/sibenik-transfers/): Private transfers between Šibenik and cities across Dalmatia (Split, Zadar, Dubrovnik, Zagreb, Trogir and more).
+- [Day Trips](https://taxisibenik.hr/daytrips/): Private round-trip day trips to Krka National Park and Plitvice Lakes.
+- [About Antonio](https://taxisibenik.hr/about/): The driver, the car and how the one-person service works.
+- [Book a Transfer](https://taxisibenik.hr/book/): Booking form with a prefilled trip summary and fixed price.
+- [Contact](https://taxisibenik.hr/contact/): Phone, WhatsApp and email.
+
+## Popular day trips
+
+- [Day Trip to Krka from Šibenik](https://taxisibenik.hr/day-trip-krka-national-park-sibenik/): Private round-trip transfer to the Krka waterfalls, fixed €100.
+- [Day Trip to Plitvice from Šibenik](https://taxisibenik.hr/day-trip-plitvice-lakes-national-park-sibenik/): Private round-trip transfer to Plitvice Lakes, fixed €500.
+
+## Routes
+
+Individual fixed-price route pages exist for hundreds of specific journeys, one per direction, following the pattern https://taxisibenik.hr/taxi-<from>-to-<to>/ (for example, https://taxisibenik.hr/taxi-sibenik-to-split-airport/). Each lists the fixed fare and lets visitors book directly.
+
+## Service area towns
+
+Local taxi pages cover Šibenik, Bilice, Brodarica, Jadrija, Zablaće, Žaborić, Srima, Vodice, Tromilja, Lozovac, Perković, Grebaštica, Bilo, Drniš and Knin, following the pattern https://taxisibenik.hr/taxi-<town>/.

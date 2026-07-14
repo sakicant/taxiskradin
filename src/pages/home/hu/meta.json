@@ -1,0 +1,241 @@
+{
+  "slug": "",
+  "title": "Taxi Šibenik - Megbízható szolgáltatás | Taxi Antonio",
+  "description": "Taxi Šibenik helyi fuvarokhoz igény szerint, kórházi és szállodai felvételhez, a busz- és kompkikötőhöz, valamint a szigetek felé. Angolul beszélő sofőr. Foglaljon közvetlenül Antoniónál.",
+  "keywords": "taxi šibenik, taxi sibenik, taxi sibenik kórház, sibenik szálloda taxi, sibenik kompkikötő taxi, taxi zlarin prvic",
+  "og_image": "https://taxisibenik.hr/assets/img/hero-bg.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "TAXI Šibenik & Skradin - Antonio",
+      "url": "https://taxisibenik.hr/hu/",
+      "telephone": "+385994471013",
+      "email": "info@taxisibenik.hr",
+      "areaServed": [
+        "Šibenik",
+        "Skradin",
+        "Split",
+        "Zadar",
+        "Dubrovnik",
+        "Zagreb"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Šibenik",
+        "postalCode": "22000",
+        "addressCountry": "HR"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "142"
+      },
+      "priceRange": "€€",
+      "alternateName": "TAXI Antonio",
+      "@id": "https://taxisibenik.hr/#business",
+      "image": "https://taxisibenik.hr/assets/img/hero-bg.webp",
+      "paymentAccepted": "Készpénz, bankkártya",
+      "currenciesAccepted": "EUR",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 43.6956974,
+        "longitude": 15.7891511
+      },
+      "hasMap": "https://www.google.com/maps?cid=4748268601430744277",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "07:00",
+          "closes": "21:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "06:00",
+          "closes": "15:00"
+        }
+      ],
+      "sameAs": [
+        "https://web.facebook.com/profile.php?id=61579783829997",
+        "https://www.instagram.com/taxi_sibenik/",
+        "https://www.tiktok.com/@taxisibenik",
+        "https://www.tripadvisor.com/Attraction_Review-g295375-d24821165-Reviews-TAXI_Sibenik_Skradin_Antonio-Sibenik_Sibenik_Knin_County_Dalmatia.html",
+        "https://www.google.com/maps?cid=4748268601430744277"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Taxi- és transzferszolgáltatás",
+      "name": "Taxi Šibenik a TAXI Antoniótól",
+      "areaServed": {
+        "@type": "City",
+        "name": "Šibenik"
+      },
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Taxi- és transzferszolgáltatások",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Helyi taxifuvarok Šibenikben"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Reptéri transzferek"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Városok közötti transzferek"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Hotel transzferek"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Kirándulások Krkába és Plitvicébe"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hogyan foglalhatok taxit Šibenikből?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hívja a +385 99 447 1013 számot, írjon WhatsAppon, vagy küldjön e-mailt. Antoniónak szüksége van a felvételi helyre, az úti célra, valamint a kívánt felvételi vagy érkezési időpontra."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mennyivel előre érdemes foglalni?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Az utolsó pillanatban leadott kéréseket munkaidőben elfogadjuk, de az előzetes foglalás garantálja a rendelkezésre állást."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mit jelent a \"fix ár\"? Mit tartalmaz?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fix árak tartalmazzák a fuvart, az üzemanyagot, az útdíjakat és a csomagoknál nyújtott segítséget. Nincsenek rejtett díjak. A további megállók vagy hosszabb várakozás többe kerülhet, amit előre közlünk."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Fogadnak előleget?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Igen. A foglalás megerősítéséhez 20% előleg szükséges (minimum 20 euró). A 20 euró vagy annál alacsonyabb árú fuvarokat teljes egészében előre kell fizetni. Az előleg banki átutalással (SEPA) vagy kártyával fizethető, a fennmaradó összeget pedig a transzfer napján kell rendezni."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Elfogadnak kártyás fizetést az autóban?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Igen, elfogadjuk a kártyás és egyéb érintés nélküli fizetési módokat."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Végeznek kórházi felvételt Šibenikben?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Igen. Antonio a šibeniki megyei kórházba és onnan is szállítja az utasokat, és behajthat a kórház területére, így nem kell hosszan gyalogolni egy parkolóból."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "El tudnak vinni a kompkikötőbe a szigetekhez?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Igen. Antonio le- és felveszi az utasokat a šibeniki komp- és katamaránkikötőnél Zlarin, Prvić, Kaprije és Žirje felé, valamint az Obonjanra tartó hajóhoz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Felvesznek šibeniki szállodáktól, a busz- és vasútállomásról?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Igen. Antonio kiszolgálja az összes helyi szállodát, a buszállomást, a šibeniki és perkovići vasútállomást, valamint a kompkikötőt, csomagsegítséggel és kérésre névtáblával."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mi történik, ha késik a járatom?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A repülőgépek érkezését valós időben követjük, és a felvételi időpontot automatikusan igazítjuk, díjmentesen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mi történik, ha le kell mondanom?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A lemondást írásban, e-mailben kell megtenni. A foglalás előtt több mint 72 órával banki átutalás esetén teljes visszatérítés jár, kártya esetén pedig teljes visszatérítés egy 10 eurós kezelési díj levonásával. A 72 órán belüli lemondás vagy meg nem jelenés nem téríthető vissza. Az átütemezés bármikor ingyenes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tudnak nagyobb csoportot is szállítani?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Škoda Superb legfeljebb 4 utast fogad be. Nagyobb csoportok esetén helyi, gondosan kiválasztott partnereken keresztül intézhető a szállítás."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kínálnak gyermekülést?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Igen, gyermek- és ülésmagasító kérésre elérhető."
+          }
+        }
+      ]
+    }
+  ]
+}

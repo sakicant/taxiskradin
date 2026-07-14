@@ -1,0 +1,13 @@
+.claude/settings.local.json
+Thumbs.db
+.DS_Store
+
+# Real DB + admin credentials live only on the server, never in git.
+config.php
+
+# local price-matrix working files
+price-matrix*.xlsx
+price-matrix*.csv
+
+# Local-only static admin previews (not for production)
+admin/_preview-*.html

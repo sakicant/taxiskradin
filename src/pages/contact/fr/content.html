@@ -1,0 +1,54 @@
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Prenez contact</span>
+      <h1>Contactez TAXI Šibenik</h1>
+      <p class="page-hero-sub">Un contact direct avec moi, pas un centre d'appels. Appelez, écrivez sur WhatsApp ou envoyez un message ci-dessous.</p>
+      <div class="hero-actions">
+        <a href="tel:+385994471013" class="btn btn-primary">Appeler le taxi maintenant</a>
+        <a href="https://wa.me/385994471013?text=Bonjour%20Antonio%2C%20je%20vous%20ai%20trouv%C3%A9%20via%20votre%20site%20web%20taxisibenik.hr%20et%20j%27ai%20une%20demande%3A%20" target="_blank" rel="noopener" class="btn btn-secondary">Envoyer un message WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact contact-page">
+    <div class="container contact-inner">
+      <div class="contact-info">
+        <span class="eyebrow">Services</span>
+        <ul class="contact-details">
+          <li><a href="/fr/">Taxi local à Šibenik</a></li>
+          <li><a href="https://taxiskradin.hr" target="_blank" rel="noopener">Taxi Skradin</a></li>
+          <li><a href="/fr/transferts-aeroport/">Transferts aéroport</a></li>
+          <li><a href="/fr/transferts-entre-villes/">Transferts entre villes</a></li>
+          <li><a href="/fr/excursions/">Excursions</a></li>
+        </ul>
+      </div>
+
+      <form class="contact-form" id="contact-form" action="/contact.php" method="POST">
+        <h3>Écrivez-moi un message</h3>
+        <label for="name">Nom</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Numéro WhatsApp (facultatif)</label>
+        <input type="tel" id="phone" name="phone" placeholder="Indiquez l'indicatif du pays">
+
+        <label for="topic">Sujet</label>
+        <select id="topic" name="topic" required>
+          <option value="General inquiry">Demande générale</option>
+          <option value="Booking">Réservation</option>
+          <option value="Quote request">Demande de devis</option>
+          <option value="Day trip">Excursion</option>
+          <option value="Complaint">Réclamation</option>
+          <option value="Other">Autre</option>
+        </select>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required placeholder="Indiquez-moi votre lieu de prise en charge, la date et la destination..."></textarea>
+
+        <button type="submit" class="btn btn-primary">Envoyer le message</button>
+        <p class="form-note" id="form-note"></p>
+      </form>
+    </div>
+  </section>

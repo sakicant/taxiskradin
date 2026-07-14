@@ -1,0 +1,54 @@
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Neem contact op</span>
+      <h1>Contact TAXI Šibenik</h1>
+      <p class="page-hero-sub">Direct contact met mij, geen callcenter. Bel, WhatsApp of stuur hieronder een bericht.</p>
+      <div class="hero-actions">
+        <a href="tel:+385994471013" class="btn btn-primary">Bel nu een taxi</a>
+        <a href="https://wa.me/385994471013?text=Hallo%20Antonio%2C%20ik%20heb%20u%20gevonden%20via%20uw%20website%20taxisibenik.hr%20en%20ik%20heb%20een%20vraag%3A%20" target="_blank" rel="noopener" class="btn btn-secondary">Stuur WhatsApp-bericht</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact contact-page">
+    <div class="container contact-inner">
+      <div class="contact-info">
+        <span class="eyebrow">Diensten</span>
+        <ul class="contact-details">
+          <li><a href="/nl/">Lokale Šibenik-taxi</a></li>
+          <li><a href="https://taxiskradin.hr" target="_blank" rel="noopener">Taxi Skradin</a></li>
+          <li><a href="/nl/luchthaventransfers/">Luchthaventransfers</a></li>
+          <li><a href="/nl/stadstransfers/">Stadstransfers</a></li>
+          <li><a href="/nl/dagtochten/">Dagtochten</a></li>
+        </ul>
+      </div>
+
+      <form class="contact-form" id="contact-form" action="/contact.php" method="POST">
+        <h3>Stuur me een bericht</h3>
+        <label for="name">Naam</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">WhatsApp-nummer (optioneel)</label>
+        <input type="tel" id="phone" name="phone" placeholder="Inclusief landcode">
+
+        <label for="topic">Onderwerp</label>
+        <select id="topic" name="topic" required>
+          <option value="General inquiry">Algemene vraag</option>
+          <option value="Booking">Boeking</option>
+          <option value="Quote request">Prijsaanvraag</option>
+          <option value="Day trip">Dagtocht</option>
+          <option value="Complaint">Klacht</option>
+          <option value="Other">Overig</option>
+        </select>
+
+        <label for="message">Bericht</label>
+        <textarea id="message" name="message" rows="5" required placeholder="Vertel me uw ophaallocatie, datum en bestemming..."></textarea>
+
+        <button type="submit" class="btn btn-primary">Bericht versturen</button>
+        <p class="form-note" id="form-note"></p>
+      </form>
+    </div>
+  </section>

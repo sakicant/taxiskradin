@@ -1,0 +1,241 @@
+{
+  "slug": "",
+  "title": "Taxi Šibenik - Service, auf den Sie sich verlassen können | Taxi Antonio",
+  "description": "Taxi Šibenik für lokale Fahrten auf Abruf, Abholungen an Krankenhaus und Hotels, zum Bus- und Fährhafen sowie zu den Inseln. Englischsprachiger Fahrer. Buchen Sie direkt bei Antonio.",
+  "keywords": "taxi šibenik, taxi sibenik, taxi sibenik krankenhaus, sibenik hotel taxi, sibenik fährhafen taxi, taxi zlarin prvic",
+  "og_image": "https://taxisibenik.hr/assets/img/hero-bg.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "TAXI Šibenik & Skradin - Antonio",
+      "url": "https://taxisibenik.hr/de/",
+      "telephone": "+385994471013",
+      "email": "info@taxisibenik.hr",
+      "areaServed": [
+        "Šibenik",
+        "Skradin",
+        "Split",
+        "Zadar",
+        "Dubrovnik",
+        "Zagreb"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Šibenik",
+        "postalCode": "22000",
+        "addressCountry": "HR"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "142"
+      },
+      "priceRange": "€€",
+      "alternateName": "TAXI Antonio",
+      "@id": "https://taxisibenik.hr/de/#business",
+      "image": "https://taxisibenik.hr/assets/img/hero-bg.webp",
+      "paymentAccepted": "Bargeld, Kreditkarte",
+      "currenciesAccepted": "EUR",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 43.6956974,
+        "longitude": 15.7891511
+      },
+      "hasMap": "https://www.google.com/maps?cid=4748268601430744277",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "07:00",
+          "closes": "21:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "06:00",
+          "closes": "15:00"
+        }
+      ],
+      "sameAs": [
+        "https://web.facebook.com/profile.php?id=61579783829997",
+        "https://www.instagram.com/taxi_sibenik/",
+        "https://www.tiktok.com/@taxisibenik",
+        "https://www.tripadvisor.com/Attraction_Review-g295375-d24821165-Reviews-TAXI_Sibenik_Skradin_Antonio-Sibenik_Sibenik_Knin_County_Dalmatia.html",
+        "https://www.google.com/maps?cid=4748268601430744277"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Taxi- und Transferdienst",
+      "name": "Taxi Šibenik von TAXI Antonio",
+      "areaServed": {
+        "@type": "City",
+        "name": "Šibenik"
+      },
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Taxi- und Transferdienste",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Lokale Taxifahrten in Šibenik"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Flughafentransfers"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Städtetransfers"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Hoteltransfers"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Tagesausflüge nach Krka und Plitvice"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wie buche ich ein Taxi ab Šibenik?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rufen Sie +385 99 447 1013 an, schreiben Sie per WhatsApp oder senden Sie eine E-Mail. Antonio benötigt den Abholort, das Ziel und die gewünschte Abhol- oder Ankunftszeit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie weit im Voraus sollte ich buchen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kurzfristige Anfragen werden innerhalb der Arbeitszeiten angenommen, aber eine Buchung im Voraus garantiert die Verfügbarkeit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was bedeutet \"Festpreis\"? Was ist inbegriffen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Festpreise beinhalten Beförderung, Kraftstoff, Maut und Hilfe mit dem Gepäck. Keine versteckten Gebühren. Zusätzliche Stopps oder lange Wartezeiten können mehr kosten, was im Voraus mitgeteilt wird."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Nehmen Sie Anzahlungen entgegen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Zur Bestätigung einer Buchung ist eine Anzahlung von 20% erforderlich (mindestens 20 Euro). Fahrten mit einem Preis von 20 Euro oder weniger sind vollständig im Voraus zu bezahlen. Anzahlungen können per Banküberweisung (SEPA) oder Karte erfolgen, der Restbetrag wird am Tag des Transfers beglichen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Akzeptieren Sie Kartenzahlung im Auto?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, Karten und andere kontaktlose Zahlungsmethoden werden akzeptiert."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Führen Sie Abholungen am Krankenhaus in Šibenik durch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Antonio bringt Fahrgäste zum und vom Allgemeinen Krankenhaus Šibenik und darf auf das Krankenhausgelände fahren, sodass kein langer Weg von einem Parkplatz nötig ist."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Können Sie mich zur Fähre für die Inseln bringen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Antonio setzt Sie am Fähr- und Katamaranhafen von Šibenik für Zlarin, Prvić, Kaprije und Žirje sowie am Boot nach Obonjan ab und holt Sie dort wieder ab."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Holen Sie von Hotels in Šibenik, vom Bus- und Bahnhof ab?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Antonio bedient alle lokalen Hotels, den Busbahnhof, die Bahnhöfe Šibenik und Perković sowie den Fährhafen, mit Gepäckhilfe und einem Namensschild auf Wunsch."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was passiert, wenn mein Flug Verspätung hat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Flugankünfte werden in Echtzeit überwacht und die Abholzeit wird automatisch angepasst, ohne zusätzliche Kosten."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was passiert, wenn ich stornieren muss?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stornierungen müssen schriftlich per E-Mail erfolgen. Mehr als 72 Stunden vor der Buchung gilt eine vollständige Rückerstattung bei Banküberweisung oder eine vollständige Rückerstattung abzüglich einer Bearbeitungsgebühr von 10 Euro bei Kartenzahlung. Stornierungen innerhalb von 72 Stunden oder Nichterscheinen sind nicht erstattungsfähig. Eine Umbuchung ist jederzeit kostenlos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Können Sie eine größere Gruppe befördern?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die Škoda Superb bietet Platz für bis zu 4 Fahrgäste. Für größere Gruppen können Arrangements über lokale, handverlesene Partner getroffen werden."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Bieten Sie Kindersitze an?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, Kinder- und Sitzerhöhungen sind auf Wunsch verfügbar."
+          }
+        }
+      ]
+    }
+  ]
+}

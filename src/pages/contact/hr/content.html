@@ -1,0 +1,54 @@
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Javite se</span>
+      <h1>Kontakt TAXI Šibenik</h1>
+      <p class="page-hero-sub">Izravan kontakt sa mnom, ne s pozivnim centrom. Nazovite, javite se na WhatsApp ili pošaljite poruku ispod.</p>
+      <div class="hero-actions">
+        <a href="tel:+385994471013" class="btn btn-primary">Nazovite taksi odmah</a>
+        <a href="https://wa.me/385994471013?text=Pozdrav%20Antonio%2C%20prona%C5%A1ao%20sam%20vas%20preko%20va%C5%A1e%20web%20stranice%20taxisibenik.hr%20i%20imam%20upit%3A%20" target="_blank" rel="noopener" class="btn btn-secondary">Pošaljite poruku na WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact contact-page">
+    <div class="container contact-inner">
+      <div class="contact-info">
+        <span class="eyebrow">Usluge</span>
+        <ul class="contact-details">
+          <li><a href="/hr/">Lokalni taksi Šibenik</a></li>
+          <li><a href="https://taxiskradin.hr" target="_blank" rel="noopener">Taxi Skradin</a></li>
+          <li><a href="/hr/transferi-zracne-luke/">Transferi do zračnih luka</a></li>
+          <li><a href="/hr/medugradski-transferi/">Međugradski transferi</a></li>
+          <li><a href="/hr/izleti/">Izleti</a></li>
+        </ul>
+      </div>
+
+      <form class="contact-form" id="contact-form" action="/contact.php" method="POST">
+        <h3>Pošaljite mi poruku</h3>
+        <label for="name">Ime</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">E-pošta</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">WhatsApp broj (nije obavezno)</label>
+        <input type="tel" id="phone" name="phone" placeholder="Uključite pozivni broj države">
+
+        <label for="topic">Tema</label>
+        <select id="topic" name="topic" required>
+          <option value="General inquiry">Opći upit</option>
+          <option value="Booking">Rezervacija</option>
+          <option value="Quote request">Zahtjev za ponudu</option>
+          <option value="Day trip">Izlet</option>
+          <option value="Complaint">Pritužba</option>
+          <option value="Other">Ostalo</option>
+        </select>
+
+        <label for="message">Poruka</label>
+        <textarea id="message" name="message" rows="5" required placeholder="Recite mi mjesto preuzimanja, datum i odredište..."></textarea>
+
+        <button type="submit" class="btn btn-primary">Pošalji poruku</button>
+        <p class="form-note" id="form-note"></p>
+      </form>
+    </div>
+  </section>

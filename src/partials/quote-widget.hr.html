@@ -1,0 +1,46 @@
+      <div class="quote-widget" id="quote-widget">
+        <div class="quote-trip-toggle">
+          <button type="button" class="trip-toggle-btn active" data-trip="oneway">Jednosmjerno</button>
+          <button type="button" class="trip-toggle-btn" data-trip="return">Povratno</button>
+        </div>
+
+        <div class="quote-field">
+          <label for="quote-from-input">Od</label>
+          <div class="combo" data-placeholder="Mjesto polaska">
+            <input type="text" class="combo-input" id="quote-from-input" placeholder="Mjesto polaska" autocomplete="off" role="combobox" aria-expanded="false" aria-autocomplete="list">
+            <input type="hidden" id="quote-from">
+            <div class="combo-panel" hidden></div>
+          </div>
+        </div>
+        <div class="quote-field">
+          <label for="quote-to-input">Do</label>
+          <div class="combo" data-placeholder="Odredište">
+            <input type="text" class="combo-input" id="quote-to-input" placeholder="Odredište" autocomplete="off" role="combobox" aria-expanded="false" aria-autocomplete="list">
+            <input type="hidden" id="quote-to">
+            <div class="combo-panel" hidden></div>
+          </div>
+        </div>
+
+        <div class="quote-field-row">
+          <div class="quote-stepper">
+            <label>Putnici</label>
+            <div class="stepper-control">
+              <button type="button" class="stepper-btn" data-target="quote-passengers" data-delta="-1" aria-label="Smanji broj putnika">&minus;</button>
+              <span id="quote-passengers" data-value="1" data-min="1" data-max="12">1</span>
+              <button type="button" class="stepper-btn" data-target="quote-passengers" data-delta="1" aria-label="Povećaj broj putnika">+</button>
+            </div>
+          </div>
+          <div class="quote-stepper">
+            <label>Prtljaga</label>
+            <div class="stepper-control">
+              <button type="button" class="stepper-btn" data-target="quote-luggage" data-delta="-1" aria-label="Smanji prtljagu">&minus;</button>
+              <span id="quote-luggage" data-value="1" data-min="0" data-max="6">1</span>
+              <button type="button" class="stepper-btn" data-target="quote-luggage" data-delta="1" aria-label="Povećaj prtljagu">+</button>
+            </div>
+          </div>
+        </div>
+
+        <button type="button" id="quote-submit" class="btn btn-primary quote-btn">Pogledaj fiksnu cijenu</button>
+
+        <div id="quote-result" class="quote-result" hidden></div>
+      </div>

@@ -1,0 +1,54 @@
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Kontaktujte ma</span>
+      <h1>Kontakt TAXI Šibenik</h1>
+      <p class="page-hero-sub">Priamy kontakt so mnou, nie s call centrom. Zavolajte, napíšte na WhatsApp alebo pošlite správu nižšie.</p>
+      <div class="hero-actions">
+        <a href="tel:+385994471013" class="btn btn-primary">Zavolať taxi teraz</a>
+        <a href="https://wa.me/385994471013?text=Dobr%C3%BD%20de%C5%88%20Antonio%2C%20na%C5%A1iel%20som%20v%C3%A1s%20cez%20va%C5%A1u%20webov%C3%BA%20str%C3%A1nku%20taxisibenik.hr%20a%20m%C3%A1m%20ot%C3%A1zku%3A%20" target="_blank" rel="noopener" class="btn btn-secondary">Poslať správu na WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact contact-page">
+    <div class="container contact-inner">
+      <div class="contact-info">
+        <span class="eyebrow">Služby</span>
+        <ul class="contact-details">
+          <li><a href="/sk/">Miestne taxi Šibenik</a></li>
+          <li><a href="https://taxiskradin.hr" target="_blank" rel="noopener">Taxi Skradin</a></li>
+          <li><a href="/sk/letiskove-transfery/">Letiskové transfery</a></li>
+          <li><a href="/sk/medzimestske-transfery/">Medzimestské transfery</a></li>
+          <li><a href="/sk/vylety/">Výlety</a></li>
+        </ul>
+      </div>
+
+      <form class="contact-form" id="contact-form" action="/contact.php" method="POST">
+        <h3>Napíšte mi správu</h3>
+        <label for="name">Meno</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">WhatsApp číslo (nepovinné)</label>
+        <input type="tel" id="phone" name="phone" placeholder="Uveďte predvoľbu krajiny">
+
+        <label for="topic">Téma</label>
+        <select id="topic" name="topic" required>
+          <option value="General inquiry">Všeobecný dopyt</option>
+          <option value="Booking">Rezervácia</option>
+          <option value="Quote request">Žiadosť o cenovú ponuku</option>
+          <option value="Day trip">Výlet</option>
+          <option value="Complaint">Sťažnosť</option>
+          <option value="Other">Iné</option>
+        </select>
+
+        <label for="message">Správa</label>
+        <textarea id="message" name="message" rows="5" required placeholder="Napíšte mi miesto vyzdvihnutia, dátum a cieľ cesty..."></textarea>
+
+        <button type="submit" class="btn btn-primary">Odoslať správu</button>
+        <p class="form-note" id="form-note"></p>
+      </form>
+    </div>
+  </section>

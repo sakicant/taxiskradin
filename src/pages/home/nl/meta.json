@@ -1,0 +1,241 @@
+{
+  "slug": "",
+  "title": "Taxi Šibenik - Service waarop u kunt rekenen | Taxi Antonio",
+  "description": "Taxi Šibenik voor lokale ritten op aanvraag, ophalen bij ziekenhuis en hotel, het bus- en veerbootstation en verbindingen naar de eilanden. Engelssprekende chauffeur. Boek rechtstreeks bij Antonio.",
+  "keywords": "taxi šibenik, taxi sibenik, taxi sibenik ziekenhuis, sibenik hotel taxi, sibenik veerbootstation taxi, taxi zlarin prvic",
+  "og_image": "https://taxisibenik.hr/assets/img/hero-bg.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "TAXI Šibenik & Skradin - Antonio",
+      "url": "https://taxisibenik.hr/nl/",
+      "telephone": "+385994471013",
+      "email": "info@taxisibenik.hr",
+      "areaServed": [
+        "Šibenik",
+        "Skradin",
+        "Split",
+        "Zadar",
+        "Dubrovnik",
+        "Zagreb"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Šibenik",
+        "postalCode": "22000",
+        "addressCountry": "HR"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "142"
+      },
+      "priceRange": "€€",
+      "alternateName": "TAXI Antonio",
+      "@id": "https://taxisibenik.hr/#business",
+      "image": "https://taxisibenik.hr/assets/img/hero-bg.webp",
+      "paymentAccepted": "Contant, Creditcard",
+      "currenciesAccepted": "EUR",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 43.6956974,
+        "longitude": 15.7891511
+      },
+      "hasMap": "https://www.google.com/maps?cid=4748268601430744277",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "07:00",
+          "closes": "21:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "06:00",
+          "closes": "15:00"
+        }
+      ],
+      "sameAs": [
+        "https://web.facebook.com/profile.php?id=61579783829997",
+        "https://www.instagram.com/taxi_sibenik/",
+        "https://www.tiktok.com/@taxisibenik",
+        "https://www.tripadvisor.com/Attraction_Review-g295375-d24821165-Reviews-TAXI_Sibenik_Skradin_Antonio-Sibenik_Sibenik_Knin_County_Dalmatia.html",
+        "https://www.google.com/maps?cid=4748268601430744277"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Taxi- en transferservice",
+      "name": "Taxi Šibenik door TAXI Antonio",
+      "areaServed": {
+        "@type": "City",
+        "name": "Šibenik"
+      },
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Taxi- en transferservices",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Lokale taxiritten in Šibenik"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Luchthaventransfers"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Stadstransfers"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Hoteltransfers"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Dagtochten naar Krka en Plitvice"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hoe boek ik een taxi vanuit Šibenik?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bel +385 99 447 1013, stuur een bericht via WhatsApp of stuur een e-mail. Antonio heeft de ophaallocatie, de bestemming en de gewenste ophaal- of aankomsttijd nodig."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoe ver van tevoren moet ik boeken?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aanvragen op het laatste moment worden binnen de werktijden geaccepteerd, maar door van tevoren te boeken bent u zeker van beschikbaarheid."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wat betekent \"vaste prijs\"? Wat is inbegrepen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vaste prijzen zijn inclusief vervoer, brandstof, tol en hulp met de bagage. Geen verborgen kosten. Extra stops of lang wachten kunnen meer kosten, wat vooraf wordt gecommuniceerd."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Vraagt u een aanbetaling?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Het bevestigen van een boeking vereist een aanbetaling van 20% (minimaal 20 euro). Ritten met een prijs van 20 euro of lager moeten volledig vooraf worden betaald. Aanbetalingen kunnen worden gedaan via bankoverschrijving (SEPA) of kaart, waarbij het resterende bedrag op de dag van de transfer wordt voldaan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Accepteert u kaartbetalingen in de auto?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, kaarten en andere contactloze betaalmethoden worden geaccepteerd."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Haalt u ook op bij het ziekenhuis in Šibenik?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Antonio brengt passagiers van en naar het Algemeen Ziekenhuis van Šibenik en mag het ziekenhuisterrein oprijden, zodat er geen lange wandeling vanaf een parkeerplaats nodig is."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kunt u mij naar de veerboot naar de eilanden brengen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Antonio zet u af en haalt u op bij de veerboot- en catamaranhaven van Šibenik voor Zlarin, Prvić, Kaprije en Žirje, en de boot naar Obonjan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Haalt u op bij hotels in Šibenik, het bus- en treinstation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Antonio bedient alle lokale hotels, het busstation, de treinstations van Šibenik en Perković en de veerboothaven, met hulp bij de bagage en een naambordje op verzoek."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wat als mijn vlucht vertraging heeft?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vluchtaankomsten worden in realtime gevolgd en de ophaaltijd wordt automatisch aangepast, zonder extra kosten."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wat gebeurt er als ik moet annuleren?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Annuleringen moeten schriftelijk per e-mail worden gedaan. Meer dan 72 uur voor de boeking geldt een volledige terugbetaling bij bankoverschrijving, of een volledige terugbetaling minus 10 euro administratiekosten bij kaart. Annuleringen binnen 72 uur, of niet komen opdagen, komen niet in aanmerking voor terugbetaling. Verzetten is op elk moment gratis."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kunt u een grotere groep vervoeren?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "De Škoda Superb biedt plaats aan maximaal 4 passagiers. Voor grotere groepen kunnen regelingen worden getroffen via lokale, zorgvuldig geselecteerde partners."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Biedt u kinderzitjes aan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, kinderzitjes en zitverhogers zijn op verzoek beschikbaar."
+          }
+        }
+      ]
+    }
+  ]
+}
