@@ -12,14 +12,24 @@ adapting the referenced source files, then `python build.py` and verify.
    config files, Options -Indexes. SKIP the taxisibenik redirect map; this
    domain needs its own (old taxisibenik.hr/taxi-skradin URLs already 301
    here from the taxisibenik side).
-2. **Admin hardening** - `admin/` here is still the old open folder.
-   a) Rename to a NEW secret path (do not reuse `manage-k29q7x`).
-   b) Port `manage-k29q7x/auth.php` (HTTP Basic Auth gate, salted SHA-256
-      via config keys `admin_user`, `admin_pass_salt`, `admin_pass_sha256`).
-   c) Port `manage-k29q7x/.htaccess` (Authorization passthrough, -Indexes,
-      X-Robots-Tag noindex).
-   d) Update `config.sample.php` keys to the salt/hash scheme.
-   e) Port the "Add to Google Calendar" buttons in `booking.php`.
+2. **Admin: SHARED, not ported (owner decision 2026-07-15).** Both domains
+   will live on the SAME cPanel account and share ONE database and ONE
+   admin panel (the one at taxisibenik.hr/manage-k29q7x/). Therefore:
+   a) DELETE the `admin/` folder here entirely; this site gets no admin.
+   b) `config.php` here points at the SAME DB as taxisibenik
+      (db name `taxisibenik-code`, user `antonio-code`).
+   c) Add a `site` column to the shared tables (run once, in phpMyAdmin):
+      `ALTER TABLE bookings ADD COLUMN site VARCHAR(10) NOT NULL DEFAULT 'sibenik' AFTER id;`
+      `ALTER TABLE offers ADD COLUMN site VARCHAR(10) NOT NULL DEFAULT 'sibenik' AFTER id;`
+      (offers also accepts 'both'.)
+   d) `booking-submit.php` HERE stamps site='skradin'; on taxisibenik it
+      stamps site='sibenik'. `offers-api.php` on each site filters
+      WHERE site IN (<own site>, 'both').
+   e) The taxisibenik admin gets a site badge + filter on bookings and a
+      "show on" (sibenik/skradin/both) field on offers. Those edits happen
+      in C:\Users\sakic\taxisibenik-code, not here.
+   f) Emails: mail_from here stays noreply@taxiskradin.hr so customers see
+      the domain they booked on; notifications go to the same inbox.
 3. **`schema.sql`** - add `dropoff_details VARCHAR(120) NULL AFTER flight`
    (booking-submit.php writes it; fresh installs fail without it). Then
    `bookings-add-dropoff-details.sql` becomes redundant.
