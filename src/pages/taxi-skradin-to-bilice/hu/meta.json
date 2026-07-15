@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-skradin-bilice",
+  "title": "Taxi Skradin - Bilice | Fix ár €40 | TAXI Antonio",
+  "description": "Privát taxi és transzfer, Skradin - Bilice. Fix ár €40 járművenként, max. 4 utas, háztól házig. Foglaljon közvetlenül Antoniónál.",
+  "keywords": "taxi skradin - bilice, transzfer skradin - bilice, reptéri transzfer skradin - bilice",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privát taxitranszfer",
+      "name": "Taxi Skradin - Bilice",
+      "description": "Privát taxi és transzfer fix áron, Skradin - Bilice, 40 euró járművenként max. 4 utasra, háztól házig.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Bilice"
+      ],
+      "url": "https://taxiskradin.hr/hu/taxi-skradin-bilice/",
+      "offers": {
+        "@type": "Offer",
+        "price": "40",
+        "priceCurrency": "EUR",
+        "description": "Privát egyirányú út, Skradin - Bilice, járművenként max. 4 utasra. Oda-vissza 80 euró."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Milyen hosszú az útvonal és mennyi ideig tart az út?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Skradin - Bilice útvonalon az út körülbelül 17 km, és normál forgalomban nagyjából 20 min alatt tart, a nyári csúcsidőben kicsit tovább. A felvételt úgy tervezem, hogy egy lassabb szakasz soha ne siettesse Önt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mennyibe kerül egy taxi a Skradin - Bilice útvonalon?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fix 40 járművenként max. 4 utasra, egy irány, csomag beleértve. Az oda-vissza út 80."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hol vesz fel engem?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A pontos címén, legyen az ház, hotel vagy apartman. Küldje el a címet a foglaláskor, és megerősítem a találkozási pontot."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mennyivel korábban foglaljak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Legalább 2 órával korábban, hogy megerősítsem a járművet és a felvétel idejét. Gyors útért hívjon vagy írjon WhatsApp-on."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-knin-to-skradin",
+  "title": "Taxi Knin to Skradin | Fixed €95 Transfer | TAXI Antonio",
+  "description": "Private taxi and transfer from Knin to Skradin. Fixed €95 per car, up to 4 passengers, door to door. Book direct with Antonio.",
+  "keywords": "taxi knin to skradin, transfer knin to skradin, knin to skradin taxi, knin to skradin transfer",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Private taxi transfer",
+      "name": "Taxi Knin to Skradin",
+      "description": "Private, fixed-price taxi and transfer from Knin to Skradin, 95 euros per car for up to 4 passengers, door to door.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Knin",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/taxi-knin-to-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "95",
+        "priceCurrency": "EUR",
+        "description": "One-way private transfer from Knin to Skradin, per car for up to 4 passengers. Return 190 euros."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How far is Skradin from Knin, and how long is the drive?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The drive from Knin to Skradin is around 50 km and takes roughly 60 min in normal traffic, a little longer at busy times in summer. I plan the pickup so a slow patch never leaves you rushed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much is a taxi from Knin to Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fixed 95 per car for up to 4 passengers, one way, luggage included. A return trip is 190."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where do you pick up?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At your exact address in Knin, whether a home, hotel or apartment. Send the address when you book and I will confirm the meeting point."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How far in advance should I book?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At least 2 hours ahead so I can confirm the car and your pickup time. For a sooner ride, call or WhatsApp me directly."
+          }
+        }
+      ]
+    }
+  ]
+}

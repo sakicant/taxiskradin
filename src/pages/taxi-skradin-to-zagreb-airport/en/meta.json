@@ -1,0 +1,97 @@
+{
+  "slug": "taxi-skradin-to-zagreb-airport",
+  "title": "Taxi Skradin to Zagreb Airport | Fixed €485 Transfer | TAXI Antonio",
+  "description": "Private taxi and transfer from Skradin to Zagreb Airport. Fixed €485 per car, up to 4 passengers, door to door. Book direct with Antonio.",
+  "keywords": "taxi skradin to zagreb airport, transfer skradin to zagreb airport, skradin to zagreb airport taxi, skradin to zagreb airport transfer",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Private taxi transfer",
+      "name": "Taxi Skradin to Zagreb Airport",
+      "description": "Private, fixed-price taxi and transfer from Skradin to Zagreb Airport, 485 euros per car for up to 4 passengers, door to door.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Zagreb Airport"
+      ],
+      "url": "https://taxiskradin.hr/taxi-skradin-to-zagreb-airport/",
+      "offers": {
+        "@type": "Offer",
+        "price": "485",
+        "priceCurrency": "EUR",
+        "description": "One-way private transfer from Skradin to Zagreb Airport, per car for up to 4 passengers. Return 970 euros."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How far is Zagreb Airport from Skradin, and how long is the drive?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The drive from Skradin to Zagreb Airport is around 338 km and takes roughly 3 h 40 min in normal traffic, a little longer at busy times in summer. I plan the pickup so a slow patch never leaves you rushed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much is a taxi from Skradin to Zagreb Airport?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fixed 485 per car, one way, for up to 4 passengers. The price is per vehicle, not per person, and includes tolls, fuel and luggage. A return trip is 970."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What time should I leave Skradin for my flight?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "As a rule, about 3 hours before an international flight and 2 hours before a domestic one. Tell me your flight time and I will confirm the exact pickup."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you drop us right at the departures terminal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. I take you straight to the departures drop-off at Zagreb Airport and help with your luggage. No parking walk, no shuttle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you drop off at the private jet terminal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. As well as the main commercial terminal, I serve the private and general-aviation terminal used for private jets and charter flights. Tell me your terminal when you book and I take you to the right entrance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How far in advance should I book?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At least 2 hours ahead so I can confirm the car and your pickup, and earlier for early-morning flights and high season. For a sooner ride, call or WhatsApp me directly."
+          }
+        }
+      ]
+    }
+  ]
+}

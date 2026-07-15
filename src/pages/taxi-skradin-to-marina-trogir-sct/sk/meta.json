@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-skradin-marina-trogir-sct",
+  "title": "Taxi Skradin - Marina Trogir (SCT) | Pevná cena €115 | TAXI Antonio",
+  "description": "Súkromné taxi a transfer, Skradin - Marina Trogir (SCT). Pevná cena €115 za vozidlo, max. 4 cestujúci, od dverí k dverám. Rezervujte priamo u Antonia.",
+  "keywords": "taxi skradin - marina trogir (sct), transfer skradin - marina trogir (sct), letiskový transfer skradin - marina trogir (sct)",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Súkromný taxi transfer",
+      "name": "Taxi Skradin - Marina Trogir (SCT)",
+      "description": "Súkromné taxi a transfer za pevnú cenu, Skradin - Marina Trogir (SCT), 115 eur za vozidlo pre max. 4 cestujúcich, od dverí k dverám.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Marina Trogir (SCT)"
+      ],
+      "url": "https://taxiskradin.hr/sk/taxi-skradin-marina-trogir-sct/",
+      "offers": {
+        "@type": "Offer",
+        "price": "115",
+        "priceCurrency": "EUR",
+        "description": "Súkromná jednosmerná jazda, Skradin - Marina Trogir (SCT), za vozidlo pre max. 4 cestujúcich. Spiatočne 230 eur."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Koľko stojí transfer na trase Skradin - Marina Trogir (SCT)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pevných 115 za vozidlo pre max. 4 cestujúcich, jednosmerne, s mýtom, palivom a batožinou. Spiatočná cesta stojí 230."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Môžete ma vyzdvihnúť priamo pri maríne?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Áno. Čakám vás pri vstupe do maríny alebo na recepcii a pomôžem s batožinou, aby ste sa z pontónu dostali rovno do vozidla."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Viete transfer načasovať podľa mojej lode?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Áno. Pošlite mi čas charteru, check-inu alebo odchodu pri rezervácii a podľa toho naplánujem vyzdvihnutie."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "S akým predstihom mám rezervovať?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aspoň 2 hodiny vopred, aby som potvrdil vozidlo a čas vyzdvihnutia. Pre rýchlu jazdu zavolajte alebo napíšte na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "taksi-skradin-bilo",
+  "title": "Taksi Skradin - Bilo | Fiksna cena €85 | TAXI Antonio",
+  "description": "Taksi in zasebni prevoz, relacija Skradin - Bilo. Fiksna cena €85 na vozilo, do 4 potnike, od vrat do vrat. Rezervirajte neposredno pri Antoniu.",
+  "keywords": "taksi skradin - bilo, prevoz skradin - bilo, letališki prevoz skradin - bilo",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Zasebni taksi prevoz",
+      "name": "Taksi Skradin - Bilo",
+      "description": "Taksi in zasebni prevoz po fiksni ceni, relacija Skradin - Bilo, 85 evrov na vozilo do 4 potnike, od vrat do vrat.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Bilo"
+      ],
+      "url": "https://taxiskradin.hr/sl/taksi-skradin-bilo/",
+      "offers": {
+        "@type": "Offer",
+        "price": "85",
+        "priceCurrency": "EUR",
+        "description": "Zasebna enosmerna vožnja, relacija Skradin - Bilo, na vozilo do 4 potnike. Povratno 170 evrov."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kako dolga je relacija in koliko traja vožnja?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vožnja na relaciji Skradin - Bilo je približno 45 km in traja okoli 45 min pri običajnem prometu, nekoliko dlje v poletni konici. Prevzem načrtujem tako, da vas počasnejši odsek nikoli ne priganja."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Koliko stane taksi na relaciji Skradin - Bilo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fiksno 85 na vozilo do 4 potnike, enosmerno, prtljaga vključena. Povratna vožnja je 170."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kje me poberete?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Na vašem točnem naslovu, naj bo to hiša, hotel ali apartma. Pošljite naslov ob rezervaciji in potrdim mesto srečanja."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kako dolgo vnaprej rezervirati?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vsaj 2 uri prej, da potrdim vozilo in uro prevzema. Za hitro vožnjo pokličite ali pišite na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

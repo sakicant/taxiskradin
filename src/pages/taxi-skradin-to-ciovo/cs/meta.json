@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-skradin-ciovo",
+  "title": "Taxi Skradin - Čiovo | Pevná cena €115 | TAXI Antonio",
+  "description": "Taxi a soukromý transfer, trasa Skradin - Čiovo. Pevná cena €115 za vozidlo, až 4 cestující, ode dveří ke dveřím. Rezervujte přímo u Antonia.",
+  "keywords": "taxi skradin - čiovo, transfer skradin - čiovo, letištní transfer skradin - čiovo",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Soukromý taxi transfer",
+      "name": "Taxi Skradin - Čiovo",
+      "description": "Taxi a soukromý transfer za pevnou cenu, trasa Skradin - Čiovo, 115 eur za vozidlo až pro 4 cestující, ode dveří ke dveřím.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Čiovo"
+      ],
+      "url": "https://taxiskradin.hr/cs/taxi-skradin-ciovo/",
+      "offers": {
+        "@type": "Offer",
+        "price": "115",
+        "priceCurrency": "EUR",
+        "description": "Soukromá jednosměrná jízda, trasa Skradin - Čiovo, za vozidlo až pro 4 cestující. Zpáteční 230 eur."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kolik stojí taxi na trase Skradin - Čiovo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pevně 115 za vozidlo až pro 4 cestující, jednosměrná, zavazadla v ceně. Zpáteční jízda je 230."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kde mě vyzvednete?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "U vaší přesné adresy, ať jde o dům, hotel nebo apartmán. Pošlete adresu při rezervaci a potvrdím místo setkání."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "S jakým předstihem rezervovat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Alespoň 2 hodiny předem, abych potvrdil vozidlo a čas vyzvednutí. Pro rychlou jízdu zavolejte nebo napište na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

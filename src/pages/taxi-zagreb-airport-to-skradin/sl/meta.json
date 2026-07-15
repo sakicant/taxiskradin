@@ -1,0 +1,97 @@
+{
+  "slug": "taksi-letalisce-zagreb-skradin",
+  "title": "Taksi Letališče Zagreb - Skradin | Fiksna cena €485 | TAXI Antonio",
+  "description": "Taksi in zasebni prevoz, relacija Letališče Zagreb - Skradin. Fiksna cena €485 na vozilo, do 4. Rezervirajte pri Antoniu.",
+  "keywords": "taksi letališče zagreb - skradin, prevoz letališče zagreb - skradin, letališki prevoz letališče zagreb - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Zasebni taksi prevoz",
+      "name": "Taksi Letališče Zagreb - Skradin",
+      "description": "Taksi in zasebni prevoz po fiksni ceni, relacija Letališče Zagreb - Skradin, 485 evrov na vozilo do 4 potnike, od vrat do vrat.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Letališče Zagreb",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/sl/taksi-letalisce-zagreb-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "485",
+        "priceCurrency": "EUR",
+        "description": "Zasebna enosmerna vožnja, relacija Letališče Zagreb - Skradin, na vozilo do 4 potnike. Povratno 970 evrov."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kako dolga je relacija in koliko traja vožnja?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vožnja na relaciji Letališče Zagreb - Skradin je približno 338 km in traja okoli 3 h 35 min pri običajnem prometu, nekoliko dlje v poletni konici. Prevzem načrtujem tako, da vas počasnejši odsek nikoli ne priganja."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kje me pričakate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "V prihodni dvorani, takoj za prevzemom prtljage, s tablico z vašim imenom. Pomagam s prtljago in vas pospremim do vozila."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kaj če ima moj let zamudo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Brez težav. Vaš let spremljam v realnem času in prevzem prilagodim dejanskemu pristanku, brez pribitka za čakanje."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Me poberete tudi na terminalu za zasebno letalstvo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Da. Prihode pričakam tako na komercialnem terminalu kot na terminalu za zasebno in splošno letalstvo, ki se uporablja za zasebna letala in čarterske lete. Ob rezervaciji mi le povejte svoj terminal ali FBO."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Koliko stane prevoz na relaciji Letališče Zagreb - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fiksno 485 na vozilo do 4 potnike, enosmerno, cestnine in prtljaga vključeni. Povratna vožnja je 970."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kako dolgo vnaprej rezervirati?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vsaj 2 uri prej, da načrtujem glede na vaš let. Za prevzem isti dan po nenadni spremembi pokličite ali pišite na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

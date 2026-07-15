@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-skradin-marina-frapa",
+  "title": "Taxi Skradin - Marina Frapa | Prezzo fisso €90 | TAXI Antonio",
+  "description": "Taxi e transfer privato, tratta Skradin - Marina Frapa. Prezzo fisso €90 per veicolo, fino a 4. Prenota con Antonio.",
+  "keywords": "taxi skradin - marina frapa, transfer skradin - marina frapa, transfer aeroporto skradin - marina frapa",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Transfer taxi privato",
+      "name": "Taxi Skradin - Marina Frapa",
+      "description": "Taxi e transfer privato a prezzo fisso, tratta Skradin - Marina Frapa, 90 euro per veicolo fino a 4 passeggeri, porta a porta.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Marina Frapa"
+      ],
+      "url": "https://taxiskradin.hr/it/taxi-skradin-marina-frapa/",
+      "offers": {
+        "@type": "Offer",
+        "price": "90",
+        "priceCurrency": "EUR",
+        "description": "Corsa privata di sola andata, tratta Skradin - Marina Frapa, per veicolo fino a 4 passeggeri. Andata e ritorno 180 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quanto costa un transfer da Skradin a Marina Frapa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fisso 90 per veicolo, fino a 4 passeggeri, solo andata, con pedaggi, carburante e bagagli inclusi. Andata e ritorno 180."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Può venirmi a prendere direttamente alla marina?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sì. La incontro all'ingresso della marina o alla reception e L'aiuto con i bagagli, così passa direttamente dal pontile al veicolo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Può adattare il transfer agli orari della mia barca?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sì. Mi invii l'orario del charter, del check-in o della partenza al momento della prenotazione e pianifico il ritiro di conseguenza."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Con quanto anticipo devo prenotare?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Almeno 2 ore prima, così confermo il veicolo e l'orario di ritiro. Per una corsa prima, mi chiami o mi scriva su WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

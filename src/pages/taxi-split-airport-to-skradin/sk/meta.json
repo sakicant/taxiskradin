@@ -1,0 +1,97 @@
+{
+  "slug": "taxi-letisko-split-skradin",
+  "title": "Taxi Letisko Split - Skradin | Pevná cena €110 | TAXI Antonio",
+  "description": "Súkromné taxi a transfer, Letisko Split - Skradin. Pevná cena €110 za vozidlo, max. 4 cestujúci, od dverí k dverám. Rezervujte priamo u Antonia.",
+  "keywords": "taxi letisko split - skradin, transfer letisko split - skradin, letiskový transfer letisko split - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Súkromný taxi transfer",
+      "name": "Taxi Letisko Split - Skradin",
+      "description": "Súkromné taxi a transfer za pevnú cenu, Letisko Split - Skradin, 110 eur za vozidlo pre max. 4 cestujúcich, od dverí k dverám.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Letisko Split",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/sk/taxi-letisko-split-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "110",
+        "priceCurrency": "EUR",
+        "description": "Súkromná jednosmerná jazda, Letisko Split - Skradin, za vozidlo pre max. 4 cestujúcich. Spiatočne 220 eur."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Aká dlhá je trasa a ako dlho trvá cesta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Na trase Letisko Split - Skradin je cesta približne 63 km a za bežnej premávky trvá zhruba 55 min, v letnej špičke o niečo dlhšie. Vyzdvihnutie plánujem tak, aby Vás pomalší úsek nikdy netlačil do času."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kde ma privítate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "V príletovej hale, hneď po výdaji batožiny, s tabuľkou s menom. Pomôžem s batožinou a odprevadím Vás k vozidlu."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Čo ak môj let mešká?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Žiadny problém. Váš let sledujem v reálnom čase a vyzdvihnutie prispôsobím skutočnému pristátiu, bez príplatku za čakanie."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Vyzdvihnete ma aj z terminálu súkromného letectva?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Áno. Prílety vyzdvihujem na komerčnom termináli aj na termináli súkromného a všeobecného letectva, ktorý slúži pre súkromné lietadlá a charterové lety. Pri rezervácii mi stačí povedať svoj terminál alebo FBO."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Koľko stojí transfer na trase Letisko Split - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pevných 110 za vozidlo pre max. 4 cestujúcich, jednosmerne, mýto a batožina v cene. Spiatočná cesta stojí 220."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "S akým predstihom mám rezervovať?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aspoň 2 hodiny vopred, aby som ho prispôsobil Vášmu letu. Pre vyzdvihnutie v ten istý deň po náhlej zmene zavolajte alebo napíšte na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

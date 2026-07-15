@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-seget-skradin",
+  "title": "Taxi Seget - Skradin | Fix ár €100 | TAXI Antonio",
+  "description": "Privát taxi és transzfer, Seget - Skradin. Fix ár €100 járművenként, max. 4 utas, háztól házig. Foglaljon közvetlenül Antoniónál.",
+  "keywords": "taxi seget - skradin, transzfer seget - skradin, reptéri transzfer seget - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privát taxitranszfer",
+      "name": "Taxi Seget - Skradin",
+      "description": "Privát taxi és transzfer fix áron, Seget - Skradin, 100 euró járművenként max. 4 utasra, háztól házig.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Seget",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/hu/taxi-seget-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "100",
+        "priceCurrency": "EUR",
+        "description": "Privát egyirányú út, Seget - Skradin, járművenként max. 4 utasra. Oda-vissza 200 euró."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Mennyibe kerül egy taxi a Seget - Skradin útvonalon?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fix 100 járművenként max. 4 utasra, egy irány, csomag beleértve. Az oda-vissza út 200."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hol vesz fel engem?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A pontos címén, legyen az ház, hotel vagy apartman. Küldje el a címet a foglaláskor, és megerősítem a találkozási pontot."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mennyivel korábban foglaljak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Legalább 2 órával korábban, hogy megerősítsem a járművet és a felvétel idejét. Gyors útért hívjon vagy írjon WhatsApp-on."
+          }
+        }
+      ]
+    }
+  ]
+}

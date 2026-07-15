@@ -1,0 +1,97 @@
+{
+  "slug": "taxi-aeroport-split-skradin",
+  "title": "Taxi Aéroport de Split - Skradin | Prix fixe €110 | TAXI Antonio",
+  "description": "Taxi et transfert privé, trajet Aéroport de Split - Skradin. Prix fixe €110 par véhicule, jusqu'à 4. Réservez avec Antonio.",
+  "keywords": "taxi aéroport de split - skradin, transfert aéroport de split - skradin, transfert aéroport aéroport de split - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Transfert taxi privé",
+      "name": "Taxi Aéroport de Split - Skradin",
+      "description": "Taxi et transfert privé à prix fixe, trajet Aéroport de Split - Skradin, 110 euros par véhicule jusqu'à 4 passagers, porte à porte.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Aéroport de Split",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/fr/taxi-aeroport-split-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "110",
+        "priceCurrency": "EUR",
+        "description": "Trajet privé aller simple, trajet Aéroport de Split - Skradin, par véhicule jusqu'à 4 passagers. Aller-retour 220 euros."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quelle est la distance du trajet et combien de temps dure-t-il ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le trajet Aéroport de Split - Skradin fait environ 63 km et dure à peu près 55 min en trafic normal, un peu plus aux heures de pointe en été. Je planifie la prise en charge pour qu'un tronçon plus lent ne vous mette jamais en retard."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Où m'accueillez-vous ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dans le hall des arrivées, juste après le retrait des bagages, avec une pancarte à votre nom. Je vous aide avec les bagages et vous accompagne au véhicule."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Et si mon vol est retardé ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aucun problème. Je suis votre vol en temps réel et adapte la prise en charge à l'atterrissage réel, sans majoration pour l'attente."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Prenez-vous en charge au terminal de l'aviation privée ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui. J'accueille les arrivées aussi bien au terminal commercial qu'au terminal de l'aviation privée et générale, utilisé pour les jets privés et les vols charter. Indiquez-moi simplement votre terminal à la réservation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Combien coûte le transfert sur le trajet Aéroport de Split - Skradin ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "110 fixe par véhicule jusqu'à 4 passagers, aller simple, péages et bagages inclus. Un aller-retour coûte 220."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Combien de temps à l'avance réserver ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Au moins 2 heures avant, pour que je planifie selon votre vol. Pour une prise en charge le jour même après un changement soudain, appelez-moi ou écrivez-moi sur WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

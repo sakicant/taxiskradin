@@ -1,0 +1,89 @@
+{
+  "slug": "taxi-dubrovnik-skradin",
+  "title": "Taksi Dubrovnik - Skradin | Fiksna cijena €485 | TAXI Antonio",
+  "description": "Privatni taksi i transfer, relacija Dubrovnik - Skradin. Fiksno €485 po vozilu, do 4 putnika, od vrata do vrata. Rezervirajte izravno kod Antonija.",
+  "keywords": "taksi dubrovnik - skradin, transfer dubrovnik - skradin, prijevoz dubrovnik - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privatni taksi transfer",
+      "name": "Taksi Dubrovnik - Skradin",
+      "description": "Privatni taksi i transfer po fiksnoj cijeni, relacija Dubrovnik - Skradin, 485 eura po vozilu za do 4 putnika, od vrata do vrata.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Dubrovnik",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/hr/taksi-dubrovnik-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "485",
+        "priceCurrency": "EUR",
+        "description": "Jednosmjerni privatni transfer, relacija Dubrovnik - Skradin, po vozilu za do 4 putnika. Povratno 970 eura."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kolika je udaljenost i koliko traje vožnja?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vožnja na relaciji Dubrovnik - Skradin duga je oko 288 km i traje otprilike 3 h 45 min u uobičajenom prometu, nešto duže u ljetnim gužvama. Polazak planiram tako da vas usporeni dio nikad ne požuri."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Koliko košta taksi na relaciji Dubrovnik - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fiksno 485 po vozilu za do 4 putnika, jedan smjer, s cestarinama, gorivom i prtljagom. Povratna vožnja je 970."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Je li transfer privatan ili dijeljen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Svaki je transfer privatan i od vrata do vrata, u Škodi Superb. Bez dijeljenja vozila i bez dodatnih zaustavljanja osim ako ih zatražite."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Možete li stati usput?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Da. Na duljim rutama rado stanem za kavu, fotografiju ili kratku znamenitost. Samo javite pri rezervaciji."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Koliko unaprijed trebam rezervirati?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Barem 2 sata unaprijed da potvrdim vozilo i vrijeme preuzimanja. Za brži termin nazovite ili pišite na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

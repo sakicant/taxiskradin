@@ -1,0 +1,89 @@
+{
+  "slug": "taxi-skradin-to-trogir",
+  "title": "Taxi Skradin to Trogir | Fixed €100 Transfer | TAXI Antonio",
+  "description": "Private taxi and transfer from Skradin to Trogir. Fixed €100 per car, up to 4 passengers, door to door. Book direct with Antonio.",
+  "keywords": "taxi skradin to trogir, transfer skradin to trogir, skradin to trogir taxi, skradin to trogir transfer",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Private taxi transfer",
+      "name": "Taxi Skradin to Trogir",
+      "description": "Private, fixed-price taxi and transfer from Skradin to Trogir, 100 euros per car for up to 4 passengers, door to door.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Trogir"
+      ],
+      "url": "https://taxiskradin.hr/taxi-skradin-to-trogir/",
+      "offers": {
+        "@type": "Offer",
+        "price": "100",
+        "priceCurrency": "EUR",
+        "description": "One-way private transfer from Skradin to Trogir, per car for up to 4 passengers. Return 200 euros."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How far is Trogir from Skradin, and how long is the drive?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The drive from Skradin to Trogir is around 65 km and takes roughly 60 min in normal traffic, a little longer at busy times in summer. I plan the pickup so a slow patch never leaves you rushed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much is a taxi from Skradin to Trogir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fixed 100 per car for up to 4 passengers, one way, with tolls, fuel and luggage included. A return trip is 200."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the transfer private or shared?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Every transfer is private and door to door, in a Škoda Superb. No vehicle sharing and no extra stops unless you ask for them."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you stop along the way?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. On the longer routes I am happy to stop for a coffee, a photo or a quick sight. Just let me know when booking."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How far in advance should I book?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At least 2 hours ahead so I can confirm the car and your pickup time. For a sooner ride, call or WhatsApp me directly."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-skradin-brodarica",
+  "title": "Taxi Skradin - Brodarica | Festpreis €55 | TAXI Antonio",
+  "description": "Privates Taxi und Transfer, Strecke Skradin - Brodarica. Festpreis €55 pro Fahrzeug, bis zu 4 Fahrgäste, Tür zu Tür. Direkt bei Antonio buchen.",
+  "keywords": "taxi skradin - brodarica, transfer skradin - brodarica, flughafentransfer skradin - brodarica",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privater Taxitransfer",
+      "name": "Taxi Skradin - Brodarica",
+      "description": "Privates Taxi und Transfer zum Festpreis, Strecke Skradin - Brodarica, 55 Euro pro Fahrzeug für bis zu 4 Fahrgäste, Tür zu Tür.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Brodarica"
+      ],
+      "url": "https://taxiskradin.hr/de/taxi-skradin-brodarica/",
+      "offers": {
+        "@type": "Offer",
+        "price": "55",
+        "priceCurrency": "EUR",
+        "description": "Einfache private Fahrt, Strecke Skradin - Brodarica, pro Fahrzeug für bis zu 4 Fahrgäste. Hin und zurück 110 Euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wie weit ist die Strecke und wie lange dauert die Fahrt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die Fahrt auf der Strecke Skradin - Brodarica ist rund 22 km lang und dauert etwa 25 min bei normalem Verkehr, in der Sommerhauptzeit etwas länger. Ich plane die Abholung so, dass eine langsame Strecke Sie nie in Eile bringt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie viel kostet ein Taxi auf der Strecke Skradin - Brodarica?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fest 55 pro Fahrzeug für bis zu 4 Fahrgäste, einfache Fahrt, Gepäck inklusive. Eine Hin- und Rückfahrt kostet 110."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wo holen Sie mich ab?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An Ihrer genauen Adresse, ob Haus, Hotel oder Apartment. Senden Sie die Adresse bei der Buchung und ich bestätige den Treffpunkt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie weit im Voraus sollte ich buchen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mindestens 2 Stunden vorher, damit ich Fahrzeug und Abholzeit bestätigen kann. Für eine kurzfristige Fahrt rufen Sie an oder schreiben auf WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-skradin-marina-tribunj",
+  "title": "Taxi Skradin - Marina Tribunj | Vaste prijs €60 | TAXI Antonio",
+  "description": "Taxi en privétransfer, traject Skradin - Marina Tribunj. Vaste prijs €60 per voertuig, tot 4 passagiers, van deur tot deur. Boek rechtstreeks bij Antonio.",
+  "keywords": "taxi skradin - marina tribunj, transfer skradin - marina tribunj, luchthaventransfer skradin - marina tribunj",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privé taxitransfer",
+      "name": "Taxi Skradin - Marina Tribunj",
+      "description": "Taxi en privétransfer tegen vaste prijs, traject Skradin - Marina Tribunj, 60 euro per voertuig tot 4 passagiers, van deur tot deur.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Marina Tribunj"
+      ],
+      "url": "https://taxiskradin.hr/nl/taxi-skradin-marina-tribunj/",
+      "offers": {
+        "@type": "Offer",
+        "price": "60",
+        "priceCurrency": "EUR",
+        "description": "Privérit enkele reis, traject Skradin - Marina Tribunj, per voertuig tot 4 passagiers. Retour 120 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hoeveel kost een transfer van Skradin naar Marina Tribunj?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vast 60 per voertuig tot 4 passagiers, enkele reis, met tol, brandstof en bagage inbegrepen. Een retour kost 120."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kunt u me recht bij de marina ophalen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Ik ontmoet u bij de ingang of receptie van de marina en help met uw bagage, zodat u recht van de steiger naar het voertuig gaat."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kunt u de transfer op mijn boot afstemmen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Stuur me uw charter-, check-in- of vertrektijd bij de reservering en ik plan het ophalen daaromheen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoe ver van tevoren reserveren?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minstens 2 uur van tevoren, zodat ik het voertuig en de ophaaltijd kan bevestigen. Voor een snellere rit belt u of schrijft u me rechtstreeks op WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

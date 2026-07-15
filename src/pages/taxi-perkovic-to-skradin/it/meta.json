@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-perkovic-skradin",
+  "title": "Taxi Perković - Skradin | Prezzo fisso €60 | TAXI Antonio",
+  "description": "Taxi e transfer privato, tratta Perković - Skradin. Prezzo fisso €60 per veicolo, fino a 4. Prenota con Antonio.",
+  "keywords": "taxi perković - skradin, transfer perković - skradin, transfer aeroporto perković - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Transfer taxi privato",
+      "name": "Taxi Perković - Skradin",
+      "description": "Taxi e transfer privato a prezzo fisso, tratta Perković - Skradin, 60 euro per veicolo fino a 4 passeggeri, porta a porta.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Perković",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/it/taxi-perkovic-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "60",
+        "priceCurrency": "EUR",
+        "description": "Corsa privata di sola andata, tratta Perković - Skradin, per veicolo fino a 4 passeggeri. Andata e ritorno 120 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quanto è lunga la tratta e quanto dura il viaggio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Il viaggio sulla tratta Perković - Skradin è di circa 36 km e dura all'incirca 30 min con traffico normale, un po' di più nei periodi di punta estivi. Pianifico il ritiro in modo che un tratto lento non ti metta mai fretta."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quanto costa un taxi sulla tratta Perković - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fisso 60 per veicolo fino a 4 passeggeri, solo andata, bagagli inclusi. Andata e ritorno 120."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dove effettui il ritiro?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Al tuo indirizzo esatto, che sia casa, hotel o appartamento. Invia l'indirizzo alla prenotazione e confermo il punto d'incontro."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Con quanto anticipo devo prenotare?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Almeno 2 ore prima, così confermo veicolo e orario di ritiro. Per una corsa last minute chiamami o scrivimi su WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

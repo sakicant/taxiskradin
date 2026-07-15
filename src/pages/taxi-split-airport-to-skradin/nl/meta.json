@@ -1,0 +1,97 @@
+{
+  "slug": "taxi-luchthaven-split-skradin",
+  "title": "Taxi Luchthaven Split - Skradin | Vaste prijs €110 | TAXI Antonio",
+  "description": "Taxi en privétransfer, traject Luchthaven Split - Skradin. Vaste prijs €110 per voertuig, tot 4. Boek bij Antonio.",
+  "keywords": "taxi luchthaven split - skradin, transfer luchthaven split - skradin, luchthaventransfer luchthaven split - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privé taxitransfer",
+      "name": "Taxi Luchthaven Split - Skradin",
+      "description": "Taxi en privétransfer tegen vaste prijs, traject Luchthaven Split - Skradin, 110 euro per voertuig tot 4 passagiers, van deur tot deur.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Luchthaven Split",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/nl/taxi-luchthaven-split-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "110",
+        "priceCurrency": "EUR",
+        "description": "Privérit enkele reis, traject Luchthaven Split - Skradin, per voertuig tot 4 passagiers. Retour 220 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hoe lang is het traject en hoe lang duurt de rit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "De rit op het traject Luchthaven Split - Skradin is ongeveer 63 km en duurt ongeveer 55 min bij normaal verkeer, iets langer tijdens de zomerdrukte. Ik plan het ophalen zo dat een trager stukje u nooit onder druk zet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Waar ontvangt u me?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In de aankomsthal, meteen na het ophalen van de bagage, met een naambordje met uw naam. Ik help met de bagage en begeleid u naar het voertuig."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wat als mijn vlucht vertraging heeft?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Geen probleem. Ik volg uw vlucht in real time en pas het ophalen aan de werkelijke landing aan, zonder toeslag voor het wachten."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Haalt u me op bij de terminal voor privéluchtvaart?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Ik ontvang aankomende passagiers zowel bij de commerciële terminal als bij de terminal voor privé- en zakenluchtvaart die wordt gebruikt voor privéjets en charters. Geef bij het boeken gewoon uw terminal of FBO door."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoeveel kost de transfer op het traject Luchthaven Split - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vast 110 per voertuig tot 4 passagiers, enkele reis, tol en bagage inbegrepen. Een retour kost 220."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoe ver van tevoren reserveren?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minstens 2 uur van tevoren, zodat ik rond uw vlucht kan plannen. Voor een ophaalservice dezelfde dag na een plotselinge wijziging belt u of schrijft u me op WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

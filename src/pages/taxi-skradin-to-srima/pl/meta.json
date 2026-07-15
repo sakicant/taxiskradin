@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-skradin-srima",
+  "title": "Taxi Skradin - Srima | Stała cena €65 | TAXI Antonio",
+  "description": "Taxi i prywatny transfer, trasa Skradin - Srima. Stała cena €65 za pojazd, do 4 pasażerów, od drzwi do drzwi. Rezerwuj bezpośrednio u Antonio.",
+  "keywords": "taxi skradin - srima, transfer skradin - srima, transfer lotniskowy skradin - srima",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Prywatny transfer taxi",
+      "name": "Taxi Skradin - Srima",
+      "description": "Taxi i prywatny transfer w stałej cenie, trasa Skradin - Srima, 65 euro za pojazd do 4 pasażerów, od drzwi do drzwi.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Srima"
+      ],
+      "url": "https://taxiskradin.hr/pl/taxi-skradin-srima/",
+      "offers": {
+        "@type": "Offer",
+        "price": "65",
+        "priceCurrency": "EUR",
+        "description": "Prywatny przejazd w jedną stronę, trasa Skradin - Srima, za pojazd do 4 pasażerów. W obie strony 130 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Jak długa jest trasa i ile trwa przejazd?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Przejazd na trasie Skradin - Srima to około 27 km i trwa mniej więcej 35 min przy normalnym ruchu, nieco dłużej w szczycie sezonu latem. Planuję odbiór tak, żeby wolniejszy odcinek nigdy Cię nie poganiał."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ile kosztuje taxi na trasie Skradin - Srima?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stałe 65 za pojazd do 4 pasażerów, w jedną stronę, bagaż w cenie. W obie strony 130."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Skąd mnie odbierasz?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Spod Twojego dokładnego adresu, czy to dom, hotel czy apartament. Prześlij adres przy rezerwacji, a potwierdzę miejsce spotkania."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Z jakim wyprzedzeniem rezerwować?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Co najmniej 2 godziny wcześniej, żebym potwierdził pojazd i godzinę odbioru. Na szybki kurs zadzwoń lub napisz na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

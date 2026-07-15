@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-skradin-bilo",
+  "title": "Taxi Skradin - Bilo | Pevná cena €85 | TAXI Antonio",
+  "description": "Súkromné taxi a transfer, Skradin - Bilo. Pevná cena €85 za vozidlo, max. 4 cestujúci, od dverí k dverám. Rezervujte priamo u Antonia.",
+  "keywords": "taxi skradin - bilo, transfer skradin - bilo, letiskový transfer skradin - bilo",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Súkromný taxi transfer",
+      "name": "Taxi Skradin - Bilo",
+      "description": "Súkromné taxi a transfer za pevnú cenu, Skradin - Bilo, 85 eur za vozidlo pre max. 4 cestujúcich, od dverí k dverám.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Bilo"
+      ],
+      "url": "https://taxiskradin.hr/sk/taxi-skradin-bilo/",
+      "offers": {
+        "@type": "Offer",
+        "price": "85",
+        "priceCurrency": "EUR",
+        "description": "Súkromná jednosmerná jazda, Skradin - Bilo, za vozidlo pre max. 4 cestujúcich. Spiatočne 170 eur."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Aká dlhá je trasa a ako dlho trvá cesta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Na trase Skradin - Bilo je cesta približne 45 km a za bežnej premávky trvá zhruba 45 min, v letnej špičke o niečo dlhšie. Vyzdvihnutie plánujem tak, aby Vás pomalší úsek nikdy netlačil do času."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Koľko stojí taxi na trase Skradin - Bilo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pevných 85 za vozidlo pre max. 4 cestujúcich, jednosmerne, batožina v cene. Spiatočná cesta stojí 170."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kde ma vyzdvihnete?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Na Vašej presnej adrese, či je to dom, hotel alebo apartmán. Pošlite adresu pri rezervácii a potvrdím miesto stretnutia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "S akým predstihom mám rezervovať?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aspoň 2 hodiny vopred, aby som potvrdil vozidlo a čas vyzdvihnutia. Pre rýchlu jazdu zavolajte alebo napíšte na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

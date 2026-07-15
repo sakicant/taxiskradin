@@ -1,0 +1,81 @@
+{
+  "slug": "taksi-marina-frapa-skradin",
+  "title": "Taksi Marina Frapa - Skradin | Fiksna cena €90 | TAXI Antonio",
+  "description": "Taksi in zasebni prevoz, relacija Marina Frapa - Skradin. Fiksna cena €90 na vozilo, do 4 potnike, od vrat do vrat. Rezervirajte neposredno pri Antoniu.",
+  "keywords": "taksi marina frapa - skradin, prevoz marina frapa - skradin, letališki prevoz marina frapa - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Zasebni taksi prevoz",
+      "name": "Taksi Marina Frapa - Skradin",
+      "description": "Taksi in zasebni prevoz po fiksni ceni, relacija Marina Frapa - Skradin, 90 evrov na vozilo do 4 potnike, od vrat do vrat.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Marina Frapa",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/sl/taksi-marina-frapa-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "90",
+        "priceCurrency": "EUR",
+        "description": "Zasebna enosmerna vožnja, relacija Marina Frapa - Skradin, na vozilo do 4 potnike. Povratno 180 evrov."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Koliko stane prevoz na relaciji Marina Frapa - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fiksno 90 na vozilo, do 4 potnike, enosmerno, s cestninami, gorivom in prtljago. Povratna vožnja je 180."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Me lahko poberete kar v marini?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Da. Pričakam vas pri vhodu v marino ali na recepciji in pomagam s prtljago, tako da greste naravnost s pomola do vozila."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Lahko prevoz prilagodite moji plovbi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Da. Ob rezervaciji mi pošljite uro najema, prijave ali odhoda in prevzem načrtujem glede na to."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kako dolgo vnaprej rezervirati?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vsaj 2 uri prej, da potrdim vozilo in uro prevzema. Za hitrejšo vožnjo me pokličite ali pišite na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

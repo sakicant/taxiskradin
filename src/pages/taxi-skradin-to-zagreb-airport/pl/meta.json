@@ -1,0 +1,97 @@
+{
+  "slug": "taxi-skradin-lotnisko-zagreb",
+  "title": "Taxi Skradin - Lotnisko Zagreb | Stała cena €485 | TAXI Antonio",
+  "description": "Taxi i prywatny transfer, trasa Skradin - Lotnisko Zagreb. Stała cena €485 za pojazd, do 4 pasażerów, od drzwi do drzwi. Rezerwuj bezpośrednio u Antonio.",
+  "keywords": "taxi skradin - lotnisko zagreb, transfer skradin - lotnisko zagreb, transfer lotniskowy skradin - lotnisko zagreb",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Prywatny transfer taxi",
+      "name": "Taxi Skradin - Lotnisko Zagreb",
+      "description": "Taxi i prywatny transfer w stałej cenie, trasa Skradin - Lotnisko Zagreb, 485 euro za pojazd do 4 pasażerów, od drzwi do drzwi.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Lotnisko Zagreb"
+      ],
+      "url": "https://taxiskradin.hr/pl/taxi-skradin-lotnisko-zagreb/",
+      "offers": {
+        "@type": "Offer",
+        "price": "485",
+        "priceCurrency": "EUR",
+        "description": "Prywatny przejazd w jedną stronę, trasa Skradin - Lotnisko Zagreb, za pojazd do 4 pasażerów. W obie strony 970 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Jak długa jest trasa i ile trwa przejazd?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Przejazd na trasie Skradin - Lotnisko Zagreb to około 338 km i trwa mniej więcej 3 h 40 min przy normalnym ruchu, nieco dłużej w szczycie sezonu latem. Planuję odbiór tak, żeby wolniejszy odcinek nigdy Cię nie poganiał."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ile kosztuje taxi na trasie Skradin - Lotnisko Zagreb?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stałe 485 za pojazd, w jedną stronę, do 4 pasażerów. Cena jest za pojazd, nie za osobę, i obejmuje opłaty drogowe, paliwo i bagaż. W obie strony 970."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O której wyjechać na lot?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Zwykle około 3 godzin przed lotem międzynarodowym i 2 godzin przed krajowym. Podaj godzinę lotu, a potwierdzę dokładny odbiór."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Podwozisz pod sam terminal odlotów?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tak. Wiozę Cię prosto pod terminal odlotów i pomagam z bagażem. Bez spaceru z parkingu i bez shuttle busa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Podwozisz pod terminal prywatnych odrzutowców?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tak. Poza głównym terminalem komercyjnym obsługuję też terminal lotnictwa prywatnego i ogólnego, z którego korzystają prywatne odrzutowce i loty czarterowe. Podaj swój terminal przy rezerwacji, a zawiozę Cię pod właściwe wejście."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Z jakim wyprzedzeniem rezerwować?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Co najmniej 2 godziny wcześniej, żebym potwierdził pojazd i odbiór, a wcześniej dla porannych lotów i w sezonie. Na szybki kurs zadzwoń lub napisz na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

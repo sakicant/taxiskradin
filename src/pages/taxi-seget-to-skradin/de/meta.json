@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-seget-skradin",
+  "title": "Taxi Seget - Skradin | Festpreis €100 | TAXI Antonio",
+  "description": "Privates Taxi und Transfer, Strecke Seget - Skradin. Festpreis €100 pro Fahrzeug, bis zu 4 Fahrgäste, Tür zu Tür. Direkt bei Antonio buchen.",
+  "keywords": "taxi seget - skradin, transfer seget - skradin, flughafentransfer seget - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privater Taxitransfer",
+      "name": "Taxi Seget - Skradin",
+      "description": "Privates Taxi und Transfer zum Festpreis, Strecke Seget - Skradin, 100 Euro pro Fahrzeug für bis zu 4 Fahrgäste, Tür zu Tür.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Seget",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/de/taxi-seget-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "100",
+        "priceCurrency": "EUR",
+        "description": "Einfache private Fahrt, Strecke Seget - Skradin, pro Fahrzeug für bis zu 4 Fahrgäste. Hin und zurück 200 Euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wie viel kostet ein Taxi auf der Strecke Seget - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fest 100 pro Fahrzeug für bis zu 4 Fahrgäste, einfache Fahrt, Gepäck inklusive. Eine Hin- und Rückfahrt kostet 200."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wo holen Sie mich ab?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An Ihrer genauen Adresse, ob Haus, Hotel oder Apartment. Senden Sie die Adresse bei der Buchung und ich bestätige den Treffpunkt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie weit im Voraus sollte ich buchen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mindestens 2 Stunden vorher, damit ich Fahrzeug und Abholzeit bestätigen kann. Für eine kurzfristige Fahrt rufen Sie an oder schreiben auf WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-marina-betina-skradin",
+  "title": "Taxi Marina Betina - Skradin | Stała cena €75 | TAXI Antonio",
+  "description": "Taxi i prywatny transfer, trasa Marina Betina - Skradin. Stała cena €75 za pojazd, do 4 pasażerów, od drzwi do drzwi. Rezerwuj bezpośrednio u Antonio.",
+  "keywords": "taxi marina betina - skradin, transfer marina betina - skradin, transfer lotniskowy marina betina - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Prywatny transfer taxi",
+      "name": "Taxi Marina Betina - Skradin",
+      "description": "Taxi i prywatny transfer w stałej cenie, trasa Marina Betina - Skradin, 75 euro za pojazd do 4 pasażerów, od drzwi do drzwi.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Marina Betina",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/pl/taxi-marina-betina-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "75",
+        "priceCurrency": "EUR",
+        "description": "Prywatny przejazd w jedną stronę, trasa Marina Betina - Skradin, za pojazd do 4 pasażerów. W obie strony 150 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Ile kosztuje transfer na trasie Marina Betina - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stałe 75 za pojazd do 4 pasażerów, w jedną stronę, z opłatami drogowymi, paliwem i bagażem w cenie. W obie strony 150."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy odbiór jest możliwy prosto z mariny?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tak. Spotykam Pana/Panią przy wejściu do mariny lub w recepcji i pomagam z bagażem, żeby przejść prosto z pomostu do pojazdu."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy można dopasować transfer do mojego rejsu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tak. Proszę przesłać godzinę czarteru, zaokrętowania lub wypłynięcia przy rezerwacji, a zaplanuję odbiór pod nią."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Z jakim wyprzedzeniem rezerwować?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Co najmniej 2 godziny wcześniej, żebym potwierdził pojazd i godzinę odbioru. Na szybszy kurs zadzwoń lub napisz na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

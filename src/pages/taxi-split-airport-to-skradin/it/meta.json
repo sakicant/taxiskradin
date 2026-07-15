@@ -1,0 +1,97 @@
+{
+  "slug": "taxi-aeroporto-split-skradin",
+  "title": "Taxi Aeroporto di Split - Skradin | Prezzo fisso €110 | TAXI Antonio",
+  "description": "Taxi e transfer privato, tratta Aeroporto di Split - Skradin. Prezzo fisso €110 per veicolo, fino a 4. Prenota con Antonio.",
+  "keywords": "taxi aeroporto di split - skradin, transfer aeroporto di split - skradin, transfer aeroporto aeroporto di split - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Transfer taxi privato",
+      "name": "Taxi Aeroporto di Split - Skradin",
+      "description": "Taxi e transfer privato a prezzo fisso, tratta Aeroporto di Split - Skradin, 110 euro per veicolo fino a 4 passeggeri, porta a porta.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Aeroporto di Split",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/it/taxi-aeroporto-split-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "110",
+        "priceCurrency": "EUR",
+        "description": "Corsa privata di sola andata, tratta Aeroporto di Split - Skradin, per veicolo fino a 4 passeggeri. Andata e ritorno 220 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quanto è lunga la tratta e quanto dura il viaggio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Il viaggio sulla tratta Aeroporto di Split - Skradin è di circa 63 km e dura all'incirca 55 min con traffico normale, un po' di più nei periodi di punta estivi. Pianifico il ritiro in modo che un tratto lento non ti metta mai fretta."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dove mi accogli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nell'area arrivi, subito dopo il ritiro bagagli, con un cartello con il tuo nome. Ti aiuto con i bagagli e ti accompagno al veicolo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "E se il mio volo è in ritardo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nessun problema. Monitoro il tuo volo in tempo reale e adatto il ritiro all'atterraggio effettivo, senza sovrapprezzo per l'attesa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Effettui il ritiro anche al terminal dell'aviazione privata?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sì. Accolgo gli arrivi sia al terminal commerciale sia al terminal dell'aviazione privata e generale usato per jet privati e charter. Basta dirmi il tuo terminal o FBO alla prenotazione."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quanto costa il transfer sulla tratta Aeroporto di Split - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fisso 110 per veicolo fino a 4 passeggeri, solo andata, pedaggi e bagagli inclusi. Andata e ritorno 220."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Con quanto anticipo devo prenotare?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Almeno 2 ore prima, così pianifico in base al tuo volo. Per un ritiro in giornata dopo un cambio improvviso, chiamami o scrivimi su WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

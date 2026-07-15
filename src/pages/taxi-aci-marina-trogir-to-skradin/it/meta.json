@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-aci-marina-trogir-skradin",
+  "title": "Taxi ACI Marina Trogir - Skradin | Prezzo fisso €115 | TAXI Antonio",
+  "description": "Taxi e transfer privato, tratta ACI Marina Trogir - Skradin. Prezzo fisso €115 per veicolo, fino a 4. Prenota con Antonio.",
+  "keywords": "taxi aci marina trogir - skradin, transfer aci marina trogir - skradin, transfer aeroporto aci marina trogir - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Transfer taxi privato",
+      "name": "Taxi ACI Marina Trogir - Skradin",
+      "description": "Taxi e transfer privato a prezzo fisso, tratta ACI Marina Trogir - Skradin, 115 euro per veicolo fino a 4 passeggeri, porta a porta.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "ACI Marina Trogir",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/it/taxi-aci-marina-trogir-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "115",
+        "priceCurrency": "EUR",
+        "description": "Corsa privata di sola andata, tratta ACI Marina Trogir - Skradin, per veicolo fino a 4 passeggeri. Andata e ritorno 230 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quanto costa un transfer da ACI Marina Trogir a Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fisso 115 per veicolo, fino a 4 passeggeri, solo andata, con pedaggi, carburante e bagagli inclusi. Andata e ritorno 230."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Può venirmi a prendere direttamente alla marina?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sì. La incontro all'ingresso della marina o alla reception e L'aiuto con i bagagli, così passa direttamente dal pontile al veicolo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Può adattare il transfer agli orari della mia barca?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sì. Mi invii l'orario del charter, del check-in o della partenza al momento della prenotazione e pianifico il ritiro di conseguenza."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Con quanto anticipo devo prenotare?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Almeno 2 ore prima, così confermo il veicolo e l'orario di ritiro. Per una corsa prima, mi chiami o mi scriva su WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

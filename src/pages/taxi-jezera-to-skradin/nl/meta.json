@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-jezera-skradin",
+  "title": "Taxi Jezera - Skradin | Vaste prijs €70 | TAXI Antonio",
+  "description": "Taxi en privétransfer, traject Jezera - Skradin. Vaste prijs €70 per voertuig, tot 4 passagiers, van deur tot deur. Boek rechtstreeks bij Antonio.",
+  "keywords": "taxi jezera - skradin, transfer jezera - skradin, luchthaventransfer jezera - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privé taxitransfer",
+      "name": "Taxi Jezera - Skradin",
+      "description": "Taxi en privétransfer tegen vaste prijs, traject Jezera - Skradin, 70 euro per voertuig tot 4 passagiers, van deur tot deur.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Jezera",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/nl/taxi-jezera-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "70",
+        "priceCurrency": "EUR",
+        "description": "Privérit enkele reis, traject Jezera - Skradin, per voertuig tot 4 passagiers. Retour 140 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hoe lang is het traject en hoe lang duurt de rit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "De rit op het traject Jezera - Skradin is ongeveer 38 km en duurt ongeveer 40 min bij normaal verkeer, iets langer tijdens de zomerdrukte. Ik plan het ophalen zo dat een trager stukje u nooit onder druk zet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoeveel kost een taxi op het traject Jezera - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vast 70 per voertuig tot 4 passagiers, enkele reis, bagage inbegrepen. Een retour kost 140."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Waar haalt u me op?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aan uw exacte adres, of het nu een huis, hotel of appartement is. Stuur het adres bij de reservering en ik bevestig de ontmoetingsplek."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoe ver van tevoren reserveren?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minstens 2 uur van tevoren, zodat ik het voertuig en de ophaaltijd kan bevestigen. Voor een snelle rit belt u of schrijft u me op WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

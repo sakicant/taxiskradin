@@ -1,0 +1,89 @@
+{
+  "slug": "taxi-skradin-zadar",
+  "title": "Taxi Skradin - Zadar | Fix ár €130 | TAXI Antonio",
+  "description": "Privát taxi és transzfer, Skradin - Zadar. Fix ár €130 járművenként, max. 4 utas, háztól házig. Foglaljon közvetlenül Antoniónál.",
+  "keywords": "taxi skradin - zadar, transzfer skradin - zadar, reptéri transzfer skradin - zadar",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privát taxitranszfer",
+      "name": "Taxi Skradin - Zadar",
+      "description": "Privát taxi és transzfer fix áron, Skradin - Zadar, 130 euró járművenként max. 4 utasra, háztól házig.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Zadar"
+      ],
+      "url": "https://taxiskradin.hr/hu/taxi-skradin-zadar/",
+      "offers": {
+        "@type": "Offer",
+        "price": "130",
+        "priceCurrency": "EUR",
+        "description": "Privát egyirányú út, Skradin - Zadar, járművenként max. 4 utasra. Oda-vissza 260 euró."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Milyen hosszú az útvonal és mennyi ideig tart az út?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Skradin - Zadar útvonalon az út körülbelül 76 km, és normál forgalomban nagyjából 60 min alatt tart, a nyári csúcsidőben kicsit tovább. A felvételt úgy tervezem, hogy egy lassabb szakasz soha ne siettesse Önt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mennyibe kerül egy taxi a Skradin - Zadar útvonalon?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fix 130 járművenként max. 4 utasra, egy irány, útdíjjal, üzemanyaggal és csomaggal. Az oda-vissza út 260."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "A transzfer privát vagy közös?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minden transzfer privát és háztól házig szól, egy Škoda Superbben. Nincs jármű-megosztás és nincs extra megálló, hacsak nem kéri."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Megállhat útközben?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Igen. Hosszabb útvonalakon szívesen megállok egy kávéra, fotóra vagy egy rövid látnivalóra. Csak jelezze a foglaláskor."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mennyivel korábban foglaljak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Legalább 2 órával korábban, hogy megerősítsem a járművet és a felvétel idejét. Gyors útért hívjon vagy írjon WhatsApp-on."
+          }
+        }
+      ]
+    }
+  ]
+}

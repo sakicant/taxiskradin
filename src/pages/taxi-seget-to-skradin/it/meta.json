@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-seget-skradin",
+  "title": "Taxi Seget - Skradin | Prezzo fisso €100 | TAXI Antonio",
+  "description": "Taxi e transfer privato, tratta Seget - Skradin. Prezzo fisso €100 per veicolo, fino a 4 passeggeri, porta a porta. Prenota direttamente con Antonio.",
+  "keywords": "taxi seget - skradin, transfer seget - skradin, transfer aeroporto seget - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Transfer taxi privato",
+      "name": "Taxi Seget - Skradin",
+      "description": "Taxi e transfer privato a prezzo fisso, tratta Seget - Skradin, 100 euro per veicolo fino a 4 passeggeri, porta a porta.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Seget",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/it/taxi-seget-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "100",
+        "priceCurrency": "EUR",
+        "description": "Corsa privata di sola andata, tratta Seget - Skradin, per veicolo fino a 4 passeggeri. Andata e ritorno 200 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quanto costa un taxi sulla tratta Seget - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fisso 100 per veicolo fino a 4 passeggeri, solo andata, bagagli inclusi. Andata e ritorno 200."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dove effettui il ritiro?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Al tuo indirizzo esatto, che sia casa, hotel o appartamento. Invia l'indirizzo alla prenotazione e confermo il punto d'incontro."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Con quanto anticipo devo prenotare?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Almeno 2 ore prima, così confermo veicolo e orario di ritiro. Per una corsa last minute chiamami o scrivimi su WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

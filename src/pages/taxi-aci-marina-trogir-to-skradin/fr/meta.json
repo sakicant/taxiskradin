@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-aci-marina-trogir-skradin",
+  "title": "Taxi ACI Marina Trogir - Skradin | Prix fixe €115 | TAXI Antonio",
+  "description": "Taxi et transfert privé, trajet ACI Marina Trogir - Skradin. Prix fixe €115 par véhicule, jusqu'à 4. Réservez avec Antonio.",
+  "keywords": "taxi aci marina trogir - skradin, transfert aci marina trogir - skradin, transfert aéroport aci marina trogir - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Transfert taxi privé",
+      "name": "Taxi ACI Marina Trogir - Skradin",
+      "description": "Taxi et transfert privé à prix fixe, trajet ACI Marina Trogir - Skradin, 115 euros par véhicule jusqu'à 4 passagers, porte à porte.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "ACI Marina Trogir",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/fr/taxi-aci-marina-trogir-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "115",
+        "priceCurrency": "EUR",
+        "description": "Trajet privé aller simple, trajet ACI Marina Trogir - Skradin, par véhicule jusqu'à 4 passagers. Aller-retour 230 euros."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Combien coûte un transfert sur le trajet ACI Marina Trogir - Skradin ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "115 fixe par véhicule jusqu'à 4 passagers, aller simple, avec péages, carburant et bagages inclus. Un aller-retour coûte 230."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pouvez-vous me prendre en charge directement à la marina ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui. Je vous retrouve à l'entrée de la marina ou à la réception et vous aide avec les bagages, pour aller directement du ponton au véhicule."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pouvez-vous caler le transfert sur mon bateau ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui. Envoyez-moi l'heure de votre charter, de votre enregistrement ou de votre départ à la réservation et je planifie la prise en charge autour."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Combien de temps à l'avance réserver ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Au moins 2 heures avant, pour que je confirme le véhicule et votre heure de prise en charge. Pour un trajet plus rapproché, appelez-moi ou écrivez-moi sur WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

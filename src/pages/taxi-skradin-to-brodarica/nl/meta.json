@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-skradin-brodarica",
+  "title": "Taxi Skradin - Brodarica | Vaste prijs €55 | TAXI Antonio",
+  "description": "Taxi en privétransfer, traject Skradin - Brodarica. Vaste prijs €55 per voertuig, tot 4 passagiers, van deur tot deur. Boek rechtstreeks bij Antonio.",
+  "keywords": "taxi skradin - brodarica, transfer skradin - brodarica, luchthaventransfer skradin - brodarica",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privé taxitransfer",
+      "name": "Taxi Skradin - Brodarica",
+      "description": "Taxi en privétransfer tegen vaste prijs, traject Skradin - Brodarica, 55 euro per voertuig tot 4 passagiers, van deur tot deur.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Brodarica"
+      ],
+      "url": "https://taxiskradin.hr/nl/taxi-skradin-brodarica/",
+      "offers": {
+        "@type": "Offer",
+        "price": "55",
+        "priceCurrency": "EUR",
+        "description": "Privérit enkele reis, traject Skradin - Brodarica, per voertuig tot 4 passagiers. Retour 110 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hoe lang is het traject en hoe lang duurt de rit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "De rit op het traject Skradin - Brodarica is ongeveer 22 km en duurt ongeveer 25 min bij normaal verkeer, iets langer tijdens de zomerdrukte. Ik plan het ophalen zo dat een trager stukje u nooit onder druk zet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoeveel kost een taxi op het traject Skradin - Brodarica?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vast 55 per voertuig tot 4 passagiers, enkele reis, bagage inbegrepen. Een retour kost 110."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Waar haalt u me op?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aan uw exacte adres, of het nu een huis, hotel of appartement is. Stuur het adres bij de reservering en ik bevestig de ontmoetingsplek."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoe ver van tevoren reserveren?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minstens 2 uur van tevoren, zodat ik het voertuig en de ophaaltijd kan bevestigen. Voor een snelle rit belt u of schrijft u me op WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

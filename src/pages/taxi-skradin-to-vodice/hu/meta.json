@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-skradin-vodice",
+  "title": "Taxi Skradin - Vodice | Fix ár €60 | TAXI Antonio",
+  "description": "Privát taxi és transzfer, Skradin - Vodice. Fix ár €60 járművenként, max. 4 utas, háztól házig. Foglaljon közvetlenül Antoniónál.",
+  "keywords": "taxi skradin - vodice, transzfer skradin - vodice, reptéri transzfer skradin - vodice",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privát taxitranszfer",
+      "name": "Taxi Skradin - Vodice",
+      "description": "Privát taxi és transzfer fix áron, Skradin - Vodice, 60 euró járművenként max. 4 utasra, háztól házig.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Vodice"
+      ],
+      "url": "https://taxiskradin.hr/hu/taxi-skradin-vodice/",
+      "offers": {
+        "@type": "Offer",
+        "price": "60",
+        "priceCurrency": "EUR",
+        "description": "Privát egyirányú út, Skradin - Vodice, járművenként max. 4 utasra. Oda-vissza 120 euró."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Milyen hosszú az útvonal és mennyi ideig tart az út?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Skradin - Vodice útvonalon az út körülbelül 32 km, és normál forgalomban nagyjából 35 min alatt tart, a nyári csúcsidőben kicsit tovább. A felvételt úgy tervezem, hogy egy lassabb szakasz soha ne siettesse Önt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mennyibe kerül egy taxi a Skradin - Vodice útvonalon?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fix 60 járművenként max. 4 utasra, egy irány, csomag beleértve. Az oda-vissza út 120."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hol vesz fel engem?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A pontos címén, legyen az ház, hotel vagy apartman. Küldje el a címet a foglaláskor, és megerősítem a találkozási pontot."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mennyivel korábban foglaljak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Legalább 2 órával korábban, hogy megerősítsem a járművet és a felvétel idejét. Gyors útért hívjon vagy írjon WhatsApp-on."
+          }
+        }
+      ]
+    }
+  ]
+}

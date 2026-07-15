@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-rogoznica-to-skradin",
+  "title": "Taxi Rogoznica to Skradin | Fixed €90 Transfer | TAXI Antonio",
+  "description": "Private taxi and transfer from Rogoznica to Skradin. Fixed €90 per car, up to 4 passengers, door to door. Book direct with Antonio.",
+  "keywords": "taxi rogoznica to skradin, transfer rogoznica to skradin, rogoznica to skradin taxi, rogoznica to skradin transfer",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Private taxi transfer",
+      "name": "Taxi Rogoznica to Skradin",
+      "description": "Private, fixed-price taxi and transfer from Rogoznica to Skradin, 90 euros per car for up to 4 passengers, door to door.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Rogoznica",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/taxi-rogoznica-to-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "90",
+        "priceCurrency": "EUR",
+        "description": "One-way private transfer from Rogoznica to Skradin, per car for up to 4 passengers. Return 180 euros."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How far is Skradin from Rogoznica, and how long is the drive?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The drive from Rogoznica to Skradin is around 55 km and takes roughly 65 min in normal traffic, a little longer at busy times in summer. I plan the pickup so a slow patch never leaves you rushed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much is a taxi from Rogoznica to Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fixed 90 per car for up to 4 passengers, one way, luggage included. A return trip is 180."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where do you pick up?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At your exact address in Rogoznica, whether a home, hotel or apartment. Send the address when you book and I will confirm the meeting point."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How far in advance should I book?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At least 2 hours ahead so I can confirm the car and your pickup time. For a sooner ride, call or WhatsApp me directly."
+          }
+        }
+      ]
+    }
+  ]
+}

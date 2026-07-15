@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-tisno-skradin",
+  "title": "Taxi Tisno - Skradin | Pevná cena €65 | TAXI Antonio",
+  "description": "Súkromné taxi a transfer, Tisno - Skradin. Pevná cena €65 za vozidlo, max. 4 cestujúci, od dverí k dverám. Rezervujte priamo u Antonia.",
+  "keywords": "taxi tisno - skradin, transfer tisno - skradin, letiskový transfer tisno - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Súkromný taxi transfer",
+      "name": "Taxi Tisno - Skradin",
+      "description": "Súkromné taxi a transfer za pevnú cenu, Tisno - Skradin, 65 eur za vozidlo pre max. 4 cestujúcich, od dverí k dverám.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Tisno",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/sk/taxi-tisno-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "65",
+        "priceCurrency": "EUR",
+        "description": "Súkromná jednosmerná jazda, Tisno - Skradin, za vozidlo pre max. 4 cestujúcich. Spiatočne 130 eur."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Aká dlhá je trasa a ako dlho trvá cesta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Na trase Tisno - Skradin je cesta približne 35 km a za bežnej premávky trvá zhruba 35 min, v letnej špičke o niečo dlhšie. Vyzdvihnutie plánujem tak, aby Vás pomalší úsek nikdy netlačil do času."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Koľko stojí taxi na trase Tisno - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pevných 65 za vozidlo pre max. 4 cestujúcich, jednosmerne, batožina v cene. Spiatočná cesta stojí 130."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kde ma vyzdvihnete?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Na Vašej presnej adrese, či je to dom, hotel alebo apartmán. Pošlite adresu pri rezervácii a potvrdím miesto stretnutia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "S akým predstihom mám rezervovať?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aspoň 2 hodiny vopred, aby som potvrdil vozidlo a čas vyzdvihnutia. Pre rýchlu jazdu zavolajte alebo napíšte na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

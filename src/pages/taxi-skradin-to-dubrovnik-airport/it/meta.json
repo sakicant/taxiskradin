@@ -1,0 +1,97 @@
+{
+  "slug": "taxi-skradin-aeroporto-dubrovnik",
+  "title": "Taxi Skradin - Aeroporto di Dubrovnik | Prezzo fisso €485 | TAXI Antonio",
+  "description": "Taxi e transfer privato, tratta Skradin - Aeroporto di Dubrovnik. Prezzo fisso €485 per veicolo, fino a 4. Prenota con Antonio.",
+  "keywords": "taxi skradin - aeroporto di dubrovnik, transfer skradin - aeroporto di dubrovnik, transfer aeroporto skradin - aeroporto di dubrovnik",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Transfer taxi privato",
+      "name": "Taxi Skradin - Aeroporto di Dubrovnik",
+      "description": "Taxi e transfer privato a prezzo fisso, tratta Skradin - Aeroporto di Dubrovnik, 485 euro per veicolo fino a 4 passeggeri, porta a porta.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Aeroporto di Dubrovnik"
+      ],
+      "url": "https://taxiskradin.hr/it/taxi-skradin-aeroporto-dubrovnik/",
+      "offers": {
+        "@type": "Offer",
+        "price": "485",
+        "priceCurrency": "EUR",
+        "description": "Corsa privata di sola andata, tratta Skradin - Aeroporto di Dubrovnik, per veicolo fino a 4 passeggeri. Andata e ritorno 970 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quanto è lunga la tratta e quanto dura il viaggio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Il viaggio sulla tratta Skradin - Aeroporto di Dubrovnik è di circa 306 km e dura all'incirca 4 h 20 min con traffico normale, un po' di più nei periodi di punta estivi. Pianifico il ritiro in modo che un tratto lento non ti metta mai fretta."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quanto costa un taxi sulla tratta Skradin - Aeroporto di Dubrovnik?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fisso 485 per veicolo, solo andata, fino a 4 passeggeri. Il prezzo è per veicolo, non per persona, e include pedaggi, carburante e bagagli. Andata e ritorno 970."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "A che ora devo partire per il volo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Di norma circa 3 ore prima di un volo internazionale e 2 ore prima di uno nazionale. Dimmi l'orario del volo e confermo il ritiro esatto."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mi porti fino al terminal partenze?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sì. Ti porto direttamente al terminal partenze e ti aiuto con i bagagli. Nessuna camminata dal parcheggio e nessuna navetta."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mi lasci al terminal dei jet privati?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sì. Oltre al terminal commerciale principale, servo anche il terminal dell'aviazione privata e generale usato per jet privati e voli charter. Dimmi il tuo terminal alla prenotazione e ti porto all'ingresso giusto."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Con quanto anticipo devo prenotare?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Almeno 2 ore prima, così confermo veicolo e ritiro, e prima per i voli mattutini e in alta stagione. Per una corsa last minute chiamami o scrivimi su WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

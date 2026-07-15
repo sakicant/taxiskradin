@@ -1,0 +1,89 @@
+{
+  "slug": "taksowka-skradin-trogir",
+  "title": "Taxi Skradin - Trogir | Stała cena €100 | TAXI Antonio",
+  "description": "Taxi i prywatny transfer, trasa Skradin - Trogir. Stała cena €100 za pojazd, do 4 pasażerów, od drzwi do drzwi. Rezerwuj bezpośrednio u Antonio.",
+  "keywords": "taxi skradin - trogir, transfer skradin - trogir, transfer lotniskowy skradin - trogir",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Prywatny transfer taxi",
+      "name": "Taxi Skradin - Trogir",
+      "description": "Taxi i prywatny transfer w stałej cenie, trasa Skradin - Trogir, 100 euro za pojazd do 4 pasażerów, od drzwi do drzwi.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Trogir"
+      ],
+      "url": "https://taxiskradin.hr/pl/taxi-skradin-trogir/",
+      "offers": {
+        "@type": "Offer",
+        "price": "100",
+        "priceCurrency": "EUR",
+        "description": "Prywatny przejazd w jedną stronę, trasa Skradin - Trogir, za pojazd do 4 pasażerów. W obie strony 200 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Jak długa jest trasa i ile trwa przejazd?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Przejazd na trasie Skradin - Trogir to około 65 km i trwa mniej więcej 60 min przy normalnym ruchu, nieco dłużej w szczycie sezonu latem. Planuję odbiór tak, żeby wolniejszy odcinek nigdy Cię nie poganiał."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ile kosztuje taxi na trasie Skradin - Trogir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stałe 100 za pojazd do 4 pasażerów, w jedną stronę, z opłatami drogowymi, paliwem i bagażem. W obie strony 200."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Transfer jest prywatny czy współdzielony?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Każdy transfer jest prywatny i od drzwi do drzwi, Škodą Superb. Bez dzielenia pojazdu i bez dodatkowych postojów, chyba że o nie poprosisz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy możesz zatrzymać się po drodze?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tak. Na dłuższych trasach chętnie zatrzymam się na kawę, zdjęcie albo krótką atrakcję. Wystarczy powiedzieć przy rezerwacji."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Z jakim wyprzedzeniem rezerwować?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Co najmniej 2 godziny wcześniej, żebym potwierdził pojazd i godzinę odbioru. Na szybki kurs zadzwoń lub napisz na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

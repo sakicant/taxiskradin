@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-zablace-skradin",
+  "title": "Taxi Zablaće - Skradin | Pevná cena €50 | TAXI Antonio",
+  "description": "Taxi a soukromý transfer, trasa Zablaće - Skradin. Pevná cena €50 za vozidlo, až 4 cestující, ode dveří ke dveřím. Rezervujte přímo u Antonia.",
+  "keywords": "taxi zablaće - skradin, transfer zablaće - skradin, letištní transfer zablaće - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Soukromý taxi transfer",
+      "name": "Taxi Zablaće - Skradin",
+      "description": "Taxi a soukromý transfer za pevnou cenu, trasa Zablaće - Skradin, 50 eur za vozidlo až pro 4 cestující, ode dveří ke dveřím.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Zablaće",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/cs/taxi-zablace-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "50",
+        "priceCurrency": "EUR",
+        "description": "Soukromá jednosměrná jízda, trasa Zablaće - Skradin, za vozidlo až pro 4 cestující. Zpáteční 100 eur."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Jak dlouhá je trasa a jak dlouho trvá jízda?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Jízda na trase Zablaće - Skradin je zhruba 28 km a trvá přibližně 30 min při běžném provozu, o něco déle ve špičce letní sezony. Vyzvednutí plánuji tak, aby vás pomalejší úsek nikdy netlačil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kolik stojí taxi na trase Zablaće - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pevně 50 za vozidlo až pro 4 cestující, jednosměrná, zavazadla v ceně. Zpáteční jízda je 100."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kde mě vyzvednete?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "U vaší přesné adresy, ať jde o dům, hotel nebo apartmán. Pošlete adresu při rezervaci a potvrdím místo setkání."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "S jakým předstihem rezervovat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Alespoň 2 hodiny předem, abych potvrdil vozidlo a čas vyzvednutí. Pro rychlou jízdu zavolejte nebo napište na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

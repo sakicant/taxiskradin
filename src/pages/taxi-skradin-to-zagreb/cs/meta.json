@@ -1,0 +1,89 @@
+{
+  "slug": "taxi-skradin-zagreb",
+  "title": "Taxi Skradin - Zagreb | Pevná cena €485 | TAXI Antonio",
+  "description": "Taxi a soukromý transfer, trasa Skradin - Zagreb. Pevná cena €485 za vozidlo, až 4 cestující, ode dveří ke dveřím. Rezervujte přímo u Antonia.",
+  "keywords": "taxi skradin - zagreb, transfer skradin - zagreb, letištní transfer skradin - zagreb",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Soukromý taxi transfer",
+      "name": "Taxi Skradin - Zagreb",
+      "description": "Taxi a soukromý transfer za pevnou cenu, trasa Skradin - Zagreb, 485 eur za vozidlo až pro 4 cestující, ode dveří ke dveřím.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Zagreb"
+      ],
+      "url": "https://taxiskradin.hr/cs/taxi-skradin-zagreb/",
+      "offers": {
+        "@type": "Offer",
+        "price": "485",
+        "priceCurrency": "EUR",
+        "description": "Soukromá jednosměrná jízda, trasa Skradin - Zagreb, za vozidlo až pro 4 cestující. Zpáteční 970 eur."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Jak dlouhá je trasa a jak dlouho trvá jízda?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Jízda na trase Skradin - Zagreb je zhruba 327 km a trvá přibližně 3 h 35 min při běžném provozu, o něco déle ve špičce letní sezony. Vyzvednutí plánuji tak, aby vás pomalejší úsek nikdy netlačil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kolik stojí taxi na trase Skradin - Zagreb?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pevně 485 za vozidlo až pro 4 cestující, jednosměrná, s mýtným, palivem a zavazadly. Zpáteční jízda je 970."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Je transfer soukromý nebo sdílený?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Každý transfer je soukromý a ode dveří ke dveřím, ve Škodě Superb. Žádné sdílení vozidla a žádné zastávky navíc, pokud o ně nepožádáte."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Můžete zastavit po cestě?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ano. Na delších trasách se rád zastavím na kávu, fotku nebo krátkou zajímavost. Stačí říct při rezervaci."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "S jakým předstihem rezervovat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Alespoň 2 hodiny předem, abych potvrdil vozidlo a čas vyzvednutí. Pro rychlou jízdu zavolejte nebo napište na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-skradin-aci-marina-trogir",
+  "title": "Taxi Skradin - ACI Marina Trogir | Fix ár €115 | TAXI Antonio",
+  "description": "Privát taxi és transzfer, Skradin - ACI Marina Trogir. Fix ár €115 járművenként, max. 4 utas, háztól házig. Foglaljon közvetlenül Antoniónál.",
+  "keywords": "taxi skradin - aci marina trogir, transzfer skradin - aci marina trogir, reptéri transzfer skradin - aci marina trogir",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privát taxitranszfer",
+      "name": "Taxi Skradin - ACI Marina Trogir",
+      "description": "Privát taxi és transzfer fix áron, Skradin - ACI Marina Trogir, 115 euró járművenként max. 4 utasra, háztól házig.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "ACI Marina Trogir"
+      ],
+      "url": "https://taxiskradin.hr/hu/taxi-skradin-aci-marina-trogir/",
+      "offers": {
+        "@type": "Offer",
+        "price": "115",
+        "priceCurrency": "EUR",
+        "description": "Privát egyirányú út, Skradin - ACI Marina Trogir, járművenként max. 4 utasra. Oda-vissza 230 euró."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Mennyibe kerül a transzfer a Skradin - ACI Marina Trogir útvonalon?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fix 115 járművenként max. 4 utasra, egy irány, útdíjjal, üzemanyaggal és csomaggal. Az oda-vissza út 230."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Fel tud venni közvetlenül a marinánál?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Igen. A marina bejáratánál vagy a recepciónál várom, és segítek a csomaggal, hogy a pontonról egyenesen a járműhöz jusson."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hozzá tudja igazítani a transzfert a hajómhoz?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Igen. Küldje el a charter, becsekkolás vagy indulás idejét a foglaláskor, és ahhoz igazítom a felvételt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mennyivel korábban foglaljak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Legalább 2 órával korábban, hogy megerősítsem a járművet és a felvétel idejét. Gyors útért hívjon vagy írjon WhatsApp-on."
+          }
+        }
+      ]
+    }
+  ]
+}

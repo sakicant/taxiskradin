@@ -1,0 +1,89 @@
+{
+  "slug": "taksowka-zadar-skradin",
+  "title": "Taxi Zadar - Skradin | Stała cena €130 | TAXI Antonio",
+  "description": "Taxi i prywatny transfer, trasa Zadar - Skradin. Stała cena €130 za pojazd, do 4 pasażerów, od drzwi do drzwi. Rezerwuj bezpośrednio u Antonio.",
+  "keywords": "taxi zadar - skradin, transfer zadar - skradin, transfer lotniskowy zadar - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Prywatny transfer taxi",
+      "name": "Taxi Zadar - Skradin",
+      "description": "Taxi i prywatny transfer w stałej cenie, trasa Zadar - Skradin, 130 euro za pojazd do 4 pasażerów, od drzwi do drzwi.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Zadar",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/pl/taxi-zadar-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "130",
+        "priceCurrency": "EUR",
+        "description": "Prywatny przejazd w jedną stronę, trasa Zadar - Skradin, za pojazd do 4 pasażerów. W obie strony 260 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Jak długa jest trasa i ile trwa przejazd?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Przejazd na trasie Zadar - Skradin to około 76 km i trwa mniej więcej 60 min przy normalnym ruchu, nieco dłużej w szczycie sezonu latem. Planuję odbiór tak, żeby wolniejszy odcinek nigdy Cię nie poganiał."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ile kosztuje taxi na trasie Zadar - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stałe 130 za pojazd do 4 pasażerów, w jedną stronę, z opłatami drogowymi, paliwem i bagażem. W obie strony 260."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Transfer jest prywatny czy współdzielony?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Każdy transfer jest prywatny i od drzwi do drzwi, Škodą Superb. Bez dzielenia pojazdu i bez dodatkowych postojów, chyba że o nie poprosisz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy możesz zatrzymać się po drodze?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tak. Na dłuższych trasach chętnie zatrzymam się na kawę, zdjęcie albo krótką atrakcję. Wystarczy powiedzieć przy rezerwacji."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Z jakim wyprzedzeniem rezerwować?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Co najmniej 2 godziny wcześniej, żebym potwierdził pojazd i godzinę odbioru. Na szybki kurs zadzwoń lub napisz na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

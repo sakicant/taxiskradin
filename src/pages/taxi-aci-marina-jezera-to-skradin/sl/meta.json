@@ -1,0 +1,81 @@
+{
+  "slug": "taksi-aci-marina-jezera-skradin",
+  "title": "Taksi ACI Marina Jezera - Skradin | Fiksna cena €70 | TAXI Antonio",
+  "description": "Taksi in zasebni prevoz, relacija ACI Marina Jezera - Skradin. Fiksna cena €70 na vozilo, do 4. Rezervirajte pri Antoniu.",
+  "keywords": "taksi aci marina jezera - skradin, prevoz aci marina jezera - skradin, letališki prevoz aci marina jezera - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Zasebni taksi prevoz",
+      "name": "Taksi ACI Marina Jezera - Skradin",
+      "description": "Taksi in zasebni prevoz po fiksni ceni, relacija ACI Marina Jezera - Skradin, 70 evrov na vozilo do 4 potnike, od vrat do vrat.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "ACI Marina Jezera",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/sl/taksi-aci-marina-jezera-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "70",
+        "priceCurrency": "EUR",
+        "description": "Zasebna enosmerna vožnja, relacija ACI Marina Jezera - Skradin, na vozilo do 4 potnike. Povratno 140 evrov."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Koliko stane prevoz na relaciji ACI Marina Jezera - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fiksno 70 na vozilo, do 4 potnike, enosmerno, s cestninami, gorivom in prtljago. Povratna vožnja je 140."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Me lahko poberete kar v marini?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Da. Pričakam vas pri vhodu v marino ali na recepciji in pomagam s prtljago, tako da greste naravnost s pomola do vozila."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Lahko prevoz prilagodite moji plovbi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Da. Ob rezervaciji mi pošljite uro najema, prijave ali odhoda in prevzem načrtujem glede na to."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kako dolgo vnaprej rezervirati?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vsaj 2 uri prej, da potrdim vozilo in uro prevzema. Za hitrejšo vožnjo me pokličite ali pišite na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

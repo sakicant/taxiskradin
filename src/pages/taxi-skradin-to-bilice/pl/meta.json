@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-skradin-bilice",
+  "title": "Taxi Skradin - Bilice | Stała cena €40 | TAXI Antonio",
+  "description": "Taxi i prywatny transfer, trasa Skradin - Bilice. Stała cena €40 za pojazd, do 4 pasażerów, od drzwi do drzwi. Rezerwuj bezpośrednio u Antonio.",
+  "keywords": "taxi skradin - bilice, transfer skradin - bilice, transfer lotniskowy skradin - bilice",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Prywatny transfer taxi",
+      "name": "Taxi Skradin - Bilice",
+      "description": "Taxi i prywatny transfer w stałej cenie, trasa Skradin - Bilice, 40 euro za pojazd do 4 pasażerów, od drzwi do drzwi.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Bilice"
+      ],
+      "url": "https://taxiskradin.hr/pl/taxi-skradin-bilice/",
+      "offers": {
+        "@type": "Offer",
+        "price": "40",
+        "priceCurrency": "EUR",
+        "description": "Prywatny przejazd w jedną stronę, trasa Skradin - Bilice, za pojazd do 4 pasażerów. W obie strony 80 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Jak długa jest trasa i ile trwa przejazd?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Przejazd na trasie Skradin - Bilice to około 17 km i trwa mniej więcej 20 min przy normalnym ruchu, nieco dłużej w szczycie sezonu latem. Planuję odbiór tak, żeby wolniejszy odcinek nigdy Cię nie poganiał."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ile kosztuje taxi na trasie Skradin - Bilice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stałe 40 za pojazd do 4 pasażerów, w jedną stronę, bagaż w cenie. W obie strony 80."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Skąd mnie odbierasz?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Spod Twojego dokładnego adresu, czy to dom, hotel czy apartament. Prześlij adres przy rezerwacji, a potwierdzę miejsce spotkania."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Z jakim wyprzedzeniem rezerwować?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Co najmniej 2 godziny wcześniej, żebym potwierdził pojazd i godzinę odbioru. Na szybki kurs zadzwoń lub napisz na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

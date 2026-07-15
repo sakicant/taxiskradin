@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-marina-baotic-skradin",
+  "title": "Taxi Marina Baotić - Skradin | Festpreis €100 | TAXI Antonio",
+  "description": "Privates Taxi und Transfer, Strecke Marina Baotić - Skradin. Festpreis €100 pro Fahrzeug, bis zu 4 Fahrgäste, Tür zu Tür. Direkt bei Antonio buchen.",
+  "keywords": "taxi marina baotić - skradin, transfer marina baotić - skradin, flughafentransfer marina baotić - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privater Taxitransfer",
+      "name": "Taxi Marina Baotić - Skradin",
+      "description": "Privates Taxi und Transfer zum Festpreis, Strecke Marina Baotić - Skradin, 100 Euro pro Fahrzeug für bis zu 4 Fahrgäste, Tür zu Tür.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Marina Baotić",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/de/taxi-marina-baotic-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "100",
+        "priceCurrency": "EUR",
+        "description": "Einfache private Fahrt, Strecke Marina Baotić - Skradin, pro Fahrzeug für bis zu 4 Fahrgäste. Hin und zurück 200 Euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wie viel kostet ein Transfer auf der Strecke Marina Baotić - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fest 100 pro Fahrzeug für bis zu 4 Fahrgäste, einfache Fahrt, mit Maut, Kraftstoff und Gepäck. Eine Hin- und Rückfahrt kostet 200."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Können Sie direkt an der Marina abholen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Ich treffe Sie am Eingang oder an der Rezeption der Marina und helfe mit dem Gepäck, sodass Sie direkt vom Steg zum Fahrzeug gehen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Können Sie den Transfer auf mein Boot abstimmen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Senden Sie mir bei der Buchung Ihre Charter-, Check-in- oder Abfahrtszeit und ich plane die Abholung darum herum."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie weit im Voraus sollte ich buchen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mindestens 2 Stunden vorher, damit ich Fahrzeug und Abholzeit bestätigen kann. Für eine kurzfristige Fahrt rufen Sie an oder schreiben mir direkt auf WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

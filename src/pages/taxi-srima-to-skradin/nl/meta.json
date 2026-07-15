@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-srima-skradin",
+  "title": "Taxi Srima - Skradin | Vaste prijs €65 | TAXI Antonio",
+  "description": "Taxi en privétransfer, traject Srima - Skradin. Vaste prijs €65 per voertuig, tot 4 passagiers, van deur tot deur. Boek rechtstreeks bij Antonio.",
+  "keywords": "taxi srima - skradin, transfer srima - skradin, luchthaventransfer srima - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privé taxitransfer",
+      "name": "Taxi Srima - Skradin",
+      "description": "Taxi en privétransfer tegen vaste prijs, traject Srima - Skradin, 65 euro per voertuig tot 4 passagiers, van deur tot deur.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Srima",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/nl/taxi-srima-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "65",
+        "priceCurrency": "EUR",
+        "description": "Privérit enkele reis, traject Srima - Skradin, per voertuig tot 4 passagiers. Retour 130 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hoe lang is het traject en hoe lang duurt de rit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "De rit op het traject Srima - Skradin is ongeveer 28 km en duurt ongeveer 35 min bij normaal verkeer, iets langer tijdens de zomerdrukte. Ik plan het ophalen zo dat een trager stukje u nooit onder druk zet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoeveel kost een taxi op het traject Srima - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vast 65 per voertuig tot 4 passagiers, enkele reis, bagage inbegrepen. Een retour kost 130."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Waar haalt u me op?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aan uw exacte adres, of het nu een huis, hotel of appartement is. Stuur het adres bij de reservering en ik bevestig de ontmoetingsplek."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoe ver van tevoren reserveren?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minstens 2 uur van tevoren, zodat ik het voertuig en de ophaaltijd kan bevestigen. Voor een snelle rit belt u of schrijft u me op WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

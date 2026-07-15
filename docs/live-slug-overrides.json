@@ -1,0 +1,97 @@
+{
+  "taxi-dubrovnik-to-skradin": {
+    "hr": "taxi-dubrovnik-skradin",
+    "de": "taxi-dubrovnik-nach-skradin",
+    "pl": "taksowka-dubrownik-skradin"
+  },
+  "taxi-primosten-to-skradin": {
+    "hr": "taksi-primosten-do-skradina",
+    "de": "taxi-primosten-nach-skradin",
+    "pl": "taksowka-primosten-skradin"
+  },
+  "taxi-skradin-to-dubrovnik": {
+    "hr": "taxi-skradin-do-dubrovnika",
+    "de": "taxi-skradin-nach-dubrovnik",
+    "pl": "taksowka-skradin-dubrownik"
+  },
+  "taxi-skradin-to-primosten": {
+    "hr": "taxi-skradin-do-primostena",
+    "de": "taxi-skradin-nach-primosten",
+    "pl": "taksowka-skradin-primosten"
+  },
+  "taxi-skradin-to-sibenik": {
+    "hr": "taxi-skradin-do-sibenika",
+    "de": "taxi-skradin-nach-sibenik",
+    "pl": "taksowka-skradin-sibenik"
+  },
+  "taxi-skradin-to-split": {
+    "hr": "taxi-skradin-do-splita",
+    "de": "taxi-skradin-nach-split",
+    "pl": "taksowka-skradin-split"
+  },
+  "taxi-skradin-to-split-airport": {
+    "hr": "taxi-skradin-do-zracne-luke-split",
+    "de": "taxi-skradin-zum-flughafen-split",
+    "pl": "taksowka-skradin-lotnisko-split"
+  },
+  "taxi-skradin-to-trogir": {
+    "hr": "taxi-skradin-do-trogira",
+    "de": "taxi-skradin-nach-trogir",
+    "pl": "taksowka-skradin-trogir"
+  },
+  "taxi-skradin-to-vodice": {
+    "hr": "taxi-skradin-do-vodica",
+    "de": "taxi-skradin-nach-vodice",
+    "pl": "taksowka-skradin-vodice"
+  },
+  "taxi-skradin-to-zadar": {
+    "hr": "taxi-skradin-do-zadra",
+    "de": "taxi-skradin-nach-zadar",
+    "pl": "taksowka-skradin-zadar"
+  },
+  "taxi-skradin-to-zadar-airport": {
+    "hr": "taxi-skradin-do-zracne-luke-zadar",
+    "de": "taxi-skradin-nach-flughafen-zadar",
+    "pl": "taksowka-skradin-lotnisko-zadar"
+  },
+  "taxi-skradin-to-zagreb": {
+    "hr": "taxi-skradin-do-zagreba",
+    "de": "taxi-skradin-nach-zagreb",
+    "pl": "taksowka-skradin-zagrzeb"
+  },
+  "taxi-split-airport-to-skradin": {
+    "hr": "taxi-zracna-luka-split-do-skradina",
+    "de": "taxi-flughafen-split-nach-skradin",
+    "pl": "taksowka-lotnisko-split-skradin"
+  },
+  "taxi-split-to-skradin": {
+    "hr": "taxi-split-do-skradina",
+    "de": "taxi-split-nach-skradin",
+    "pl": "taksowka-split-skradin"
+  },
+  "taxi-trogir-to-skradin": {
+    "hr": "taxi-trogir-do-skradina",
+    "de": "taxi-trogir-nach-skradin",
+    "pl": "taksowka-trogir-skradin"
+  },
+  "taxi-vodice-to-skradin": {
+    "hr": "taxi-vodice-do-skradina",
+    "de": "taxi-vodice-nach-skradin",
+    "pl": "taksowka-vodice-skradin"
+  },
+  "taxi-zadar-airport-to-skradin": {
+    "hr": "taxi-zracna-luka-zadar-do-skradina",
+    "de": "taxi-flughafen-zadar-nach-skradin",
+    "pl": "taksowka-lotnisko-zadar-skradin"
+  },
+  "taxi-zadar-to-skradin": {
+    "hr": "taxi-zadar-do-skradina",
+    "de": "taxi-zadar-nach-skradin",
+    "pl": "taksowka-zadar-skradin"
+  },
+  "taxi-zagreb-to-skradin": {
+    "hr": "taxi-zagreb-do-skradina",
+    "de": "taxi-zagreb-nach-skradin",
+    "pl": "taksowka-zagrzeb-skradin"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-skradin-seget",
+  "title": "Taxi Skradin - Seget | Pevná cena €100 | TAXI Antonio",
+  "description": "Taxi a soukromý transfer, trasa Skradin - Seget. Pevná cena €100 za vozidlo, až 4 cestující, ode dveří ke dveřím. Rezervujte přímo u Antonia.",
+  "keywords": "taxi skradin - seget, transfer skradin - seget, letištní transfer skradin - seget",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Soukromý taxi transfer",
+      "name": "Taxi Skradin - Seget",
+      "description": "Taxi a soukromý transfer za pevnou cenu, trasa Skradin - Seget, 100 eur za vozidlo až pro 4 cestující, ode dveří ke dveřím.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Seget"
+      ],
+      "url": "https://taxiskradin.hr/cs/taxi-skradin-seget/",
+      "offers": {
+        "@type": "Offer",
+        "price": "100",
+        "priceCurrency": "EUR",
+        "description": "Soukromá jednosměrná jízda, trasa Skradin - Seget, za vozidlo až pro 4 cestující. Zpáteční 200 eur."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kolik stojí taxi na trase Skradin - Seget?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pevně 100 za vozidlo až pro 4 cestující, jednosměrná, zavazadla v ceně. Zpáteční jízda je 200."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kde mě vyzvednete?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "U vaší přesné adresy, ať jde o dům, hotel nebo apartmán. Pošlete adresu při rezervaci a potvrdím místo setkání."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "S jakým předstihem rezervovat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Alespoň 2 hodiny předem, abych potvrdil vozidlo a čas vyzvednutí. Pro rychlou jízdu zavolejte nebo napište na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

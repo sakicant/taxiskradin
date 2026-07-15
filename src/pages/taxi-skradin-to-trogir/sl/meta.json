@@ -1,0 +1,89 @@
+{
+  "slug": "taksi-skradin-trogir",
+  "title": "Taksi Skradin - Trogir | Fiksna cena €100 | TAXI Antonio",
+  "description": "Taksi in zasebni prevoz, relacija Skradin - Trogir. Fiksna cena €100 na vozilo, do 4 potnike, od vrat do vrat. Rezervirajte neposredno pri Antoniu.",
+  "keywords": "taksi skradin - trogir, prevoz skradin - trogir, letališki prevoz skradin - trogir",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Zasebni taksi prevoz",
+      "name": "Taksi Skradin - Trogir",
+      "description": "Taksi in zasebni prevoz po fiksni ceni, relacija Skradin - Trogir, 100 evrov na vozilo do 4 potnike, od vrat do vrat.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Trogir"
+      ],
+      "url": "https://taxiskradin.hr/sl/taksi-skradin-trogir/",
+      "offers": {
+        "@type": "Offer",
+        "price": "100",
+        "priceCurrency": "EUR",
+        "description": "Zasebna enosmerna vožnja, relacija Skradin - Trogir, na vozilo do 4 potnike. Povratno 200 evrov."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kako dolga je relacija in koliko traja vožnja?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vožnja na relaciji Skradin - Trogir je približno 65 km in traja okoli 60 min pri običajnem prometu, nekoliko dlje v poletni konici. Prevzem načrtujem tako, da vas počasnejši odsek nikoli ne priganja."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Koliko stane taksi na relaciji Skradin - Trogir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fiksno 100 na vozilo do 4 potnike, enosmerno, s cestninami, gorivom in prtljago. Povratna vožnja je 200."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Je prevoz zaseben ali deljen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vsak prevoz je zaseben in od vrat do vrat, v Škodi Superb. Brez deljenja vozila in brez dodatnih postankov, razen če jih zahtevate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Se lahko ustavite po poti?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Da. Na daljših relacijah se rad ustavim za kavo, fotografijo ali kratko znamenitost. Samo povejte ob rezervaciji."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kako dolgo vnaprej rezervirati?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vsaj 2 uri prej, da potrdim vozilo in uro prevzema. Za hitro vožnjo pokličite ali pišite na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

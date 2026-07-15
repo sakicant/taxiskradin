@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-aci-marina-jezera-skradin",
+  "title": "Taxi ACI Marina Jezera - Skradin | Fix ár €70 | TAXI Antonio",
+  "description": "Privát taxi és transzfer, ACI Marina Jezera - Skradin. Fix ár €70 járművenként, max. 4 utas, háztól házig. Foglaljon közvetlenül Antoniónál.",
+  "keywords": "taxi aci marina jezera - skradin, transzfer aci marina jezera - skradin, reptéri transzfer aci marina jezera - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privát taxitranszfer",
+      "name": "Taxi ACI Marina Jezera - Skradin",
+      "description": "Privát taxi és transzfer fix áron, ACI Marina Jezera - Skradin, 70 euró járművenként max. 4 utasra, háztól házig.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "ACI Marina Jezera",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/hu/taxi-aci-marina-jezera-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "70",
+        "priceCurrency": "EUR",
+        "description": "Privát egyirányú út, ACI Marina Jezera - Skradin, járművenként max. 4 utasra. Oda-vissza 140 euró."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Mennyibe kerül a transzfer a ACI Marina Jezera - Skradin útvonalon?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fix 70 járművenként max. 4 utasra, egy irány, útdíjjal, üzemanyaggal és csomaggal. Az oda-vissza út 140."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Fel tud venni közvetlenül a marinánál?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Igen. A marina bejáratánál vagy a recepciónál várom, és segítek a csomaggal, hogy a pontonról egyenesen a járműhöz jusson."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hozzá tudja igazítani a transzfert a hajómhoz?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Igen. Küldje el a charter, becsekkolás vagy indulás idejét a foglaláskor, és ahhoz igazítom a felvételt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mennyivel korábban foglaljak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Legalább 2 órával korábban, hogy megerősítsem a járművet és a felvétel idejét. Gyors útért hívjon vagy írjon WhatsApp-on."
+          }
+        }
+      ]
+    }
+  ]
+}

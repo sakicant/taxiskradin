@@ -1,0 +1,89 @@
+{
+  "slug": "taksowka-zagrzeb-skradin",
+  "title": "Taxi Zagreb - Skradin | Stała cena €485 | TAXI Antonio",
+  "description": "Taxi i prywatny transfer, trasa Zagreb - Skradin. Stała cena €485 za pojazd, do 4 pasażerów, od drzwi do drzwi. Rezerwuj bezpośrednio u Antonio.",
+  "keywords": "taxi zagreb - skradin, transfer zagreb - skradin, transfer lotniskowy zagreb - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Prywatny transfer taxi",
+      "name": "Taxi Zagreb - Skradin",
+      "description": "Taxi i prywatny transfer w stałej cenie, trasa Zagreb - Skradin, 485 euro za pojazd do 4 pasażerów, od drzwi do drzwi.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Zagreb",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/pl/taxi-zagreb-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "485",
+        "priceCurrency": "EUR",
+        "description": "Prywatny przejazd w jedną stronę, trasa Zagreb - Skradin, za pojazd do 4 pasażerów. W obie strony 970 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Jak długa jest trasa i ile trwa przejazd?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Przejazd na trasie Zagreb - Skradin to około 328 km i trwa mniej więcej 3 h 35 min przy normalnym ruchu, nieco dłużej w szczycie sezonu latem. Planuję odbiór tak, żeby wolniejszy odcinek nigdy Cię nie poganiał."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ile kosztuje taxi na trasie Zagreb - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stałe 485 za pojazd do 4 pasażerów, w jedną stronę, z opłatami drogowymi, paliwem i bagażem. W obie strony 970."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Transfer jest prywatny czy współdzielony?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Każdy transfer jest prywatny i od drzwi do drzwi, Škodą Superb. Bez dzielenia pojazdu i bez dodatkowych postojów, chyba że o nie poprosisz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy możesz zatrzymać się po drodze?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tak. Na dłuższych trasach chętnie zatrzymam się na kawę, zdjęcie albo krótką atrakcję. Wystarczy powiedzieć przy rezerwacji."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Z jakim wyprzedzeniem rezerwować?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Co najmniej 2 godziny wcześniej, żebym potwierdził pojazd i godzinę odbioru. Na szybki kurs zadzwoń lub napisz na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

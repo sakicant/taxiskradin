@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-seget-skradin",
+  "title": "Taxi Seget - Skradin | Vaste prijs €100 | TAXI Antonio",
+  "description": "Taxi en privétransfer, traject Seget - Skradin. Vaste prijs €100 per voertuig, tot 4 passagiers, van deur tot deur. Boek rechtstreeks bij Antonio.",
+  "keywords": "taxi seget - skradin, transfer seget - skradin, luchthaventransfer seget - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privé taxitransfer",
+      "name": "Taxi Seget - Skradin",
+      "description": "Taxi en privétransfer tegen vaste prijs, traject Seget - Skradin, 100 euro per voertuig tot 4 passagiers, van deur tot deur.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Seget",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/nl/taxi-seget-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "100",
+        "priceCurrency": "EUR",
+        "description": "Privérit enkele reis, traject Seget - Skradin, per voertuig tot 4 passagiers. Retour 200 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hoeveel kost een taxi op het traject Seget - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vast 100 per voertuig tot 4 passagiers, enkele reis, bagage inbegrepen. Een retour kost 200."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Waar haalt u me op?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aan uw exacte adres, of het nu een huis, hotel of appartement is. Stuur het adres bij de reservering en ik bevestig de ontmoetingsplek."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoe ver van tevoren reserveren?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minstens 2 uur van tevoren, zodat ik het voertuig en de ophaaltijd kan bevestigen. Voor een snelle rit belt u of schrijft u me op WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

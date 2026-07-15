@@ -1,0 +1,81 @@
+{
+  "slug": "taksi-skradin-brodarica",
+  "title": "Taksi Skradin - Brodarica | Fiksna cijena €55 | TAXI Antonio",
+  "description": "Privatni taksi i transfer, relacija Skradin - Brodarica. Fiksno €55 po vozilu, do 4 putnika, od vrata do vrata. Rezervirajte izravno kod Antonija.",
+  "keywords": "taksi skradin - brodarica, transfer skradin - brodarica, prijevoz skradin - brodarica",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privatni taksi transfer",
+      "name": "Taksi Skradin - Brodarica",
+      "description": "Privatni taksi i transfer po fiksnoj cijeni, relacija Skradin - Brodarica, 55 eura po vozilu za do 4 putnika, od vrata do vrata.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Brodarica"
+      ],
+      "url": "https://taxiskradin.hr/hr/taksi-skradin-brodarica/",
+      "offers": {
+        "@type": "Offer",
+        "price": "55",
+        "priceCurrency": "EUR",
+        "description": "Jednosmjerni privatni transfer, relacija Skradin - Brodarica, po vozilu za do 4 putnika. Povratno 110 eura."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kolika je udaljenost i koliko traje vožnja?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vožnja na relaciji Skradin - Brodarica duga je oko 22 km i traje otprilike 25 min u uobičajenom prometu, nešto duže u ljetnim gužvama. Polazak planiram tako da vas usporeni dio nikad ne požuri."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Koliko košta taksi na relaciji Skradin - Brodarica?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fiksno 55 po vozilu za do 4 putnika, jedan smjer, prtljaga uključena. Povratna vožnja je 110."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gdje me preuzimate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Na vašoj točnoj adresi, bila to kuća, hotel ili apartman. Pošaljite adresu pri rezervaciji i potvrdit ću mjesto sastanka."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Koliko unaprijed trebam rezervirati?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Barem 2 sata unaprijed da potvrdim vozilo i vrijeme preuzimanja. Za brži termin nazovite ili pišite na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

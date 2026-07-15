@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-aci-marina-jezera-skradin",
+  "title": "Taxi ACI Marina Jezera - Skradin | Pevná cena €70 | TAXI Antonio",
+  "description": "Taxi a soukromý transfer, trasa ACI Marina Jezera - Skradin. Pevná cena €70 za vozidlo, až 4 cestující, ode dveří ke dveřím. Rezervujte přímo u Antonia.",
+  "keywords": "taxi aci marina jezera - skradin, transfer aci marina jezera - skradin, letištní transfer aci marina jezera - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Soukromý taxi transfer",
+      "name": "Taxi ACI Marina Jezera - Skradin",
+      "description": "Taxi a soukromý transfer za pevnou cenu, trasa ACI Marina Jezera - Skradin, 70 eur za vozidlo až pro 4 cestující, ode dveří ke dveřím.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "ACI Marina Jezera",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/cs/taxi-aci-marina-jezera-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "70",
+        "priceCurrency": "EUR",
+        "description": "Soukromá jednosměrná jízda, trasa ACI Marina Jezera - Skradin, za vozidlo až pro 4 cestující. Zpáteční 140 eur."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kolik stojí transfer na trase ACI Marina Jezera - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pevně 70 za vozidlo až pro 4 cestující, jednosměrná, s mýtným, palivem a zavazadly v ceně. Zpáteční jízda je 140."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Můžete mě vyzvednout přímo v přístavu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ano. Počkám na vás u vjezdu do přístavu nebo na recepci a pomůžu se zavazadly, ať jdete rovnou z mola do vozidla."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Můžete přizpůsobit transfer mé lodi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ano. Při rezervaci mi pošlete čas charteru, check-inu nebo odjezdu a vyzvednutí naplánuji podle něj."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "S jakým předstihem rezervovat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Alespoň 2 hodiny předem, abych potvrdil vozidlo a čas vyzvednutí. Pro rychlejší jízdu zavolejte nebo napište na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

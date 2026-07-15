@@ -1,0 +1,97 @@
+{
+  "slug": "taksi-letalisce-split-skradin",
+  "title": "Taksi Letališče Split - Skradin | Fiksna cena €110 | TAXI Antonio",
+  "description": "Taksi in zasebni prevoz, relacija Letališče Split - Skradin. Fiksna cena €110 na vozilo, do 4. Rezervirajte pri Antoniu.",
+  "keywords": "taksi letališče split - skradin, prevoz letališče split - skradin, letališki prevoz letališče split - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Zasebni taksi prevoz",
+      "name": "Taksi Letališče Split - Skradin",
+      "description": "Taksi in zasebni prevoz po fiksni ceni, relacija Letališče Split - Skradin, 110 evrov na vozilo do 4 potnike, od vrat do vrat.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Letališče Split",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/sl/taksi-letalisce-split-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "110",
+        "priceCurrency": "EUR",
+        "description": "Zasebna enosmerna vožnja, relacija Letališče Split - Skradin, na vozilo do 4 potnike. Povratno 220 evrov."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kako dolga je relacija in koliko traja vožnja?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vožnja na relaciji Letališče Split - Skradin je približno 63 km in traja okoli 55 min pri običajnem prometu, nekoliko dlje v poletni konici. Prevzem načrtujem tako, da vas počasnejši odsek nikoli ne priganja."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kje me pričakate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "V prihodni dvorani, takoj za prevzemom prtljage, s tablico z vašim imenom. Pomagam s prtljago in vas pospremim do vozila."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kaj če ima moj let zamudo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Brez težav. Vaš let spremljam v realnem času in prevzem prilagodim dejanskemu pristanku, brez pribitka za čakanje."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Me poberete tudi na terminalu za zasebno letalstvo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Da. Prihode pričakam tako na komercialnem terminalu kot na terminalu za zasebno in splošno letalstvo, ki se uporablja za zasebna letala in čarterske lete. Ob rezervaciji mi le povejte svoj terminal ali FBO."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Koliko stane prevoz na relaciji Letališče Split - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fiksno 110 na vozilo do 4 potnike, enosmerno, cestnine in prtljaga vključeni. Povratna vožnja je 220."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kako dolgo vnaprej rezervirati?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vsaj 2 uri prej, da načrtujem glede na vaš let. Za prevzem isti dan po nenadni spremembi pokličite ali pišite na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

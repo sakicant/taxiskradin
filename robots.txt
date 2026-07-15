@@ -1,10 +1,10 @@
-# robots.txt for taxisibenik.hr
+# robots.txt for taxiskradin.hr
 # All crawlers, including AI assistants, are welcome to index the public site.
 
 User-agent: *
-Disallow: /admin/
 Disallow: /booking-submit.php
 Disallow: /contact.php
+Disallow: /offers-api.php
 Allow: /
 
 # AI crawlers (explicitly allowed to read and cite the site)
@@ -29,4 +29,4 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-Sitemap: https://taxisibenik.hr/sitemap.xml
+Sitemap: https://taxiskradin.hr/sitemap.xml

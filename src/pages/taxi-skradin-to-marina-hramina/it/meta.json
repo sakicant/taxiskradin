@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-skradin-marina-hramina",
+  "title": "Taxi Skradin - Marina Hramina | Prezzo fisso €75 | TAXI Antonio",
+  "description": "Taxi e transfer privato, tratta Skradin - Marina Hramina. Prezzo fisso €75 per veicolo, fino a 4. Prenota con Antonio.",
+  "keywords": "taxi skradin - marina hramina, transfer skradin - marina hramina, transfer aeroporto skradin - marina hramina",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Transfer taxi privato",
+      "name": "Taxi Skradin - Marina Hramina",
+      "description": "Taxi e transfer privato a prezzo fisso, tratta Skradin - Marina Hramina, 75 euro per veicolo fino a 4 passeggeri, porta a porta.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Marina Hramina"
+      ],
+      "url": "https://taxiskradin.hr/it/taxi-skradin-marina-hramina/",
+      "offers": {
+        "@type": "Offer",
+        "price": "75",
+        "priceCurrency": "EUR",
+        "description": "Corsa privata di sola andata, tratta Skradin - Marina Hramina, per veicolo fino a 4 passeggeri. Andata e ritorno 150 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quanto costa un transfer da Skradin a Marina Hramina?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fisso 75 per veicolo, fino a 4 passeggeri, solo andata, con pedaggi, carburante e bagagli inclusi. Andata e ritorno 150."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Può venirmi a prendere direttamente alla marina?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sì. La incontro all'ingresso della marina o alla reception e L'aiuto con i bagagli, così passa direttamente dal pontile al veicolo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Può adattare il transfer agli orari della mia barca?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sì. Mi invii l'orario del charter, del check-in o della partenza al momento della prenotazione e pianifico il ritiro di conseguenza."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Con quanto anticipo devo prenotare?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Almeno 2 ore prima, così confermo il veicolo e l'orario di ritiro. Per una corsa prima, mi chiami o mi scriva su WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

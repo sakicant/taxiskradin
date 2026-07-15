@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-skradin-to-lozovac",
+  "title": "Taxi Skradin to Lozovac | Fixed €25 Transfer | TAXI Antonio",
+  "description": "Private taxi and transfer from Skradin to Lozovac. Fixed €25 per car, up to 4 passengers, door to door. Book direct with Antonio.",
+  "keywords": "taxi skradin to lozovac, transfer skradin to lozovac, skradin to lozovac taxi, skradin to lozovac transfer",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Private taxi transfer",
+      "name": "Taxi Skradin to Lozovac",
+      "description": "Private, fixed-price taxi and transfer from Skradin to Lozovac, 25 euros per car for up to 4 passengers, door to door.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Lozovac"
+      ],
+      "url": "https://taxiskradin.hr/taxi-skradin-to-lozovac/",
+      "offers": {
+        "@type": "Offer",
+        "price": "25",
+        "priceCurrency": "EUR",
+        "description": "One-way private transfer from Skradin to Lozovac, per car for up to 4 passengers. Return 50 euros."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How far is Lozovac from Skradin, and how long is the drive?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The drive from Skradin to Lozovac is around 11 km and takes roughly 15 min in normal traffic, a little longer at busy times in summer. I plan the pickup so a slow patch never leaves you rushed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much is a taxi from Skradin to Lozovac?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fixed 25 per car for up to 4 passengers, one way, luggage included. A return trip is 50."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where do you pick up?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At your exact address in Skradin, whether a home, hotel or apartment. Send the address when you book and I will confirm the meeting point."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How far in advance should I book?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At least 2 hours ahead so I can confirm the car and your pickup time. For a sooner ride, call or WhatsApp me directly."
+          }
+        }
+      ]
+    }
+  ]
+}

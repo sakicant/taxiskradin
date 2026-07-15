@@ -1,0 +1,97 @@
+{
+  "slug": "taxi-flughafen-zagreb-skradin",
+  "title": "Taxi Flughafen Zagreb - Skradin | Festpreis €485 | TAXI Antonio",
+  "description": "Privates Taxi und Transfer, Strecke Flughafen Zagreb - Skradin. Festpreis €485 pro Fahrzeug, bis zu 4. Direkt bei Antonio buchen.",
+  "keywords": "taxi flughafen zagreb - skradin, transfer flughafen zagreb - skradin, flughafentransfer flughafen zagreb - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privater Taxitransfer",
+      "name": "Taxi Flughafen Zagreb - Skradin",
+      "description": "Privates Taxi und Transfer zum Festpreis, Strecke Flughafen Zagreb - Skradin, 485 Euro pro Fahrzeug für bis zu 4 Fahrgäste, Tür zu Tür.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Flughafen Zagreb",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/de/taxi-flughafen-zagreb-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "485",
+        "priceCurrency": "EUR",
+        "description": "Einfache private Fahrt, Strecke Flughafen Zagreb - Skradin, pro Fahrzeug für bis zu 4 Fahrgäste. Hin und zurück 970 Euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wie weit ist die Strecke und wie lange dauert die Fahrt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die Fahrt auf der Strecke Flughafen Zagreb - Skradin ist rund 338 km lang und dauert etwa 3 h 35 min bei normalem Verkehr, in der Sommerhauptzeit etwas länger. Ich plane die Abholung so, dass eine langsame Strecke Sie nie in Eile bringt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wo empfangen Sie mich?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In der Ankunftshalle, direkt nach der Gepäckausgabe, mit einem Schild mit Ihrem Namen. Ich helfe mit dem Gepäck und begleite Sie zum Fahrzeug."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was, wenn mein Flug Verspätung hat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kein Problem. Ich verfolge Ihren Flug in Echtzeit und passe die Abholung an die tatsächliche Landung an, ohne Aufpreis für die Wartezeit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Holen Sie auch am Terminal der privaten Luftfahrt ab?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Ich empfange Ankommende sowohl am Passagierterminal als auch am Terminal für private und allgemeine Luftfahrt, das für Privatjets und Charter genutzt wird. Nennen Sie mir bei der Buchung einfach Ihr Terminal oder Ihre FBO."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie viel kostet der Transfer auf der Strecke Flughafen Zagreb - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fest 485 pro Fahrzeug für bis zu 4 Fahrgäste, einfache Fahrt, Maut und Gepäck inklusive. Eine Hin- und Rückfahrt kostet 970."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie weit im Voraus sollte ich buchen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mindestens 2 Stunden vorher, damit ich um Ihren Flug herum planen kann. Für eine Abholung am selben Tag nach einer kurzfristigen Änderung rufen Sie an oder schreiben auf WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

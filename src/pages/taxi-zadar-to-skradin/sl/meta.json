@@ -1,0 +1,89 @@
+{
+  "slug": "taksi-zadar-skradin",
+  "title": "Taksi Zadar - Skradin | Fiksna cena €130 | TAXI Antonio",
+  "description": "Taksi in zasebni prevoz, relacija Zadar - Skradin. Fiksna cena €130 na vozilo, do 4 potnike, od vrat do vrat. Rezervirajte neposredno pri Antoniu.",
+  "keywords": "taksi zadar - skradin, prevoz zadar - skradin, letališki prevoz zadar - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Zasebni taksi prevoz",
+      "name": "Taksi Zadar - Skradin",
+      "description": "Taksi in zasebni prevoz po fiksni ceni, relacija Zadar - Skradin, 130 evrov na vozilo do 4 potnike, od vrat do vrat.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Zadar",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/sl/taksi-zadar-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "130",
+        "priceCurrency": "EUR",
+        "description": "Zasebna enosmerna vožnja, relacija Zadar - Skradin, na vozilo do 4 potnike. Povratno 260 evrov."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kako dolga je relacija in koliko traja vožnja?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vožnja na relaciji Zadar - Skradin je približno 76 km in traja okoli 60 min pri običajnem prometu, nekoliko dlje v poletni konici. Prevzem načrtujem tako, da vas počasnejši odsek nikoli ne priganja."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Koliko stane taksi na relaciji Zadar - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fiksno 130 na vozilo do 4 potnike, enosmerno, s cestninami, gorivom in prtljago. Povratna vožnja je 260."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Je prevoz zaseben ali deljen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vsak prevoz je zaseben in od vrat do vrat, v Škodi Superb. Brez deljenja vozila in brez dodatnih postankov, razen če jih zahtevate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Se lahko ustavite po poti?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Da. Na daljših relacijah se rad ustavim za kavo, fotografijo ali kratko znamenitost. Samo povejte ob rezervaciji."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kako dolgo vnaprej rezervirati?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vsaj 2 uri prej, da potrdim vozilo in uro prevzema. Za hitro vožnjo pokličite ali pišite na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

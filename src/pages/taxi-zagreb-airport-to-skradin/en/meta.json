@@ -1,0 +1,97 @@
+{
+  "slug": "taxi-zagreb-airport-to-skradin",
+  "title": "Taxi Zagreb Airport to Skradin | Fixed €485 Transfer | TAXI Antonio",
+  "description": "Private taxi and transfer from Zagreb Airport to Skradin. Fixed €485 per car, up to 4 passengers, door to door. Book direct with Antonio.",
+  "keywords": "taxi zagreb airport to skradin, transfer zagreb airport to skradin, zagreb airport to skradin taxi, zagreb airport to skradin transfer",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Private taxi transfer",
+      "name": "Taxi Zagreb Airport to Skradin",
+      "description": "Private, fixed-price taxi and transfer from Zagreb Airport to Skradin, 485 euros per car for up to 4 passengers, door to door.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Zagreb Airport",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/taxi-zagreb-airport-to-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "485",
+        "priceCurrency": "EUR",
+        "description": "One-way private transfer from Zagreb Airport to Skradin, per car for up to 4 passengers. Return 970 euros."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How far is Skradin from Zagreb Airport, and how long is the drive?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The drive from Zagreb Airport to Skradin is around 338 km and takes roughly 3 h 35 min in normal traffic, a little longer at busy times in summer. I plan the pickup so a slow patch never leaves you rushed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where do you meet me at Zagreb Airport?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In the arrivals hall, just after baggage reclaim, holding a sign with your name. I help with the luggage and walk you to the car."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if my flight is delayed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No problem. I track your flight in real time and adjust the pickup to the actual landing, with no extra charge for the wait."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you pick up from the private aviation terminal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. I meet arrivals at both the commercial terminal and the private and general-aviation terminal used for private jets and charters. Just tell me your terminal or FBO when you book."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much is the transfer from Zagreb Airport to Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fixed 485 per car for up to 4 passengers, one way, tolls and luggage included. A return trip is 970."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How far in advance should I book?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At least 2 hours ahead so I can plan around your flight. For a same-day pickup after a sudden change, call or WhatsApp me and I will help if I can."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-skradin-zaboric",
+  "title": "Taxi Skradin - Žaborić | Stała cena €75 | TAXI Antonio",
+  "description": "Taxi i prywatny transfer, trasa Skradin - Žaborić. Stała cena €75 za pojazd, do 4 pasażerów, od drzwi do drzwi. Rezerwuj bezpośrednio u Antonio.",
+  "keywords": "taxi skradin - žaborić, transfer skradin - žaborić, transfer lotniskowy skradin - žaborić",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Prywatny transfer taxi",
+      "name": "Taxi Skradin - Žaborić",
+      "description": "Taxi i prywatny transfer w stałej cenie, trasa Skradin - Žaborić, 75 euro za pojazd do 4 pasażerów, od drzwi do drzwi.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Žaborić"
+      ],
+      "url": "https://taxiskradin.hr/pl/taxi-skradin-zaboric/",
+      "offers": {
+        "@type": "Offer",
+        "price": "75",
+        "priceCurrency": "EUR",
+        "description": "Prywatny przejazd w jedną stronę, trasa Skradin - Žaborić, za pojazd do 4 pasażerów. W obie strony 150 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Jak długa jest trasa i ile trwa przejazd?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Przejazd na trasie Skradin - Žaborić to około 25 km i trwa mniej więcej 30 min przy normalnym ruchu, nieco dłużej w szczycie sezonu latem. Planuję odbiór tak, żeby wolniejszy odcinek nigdy Cię nie poganiał."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ile kosztuje taxi na trasie Skradin - Žaborić?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stałe 75 za pojazd do 4 pasażerów, w jedną stronę, bagaż w cenie. W obie strony 150."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Skąd mnie odbierasz?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Spod Twojego dokładnego adresu, czy to dom, hotel czy apartament. Prześlij adres przy rezerwacji, a potwierdzę miejsce spotkania."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Z jakim wyprzedzeniem rezerwować?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Co najmniej 2 godziny wcześniej, żebym potwierdził pojazd i godzinę odbioru. Na szybki kurs zadzwoń lub napisz na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

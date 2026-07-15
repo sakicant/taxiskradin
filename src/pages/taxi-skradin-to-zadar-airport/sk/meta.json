@@ -1,0 +1,97 @@
+{
+  "slug": "taxi-skradin-letisko-zadar",
+  "title": "Taxi Skradin - Letisko Zadar | Pevná cena €105 | TAXI Antonio",
+  "description": "Súkromné taxi a transfer, Skradin - Letisko Zadar. Pevná cena €105 za vozidlo, max. 4 cestujúci, od dverí k dverám. Rezervujte priamo u Antonia.",
+  "keywords": "taxi skradin - letisko zadar, transfer skradin - letisko zadar, letiskový transfer skradin - letisko zadar",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Súkromný taxi transfer",
+      "name": "Taxi Skradin - Letisko Zadar",
+      "description": "Súkromné taxi a transfer za pevnú cenu, Skradin - Letisko Zadar, 105 eur za vozidlo pre max. 4 cestujúcich, od dverí k dverám.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Letisko Zadar"
+      ],
+      "url": "https://taxiskradin.hr/sk/taxi-skradin-letisko-zadar/",
+      "offers": {
+        "@type": "Offer",
+        "price": "105",
+        "priceCurrency": "EUR",
+        "description": "Súkromná jednosmerná jazda, Skradin - Letisko Zadar, za vozidlo pre max. 4 cestujúcich. Spiatočne 210 eur."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Aká dlhá je trasa a ako dlho trvá cesta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Na trase Skradin - Letisko Zadar je cesta približne 61 km a za bežnej premávky trvá zhruba 50 min, v letnej špičke o niečo dlhšie. Vyzdvihnutie plánujem tak, aby Vás pomalší úsek nikdy netlačil do času."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Koľko stojí taxi na trase Skradin - Letisko Zadar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pevných 105 za vozidlo, jednosmerne, max. 4 cestujúci. Cena je za vozidlo, nie za osobu, a zahŕňa mýto, palivo a batožinu. Spiatočná cesta stojí 210."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kedy mám vyraziť na svoj let?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Zvyčajne približne 3 hodiny pred medzinárodným a 2 hodiny pred vnútroštátnym letom. Zadajte čas letu a potvrdím presné vyzdvihnutie."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Odveziete ma až k odletovému terminálu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Áno. Odveziem Vás priamo k odletovému terminálu a pomôžem s batožinou. Žiadna chôdza z parkoviska, žiadny shuttle bus."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Odveziete ma aj k terminálu súkromných lietadiel?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Áno. Okrem hlavného komerčného terminálu obsluhujem aj terminál súkromného a všeobecného letectva, ktorý slúži pre súkromné lietadlá a charterové lety. Pri rezervácii mi povedzte svoj terminál a odveziem Vás k správnemu vchodu."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "S akým predstihom mám rezervovať?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aspoň 2 hodiny vopred, aby som potvrdil vozidlo a vyzdvihnutie, pri skorších letoch a v hlavnej sezóne skôr. Pre rýchlu jazdu zavolajte alebo napíšte na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "slug": "taxi-skradin-repter-dubrovnik",
+  "title": "Taxi Skradin - Dubrovnik repülőtér | Fix ár €485 | TAXI Antonio",
+  "description": "Privát taxi és transzfer, Skradin - Dubrovnik repülőtér. Fix ár €485 járművenként, max. 4 utas, háztól házig. Foglaljon közvetlenül Antoniónál.",
+  "keywords": "taxi skradin - dubrovnik repülőtér, transzfer skradin - dubrovnik repülőtér, reptéri transzfer skradin - dubrovnik repülőtér",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privát taxitranszfer",
+      "name": "Taxi Skradin - Dubrovnik repülőtér",
+      "description": "Privát taxi és transzfer fix áron, Skradin - Dubrovnik repülőtér, 485 euró járművenként max. 4 utasra, háztól házig.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Dubrovnik repülőtér"
+      ],
+      "url": "https://taxiskradin.hr/hu/taxi-skradin-repter-dubrovnik/",
+      "offers": {
+        "@type": "Offer",
+        "price": "485",
+        "priceCurrency": "EUR",
+        "description": "Privát egyirányú út, Skradin - Dubrovnik repülőtér, járművenként max. 4 utasra. Oda-vissza 970 euró."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Milyen hosszú az útvonal és mennyi ideig tart az út?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Skradin - Dubrovnik repülőtér útvonalon az út körülbelül 306 km, és normál forgalomban nagyjából 4 h 20 min alatt tart, a nyári csúcsidőben kicsit tovább. A felvételt úgy tervezem, hogy egy lassabb szakasz soha ne siettesse Önt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mennyibe kerül egy taxi a Skradin - Dubrovnik repülőtér útvonalon?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fix 485 járművenként, egy irány, max. 4 utas. Az ár járművenként, nem személyenként értendő, és tartalmazza az útdíjat, üzemanyagot és csomagot. Az oda-vissza út 970."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mikor induljak a járatomra?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Általában körülbelül 3 órával a nemzetközi és 2 órával a belföldi járat előtt. Adja meg a járat idejét, és megerősítem a pontos felvételt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Elvisz egészen az indulási terminálig?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Igen. Egyenesen az indulási terminálhoz viszem, és segítek a csomaggal. Nincs séta a parkolóból, nincs shuttle busz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Le tud tenni a privát repülőgépek termináljánál?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Igen. A fő kereskedelmi terminál mellett kiszolgálom a magánrepülőgépek és charterjáratok által használt privát és általános célú repülési terminált is. A foglaláskor adja meg, melyik terminálhoz megy, és a megfelelő bejárathoz viszem."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mennyivel korábban foglaljak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Legalább 2 órával korábban, hogy megerősítsem a járművet és a felvételt, korábbi járatoknál és főszezonban pedig hamarabb. Gyors útért hívjon vagy írjon WhatsApp-on."
+          }
+        }
+      ]
+    }
+  ]
+}

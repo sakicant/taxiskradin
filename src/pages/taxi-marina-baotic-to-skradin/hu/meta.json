@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-marina-baotic-skradin",
+  "title": "Taxi Marina Baotić - Skradin | Fix ár €100 | TAXI Antonio",
+  "description": "Privát taxi és transzfer, Marina Baotić - Skradin. Fix ár €100 járművenként, max. 4 utas, háztól házig. Foglaljon közvetlenül Antoniónál.",
+  "keywords": "taxi marina baotić - skradin, transzfer marina baotić - skradin, reptéri transzfer marina baotić - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privát taxitranszfer",
+      "name": "Taxi Marina Baotić - Skradin",
+      "description": "Privát taxi és transzfer fix áron, Marina Baotić - Skradin, 100 euró járművenként max. 4 utasra, háztól házig.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxisibenik.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Šibenik",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "152"
+        }
+      },
+      "areaServed": [
+        "Marina Baotić",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/hu/taxi-marina-baotic-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "100",
+        "priceCurrency": "EUR",
+        "description": "Privát egyirányú út, Marina Baotić - Skradin, járművenként max. 4 utasra. Oda-vissza 200 euró."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Mennyibe kerül a transzfer a Marina Baotić - Skradin útvonalon?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fix 100 járművenként max. 4 utasra, egy irány, útdíjjal, üzemanyaggal és csomaggal. Az oda-vissza út 200."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Fel tud venni közvetlenül a marinánál?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Igen. A marina bejáratánál vagy a recepciónál várom, és segítek a csomaggal, hogy a pontonról egyenesen a járműhöz jusson."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hozzá tudja igazítani a transzfert a hajómhoz?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Igen. Küldje el a charter, becsekkolás vagy indulás idejét a foglaláskor, és ahhoz igazítom a felvételt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mennyivel korábban foglaljak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Legalább 2 órával korábban, hogy megerősítsem a járművet és a felvétel idejét. Gyors útért hívjon vagy írjon WhatsApp-on."
+          }
+        }
+      ]
+    }
+  ]
+}
