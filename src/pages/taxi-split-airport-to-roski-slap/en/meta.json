@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-split-airport-to-roski-slap",
+  "title": "Taxi Split Airport to Roški Slap | Fixed €100 Transfer | TAXI Antonio",
+  "description": "Private taxi and transfer from Split Airport to Roški Slap. Fixed €100 per car, up to 4 passengers, door to door. Book direct with Antonio.",
+  "keywords": "taxi split airport to roški slap, transfer split airport to roški slap, split airport to roški slap taxi, split airport to roški slap transfer",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Private taxi transfer",
+      "name": "Taxi Split Airport to Roški Slap",
+      "description": "Private, fixed-price taxi and transfer from Split Airport to Roški Slap, 100 euros per car for up to 4 passengers, door to door.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Split Airport",
+        "Roški Slap"
+      ],
+      "url": "https://taxiskradin.hr/taxi-split-airport-to-roski-slap/",
+      "offers": {
+        "@type": "Offer",
+        "price": "100",
+        "priceCurrency": "EUR",
+        "description": "One-way private transfer from Split Airport to Roški Slap, per car for up to 4 passengers. Return 200 euros."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Where do you meet me at Split Airport?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In the arrivals hall, just after baggage reclaim, holding a sign with your name. I help with the luggage and walk you to the car."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if my flight is delayed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No problem. I track your flight in real time and adjust the pickup to the actual landing, with no extra charge for the wait."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much is the transfer from Split Airport to Roški Slap?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fixed 100 per car for up to 4 passengers, one way, tolls and luggage included. A return trip is 200."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How far in advance should I book?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At least 2 hours ahead so I can plan around your flight. For a same-day pickup after a sudden change, call or WhatsApp me and I will help if I can."
+          }
+        }
+      ]
+    }
+  ]
+}

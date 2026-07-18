@@ -39,3 +39,19 @@ Makarska (both directions) uses the EUR 210 fare added to the PRICES matrix on 2
 | Skradin | Makarska | `taxi-skradin-to-makarska` | 210 |
 | Makarska | Skradin | `taxi-makarska-to-skradin` | 210 |
 | Skradin | Roški Slap | `taxi-skradin-to-roski-slap` | 50 |
+| Roški Slap | Skradin | `taxi-roski-slap-to-skradin` | 50 |
+| Roški Slap | Šibenik | `taxi-roski-slap-to-sibenik` | 90 |
+| Roški Slap | Vodice | `taxi-roski-slap-to-vodice` | 90 |
+| Roški Slap | Primošten | `taxi-roski-slap-to-primosten` | 110 |
+| Roški Slap | Trogir | `taxi-roski-slap-to-trogir` | 110 |
+| Roški Slap | Split | `taxi-roski-slap-to-split` | 150 |
+| Roški Slap | Split Airport | `taxi-roski-slap-to-split-airport` | 100 |
+| Roški Slap | Zadar | `taxi-roski-slap-to-zadar` | 135 |
+| Roški Slap | Zadar Airport | `taxi-roski-slap-to-zadar-airport` | 110 |
+| Vodice | Roški Slap | `taxi-vodice-to-roski-slap` | 90 |
+| Primošten | Roški Slap | `taxi-primosten-to-roski-slap` | 110 |
+| Trogir | Roški Slap | `taxi-trogir-to-roski-slap` | 110 |
+| Split | Roški Slap | `taxi-split-to-roski-slap` | 150 |
+| Split Airport | Roški Slap | `taxi-split-airport-to-roski-slap` | 100 |
+| Zadar | Roški Slap | `taxi-zadar-to-roski-slap` | 135 |
+| Zadar Airport | Roški Slap | `taxi-zadar-airport-to-roski-slap` | 110 |
