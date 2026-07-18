@@ -56,14 +56,15 @@ project (C:\Users\sakic\taxisibenik-code) so any session here starts informed.
 ## Backend (PHP + MySQL, mirrors taxisibenik)
 
 - `booking-submit.php` stores bookings and emails the owner + customer.
-- `offers-api.php` serves special offers; the admin manages them.
-- Admin: on taxisibenik the admin folder was renamed to a secret path
-  (`manage-k29q7x/`) and gated with HTTP Basic Auth (salted SHA-256 in
-  config). THIS PROJECT still has the old open `admin/` folder; rename it to
-  its own secret path (pick a DIFFERENT secret than taxisibenik's) and port
-  the auth gate before going live. See docs/port-from-taxisibenik.md.
-- Deployment target: cPanel hosting (mydataknox). DB + user created in
-  cPanel, tables imported via phpMyAdmin, config.php created on the server.
+- `offers-api.php` serves special offers.
+- SHARED database + admin (owner decision 2026-07-18): taxiskradin.hr reuses
+  taxisibenik.hr's MySQL database for BOTH bookings and offers, and is managed
+  from the SAME admin on taxisibenik.hr. There is NO admin on this domain, the
+  `admin/` folder was removed. skradin's server `config.php` uses the same DB
+  creds as taxisibenik (no new DB, no schema re-import). See
+  docs/booking-system-setup.md.
+- Deployment target: cPanel hosting (mydataknox). config.php created on the
+  server pointing at the shared database.
 
 ## Porting status
 

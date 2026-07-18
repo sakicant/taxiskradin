@@ -1,8 +1,9 @@
-# robots.txt for taxisibenik.hr
+# robots.txt for taxiskradin.hr
 # All crawlers, including AI assistants, are welcome to index the public site.
+# Bookings and offers are managed from the shared taxisibenik.hr admin, so there
+# is no admin panel on this domain.
 
 User-agent: *
-Disallow: /admin/
 Disallow: /booking-submit.php
 Disallow: /contact.php
 Allow: /
@@ -29,4 +30,4 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-Sitemap: https://taxisibenik.hr/sitemap.xml
+Sitemap: https://taxiskradin.hr/sitemap.xml

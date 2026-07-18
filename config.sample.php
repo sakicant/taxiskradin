@@ -29,11 +29,7 @@ return [
     // it is not flagged as spoofed.
     'mail_from' => 'noreply@taxiskradin.hr',
 
-    // Admin dashboard login.
-    // Username you type at the admin URL, and a password HASH (not the raw
-    // password). Generate the hash once by running, on the server:
-    //   php -r "echo password_hash('your-strong-password', PASSWORD_DEFAULT), PHP_EOL;"
-    // then paste the printed string below.
-    'admin_user' => 'antonio',
-    'admin_pass_hash' => 'PASTE_PASSWORD_HASH_HERE',
+    // No admin login is defined here: bookings and offers are managed from the
+    // shared admin on taxisibenik.hr, which uses the same database. There is no
+    // admin panel on this domain.
 ];
