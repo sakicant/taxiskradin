@@ -1,0 +1,88 @@
+{
+  "slug": "skradin-transfers",
+  "title": "Skradin Transfers | Fixed Prices | TAXI Antonio",
+  "description": "Skradin transfers and taxi to and from Split, Zadar, Zagreb, Dubrovnik, Trogir, Vodice and Primošten. Fixed prices, private door to door, one local driver. Book directly with Antonio.",
+  "keywords": "skradin transfer, skradin transfers, taxi skradin, skradin to split, skradin to zadar, skradin to zagreb, skradin to dubrovnik",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "City-to-city taxi transfer",
+      "name": "Skradin Transfers",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Split",
+        "Zadar",
+        "Zagreb",
+        "Dubrovnik",
+        "Trogir",
+        "Vodice",
+        "Primošten"
+      ],
+      "url": "https://taxiskradin.hr/skradin-transfers/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much is a taxi transfer from Skradin to Split?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A private taxi transfer from Skradin to Split is a fixed 140 euros per car for up to 4 passengers, with tolls, fuel and luggage included."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are the transfer prices fixed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every city-to-city transfer is a fixed price per car for up to 4 passengers, agreed upfront. No meter and no surprises."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the transfer private or shared?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Every transfer is private and door to door, in a Škoda Superb. There is no vehicle sharing and no extra stops unless you ask for them."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you stop along the way?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. On longer transfers I am happy to stop for a coffee, a photo or a quick sight. Just let me know when booking and I will factor it in."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I pay for a transfer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A 20% advance payment (minimum 20 euros) confirms the booking, by bank transfer or card. The balance is paid to the driver on the day, in cash or by card."
+          }
+        }
+      ]
+    }
+  ]
+}

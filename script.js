@@ -758,6 +758,7 @@ if (quoteWidget) {
       "Knin": 140
     },
     "Makarska": {
+      "Skradin - center": 210,
       "Šibenik - center": 200,
       "Zadar": 275,
       "Zadar Airport (ZAD)": 275,
@@ -1514,7 +1515,8 @@ if (quoteWidget) {
       "Knin": 95,
       "NP Plitvice Lakes": 290,
       "Zagreb": 485,
-      "Zagreb Airport (ZAG)": 485
+      "Zagreb Airport (ZAG)": 485,
+      "Makarska": 210
     },
     "NP Krka - Skradin entrance": {
       "Šibenik - center": 50,

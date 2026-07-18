@@ -3,7 +3,7 @@
   "title": "ACI Marina Skradin Transfers | Fixed Prices | TAXI Antonio",
   "description": "Private transfers from ACI Marina Skradin to Split, Zadar, Zagreb and Dubrovnik airports and cities. Fixed prices, pontoon pickup, gateway to Krka National Park.",
   "keywords": "aci marina skradin transfer, skradin marina taxi, aci skradin airport transfer, skradin split airport",
-  "og_image": "https://taxisibenik.hr/assets/img/hero-transfers.webp",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
   "schema": [
     {
       "@context": "https://schema.org",
@@ -15,10 +15,10 @@
         "@type": "LocalBusiness",
         "name": "Taxi Antonio",
         "telephone": "+385994471013",
-        "email": "info@taxisibenik.hr",
+        "email": "info@taxiskradin.hr",
         "address": {
           "@type": "PostalAddress",
-          "addressLocality": "Šibenik",
+          "addressLocality": "Skradin",
           "addressCountry": "HR"
         },
         "aggregateRating": {
@@ -31,7 +31,7 @@
         "ACI Marina Skradin",
         "Šibenik"
       ],
-      "url": "https://taxisibenik.hr/aci-marina-skradin-transfers/",
+      "url": "https://taxiskradin.hr/aci-marina-skradin-transfers/",
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "Fixed transfer prices from ACI Marina Skradin",

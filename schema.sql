@@ -18,6 +18,7 @@ CREATE TABLE IF NOT EXISTS bookings (
     customer_email VARCHAR(160) NOT NULL,
     customer_phone VARCHAR(60) NULL,
     flight         VARCHAR(80) NULL,
+    dropoff_details VARCHAR(120) NULL,
     notes          TEXT NULL,
     status         VARCHAR(20) NOT NULL DEFAULT 'new',
     payment        VARCHAR(20) NOT NULL DEFAULT 'unpaid',

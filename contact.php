@@ -1,7 +1,7 @@
 <?php
 header('Content-Type: application/json');
 
-$to = 'info@taxisibenik.hr';
+$to = 'info@taxiskradin.hr';
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     http_response_code(405);
@@ -30,9 +30,9 @@ if (!in_array($topic, $allowed_topics, true)) {
     $topic = 'General inquiry';
 }
 
-$subject = $topic . ' from ' . $name . ' (taxisibenik.hr)';
+$subject = $topic . ' from ' . $name . ' (taxiskradin.hr)';
 
-$body  = "New contact form submission from taxisibenik.hr\n\n";
+$body  = "New contact form submission from taxiskradin.hr\n\n";
 $body .= "Topic: $topic\n";
 $body .= "Name: $name\n";
 $body .= "Email: $email\n";
@@ -40,7 +40,7 @@ $body .= "Phone: " . ($phone !== '' ? $phone : 'Not provided') . "\n\n";
 $body .= "Message:\n$message\n";
 
 $headers   = [];
-$headers[] = 'From: TAXI Antonio Website <noreply@taxisibenik.hr>';
+$headers[] = 'From: TAXI Antonio Website <noreply@taxiskradin.hr>';
 $headers[] = 'Reply-To: ' . $email;
 $headers[] = 'X-Mailer: PHP/' . phpversion();
 

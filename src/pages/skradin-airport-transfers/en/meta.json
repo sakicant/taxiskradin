@@ -1,0 +1,85 @@
+{
+  "slug": "skradin-airport-transfers",
+  "title": "Skradin Airport Transfers | Fixed Prices | TAXI Antonio",
+  "description": "Skradin airport transfers and taxi to and from Zadar Airport (ZAD) and Split Airport (SPU). Fixed prices, flight monitoring, door to door. Zagreb and Dubrovnik airports on request. Book with Antonio.",
+  "keywords": "skradin airport transfer, skradin airport transfers, taxi skradin zadar airport, skradin to split airport, zadar airport to skradin, split airport to skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Airport transfer",
+      "name": "Skradin Airport Transfers",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Zadar Airport",
+        "Split Airport",
+        "Zagreb Airport",
+        "Dubrovnik Airport"
+      ],
+      "url": "https://taxiskradin.hr/skradin-airport-transfers/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much is a taxi transfer from Skradin to Zadar Airport?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A private airport transfer from Skradin to Zadar Airport is a fixed 105 euros per car for up to 4 passengers, with tolls, fuel and luggage included."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I find my driver at the airport?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Antonio waits in the arrivals hall after baggage claim, holding a clear sign with your name."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if my flight is delayed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Flights are monitored in real time using the flight number you provide at booking. The pickup time is adjusted automatically and there is no extra charge for waiting."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the airport transfer price fixed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every airport transfer is a fixed price per car for up to 4 passengers, with tolls, fuel and luggage included. No meter, no surprises."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I pay for an airport transfer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A 20% advance payment (minimum 20 euros) confirms the booking, by bank transfer or card. The balance is paid to the driver on the day, in cash or by card."
+          }
+        }
+      ]
+    }
+  ]
+}

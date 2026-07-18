@@ -21,17 +21,27 @@ want to be cautious, then move it to the web root.
 | `.htaccess` | Blocks direct access to config/schema and disables directory listing. |
 | `robots.txt` | Tells search engines not to index `/admin/`. |
 
+## Shared database with taxisibenik.hr
+
+taxiskradin.hr and taxisibenik.hr **share one MySQL database** for both bookings
+and offers. Bookings from either site land in the same `bookings` table, and
+offers you manage in one admin appear on both sites. Both domains live on the
+same cPanel account, so `localhost` reaches the shared database from either
+site's document root.
+
+That means the database and tables already exist (they were created for
+taxisibenik.hr). You do **not** create a new database or re-import the schema
+files for taxiskradin.hr. You only create `config.php` (step below) pointing at
+the same database.
+
 ## One-time setup
 
-### 1. Create the database (cPanel to MySQL Databases)
-1. Create a new database, e.g. `taxisib_bookings`.
-2. Create a database user with a strong password.
-3. Add that user to the database with **All Privileges**.
-4. Note the database name, user, and password (cPanel usually prefixes them with your account name).
-
-### 2. Create the table
-In cPanel to phpMyAdmin, select the new database, open the **SQL** tab, paste
-the contents of `schema.sql`, and run it. You should see a `bookings` table.
+### 1. Reuse the existing shared database
+Use the **same** `db_name`, `db_user`, `db_pass` that taxisibenik.hr already
+uses (copy them from its `config.php`). Skip creating a new database and skip
+importing `schema.sql` / `offers-schema.sql`, the `bookings` and `offers` tables
+are already there. (`schema.sql` and `offers-schema.sql` are kept in the repo
+only as the reference definition of the shared tables.)
 
 ### 3. Create config.php
 1. Copy `config.sample.php` to `config.php` on the server.

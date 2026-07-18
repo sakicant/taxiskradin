@@ -1251,6 +1251,7 @@ a.nav-lang-item:hover { color: var(--gold); background: rgba(255,255,255,0.05); 
   flex-direction: column;
   gap: 12px;
 }
+.cookie-banner[hidden] { display: none; }
 .cookie-banner p { font-size: 0.86rem; margin: 0; line-height: 1.5; }
 .cookie-banner a { color: var(--gold); text-decoration: underline; }
 .cookie-actions { display: flex; gap: 10px; }

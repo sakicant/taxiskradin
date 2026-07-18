@@ -1,20 +1,22 @@
 {
   "slug": "",
-  "title": "Taxi Šibenik - Service You Can Rely On | Taxi Antonio",
-  "description": "Taxi Šibenik for on-demand local rides, hospital and hotel pickups, the bus and ferry port, and island connections. English-speaking driver. Book directly with Antonio.",
-  "keywords": "taxi šibenik, taxi sibenik, taxi sibenik hospital, sibenik hotel taxi, sibenik ferry port taxi, taxi zlarin prvic",
-  "og_image": "https://taxisibenik.hr/assets/img/hero-bg.webp",
+  "title": "Taxi Skradin | Fixed-Price Rides & Transfers | TAXI Antonio",
+  "description": "Taxi Skradin for local rides, the Krka National Park boat dock, ACI Marina Skradin, and fixed-price airport transfers. English-speaking driver. Book directly with Antonio.",
+  "keywords": "taxi skradin, skradin taxi, skradin transfer, skradin airport transfer, taxi skradin krka, aci marina skradin taxi, krka national park taxi",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-bg.webp",
   "schema": [
     {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "name": "TAXI Šibenik & Skradin - Antonio",
-      "url": "https://taxisibenik.hr/",
+      "name": "TAXI Skradin - Antonio",
+      "url": "https://taxiskradin.hr/",
       "telephone": "+385994471013",
-      "email": "info@taxisibenik.hr",
+      "email": "info@taxiskradin.hr",
       "areaServed": [
-        "Šibenik",
         "Skradin",
+        "Krka National Park",
+        "ACI Marina Skradin",
+        "Šibenik",
         "Split",
         "Zadar",
         "Dubrovnik",
@@ -22,8 +24,8 @@
       ],
       "address": {
         "@type": "PostalAddress",
-        "addressLocality": "Šibenik",
-        "postalCode": "22000",
+        "addressLocality": "Skradin",
+        "postalCode": "22222",
         "addressCountry": "HR"
       },
       "aggregateRating": {
@@ -33,14 +35,14 @@
       },
       "priceRange": "€€",
       "alternateName": "TAXI Antonio",
-      "@id": "https://taxisibenik.hr/#business",
-      "image": "https://taxisibenik.hr/assets/img/hero-bg.webp",
+      "@id": "https://taxiskradin.hr/#business",
+      "image": "https://taxiskradin.hr/assets/img/hero-bg.webp",
       "paymentAccepted": "Cash, Credit Card",
       "currenciesAccepted": "EUR",
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": 43.6956974,
-        "longitude": 15.7891511
+        "latitude": 43.8186,
+        "longitude": 15.9214
       },
       "hasMap": "https://www.google.com/maps?cid=4748268601430744277",
       "openingHoursSpecification": [
@@ -54,6 +56,18 @@
             "Friday"
           ],
           "opens": "07:00",
+          "closes": "14:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "16:00",
           "closes": "21:00"
         },
         {
@@ -63,7 +77,7 @@
             "Sunday"
           ],
           "opens": "06:00",
-          "closes": "15:00"
+          "closes": "16:00"
         }
       ],
       "sameAs": [
@@ -78,10 +92,10 @@
       "@context": "https://schema.org",
       "@type": "Service",
       "serviceType": "Taxi and transfer service",
-      "name": "Taxi Šibenik by TAXI Antonio",
+      "name": "Taxi Skradin by TAXI Antonio",
       "areaServed": {
         "@type": "City",
-        "name": "Šibenik"
+        "name": "Skradin"
       },
       "provider": {
         "@type": "LocalBusiness",
@@ -101,7 +115,21 @@
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Local taxi rides in Šibenik"
+              "name": "Local taxi rides in Skradin"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Krka National Park boat dock transfers"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "ACI Marina Skradin transfers"
             }
           },
           {
@@ -117,20 +145,6 @@
               "@type": "Service",
               "name": "City-to-city transfers"
             }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Hotel transfers"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Day trips to Krka and Plitvice"
-            }
           }
         ]
       }
@@ -141,7 +155,7 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "How do I book a taxi from Šibenik?",
+          "name": "How do I book a taxi in Skradin?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Call +385 99 447 1013, message on WhatsApp, or send an email. Antonio needs the pickup location, destination, and preferred pickup or arrival time."
@@ -152,7 +166,7 @@
           "name": "How far in advance should I book?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Last-minute requests are accepted within working hours, but booking in advance guarantees availability."
+            "text": "Last-minute requests are accepted within working hours, but a booking needs at least 2 hours notice so the car and pickup time can be confirmed. Booking further ahead guarantees availability."
           }
         },
         {
@@ -168,7 +182,7 @@
           "name": "Do you take advance payments?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Confirming a booking requires a 20% advance payment (minimum 20 euros). Rides priced at 20 euros or below require full payment in advance. Advance payments can be made by bank transfer (SEPA) or card, with the remaining balance settled on the day of the transfer."
+            "text": "Yes. Confirming a booking requires a 20% advance payment (minimum 20 euros). Rides priced at 20 euros or below require full payment in advance. Advance payments can be made by bank transfer (SEPA) or card, with the remaining balance settled on the day, in cash or by card."
           }
         },
         {
@@ -181,26 +195,26 @@
         },
         {
           "@type": "Question",
-          "name": "Do you do hospital pickups in Šibenik?",
+          "name": "Can you take me to the Krka National Park entrance in Skradin?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Antonio takes passengers to and from Šibenik General Hospital and is allowed to drive into the hospital grounds, so there is no long walk from a car park."
+            "text": "Yes. Skradin is the main gateway to Krka. Antonio drops you at the riverfront boat dock where the park boats leave for the Skradinski Buk waterfalls, and picks you up when you are back."
           }
         },
         {
           "@type": "Question",
-          "name": "Can you take me to the ferry for the islands?",
+          "name": "Do you pick up from ACI Marina Skradin?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Antonio drops off and picks up at the Šibenik ferry and catamaran port for Zlarin, Prvić, Kaprije and Žirje, and the boat to Obonjan."
+            "text": "Yes. Antonio collects and drops off crews right at ACI Marina Skradin, with room for luggage and provisions. Send the berth number to arrange the meeting point."
           }
         },
         {
           "@type": "Question",
-          "name": "Do you pick up from Šibenik hotels, the bus and train stations?",
+          "name": "Do you drive to Šibenik and the airports?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Antonio serves all the local hotels, the bus station, the Šibenik and Perković train stations and the ferry port, with luggage help and a name sign on request."
+            "text": "Yes. Antonio runs fixed-price transfers from Skradin to Šibenik, Split and Zadar airports, and cities across Dalmatia. For rides starting in Šibenik itself, see the sister service at taxisibenik.hr."
           }
         },
         {

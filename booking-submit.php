@@ -129,7 +129,7 @@ $headers = 'From: TAXI Antonio <' . $c['mail_from'] . ">\r\n" .
 @mail(
     $c['admin_email'],
     'New booking #' . $id . ': ' . $pickup . ' to ' . $dropoff,
-    "New booking request (#{$id}) from taxisibenik.hr:\n\n{$summary}\n\nManage it in the admin dashboard.",
+    "New booking request (#{$id}) from taxiskradin.hr:\n\n{$summary}\n\nManage it in the admin dashboard.",
     $headers
 );
 
@@ -140,7 +140,7 @@ $custHeaders = 'From: TAXI Antonio <' . $c['mail_from'] . ">\r\n" .
 @mail(
     $email,
     'Your TAXI Antonio booking request (#' . $id . ')',
-    "Hi {$name},\n\nThank you for your booking request. I have received it and will confirm shortly, usually within a few hours.\n\nYour request:\n\n{$summary}\n\nIf anything is wrong, just reply to this email or call +385 99 447 1013.\n\nAntonio\nTAXI Antonio, Sibenik",
+    "Hi {$name},\n\nThank you for your booking request. I have received it and will confirm shortly, usually within a few hours.\n\nYour request:\n\n{$summary}\n\nIf anything is wrong, just reply to this email or call +385 99 447 1013.\n\nAntonio\nTAXI Antonio, Skradin",
     $custHeaders
 );
 

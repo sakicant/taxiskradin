@@ -212,7 +212,7 @@ def build_variant(lang, meta, content_path, base_tpl, hreflang_block, variants):
 def page_priority(slug):
     if slug == "":
         return "1.0"
-    if slug in ("airport-transfers-from-sibenik", "sibenik-transfers", "daytrips"):
+    if slug in ("skradin-airport-transfers", "skradin-transfers", "aci-marina-skradin-transfers"):
         return "0.9"
     if slug in ("privacy-policy", "terms-and-conditions", "book"):
         return "0.3"
