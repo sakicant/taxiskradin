@@ -83,9 +83,10 @@ def build(frm, to, slug):
     rev = slug_of.get((to, frm))
     if rev:
         revlink = '<a href="/%s/">%s to %s</a>' % (rev, to, frm)
+    elif frm == "Skradin" and to == "Šibenik":
+        # The Šibenik-origin reverse leg lives on the sister site taxisibenik.hr.
+        revlink = '<a href="https://taxisibenik.hr/taxi-sibenik-to-skradin/">%s to %s</a>' % (to, frm)
     else:
-        # No reverse page (e.g. Šibenik-origin trips live on the sister site);
-        # plain text, no link, so we never point at a page that does not exist.
         revlink = "%s to %s" % (to, frm)
     book = book_link(frm, to, p)
 
