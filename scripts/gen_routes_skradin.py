@@ -31,7 +31,8 @@ def fmt_time(sec):
 
 MAPK = {'Šibenik':'Šibenik - center','Brodarica':'Brodarica - Šibenik','Skradin':'Skradin - center',
         'Split Airport':'Split Airport (SPU)','Zadar Airport':'Zadar Airport (ZAD)',
-        'Zagreb Airport':'Zagreb Airport (ZAG)','Dubrovnik Airport':'Dubrovnik Airport (DBV)'}
+        'Zagreb Airport':'Zagreb Airport (ZAG)','Dubrovnik Airport':'Dubrovnik Airport (DBV)',
+        'Roški Slap':'NP Krka - Roški Slap entrance'}
 key = lambda n: MAPK.get(n, n)
 
 BIG_CITIES = {'Split','Zadar','Dubrovnik','Zagreb','Trogir'}

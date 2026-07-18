@@ -38,3 +38,4 @@ Makarska (both directions) uses the EUR 210 fare added to the PRICES matrix on 2
 | Dubrovnik | Skradin | `taxi-dubrovnik-to-skradin` | 485 |
 | Skradin | Makarska | `taxi-skradin-to-makarska` | 210 |
 | Makarska | Skradin | `taxi-makarska-to-skradin` | 210 |
+| Skradin | Roški Slap | `taxi-skradin-to-roski-slap` | 50 |
