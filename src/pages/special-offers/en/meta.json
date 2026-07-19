@@ -1,14 +1,14 @@
 {
   "slug": "special-offers",
-  "title": "Special Offers & Last-Minute Transfers | TAXI Antonio",
-  "description": "Last-minute and empty-leg taxi transfer offers around Skradin at a discount. Grab a fixed pickup window and travel for less. Updated regularly.",
-  "keywords": "taxi skradin offers, last minute transfer skradin, cheap airport transfer skradin, empty leg taxi croatia, discounted split airport transfer",
+  "title": "Skradin Taxi Special Offers | Best Price, Limited Time",
+  "description": "Special offers on Skradin taxi and transfer rides: last-minute and empty-leg deals at the best price, for a limited time. Fixed fares, book while they last.",
+  "keywords": "skradin taxi special offers, best price transfer skradin, limited time taxi offer, last minute transfer skradin, cheap krka airport transfer",
   "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
   "schema": {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Special Offers & Last-Minute Transfers",
-    "description": "Last-minute and empty-leg taxi transfer offers around Skradin at a discounted price.",
+    "name": "Skradin Taxi Special Offers: Best Price, Limited Time",
+    "description": "Limited-time special offers on Skradin taxi and transfer rides at the best price: last-minute and empty-leg deals, fixed fares.",
     "url": "https://taxiskradin.hr/special-offers/",
     "provider": {
       "@type": "LocalBusiness",
