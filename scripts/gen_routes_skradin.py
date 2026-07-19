@@ -71,6 +71,17 @@ def route_type(frm, to):
     if frm in BIG_CITIES or to in BIG_CITIES: return "city"
     return "local"
 
+def hero_for(frm, to, slug, typ):
+    """Pick the hero image (desktop, mobile) by route type. Airport routes get the
+    airport photo (two variants, chosen deterministically per slug); Roški Slap
+    routes get the Krka photo; everything else gets the coastal city photo."""
+    if typ in ("to_airport", "from_airport"):
+        desk = "skradin-hero-airport.webp" if vhash(slug, 2) == 0 else "skradin-hero-airport-2.webp"
+        return desk, "skradin-hero-airport-mobile.webp"
+    if frm == "Roški Slap" or to == "Roški Slap":
+        return "skradin-hero-roski.webp", "skradin-hero-roski-mobile.webp"
+    return "skradin-hero-city.webp", "skradin-hero-city-mobile.webp"
+
 def faq_html(items):
     return "\n".join(
         '          <div class="faq-item">\n            <h4>%s</h4>\n            <p>%s</p>\n          </div>' % (q, a)
@@ -80,6 +91,11 @@ def build(frm, to, slug):
     p = price(key(frm), key(to))
     rp = p * 2
     typ = route_type(frm, to)
+    herod, herom = hero_for(frm, to, slug, typ)
+    hero_img_html = ('<picture>\n'
+        '        <source media="(max-width: 768px)" srcset="/assets/img/%s">\n'
+        '        <img src="/assets/img/%s" alt="Taxi %s to %s: TAXI Antonio\'s Škoda Superb" loading="eager">\n'
+        '      </picture>') % (herom, herod, frm, to)
     rev = slug_of.get((to, frm))
     if rev:
         revlink = '<a href="/%s/">%s to %s</a>' % (rev, to, frm)
@@ -244,7 +260,7 @@ def build(frm, to, slug):
 
     content = '''  <section id="hero" class="hero daytrip-hero">
     <div class="hero-bg">
-      <img src="/assets/img/hero-transfers.webp" alt="Taxi %s to %s: TAXI Antonio's Škoda Superb on the Dalmatian coast" loading="eager">
+      %s
       <div class="hero-overlay"></div>
     </div>
     <div class="container" id="book">
@@ -339,7 +355,7 @@ def build(frm, to, slug):
   </section>
 
 {{RELATED_LINKS}}
-''' % (frm, to,
+''' % (hero_img_html,
        frm, to, tagline, p, book, wa, trust_line, facts_html,
        frm, to, heading, intro,
        frm, to, why_html,
@@ -369,7 +385,7 @@ def build(frm, to, slug):
     ]
     meta = {"slug": slug, "title": "Taxi %s to %s | Fixed €%d Transfer | TAXI Antonio" % (frm, to, p),
             "description": desc.replace('&euro;', '€'), "keywords": keywords,
-            "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp", "schema": schema}
+            "og_image": "https://taxiskradin.hr/assets/img/%s" % herod, "schema": schema}
 
     outdir = os.path.join(PAGES, slug, "en")
     os.makedirs(outdir, exist_ok=True)
