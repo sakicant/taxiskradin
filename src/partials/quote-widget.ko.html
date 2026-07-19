@@ -1,0 +1,46 @@
+      <div class="quote-widget" id="quote-widget">
+        <div class="quote-trip-toggle">
+          <button type="button" class="trip-toggle-btn active" data-trip="oneway">편도</button>
+          <button type="button" class="trip-toggle-btn" data-trip="return">왕복</button>
+        </div>
+
+        <div class="quote-field">
+          <label for="quote-from-input">출발지</label>
+          <div class="combo" data-placeholder="탑승 위치">
+            <input type="text" class="combo-input" id="quote-from-input" placeholder="탑승 위치" autocomplete="off" role="combobox" aria-expanded="false" aria-autocomplete="list">
+            <input type="hidden" id="quote-from">
+            <div class="combo-panel" hidden></div>
+          </div>
+        </div>
+        <div class="quote-field">
+          <label for="quote-to-input">도착지</label>
+          <div class="combo" data-placeholder="목적지">
+            <input type="text" class="combo-input" id="quote-to-input" placeholder="목적지" autocomplete="off" role="combobox" aria-expanded="false" aria-autocomplete="list">
+            <input type="hidden" id="quote-to">
+            <div class="combo-panel" hidden></div>
+          </div>
+        </div>
+
+        <div class="quote-field-row">
+          <div class="quote-stepper">
+            <label>승객</label>
+            <div class="stepper-control">
+              <button type="button" class="stepper-btn" data-target="quote-passengers" data-delta="-1" aria-label="승객 줄이기">&minus;</button>
+              <span id="quote-passengers" data-value="1" data-min="1" data-max="12">1</span>
+              <button type="button" class="stepper-btn" data-target="quote-passengers" data-delta="1" aria-label="승객 늘리기">+</button>
+            </div>
+          </div>
+          <div class="quote-stepper">
+            <label>수하물</label>
+            <div class="stepper-control">
+              <button type="button" class="stepper-btn" data-target="quote-luggage" data-delta="-1" aria-label="수하물 줄이기">&minus;</button>
+              <span id="quote-luggage" data-value="1" data-min="0" data-max="6">1</span>
+              <button type="button" class="stepper-btn" data-target="quote-luggage" data-delta="1" aria-label="수하물 늘리기">+</button>
+            </div>
+          </div>
+        </div>
+
+        <button type="button" id="quote-submit" class="btn btn-primary quote-btn">고정 요금 확인</button>
+
+        <div id="quote-result" class="quote-result" hidden></div>
+      </div>

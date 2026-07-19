@@ -1,0 +1,46 @@
+      <div class="quote-widget" id="quote-widget">
+        <div class="quote-trip-toggle">
+          <button type="button" class="trip-toggle-btn active" data-trip="oneway">片道</button>
+          <button type="button" class="trip-toggle-btn" data-trip="return">往復</button>
+        </div>
+
+        <div class="quote-field">
+          <label for="quote-from-input">出発地</label>
+          <div class="combo" data-placeholder="Pickup location">
+            <input type="text" class="combo-input" id="quote-from-input" placeholder="お迎え場所" autocomplete="off" role="combobox" aria-expanded="false" aria-autocomplete="list">
+            <input type="hidden" id="quote-from">
+            <div class="combo-panel" hidden></div>
+          </div>
+        </div>
+        <div class="quote-field">
+          <label for="quote-to-input">行き先</label>
+          <div class="combo" data-placeholder="Destination">
+            <input type="text" class="combo-input" id="quote-to-input" placeholder="目的地" autocomplete="off" role="combobox" aria-expanded="false" aria-autocomplete="list">
+            <input type="hidden" id="quote-to">
+            <div class="combo-panel" hidden></div>
+          </div>
+        </div>
+
+        <div class="quote-field-row">
+          <div class="quote-stepper">
+            <label>乗客数</label>
+            <div class="stepper-control">
+              <button type="button" class="stepper-btn" data-target="quote-passengers" data-delta="-1" aria-label="乗客数を減らす">&minus;</button>
+              <span id="quote-passengers" data-value="1" data-min="1" data-max="12">1</span>
+              <button type="button" class="stepper-btn" data-target="quote-passengers" data-delta="1" aria-label="乗客数を増やす">+</button>
+            </div>
+          </div>
+          <div class="quote-stepper">
+            <label>荷物</label>
+            <div class="stepper-control">
+              <button type="button" class="stepper-btn" data-target="quote-luggage" data-delta="-1" aria-label="荷物を減らす">&minus;</button>
+              <span id="quote-luggage" data-value="1" data-min="0" data-max="6">1</span>
+              <button type="button" class="stepper-btn" data-target="quote-luggage" data-delta="1" aria-label="荷物を増やす">+</button>
+            </div>
+          </div>
+        </div>
+
+        <button type="button" id="quote-submit" class="btn btn-primary quote-btn">固定料金を表示</button>
+
+        <div id="quote-result" class="quote-result" hidden></div>
+      </div>

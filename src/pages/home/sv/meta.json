@@ -1,0 +1,255 @@
+{
+  "slug": "",
+  "title": "Taxi Skradin | Fastprisresor & transferer | TAXI Antonio",
+  "description": "Taxi Skradin för lokala resor, båtbryggan till nationalparken Krka, ACI Marina Skradin och flygplatstransferer till fast pris. Engelsktalande förare. Boka direkt med Antonio.",
+  "keywords": "taxi skradin, skradin taxi, skradin transfer, flygplatstransfer skradin, taxi skradin krka, aci marina skradin taxi, taxi nationalparken krka",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-bg.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "TAXI Skradin - Antonio",
+      "url": "https://taxiskradin.hr/sv/",
+      "telephone": "+385994471013",
+      "email": "info@taxiskradin.hr",
+      "areaServed": [
+        "Skradin",
+        "Krka National Park",
+        "ACI Marina Skradin",
+        "Šibenik",
+        "Split",
+        "Zadar",
+        "Dubrovnik",
+        "Zagreb"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Skradin",
+        "postalCode": "22222",
+        "addressCountry": "HR"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "142"
+      },
+      "priceRange": "€€",
+      "alternateName": "TAXI Antonio",
+      "@id": "https://taxiskradin.hr/sv/#business",
+      "image": "https://taxiskradin.hr/assets/img/hero-bg.webp",
+      "paymentAccepted": "Kontanter, kreditkort",
+      "currenciesAccepted": "EUR",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 43.8186,
+        "longitude": 15.9214
+      },
+      "hasMap": "https://www.google.com/maps?cid=4748268601430744277",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "07:00",
+          "closes": "14:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "16:00",
+          "closes": "21:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "06:00",
+          "closes": "16:00"
+        }
+      ],
+      "sameAs": [
+        "https://web.facebook.com/profile.php?id=61579783829997",
+        "https://www.instagram.com/taxi_sibenik/",
+        "https://www.tiktok.com/@taxisibenik",
+        "https://www.tripadvisor.com/Attraction_Review-g295375-d24821165-Reviews-TAXI_Sibenik_Skradin_Antonio-Sibenik_Sibenik_Knin_County_Dalmatia.html",
+        "https://www.google.com/maps?cid=4748268601430744277"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Taxi- och transfertjänst",
+      "name": "Taxi Skradin av TAXI Antonio",
+      "areaServed": {
+        "@type": "City",
+        "name": "Skradin"
+      },
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Taxi- och transfertjänster",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Lokala taxiresor i Skradin"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Transferer till båtbryggan i nationalparken Krka"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Transferer till ACI Marina Skradin"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Flygplatstransferer"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Transferer mellan städer"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hur bokar jag en taxi i Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ring +385 99 447 1013, skriv på WhatsApp eller skicka ett mejl. Antonio behöver upphämtningsplats, destination och önskad upphämtnings- eller ankomsttid."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hur långt i förväg bör jag boka?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Förfrågningar i sista minuten accepteras under arbetstid, men en bokning kräver minst 2 timmars framförhållning så att bilen och upphämtningstiden kan bekräftas. Att boka tidigare garanterar tillgänglighet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Vad betyder \"fast pris\"? Vad ingår?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fasta priser inkluderar transport, bränsle, vägtullar och hjälp med bagaget. Inga dolda avgifter. Extra stopp eller lång väntetid kan kosta mer, vilket meddelas i förväg."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tar du emot förskottsbetalningar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. För att bekräfta en bokning krävs en förskottsbetalning på 20 % (minst 20 euro). Resor som kostar 20 euro eller mindre kräver full betalning i förväg. Förskottsbetalningar kan göras via banköverföring (SEPA) eller kort, och resterande belopp betalas samma dag, kontant eller med kort."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tar du emot kortbetalning i bilen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, kort och andra kontaktlösa betalningsmetoder accepteras."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan du köra mig till ingången till nationalparken Krka i Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Skradin är den främsta porten till Krka. Antonio släpper av dig vid båtbryggan längs floden där parkens båtar avgår till vattenfallen Skradinski Buk, och hämtar dig när du är tillbaka."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hämtar du vid ACI Marina Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Antonio hämtar och lämnar besättningar direkt vid ACI Marina Skradin, med plats för bagage och proviant. Skicka båtplatsnumret för att komma överens om mötesplatsen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kör du till Šibenik och flygplatserna?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Antonio kör transferer till fast pris från Skradin till Šibenik, flygplatserna i Split och Zadar samt städer i hela Dalmatien. För resor som börjar i Šibenik, se systertjänsten på taxisibenik.hr."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Vad händer om mitt flyg är försenat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Flygankomster bevakas i realtid och upphämtningstiden justeras automatiskt, utan extra kostnad."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Vad händer om jag behöver avboka?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Avbokningar måste göras skriftligt via mejl. Mer än 72 timmar före bokningen gäller full återbetalning vid banköverföring, eller full återbetalning minus en expeditionsavgift på 10 euro vid kortbetalning. Avbokningar inom 72 timmar, eller uteblivna resor, återbetalas inte. Att boka om är alltid kostnadsfritt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan du ta emot en större grupp?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En Škoda Superb rymmer upp till 4 passagerare. För större grupper kan arrangemang ordnas genom lokala, handplockade partner."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Erbjuder du barnstolar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, barnstolar och bälteskuddar finns på begäran."
+          }
+        }
+      ]
+    }
+  ]
+}

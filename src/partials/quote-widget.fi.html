@@ -1,0 +1,46 @@
+      <div class="quote-widget" id="quote-widget">
+        <div class="quote-trip-toggle">
+          <button type="button" class="trip-toggle-btn active" data-trip="oneway">Yhdensuuntainen</button>
+          <button type="button" class="trip-toggle-btn" data-trip="return">Meno-paluu</button>
+        </div>
+
+        <div class="quote-field">
+          <label for="quote-from-input">Mistä</label>
+          <div class="combo" data-placeholder="Noutopaikka">
+            <input type="text" class="combo-input" id="quote-from-input" placeholder="Noutopaikka" autocomplete="off" role="combobox" aria-expanded="false" aria-autocomplete="list">
+            <input type="hidden" id="quote-from">
+            <div class="combo-panel" hidden></div>
+          </div>
+        </div>
+        <div class="quote-field">
+          <label for="quote-to-input">Minne</label>
+          <div class="combo" data-placeholder="Määränpää">
+            <input type="text" class="combo-input" id="quote-to-input" placeholder="Määränpää" autocomplete="off" role="combobox" aria-expanded="false" aria-autocomplete="list">
+            <input type="hidden" id="quote-to">
+            <div class="combo-panel" hidden></div>
+          </div>
+        </div>
+
+        <div class="quote-field-row">
+          <div class="quote-stepper">
+            <label>Matkustajat</label>
+            <div class="stepper-control">
+              <button type="button" class="stepper-btn" data-target="quote-passengers" data-delta="-1" aria-label="Vähennä matkustajia">&minus;</button>
+              <span id="quote-passengers" data-value="1" data-min="1" data-max="12">1</span>
+              <button type="button" class="stepper-btn" data-target="quote-passengers" data-delta="1" aria-label="Lisää matkustajia">+</button>
+            </div>
+          </div>
+          <div class="quote-stepper">
+            <label>Matkatavarat</label>
+            <div class="stepper-control">
+              <button type="button" class="stepper-btn" data-target="quote-luggage" data-delta="-1" aria-label="Vähennä matkatavaroita">&minus;</button>
+              <span id="quote-luggage" data-value="1" data-min="0" data-max="6">1</span>
+              <button type="button" class="stepper-btn" data-target="quote-luggage" data-delta="1" aria-label="Lisää matkatavaroita">+</button>
+            </div>
+          </div>
+        </div>
+
+        <button type="button" id="quote-submit" class="btn btn-primary quote-btn">Näytä kiinteä hinta</button>
+
+        <div id="quote-result" class="quote-result" hidden></div>
+      </div>

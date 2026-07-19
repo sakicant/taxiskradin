@@ -1,0 +1,46 @@
+      <div class="quote-widget" id="quote-widget">
+        <div class="quote-trip-toggle">
+          <button type="button" class="trip-toggle-btn active" data-trip="oneway">Solo ida</button>
+          <button type="button" class="trip-toggle-btn" data-trip="return">Ida y vuelta</button>
+        </div>
+
+        <div class="quote-field">
+          <label for="quote-from-input">Desde</label>
+          <div class="combo" data-placeholder="Lugar de recogida">
+            <input type="text" class="combo-input" id="quote-from-input" placeholder="Lugar de recogida" autocomplete="off" role="combobox" aria-expanded="false" aria-autocomplete="list">
+            <input type="hidden" id="quote-from">
+            <div class="combo-panel" hidden></div>
+          </div>
+        </div>
+        <div class="quote-field">
+          <label for="quote-to-input">Hasta</label>
+          <div class="combo" data-placeholder="Destino">
+            <input type="text" class="combo-input" id="quote-to-input" placeholder="Destino" autocomplete="off" role="combobox" aria-expanded="false" aria-autocomplete="list">
+            <input type="hidden" id="quote-to">
+            <div class="combo-panel" hidden></div>
+          </div>
+        </div>
+
+        <div class="quote-field-row">
+          <div class="quote-stepper">
+            <label>Pasajeros</label>
+            <div class="stepper-control">
+              <button type="button" class="stepper-btn" data-target="quote-passengers" data-delta="-1" aria-label="Reducir pasajeros">&minus;</button>
+              <span id="quote-passengers" data-value="1" data-min="1" data-max="12">1</span>
+              <button type="button" class="stepper-btn" data-target="quote-passengers" data-delta="1" aria-label="Aumentar pasajeros">+</button>
+            </div>
+          </div>
+          <div class="quote-stepper">
+            <label>Equipaje</label>
+            <div class="stepper-control">
+              <button type="button" class="stepper-btn" data-target="quote-luggage" data-delta="-1" aria-label="Reducir equipaje">&minus;</button>
+              <span id="quote-luggage" data-value="1" data-min="0" data-max="6">1</span>
+              <button type="button" class="stepper-btn" data-target="quote-luggage" data-delta="1" aria-label="Aumentar equipaje">+</button>
+            </div>
+          </div>
+        </div>
+
+        <button type="button" id="quote-submit" class="btn btn-primary quote-btn">Ver precio fijo</button>
+
+        <div id="quote-result" class="quote-result" hidden></div>
+      </div>

@@ -1,34 +1,35 @@
-# TAXI Antonio (taxisibenik.hr)
+# TAXI Antonio (taxiskradin.hr)
 
-> Licensed private taxi and transfer service based in Šibenik, Croatia, run by one local driver, Antonio Šakić. Fixed-price, door-to-door airport transfers, city-to-city transfers, day trips and local taxi rides across Dalmatia in a comfortable Škoda Superb for up to 4 passengers. Every fare is agreed in advance, with no meter. Phone/WhatsApp: +385 99 447 1013. Email: info@taxisibenik.hr.
+> Licensed private taxi and transfer service based in Skradin, Croatia, run by one local driver, Antonio Šakić. Fixed-price, door-to-door transfers between Skradin, Krka National Park, the Plastovo wineries, the Dalmatian coast and all four regional airports, in a comfortable Škoda Superb for up to 4 passengers. Every fare is agreed in advance, with no meter. Phone/WhatsApp: +385 99 447 1013. Email: info@taxiskradin.hr.
 
 ## Key facts
 
 - One driver, one car: Antonio Šakić, a Škoda Superb seating up to 4 passengers with luggage.
 - Fixed prices per car (not per person), agreed before travel. A 20% advance payment (minimum €20) confirms a booking; the balance is paid on the day in cash or by card.
 - Bookings need at least 2 hours' notice.
-- Serves Šibenik and the wider Dalmatian coast and interior, and all four regional airports: Split (SPU), Zadar (ZAD), Zagreb (ZAG) and Dubrovnik (DBV).
-- For larger groups or a van, Antonio arranges it through a hand-picked network of trusted local drivers, staying the single point of contact.
+- Transport only. Antonio is a taxi and transfer driver, not a tour agency: no per-person pricing, no guided tours, and no charge for advice or tastings.
+- Based in Skradin, the main gateway to Krka National Park (the Skradin entrance and the boat to Skradinski buk), plus the Lozovac and Roški Slap entrances.
+- Serves all four regional airports: Split (SPU), Zadar (ZAD), Zagreb (ZAG) and Dubrovnik (DBV).
+- Antonio speaks Croatian and English.
+- Working hours: Mon-Fri 07:00-14:00 and 16:00-21:00, Sat-Sun 06:00-16:00. Available 24/7 for rides booked in advance.
+- Published in 19 languages: English at the root plus hr, de, pl, cs, it, fr, nl, sl, hu, sk, es, sv, sr, no, zh, ko, fi and ja, each under its own language prefix.
 
 ## Main pages
 
-- [Taxi Šibenik (home)](https://taxisibenik.hr/): Local taxi and transfers across Šibenik and the region.
-- [Airport Transfers](https://taxisibenik.hr/airport-transfers-from-sibenik/): Fixed-price transfers to and from Split, Zadar, Zagreb and Dubrovnik airports, with flight monitoring.
-- [City-to-City Transfers](https://taxisibenik.hr/sibenik-transfers/): Private transfers between Šibenik and cities across Dalmatia (Split, Zadar, Dubrovnik, Zagreb, Trogir and more).
-- [Day Trips](https://taxisibenik.hr/daytrips/): Private round-trip day trips to Krka National Park and Plitvice Lakes.
-- [About Antonio](https://taxisibenik.hr/about/): The driver, the car and how the one-person service works.
-- [Book a Transfer](https://taxisibenik.hr/book/): Booking form with a prefilled trip summary and fixed price.
-- [Contact](https://taxisibenik.hr/contact/): Phone, WhatsApp and email.
+- [Taxi Skradin (home)](https://taxiskradin.hr/): Fixed-price local taxi and transfers from Skradin and the Krka area.
+- [Skradin Transfers](https://taxiskradin.hr/skradin-transfers/): Private city-to-city transfers between Skradin and towns across Dalmatia (Šibenik, Split, Zadar, Trogir, Dubrovnik, Zagreb and more).
+- [Skradin Airport Transfers](https://taxiskradin.hr/skradin-airport-transfers/): Fixed-price transfers to and from Split, Zadar, Zagreb and Dubrovnik airports, with flight monitoring and meet-and-greet.
+- [ACI Marina Skradin Transfers](https://taxiskradin.hr/aci-marina-skradin-transfers/): Private transfers for marina and charter guests, timed around the boat.
+- [Skradin Winery Transfers](https://taxiskradin.hr/skradin-winery-transfers/): Transport to the Plastovo wineries, Bibich and Sladić. Transport only; you book the tasting directly with the winery.
+- [Special Offers](https://taxiskradin.hr/special-offers/): Limited-time last-minute and empty-leg deals at the best price.
+- [About Antonio](https://taxiskradin.hr/about/): Who drives you, the car, and how the service works.
+- [Contact](https://taxiskradin.hr/contact/): Phone, WhatsApp, email and the contact form.
+- [Book](https://taxiskradin.hr/book/): Booking form that carries the fixed quote for your route.
 
-## Popular day trips
+## Route pages
 
-- [Day Trip to Krka from Šibenik](https://taxisibenik.hr/day-trip-krka-national-park-sibenik/): Private round-trip transfer to the Krka waterfalls, fixed €100.
-- [Day Trip to Plitvice from Šibenik](https://taxisibenik.hr/day-trip-plitvice-lakes-national-park-sibenik/): Private round-trip transfer to Plitvice Lakes, fixed €500.
+The site has around 200 dedicated route pages, each showing a fixed fare for the whole car (up to 4 passengers) plus distance and drive time. English route pages follow the pattern `https://taxiskradin.hr/taxi-<from>-to-<to>/`, and the same route exists in every other language under its language prefix. Routes start from Skradin, Roški Slap or Plastovo, or run in the opposite direction where that reverse leg is not covered by the sister site.
 
-## Routes
+## Sister site
 
-Individual fixed-price route pages exist for hundreds of specific journeys, one per direction, following the pattern https://taxisibenik.hr/taxi-<from>-to-<to>/ (for example, https://taxisibenik.hr/taxi-sibenik-to-split-airport/). Each lists the fixed fare and lets visitors book directly.
-
-## Service area towns
-
-Local taxi pages cover Šibenik, Bilice, Brodarica, Jadrija, Zablaće, Žaborić, Srima, Vodice, Tromilja, Lozovac, Perković, Grebaštica, Bilo, Drniš and Knin, following the pattern https://taxisibenik.hr/taxi-<town>/.
+- [taxisibenik.hr](https://taxisibenik.hr/): The same driver's Šibenik-based site. The two sites are complementary, not competing. Skradin-origin journeys are published here on taxiskradin.hr and Šibenik-origin journeys on taxisibenik.hr; every route lives on exactly one of the two domains, and the pair cross-links so a visitor always lands on the correct page for their direction of travel.

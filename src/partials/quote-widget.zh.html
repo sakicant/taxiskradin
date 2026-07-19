@@ -1,0 +1,46 @@
+      <div class="quote-widget" id="quote-widget">
+        <div class="quote-trip-toggle">
+          <button type="button" class="trip-toggle-btn active" data-trip="oneway">单程</button>
+          <button type="button" class="trip-toggle-btn" data-trip="return">往返</button>
+        </div>
+
+        <div class="quote-field">
+          <label for="quote-from-input">出发地</label>
+          <div class="combo" data-placeholder="Pickup location">
+            <input type="text" class="combo-input" id="quote-from-input" placeholder="上车地点" autocomplete="off" role="combobox" aria-expanded="false" aria-autocomplete="list">
+            <input type="hidden" id="quote-from">
+            <div class="combo-panel" hidden></div>
+          </div>
+        </div>
+        <div class="quote-field">
+          <label for="quote-to-input">目的地</label>
+          <div class="combo" data-placeholder="Destination">
+            <input type="text" class="combo-input" id="quote-to-input" placeholder="下车地点" autocomplete="off" role="combobox" aria-expanded="false" aria-autocomplete="list">
+            <input type="hidden" id="quote-to">
+            <div class="combo-panel" hidden></div>
+          </div>
+        </div>
+
+        <div class="quote-field-row">
+          <div class="quote-stepper">
+            <label>乘客</label>
+            <div class="stepper-control">
+              <button type="button" class="stepper-btn" data-target="quote-passengers" data-delta="-1" aria-label="减少乘客">&minus;</button>
+              <span id="quote-passengers" data-value="1" data-min="1" data-max="12">1</span>
+              <button type="button" class="stepper-btn" data-target="quote-passengers" data-delta="1" aria-label="增加乘客">+</button>
+            </div>
+          </div>
+          <div class="quote-stepper">
+            <label>行李</label>
+            <div class="stepper-control">
+              <button type="button" class="stepper-btn" data-target="quote-luggage" data-delta="-1" aria-label="减少行李">&minus;</button>
+              <span id="quote-luggage" data-value="1" data-min="0" data-max="6">1</span>
+              <button type="button" class="stepper-btn" data-target="quote-luggage" data-delta="1" aria-label="增加行李">+</button>
+            </div>
+          </div>
+        </div>
+
+        <button type="button" id="quote-submit" class="btn btn-primary quote-btn">查看固定价格</button>
+
+        <div id="quote-result" class="quote-result" hidden></div>
+      </div>

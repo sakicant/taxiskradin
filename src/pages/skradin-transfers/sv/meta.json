@@ -1,0 +1,88 @@
+{
+  "slug": "skradin-transfers",
+  "title": "Transfer i Skradin | Fasta priser | TAXI Antonio",
+  "description": "Transfer och taxi i Skradin till och från Split, Zadar, Zagreb, Dubrovnik, Trogir, Vodice och Primošten. Fasta priser, privat dörr till dörr, en lokal förare. Boka direkt med Antonio.",
+  "keywords": "skradin transfer, transfer skradin, taxi skradin, skradin till split, skradin till zadar, skradin till zagreb, skradin till dubrovnik",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Taxitransfer mellan städer",
+      "name": "Transfer i Skradin",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Split",
+        "Zadar",
+        "Zagreb",
+        "Dubrovnik",
+        "Trogir",
+        "Vodice",
+        "Primošten"
+      ],
+      "url": "https://taxiskradin.hr/sv/skradin-transfers/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Vad kostar en taxitransfer från Skradin till Split?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En privat taxitransfer från Skradin till Split kostar fasta 140 euro per bil för upp till 4 passagerare, med vägtullar, bränsle och bagage inkluderat."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Är transferpriserna fasta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Varje transfer mellan städer har ett fast pris per bil för upp till 4 passagerare, avtalat i förväg. Ingen taxameter och inga överraskningar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Är transfern privat eller delad?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Varje transfer är privat och går dörr till dörr, i en Škoda Superb. Det finns ingen samåkning och inga extra stopp om du inte ber om dem."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan du stanna på vägen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. På längre transfer stannar jag gärna för en kaffe, ett foto eller en snabb sevärdhet. Säg bara till när du bokar så räknar jag in det."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hur betalar jag för en transfer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ett förskott på 20 % (minst 20 euro) bekräftar bokningen, via banköverföring eller kort. Resten betalas till föraren på plats samma dag, kontant eller med kort."
+          }
+        }
+      ]
+    }
+  ]
+}

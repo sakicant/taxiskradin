@@ -1,0 +1,31 @@
+{
+  "slug": "book",
+  "title": "预订您的出租车接送 | TAXI Antonio Skradin",
+  "description": "确认您在斯克拉丁的出租车与接送预订。填写您的日期、时间和联系方式,Antonio 会直接确认您的专属行程,通常在数小时内。",
+  "keywords": "预订斯克拉丁出租车, 斯克拉丁接送预订, 斯克拉丁出租车预订, 斯克拉丁专属接送",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": "https://taxiskradin.hr/zh/book/#webpage",
+      "url": "https://taxiskradin.hr/zh/book/",
+      "name": "预订您的出租车接送 | TAXI Antonio Skradin",
+      "description": "发送来自斯克拉丁的专属出租车与接送预订请求。每车固定价格,最多可乘坐 4 名乘客,提前商定。Antonio 直接确认,通常在数小时内。",
+      "inLanguage": "zh",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "TAXI Antonio",
+        "url": "https://taxiskradin.hr/zh/",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "areaServed": "Skradin",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        }
+      }
+    }
+  ]
+}

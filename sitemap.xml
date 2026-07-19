@@ -620,6 +620,7 @@
   <url><loc>https://taxiskradin.hr/es/taxi-zagreb-skradin/</loc><lastmod>2026-07-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taxiskradin.hr/es/taxi-zaton-roski-slap/</loc><lastmod>2026-07-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taxiskradin.hr/es/taxi-zaton-skradin/</loc><lastmod>2026-07-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://taxiskradin.hr/fi/about/</loc><lastmod>2026-07-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taxiskradin.hr/fi/taxi-aci-marina-jezera-roski-slap/</loc><lastmod>2026-07-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taxiskradin.hr/fi/taxi-aci-marina-jezera-skradin/</loc><lastmod>2026-07-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taxiskradin.hr/fi/taxi-aci-marina-trogir-roski-slap/</loc><lastmod>2026-07-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -1649,6 +1650,7 @@
   <url><loc>https://taxiskradin.hr/it/taxi-zaton-roski-slap/</loc><lastmod>2026-07-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taxiskradin.hr/it/taxi-zaton-skradin/</loc><lastmod>2026-07-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taxiskradin.hr/it/termini-e-condizioni/</loc><lastmod>2026-07-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://taxiskradin.hr/ja/about/</loc><lastmod>2026-07-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taxiskradin.hr/ja/taxi-aci-marina-jezera-roski-slap/</loc><lastmod>2026-07-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taxiskradin.hr/ja/taxi-aci-marina-jezera-skradin/</loc><lastmod>2026-07-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taxiskradin.hr/ja/taxi-aci-marina-trogir-roski-slap/</loc><lastmod>2026-07-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -3085,6 +3087,9 @@
   <url><loc>https://taxiskradin.hr/sl/taxi-zaton-skradin/</loc><lastmod>2026-07-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taxiskradin.hr/sl/zasebnost/</loc><lastmod>2026-07-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taxiskradin.hr/special-offers/</loc><lastmod>2026-07-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://taxiskradin.hr/sr/about/</loc><lastmod>2026-07-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://taxiskradin.hr/sr/book/</loc><lastmod>2026-07-19</lastmod><changefreq>weekly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://taxiskradin.hr/sr/contact/</loc><lastmod>2026-07-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taxiskradin.hr/sr/taxi-aci-marina-jezera-roski-slap/</loc><lastmod>2026-07-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taxiskradin.hr/sr/taxi-aci-marina-jezera-skradin/</loc><lastmod>2026-07-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taxiskradin.hr/sr/taxi-aci-marina-trogir-roski-slap/</loc><lastmod>2026-07-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -3286,6 +3291,8 @@
   <url><loc>https://taxiskradin.hr/sr/taxi-zagreb-skradin/</loc><lastmod>2026-07-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taxiskradin.hr/sr/taxi-zaton-roski-slap/</loc><lastmod>2026-07-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taxiskradin.hr/sr/taxi-zaton-skradin/</loc><lastmod>2026-07-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://taxiskradin.hr/sv/</loc><lastmod>2026-07-19</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://taxiskradin.hr/sv/skradin-transfers/</loc><lastmod>2026-07-19</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://taxiskradin.hr/sv/taxi-aci-marina-jezera-roski-slap/</loc><lastmod>2026-07-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taxiskradin.hr/sv/taxi-aci-marina-jezera-skradin/</loc><lastmod>2026-07-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taxiskradin.hr/sv/taxi-aci-marina-trogir-roski-slap/</loc><lastmod>2026-07-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -3690,6 +3697,9 @@
   <url><loc>https://taxiskradin.hr/taxi-zaton-to-roski-slap/</loc><lastmod>2026-07-19</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://taxiskradin.hr/taxi-zaton-to-skradin/</loc><lastmod>2026-07-19</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://taxiskradin.hr/terms-and-conditions/</loc><lastmod>2026-07-19</lastmod><changefreq>weekly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://taxiskradin.hr/zh/about/</loc><lastmod>2026-07-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://taxiskradin.hr/zh/book/</loc><lastmod>2026-07-19</lastmod><changefreq>weekly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://taxiskradin.hr/zh/contact/</loc><lastmod>2026-07-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taxiskradin.hr/zh/taxi-aci-marina-jezera-roski-slap/</loc><lastmod>2026-07-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taxiskradin.hr/zh/taxi-aci-marina-jezera-skradin/</loc><lastmod>2026-07-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://taxiskradin.hr/zh/taxi-aci-marina-trogir-roski-slap/</loc><lastmod>2026-07-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
