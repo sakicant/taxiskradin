@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-srima-to-roski-slap",
+  "title": "Taxi Srima to Roški Slap | Fixed €90 Transfer | TAXI Antonio",
+  "description": "Private taxi and transfer from Srima to Roški Slap. Fixed €90 per car, up to 4 passengers, door to door. Book direct with Antonio.",
+  "keywords": "taxi srima to roški slap, transfer srima to roški slap, srima to roški slap taxi, srima to roški slap transfer",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Private taxi transfer",
+      "name": "Taxi Srima to Roški Slap",
+      "description": "Private, fixed-price taxi and transfer from Srima to Roški Slap, 90 euros per car for up to 4 passengers, door to door.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Srima",
+        "Roški Slap"
+      ],
+      "url": "https://taxiskradin.hr/taxi-srima-to-roski-slap/",
+      "offers": {
+        "@type": "Offer",
+        "price": "90",
+        "priceCurrency": "EUR",
+        "description": "One-way private transfer from Srima to Roški Slap, per car for up to 4 passengers. Return 180 euros."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much is a taxi from Srima to Roški Slap?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fixed 90 per car for up to 4 passengers, one way, luggage included. A return trip is 180."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where do you pick up?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At your exact address in Srima, whether a home, hotel or apartment. Send the address when you book and I will confirm the meeting point."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How far in advance should I book?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At least 2 hours ahead so I can confirm the car and your pickup time. For a sooner ride, call or WhatsApp me directly."
+          }
+        }
+      ]
+    }
+  ]
+}

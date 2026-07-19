@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-bilo-to-roski-slap",
+  "title": "Taxi Bilo to Roški Slap | Fixed €125 Transfer | TAXI Antonio",
+  "description": "Private taxi and transfer from Bilo to Roški Slap. Fixed €125 per car, up to 4 passengers, door to door. Book direct with Antonio.",
+  "keywords": "taxi bilo to roški slap, transfer bilo to roški slap, bilo to roški slap taxi, bilo to roški slap transfer",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Private taxi transfer",
+      "name": "Taxi Bilo to Roški Slap",
+      "description": "Private, fixed-price taxi and transfer from Bilo to Roški Slap, 125 euros per car for up to 4 passengers, door to door.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Bilo",
+        "Roški Slap"
+      ],
+      "url": "https://taxiskradin.hr/taxi-bilo-to-roski-slap/",
+      "offers": {
+        "@type": "Offer",
+        "price": "125",
+        "priceCurrency": "EUR",
+        "description": "One-way private transfer from Bilo to Roški Slap, per car for up to 4 passengers. Return 250 euros."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much is a taxi from Bilo to Roški Slap?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fixed 125 per car for up to 4 passengers, one way, luggage included. A return trip is 250."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where do you pick up?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At your exact address in Bilo, whether a home, hotel or apartment. Send the address when you book and I will confirm the meeting point."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How far in advance should I book?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At least 2 hours ahead so I can confirm the car and your pickup time. For a sooner ride, call or WhatsApp me directly."
+          }
+        }
+      ]
+    }
+  ]
+}

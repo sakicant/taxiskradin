@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-jadrija-to-skradin",
+  "title": "Taxi Jadrija to Skradin | Fixed €75 Transfer | TAXI Antonio",
+  "description": "Private taxi and transfer from Jadrija to Skradin. Fixed €75 per car, up to 4 passengers, door to door. Book direct with Antonio.",
+  "keywords": "taxi jadrija to skradin, transfer jadrija to skradin, jadrija to skradin taxi, jadrija to skradin transfer",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Private taxi transfer",
+      "name": "Taxi Jadrija to Skradin",
+      "description": "Private, fixed-price taxi and transfer from Jadrija to Skradin, 75 euros per car for up to 4 passengers, door to door.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Jadrija",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/taxi-jadrija-to-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "75",
+        "priceCurrency": "EUR",
+        "description": "One-way private transfer from Jadrija to Skradin, per car for up to 4 passengers. Return 150 euros."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How far is Skradin from Jadrija, and how long is the drive?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The drive from Jadrija to Skradin is around 30 km and takes roughly 40 min in normal traffic, a little longer at busy times in summer. I plan the pickup so a slow patch never leaves you rushed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much is a taxi from Jadrija to Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fixed 75 per car for up to 4 passengers, one way, luggage included. A return trip is 150."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where do you pick up?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At your exact address in Jadrija, whether a home, hotel or apartment. Send the address when you book and I will confirm the meeting point."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How far in advance should I book?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At least 2 hours ahead so I can confirm the car and your pickup time. For a sooner ride, call or WhatsApp me directly."
+          }
+        }
+      ]
+    }
+  ]
+}

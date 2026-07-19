@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-roski-slap-to-aci-marina-jezera",
+  "title": "Taxi Roški Slap to ACI Marina Jezera | Fixed €95 Transfer | TAXI Antonio",
+  "description": "Private taxi and transfer from Roški Slap to ACI Marina Jezera. Fixed €95 per car, up to 4 passengers, door to door. Book direct with Antonio.",
+  "keywords": "taxi roški slap to aci marina jezera, transfer roški slap to aci marina jezera, roški slap to aci marina jezera taxi, roški slap to aci marina jezera transfer",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Private taxi transfer",
+      "name": "Taxi Roški Slap to ACI Marina Jezera",
+      "description": "Private, fixed-price taxi and transfer from Roški Slap to ACI Marina Jezera, 95 euros per car for up to 4 passengers, door to door.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Roški Slap",
+        "ACI Marina Jezera"
+      ],
+      "url": "https://taxiskradin.hr/taxi-roski-slap-to-aci-marina-jezera/",
+      "offers": {
+        "@type": "Offer",
+        "price": "95",
+        "priceCurrency": "EUR",
+        "description": "One-way private transfer from Roški Slap to ACI Marina Jezera, per car for up to 4 passengers. Return 190 euros."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much is a transfer from Roški Slap to ACI Marina Jezera?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fixed 95 per car for up to 4 passengers, one way, with tolls, fuel and luggage included. A return trip is 190."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you collect right at the marina?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. I meet you at the marina entrance or reception and help with your luggage, so you go straight from the pontoon to the car."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you time the transfer around my boat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Send me your charter, check-in or departure time when you book and I plan the pickup around it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How far in advance should I book?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At least 2 hours ahead so I can confirm the car and your pickup time. For a sooner ride, call or WhatsApp me directly."
+          }
+        }
+      ]
+    }
+  ]
+}

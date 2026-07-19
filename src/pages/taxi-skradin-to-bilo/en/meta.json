@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-skradin-to-bilo",
+  "title": "Taxi Skradin to Bilo | Fixed €85 Transfer | TAXI Antonio",
+  "description": "Private taxi and transfer from Skradin to Bilo. Fixed €85 per car, up to 4 passengers, door to door. Book direct with Antonio.",
+  "keywords": "taxi skradin to bilo, transfer skradin to bilo, skradin to bilo taxi, skradin to bilo transfer",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Private taxi transfer",
+      "name": "Taxi Skradin to Bilo",
+      "description": "Private, fixed-price taxi and transfer from Skradin to Bilo, 85 euros per car for up to 4 passengers, door to door.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Bilo"
+      ],
+      "url": "https://taxiskradin.hr/taxi-skradin-to-bilo/",
+      "offers": {
+        "@type": "Offer",
+        "price": "85",
+        "priceCurrency": "EUR",
+        "description": "One-way private transfer from Skradin to Bilo, per car for up to 4 passengers. Return 170 euros."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How far is Bilo from Skradin, and how long is the drive?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The drive from Skradin to Bilo is around 45 km and takes roughly 45 min in normal traffic, a little longer at busy times in summer. I plan the pickup so a slow patch never leaves you rushed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much is a taxi from Skradin to Bilo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fixed 85 per car for up to 4 passengers, one way, luggage included. A return trip is 170."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where do you pick up?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At your exact address in Skradin, whether a home, hotel or apartment. Send the address when you book and I will confirm the meeting point."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How far in advance should I book?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At least 2 hours ahead so I can confirm the car and your pickup time. For a sooner ride, call or WhatsApp me directly."
+          }
+        }
+      ]
+    }
+  ]
+}

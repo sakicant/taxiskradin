@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-roski-slap-to-zagreb-airport",
+  "title": "Taxi Roški Slap to Zagreb Airport | Fixed €485 Transfer | TAXI Antonio",
+  "description": "Private taxi and transfer from Roški Slap to Zagreb Airport. Fixed €485 per car, up to 4 passengers, door to door. Book direct with Antonio.",
+  "keywords": "taxi roški slap to zagreb airport, transfer roški slap to zagreb airport, roški slap to zagreb airport taxi, roški slap to zagreb airport transfer",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-airport.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Private taxi transfer",
+      "name": "Taxi Roški Slap to Zagreb Airport",
+      "description": "Private, fixed-price taxi and transfer from Roški Slap to Zagreb Airport, 485 euros per car for up to 4 passengers, door to door.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Roški Slap",
+        "Zagreb Airport"
+      ],
+      "url": "https://taxiskradin.hr/taxi-roski-slap-to-zagreb-airport/",
+      "offers": {
+        "@type": "Offer",
+        "price": "485",
+        "priceCurrency": "EUR",
+        "description": "One-way private transfer from Roški Slap to Zagreb Airport, per car for up to 4 passengers. Return 970 euros."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much is a taxi from Roški Slap to Zagreb Airport?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fixed 485 per car, one way, for up to 4 passengers. The price is per vehicle, not per person, and includes tolls, fuel and luggage. A return trip is 970."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What time should I leave Roški Slap for my flight?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "As a rule, about 3 hours before an international flight and 2 hours before a domestic one. Tell me your flight time and I will confirm the exact pickup."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you drop us right at the departures terminal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. I take you straight to the departures drop-off at Zagreb Airport and help with your luggage. No parking walk, no shuttle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How far in advance should I book?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At least 2 hours ahead so I can confirm the car and your pickup, and earlier for early-morning flights and high season. For a sooner ride, call or WhatsApp me directly."
+          }
+        }
+      ]
+    }
+  ]
+}
