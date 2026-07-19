@@ -294,6 +294,10 @@ a.nav-lang-item:hover { color: var(--gold); background: rgba(255,255,255,0.05); 
   .hero { min-height: 600px; max-height: 600px; }
   .hero-bg img { object-position: center 20%; }
   .hero.hero-split { max-height: none; min-height: 680px; padding: 110px 0 60px; }
+  /* Skradin hero crops: keep the car / focal point in frame */
+  .hero-photo-home .hero-bg img { object-position: center bottom; }
+  .hero-photo-airport .hero-bg img { object-position: center 60%; }
+  .hero-photo-city .hero-bg img { object-position: center 68%; }
 }
 .hero-overlay {
   position: absolute; inset: 0;
