@@ -1072,6 +1072,10 @@ a.nav-lang-item:hover { color: var(--gold); background: rgba(255,255,255,0.05); 
   pointer-events: none;
 }
 
+.form-consent { display: flex; align-items: flex-start; gap: 10px; margin: 4px 0 6px; font-size: 0.9rem; color: var(--gray-600); }
+.form-consent input { margin-top: 3px; flex-shrink: 0; width: 16px; height: 16px; accent-color: var(--gold); }
+.form-consent a { color: var(--gold); text-decoration: underline; }
+
 .whatsapp-float {
   position: fixed;
   right: 22px;

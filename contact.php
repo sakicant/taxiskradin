@@ -1,4 +1,5 @@
 <?php
+require __DIR__ . '/db.php';
 header('Content-Type: application/json');
 
 $to = 'info@taxiskradin.hr';
@@ -6,6 +7,26 @@ $to = 'info@taxiskradin.hr';
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     http_response_code(405);
     echo json_encode(['success' => false, 'error' => 'Method not allowed']);
+    exit;
+}
+
+// Throttle abuse: at most 6 messages per IP per hour.
+if (!tx_rate_limit('contact', 6, 3600)) {
+    http_response_code(429);
+    echo json_encode(['success' => false, 'error' => 'Too many messages. Please try again shortly, or call/WhatsApp me.']);
+    exit;
+}
+
+// Honeypot: real users never fill this hidden field.
+if (isset($_POST['company']) && trim((string) $_POST['company']) !== '') {
+    echo json_encode(['success' => true]);
+    exit;
+}
+
+// GDPR: the sender must tick the privacy-policy consent box.
+if (empty($_POST['consent'])) {
+    http_response_code(400);
+    echo json_encode(['success' => false, 'error' => 'Please accept the privacy policy to send your message.']);
     exit;
 }
 

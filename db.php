@@ -18,6 +18,33 @@ function tx_config()
     return $config;
 }
 
+// File-based per-IP rate limiter (no DB needed). Returns true if the request is
+// allowed, false if the caller has exceeded $max requests within $windowSeconds.
+function tx_rate_limit($bucket, $max, $windowSeconds)
+{
+    $ip  = $_SERVER['REMOTE_ADDR'] ?? '0.0.0.0';
+    $dir = sys_get_temp_dir() . '/tx_ratelimit';
+    if (!is_dir($dir)) { @mkdir($dir, 0700, true); }
+    $file = $dir . '/' . $bucket . '_' . hash('sha256', $ip);
+    $fp = @fopen($file, 'c+');
+    if (!$fp) { return true; }
+    @flock($fp, LOCK_EX);
+    $now   = time();
+    $raw   = stream_get_contents($fp);
+    $times = array_filter(
+        array_map('intval', $raw === '' ? [] : explode(',', $raw)),
+        function ($t) use ($now, $windowSeconds) { return $t > $now - $windowSeconds; }
+    );
+    $allowed = count($times) < $max;
+    if ($allowed) { $times[] = $now; }
+    ftruncate($fp, 0);
+    rewind($fp);
+    fwrite($fp, implode(',', $times));
+    @flock($fp, LOCK_UN);
+    fclose($fp);
+    return $allowed;
+}
+
 function tx_db()
 {
     static $pdo = null;
