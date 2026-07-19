@@ -2792,6 +2792,7 @@ if (bookingPageForm) {
       body.append('dropoff_details', document.getElementById('book-dropoff-details').value.trim());
       body.append('notes', document.getElementById('book-notes').value.trim());
       body.append('company', document.getElementById('book-company').value);
+      body.append('consent', document.getElementById('book-consent').checked ? '1' : '');
 
       const response = await fetch('/booking-submit.php', {
         method: 'POST',

@@ -15,6 +15,13 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     exit;
 }
 
+// Throttle abuse: at most 10 booking requests per IP per hour.
+if (!tx_rate_limit('booking', 10, 3600)) {
+    http_response_code(429);
+    echo json_encode(['success' => false, 'error' => 'Too many requests. Please try again shortly, or call/WhatsApp me.']);
+    exit;
+}
+
 function field($key, $max = 255)
 {
     $v = isset($_POST[$key]) ? trim((string) $_POST[$key]) : '';
@@ -25,6 +32,13 @@ function field($key, $max = 255)
 // Honeypot: real users never fill this hidden field.
 if (field('company') !== '') {
     echo json_encode(['success' => true]);
+    exit;
+}
+
+// GDPR: the customer must tick the privacy-policy consent box.
+if (empty($_POST['consent'])) {
+    http_response_code(400);
+    echo json_encode(['success' => false, 'error' => 'Please accept the privacy policy to send your booking.']);
     exit;
 }
 
