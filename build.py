@@ -30,7 +30,8 @@ DEFAULT_OG_IMAGE = f"{SITE_URL}/assets/og-image.png"
 DEFAULT_LANG = "en"
 
 # Supported languages. Codes must be valid ISO 639-1 for correct hreflang.
-LANGUAGES = ["en", "hr", "de", "pl", "cs", "it", "fr", "nl", "sl", "hu", "sk"]
+LANGUAGES = ["en", "hr", "de", "pl", "cs", "it", "fr", "nl", "sl", "hu", "sk",
+             "es", "sv", "sr", "no", "zh", "ko", "fi", "ja"]
 
 
 def compute_asset_version():
@@ -126,6 +127,9 @@ LANGUAGE_LABELS = {
     # switcher shows "CZ" because visitors recognise the country code.
     "cs": "CZ", "it": "IT", "fr": "FR", "nl": "NL",
     "sl": "SL", "hu": "HU", "sk": "SK",
+    # New languages. Label is the country code visitors recognise.
+    "es": "ES", "sv": "SE", "sr": "RS", "no": "NO",
+    "zh": "CN", "ko": "KR", "fi": "FI", "ja": "JP",
 }
 
 # Emoji flags don't render on Windows desktop browsers, so we self-host SVG
