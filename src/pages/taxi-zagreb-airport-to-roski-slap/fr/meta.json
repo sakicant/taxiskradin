@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-aeroport-zagreb-roski-slap",
+  "title": "Taxi Aéroport de Zagreb - Roški Slap | Prix fixe €485 | TAXI Antonio",
+  "description": "Taxi et transfert privé, trajet Aéroport de Zagreb - Roški Slap. Prix fixe €485 par véhicule, jusqu'à 4. Réservez directement avec Antonio.",
+  "keywords": "taxi aéroport de zagreb - roški slap, transfert aéroport de zagreb - roški slap, transfert aéroport aéroport de zagreb - roški slap",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-airport-2.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Transfert taxi privé",
+      "name": "Taxi Aéroport de Zagreb - Roški Slap",
+      "description": "Taxi et transfert privé à prix fixe, trajet Aéroport de Zagreb - Roški Slap, 485 euros par véhicule pour jusqu'à 4 passagers, de porte à porte.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Aéroport de Zagreb",
+        "Roški Slap"
+      ],
+      "url": "https://taxiskradin.hr/fr/taxi-aeroport-zagreb-roski-slap/",
+      "offers": {
+        "@type": "Offer",
+        "price": "485",
+        "priceCurrency": "EUR",
+        "description": "Course privée aller simple, trajet Aéroport de Zagreb - Roški Slap, par véhicule pour jusqu'à 4 passagers. Aller et retour 970 euros."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Où m'accueillez-vous ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dans le hall d'arrivée, juste après la récupération des bagages, avec une pancarte à votre nom. Je vous aide avec les bagages et je vous accompagne jusqu'au véhicule."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Que se passe-t-il si mon vol a du retard ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aucun problème. Je suis votre vol en temps réel et j'adapte la prise en charge à l'heure réelle d'atterrissage, sans supplément pour le temps d'attente."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Combien coûte le transfert sur le trajet Aéroport de Zagreb - Roški Slap ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "485 fixe par véhicule pour jusqu'à 4 passagers, aller simple, péages et bagages inclus. Un aller-retour coûte 970."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Combien de temps à l'avance dois-je réserver ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Au moins 2 heures avant, pour que je m'organise autour de votre vol. Pour une prise en charge le jour même après un changement de dernière minute, appelez-moi ou écrivez-moi sur WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

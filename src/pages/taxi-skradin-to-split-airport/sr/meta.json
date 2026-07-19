@@ -1,0 +1,89 @@
+{
+  "slug": "taxi-skradin-aerodrom-split",
+  "title": "Taksi Skradin - Aerodrom Split | Fiksna cena €110 | TAXI Antonio",
+  "description": "Privatni taksi i transfer, relacija Skradin - Aerodrom Split. Fiksno €110 po vozilu, do 4 putnika, od vrata do vrata. Rezervišite direktno kod Antonija.",
+  "keywords": "taksi skradin - aerodrom split, transfer skradin - aerodrom split, prevoz skradin - aerodrom split",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-airport.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privatni taksi transfer",
+      "name": "Taksi Skradin - Aerodrom Split",
+      "description": "Privatni taksi i transfer po fiksnoj ceni, relacija Skradin - Aerodrom Split, 110 evra po vozilu za do 4 putnika, od vrata do vrata.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Aerodrom Split"
+      ],
+      "url": "https://taxiskradin.hr/sr/taxi-skradin-aerodrom-split/",
+      "offers": {
+        "@type": "Offer",
+        "price": "110",
+        "priceCurrency": "EUR",
+        "description": "Jednosmerni privatni transfer, relacija Skradin - Aerodrom Split, po vozilu za do 4 putnika. Povratno 220 evra."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kolika je udaljenost i koliko traje vožnja?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vožnja na relaciji Skradin - Aerodrom Split duga je oko 64 km i traje otprilike 60 min u uobičajenom saobraćaju, nešto duže u letnjim gužvama. Polazak planiram tako da vas usporeni deo nikad ne požuri."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Koliko košta taksi na relaciji Skradin - Aerodrom Split?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fiksno 110 po vozilu, jedan smer, za do 4 putnika. Cena je po vozilu, ne po osobi, i uključuje putarine, gorivo i prtljag. Povratna vožnja je 220."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kada treba da krenem na let?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Po pravilu oko 3 sata pre međunarodnog leta i 2 sata pre domaćeg. Recite mi vreme leta i potvrdiću tačno vreme preuzimanja."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Vozite li do samog odlaznog terminala?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Da. Vozim vas direktno do odlaznog terminala i pomažem s prtljagom. Bez hoda od parkinga i bez shuttle busa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Koliko unapred treba da rezervišem?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Barem 2 sata unapred da potvrdim vozilo i preuzimanje, a ranije za rane jutarnje letove i sezonu. Za brži termin pozovite ili pišite na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

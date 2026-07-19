@@ -1,0 +1,89 @@
+{
+  "slug": "taxi-skradin-lotnisko-zadar",
+  "title": "Taxi Skradin - Lotnisko Zadar | Stała cena €105 | TAXI Antonio",
+  "description": "Prywatne taxi i transfer, trasa Skradin - Lotnisko Zadar. Stała cena €105 za pojazd, do 4 pasażerów, od drzwi do drzwi. Rezerwacja bezpośrednio u Antonio.",
+  "keywords": "taxi skradin - lotnisko zadar, transfer skradin - lotnisko zadar, transfer lotniskowy skradin - lotnisko zadar",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-airport-2.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Prywatny transfer taxi",
+      "name": "Taxi Skradin - Lotnisko Zadar",
+      "description": "Prywatne taxi i transfer w stałej cenie, trasa Skradin - Lotnisko Zadar, 105 euro za pojazd dla maksymalnie 4 pasażerów, od drzwi do drzwi.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Lotnisko Zadar"
+      ],
+      "url": "https://taxiskradin.hr/pl/taxi-skradin-lotnisko-zadar/",
+      "offers": {
+        "@type": "Offer",
+        "price": "105",
+        "priceCurrency": "EUR",
+        "description": "Prywatny przejazd w jedną stronę, trasa Skradin - Lotnisko Zadar, za pojazd dla maksymalnie 4 pasażerów. Tam i z powrotem 210 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Jak długa jest trasa i ile trwa przejazd?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Przejazd na trasie Skradin - Lotnisko Zadar liczy około 61 km i trwa około 50 min przy normalnym ruchu, w szczycie sezonu letniego nieco dłużej. Odbiór planuję tak, aby wolniejszy przejazd nigdy nie zmusił Pana/Pani do pośpiechu."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ile kosztuje taxi na trasie Skradin - Lotnisko Zadar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stała cena 105 za pojazd, w jedną stronę, dla maksymalnie 4 pasażerów. Cena obowiązuje za pojazd, nie za osobę, i obejmuje opłaty drogowe, paliwo oraz bagaż. Przejazd tam i z powrotem kosztuje 210."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O której godzinie wyruszyć na lotnisko?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Zwykle około 3 godziny przed lotem międzynarodowym i 2 godziny przed krajowym. Proszę podać godzinę lotu, a ja potwierdzę dokładną godzinę odbioru."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy dowozi Pan pod sam terminal odlotów?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tak. Podwożę Pana/Panią prosto pod terminal odlotów i pomagam z bagażem. Bez spaceru z parkingu i bez busa dowozowego."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Z jakim wyprzedzeniem należy rezerwować?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Co najmniej 2 godziny wcześniej, abym mógł potwierdzić pojazd i odbiór, a wcześniej w przypadku wczesnych lotów i szczytu sezonu. W razie przejazdu na ostatnią chwilę proszę zadzwonić lub napisać na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

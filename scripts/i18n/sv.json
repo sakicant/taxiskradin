@@ -1,0 +1,261 @@
+{
+ "taxi_word": "Taxi",
+ "book_slug": "boka",
+ "airport_name": {
+  "Split Airport": "Split flygplats",
+  "Zadar Airport": "Zadar flygplats",
+  "Zagreb Airport": "Zagreb flygplats",
+  "Dubrovnik Airport": "Dubrovnik flygplats"
+ },
+ "airport_slug": {
+  "split-airport": "flygplats-split",
+  "zadar-airport": "flygplats-zadar",
+  "zagreb-airport": "flygplats-zagreb",
+  "dubrovnik-airport": "flygplats-dubrovnik"
+ },
+ "hero_alt": "Taxi {rel}: Škoda Superb från TAXI Antonio vid den dalmatiska kusten",
+ "per_car": "per fordon &middot; upp till 4 passagerare",
+ "book_now": "Boka nu",
+ "book_wa": "Boka via WhatsApp",
+ "why_eyebrow": "Varför boka den här transfern",
+ "why_title": "Varför boka din Taxi {rel} hos Antonio?",
+ "price_title": "Pris {rel}",
+ "price_sub": "Fast pris per fordon, upp till 4 passagerare, bagage ingår. Samma pris gäller i motsatt riktning.",
+ "price_oneway_lbl": "Enkel resa",
+ "price_return_lbl": "Tur &amp; retur",
+ "price_advance_lbl": "Handpenning för bekräftelse",
+ "price_balance_val": "Kontant eller kort",
+ "price_balance_lbl": "Resten på resedagen",
+ "hub_note": "En handpenning på 20% (minst &euro;20) bekräftar din bokning, resten betalar du på resedagen, kontant eller med kort. Reser du i motsatt riktning? Se {revlink}.",
+ "reviews_eyebrow": "Recensioner",
+ "reviews_title": "Vad passagerare säger",
+ "reviews_sub": "Äkta recensioner från riktiga passagerare.",
+ "faq_eyebrow": "FAQ",
+ "faq_title": "Taxi {rel}: Vanliga frågor",
+ "cta_title": "Boka din transfer {rel}",
+ "cta_sub": "Fast pris &euro;{p} per fordon, upp till 4 passagerare. Bekräfta med några få klick.",
+ "trust_air": "Bekräftad efter handpenning &middot; Inga dolda avgifter &middot; Flygövervakning ingår",
+ "trust_generic": "Bekräftad efter handpenning &middot; Inga dolda avgifter &middot; Fast pris, ingen taxameter",
+ "rf_fixed_oneway_lbl": "Fast pris, enkel resa",
+ "rf_distance_lbl": "Avstånd",
+ "rf_drivetime_lbl": "Restid",
+ "rf_return_lbl": "Tur &amp; retur",
+ "rf_upto4_val": "Upp till 4",
+ "rf_upto4_lbl": "Passagerare",
+ "rf_skoda_lbl": "Privat, dörr till dörr",
+ "meta_title": "Taxi {rel} | Fast pris €{p} | TAXI Antonio",
+ "meta_desc": "Privat taxi och transfer, {rel}. Fast pris €{p} per fordon, upp till 4 passagerare, dörr till dörr. Boka direkt hos Antonio.",
+ "meta_desc_short": "Privat taxi och transfer, {rel}. Fast pris €{p} per fordon, upp till 4. Boka direkt hos Antonio.",
+ "keywords": "taxi {rell}, transfer {rell}, flygplatstransfer {rell}",
+ "schema_servicetype": "Privat taxitransfer",
+ "schema_name": "Taxi {rel}",
+ "schema_desc": "Privat taxi och transfer till fast pris, {rel}, {p} euro per fordon för upp till 4 passagerare, dörr till dörr.",
+ "schema_offer_desc": "Enkel privat resa, {rel}, per fordon för upp till 4 passagerare. Tur och retur {rp} euro.",
+ "dist_faq_q": "Hur långt är sträckan och hur lång tid tar resan?",
+ "dist_faq_a": "Resan {rel} är cirka {km} km lång och tar ungefär {t} vid normal trafik, något längre under högsommaren. Jag planerar upphämtningen så att en långsam sträcka aldrig gör dig stressad.",
+ "types": {
+  "to_airport": {
+   "heading": "Din privata taxi och transfer, {rel}",
+   "tagline": "Taxi och privat transfer till fast pris, {rel}, direkt till avgången.",
+   "intro": "Ska du flyga från {city} flygplats? För sträckan {rel} erbjuder jag en privat taxi och transfer till fast pris. Jag är Antonio, en lokal förare: jag hämtar dig på din adress och kör dig i en bekväm Škoda Superb direkt till avgångsterminalen. Priset är fast, &euro;{p} för hela fordonet, upp till 4 passagerare, överenskommet i förväg, utan taxameter och utan överraskningar. Jag planerar upphämtningen efter din flygtid, så att du kommer fram med gott om tid att checka in. Offertformuläret ovan är redan ifyllt för den här sträckan, så att du kan se priset och boka med några få klick.",
+   "whys": [
+    [
+     "Fast pris &euro;{p}",
+     "Ett pris för hela fordonet, upp till 4 passagerare, överenskommet i förväg. Vägtull, bränsle och bagage ingår, ingen taxameter."
+    ],
+    [
+     "Anpassad efter ditt flyg",
+     "Berätta din avgångstid, så räknar jag baklänges så att du är vid terminalen med tid att checka in."
+    ],
+    [
+     "Från dörren till terminalen",
+     "Upphämtning på din adress och avlämning direkt vid ingången till avgångsterminalen."
+    ],
+    [
+     "När som helst",
+     "Tidiga och sena flyg är inga problem. Jag kör dygnet runt till ett i förväg överenskommet pris."
+    ]
+   ],
+   "faqs": [
+    [
+     "Hur mycket kostar en taxi på sträckan {rel}?",
+     "Fast &euro;{p} per fordon, enkel resa, för upp till 4 passagerare. Priset gäller per fordon, inte per person, och inkluderar vägtull, bränsle och bagage. En tur och retur kostar &euro;{rp}."
+    ],
+    [
+     "När bör jag åka till flygplatsen?",
+     "Vanligtvis cirka 3 timmar före ett internationellt flyg och 2 timmar före ett inrikesflyg. Berätta din flygtid, så bekräftar jag den exakta upphämtningen."
+    ],
+    [
+     "Kör du ända fram till avgångsterminalen?",
+     "Ja. Jag kör dig direkt till avgångsterminalen och hjälper till med bagaget. Ingen promenad från parkeringen och ingen shuttlebuss."
+    ],
+    [
+     "Hur långt i förväg bör jag boka?",
+     "Minst 2 timmar i förväg, så att jag kan bekräfta fordon och upphämtning, och tidigare för tidiga flyg och högsäsongen. För en resa med kort varsel, ring eller skriv till mig på WhatsApp."
+    ]
+   ]
+  },
+  "from_airport": {
+   "heading": "Din flygplatsupphämtning och transfer, {rel}",
+   "tagline": "Privat flygplatsupphämtning och transfer till fast pris, {rel}, med flygövervakning.",
+   "intro": "Precis landat på {city} flygplats? En privat transfer för sträckan {rel} tar bort stressen från ankomsten. Jag möter dig i ankomsthallen med en namnskylt, hjälper till med bagaget och kör dig i en bekväm Škoda Superb direkt till målet, till fast pris &euro;{p} för hela fordonet, upp till 4 passagerare. Jag följer ditt flyg i realtid, så att jag är på plats oavsett om du landar tidigare eller senare. Ingen taxikö, ingen samåkningstransfer och inga pristillägg. Formuläret ovan är redan ifyllt för den här sträckan.",
+   "whys": [
+    [
+     "Mottagning med skylt",
+     "Jag väntar i ankomsthallen med en namnskylt och hjälper till med väskorna, så att du går direkt till fordonet."
+    ],
+    [
+     "Flygövervakning",
+     "Jag följer ditt flyg i realtid och anpassar mig efter tidig landning eller försening, med kostnadsfri väntetid."
+    ],
+    [
+     "Fast pris &euro;{p}",
+     "Ett pris för hela fordonet, upp till 4 passagerare, överenskommet i förväg. Vägtull, bränsle och bagage ingår, ingen taxameter."
+    ],
+    [
+     "Direkt till din dörr",
+     "Ingen kö och inga byten. Jag kör dig direkt till din adress."
+    ]
+   ],
+   "faqs": [
+    [
+     "Var möter du mig?",
+     "I ankomsthallen, direkt efter bagageutlämningen, med en skylt med ditt namn. Jag hjälper till med bagaget och följer dig till fordonet."
+    ],
+    [
+     "Vad händer om mitt flyg är försenat?",
+     "Inga problem. Jag följer ditt flyg i realtid och anpassar upphämtningen efter den faktiska landningen, utan tillägg för väntetiden."
+    ],
+    [
+     "Hur mycket kostar transfern på sträckan {rel}?",
+     "Fast &euro;{p} per fordon för upp till 4 passagerare, enkel resa, vägtull och bagage ingår. En tur och retur kostar &euro;{rp}."
+    ],
+    [
+     "Hur långt i förväg bör jag boka?",
+     "Minst 2 timmar i förväg, så att jag kan planera kring ditt flyg. För en upphämtning samma dag efter en ändring med kort varsel, ring eller skriv på WhatsApp."
+    ]
+   ]
+  },
+  "marina": {
+   "heading": "Privat marinatransfer, {rel}",
+   "tagline": "Privat taxi och transfer till fast pris, {rel}, anpassad efter din båt.",
+   "intro": "Reser du på sträckan {rel}? Jag kör en privat taxi och transfer till fast pris för marinagäster, anpassad efter din båt och dina resplaner. Jag hämtar dig med gott om plats för ditt bagage och kör dig hela vägen bekvämt i en Škoda Superb, till fast pris &euro;{p} för fordonet, upp till 4 passagerare, överenskommet före resan. Oavsett om du är på väg till din yacht eller reser vidare efter att ha gått i land, finns ingen taxameter och ingen väntan vid taxistationen, bara en lokal förare som du bokar direkt. Det här är en privat transfer över en längre sträcka, och offerten ovan är redan inställd för den här sträckan.",
+   "whys": [
+    [
+     "Fast pris &euro;{p}",
+     "Ett pris per fordon för upp till 4 passagerare, överenskommet i förväg. Vägtull, bränsle och bagage ingår, ingen tickande taxameter."
+    ],
+    [
+     "Anpassad efter din båt",
+     "Berätta din charter-, inchecknings- eller avgångstid, så planerar jag upphämtningen kring den, så att en långsam sträcka aldrig stressar dig."
+    ],
+    [
+     "Plats för ditt bagage",
+     "Resväskor, proviant och båtväskor får alla plats i en bekväm Škoda Superb, med en hjälpande hand vid i- och urlastning."
+    ],
+    [
+     "En lokal förare",
+     "Du har direktkontakt med mig, från bokning till framkomst, via telefon, WhatsApp eller e-post. Inget callcenter."
+    ]
+   ],
+   "faqs": [
+    [
+     "Hur mycket kostar en transfer på sträckan {rel}?",
+     "Fast &euro;{p} per fordon för upp till 4 passagerare, enkel resa, med vägtull, bränsle och bagage. En tur och retur kostar &euro;{rp}."
+    ],
+    [
+     "Kan du hämta direkt vid marinan?",
+     "Ja. Jag möter dig vid marinans entré eller reception och hjälper till med bagaget, så att du går direkt från bryggan till fordonet."
+    ],
+    [
+     "Kan du anpassa transfern efter min båt?",
+     "Ja. Skicka mig din charter-, inchecknings- eller avgångstid vid bokningen, så planerar jag upphämtningen kring den."
+    ],
+    [
+     "Hur långt i förväg bör jag boka?",
+     "Minst 2 timmar i förväg, så att jag kan bekräfta fordon och upphämtningstid. För en resa med kort varsel, ring eller skriv till mig direkt på WhatsApp."
+    ]
+   ]
+  },
+  "city": {
+   "heading": "Privat transfer, {rel}",
+   "tagline": "Privat taxi och transfer till fast pris, {rel}, dörr till dörr.",
+   "intro0": "Behöver du en pålitlig transfer på sträckan {rel}? Jag erbjuder en privat taxi och transfer till fast pris, dörr till dörr, i en bekväm Škoda Superb. Jag hämtar dig på din exakta adress och kör dig direkt till målet, utan oönskade mellanstopp och utan medpassagerare. Priset är fast, &euro;{p} för hela fordonet, upp till 4 passagerare, överenskommet före avfärd, vägtull och bagage ingår. Offerten ovan är ifylld för den här sträckan, så att bokningen bara tar några få klick.",
+   "intro1": "Letar du efter en taxi på sträckan {rel} utan taxameter och krångel? Det här är en privat transfer till fast pris med en lokal förare. Jag hämtar dig vid dörren och kör dig bekvämt till målet, bagage inkluderat, till fast pris &euro;{p} per fordon för upp till 4 passagerare. För par och familjer är det ofta billigare än separata buss- eller tågbiljetter, och alltid snabbare och dörr till dörr. Offerten ovan är redan inställd för den här sträckan.",
+   "whys": [
+    [
+     "Fast pris &euro;{p}",
+     "Ett pris per fordon för upp till 4 passagerare, överenskommet i förväg. Vägtull, bränsle och bagage ingår, ingen tickande taxameter."
+    ],
+    [
+     "Dörr till dörr",
+     "Jag hämtar dig på din exakta adress och lämnar dig vid målets dörr. Inga stationer, inga byten."
+    ],
+    [
+     "En lokal förare",
+     "Du har direktkontakt med mig, från bokning till framkomst, via telefon, WhatsApp eller e-post. Inget callcenter."
+    ],
+    [
+     "Stopp på begäran",
+     "På längre sträckor stannar jag gärna för en kaffe, ett foto eller en kort sevärdhet på vägen."
+    ]
+   ],
+   "faqs": [
+    [
+     "Hur mycket kostar en taxi på sträckan {rel}?",
+     "Fast &euro;{p} per fordon för upp till 4 passagerare, enkel resa, med vägtull, bränsle och bagage. En tur och retur kostar &euro;{rp}."
+    ],
+    [
+     "Är transfern privat eller delad?",
+     "Varje transfer är privat och dörr till dörr, i en Škoda Superb. Ingen delning av fordonet och inga extra stopp, om du inte önskar det."
+    ],
+    [
+     "Kan du stanna på vägen?",
+     "Ja. På längre sträckor stannar jag gärna för en kaffe, ett foto eller en kort sevärdhet. Säg bara till vid bokningen."
+    ],
+    [
+     "Hur långt i förväg bör jag boka?",
+     "Minst 2 timmar i förväg, så att jag kan bekräfta fordon och upphämtningstid. För en resa med kort varsel, ring eller skriv på WhatsApp."
+    ]
+   ]
+  },
+  "local": {
+   "heading": "Privat taxi, {rel}",
+   "tagline": "Privat taxi och transfer till fast pris, {rel}, dörr till dörr.",
+   "intro0": "Reser du på sträckan {rel}? Jag kör en privat taxi och transfer till fast pris, med upphämtning vid din dörr och avlämning exakt där du ska. Priset är fast, &euro;{p} för hela fordonet, upp till 4 passagerare, utan taxameter och utan väntan vid taxistationen. En bekväm Škoda Superb, plats för ditt bagage och en lokal förare som du bokar direkt. Offerten ovan är ifylld för den här sträckan.",
+   "intro1": "Behöver du en taxi på sträckan {rel}? Jag erbjuder en privat transfer dörr till dörr till fast pris &euro;{p} för hela fordonet, upp till 4 passagerare. Jag kommer till din adress vid den överenskomna tiden, så att du aldrig behöver vänta vid vägkanten, och kör dig bekvämt till målet. Ingen taxameter, inga överraskningar, bara en lokal förare från bokning till framkomst. Offerten ovan är redan inställd för den här sträckan.",
+   "whys": [
+    [
+     "Fast pris &euro;{p}",
+     "Ett pris per fordon för upp till 4 passagerare, överenskommet före resan. Ingen taxameter, inga överraskningar."
+    ],
+    [
+     "Dörr till dörr",
+     "Upphämtning på din adress och avlämning vid målets dörr, bagage inkluderat."
+    ],
+    [
+     "Ingen taxistation behövs",
+     "Bokat i förväg, så att du aldrig behöver vänta på en förbipasserande taxi. Jag kommer till dig."
+    ],
+    [
+     "En lokal förare",
+     "Du har direktkontakt med mig, från bokning till framkomst, via telefon, WhatsApp eller e-post."
+    ]
+   ],
+   "faqs": [
+    [
+     "Hur mycket kostar en taxi på sträckan {rel}?",
+     "Fast &euro;{p} per fordon för upp till 4 passagerare, enkel resa, bagage ingår. En tur och retur kostar &euro;{rp}."
+    ],
+    [
+     "Var hämtar du mig?",
+     "På din exakta adress, oavsett om det är hus, hotell eller lägenhet. Skicka adressen vid bokningen, så bekräftar jag mötesplatsen."
+    ],
+    [
+     "Hur långt i förväg bör jag boka?",
+     "Minst 2 timmar i förväg, så att jag kan bekräfta fordon och upphämtningstid. För en resa med kort varsel, ring eller skriv på WhatsApp."
+    ]
+   ]
+  }
+ }
+}

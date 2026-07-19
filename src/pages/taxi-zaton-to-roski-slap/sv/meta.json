@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-zaton-roski-slap",
+  "title": "Taxi Zaton - Roški Slap | Fast pris €75 | TAXI Antonio",
+  "description": "Privat taxi och transfer, Zaton - Roški Slap. Fast pris €75 per fordon, upp till 4 passagerare, dörr till dörr. Boka direkt hos Antonio.",
+  "keywords": "taxi zaton - roški slap, transfer zaton - roški slap, flygplatstransfer zaton - roški slap",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privat taxitransfer",
+      "name": "Taxi Zaton - Roški Slap",
+      "description": "Privat taxi och transfer till fast pris, Zaton - Roški Slap, 75 euro per fordon för upp till 4 passagerare, dörr till dörr.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Zaton",
+        "Roški Slap"
+      ],
+      "url": "https://taxiskradin.hr/sv/taxi-zaton-roski-slap/",
+      "offers": {
+        "@type": "Offer",
+        "price": "75",
+        "priceCurrency": "EUR",
+        "description": "Enkel privat resa, Zaton - Roški Slap, per fordon för upp till 4 passagerare. Tur och retur 150 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hur mycket kostar en taxi på sträckan Zaton - Roški Slap?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fast 75 per fordon för upp till 4 passagerare, enkel resa, bagage ingår. En tur och retur kostar 150."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Var hämtar du mig?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "På din exakta adress, oavsett om det är hus, hotell eller lägenhet. Skicka adressen vid bokningen, så bekräftar jag mötesplatsen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hur långt i förväg bör jag boka?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minst 2 timmar i förväg, så att jag kan bekräfta fordon och upphämtningstid. För en resa med kort varsel, ring eller skriv på WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

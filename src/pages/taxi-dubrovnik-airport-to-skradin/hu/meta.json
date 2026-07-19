@@ -1,0 +1,89 @@
+{
+  "slug": "taxi-dubrovnik-repuloter-skradin",
+  "title": "Taxi Dubrovnik repülőtér - Skradin | Fix ár €485 | TAXI Antonio",
+  "description": "Privát taxi és transzfer a Dubrovnik repülőtér - Skradin útvonalon. Fix ár €485 járművenként, legfeljebb 4 fő. Foglaljon közvetlenül Antoniónál.",
+  "keywords": "taxi dubrovnik repülőtér - skradin, transzfer dubrovnik repülőtér - skradin, reptéri transzfer dubrovnik repülőtér - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-airport-2.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privát taxitranszfer",
+      "name": "Taxi Dubrovnik repülőtér - Skradin",
+      "description": "Privát taxi és transzfer fix áron a Dubrovnik repülőtér - Skradin útvonalon, 485 euró járművenként, legfeljebb 4 utas, háztól házig.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Dubrovnik repülőtér",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/hu/taxi-dubrovnik-repuloter-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "485",
+        "priceCurrency": "EUR",
+        "description": "Privát, csak oda út a Dubrovnik repülőtér - Skradin útvonalon, járművenként, legfeljebb 4 utas. Oda-vissza 970 euró."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Milyen hosszú az útvonal és mennyi ideig tart az út?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Dubrovnik repülőtér - Skradin útvonalon az út körülbelül 305 km hosszú, és normál forgalomban körülbelül 4 h 15 min ideig tart, a nyári főszezonban valamivel tovább. Úgy tervezem meg a felvételt, hogy egy lassabb szakasz miatt soha ne kelljen kapkodnia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hol fogad engem?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Az érkezési csarnokban, közvetlenül a csomagkiadás után, egy táblával, amelyen az Ön neve áll. Segítek a csomagokkal, és a járműhöz kísérem."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mi van, ha a járatom késik?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Semmi gond. Valós időben követem a járatát, és a felvételt a tényleges landoláshoz igazítom, a várakozásért felár nélkül."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mennyibe kerül a transzfer a Dubrovnik repülőtér - Skradin útvonalon?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fix 485 járművenként, legfeljebb 4 utasnak, csak oda, útdíjjal és csomagokkal együtt. Az oda-vissza út 970."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mennyivel korábban foglaljak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Legalább 2 órával előtte, hogy a járata köré tudjam tervezni. Aznapi felvételhez egy rövid határidős változás után hívjon fel, vagy írjon WhatsAppon."
+          }
+        }
+      ]
+    }
+  ]
+}

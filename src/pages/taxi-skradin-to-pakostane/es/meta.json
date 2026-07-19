@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-skradin-pakostane",
+  "title": "Taxi Skradin - Pakoštane | Precio fijo €95 | TAXI Antonio",
+  "description": "Taxi y traslado privado, Skradin - Pakoštane. Precio fijo €95 por vehículo, hasta 4 pasajeros, puerta a puerta. Reserve directamente con Antonio.",
+  "keywords": "taxi skradin - pakoštane, traslado skradin - pakoštane, traslado al aeropuerto skradin - pakoštane",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Traslado privado en taxi",
+      "name": "Taxi Skradin - Pakoštane",
+      "description": "Taxi y traslado privado a precio fijo, Skradin - Pakoštane, 95 euros por vehículo para hasta 4 pasajeros, puerta a puerta.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Pakoštane"
+      ],
+      "url": "https://taxiskradin.hr/es/taxi-skradin-pakostane/",
+      "offers": {
+        "@type": "Offer",
+        "price": "95",
+        "priceCurrency": "EUR",
+        "description": "Trayecto privado de ida, Skradin - Pakoštane, por vehículo para hasta 4 pasajeros. Ida y vuelta 190 euros."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta un taxi en el trayecto Skradin - Pakoštane?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fijo 95 por vehículo para hasta 4 pasajeros, solo ida, equipaje incluido. Un viaje de ida y vuelta cuesta 190."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Dónde me recoge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En su dirección exacta, ya sea casa, hotel o apartamento. Envíe la dirección al reservar y le confirmo el punto de encuentro."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Con cuánta antelación debo reservar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Al menos 2 horas antes, para que pueda confirmar el vehículo y la hora de recogida. Para un viaje de última hora, llame o escriba por WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "taxi-aerodrom-dubrovnik-skradin",
+  "title": "Taksi Aerodrom Dubrovnik - Skradin | Fiksna cena €485 | TAXI Antonio",
+  "description": "Privatni taksi i transfer, relacija Aerodrom Dubrovnik - Skradin. Fiksno €485 po vozilu, do 4. Rezervišite direktno kod Antonija.",
+  "keywords": "taksi aerodrom dubrovnik - skradin, transfer aerodrom dubrovnik - skradin, prevoz aerodrom dubrovnik - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-airport-2.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privatni taksi transfer",
+      "name": "Taksi Aerodrom Dubrovnik - Skradin",
+      "description": "Privatni taksi i transfer po fiksnoj ceni, relacija Aerodrom Dubrovnik - Skradin, 485 evra po vozilu za do 4 putnika, od vrata do vrata.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Aerodrom Dubrovnik",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/sr/taxi-aerodrom-dubrovnik-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "485",
+        "priceCurrency": "EUR",
+        "description": "Jednosmerni privatni transfer, relacija Aerodrom Dubrovnik - Skradin, po vozilu za do 4 putnika. Povratno 970 evra."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kolika je udaljenost i koliko traje vožnja?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vožnja na relaciji Aerodrom Dubrovnik - Skradin duga je oko 305 km i traje otprilike 4 h 15 min u uobičajenom saobraćaju, nešto duže u letnjim gužvama. Polazak planiram tako da vas usporeni deo nikad ne požuri."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gde me dočekujete?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "U dolaznoj zoni, odmah nakon preuzimanja prtljaga, s natpisom s vašim imenom. Pomažem s prtljagom i vodim vas do vozila."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Šta ako mi let kasni?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nema problema. Let pratim u realnom vremenu i prilagođavam preuzimanje stvarnom sletanju, bez dodatne naplate čekanja."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Koliko košta transfer na relaciji Aerodrom Dubrovnik - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fiksno 485 po vozilu za do 4 putnika, jedan smer, putarine i prtljag uključeni. Povratna vožnja je 970."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Koliko unapred treba da rezervišem?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Barem 2 sata unapred da planiram prema vašem letu. Za isti dan nakon nagle promene pozovite ili pišite na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

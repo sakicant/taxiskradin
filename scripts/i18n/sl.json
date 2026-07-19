@@ -1,0 +1,261 @@
+{
+ "taxi_word": "Taksi",
+ "book_slug": "rezervacija",
+ "airport_name": {
+  "Split Airport": "Letališče Split",
+  "Zadar Airport": "Letališče Zadar",
+  "Zagreb Airport": "Letališče Zagreb",
+  "Dubrovnik Airport": "Letališče Dubrovnik"
+ },
+ "airport_slug": {
+  "split-airport": "letalisce-split",
+  "zadar-airport": "letalisce-zadar",
+  "zagreb-airport": "letalisce-zagreb",
+  "dubrovnik-airport": "letalisce-dubrovnik"
+ },
+ "hero_alt": "Taksi {rel}: Škoda Superb podjetja TAXI Antonio na dalmatinski obali",
+ "per_car": "na vozilo &middot; do 4 potniki",
+ "book_now": "Rezervirajte zdaj",
+ "book_wa": "Rezervirajte prek WhatsApp",
+ "why_eyebrow": "Zakaj rezervirati ta prevoz",
+ "why_title": "Zakaj rezervirati taksi {rel} pri Antoniu?",
+ "price_title": "Cena {rel}",
+ "price_sub": "Fiksna cena na vozilo, do 4 potniki, prtljaga vključena. Enaka cena velja v nasprotni smeri.",
+ "price_oneway_lbl": "Enosmerno",
+ "price_return_lbl": "Tja &amp; nazaj",
+ "price_advance_lbl": "Predplačilo za potrditev",
+ "price_balance_val": "Gotovina ali kartica",
+ "price_balance_lbl": "Preostanek na dan vožnje",
+ "hub_note": "Predplačilo 20% (najmanj &euro;20) potrdi vašo rezervacijo, preostanek plačate na dan vožnje, z gotovino ali kartico. Potujete v nasprotni smeri? Glejte {revlink}.",
+ "reviews_eyebrow": "Mnenja",
+ "reviews_title": "Kaj pravijo potniki",
+ "reviews_sub": "Resnična mnenja resničnih potnikov.",
+ "faq_eyebrow": "FAQ",
+ "faq_title": "Taksi {rel}: pogosta vprašanja",
+ "cta_title": "Rezervirajte svoj prevoz {rel}",
+ "cta_sub": "Fiksna cena &euro;{p} na vozilo, do 4 potniki. Potrditev z nekaj kliki.",
+ "trust_air": "Potrjeno po predplačilu &middot; Brez skritih stroškov &middot; Spremljanje leta vključeno",
+ "trust_generic": "Potrjeno po predplačilu &middot; Brez skritih stroškov &middot; Fiksna cena, brez taksimetra",
+ "rf_fixed_oneway_lbl": "Fiksna cena, enosmerno",
+ "rf_distance_lbl": "Razdalja",
+ "rf_drivetime_lbl": "Čas vožnje",
+ "rf_return_lbl": "Tja &amp; nazaj",
+ "rf_upto4_val": "Do 4",
+ "rf_upto4_lbl": "Potniki",
+ "rf_skoda_lbl": "Zasebno, od vrat do vrat",
+ "meta_title": "Taksi {rel} | Fiksna cena €{p} | TAXI Antonio",
+ "meta_desc": "Zasebni taksi in prevoz, relacija {rel}. Fiksna cena €{p} na vozilo, do 4 potniki, od vrat do vrat. Rezervirajte neposredno pri Antoniu.",
+ "meta_desc_short": "Zasebni taksi in prevoz, relacija {rel}. Fiksna cena €{p} na vozilo, do 4. Rezervirajte neposredno pri Antoniu.",
+ "keywords": "taksi {rell}, prevoz {rell}, letališki prevoz {rell}",
+ "schema_servicetype": "Zasebni taksi prevoz",
+ "schema_name": "Taksi {rel}",
+ "schema_desc": "Zasebni taksi in prevoz po fiksni ceni, relacija {rel}, {p} evrov na vozilo za do 4 potnike, od vrat do vrat.",
+ "schema_offer_desc": "Enosmerna zasebna vožnja, relacija {rel}, na vozilo za do 4 potnike. Tja in nazaj {rp} evrov.",
+ "dist_faq_q": "Kako dolga je relacija in koliko traja vožnja?",
+ "dist_faq_a": "Vožnja na relaciji {rel} je dolga približno {km} km in traja okoli {t} pri običajnem prometu, v vrhuncu poletne sezone nekoliko dlje. Prevzem načrtujem tako, da vas počasna pot nikoli ne spravi v naglico.",
+ "types": {
+  "to_airport": {
+   "heading": "Vaš zasebni taksi in prevoz, relacija {rel}",
+   "tagline": "Taksi in zasebni prevoz po fiksni ceni, relacija {rel}, naravnost do odhoda.",
+   "intro": "Letite z letališča {city}? Za relacijo {rel} ponujam zasebni taksi in prevoz po fiksni ceni. Sem Antonio, lokalni voznik: prevzamem vas na vašem naslovu in vas z udobno Škodo Superb odpeljem naravnost do odhodnega terminala. Cena je fiksna, &euro;{p} za celotno vozilo, do 4 potniki, dogovorjena vnaprej, brez taksimetra in brez presenečenj. Prevzem načrtujem glede na čas vašega leta, da prispete z dovolj časa za prijavo na let. Obrazec za ponudbo zgoraj je za to relacijo že izpolnjen, tako da vidite ceno in rezervirate z nekaj kliki.",
+   "whys": [
+    [
+     "Fiksna cena &euro;{p}",
+     "Ena cena za celotno vozilo, do 4 potniki, dogovorjena vnaprej. Cestnina, gorivo in prtljaga vključeni, brez taksimetra."
+    ],
+    [
+     "Usklajeno z vašim letom",
+     "Sporočite mi čas odhoda in izračunam nazaj, da ste na terminalu s časom za prijavo na let."
+    ],
+    [
+     "Od vrat do terminala",
+     "Prevzem na vašem naslovu in odlaganje neposredno pred vhodom odhodnega terminala."
+    ],
+    [
+     "Ob vsakem času",
+     "Zgodnji in pozni leti niso problem. Vozim 24 ur na dan po vnaprej dogovorjeni ceni."
+    ]
+   ],
+   "faqs": [
+    [
+     "Koliko stane taksi na relaciji {rel}?",
+     "Fiksno &euro;{p} na vozilo, enosmerna vožnja, za do 4 potnike. Cena velja na vozilo, ne na osebo, in vključuje cestnino, gorivo in prtljago. Vožnja tja in nazaj stane &euro;{rp}."
+    ],
+    [
+     "Kdaj naj se odpravim na letališče?",
+     "Običajno okoli 3 ure pred mednarodnim in 2 uri pred domačim letom. Sporočite mi čas leta in potrdim točen čas prevzema."
+    ],
+    [
+     "Ali peljete vse do odhodnega terminala?",
+     "Da. Odpeljem vas naravnost do odhodnega terminala in pomagam s prtljago. Brez hoje s parkirišča in brez shuttla."
+    ],
+    [
+     "Kako vnaprej naj rezerviram?",
+     "Vsaj 2 uri prej, da lahko potrdim vozilo in prevzem, in prej za zgodnje lete in visoko sezono. Za vožnjo v zadnjem trenutku pokličite ali mi pišite na WhatsApp."
+    ]
+   ]
+  },
+  "from_airport": {
+   "heading": "Vaš prevzem na letališču in prevoz, relacija {rel}",
+   "tagline": "Zasebni prevzem na letališču in prevoz po fiksni ceni, relacija {rel}, s spremljanjem leta.",
+   "intro": "Ste pravkar pristali na letališču {city}? Zasebni prevoz za relacijo {rel} odvzame stres ob prihodu. Pričakam vas v prihodni dvorani z napisom z imenom, pomagam s prtljago in vas z udobno Škodo Superb odpeljem naravnost do cilja, po fiksni ceni &euro;{p} za celotno vozilo, do 4 potniki. Vaš let spremljam v realnem času, tako da sem tam, ne glede na to, ali pristanete prej ali pozneje. Brez čakalne vrste za taksi, brez skupinskega prevoza in brez pribitkov na ceno. Obrazec zgoraj je za to relacijo že izpolnjen.",
+   "whys": [
+    [
+     "Sprejem z napisom",
+     "Čakam v prihodni dvorani z napisom z imenom in pomagam s torbami, tako da greste naravnost do vozila."
+    ],
+    [
+     "Spremljanje leta",
+     "Vaš let spremljam v realnem času in se prilagodim zgodnejšemu pristanku ali zamudi, z brezplačnim čakanjem."
+    ],
+    [
+     "Fiksna cena &euro;{p}",
+     "Ena cena za celotno vozilo, do 4 potniki, dogovorjena vnaprej. Cestnina, gorivo in prtljaga vključeni, brez taksimetra."
+    ],
+    [
+     "Naravnost do vaših vrat",
+     "Brez vrste in brez prestopanja. Odpeljem vas naravnost do vašega naslova."
+    ]
+   ],
+   "faqs": [
+    [
+     "Kje me pričakate?",
+     "V prihodni dvorani, takoj po prevzemu prtljage, z napisom z vašim imenom. Pomagam s prtljago in vas pospremim do vozila."
+    ],
+    [
+     "Kaj če ima moj let zamudo?",
+     "Brez skrbi. Vaš let spremljam v realnem času in prevzem prilagodim dejanskemu pristanku, brez doplačila za čakanje."
+    ],
+    [
+     "Koliko stane prevoz na relaciji {rel}?",
+     "Fiksno &euro;{p} na vozilo za do 4 potnike, enosmerna vožnja, cestnina in prtljaga vključeni. Vožnja tja in nazaj stane &euro;{rp}."
+    ],
+    [
+     "Kako vnaprej naj rezerviram?",
+     "Vsaj 2 uri prej, da lahko načrtujem okoli vašega leta. Za prevzem isti dan po spremembi v zadnjem trenutku pokličite ali pišite na WhatsApp."
+    ]
+   ]
+  },
+  "marina": {
+   "heading": "Zasebni prevoz iz marine, relacija {rel}",
+   "tagline": "Zasebni taksi in prevoz po fiksni ceni, relacija {rel}, usklajen z vašim plovilom.",
+   "intro": "Potujete na relaciji {rel}? Vozim zasebni taksi in prevoz po fiksni ceni za goste marine, usklajen z vašim plovilom in načrti potovanja. Prevzamem vas z veliko prostora za prtljago in vas vso pot udobno peljem v Škodi Superb, po pavšalni ceni &euro;{p} za vozilo, do 4 potniki, dogovorjeni pred vožnjo. Ne glede na to, ali prihajate na svojo jahto ali potujete naprej po izkrcanju, ni taksimetra in ni čakanja na postajališču, le lokalni voznik, ki ga rezervirate neposredno. To je zasebni prevoz na daljši relaciji, ponudba zgoraj pa je za to relacijo že nastavljena.",
+   "whys": [
+    [
+     "Fiksna cena &euro;{p}",
+     "Ena cena na vozilo za do 4 potnike, dogovorjena vnaprej. Cestnina, gorivo in prtljaga vključeni, brez tekočega taksimetra."
+    ],
+    [
+     "Usklajeno z vašim plovilom",
+     "Sporočite mi čas najema, prijave ali odhoda in prevzem načrtujem okoli tega, tako da vas počasna pot nikoli ne spravi v naglico."
+    ],
+    [
+     "Prostor za vašo prtljago",
+     "Kovčki, zaloge in ladijske torbe se vsi prilegajo v udobno Škodo Superb, s pomočjo pri natovarjanju in raztovarjanju."
+    ],
+    [
+     "Lokalni voznik",
+     "Poslujete neposredno z mano, od rezervacije do prihoda, po telefonu, WhatsApp ali e-pošti. Brez klicnega centra."
+    ]
+   ],
+   "faqs": [
+    [
+     "Koliko stane prevoz na relaciji {rel}?",
+     "Fiksno &euro;{p} na vozilo za do 4 potnike, enosmerna vožnja, s cestnino, gorivom in prtljago. Vožnja tja in nazaj stane &euro;{rp}."
+    ],
+    [
+     "Ali lahko prevzamete neposredno v marini?",
+     "Da. Srečava se pri vhodu ali na recepciji marine in pomagam s prtljago, tako da greste naravnost s pomola do vozila."
+    ],
+    [
+     "Ali lahko prevoz uskladite z mojim plovilom?",
+     "Da. Ob rezervaciji mi pošljite čas najema, prijave ali odhoda in prevzem načrtujem okoli tega."
+    ],
+    [
+     "Kako vnaprej naj rezerviram?",
+     "Vsaj 2 uri prej, da lahko potrdim vozilo in čas prevzema. Za vožnjo v zadnjem trenutku pokličite ali mi pišite neposredno na WhatsApp."
+    ]
+   ]
+  },
+  "city": {
+   "heading": "Zasebni prevoz, relacija {rel}",
+   "tagline": "Zasebni taksi in prevoz po fiksni ceni, relacija {rel}, od vrat do vrat.",
+   "intro0": "Potrebujete zanesljiv prevoz na relaciji {rel}? Ponujam zasebni taksi in prevoz po fiksni ceni, od vrat do vrat, v udobni Škodi Superb. Prevzamem vas na vašem točnem naslovu in vas odpeljem naravnost do cilja, brez neželenih vmesnih postankov in brez sopotnikov. Cena je fiksna, &euro;{p} za celotno vozilo, do 4 potniki, dogovorjena pred odhodom, cestnina in prtljaga vključeni. Ponudba zgoraj je za to relacijo izpolnjena, tako da rezervacija traja le nekaj klikov.",
+   "intro1": "Iščete taksi na relaciji {rel} brez taksimetra in zapletov? To je zasebni prevoz po fiksni ceni z lokalnim voznikom. Prevzamem vas pred vrati in vas udobno odpeljem do cilja, skupaj s prtljago, po pavšalni ceni &euro;{p} na vozilo za do 4 potnike. Za pare in družine je pogosto ceneje kot ločene avtobusne ali vlakovne vozovnice, in vedno hitreje ter od vrat do vrat. Ponudba zgoraj je za to relacijo že nastavljena.",
+   "whys": [
+    [
+     "Fiksna cena &euro;{p}",
+     "Ena cena na vozilo za do 4 potnike, dogovorjena vnaprej. Cestnina, gorivo in prtljaga vključeni, brez tekočega taksimetra."
+    ],
+    [
+     "Od vrat do vrat",
+     "Prevzamem vas na vašem točnem naslovu in vas odložim pred vrati cilja. Brez postaj, brez prestopanja."
+    ],
+    [
+     "Lokalni voznik",
+     "Poslujete neposredno z mano, od rezervacije do prihoda, po telefonu, WhatsApp ali e-pošti. Brez klicnega centra."
+    ],
+    [
+     "Postanki po želji",
+     "Na daljših relacijah se rad ustavim za kavo, fotografijo ali kratek ogled znamenitosti na poti."
+    ]
+   ],
+   "faqs": [
+    [
+     "Koliko stane taksi na relaciji {rel}?",
+     "Fiksno &euro;{p} na vozilo za do 4 potnike, enosmerna vožnja, s cestnino, gorivom in prtljago. Vožnja tja in nazaj stane &euro;{rp}."
+    ],
+    [
+     "Ali je prevoz zaseben ali deljen?",
+     "Vsak prevoz je zaseben in od vrat do vrat, v Škodi Superb. Brez deljenja vozila in brez dodatnih postankov, razen če to želite."
+    ],
+    [
+     "Ali se lahko ustavite na poti?",
+     "Da. Na daljših relacijah se rad ustavim za kavo, fotografijo ali kratek ogled znamenitosti. Samo sporočite ob rezervaciji."
+    ],
+    [
+     "Kako vnaprej naj rezerviram?",
+     "Vsaj 2 uri prej, da lahko potrdim vozilo in čas prevzema. Za vožnjo v zadnjem trenutku pokličite ali pišite na WhatsApp."
+    ]
+   ]
+  },
+  "local": {
+   "heading": "Zasebni taksi, relacija {rel}",
+   "tagline": "Zasebni taksi in prevoz po fiksni ceni, relacija {rel}, od vrat do vrat.",
+   "intro0": "Potujete na relaciji {rel}? Vozim zasebni taksi in prevoz po fiksni ceni, s prevzemom pred vašimi vrati in odlaganjem točno tam, kamor morate. Cena je pavšalna &euro;{p} za celotno vozilo, do 4 potniki, brez taksimetra in brez čakanja na postajališču. Udobna Škoda Superb, prostor za vašo prtljago in lokalni voznik, ki ga rezervirate neposredno. Ponudba zgoraj je za to relacijo izpolnjena.",
+   "intro1": "Potrebujete taksi na relaciji {rel}? Ponujam zasebni prevoz od vrat do vrat po fiksni ceni &euro;{p} za celotno vozilo, do 4 potniki. Ob dogovorjenem času pridem na vaš naslov, tako da nikoli ne čakate ob cesti, in vas udobno odpeljem do cilja. Brez taksimetra, brez presenečenj, le lokalni voznik od rezervacije do prihoda. Ponudba zgoraj je za to relacijo že nastavljena.",
+   "whys": [
+    [
+     "Fiksna cena &euro;{p}",
+     "Ena cena na vozilo za do 4 potnike, dogovorjena pred vožnjo. Brez taksimetra, brez presenečenj."
+    ],
+    [
+     "Od vrat do vrat",
+     "Prevzem na vašem naslovu in odlaganje pred vrati cilja, skupaj s prtljago."
+    ],
+    [
+     "Brez potrebe po postajališču",
+     "Rezervirano vnaprej, tako da nikoli ne čakate na mimovozeči taksi. Pridem k vam."
+    ],
+    [
+     "Lokalni voznik",
+     "Poslujete neposredno z mano, od rezervacije do prihoda, po telefonu, WhatsApp ali e-pošti."
+    ]
+   ],
+   "faqs": [
+    [
+     "Koliko stane taksi na relaciji {rel}?",
+     "Fiksno &euro;{p} na vozilo za do 4 potnike, enosmerna vožnja, prtljaga vključena. Vožnja tja in nazaj stane &euro;{rp}."
+    ],
+    [
+     "Kje me prevzamete?",
+     "Na vašem točnem naslovu, naj bo hiša, hotel ali apartma. Pošljite naslov ob rezervaciji in potrdim mesto srečanja."
+    ],
+    [
+     "Kako vnaprej naj rezerviram?",
+     "Vsaj 2 uri prej, da lahko potrdim vozilo in čas prevzema. Za vožnjo v zadnjem trenutku pokličite ali pišite na WhatsApp."
+    ]
+   ]
+  }
+ }
+}

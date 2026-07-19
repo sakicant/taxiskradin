@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-marina-tribunj-roski-slap",
+  "title": "Taxi Marina Tribunj - Roški Slap | Stała cena €95 | TAXI Antonio",
+  "description": "Prywatne taxi i transfer, trasa Marina Tribunj - Roški Slap. Stała cena €95 za pojazd, do 4 osób. Rezerwacja bezpośrednio u Antonio.",
+  "keywords": "taxi marina tribunj - roški slap, transfer marina tribunj - roški slap, transfer lotniskowy marina tribunj - roški slap",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Prywatny transfer taxi",
+      "name": "Taxi Marina Tribunj - Roški Slap",
+      "description": "Prywatne taxi i transfer w stałej cenie, trasa Marina Tribunj - Roški Slap, 95 euro za pojazd dla maksymalnie 4 pasażerów, od drzwi do drzwi.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Marina Tribunj",
+        "Roški Slap"
+      ],
+      "url": "https://taxiskradin.hr/pl/taxi-marina-tribunj-roski-slap/",
+      "offers": {
+        "@type": "Offer",
+        "price": "95",
+        "priceCurrency": "EUR",
+        "description": "Prywatny przejazd w jedną stronę, trasa Marina Tribunj - Roški Slap, za pojazd dla maksymalnie 4 pasażerów. Tam i z powrotem 190 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Ile kosztuje transfer na trasie Marina Tribunj - Roški Slap?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stała cena 95 za pojazd dla maksymalnie 4 pasażerów, w jedną stronę, z opłatami drogowymi, paliwem i bagażem. Przejazd tam i z powrotem kosztuje 190."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy może Pan odebrać bezpośrednio przy marinie?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tak. Spotykam się z Panem/Panią przy wejściu lub w recepcji mariny i pomagam z bagażem, aby przejść prosto z pomostu do pojazdu."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy może Pan dopasować transfer do mojej łodzi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tak. Proszę przesłać przy rezerwacji godzinę czarteru, zameldowania lub wypłynięcia, a ja zaplanuję odbiór wokół niej."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Z jakim wyprzedzeniem należy rezerwować?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Co najmniej 2 godziny wcześniej, abym mógł potwierdzić pojazd i godzinę odbioru. W razie przejazdu na ostatnią chwilę proszę zadzwonić lub napisać do mnie bezpośrednio na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

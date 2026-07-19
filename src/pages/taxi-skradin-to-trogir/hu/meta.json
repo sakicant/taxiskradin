@@ -1,0 +1,89 @@
+{
+  "slug": "taxi-skradin-trogir",
+  "title": "Taxi Skradin - Trogir | Fix ár €100 | TAXI Antonio",
+  "description": "Privát taxi és transzfer a Skradin - Trogir útvonalon. Fix ár €100 járművenként, legfeljebb 4 utas, háztól házig. Foglaljon közvetlenül Antoniónál.",
+  "keywords": "taxi skradin - trogir, transzfer skradin - trogir, reptéri transzfer skradin - trogir",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privát taxitranszfer",
+      "name": "Taxi Skradin - Trogir",
+      "description": "Privát taxi és transzfer fix áron a Skradin - Trogir útvonalon, 100 euró járművenként, legfeljebb 4 utas, háztól házig.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Trogir"
+      ],
+      "url": "https://taxiskradin.hr/hu/taxi-skradin-trogir/",
+      "offers": {
+        "@type": "Offer",
+        "price": "100",
+        "priceCurrency": "EUR",
+        "description": "Privát, csak oda út a Skradin - Trogir útvonalon, járművenként, legfeljebb 4 utas. Oda-vissza 200 euró."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Milyen hosszú az útvonal és mennyi ideig tart az út?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Skradin - Trogir útvonalon az út körülbelül 65 km hosszú, és normál forgalomban körülbelül 60 min ideig tart, a nyári főszezonban valamivel tovább. Úgy tervezem meg a felvételt, hogy egy lassabb szakasz miatt soha ne kelljen kapkodnia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mennyibe kerül a taxi a Skradin - Trogir útvonalon?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fix 100 járművenként, legfeljebb 4 utasnak, csak oda, útdíjjal, üzemanyaggal és csomagokkal. Az oda-vissza út 200."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "A transzfer privát vagy megosztott?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minden transzfer privát és háztól házig tart, egy Škoda Superbben. Nincs járműmegosztás és nincsenek plusz megállók, hacsak Ön nem kéri."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Meg tud állni útközben?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Igen. Hosszabb utakon szívesen megállok egy kávéra, egy fotóra vagy egy rövid látnivalóért. Csak jelezze a foglaláskor."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mennyivel korábban foglaljak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Legalább 2 órával előtte, hogy megerősíthessem a járművet és a felvétel időpontját. Rövid határidős útért hívjon fel, vagy írjon WhatsAppon."
+          }
+        }
+      ]
+    }
+  ]
+}

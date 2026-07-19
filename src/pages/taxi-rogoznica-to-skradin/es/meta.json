@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-rogoznica-skradin",
+  "title": "Taxi Rogoznica - Skradin | Precio fijo €90 | TAXI Antonio",
+  "description": "Taxi y traslado privado, Rogoznica - Skradin. Precio fijo €90 por vehículo, hasta 4 pasajeros, puerta a puerta. Reserve directamente con Antonio.",
+  "keywords": "taxi rogoznica - skradin, traslado rogoznica - skradin, traslado al aeropuerto rogoznica - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Traslado privado en taxi",
+      "name": "Taxi Rogoznica - Skradin",
+      "description": "Taxi y traslado privado a precio fijo, Rogoznica - Skradin, 90 euros por vehículo para hasta 4 pasajeros, puerta a puerta.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Rogoznica",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/es/taxi-rogoznica-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "90",
+        "priceCurrency": "EUR",
+        "description": "Trayecto privado de ida, Rogoznica - Skradin, por vehículo para hasta 4 pasajeros. Ida y vuelta 180 euros."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿A qué distancia está el trayecto y cuánto dura el viaje?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El trayecto Rogoznica - Skradin tiene unos 55 km y dura alrededor de 65 min con tráfico normal, un poco más en plena temporada de verano. Planifico la recogida de modo que un trayecto lento nunca le meta prisa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta un taxi en el trayecto Rogoznica - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fijo 90 por vehículo para hasta 4 pasajeros, solo ida, equipaje incluido. Un viaje de ida y vuelta cuesta 180."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Dónde me recoge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En su dirección exacta, ya sea casa, hotel o apartamento. Envíe la dirección al reservar y le confirmo el punto de encuentro."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Con cuánta antelación debo reservar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Al menos 2 horas antes, para que pueda confirmar el vehículo y la hora de recogida. Para un viaje de última hora, llame o escriba por WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

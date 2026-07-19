@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-skradin-biograd-na-moru",
+  "title": "Taxi Skradin - Biograd na Moru | Prix fixe €105 | TAXI Antonio",
+  "description": "Taxi et transfert privé, trajet Skradin - Biograd na Moru. Prix fixe €105 par véhicule, jusqu'à 4. Réservez directement avec Antonio.",
+  "keywords": "taxi skradin - biograd na moru, transfert skradin - biograd na moru, transfert aéroport skradin - biograd na moru",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Transfert taxi privé",
+      "name": "Taxi Skradin - Biograd na Moru",
+      "description": "Taxi et transfert privé à prix fixe, trajet Skradin - Biograd na Moru, 105 euros par véhicule pour jusqu'à 4 passagers, de porte à porte.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Biograd na Moru"
+      ],
+      "url": "https://taxiskradin.hr/fr/taxi-skradin-biograd-na-moru/",
+      "offers": {
+        "@type": "Offer",
+        "price": "105",
+        "priceCurrency": "EUR",
+        "description": "Course privée aller simple, trajet Skradin - Biograd na Moru, par véhicule pour jusqu'à 4 passagers. Aller et retour 210 euros."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Combien coûte un taxi sur le trajet Skradin - Biograd na Moru ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "105 fixe par véhicule pour jusqu'à 4 passagers, aller simple, bagages inclus. Un aller-retour coûte 210."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Où venez-vous me chercher ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "À votre adresse exacte, que ce soit une maison, un hôtel ou un appartement. Envoyez l'adresse à la réservation et je confirme le point de rendez-vous."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Combien de temps à l'avance dois-je réserver ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Au moins 2 heures avant, pour que je confirme le véhicule et l'heure de prise en charge. Pour une course de dernière minute, appelez-moi ou écrivez-moi sur WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

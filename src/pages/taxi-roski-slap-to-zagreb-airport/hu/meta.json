@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-roski-slap-zagreb-repuloter",
+  "title": "Taxi Roški Slap - Zagreb repülőtér | Fix ár €485 | TAXI Antonio",
+  "description": "Privát taxi és transzfer a Roški Slap - Zagreb repülőtér útvonalon. Fix ár €485 járművenként, legfeljebb 4 fő. Foglaljon közvetlenül Antoniónál.",
+  "keywords": "taxi roški slap - zagreb repülőtér, transzfer roški slap - zagreb repülőtér, reptéri transzfer roški slap - zagreb repülőtér",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-airport.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privát taxitranszfer",
+      "name": "Taxi Roški Slap - Zagreb repülőtér",
+      "description": "Privát taxi és transzfer fix áron a Roški Slap - Zagreb repülőtér útvonalon, 485 euró járművenként, legfeljebb 4 utas, háztól házig.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Roški Slap",
+        "Zagreb repülőtér"
+      ],
+      "url": "https://taxiskradin.hr/hu/taxi-roski-slap-zagreb-repuloter/",
+      "offers": {
+        "@type": "Offer",
+        "price": "485",
+        "priceCurrency": "EUR",
+        "description": "Privát, csak oda út a Roški Slap - Zagreb repülőtér útvonalon, járművenként, legfeljebb 4 utas. Oda-vissza 970 euró."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Mennyibe kerül a taxi a Roški Slap - Zagreb repülőtér útvonalon?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fix 485 járművenként, csak oda, legfeljebb 4 utasnak. Az ár járművenként értendő, nem személyenként, és tartalmazza az útdíjat, az üzemanyagot és a csomagokat. Az oda-vissza út 970."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mikor induljak a repülőtérre?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Általában körülbelül 3 órával a nemzetközi és 2 órával a belföldi járat előtt. Adja meg a járata időpontját, és megerősítem a pontos felvételt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Egészen az indulási terminálig visz?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Igen. Egyenesen az indulási terminálig viszem, és segítek a csomagokkal. Nincs gyaloglás a parkolóból, és nincs transzferbusz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mennyivel korábban foglaljak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Legalább 2 órával előtte, hogy megerősíthessem a járművet és a felvételt, korai járatokhoz és főszezonban pedig korábban. Rövid határidős útért hívjon fel, vagy írjon WhatsAppon."
+          }
+        }
+      ]
+    }
+  ]
+}

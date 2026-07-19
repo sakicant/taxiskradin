@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-tribunj-skradin",
+  "title": "Taxi Tribunj - Skradin | Fastpris €60 | TAXI Antonio",
+  "description": "Privat taxi og transport, strekningen Tribunj - Skradin. Fastpris €60 per bil, opptil 4 passasjerer, dør til dør. Bestill direkte hos Antonio.",
+  "keywords": "taxi tribunj - skradin, transport tribunj - skradin, flyplasstransport tribunj - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privat taxitransport",
+      "name": "Taxi Tribunj - Skradin",
+      "description": "Privat taxi og transport til fastpris, strekningen Tribunj - Skradin, 60 euro per bil for opptil 4 passasjerer, dør til dør.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Tribunj",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/no/taxi-tribunj-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "60",
+        "priceCurrency": "EUR",
+        "description": "Enkel privat tur, strekningen Tribunj - Skradin, per bil for opptil 4 passasjerer. Tur og retur 120 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hvor lang er strekningen og hvor lenge tar turen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Turen på strekningen Tribunj - Skradin er rundt 37 km lang og tar omtrent 40 min ved normal trafikk, litt lenger i høysesongen om sommeren. Jeg planlegger henting slik at en langsom strekning aldri gjør deg stresset."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hvor mye koster en taxi på strekningen Tribunj - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fast 60 per bil for opptil 4 passasjerer, en vei, bagasje inkludert. Tur og retur koster 120."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hvor henter du meg?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "På den nøyaktige adressen din, enten det er hus, hotell eller leilighet. Send adressen ved bestilling, så bekrefter jeg møtestedet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hvor lang tid i forveien bør jeg bestille?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minst 2 timer i forveien, så jeg kan bekrefte bil og hentetidspunkt. For en tur på kort varsel, ring eller skriv på WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

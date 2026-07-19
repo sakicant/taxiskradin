@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-pirovac-roski-slap",
+  "title": "Taksi Pirovac - Roški Slap | Fiksna cijena €85 | TAXI Antonio",
+  "description": "Privatni taksi i transfer, relacija Pirovac - Roški Slap. Fiksno €85 po vozilu, do 4 putnika, od vrata do vrata. Rezervirajte izravno kod Antonija.",
+  "keywords": "taksi pirovac - roški slap, transfer pirovac - roški slap, prijevoz pirovac - roški slap",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privatni taksi transfer",
+      "name": "Taksi Pirovac - Roški Slap",
+      "description": "Privatni taksi i transfer po fiksnoj cijeni, relacija Pirovac - Roški Slap, 85 eura po vozilu za do 4 putnika, od vrata do vrata.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Pirovac",
+        "Roški Slap"
+      ],
+      "url": "https://taxiskradin.hr/hr/taxi-pirovac-roski-slap/",
+      "offers": {
+        "@type": "Offer",
+        "price": "85",
+        "priceCurrency": "EUR",
+        "description": "Jednosmjerni privatni transfer, relacija Pirovac - Roški Slap, po vozilu za do 4 putnika. Povratno 170 eura."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Koliko košta taksi na relaciji Pirovac - Roški Slap?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fiksno 85 po vozilu za do 4 putnika, jedan smjer, prtljaga uključena. Povratna vožnja je 170."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gdje me preuzimate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Na vašoj točnoj adresi, bila to kuća, hotel ili apartman. Pošaljite adresu pri rezervaciji i potvrdit ću mjesto sastanka."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Koliko unaprijed trebam rezervirati?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Barem 2 sata unaprijed da potvrdim vozilo i vrijeme preuzimanja. Za brži termin nazovite ili pišite na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

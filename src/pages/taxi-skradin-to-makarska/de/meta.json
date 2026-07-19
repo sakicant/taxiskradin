@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-skradin-makarska",
+  "title": "Taxi Skradin - Makarska | Festpreis €210 | TAXI Antonio",
+  "description": "Privates Taxi und Transfer, Strecke Skradin - Makarska. Festpreis €210 pro Fahrzeug, bis zu 4 Fahrgäste, Tür zu Tür. Direkt bei Antonio buchen.",
+  "keywords": "taxi skradin - makarska, transfer skradin - makarska, flughafentransfer skradin - makarska",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privater Taxitransfer",
+      "name": "Taxi Skradin - Makarska",
+      "description": "Privates Taxi und Transfer zum Festpreis, Strecke Skradin - Makarska, 210 Euro pro Fahrzeug für bis zu 4 Fahrgäste, Tür zu Tür.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Makarska"
+      ],
+      "url": "https://taxiskradin.hr/de/taxi-skradin-makarska/",
+      "offers": {
+        "@type": "Offer",
+        "price": "210",
+        "priceCurrency": "EUR",
+        "description": "Einfache private Fahrt, Strecke Skradin - Makarska, pro Fahrzeug für bis zu 4 Fahrgäste. Hin und zurück 420 Euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wie weit ist die Strecke und wie lange dauert die Fahrt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die Fahrt auf der Strecke Skradin - Makarska ist rund 140 km lang und dauert etwa 1 h 45 min bei normalem Verkehr, in der Sommerhauptzeit etwas länger. Ich plane die Abholung so, dass eine langsame Strecke Sie nie in Eile bringt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie viel kostet ein Taxi auf der Strecke Skradin - Makarska?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fest 210 pro Fahrzeug für bis zu 4 Fahrgäste, einfache Fahrt, Gepäck inklusive. Eine Hin- und Rückfahrt kostet 420."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wo holen Sie mich ab?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An Ihrer genauen Adresse, ob Haus, Hotel oder Apartment. Senden Sie die Adresse bei der Buchung und ich bestätige den Treffpunkt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie weit im Voraus sollte ich buchen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mindestens 2 Stunden vorher, damit ich Fahrzeug und Abholzeit bestätigen kann. Für eine kurzfristige Fahrt rufen Sie an oder schreiben auf WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

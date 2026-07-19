@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-jezera-roski-slap",
+  "title": "Jezera - Roški Slap 出租车 | 固定价格 €95 | TAXI Antonio",
+  "description": "私人出租车与接送，Jezera - Roški Slap 路线。固定价格 €95 每车，最多 4 名乘客，门到门。直接向 Antonio 预订。",
+  "keywords": "出租车 jezera - roški slap, 接送 jezera - roški slap, 机场接送 jezera - roški slap",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "私人出租车接送",
+      "name": "Jezera - Roški Slap 出租车",
+      "description": "固定价格的私人出租车与接送，Jezera - Roški Slap 路线，每车 95 欧元，最多 4 名乘客，门到门。",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Jezera",
+        "Roški Slap"
+      ],
+      "url": "https://taxiskradin.hr/zh/taxi-jezera-roski-slap/",
+      "offers": {
+        "@type": "Offer",
+        "price": "95",
+        "priceCurrency": "EUR",
+        "description": "单程私人乘车，Jezera - Roški Slap 路线，每车最多 4 名乘客。往返 190 欧元。"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Jezera - Roški Slap 路线的出租车多少钱？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "固定 95 每车，最多 4 名乘客，单程，含行李。往返为 190。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "您在哪里接我？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "在您的准确地址，无论是住宅、酒店还是公寓。预订时把地址发给我，我会确认会合地点。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "我该提前多久预订？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "至少提前 2 小时，以便我确认车辆和接送时间。临时用车请致电或在 WhatsApp 上留言。"
+          }
+        }
+      ]
+    }
+  ]
+}

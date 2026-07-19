@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-skradin-aci-marina-vodice",
+  "title": "Taxi Skradin - ACI Marina Vodice | Stała cena €60 | TAXI Antonio",
+  "description": "Prywatne taxi i transfer, trasa Skradin - ACI Marina Vodice. Stała cena €60 za pojazd, do 4 osób. Rezerwacja bezpośrednio u Antonio.",
+  "keywords": "taxi skradin - aci marina vodice, transfer skradin - aci marina vodice, transfer lotniskowy skradin - aci marina vodice",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Prywatny transfer taxi",
+      "name": "Taxi Skradin - ACI Marina Vodice",
+      "description": "Prywatne taxi i transfer w stałej cenie, trasa Skradin - ACI Marina Vodice, 60 euro za pojazd dla maksymalnie 4 pasażerów, od drzwi do drzwi.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "ACI Marina Vodice"
+      ],
+      "url": "https://taxiskradin.hr/pl/taxi-skradin-aci-marina-vodice/",
+      "offers": {
+        "@type": "Offer",
+        "price": "60",
+        "priceCurrency": "EUR",
+        "description": "Prywatny przejazd w jedną stronę, trasa Skradin - ACI Marina Vodice, za pojazd dla maksymalnie 4 pasażerów. Tam i z powrotem 120 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Ile kosztuje transfer na trasie Skradin - ACI Marina Vodice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stała cena 60 za pojazd dla maksymalnie 4 pasażerów, w jedną stronę, z opłatami drogowymi, paliwem i bagażem. Przejazd tam i z powrotem kosztuje 120."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy może Pan odebrać bezpośrednio przy marinie?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tak. Spotykam się z Panem/Panią przy wejściu lub w recepcji mariny i pomagam z bagażem, aby przejść prosto z pomostu do pojazdu."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy może Pan dopasować transfer do mojej łodzi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tak. Proszę przesłać przy rezerwacji godzinę czarteru, zameldowania lub wypłynięcia, a ja zaplanuję odbiór wokół niej."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Z jakim wyprzedzeniem należy rezerwować?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Co najmniej 2 godziny wcześniej, abym mógł potwierdzić pojazd i godzinę odbioru. W razie przejazdu na ostatnią chwilę proszę zadzwonić lub napisać do mnie bezpośrednio na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

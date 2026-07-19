@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-marina-pakostane-skradin",
+  "title": "Taksi Marina Pakoštane - Skradin | Kiinteä hinta €95 | TAXI Antonio",
+  "description": "Yksityinen taksi ja kuljetus, reitti Marina Pakoštane - Skradin. Kiinteä hinta €95 per auto, enintään 4. Varaa suoraan Antoniolta.",
+  "keywords": "taksi marina pakoštane - skradin, kuljetus marina pakoštane - skradin, lentokenttäkuljetus marina pakoštane - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Yksityinen taksikuljetus",
+      "name": "Taksi Marina Pakoštane - Skradin",
+      "description": "Yksityinen taksi ja kuljetus kiinteään hintaan, reitti Marina Pakoštane - Skradin, 95 euroa per auto enintään 4 matkustajalle, ovelta ovelle.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Marina Pakoštane",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/fi/taxi-marina-pakostane-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "95",
+        "priceCurrency": "EUR",
+        "description": "Yhdensuuntainen yksityinen matka, reitti Marina Pakoštane - Skradin, per auto enintään 4 matkustajalle. Meno ja paluu 190 euroa."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Paljonko kuljetus maksaa reitillä Marina Pakoštane - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kiinteä 95 per auto enintään 4 matkustajalle, yhdensuuntainen matka, tietullien, polttoaineen ja matkatavaroiden kanssa. Meno-paluumatka maksaa 190."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Voitteko noutaa suoraan marinalta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kyllä. Tapaan sinut marinan sisäänkäynnillä tai vastaanotossa ja autan matkatavaroiden kanssa, jotta pääset suoraan laiturilta autoon."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Voitteko sovittaa kuljetuksen veneeni mukaan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kyllä. Lähetä minulle varauksen yhteydessä charter-, sisäänkirjautumis- tai lähtöaikasi, niin suunnittelen noudon sen ympärille."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kuinka paljon etukäteen minun pitäisi varata?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vähintään 2 tuntia aiemmin, jotta voin vahvistaa auton ja noutoajan. Lyhyellä varoitusajalla soita tai kirjoita minulle suoraan WhatsAppissa."
+          }
+        }
+      ]
+    }
+  ]
+}

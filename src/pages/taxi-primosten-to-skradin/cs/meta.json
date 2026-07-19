@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-primosten-skradin",
+  "title": "Taxi Primošten - Skradin | Pevná cena €80 | TAXI Antonio",
+  "description": "Soukromé taxi a transfer, trasa Primošten - Skradin. Pevná cena €80 za vozidlo, až 4 cestující, ode dveří ke dveřím. Rezervujte přímo u Antonia.",
+  "keywords": "taxi primošten - skradin, transfer primošten - skradin, letištní transfer primošten - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Soukromý taxi transfer",
+      "name": "Taxi Primošten - Skradin",
+      "description": "Soukromé taxi a transfer za pevnou cenu, trasa Primošten - Skradin, 80 eur za vozidlo pro až 4 cestující, ode dveří ke dveřím.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Primošten",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/cs/taxi-primosten-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "80",
+        "priceCurrency": "EUR",
+        "description": "Jednosměrná soukromá jízda, trasa Primošten - Skradin, za vozidlo pro až 4 cestující. Tam a zpět 160 eur."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Jak daleko je trasa a jak dlouho jízda trvá?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Jízda na trase Primošten - Skradin měří zhruba 48 km a trvá přibližně 50 min při běžném provozu, ve vrcholné letní sezóně o něco déle. Vyzvednutí naplánuji tak, aby vás pomalejší úsek nikdy nedostal do časové tísně."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kolik stojí taxi na trase Primošten - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pevně 80 za vozidlo pro až 4 cestující, jednosměrná jízda, zavazadla v ceně. Cesta tam a zpět stojí 160."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kde mě vyzvednete?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Na vaší přesné adrese, ať jde o dům, hotel nebo apartmán. Pošlete adresu při rezervaci a potvrdím místo setkání."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "S jakým předstihem mám rezervovat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nejméně 2 hodiny předem, abych mohl potvrdit vozidlo a čas vyzvednutí. Pro jízdu na poslední chvíli zavolejte nebo napište na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

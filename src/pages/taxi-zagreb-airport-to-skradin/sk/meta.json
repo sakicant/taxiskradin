@@ -1,0 +1,89 @@
+{
+  "slug": "taxi-letisko-zagreb-skradin",
+  "title": "Taxi Letisko Zagreb - Skradin | Pevná cena €485 | TAXI Antonio",
+  "description": "Súkromné taxi a transfer, trasa Letisko Zagreb - Skradin. Pevná cena €485 za vozidlo, až 4 cestujúci, od dverí k dverám. Rezervujte priamo u Antonia.",
+  "keywords": "taxi letisko zagreb - skradin, transfer letisko zagreb - skradin, letiskový transfer letisko zagreb - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-airport-2.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Súkromný taxi transfer",
+      "name": "Taxi Letisko Zagreb - Skradin",
+      "description": "Súkromné taxi a transfer za pevnú cenu, trasa Letisko Zagreb - Skradin, 485 eur za vozidlo pre až 4 cestujúcich, od dverí k dverám.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Letisko Zagreb",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/sk/taxi-letisko-zagreb-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "485",
+        "priceCurrency": "EUR",
+        "description": "Jednosmerná súkromná jazda, trasa Letisko Zagreb - Skradin, za vozidlo pre až 4 cestujúcich. Tam a späť 970 eur."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Aká dlhá je trasa a ako dlho trvá jazda?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Jazda na trase Letisko Zagreb - Skradin je dlhá približne 338 km a trvá asi 3 h 35 min pri bežnej premávke, v letnej špičke o niečo dlhšie. Vyzdvihnutie plánujem tak, aby vás pomalá trasa nikdy nedostala do zhonu."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kde ma privítate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "V príletovej hale, hneď po výdaji batožiny, s tabuľkou s vaším menom. Pomôžem s batožinou a odprevadím vás k vozidlu."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Čo ak má môj let meškanie?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Žiadny problém. Váš let sledujem v reálnom čase a vyzdvihnutie prispôsobím skutočnému pristátiu, bez príplatku za čakanie."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Koľko stojí transfer na trase Letisko Zagreb - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pevne 485 za vozidlo pre až 4 cestujúcich, jednosmerná jazda, mýto a batožina v cene. Jazda tam a späť stojí 970."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "S akým predstihom mám rezervovať?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minimálne 2 hodiny vopred, aby som mohol plánovať okolo vášho letu. Pri vyzdvihnutí v ten istý deň po zmene na poslednú chvíľu zavolajte alebo napíšte na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

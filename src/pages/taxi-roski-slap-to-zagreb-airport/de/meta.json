@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-roski-slap-flughafen-zagreb",
+  "title": "Taxi Roški Slap - Flughafen Zagreb | Festpreis €485 | TAXI Antonio",
+  "description": "Privates Taxi und Transfer, Strecke Roški Slap - Flughafen Zagreb. Festpreis €485 pro Fahrzeug, bis zu 4 Fahrgäste, Tür zu Tür. Direkt bei Antonio buchen.",
+  "keywords": "taxi roški slap - flughafen zagreb, transfer roški slap - flughafen zagreb, flughafentransfer roški slap - flughafen zagreb",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-airport.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privater Taxitransfer",
+      "name": "Taxi Roški Slap - Flughafen Zagreb",
+      "description": "Privates Taxi und Transfer zum Festpreis, Strecke Roški Slap - Flughafen Zagreb, 485 Euro pro Fahrzeug für bis zu 4 Fahrgäste, Tür zu Tür.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Roški Slap",
+        "Flughafen Zagreb"
+      ],
+      "url": "https://taxiskradin.hr/de/taxi-roski-slap-flughafen-zagreb/",
+      "offers": {
+        "@type": "Offer",
+        "price": "485",
+        "priceCurrency": "EUR",
+        "description": "Einfache private Fahrt, Strecke Roški Slap - Flughafen Zagreb, pro Fahrzeug für bis zu 4 Fahrgäste. Hin und zurück 970 Euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wie viel kostet ein Taxi auf der Strecke Roški Slap - Flughafen Zagreb?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fest 485 pro Fahrzeug, einfache Fahrt, für bis zu 4 Fahrgäste. Der Preis gilt pro Fahrzeug, nicht pro Person, und umfasst Maut, Kraftstoff und Gepäck. Eine Hin- und Rückfahrt kostet 970."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wann sollte ich zum Flughafen aufbrechen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In der Regel etwa 3 Stunden vor einem internationalen und 2 Stunden vor einem inländischen Flug. Nennen Sie mir Ihre Flugzeit und ich bestätige die genaue Abholung."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Fahren Sie bis zum Abflugterminal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Ich fahre Sie direkt zum Abflugterminal und helfe mit dem Gepäck. Kein Fußweg vom Parkplatz und kein Shuttle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie weit im Voraus sollte ich buchen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mindestens 2 Stunden vorher, damit ich Fahrzeug und Abholung bestätigen kann, und früher für frühe Flüge und die Hauptsaison. Für eine kurzfristige Fahrt rufen Sie an oder schreiben mir auf WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

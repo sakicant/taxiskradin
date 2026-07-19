@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-roski-slap-letalisce-dubrovnik",
+  "title": "Taksi Roški Slap - Letališče Dubrovnik | Fiksna cena €485 | TAXI Antonio",
+  "description": "Zasebni taksi in prevoz, relacija Roški Slap - Letališče Dubrovnik. Fiksna cena €485 na vozilo, do 4. Rezervirajte neposredno pri Antoniu.",
+  "keywords": "taksi roški slap - letališče dubrovnik, prevoz roški slap - letališče dubrovnik, letališki prevoz roški slap - letališče dubrovnik",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-airport.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Zasebni taksi prevoz",
+      "name": "Taksi Roški Slap - Letališče Dubrovnik",
+      "description": "Zasebni taksi in prevoz po fiksni ceni, relacija Roški Slap - Letališče Dubrovnik, 485 evrov na vozilo za do 4 potnike, od vrat do vrat.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Roški Slap",
+        "Letališče Dubrovnik"
+      ],
+      "url": "https://taxiskradin.hr/sl/taxi-roski-slap-letalisce-dubrovnik/",
+      "offers": {
+        "@type": "Offer",
+        "price": "485",
+        "priceCurrency": "EUR",
+        "description": "Enosmerna zasebna vožnja, relacija Roški Slap - Letališče Dubrovnik, na vozilo za do 4 potnike. Tja in nazaj 970 evrov."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Koliko stane taksi na relaciji Roški Slap - Letališče Dubrovnik?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fiksno 485 na vozilo, enosmerna vožnja, za do 4 potnike. Cena velja na vozilo, ne na osebo, in vključuje cestnino, gorivo in prtljago. Vožnja tja in nazaj stane 970."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kdaj naj se odpravim na letališče?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Običajno okoli 3 ure pred mednarodnim in 2 uri pred domačim letom. Sporočite mi čas leta in potrdim točen čas prevzema."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ali peljete vse do odhodnega terminala?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Da. Odpeljem vas naravnost do odhodnega terminala in pomagam s prtljago. Brez hoje s parkirišča in brez shuttla."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kako vnaprej naj rezerviram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vsaj 2 uri prej, da lahko potrdim vozilo in prevzem, in prej za zgodnje lete in visoko sezono. Za vožnjo v zadnjem trenutku pokličite ali mi pišite na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

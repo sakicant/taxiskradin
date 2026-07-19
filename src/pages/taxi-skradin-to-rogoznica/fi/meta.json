@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-skradin-rogoznica",
+  "title": "Taksi Skradin - Rogoznica | Kiinteä hinta €90 | TAXI Antonio",
+  "description": "Yksityinen taksi ja kuljetus, reitti Skradin - Rogoznica. Kiinteä hinta €90 per auto, enintään 4 matkustajaa, ovelta ovelle. Varaa suoraan Antoniolta.",
+  "keywords": "taksi skradin - rogoznica, kuljetus skradin - rogoznica, lentokenttäkuljetus skradin - rogoznica",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Yksityinen taksikuljetus",
+      "name": "Taksi Skradin - Rogoznica",
+      "description": "Yksityinen taksi ja kuljetus kiinteään hintaan, reitti Skradin - Rogoznica, 90 euroa per auto enintään 4 matkustajalle, ovelta ovelle.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Rogoznica"
+      ],
+      "url": "https://taxiskradin.hr/fi/taxi-skradin-rogoznica/",
+      "offers": {
+        "@type": "Offer",
+        "price": "90",
+        "priceCurrency": "EUR",
+        "description": "Yhdensuuntainen yksityinen matka, reitti Skradin - Rogoznica, per auto enintään 4 matkustajalle. Meno ja paluu 180 euroa."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kuinka pitkä reitti on ja kuinka kauan matka kestää?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Matka reitillä Skradin - Rogoznica on noin 54 km ja kestää noin 60 min normaalissa liikenteessä, kesän huippukaudella hieman kauemmin. Suunnittelen noudon niin, ettei hidas matka koskaan aiheuta kiirettä."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Paljonko taksi maksaa reitillä Skradin - Rogoznica?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kiinteä 90 per auto enintään 4 matkustajalle, yhdensuuntainen matka, matkatavarat mukana. Meno-paluumatka maksaa 180."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mistä noudatte minut?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tarkasta osoitteestasi, olipa se talo, hotelli tai huoneisto. Lähetä osoite varauksen yhteydessä, niin vahvistan tapaamispaikan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kuinka paljon etukäteen minun pitäisi varata?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vähintään 2 tuntia aiemmin, jotta voin vahvistaa auton ja noutoajan. Lyhyellä varoitusajalla soita tai kirjoita WhatsAppissa."
+          }
+        }
+      ]
+    }
+  ]
+}

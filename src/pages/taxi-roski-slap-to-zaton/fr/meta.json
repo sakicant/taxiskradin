@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-roski-slap-zaton",
+  "title": "Taxi Roški Slap - Zaton | Prix fixe €75 | TAXI Antonio",
+  "description": "Taxi et transfert privé, trajet Roški Slap - Zaton. Prix fixe €75 par véhicule, jusqu'à 4 passagers, de porte à porte. Réservez directement avec Antonio.",
+  "keywords": "taxi roški slap - zaton, transfert roški slap - zaton, transfert aéroport roški slap - zaton",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Transfert taxi privé",
+      "name": "Taxi Roški Slap - Zaton",
+      "description": "Taxi et transfert privé à prix fixe, trajet Roški Slap - Zaton, 75 euros par véhicule pour jusqu'à 4 passagers, de porte à porte.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Roški Slap",
+        "Zaton"
+      ],
+      "url": "https://taxiskradin.hr/fr/taxi-roski-slap-zaton/",
+      "offers": {
+        "@type": "Offer",
+        "price": "75",
+        "priceCurrency": "EUR",
+        "description": "Course privée aller simple, trajet Roški Slap - Zaton, par véhicule pour jusqu'à 4 passagers. Aller et retour 150 euros."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Combien coûte un taxi sur le trajet Roški Slap - Zaton ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "75 fixe par véhicule pour jusqu'à 4 passagers, aller simple, bagages inclus. Un aller-retour coûte 150."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Où venez-vous me chercher ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "À votre adresse exacte, que ce soit une maison, un hôtel ou un appartement. Envoyez l'adresse à la réservation et je confirme le point de rendez-vous."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Combien de temps à l'avance dois-je réserver ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Au moins 2 heures avant, pour que je confirme le véhicule et l'heure de prise en charge. Pour une course de dernière minute, appelez-moi ou écrivez-moi sur WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

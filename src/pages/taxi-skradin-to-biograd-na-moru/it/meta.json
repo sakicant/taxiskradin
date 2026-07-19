@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-skradin-biograd-na-moru",
+  "title": "Taxi Skradin - Biograd na Moru | Prezzo fisso €105 | TAXI Antonio",
+  "description": "Taxi e transfer privato, tratta Skradin - Biograd na Moru. Prezzo fisso €105 per veicolo, fino a 4. Prenoti direttamente con Antonio.",
+  "keywords": "taxi skradin - biograd na moru, transfer skradin - biograd na moru, transfer aeroportuale skradin - biograd na moru",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Transfer taxi privato",
+      "name": "Taxi Skradin - Biograd na Moru",
+      "description": "Taxi e transfer privato a prezzo fisso, tratta Skradin - Biograd na Moru, 105 euro per veicolo fino a 4 passeggeri, porta a porta.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Biograd na Moru"
+      ],
+      "url": "https://taxiskradin.hr/it/taxi-skradin-biograd-na-moru/",
+      "offers": {
+        "@type": "Offer",
+        "price": "105",
+        "priceCurrency": "EUR",
+        "description": "Corsa privata di sola andata, tratta Skradin - Biograd na Moru, per veicolo fino a 4 passeggeri. Andata e ritorno 210 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quanto costa un taxi sulla tratta Skradin - Biograd na Moru?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fisso 105 per veicolo fino a 4 passeggeri, sola andata, bagagli inclusi. Un andata e ritorno costa 210."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dove viene a prendermi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Al Suo indirizzo esatto, che sia casa, hotel o appartamento. Invii l'indirizzo al momento della prenotazione e Le confermo il punto d'incontro."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Con quanto anticipo dovrei prenotare?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Almeno 2 ore prima, così posso confermare veicolo e orario del prelievo. Per una corsa dell'ultimo minuto mi chiami o mi scriva su WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

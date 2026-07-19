@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-skradin-sibenik",
+  "title": "Taksi Skradin - Šibenik | Kiinteä hinta €50 | TAXI Antonio",
+  "description": "Yksityinen taksi ja kuljetus, reitti Skradin - Šibenik. Kiinteä hinta €50 per auto, enintään 4 matkustajaa, ovelta ovelle. Varaa suoraan Antoniolta.",
+  "keywords": "taksi skradin - šibenik, kuljetus skradin - šibenik, lentokenttäkuljetus skradin - šibenik",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Yksityinen taksikuljetus",
+      "name": "Taksi Skradin - Šibenik",
+      "description": "Yksityinen taksi ja kuljetus kiinteään hintaan, reitti Skradin - Šibenik, 50 euroa per auto enintään 4 matkustajalle, ovelta ovelle.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Šibenik"
+      ],
+      "url": "https://taxiskradin.hr/fi/taxi-skradin-sibenik/",
+      "offers": {
+        "@type": "Offer",
+        "price": "50",
+        "priceCurrency": "EUR",
+        "description": "Yhdensuuntainen yksityinen matka, reitti Skradin - Šibenik, per auto enintään 4 matkustajalle. Meno ja paluu 100 euroa."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kuinka pitkä reitti on ja kuinka kauan matka kestää?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Matka reitillä Skradin - Šibenik on noin 21 km ja kestää noin 25 min normaalissa liikenteessä, kesän huippukaudella hieman kauemmin. Suunnittelen noudon niin, ettei hidas matka koskaan aiheuta kiirettä."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Paljonko taksi maksaa reitillä Skradin - Šibenik?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kiinteä 50 per auto enintään 4 matkustajalle, yhdensuuntainen matka, matkatavarat mukana. Meno-paluumatka maksaa 100."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mistä noudatte minut?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tarkasta osoitteestasi, olipa se talo, hotelli tai huoneisto. Lähetä osoite varauksen yhteydessä, niin vahvistan tapaamispaikan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kuinka paljon etukäteen minun pitäisi varata?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vähintään 2 tuntia aiemmin, jotta voin vahvistaa auton ja noutoajan. Lyhyellä varoitusajalla soita tai kirjoita WhatsAppissa."
+          }
+        }
+      ]
+    }
+  ]
+}

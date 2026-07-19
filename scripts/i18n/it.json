@@ -1,0 +1,261 @@
+{
+ "taxi_word": "Taxi",
+ "book_slug": "prenota",
+ "airport_name": {
+  "Split Airport": "Aeroporto di Split",
+  "Zadar Airport": "Aeroporto di Zara",
+  "Zagreb Airport": "Aeroporto di Zagabria",
+  "Dubrovnik Airport": "Aeroporto di Dubrovnik"
+ },
+ "airport_slug": {
+  "split-airport": "aeroporto-split",
+  "zadar-airport": "aeroporto-zadar",
+  "zagreb-airport": "aeroporto-zagreb",
+  "dubrovnik-airport": "aeroporto-dubrovnik"
+ },
+ "hero_alt": "Taxi {rel}: Škoda Superb di TAXI Antonio sulla costa dalmata",
+ "per_car": "per veicolo &middot; fino a 4 passeggeri",
+ "book_now": "Prenoti ora",
+ "book_wa": "Prenoti su WhatsApp",
+ "why_eyebrow": "Perché prenotare questo transfer",
+ "why_title": "Perché prenotare il Suo taxi {rel} con Antonio?",
+ "price_title": "Prezzo {rel}",
+ "price_sub": "Prezzo fisso per veicolo, fino a 4 passeggeri, bagagli inclusi. Lo stesso prezzo vale in senso inverso.",
+ "price_oneway_lbl": "Sola andata",
+ "price_return_lbl": "Andata &amp; ritorno",
+ "price_advance_lbl": "Acconto per la conferma",
+ "price_balance_val": "Contanti o carta",
+ "price_balance_lbl": "Saldo il giorno stesso",
+ "hub_note": "Un acconto del 20% (minimo &euro;20) conferma la Sua prenotazione, il saldo lo paga il giorno del viaggio, in contanti o con carta. Viaggia in senso inverso? Veda {revlink}.",
+ "reviews_eyebrow": "Recensioni",
+ "reviews_title": "Cosa dicono i passeggeri",
+ "reviews_sub": "Recensioni autentiche di passeggeri reali.",
+ "faq_eyebrow": "FAQ",
+ "faq_title": "Taxi {rel}: domande frequenti",
+ "cta_title": "Prenoti il Suo transfer {rel}",
+ "cta_sub": "Prezzo fisso &euro;{p} per veicolo, fino a 4 passeggeri. Conferma in pochi clic.",
+ "trust_air": "Confermato dopo l'acconto &middot; Nessun costo nascosto &middot; Monitoraggio del volo incluso",
+ "trust_generic": "Confermato dopo l'acconto &middot; Nessun costo nascosto &middot; Prezzo fisso, senza tassametro",
+ "rf_fixed_oneway_lbl": "Prezzo fisso, sola andata",
+ "rf_distance_lbl": "Distanza",
+ "rf_drivetime_lbl": "Durata del viaggio",
+ "rf_return_lbl": "Andata &amp; ritorno",
+ "rf_upto4_val": "Fino a 4",
+ "rf_upto4_lbl": "Passeggeri",
+ "rf_skoda_lbl": "Privato, porta a porta",
+ "meta_title": "Taxi {rel} | Prezzo fisso €{p} | TAXI Antonio",
+ "meta_desc": "Taxi e transfer privato, tratta {rel}. Prezzo fisso €{p} per veicolo, fino a 4 passeggeri, porta a porta. Prenoti direttamente con Antonio.",
+ "meta_desc_short": "Taxi e transfer privato, tratta {rel}. Prezzo fisso €{p} per veicolo, fino a 4. Prenoti direttamente con Antonio.",
+ "keywords": "taxi {rell}, transfer {rell}, transfer aeroportuale {rell}",
+ "schema_servicetype": "Transfer taxi privato",
+ "schema_name": "Taxi {rel}",
+ "schema_desc": "Taxi e transfer privato a prezzo fisso, tratta {rel}, {p} euro per veicolo fino a 4 passeggeri, porta a porta.",
+ "schema_offer_desc": "Corsa privata di sola andata, tratta {rel}, per veicolo fino a 4 passeggeri. Andata e ritorno {rp} euro.",
+ "dist_faq_q": "Quanto è lunga la tratta e quanto dura il viaggio?",
+ "dist_faq_a": "Il viaggio sulla tratta {rel} è lungo circa {km} km e dura circa {t} con traffico normale, un po' di più nel pieno dell'estate. Programmo il prelievo in modo che un tragitto lento non La metta mai in affanno.",
+ "types": {
+  "to_airport": {
+   "heading": "Il Suo taxi e transfer privato, tratta {rel}",
+   "tagline": "Taxi e transfer privato a prezzo fisso, tratta {rel}, direttamente alla partenza.",
+   "intro": "Parte dall'aeroporto di {city}? Per la tratta {rel} offro un taxi e un transfer privato a prezzo fisso. Sono Antonio, un autista locale: La prelevo al Suo indirizzo e La porto direttamente al terminal partenze in una comoda Škoda Superb. Il prezzo è fisso, &euro;{p} per l'intero veicolo, fino a 4 passeggeri, concordato in anticipo, senza tassametro e senza sorprese. Programmo il prelievo in base all'orario del Suo volo, così arriva con tutto il tempo per il check-in. Il modulo di preventivo qui sopra è già compilato per questa tratta, così può vedere il prezzo e prenotare in pochi clic.",
+   "whys": [
+    [
+     "Prezzo fisso &euro;{p}",
+     "Un prezzo per l'intero veicolo, fino a 4 passeggeri, concordato in anticipo. Pedaggio, carburante e bagagli inclusi, senza tassametro."
+    ],
+    [
+     "Su misura per il Suo volo",
+     "Mi indichi l'orario di partenza e calcolo a ritroso, così è al terminal con il tempo per il check-in."
+    ],
+    [
+     "Dalla porta al terminal",
+     "Prelievo al Suo indirizzo e arrivo proprio all'ingresso del terminal partenze."
+    ],
+    [
+     "A qualsiasi ora",
+     "Voli all'alba o a tarda sera non sono un problema. Guido 24 ore su 24 a un prezzo concordato in anticipo."
+    ]
+   ],
+   "faqs": [
+    [
+     "Quanto costa un taxi sulla tratta {rel}?",
+     "Fisso &euro;{p} per veicolo, sola andata, fino a 4 passeggeri. Il prezzo è per veicolo, non a persona, e comprende pedaggio, carburante e bagagli. Un andata e ritorno costa &euro;{rp}."
+    ],
+    [
+     "Quando dovrei partire per l'aeroporto?",
+     "Di norma circa 3 ore prima di un volo internazionale e 2 ore prima di uno nazionale. Mi indichi l'orario del volo e Le confermo il prelievo esatto."
+    ],
+    [
+     "Arriva fino al terminal partenze?",
+     "Sì. La porto direttamente al terminal partenze e L'aiuto con i bagagli. Niente tragitto a piedi dal parcheggio e niente navetta."
+    ],
+    [
+     "Con quanto anticipo dovrei prenotare?",
+     "Almeno 2 ore prima, così posso confermare veicolo e prelievo, e prima per voli mattutini e alta stagione. Per una corsa dell'ultimo minuto mi chiami o mi scriva su WhatsApp."
+    ]
+   ]
+  },
+  "from_airport": {
+   "heading": "Il Suo prelievo in aeroporto e transfer, tratta {rel}",
+   "tagline": "Prelievo privato in aeroporto e transfer a prezzo fisso, tratta {rel}, con monitoraggio del volo.",
+   "intro": "Appena atterrato all'aeroporto di {city}? Un transfer privato per la tratta {rel} toglie lo stress dall'arrivo. La accolgo nella hall degli arrivi con un cartello col Suo nome, L'aiuto con i bagagli e La porto direttamente a destinazione in una comoda Škoda Superb, a un prezzo fisso di &euro;{p} per l'intero veicolo, fino a 4 passeggeri. Seguo il Suo volo in tempo reale, così ci sono sia che atterri in anticipo sia in ritardo. Niente coda ai taxi, niente transfer collettivo e nessun sovrapprezzo. Il modulo qui sopra è già compilato per questa tratta.",
+   "whys": [
+    [
+     "Accoglienza con cartello",
+     "L'attendo nella hall degli arrivi con un cartello col Suo nome e L'aiuto con le borse, così va dritto al veicolo."
+    ],
+    [
+     "Monitoraggio del volo",
+     "Seguo il Suo volo in tempo reale e mi adatto a un atterraggio anticipato o a un ritardo, con attesa gratuita."
+    ],
+    [
+     "Prezzo fisso &euro;{p}",
+     "Un prezzo per l'intero veicolo, fino a 4 passeggeri, concordato in anticipo. Pedaggio, carburante e bagagli inclusi, senza tassametro."
+    ],
+    [
+     "Fin davanti alla Sua porta",
+     "Niente coda e niente cambi. La porto direttamente al Suo indirizzo."
+    ]
+   ],
+   "faqs": [
+    [
+     "Dove mi accoglie?",
+     "Nella hall degli arrivi, subito dopo il ritiro bagagli, con un cartello col Suo nome. L'aiuto con i bagagli e L'accompagno al veicolo."
+    ],
+    [
+     "E se il mio volo è in ritardo?",
+     "Nessun problema. Seguo il Suo volo in tempo reale e adatto il prelievo all'atterraggio effettivo, senza sovrapprezzo per l'attesa."
+    ],
+    [
+     "Quanto costa il transfer sulla tratta {rel}?",
+     "Fisso &euro;{p} per veicolo fino a 4 passeggeri, sola andata, pedaggio e bagagli inclusi. Un andata e ritorno costa &euro;{rp}."
+    ],
+    [
+     "Con quanto anticipo dovrei prenotare?",
+     "Almeno 2 ore prima, così posso organizzarmi attorno al Suo volo. Per un prelievo in giornata dopo un cambiamento dell'ultimo minuto mi chiami o mi scriva su WhatsApp."
+    ]
+   ]
+  },
+  "marina": {
+   "heading": "Transfer privato marina, tratta {rel}",
+   "tagline": "Taxi e transfer privato a prezzo fisso, tratta {rel}, su misura per la Sua barca.",
+   "intro": "Viaggia sulla tratta {rel}? Offro un taxi e un transfer privato a prezzo fisso per gli ospiti della marina, su misura per la Sua barca e i Suoi piani di viaggio. La prelevo con tutto lo spazio necessario per i bagagli e La porto fino a destinazione comodamente in una Škoda Superb, a un prezzo forfettario di &euro;{p} per il veicolo, fino a 4 passeggeri, concordato prima del viaggio. Che stia raggiungendo il Suo yacht o proseguendo dopo lo sbarco, non c'è tassametro né attesa al posteggio, solo un autista locale che prenota direttamente. Si tratta di un transfer privato su una tratta più lunga, e il preventivo qui sopra è già impostato per questa tratta.",
+   "whys": [
+    [
+     "Prezzo fisso &euro;{p}",
+     "Un prezzo per veicolo fino a 4 passeggeri, concordato in anticipo. Pedaggio, carburante e bagagli inclusi, senza tassametro in funzione."
+    ],
+    [
+     "Su misura per la Sua barca",
+     "Mi indichi l'orario del charter, del check-in o della partenza e organizzo il prelievo di conseguenza, così un tragitto lento non La mette mai in affanno."
+    ],
+    [
+     "Spazio per i Suoi bagagli",
+     "Valigie, provviste e borse da barca entrano tutte in una comoda Škoda Superb, con una mano d'aiuto per caricare e scaricare."
+    ],
+    [
+     "Un autista locale",
+     "Tratta direttamente con me, dalla prenotazione all'arrivo, per telefono, WhatsApp o e-mail. Nessun call center."
+    ]
+   ],
+   "faqs": [
+    [
+     "Quanto costa un transfer sulla tratta {rel}?",
+     "Fisso &euro;{p} per veicolo fino a 4 passeggeri, sola andata, con pedaggio, carburante e bagagli. Un andata e ritorno costa &euro;{rp}."
+    ],
+    [
+     "Può venire a prendermi direttamente alla marina?",
+     "Sì. La incontro all'ingresso o alla reception della marina e L'aiuto con i bagagli, così va direttamente dal pontile al veicolo."
+    ],
+    [
+     "Può adattare il transfer alla mia barca?",
+     "Sì. Al momento della prenotazione mi invii l'orario del charter, del check-in o della partenza e organizzo il prelievo di conseguenza."
+    ],
+    [
+     "Con quanto anticipo dovrei prenotare?",
+     "Almeno 2 ore prima, così posso confermare veicolo e orario del prelievo. Per una corsa dell'ultimo minuto mi chiami o mi scriva direttamente su WhatsApp."
+    ]
+   ]
+  },
+  "city": {
+   "heading": "Transfer privato, tratta {rel}",
+   "tagline": "Taxi e transfer privato a prezzo fisso, tratta {rel}, porta a porta.",
+   "intro0": "Le serve un transfer affidabile sulla tratta {rel}? Offro un taxi e un transfer privato a prezzo fisso, porta a porta, in una comoda Škoda Superb. La prelevo al Suo indirizzo esatto e La porto direttamente a destinazione, senza soste indesiderate e senza altri passeggeri. Il prezzo è fisso, &euro;{p} per l'intero veicolo, fino a 4 passeggeri, concordato prima della partenza, pedaggio e bagagli inclusi. Il preventivo qui sopra è compilato per questa tratta, così la prenotazione richiede solo pochi clic.",
+   "intro1": "Cerca un taxi sulla tratta {rel} senza tassametro né complicazioni? Questo è un transfer privato a prezzo fisso con un autista locale. La prelevo alla porta e La porto comodamente a destinazione, bagagli compresi, a un prezzo forfettario di &euro;{p} per veicolo fino a 4 passeggeri. Per coppie e famiglie è spesso più conveniente di biglietti di autobus o treno separati, e sempre più veloce e porta a porta. Il preventivo qui sopra è già impostato per questa tratta.",
+   "whys": [
+    [
+     "Prezzo fisso &euro;{p}",
+     "Un prezzo per veicolo fino a 4 passeggeri, concordato in anticipo. Pedaggio, carburante e bagagli inclusi, senza tassametro in funzione."
+    ],
+    [
+     "Porta a porta",
+     "La prelevo al Suo indirizzo esatto e La lascio alla porta della destinazione. Niente stazioni, niente cambi."
+    ],
+    [
+     "Un autista locale",
+     "Tratta direttamente con me, dalla prenotazione all'arrivo, per telefono, WhatsApp o e-mail. Nessun call center."
+    ],
+    [
+     "Soste su richiesta",
+     "Sulle tratte più lunghe mi fermo volentieri per un caffè, una foto o una breve attrazione lungo il percorso."
+    ]
+   ],
+   "faqs": [
+    [
+     "Quanto costa un taxi sulla tratta {rel}?",
+     "Fisso &euro;{p} per veicolo fino a 4 passeggeri, sola andata, con pedaggio, carburante e bagagli. Un andata e ritorno costa &euro;{rp}."
+    ],
+    [
+     "Il transfer è privato o condiviso?",
+     "Ogni transfer è privato e porta a porta, in una Škoda Superb. Nessuna condivisione del veicolo e nessuna sosta aggiuntiva, salvo Sua richiesta."
+    ],
+    [
+     "Può fermarsi lungo il percorso?",
+     "Sì. Sulle tratte più lunghe mi fermo volentieri per un caffè, una foto o una breve attrazione. Basta che me lo dica al momento della prenotazione."
+    ],
+    [
+     "Con quanto anticipo dovrei prenotare?",
+     "Almeno 2 ore prima, così posso confermare veicolo e orario del prelievo. Per una corsa dell'ultimo minuto mi chiami o mi scriva su WhatsApp."
+    ]
+   ]
+  },
+  "local": {
+   "heading": "Taxi privato, tratta {rel}",
+   "tagline": "Taxi e transfer privato a prezzo fisso, tratta {rel}, porta a porta.",
+   "intro0": "Viaggia sulla tratta {rel}? Offro un taxi e un transfer privato a prezzo fisso, con prelievo alla Sua porta e arrivo esattamente dove deve andare. Il prezzo è forfettario, &euro;{p} per l'intero veicolo, fino a 4 passeggeri, senza tassametro e senza attese al posteggio. Una comoda Škoda Superb, spazio per i Suoi bagagli e un autista locale che prenota direttamente. Il preventivo qui sopra è compilato per questa tratta.",
+   "intro1": "Le serve un taxi sulla tratta {rel}? Offro un transfer privato porta a porta a un prezzo fisso di &euro;{p} per l'intero veicolo, fino a 4 passeggeri. Arrivo al Suo indirizzo all'orario concordato, così non aspetta mai sul ciglio della strada, e La porto comodamente a destinazione. Nessun tassametro, nessuna sorpresa, solo un autista locale dalla prenotazione all'arrivo. Il preventivo qui sopra è già impostato per questa tratta.",
+   "whys": [
+    [
+     "Prezzo fisso &euro;{p}",
+     "Un prezzo per veicolo fino a 4 passeggeri, concordato prima del viaggio. Nessun tassametro, nessuna sorpresa."
+    ],
+    [
+     "Porta a porta",
+     "Prelievo al Suo indirizzo e arrivo alla porta della destinazione, bagagli compresi."
+    ],
+    [
+     "Nessun posteggio necessario",
+     "Prenotato in anticipo, così non aspetta mai un taxi di passaggio. Vengo io da Lei."
+    ],
+    [
+     "Un autista locale",
+     "Tratta direttamente con me, dalla prenotazione all'arrivo, per telefono, WhatsApp o e-mail."
+    ]
+   ],
+   "faqs": [
+    [
+     "Quanto costa un taxi sulla tratta {rel}?",
+     "Fisso &euro;{p} per veicolo fino a 4 passeggeri, sola andata, bagagli inclusi. Un andata e ritorno costa &euro;{rp}."
+    ],
+    [
+     "Dove viene a prendermi?",
+     "Al Suo indirizzo esatto, che sia casa, hotel o appartamento. Invii l'indirizzo al momento della prenotazione e Le confermo il punto d'incontro."
+    ],
+    [
+     "Con quanto anticipo dovrei prenotare?",
+     "Almeno 2 ore prima, così posso confermare veicolo e orario del prelievo. Per una corsa dell'ultimo minuto mi chiami o mi scriva su WhatsApp."
+    ]
+   ]
+  }
+ }
+}

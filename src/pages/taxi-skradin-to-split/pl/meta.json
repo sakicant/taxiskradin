@@ -1,0 +1,89 @@
+{
+  "slug": "taxi-skradin-split",
+  "title": "Taxi Skradin - Split | Stała cena €140 | TAXI Antonio",
+  "description": "Prywatne taxi i transfer, trasa Skradin - Split. Stała cena €140 za pojazd, do 4 pasażerów, od drzwi do drzwi. Rezerwacja bezpośrednio u Antonio.",
+  "keywords": "taxi skradin - split, transfer skradin - split, transfer lotniskowy skradin - split",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Prywatny transfer taxi",
+      "name": "Taxi Skradin - Split",
+      "description": "Prywatne taxi i transfer w stałej cenie, trasa Skradin - Split, 140 euro za pojazd dla maksymalnie 4 pasażerów, od drzwi do drzwi.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Split"
+      ],
+      "url": "https://taxiskradin.hr/pl/taxi-skradin-split/",
+      "offers": {
+        "@type": "Offer",
+        "price": "140",
+        "priceCurrency": "EUR",
+        "description": "Prywatny przejazd w jedną stronę, trasa Skradin - Split, za pojazd dla maksymalnie 4 pasażerów. Tam i z powrotem 280 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Jak długa jest trasa i ile trwa przejazd?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Przejazd na trasie Skradin - Split liczy około 93 km i trwa około 70 min przy normalnym ruchu, w szczycie sezonu letniego nieco dłużej. Odbiór planuję tak, aby wolniejszy przejazd nigdy nie zmusił Pana/Pani do pośpiechu."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ile kosztuje taxi na trasie Skradin - Split?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stała cena 140 za pojazd dla maksymalnie 4 pasażerów, w jedną stronę, z opłatami drogowymi, paliwem i bagażem. Przejazd tam i z powrotem kosztuje 280."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy transfer jest prywatny czy współdzielony?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Każdy transfer jest prywatny i od drzwi do drzwi, w Škodzie Superb. Bez dzielenia pojazdu i bez dodatkowych przystanków, chyba że sobie Pan/Pani tego życzy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy może Pan zatrzymać się po drodze?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tak. Na dłuższych trasach chętnie zatrzymam się na kawę, zdjęcie lub krótkie zwiedzanie. Wystarczy dać znać przy rezerwacji."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Z jakim wyprzedzeniem należy rezerwować?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Co najmniej 2 godziny wcześniej, abym mógł potwierdzić pojazd i godzinę odbioru. W razie przejazdu na ostatnią chwilę proszę zadzwonić lub napisać na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

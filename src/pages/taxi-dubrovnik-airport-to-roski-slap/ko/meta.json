@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-dubrovnik-airport-roski-slap",
+  "title": "택시 두브로브니크 공항 - Roški Slap | 고정 요금 €485 | TAXI Antonio",
+  "description": "개인 택시 및 교통편, 두브로브니크 공항 - Roški Slap 노선. 고정 요금 €485 차량당, 최대 4명 탑승, 도어 투 도어. Antonio에게 직접 예약하세요.",
+  "keywords": "택시 두브로브니크 공항 - roški slap, 교통편 두브로브니크 공항 - roški slap, 공항 교통편 두브로브니크 공항 - roški slap",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-airport-2.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "개인 택시 교통편",
+      "name": "택시 두브로브니크 공항 - Roški Slap",
+      "description": "고정 요금 개인 택시 및 교통편, 두브로브니크 공항 - Roški Slap 노선, 차량당 485 유로, 최대 4명 탑승, 도어 투 도어.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "두브로브니크 공항",
+        "Roški Slap"
+      ],
+      "url": "https://taxiskradin.hr/ko/taxi-dubrovnik-airport-roski-slap/",
+      "offers": {
+        "@type": "Offer",
+        "price": "485",
+        "priceCurrency": "EUR",
+        "description": "개인 편도 이동, 두브로브니크 공항 - Roški Slap 노선, 차량당 최대 4명 탑승. 왕복 970 유로."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "어디에서 저를 맞이하시나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "수하물 찾는 곳을 지나 바로 도착 홀에서, 당신의 이름이 적힌 이름표를 들고 있습니다. 짐을 도와드리고 차량까지 안내해 드립니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "항공편이 지연되면 어떻게 되나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "문제없습니다. 항공편을 실시간으로 추적하여 실제 도착 시간에 맞춰 픽업을 조정하며, 대기 시간에 대한 추가 요금은 없습니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "두브로브니크 공항 - Roški Slap 노선의 교통편 요금은 얼마인가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "고정 485 차량당, 최대 4명 탑승, 편도, 통행료와 짐 포함. 왕복은 970입니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "얼마나 미리 예약해야 하나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "항공편에 맞춰 계획할 수 있도록 최소 2시간 전 부탁드립니다. 급한 일정 변경으로 당일 픽업이 필요하시면 전화하시거나 WhatsApp으로 메시지를 보내주세요."
+          }
+        }
+      ]
+    }
+  ]
+}

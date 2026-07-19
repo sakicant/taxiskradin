@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-zagreb-roski-slap",
+  "title": "Taxi Zagreb - Roški Slap | Precio fijo €485 | TAXI Antonio",
+  "description": "Taxi y traslado privado, Zagreb - Roški Slap. Precio fijo €485 por vehículo, hasta 4 pasajeros, puerta a puerta. Reserve directamente con Antonio.",
+  "keywords": "taxi zagreb - roški slap, traslado zagreb - roški slap, traslado al aeropuerto zagreb - roški slap",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Traslado privado en taxi",
+      "name": "Taxi Zagreb - Roški Slap",
+      "description": "Taxi y traslado privado a precio fijo, Zagreb - Roški Slap, 485 euros por vehículo para hasta 4 pasajeros, puerta a puerta.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Zagreb",
+        "Roški Slap"
+      ],
+      "url": "https://taxiskradin.hr/es/taxi-zagreb-roski-slap/",
+      "offers": {
+        "@type": "Offer",
+        "price": "485",
+        "priceCurrency": "EUR",
+        "description": "Trayecto privado de ida, Zagreb - Roški Slap, por vehículo para hasta 4 pasajeros. Ida y vuelta 970 euros."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta un taxi en el trayecto Zagreb - Roški Slap?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fijo 485 por vehículo para hasta 4 pasajeros, solo ida, con peajes, combustible y equipaje. Un viaje de ida y vuelta cuesta 970."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿El traslado es privado o compartido?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cada traslado es privado y puerta a puerta, en un Škoda Superb. Sin compartir el vehículo y sin paradas adicionales, salvo que usted lo desee."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puede parar por el camino?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. En los trayectos más largos, paro con gusto para un café, una foto o un breve punto de interés. Solo dígamelo al reservar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Con cuánta antelación debo reservar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Al menos 2 horas antes, para que pueda confirmar el vehículo y la hora de recogida. Para un viaje de última hora, llame o escriba por WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

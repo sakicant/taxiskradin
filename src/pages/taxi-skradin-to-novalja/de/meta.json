@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-skradin-novalja",
+  "title": "Taxi Skradin - Novalja | Festpreis €190 | TAXI Antonio",
+  "description": "Privates Taxi und Transfer, Strecke Skradin - Novalja. Festpreis €190 pro Fahrzeug, bis zu 4 Fahrgäste, Tür zu Tür. Direkt bei Antonio buchen.",
+  "keywords": "taxi skradin - novalja, transfer skradin - novalja, flughafentransfer skradin - novalja",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privater Taxitransfer",
+      "name": "Taxi Skradin - Novalja",
+      "description": "Privates Taxi und Transfer zum Festpreis, Strecke Skradin - Novalja, 190 Euro pro Fahrzeug für bis zu 4 Fahrgäste, Tür zu Tür.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Novalja"
+      ],
+      "url": "https://taxiskradin.hr/de/taxi-skradin-novalja/",
+      "offers": {
+        "@type": "Offer",
+        "price": "190",
+        "priceCurrency": "EUR",
+        "description": "Einfache private Fahrt, Strecke Skradin - Novalja, pro Fahrzeug für bis zu 4 Fahrgäste. Hin und zurück 380 Euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wie weit ist die Strecke und wie lange dauert die Fahrt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die Fahrt auf der Strecke Skradin - Novalja ist rund 133 km lang und dauert etwa 1 h 55 min bei normalem Verkehr, in der Sommerhauptzeit etwas länger. Ich plane die Abholung so, dass eine langsame Strecke Sie nie in Eile bringt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie viel kostet ein Taxi auf der Strecke Skradin - Novalja?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fest 190 pro Fahrzeug für bis zu 4 Fahrgäste, einfache Fahrt, Gepäck inklusive. Eine Hin- und Rückfahrt kostet 380."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wo holen Sie mich ab?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An Ihrer genauen Adresse, ob Haus, Hotel oder Apartment. Senden Sie die Adresse bei der Buchung und ich bestätige den Treffpunkt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie weit im Voraus sollte ich buchen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mindestens 2 Stunden vorher, damit ich Fahrzeug und Abholzeit bestätigen kann. Für eine kurzfristige Fahrt rufen Sie an oder schreiben auf WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-roski-slap-grebastica",
+  "title": "Taxi Roški Slap - Grebaštica | Fast pris €90 | TAXI Antonio",
+  "description": "Privat taxi och transfer, Roški Slap - Grebaštica. Fast pris €90 per fordon, upp till 4 passagerare, dörr till dörr. Boka direkt hos Antonio.",
+  "keywords": "taxi roški slap - grebaštica, transfer roški slap - grebaštica, flygplatstransfer roški slap - grebaštica",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privat taxitransfer",
+      "name": "Taxi Roški Slap - Grebaštica",
+      "description": "Privat taxi och transfer till fast pris, Roški Slap - Grebaštica, 90 euro per fordon för upp till 4 passagerare, dörr till dörr.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Roški Slap",
+        "Grebaštica"
+      ],
+      "url": "https://taxiskradin.hr/sv/taxi-roski-slap-grebastica/",
+      "offers": {
+        "@type": "Offer",
+        "price": "90",
+        "priceCurrency": "EUR",
+        "description": "Enkel privat resa, Roški Slap - Grebaštica, per fordon för upp till 4 passagerare. Tur och retur 180 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hur mycket kostar en taxi på sträckan Roški Slap - Grebaštica?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fast 90 per fordon för upp till 4 passagerare, enkel resa, bagage ingår. En tur och retur kostar 180."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Var hämtar du mig?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "På din exakta adress, oavsett om det är hus, hotell eller lägenhet. Skicka adressen vid bokningen, så bekräftar jag mötesplatsen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hur långt i förväg bör jag boka?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minst 2 timmar i förväg, så att jag kan bekräfta fordon och upphämtningstid. För en resa med kort varsel, ring eller skriv på WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

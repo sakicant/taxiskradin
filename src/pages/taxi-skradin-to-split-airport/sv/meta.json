@@ -1,0 +1,89 @@
+{
+  "slug": "taxi-skradin-flygplats-split",
+  "title": "Taxi Skradin - Split flygplats | Fast pris €110 | TAXI Antonio",
+  "description": "Privat taxi och transfer, Skradin - Split flygplats. Fast pris €110 per fordon, upp till 4 passagerare, dörr till dörr. Boka direkt hos Antonio.",
+  "keywords": "taxi skradin - split flygplats, transfer skradin - split flygplats, flygplatstransfer skradin - split flygplats",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-airport.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privat taxitransfer",
+      "name": "Taxi Skradin - Split flygplats",
+      "description": "Privat taxi och transfer till fast pris, Skradin - Split flygplats, 110 euro per fordon för upp till 4 passagerare, dörr till dörr.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Split flygplats"
+      ],
+      "url": "https://taxiskradin.hr/sv/taxi-skradin-flygplats-split/",
+      "offers": {
+        "@type": "Offer",
+        "price": "110",
+        "priceCurrency": "EUR",
+        "description": "Enkel privat resa, Skradin - Split flygplats, per fordon för upp till 4 passagerare. Tur och retur 220 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hur långt är sträckan och hur lång tid tar resan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Resan Skradin - Split flygplats är cirka 64 km lång och tar ungefär 60 min vid normal trafik, något längre under högsommaren. Jag planerar upphämtningen så att en långsam sträcka aldrig gör dig stressad."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hur mycket kostar en taxi på sträckan Skradin - Split flygplats?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fast 110 per fordon, enkel resa, för upp till 4 passagerare. Priset gäller per fordon, inte per person, och inkluderar vägtull, bränsle och bagage. En tur och retur kostar 220."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "När bör jag åka till flygplatsen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vanligtvis cirka 3 timmar före ett internationellt flyg och 2 timmar före ett inrikesflyg. Berätta din flygtid, så bekräftar jag den exakta upphämtningen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kör du ända fram till avgångsterminalen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Jag kör dig direkt till avgångsterminalen och hjälper till med bagaget. Ingen promenad från parkeringen och ingen shuttlebuss."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hur långt i förväg bör jag boka?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minst 2 timmar i förväg, så att jag kan bekräfta fordon och upphämtning, och tidigare för tidiga flyg och högsäsongen. För en resa med kort varsel, ring eller skriv till mig på WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

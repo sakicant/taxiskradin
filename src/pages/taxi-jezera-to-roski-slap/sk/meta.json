@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-jezera-roski-slap",
+  "title": "Taxi Jezera - Roški Slap | Pevná cena €95 | TAXI Antonio",
+  "description": "Súkromné taxi a transfer, trasa Jezera - Roški Slap. Pevná cena €95 za vozidlo, až 4 cestujúci, od dverí k dverám. Rezervujte priamo u Antonia.",
+  "keywords": "taxi jezera - roški slap, transfer jezera - roški slap, letiskový transfer jezera - roški slap",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Súkromný taxi transfer",
+      "name": "Taxi Jezera - Roški Slap",
+      "description": "Súkromné taxi a transfer za pevnú cenu, trasa Jezera - Roški Slap, 95 eur za vozidlo pre až 4 cestujúcich, od dverí k dverám.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Jezera",
+        "Roški Slap"
+      ],
+      "url": "https://taxiskradin.hr/sk/taxi-jezera-roski-slap/",
+      "offers": {
+        "@type": "Offer",
+        "price": "95",
+        "priceCurrency": "EUR",
+        "description": "Jednosmerná súkromná jazda, trasa Jezera - Roški Slap, za vozidlo pre až 4 cestujúcich. Tam a späť 190 eur."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Koľko stojí taxi na trase Jezera - Roški Slap?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pevne 95 za vozidlo pre až 4 cestujúcich, jednosmerná jazda, batožina v cene. Jazda tam a späť stojí 190."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kde ma vyzdvihnete?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Na vašej presnej adrese, či už dom, hotel alebo apartmán. Pošlite adresu pri rezervácii a ja potvrdím miesto stretnutia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "S akým predstihom mám rezervovať?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minimálne 2 hodiny vopred, aby som mohol potvrdiť vozidlo a čas vyzdvihnutia. Pri jazde na poslednú chvíľu zavolajte alebo napíšte na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

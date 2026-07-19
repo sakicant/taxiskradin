@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-split-repuloter-roski-slap",
+  "title": "Taxi Split repülőtér - Roški Slap | Fix ár €100 | TAXI Antonio",
+  "description": "Privát taxi és transzfer a Split repülőtér - Roški Slap útvonalon. Fix ár €100 járművenként, legfeljebb 4 fő. Foglaljon közvetlenül Antoniónál.",
+  "keywords": "taxi split repülőtér - roški slap, transzfer split repülőtér - roški slap, reptéri transzfer split repülőtér - roški slap",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-airport-2.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privát taxitranszfer",
+      "name": "Taxi Split repülőtér - Roški Slap",
+      "description": "Privát taxi és transzfer fix áron a Split repülőtér - Roški Slap útvonalon, 100 euró járművenként, legfeljebb 4 utas, háztól házig.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Split repülőtér",
+        "Roški Slap"
+      ],
+      "url": "https://taxiskradin.hr/hu/taxi-split-repuloter-roski-slap/",
+      "offers": {
+        "@type": "Offer",
+        "price": "100",
+        "priceCurrency": "EUR",
+        "description": "Privát, csak oda út a Split repülőtér - Roški Slap útvonalon, járművenként, legfeljebb 4 utas. Oda-vissza 200 euró."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hol fogad engem?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Az érkezési csarnokban, közvetlenül a csomagkiadás után, egy táblával, amelyen az Ön neve áll. Segítek a csomagokkal, és a járműhöz kísérem."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mi van, ha a járatom késik?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Semmi gond. Valós időben követem a járatát, és a felvételt a tényleges landoláshoz igazítom, a várakozásért felár nélkül."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mennyibe kerül a transzfer a Split repülőtér - Roški Slap útvonalon?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fix 100 járművenként, legfeljebb 4 utasnak, csak oda, útdíjjal és csomagokkal együtt. Az oda-vissza út 200."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mennyivel korábban foglaljak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Legalább 2 órával előtte, hogy a járata köré tudjam tervezni. Aznapi felvételhez egy rövid határidős változás után hívjon fel, vagy írjon WhatsAppon."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-srima-roski-slap",
+  "title": "Taxi Srima - Roški Slap | Pevná cena €90 | TAXI Antonio",
+  "description": "Soukromé taxi a transfer, trasa Srima - Roški Slap. Pevná cena €90 za vozidlo, až 4 cestující, ode dveří ke dveřím. Rezervujte přímo u Antonia.",
+  "keywords": "taxi srima - roški slap, transfer srima - roški slap, letištní transfer srima - roški slap",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Soukromý taxi transfer",
+      "name": "Taxi Srima - Roški Slap",
+      "description": "Soukromé taxi a transfer za pevnou cenu, trasa Srima - Roški Slap, 90 eur za vozidlo pro až 4 cestující, ode dveří ke dveřím.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Srima",
+        "Roški Slap"
+      ],
+      "url": "https://taxiskradin.hr/cs/taxi-srima-roski-slap/",
+      "offers": {
+        "@type": "Offer",
+        "price": "90",
+        "priceCurrency": "EUR",
+        "description": "Jednosměrná soukromá jízda, trasa Srima - Roški Slap, za vozidlo pro až 4 cestující. Tam a zpět 180 eur."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kolik stojí taxi na trase Srima - Roški Slap?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pevně 90 za vozidlo pro až 4 cestující, jednosměrná jízda, zavazadla v ceně. Cesta tam a zpět stojí 180."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kde mě vyzvednete?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Na vaší přesné adrese, ať jde o dům, hotel nebo apartmán. Pošlete adresu při rezervaci a potvrdím místo setkání."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "S jakým předstihem mám rezervovat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nejméně 2 hodiny předem, abych mohl potvrdit vozidlo a čas vyzvednutí. Pro jízdu na poslední chvíli zavolejte nebo napište na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-sukosan-skradin",
+  "title": "Taxi Sukošan - Skradin | Vaste prijs €130 | TAXI Antonio",
+  "description": "Privétaxi en transfer, route Sukošan - Skradin. Vaste prijs €130 per voertuig, tot 4 passagiers, deur tot deur. Rechtstreeks bij Antonio boeken.",
+  "keywords": "taxi sukošan - skradin, transfer sukošan - skradin, luchthaventransfer sukošan - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privé taxitransfer",
+      "name": "Taxi Sukošan - Skradin",
+      "description": "Privétaxi en transfer tegen vaste prijs, route Sukošan - Skradin, 130 euro per voertuig voor tot 4 passagiers, deur tot deur.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Sukošan",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/nl/taxi-sukosan-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "130",
+        "priceCurrency": "EUR",
+        "description": "Enkele privérit, route Sukošan - Skradin, per voertuig voor tot 4 passagiers. Heen en terug 260 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hoeveel kost een taxi op de route Sukošan - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vast 130 per voertuig voor tot 4 passagiers, enkele reis, bagage inbegrepen. Een heen- en terugrit kost 260."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Waar haalt u mij op?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Op uw exacte adres, of het nu een huis, hotel of appartement is. Stuur het adres bij het boeken en ik bevestig de ontmoetingsplek."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoe ver van tevoren moet ik boeken?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minstens 2 uur vooraf, zodat ik het voertuig en de ophaaltijd kan bevestigen. Voor een rit op korte termijn belt u of schrijft u op WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

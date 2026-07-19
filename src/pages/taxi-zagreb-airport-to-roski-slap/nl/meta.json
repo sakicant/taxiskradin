@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-luchthaven-zagreb-roski-slap",
+  "title": "Taxi Luchthaven Zagreb - Roški Slap | Vaste prijs €485 | TAXI Antonio",
+  "description": "Privétaxi en transfer, route Luchthaven Zagreb - Roški Slap. Vaste prijs €485 per voertuig, tot 4. Rechtstreeks bij Antonio boeken.",
+  "keywords": "taxi luchthaven zagreb - roški slap, transfer luchthaven zagreb - roški slap, luchthaventransfer luchthaven zagreb - roški slap",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-airport-2.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privé taxitransfer",
+      "name": "Taxi Luchthaven Zagreb - Roški Slap",
+      "description": "Privétaxi en transfer tegen vaste prijs, route Luchthaven Zagreb - Roški Slap, 485 euro per voertuig voor tot 4 passagiers, deur tot deur.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Luchthaven Zagreb",
+        "Roški Slap"
+      ],
+      "url": "https://taxiskradin.hr/nl/taxi-luchthaven-zagreb-roski-slap/",
+      "offers": {
+        "@type": "Offer",
+        "price": "485",
+        "priceCurrency": "EUR",
+        "description": "Enkele privérit, route Luchthaven Zagreb - Roški Slap, per voertuig voor tot 4 passagiers. Heen en terug 970 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Waar ontvangt u mij?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In de aankomsthal, direct na de bagageband, met een bordje met uw naam. Ik help met de bagage en begeleid u naar het voertuig."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wat als mijn vlucht vertraging heeft?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Geen probleem. Ik volg uw vlucht in realtime en pas de ophaaltijd aan op de daadwerkelijke landing, zonder toeslag voor de wachttijd."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoeveel kost de transfer op de route Luchthaven Zagreb - Roški Slap?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vast 485 per voertuig voor tot 4 passagiers, enkele reis, tol en bagage inbegrepen. Een heen- en terugrit kost 970."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoe ver van tevoren moet ik boeken?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minstens 2 uur vooraf, zodat ik rond uw vlucht kan plannen. Voor een ophaal op dezelfde dag na een wijziging op korte termijn belt u of schrijft u op WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

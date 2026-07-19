@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-skradin-marina-kremik",
+  "title": "Taksi Skradin - Marina Kremik | Fiksna cena €85 | TAXI Antonio",
+  "description": "Zasebni taksi in prevoz, relacija Skradin - Marina Kremik. Fiksna cena €85 na vozilo, do 4 potniki, od vrat do vrat. Rezervirajte neposredno pri Antoniu.",
+  "keywords": "taksi skradin - marina kremik, prevoz skradin - marina kremik, letališki prevoz skradin - marina kremik",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Zasebni taksi prevoz",
+      "name": "Taksi Skradin - Marina Kremik",
+      "description": "Zasebni taksi in prevoz po fiksni ceni, relacija Skradin - Marina Kremik, 85 evrov na vozilo za do 4 potnike, od vrat do vrat.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Marina Kremik"
+      ],
+      "url": "https://taxiskradin.hr/sl/taxi-skradin-marina-kremik/",
+      "offers": {
+        "@type": "Offer",
+        "price": "85",
+        "priceCurrency": "EUR",
+        "description": "Enosmerna zasebna vožnja, relacija Skradin - Marina Kremik, na vozilo za do 4 potnike. Tja in nazaj 170 evrov."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Koliko stane prevoz na relaciji Skradin - Marina Kremik?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fiksno 85 na vozilo za do 4 potnike, enosmerna vožnja, s cestnino, gorivom in prtljago. Vožnja tja in nazaj stane 170."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ali lahko prevzamete neposredno v marini?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Da. Srečava se pri vhodu ali na recepciji marine in pomagam s prtljago, tako da greste naravnost s pomola do vozila."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ali lahko prevoz uskladite z mojim plovilom?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Da. Ob rezervaciji mi pošljite čas najema, prijave ali odhoda in prevzem načrtujem okoli tega."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kako vnaprej naj rezerviram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vsaj 2 uri prej, da lahko potrdim vozilo in čas prevzema. Za vožnjo v zadnjem trenutku pokličite ali mi pišite neposredno na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

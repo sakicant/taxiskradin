@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-roski-slap-pirovac",
+  "title": "Taksi Roški Slap - Pirovac | Fiksna cena €85 | TAXI Antonio",
+  "description": "Zasebni taksi in prevoz, relacija Roški Slap - Pirovac. Fiksna cena €85 na vozilo, do 4 potniki, od vrat do vrat. Rezervirajte neposredno pri Antoniu.",
+  "keywords": "taksi roški slap - pirovac, prevoz roški slap - pirovac, letališki prevoz roški slap - pirovac",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Zasebni taksi prevoz",
+      "name": "Taksi Roški Slap - Pirovac",
+      "description": "Zasebni taksi in prevoz po fiksni ceni, relacija Roški Slap - Pirovac, 85 evrov na vozilo za do 4 potnike, od vrat do vrat.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Roški Slap",
+        "Pirovac"
+      ],
+      "url": "https://taxiskradin.hr/sl/taxi-roski-slap-pirovac/",
+      "offers": {
+        "@type": "Offer",
+        "price": "85",
+        "priceCurrency": "EUR",
+        "description": "Enosmerna zasebna vožnja, relacija Roški Slap - Pirovac, na vozilo za do 4 potnike. Tja in nazaj 170 evrov."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Koliko stane taksi na relaciji Roški Slap - Pirovac?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fiksno 85 na vozilo za do 4 potnike, enosmerna vožnja, prtljaga vključena. Vožnja tja in nazaj stane 170."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kje me prevzamete?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Na vašem točnem naslovu, naj bo hiša, hotel ali apartma. Pošljite naslov ob rezervaciji in potrdim mesto srečanja."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kako vnaprej naj rezerviram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vsaj 2 uri prej, da lahko potrdim vozilo in čas prevzema. Za vožnjo v zadnjem trenutku pokličite ali pišite na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

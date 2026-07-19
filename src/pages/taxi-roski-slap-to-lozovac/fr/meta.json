@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-roski-slap-lozovac",
+  "title": "Taxi Roški Slap - Lozovac | Prix fixe €65 | TAXI Antonio",
+  "description": "Taxi et transfert privé, trajet Roški Slap - Lozovac. Prix fixe €65 par véhicule, jusqu'à 4 passagers, de porte à porte. Réservez directement avec Antonio.",
+  "keywords": "taxi roški slap - lozovac, transfert roški slap - lozovac, transfert aéroport roški slap - lozovac",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Transfert taxi privé",
+      "name": "Taxi Roški Slap - Lozovac",
+      "description": "Taxi et transfert privé à prix fixe, trajet Roški Slap - Lozovac, 65 euros par véhicule pour jusqu'à 4 passagers, de porte à porte.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Roški Slap",
+        "Lozovac"
+      ],
+      "url": "https://taxiskradin.hr/fr/taxi-roski-slap-lozovac/",
+      "offers": {
+        "@type": "Offer",
+        "price": "65",
+        "priceCurrency": "EUR",
+        "description": "Course privée aller simple, trajet Roški Slap - Lozovac, par véhicule pour jusqu'à 4 passagers. Aller et retour 130 euros."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Combien coûte un taxi sur le trajet Roški Slap - Lozovac ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "65 fixe par véhicule pour jusqu'à 4 passagers, aller simple, bagages inclus. Un aller-retour coûte 130."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Où venez-vous me chercher ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "À votre adresse exacte, que ce soit une maison, un hôtel ou un appartement. Envoyez l'adresse à la réservation et je confirme le point de rendez-vous."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Combien de temps à l'avance dois-je réserver ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Au moins 2 heures avant, pour que je confirme le véhicule et l'heure de prise en charge. Pour une course de dernière minute, appelez-moi ou écrivez-moi sur WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

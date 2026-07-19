@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-ciovo-skradin",
+  "title": "Taksi Čiovo - Skradin | Fiksna cijena €115 | TAXI Antonio",
+  "description": "Privatni taksi i transfer, relacija Čiovo - Skradin. Fiksno €115 po vozilu, do 4 putnika, od vrata do vrata. Rezervirajte izravno kod Antonija.",
+  "keywords": "taksi čiovo - skradin, transfer čiovo - skradin, prijevoz čiovo - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privatni taksi transfer",
+      "name": "Taksi Čiovo - Skradin",
+      "description": "Privatni taksi i transfer po fiksnoj cijeni, relacija Čiovo - Skradin, 115 eura po vozilu za do 4 putnika, od vrata do vrata.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Čiovo",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/hr/taxi-ciovo-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "115",
+        "priceCurrency": "EUR",
+        "description": "Jednosmjerni privatni transfer, relacija Čiovo - Skradin, po vozilu za do 4 putnika. Povratno 230 eura."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Koliko košta taksi na relaciji Čiovo - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fiksno 115 po vozilu za do 4 putnika, jedan smjer, prtljaga uključena. Povratna vožnja je 230."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gdje me preuzimate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Na vašoj točnoj adresi, bila to kuća, hotel ili apartman. Pošaljite adresu pri rezervaciji i potvrdit ću mjesto sastanka."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Koliko unaprijed trebam rezervirati?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Barem 2 sata unaprijed da potvrdim vozilo i vrijeme preuzimanja. Za brži termin nazovite ili pišite na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

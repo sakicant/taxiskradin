@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-grebastica-roski-slap",
+  "title": "Taxi Grebaštica - Roški Slap | Precio fijo €90 | TAXI Antonio",
+  "description": "Taxi y traslado privado, Grebaštica - Roški Slap. Precio fijo €90 por vehículo, hasta 4 pasajeros, puerta a puerta. Reserve directamente con Antonio.",
+  "keywords": "taxi grebaštica - roški slap, traslado grebaštica - roški slap, traslado al aeropuerto grebaštica - roški slap",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Traslado privado en taxi",
+      "name": "Taxi Grebaštica - Roški Slap",
+      "description": "Taxi y traslado privado a precio fijo, Grebaštica - Roški Slap, 90 euros por vehículo para hasta 4 pasajeros, puerta a puerta.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Grebaštica",
+        "Roški Slap"
+      ],
+      "url": "https://taxiskradin.hr/es/taxi-grebastica-roski-slap/",
+      "offers": {
+        "@type": "Offer",
+        "price": "90",
+        "priceCurrency": "EUR",
+        "description": "Trayecto privado de ida, Grebaštica - Roški Slap, por vehículo para hasta 4 pasajeros. Ida y vuelta 180 euros."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta un taxi en el trayecto Grebaštica - Roški Slap?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fijo 90 por vehículo para hasta 4 pasajeros, solo ida, equipaje incluido. Un viaje de ida y vuelta cuesta 180."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Dónde me recoge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En su dirección exacta, ya sea casa, hotel o apartamento. Envíe la dirección al reservar y le confirmo el punto de encuentro."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Con cuánta antelación debo reservar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Al menos 2 horas antes, para que pueda confirmar el vehículo y la hora de recogida. Para un viaje de última hora, llame o escriba por WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+ "taxi_word": "Taxi",
+ "book_slug": "bestill",
+ "airport_name": {
+  "Split Airport": "Split lufthavn",
+  "Zadar Airport": "Zadar lufthavn",
+  "Zagreb Airport": "Zagreb lufthavn",
+  "Dubrovnik Airport": "Dubrovnik lufthavn"
+ },
+ "airport_slug": {
+  "split-airport": "split-lufthavn",
+  "zadar-airport": "zadar-lufthavn",
+  "zagreb-airport": "zagreb-lufthavn",
+  "dubrovnik-airport": "dubrovnik-lufthavn"
+ },
+ "hero_alt": "Taxi {rel}: Škoda Superb fra TAXI Antonio langs den dalmatiske kysten",
+ "per_car": "per bil &middot; opptil 4 passasjerer",
+ "book_now": "Bestill nå",
+ "book_wa": "Bestill via WhatsApp",
+ "why_eyebrow": "Hvorfor bestille denne transporten",
+ "why_title": "Hvorfor bestille din Taxi {rel} hos Antonio?",
+ "price_title": "Pris {rel}",
+ "price_sub": "Fastpris per bil, opptil 4 passasjerer, bagasje inkludert. Samme pris gjelder i motsatt retning.",
+ "price_oneway_lbl": "En vei",
+ "price_return_lbl": "Tur &amp; retur",
+ "price_advance_lbl": "Forskudd for bekreftelse",
+ "price_balance_val": "Kontant eller kort",
+ "price_balance_lbl": "Resten på dagen",
+ "hub_note": "Et forskudd på 20% (minst &euro;20) bekrefter bestillingen din, resten betaler du på turdagen, kontant eller med kort. Reiser du i motsatt retning? Se {revlink}.",
+ "reviews_eyebrow": "Anmeldelser",
+ "reviews_title": "Hva passasjerene sier",
+ "reviews_sub": "Ekte anmeldelser fra ekte passasjerer.",
+ "faq_eyebrow": "FAQ",
+ "faq_title": "Taxi {rel}: Vanlige spørsmål",
+ "cta_title": "Reserver transporten din {rel}",
+ "cta_sub": "Fastpris &euro;{p} per bil, opptil 4 passasjerer. Bekreftelse med noen få klikk.",
+ "trust_air": "Bekreftet etter forskudd &middot; Ingen skjulte kostnader &middot; Flyovervåking inkludert",
+ "trust_generic": "Bekreftet etter forskudd &middot; Ingen skjulte kostnader &middot; Fastpris, ingen taksameter",
+ "rf_fixed_oneway_lbl": "Fastpris, en vei",
+ "rf_distance_lbl": "Avstand",
+ "rf_drivetime_lbl": "Kjøretid",
+ "rf_return_lbl": "Tur &amp; retur",
+ "rf_upto4_val": "Opptil 4",
+ "rf_upto4_lbl": "Passasjerer",
+ "rf_skoda_lbl": "Privat, dør til dør",
+ "meta_title": "Taxi {rel} | Fastpris €{p} | TAXI Antonio",
+ "meta_desc": "Privat taxi og transport, strekningen {rel}. Fastpris €{p} per bil, opptil 4 passasjerer, dør til dør. Bestill direkte hos Antonio.",
+ "meta_desc_short": "Privat taxi og transport, strekningen {rel}. Fastpris €{p} per bil, opptil 4. Bestill direkte hos Antonio.",
+ "keywords": "taxi {rell}, transport {rell}, flyplasstransport {rell}",
+ "schema_servicetype": "Privat taxitransport",
+ "schema_name": "Taxi {rel}",
+ "schema_desc": "Privat taxi og transport til fastpris, strekningen {rel}, {p} euro per bil for opptil 4 passasjerer, dør til dør.",
+ "schema_offer_desc": "Enkel privat tur, strekningen {rel}, per bil for opptil 4 passasjerer. Tur og retur {rp} euro.",
+ "dist_faq_q": "Hvor lang er strekningen og hvor lenge tar turen?",
+ "dist_faq_a": "Turen på strekningen {rel} er rundt {km} km lang og tar omtrent {t} ved normal trafikk, litt lenger i høysesongen om sommeren. Jeg planlegger henting slik at en langsom strekning aldri gjør deg stresset.",
+ "types": {
+  "to_airport": {
+   "heading": "Din private taxi og transport, strekningen {rel}",
+   "tagline": "Taxi og privat transport til fastpris, strekningen {rel}, rett til avgang.",
+   "intro": "Skal du fly fra {city} lufthavn? For strekningen {rel} tilbyr jeg en privat taxi og transport til fastpris. Jeg er Antonio, en lokal sjåfør: Jeg henter deg på adressen din og kjører deg i en komfortabel Škoda Superb rett til avgangsterminalen. Prisen er fast, &euro;{p} for hele bilen, opptil 4 passasjerer, avtalt på forhånd, uten taksameter og uten overraskelser. Jeg planlegger hentingen etter flytiden din, slik at du kommer fram med god tid til innsjekk. Tilbudsskjemaet øverst er allerede fylt ut for denne strekningen, så du kan se prisen og bestille med noen få klikk.",
+   "whys": [
+    [
+     "Fastpris &euro;{p}",
+     "Én pris for hele bilen, opptil 4 passasjerer, avtalt på forhånd. Bompenger, drivstoff og bagasje inkludert, ingen taksameter."
+    ],
+    [
+     "Tilpasset flyet ditt",
+     "Gi meg avgangstiden din, så regner jeg baklengs, slik at du er ved terminalen med tid til innsjekk."
+    ],
+    [
+     "Fra dør til terminal",
+     "Henting på adressen din og avlevering rett ved inngangen til avgangsterminalen."
+    ],
+    [
+     "Når som helst",
+     "Tidlige og sene fly er ikke noe problem. Jeg kjører døgnet rundt til en pris avtalt på forhånd."
+    ]
+   ],
+   "faqs": [
+    [
+     "Hvor mye koster en taxi på strekningen {rel}?",
+     "Fast &euro;{p} per bil, en vei, for opptil 4 passasjerer. Prisen gjelder per bil, ikke per person, og inkluderer bompenger, drivstoff og bagasje. Tur og retur koster &euro;{rp}."
+    ],
+    [
+     "Når bør jeg dra til flyplassen?",
+     "Vanligvis omtrent 3 timer før en internasjonal flyvning og 2 timer før en innenriks flyvning. Gi meg flytiden din, så bekrefter jeg nøyaktig henting."
+    ],
+    [
+     "Kjører du helt til avgangsterminalen?",
+     "Ja. Jeg kjører deg rett til avgangsterminalen og hjelper med bagasjen. Ingen gange fra parkeringen og ingen shuttle."
+    ],
+    [
+     "Hvor lang tid i forveien bør jeg bestille?",
+     "Minst 2 timer i forveien, så jeg kan bekrefte bil og henting, og tidligere for tidlige fly og høysesong. For en tur på kort varsel, ring eller skriv til meg på WhatsApp."
+    ]
+   ]
+  },
+  "from_airport": {
+   "heading": "Din flyplasshenting og transport, strekningen {rel}",
+   "tagline": "Privat flyplasshenting og transport til fastpris, strekningen {rel}, med flyovervåking.",
+   "intro": "Nettopp landet på {city} lufthavn? En privat transport for strekningen {rel} tar stresset ut av ankomsten. Jeg tar imot deg i ankomsthallen med et navneskilt, hjelper med bagasjen og kjører deg i en komfortabel Škoda Superb rett til målet, til fastpris &euro;{p} for hele bilen, opptil 4 passasjerer. Jeg følger flyet ditt i sanntid, så jeg er der enten du lander tidligere eller senere. Ingen taxikø, ingen fellestransport og ingen pristillegg. Skjemaet øverst er allerede fylt ut for denne strekningen.",
+   "whys": [
+    [
+     "Mottak med skilt",
+     "Jeg venter i ankomsthallen med et navneskilt og hjelper med bagene, slik at du går rett til bilen."
+    ],
+    [
+     "Flyovervåking",
+     "Jeg følger flyet ditt i sanntid og tilpasser meg tidlig landing eller forsinkelse, med gratis ventetid."
+    ],
+    [
+     "Fastpris &euro;{p}",
+     "Én pris for hele bilen, opptil 4 passasjerer, avtalt på forhånd. Bompenger, drivstoff og bagasje inkludert, ingen taksameter."
+    ],
+    [
+     "Rett til døren din",
+     "Ingen kø og ingen bytte. Jeg kjører deg rett til adressen din."
+    ]
+   ],
+   "faqs": [
+    [
+     "Hvor tar du imot meg?",
+     "I ankomsthallen, rett etter bagasjeutleveringen, med et skilt med navnet ditt. Jeg hjelper med bagasjen og følger deg til bilen."
+    ],
+    [
+     "Hva om flyet mitt er forsinket?",
+     "Ikke noe problem. Jeg følger flyet ditt i sanntid og tilpasser hentingen til den faktiske landingen, uten tillegg for ventetiden."
+    ],
+    [
+     "Hvor mye koster transporten på strekningen {rel}?",
+     "Fast &euro;{p} per bil for opptil 4 passasjerer, en vei, bompenger og bagasje inkludert. Tur og retur koster &euro;{rp}."
+    ],
+    [
+     "Hvor lang tid i forveien bør jeg bestille?",
+     "Minst 2 timer i forveien, så jeg kan planlegge rundt flyet ditt. For en henting samme dag etter en endring på kort varsel, ring eller skriv på WhatsApp."
+    ]
+   ]
+  },
+  "marina": {
+   "heading": "Privat marinatransport, strekningen {rel}",
+   "tagline": "Privat taxi og transport til fastpris, strekningen {rel}, tilpasset båten din.",
+   "intro": "Reiser du på strekningen {rel}? Jeg kjører en privat taxi og transport til fastpris for marinagjester, tilpasset båten og reiseplanene dine. Jeg henter deg med god plass til bagasjen din og kjører deg hele veien komfortabelt i en Škoda Superb, til fastpris &euro;{p} for bilen, opptil 4 passasjerer, avtalt før turen. Enten du kommer til yachten din eller reiser videre etter ilandstigning, er det ingen taksameter og ingen venting på holdeplassen, bare en lokal sjåfør du bestiller direkte. Dette er en privat transport over en lengre strekning, og tilbudet øverst er allerede satt opp for denne strekningen.",
+   "whys": [
+    [
+     "Fastpris &euro;{p}",
+     "Én pris per bil for opptil 4 passasjerer, avtalt på forhånd. Bompenger, drivstoff og bagasje inkludert, ingen taksameter som teller."
+    ],
+    [
+     "Tilpasset båten din",
+     "Gi meg charter-, innsjekk- eller avgangstiden din, så planlegger jeg hentingen rundt den, slik at en langsom strekning aldri gjør deg stresset."
+    ],
+    [
+     "Plass til bagasjen din",
+     "Kofferter, proviant og båtbager får plass i en komfortabel Škoda Superb, med en hjelpende hånd ved lasting og lossing."
+    ],
+    [
+     "En lokal sjåfør",
+     "Du forholder deg direkte til meg, fra bestilling til ankomst, på telefon, WhatsApp eller e-post. Ingen kundesenter."
+    ]
+   ],
+   "faqs": [
+    [
+     "Hvor mye koster en transport på strekningen {rel}?",
+     "Fast &euro;{p} per bil for opptil 4 passasjerer, en vei, med bompenger, drivstoff og bagasje. Tur og retur koster &euro;{rp}."
+    ],
+    [
+     "Kan du hente rett ved marinaen?",
+     "Ja. Jeg møter deg ved inngangen eller i resepsjonen til marinaen og hjelper med bagasjen, slik at du går rett fra bryggen til bilen."
+    ],
+    [
+     "Kan du tilpasse transporten til båten min?",
+     "Ja. Send meg charter-, innsjekk- eller avgangstiden din ved bestilling, så planlegger jeg hentingen rundt den."
+    ],
+    [
+     "Hvor lang tid i forveien bør jeg bestille?",
+     "Minst 2 timer i forveien, så jeg kan bekrefte bil og hentetidspunkt. For en tur på kort varsel, ring eller skriv til meg direkte på WhatsApp."
+    ]
+   ]
+  },
+  "city": {
+   "heading": "Privat transport, strekningen {rel}",
+   "tagline": "Privat taxi og transport til fastpris, strekningen {rel}, dør til dør.",
+   "intro0": "Trenger du en pålitelig transport på strekningen {rel}? Jeg tilbyr en privat taxi og transport til fastpris, dør til dør, i en komfortabel Škoda Superb. Jeg henter deg på den nøyaktige adressen din og kjører deg rett til målet, uten uønskede stopp og uten medpassasjerer. Prisen er fast, &euro;{p} for hele bilen, opptil 4 passasjerer, avtalt før avgang, bompenger og bagasje inkludert. Tilbudet øverst er fylt ut for denne strekningen, så bestillingen tar bare noen få klikk.",
+   "intro1": "Ser du etter en taxi på strekningen {rel} uten taksameter og styr? Dette er en privat transport til fastpris med en lokal sjåfør. Jeg henter deg ved døren og kjører deg komfortabelt til målet, bagasje inkludert, til fastpris &euro;{p} per bil for opptil 4 passasjerer. For par og familier er det ofte rimeligere enn separate buss- eller togbilletter, og alltid raskere og dør til dør. Tilbudet øverst er allerede satt opp for denne strekningen.",
+   "whys": [
+    [
+     "Fastpris &euro;{p}",
+     "Én pris per bil for opptil 4 passasjerer, avtalt på forhånd. Bompenger, drivstoff og bagasje inkludert, ingen taksameter som teller."
+    ],
+    [
+     "Dør til dør",
+     "Jeg henter deg på den nøyaktige adressen din og setter deg av ved døren til målet. Ingen stasjoner, ingen bytte."
+    ],
+    [
+     "En lokal sjåfør",
+     "Du forholder deg direkte til meg, fra bestilling til ankomst, på telefon, WhatsApp eller e-post. Ingen kundesenter."
+    ],
+    [
+     "Stopp på forespørsel",
+     "På lengre strekninger stopper jeg gjerne for en kaffe, et bilde eller en kort severdighet underveis."
+    ]
+   ],
+   "faqs": [
+    [
+     "Hvor mye koster en taxi på strekningen {rel}?",
+     "Fast &euro;{p} per bil for opptil 4 passasjerer, en vei, med bompenger, drivstoff og bagasje. Tur og retur koster &euro;{rp}."
+    ],
+    [
+     "Er transporten privat eller delt?",
+     "Hver transport er privat og dør til dør, i en Škoda Superb. Ingen deling av bilen og ingen ekstra stopp, med mindre du ønsker det."
+    ],
+    [
+     "Kan du stoppe underveis?",
+     "Ja. På lengre strekninger stopper jeg gjerne for en kaffe, et bilde eller en kort severdighet. Bare si fra ved bestilling."
+    ],
+    [
+     "Hvor lang tid i forveien bør jeg bestille?",
+     "Minst 2 timer i forveien, så jeg kan bekrefte bil og hentetidspunkt. For en tur på kort varsel, ring eller skriv på WhatsApp."
+    ]
+   ]
+  },
+  "local": {
+   "heading": "Privat taxi, strekningen {rel}",
+   "tagline": "Privat taxi og transport til fastpris, strekningen {rel}, dør til dør.",
+   "intro0": "Reiser du på strekningen {rel}? Jeg kjører en privat taxi og transport til fastpris, med henting ved døren din og avlevering nøyaktig der du skal. Prisen er fast &euro;{p} for hele bilen, opptil 4 passasjerer, uten taksameter og uten venting på holdeplassen. En komfortabel Škoda Superb, plass til bagasjen din og en lokal sjåfør du bestiller direkte. Tilbudet øverst er fylt ut for denne strekningen.",
+   "intro1": "Trenger du en taxi på strekningen {rel}? Jeg tilbyr en privat transport fra dør til dør til fastpris &euro;{p} for hele bilen, opptil 4 passasjerer. Jeg kommer til adressen din til avtalt tid, slik at du aldri venter ved veikanten, og kjører deg komfortabelt til målet. Ingen taksameter, ingen overraskelser, bare en lokal sjåfør fra bestilling til ankomst. Tilbudet øverst er allerede satt opp for denne strekningen.",
+   "whys": [
+    [
+     "Fastpris &euro;{p}",
+     "Én pris per bil for opptil 4 passasjerer, avtalt før turen. Ingen taksameter, ingen overraskelser."
+    ],
+    [
+     "Dør til dør",
+     "Henting på adressen din og avlevering ved døren til målet, bagasje inkludert."
+    ],
+    [
+     "Ingen holdeplass nødvendig",
+     "Bestilt på forhånd, slik at du aldri venter på en taxi som kjører forbi. Jeg kommer til deg."
+    ],
+    [
+     "En lokal sjåfør",
+     "Du forholder deg direkte til meg, fra bestilling til ankomst, på telefon, WhatsApp eller e-post."
+    ]
+   ],
+   "faqs": [
+    [
+     "Hvor mye koster en taxi på strekningen {rel}?",
+     "Fast &euro;{p} per bil for opptil 4 passasjerer, en vei, bagasje inkludert. Tur og retur koster &euro;{rp}."
+    ],
+    [
+     "Hvor henter du meg?",
+     "På den nøyaktige adressen din, enten det er hus, hotell eller leilighet. Send adressen ved bestilling, så bekrefter jeg møtestedet."
+    ],
+    [
+     "Hvor lang tid i forveien bør jeg bestille?",
+     "Minst 2 timer i forveien, så jeg kan bekrefte bil og hentetidspunkt. For en tur på kort varsel, ring eller skriv på WhatsApp."
+    ]
+   ]
+  }
+ }
+}

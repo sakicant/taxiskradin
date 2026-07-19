@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-marina-agana-roski-slap",
+  "title": "Taksi Marina Agana - Roški Slap | Fiksna cijena €110 | TAXI Antonio",
+  "description": "Privatni taksi i transfer, relacija Marina Agana - Roški Slap. Fiksno €110 po vozilu, do 4 putnika, od vrata do vrata. Rezervirajte izravno kod Antonija.",
+  "keywords": "taksi marina agana - roški slap, transfer marina agana - roški slap, prijevoz marina agana - roški slap",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privatni taksi transfer",
+      "name": "Taksi Marina Agana - Roški Slap",
+      "description": "Privatni taksi i transfer po fiksnoj cijeni, relacija Marina Agana - Roški Slap, 110 eura po vozilu za do 4 putnika, od vrata do vrata.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Marina Agana",
+        "Roški Slap"
+      ],
+      "url": "https://taxiskradin.hr/hr/taxi-marina-agana-roski-slap/",
+      "offers": {
+        "@type": "Offer",
+        "price": "110",
+        "priceCurrency": "EUR",
+        "description": "Jednosmjerni privatni transfer, relacija Marina Agana - Roški Slap, po vozilu za do 4 putnika. Povratno 220 eura."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Koliko košta transfer na relaciji Marina Agana - Roški Slap?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fiksno 110 po vozilu za do 4 putnika, jedan smjer, s cestarinama, gorivom i prtljagom. Povratna vožnja je 220."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Možete li me preuzeti u samoj marini?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Da. Dočekujem vas na ulazu u marinu ili na recepciji i pomažem s prtljagom, da s pontona odmah dođete do vozila."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Možete li uskladiti transfer s mojim plovilom?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Da. Pošaljite mi vrijeme najma, prijave ili polaska pri rezervaciji i planiram preuzimanje prema njemu."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Koliko unaprijed trebam rezervirati?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Barem 2 sata unaprijed da potvrdim vozilo i vrijeme preuzimanja. Za brži termin nazovite ili pišite izravno na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "taxi-split-airport-skradin",
+  "title": "タクシー スプリト空港 - Skradin | 固定料金 €110 | TAXI Antonio",
+  "description": "貸切タクシー・送迎、スプリト空港 - Skradin 区間。固定料金 €110／1台、最大4名様、ドアツードア。Antonioに直接ご予約ください。",
+  "keywords": "タクシー スプリト空港 - skradin, 送迎 スプリト空港 - skradin, 空港送迎 スプリト空港 - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-airport-2.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "貸切タクシー送迎",
+      "name": "タクシー スプリト空港 - Skradin",
+      "description": "固定料金の貸切タクシー・送迎、スプリト空港 - Skradin 区間、1台 110 ユーロで最大4名様、ドアツードア。",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "スプリト空港",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/ja/taxi-split-airport-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "110",
+        "priceCurrency": "EUR",
+        "description": "貸切の片道乗車、スプリト空港 - Skradin 区間、1台で最大4名様。往復は 220 ユーロ。"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "この区間はどのくらいの距離で、所要時間はどのくらいですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "スプリト空港 - Skradin 区間の乗車は約 63 km で、通常の交通状況で約 55 min かかります。夏のハイシーズンは少し長くなります。道が混んでいてもお急ぎにならないよう、余裕を持ってお迎えの時間を計画します。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "どこで出迎えてもらえますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "手荷物受取所を出てすぐの到着ロビーで、お名前を書いたボードを持ってお待ちします。荷物のお手伝いをして、車までご案内します。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "フライトが遅れたらどうなりますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ご心配いりません。フライトをリアルタイムで追跡し、実際の到着に合わせてお迎えを調整します。待ち時間の追加料金はありません。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "スプリト空港 - Skradin 区間の送迎料金はいくらですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "片道、車1台あたり固定 110、最大4名様、通行料・荷物込み。往復は 220 です。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "どのくらい前に予約すべきですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "フライトに合わせて計画できるよう、少なくとも2時間前までにご予約ください。直前の変更による当日のお迎えは、お電話またはWhatsAppでご連絡ください。"
+          }
+        }
+      ]
+    }
+  ]
+}

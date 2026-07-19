@@ -1,0 +1,89 @@
+{
+  "slug": "taxi-skradin-split",
+  "title": "Taxi Skradin - Split | Vaste prijs €140 | TAXI Antonio",
+  "description": "Privétaxi en transfer, route Skradin - Split. Vaste prijs €140 per voertuig, tot 4 passagiers, deur tot deur. Rechtstreeks bij Antonio boeken.",
+  "keywords": "taxi skradin - split, transfer skradin - split, luchthaventransfer skradin - split",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privé taxitransfer",
+      "name": "Taxi Skradin - Split",
+      "description": "Privétaxi en transfer tegen vaste prijs, route Skradin - Split, 140 euro per voertuig voor tot 4 passagiers, deur tot deur.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Split"
+      ],
+      "url": "https://taxiskradin.hr/nl/taxi-skradin-split/",
+      "offers": {
+        "@type": "Offer",
+        "price": "140",
+        "priceCurrency": "EUR",
+        "description": "Enkele privérit, route Skradin - Split, per voertuig voor tot 4 passagiers. Heen en terug 280 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hoe ver is de route en hoe lang duurt de rit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "De rit op de route Skradin - Split is ongeveer 93 km lang en duurt zo'n 70 min bij normaal verkeer, in het hoogseizoen iets langer. Ik plan de ophaaltijd zo dat een trage route u nooit in tijdnood brengt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoeveel kost een taxi op de route Skradin - Split?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vast 140 per voertuig voor tot 4 passagiers, enkele reis, met tol, brandstof en bagage. Een heen- en terugrit kost 280."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is de transfer privé of gedeeld?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Elke transfer is privé en van deur tot deur, in een Škoda Superb. Geen delen van het voertuig en geen extra stops, tenzij u dat wenst."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kunt u onderweg stoppen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Op langere routes stop ik graag voor een koffie, een foto of een korte bezienswaardigheid. Zeg het gewoon bij het boeken."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoe ver van tevoren moet ik boeken?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minstens 2 uur vooraf, zodat ik het voertuig en de ophaaltijd kan bevestigen. Voor een rit op korte termijn belt u of schrijft u op WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

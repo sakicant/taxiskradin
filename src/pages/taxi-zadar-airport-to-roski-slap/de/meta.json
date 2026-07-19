@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-flughafen-zadar-roski-slap",
+  "title": "Taxi Flughafen Zadar - Roški Slap | Festpreis €110 | TAXI Antonio",
+  "description": "Privates Taxi und Transfer, Strecke Flughafen Zadar - Roški Slap. Festpreis €110 pro Fahrzeug, bis zu 4 Fahrgäste, Tür zu Tür. Direkt bei Antonio buchen.",
+  "keywords": "taxi flughafen zadar - roški slap, transfer flughafen zadar - roški slap, flughafentransfer flughafen zadar - roški slap",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-airport.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privater Taxitransfer",
+      "name": "Taxi Flughafen Zadar - Roški Slap",
+      "description": "Privates Taxi und Transfer zum Festpreis, Strecke Flughafen Zadar - Roški Slap, 110 Euro pro Fahrzeug für bis zu 4 Fahrgäste, Tür zu Tür.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Flughafen Zadar",
+        "Roški Slap"
+      ],
+      "url": "https://taxiskradin.hr/de/taxi-flughafen-zadar-roski-slap/",
+      "offers": {
+        "@type": "Offer",
+        "price": "110",
+        "priceCurrency": "EUR",
+        "description": "Einfache private Fahrt, Strecke Flughafen Zadar - Roški Slap, pro Fahrzeug für bis zu 4 Fahrgäste. Hin und zurück 220 Euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wo empfangen Sie mich?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In der Ankunftshalle, direkt nach der Gepäckausgabe, mit einem Schild mit Ihrem Namen. Ich helfe mit dem Gepäck und begleite Sie zum Fahrzeug."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was, wenn mein Flug Verspätung hat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kein Problem. Ich verfolge Ihren Flug in Echtzeit und passe die Abholung an die tatsächliche Landung an, ohne Aufpreis für die Wartezeit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie viel kostet der Transfer auf der Strecke Flughafen Zadar - Roški Slap?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fest 110 pro Fahrzeug für bis zu 4 Fahrgäste, einfache Fahrt, Maut und Gepäck inklusive. Eine Hin- und Rückfahrt kostet 220."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie weit im Voraus sollte ich buchen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mindestens 2 Stunden vorher, damit ich um Ihren Flug herum planen kann. Für eine Abholung am selben Tag nach einer kurzfristigen Änderung rufen Sie an oder schreiben auf WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-roski-slap-zadar-airport",
+  "title": "タクシー Roški Slap - ザダル空港 | 固定料金 €110 | TAXI Antonio",
+  "description": "貸切タクシー・送迎、Roški Slap - ザダル空港 区間。固定料金 €110／1台、最大4名様、ドアツードア。Antonioに直接ご予約ください。",
+  "keywords": "タクシー roški slap - ザダル空港, 送迎 roški slap - ザダル空港, 空港送迎 roški slap - ザダル空港",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-airport-2.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "貸切タクシー送迎",
+      "name": "タクシー Roški Slap - ザダル空港",
+      "description": "固定料金の貸切タクシー・送迎、Roški Slap - ザダル空港 区間、1台 110 ユーロで最大4名様、ドアツードア。",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Roški Slap",
+        "ザダル空港"
+      ],
+      "url": "https://taxiskradin.hr/ja/taxi-roski-slap-zadar-airport/",
+      "offers": {
+        "@type": "Offer",
+        "price": "110",
+        "priceCurrency": "EUR",
+        "description": "貸切の片道乗車、Roški Slap - ザダル空港 区間、1台で最大4名様。往復は 220 ユーロ。"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Roški Slap - ザダル空港 区間のタクシー料金はいくらですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "片道、車1台あたり固定 110、最大4名様。料金は1名あたりではなく1台あたりで、通行料・燃料・荷物を含みます。往復は 220 です。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "空港へは何時に出発すべきですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "通常、国際線なら約3時間前、国内線なら約2時間前が目安です。フライトの時刻をお知らせいただければ、正確なお迎え時間をお伝えします。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "出発ターミナルまで送ってもらえますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "はい。出発ターミナルまで直接お送りし、荷物もお手伝いします。駐車場からの徒歩やシャトルは不要です。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "どのくらい前に予約すべきですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "車とお迎えを確定できるよう、少なくとも2時間前までにご予約ください。早朝便やハイシーズンはさらに早めがおすすめです。直前のご乗車はお電話またはWhatsAppでご連絡ください。"
+          }
+        }
+      ]
+    }
+  ]
+}

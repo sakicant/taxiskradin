@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-skradin-marina-kremik",
+  "title": "Taxi Skradin - Marina Kremik | Vaste prijs €85 | TAXI Antonio",
+  "description": "Privétaxi en transfer, route Skradin - Marina Kremik. Vaste prijs €85 per voertuig, tot 4 passagiers, deur tot deur. Rechtstreeks bij Antonio boeken.",
+  "keywords": "taxi skradin - marina kremik, transfer skradin - marina kremik, luchthaventransfer skradin - marina kremik",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privé taxitransfer",
+      "name": "Taxi Skradin - Marina Kremik",
+      "description": "Privétaxi en transfer tegen vaste prijs, route Skradin - Marina Kremik, 85 euro per voertuig voor tot 4 passagiers, deur tot deur.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Marina Kremik"
+      ],
+      "url": "https://taxiskradin.hr/nl/taxi-skradin-marina-kremik/",
+      "offers": {
+        "@type": "Offer",
+        "price": "85",
+        "priceCurrency": "EUR",
+        "description": "Enkele privérit, route Skradin - Marina Kremik, per voertuig voor tot 4 passagiers. Heen en terug 170 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hoeveel kost een transfer op de route Skradin - Marina Kremik?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vast 85 per voertuig voor tot 4 passagiers, enkele reis, met tol, brandstof en bagage. Een heen- en terugrit kost 170."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kunt u rechtstreeks bij de jachthaven ophalen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Ik ontmoet u bij de ingang of de receptie van de jachthaven en help met de bagage, zodat u direct van de steiger naar het voertuig loopt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kunt u de transfer op mijn boot afstemmen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Stuur mij bij het boeken uw charter-, incheck- of vertrektijd en ik plan de ophaaltijd daaromheen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoe ver van tevoren moet ik boeken?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minstens 2 uur vooraf, zodat ik het voertuig en de ophaaltijd kan bevestigen. Voor een rit op korte termijn belt u of schrijft u mij rechtstreeks op WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

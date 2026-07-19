@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-skradin-sukosan",
+  "title": "Taxi Skradin - Sukošan | Stała cena €130 | TAXI Antonio",
+  "description": "Prywatne taxi i transfer, trasa Skradin - Sukošan. Stała cena €130 za pojazd, do 4 pasażerów, od drzwi do drzwi. Rezerwacja bezpośrednio u Antonio.",
+  "keywords": "taxi skradin - sukošan, transfer skradin - sukošan, transfer lotniskowy skradin - sukošan",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Prywatny transfer taxi",
+      "name": "Taxi Skradin - Sukošan",
+      "description": "Prywatne taxi i transfer w stałej cenie, trasa Skradin - Sukošan, 130 euro za pojazd dla maksymalnie 4 pasażerów, od drzwi do drzwi.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Sukošan"
+      ],
+      "url": "https://taxiskradin.hr/pl/taxi-skradin-sukosan/",
+      "offers": {
+        "@type": "Offer",
+        "price": "130",
+        "priceCurrency": "EUR",
+        "description": "Prywatny przejazd w jedną stronę, trasa Skradin - Sukošan, za pojazd dla maksymalnie 4 pasażerów. Tam i z powrotem 260 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Ile kosztuje taxi na trasie Skradin - Sukošan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stała cena 130 za pojazd dla maksymalnie 4 pasażerów, w jedną stronę, bagaż w cenie. Przejazd tam i z powrotem kosztuje 260."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gdzie mnie Pan odbierze?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Spod Pana/Pani dokładnego adresu, czy to dom, hotel, czy apartament. Proszę przesłać adres przy rezerwacji, a ja potwierdzę miejsce spotkania."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Z jakim wyprzedzeniem należy rezerwować?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Co najmniej 2 godziny wcześniej, abym mógł potwierdzić pojazd i godzinę odbioru. W razie przejazdu na ostatnią chwilę proszę zadzwonić lub napisać na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

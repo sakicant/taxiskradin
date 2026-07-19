@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-skradin-biograd-na-moru",
+  "title": "Taksi Skradin - Biograd na Moru | Fiksna cena €105 | TAXI Antonio",
+  "description": "Privatni taksi i transfer, relacija Skradin - Biograd na Moru. Fiksno €105 po vozilu, do 4 putnika, od vrata do vrata. Rezervišite direktno kod Antonija.",
+  "keywords": "taksi skradin - biograd na moru, transfer skradin - biograd na moru, prevoz skradin - biograd na moru",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privatni taksi transfer",
+      "name": "Taksi Skradin - Biograd na Moru",
+      "description": "Privatni taksi i transfer po fiksnoj ceni, relacija Skradin - Biograd na Moru, 105 evra po vozilu za do 4 putnika, od vrata do vrata.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Biograd na Moru"
+      ],
+      "url": "https://taxiskradin.hr/sr/taxi-skradin-biograd-na-moru/",
+      "offers": {
+        "@type": "Offer",
+        "price": "105",
+        "priceCurrency": "EUR",
+        "description": "Jednosmerni privatni transfer, relacija Skradin - Biograd na Moru, po vozilu za do 4 putnika. Povratno 210 evra."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Koliko košta taksi na relaciji Skradin - Biograd na Moru?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fiksno 105 po vozilu za do 4 putnika, jedan smer, prtljag uključen. Povratna vožnja je 210."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gde me preuzimate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Na vašoj tačnoj adresi, bila to kuća, hotel ili apartman. Pošaljite adresu pri rezervaciji i potvrdiću mesto sastanka."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Koliko unapred treba da rezervišem?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Barem 2 sata unapred da potvrdim vozilo i vreme preuzimanja. Za brži termin pozovite ili pišite na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

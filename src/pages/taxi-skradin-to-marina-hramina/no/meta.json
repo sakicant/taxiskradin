@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-skradin-marina-hramina",
+  "title": "Taxi Skradin - Marina Hramina | Fastpris €75 | TAXI Antonio",
+  "description": "Privat taxi og transport, strekningen Skradin - Marina Hramina. Fastpris €75 per bil, opptil 4 passasjerer, dør til dør. Bestill direkte hos Antonio.",
+  "keywords": "taxi skradin - marina hramina, transport skradin - marina hramina, flyplasstransport skradin - marina hramina",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privat taxitransport",
+      "name": "Taxi Skradin - Marina Hramina",
+      "description": "Privat taxi og transport til fastpris, strekningen Skradin - Marina Hramina, 75 euro per bil for opptil 4 passasjerer, dør til dør.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Marina Hramina"
+      ],
+      "url": "https://taxiskradin.hr/no/taxi-skradin-marina-hramina/",
+      "offers": {
+        "@type": "Offer",
+        "price": "75",
+        "priceCurrency": "EUR",
+        "description": "Enkel privat tur, strekningen Skradin - Marina Hramina, per bil for opptil 4 passasjerer. Tur og retur 150 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hvor mye koster en transport på strekningen Skradin - Marina Hramina?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fast 75 per bil for opptil 4 passasjerer, en vei, med bompenger, drivstoff og bagasje. Tur og retur koster 150."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan du hente rett ved marinaen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Jeg møter deg ved inngangen eller i resepsjonen til marinaen og hjelper med bagasjen, slik at du går rett fra bryggen til bilen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan du tilpasse transporten til båten min?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Send meg charter-, innsjekk- eller avgangstiden din ved bestilling, så planlegger jeg hentingen rundt den."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hvor lang tid i forveien bør jeg bestille?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minst 2 timer i forveien, så jeg kan bekrefte bil og hentetidspunkt. For en tur på kort varsel, ring eller skriv til meg direkte på WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

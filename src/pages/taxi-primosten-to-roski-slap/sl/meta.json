@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-primosten-roski-slap",
+  "title": "Taksi Primošten - Roški Slap | Fiksna cena €110 | TAXI Antonio",
+  "description": "Zasebni taksi in prevoz, relacija Primošten - Roški Slap. Fiksna cena €110 na vozilo, do 4 potniki, od vrat do vrat. Rezervirajte neposredno pri Antoniu.",
+  "keywords": "taksi primošten - roški slap, prevoz primošten - roški slap, letališki prevoz primošten - roški slap",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Zasebni taksi prevoz",
+      "name": "Taksi Primošten - Roški Slap",
+      "description": "Zasebni taksi in prevoz po fiksni ceni, relacija Primošten - Roški Slap, 110 evrov na vozilo za do 4 potnike, od vrat do vrat.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Primošten",
+        "Roški Slap"
+      ],
+      "url": "https://taxiskradin.hr/sl/taxi-primosten-roski-slap/",
+      "offers": {
+        "@type": "Offer",
+        "price": "110",
+        "priceCurrency": "EUR",
+        "description": "Enosmerna zasebna vožnja, relacija Primošten - Roški Slap, na vozilo za do 4 potnike. Tja in nazaj 220 evrov."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Koliko stane taksi na relaciji Primošten - Roški Slap?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fiksno 110 na vozilo za do 4 potnike, enosmerna vožnja, prtljaga vključena. Vožnja tja in nazaj stane 220."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kje me prevzamete?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Na vašem točnem naslovu, naj bo hiša, hotel ali apartma. Pošljite naslov ob rezervaciji in potrdim mesto srečanja."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kako vnaprej naj rezerviram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vsaj 2 uri prej, da lahko potrdim vozilo in čas prevzema. Za vožnjo v zadnjem trenutku pokličite ali pišite na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

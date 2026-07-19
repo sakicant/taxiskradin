@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-lozovac-skradin",
+  "title": "Taksi Lozovac - Skradin | Kiinteä hinta €25 | TAXI Antonio",
+  "description": "Yksityinen taksi ja kuljetus, reitti Lozovac - Skradin. Kiinteä hinta €25 per auto, enintään 4 matkustajaa, ovelta ovelle. Varaa suoraan Antoniolta.",
+  "keywords": "taksi lozovac - skradin, kuljetus lozovac - skradin, lentokenttäkuljetus lozovac - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Yksityinen taksikuljetus",
+      "name": "Taksi Lozovac - Skradin",
+      "description": "Yksityinen taksi ja kuljetus kiinteään hintaan, reitti Lozovac - Skradin, 25 euroa per auto enintään 4 matkustajalle, ovelta ovelle.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Lozovac",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/fi/taxi-lozovac-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "25",
+        "priceCurrency": "EUR",
+        "description": "Yhdensuuntainen yksityinen matka, reitti Lozovac - Skradin, per auto enintään 4 matkustajalle. Meno ja paluu 50 euroa."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kuinka pitkä reitti on ja kuinka kauan matka kestää?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Matka reitillä Lozovac - Skradin on noin 11 km ja kestää noin 15 min normaalissa liikenteessä, kesän huippukaudella hieman kauemmin. Suunnittelen noudon niin, ettei hidas matka koskaan aiheuta kiirettä."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Paljonko taksi maksaa reitillä Lozovac - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kiinteä 25 per auto enintään 4 matkustajalle, yhdensuuntainen matka, matkatavarat mukana. Meno-paluumatka maksaa 50."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mistä noudatte minut?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tarkasta osoitteestasi, olipa se talo, hotelli tai huoneisto. Lähetä osoite varauksen yhteydessä, niin vahvistan tapaamispaikan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kuinka paljon etukäteen minun pitäisi varata?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vähintään 2 tuntia aiemmin, jotta voin vahvistaa auton ja noutoajan. Lyhyellä varoitusajalla soita tai kirjoita WhatsAppissa."
+          }
+        }
+      ]
+    }
+  ]
+}

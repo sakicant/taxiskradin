@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-zadar-roski-slap",
+  "title": "Taksi Zadar - Roški Slap | Fiksna cena €135 | TAXI Antonio",
+  "description": "Privatni taksi i transfer, relacija Zadar - Roški Slap. Fiksno €135 po vozilu, do 4 putnika, od vrata do vrata. Rezervišite direktno kod Antonija.",
+  "keywords": "taksi zadar - roški slap, transfer zadar - roški slap, prevoz zadar - roški slap",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privatni taksi transfer",
+      "name": "Taksi Zadar - Roški Slap",
+      "description": "Privatni taksi i transfer po fiksnoj ceni, relacija Zadar - Roški Slap, 135 evra po vozilu za do 4 putnika, od vrata do vrata.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Zadar",
+        "Roški Slap"
+      ],
+      "url": "https://taxiskradin.hr/sr/taxi-zadar-roski-slap/",
+      "offers": {
+        "@type": "Offer",
+        "price": "135",
+        "priceCurrency": "EUR",
+        "description": "Jednosmerni privatni transfer, relacija Zadar - Roški Slap, po vozilu za do 4 putnika. Povratno 270 evra."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Koliko košta taksi na relaciji Zadar - Roški Slap?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fiksno 135 po vozilu za do 4 putnika, jedan smer, s putarinama, gorivom i prtljagom. Povratna vožnja je 270."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Da li je transfer privatan ili deljen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Svaki je transfer privatan i od vrata do vrata, u Škodi Superb. Bez deljenja vozila i bez dodatnih zaustavljanja osim ako ih zatražite."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Možete li da stanete usput?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Da. Na dužim rutama rado stanem za kafu, fotografiju ili kratku znamenitost. Samo javite pri rezervaciji."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Koliko unapred treba da rezervišem?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Barem 2 sata unapred da potvrdim vozilo i vreme preuzimanja. Za brži termin pozovite ili pišite na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

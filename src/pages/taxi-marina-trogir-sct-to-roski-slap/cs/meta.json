@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-marina-trogir-sct-roski-slap",
+  "title": "Taxi Marina Trogir (SCT) - Roški Slap | Pevná cena €125 | TAXI Antonio",
+  "description": "Soukromé taxi a transfer, trasa Marina Trogir (SCT) - Roški Slap. Pevná cena €125 za vozidlo, až 4 osoby. Rezervujte přímo u Antonia.",
+  "keywords": "taxi marina trogir (sct) - roški slap, transfer marina trogir (sct) - roški slap, letištní transfer marina trogir (sct) - roški slap",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Soukromý taxi transfer",
+      "name": "Taxi Marina Trogir (SCT) - Roški Slap",
+      "description": "Soukromé taxi a transfer za pevnou cenu, trasa Marina Trogir (SCT) - Roški Slap, 125 eur za vozidlo pro až 4 cestující, ode dveří ke dveřím.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Marina Trogir (SCT)",
+        "Roški Slap"
+      ],
+      "url": "https://taxiskradin.hr/cs/taxi-marina-trogir-sct-roski-slap/",
+      "offers": {
+        "@type": "Offer",
+        "price": "125",
+        "priceCurrency": "EUR",
+        "description": "Jednosměrná soukromá jízda, trasa Marina Trogir (SCT) - Roški Slap, za vozidlo pro až 4 cestující. Tam a zpět 250 eur."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kolik stojí transfer na trase Marina Trogir (SCT) - Roški Slap?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pevně 125 za vozidlo pro až 4 cestující, jednosměrná jízda, s mýtným, palivem a zavazadly. Cesta tam a zpět stojí 250."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Můžete vyzvednout přímo v marině?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ano. Setkám se s vámi u vchodu nebo na recepci mariny a pomůžu se zavazadly, takže jdete rovnou z mola k vozidlu."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Můžete transfer sladit s mojí lodí?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ano. Pošlete mi při rezervaci čas charteru, check-inu nebo odjezdu a vyzvednutí naplánuji kolem toho."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "S jakým předstihem mám rezervovat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nejméně 2 hodiny předem, abych mohl potvrdit vozidlo a čas vyzvednutí. Pro jízdu na poslední chvíli zavolejte nebo mi napište přímo na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-lotnisko-split-roski-slap",
+  "title": "Taxi Lotnisko Split - Roški Slap | Stała cena €100 | TAXI Antonio",
+  "description": "Prywatne taxi i transfer, trasa Lotnisko Split - Roški Slap. Stała cena €100 za pojazd, do 4 osób. Rezerwacja bezpośrednio u Antonio.",
+  "keywords": "taxi lotnisko split - roški slap, transfer lotnisko split - roški slap, transfer lotniskowy lotnisko split - roški slap",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-airport-2.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Prywatny transfer taxi",
+      "name": "Taxi Lotnisko Split - Roški Slap",
+      "description": "Prywatne taxi i transfer w stałej cenie, trasa Lotnisko Split - Roški Slap, 100 euro za pojazd dla maksymalnie 4 pasażerów, od drzwi do drzwi.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Lotnisko Split",
+        "Roški Slap"
+      ],
+      "url": "https://taxiskradin.hr/pl/taxi-lotnisko-split-roski-slap/",
+      "offers": {
+        "@type": "Offer",
+        "price": "100",
+        "priceCurrency": "EUR",
+        "description": "Prywatny przejazd w jedną stronę, trasa Lotnisko Split - Roški Slap, za pojazd dla maksymalnie 4 pasażerów. Tam i z powrotem 200 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Gdzie mnie Pan odbierze?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "W hali przylotów, zaraz za odbiorem bagażu, z tabliczką z Pana/Pani nazwiskiem. Pomagam z bagażem i odprowadzam Pana/Panią do pojazdu."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Co, jeśli mój lot będzie opóźniony?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Żaden problem. Śledzę Pana/Pani lot na bieżąco i dostosowuję odbiór do rzeczywistego lądowania, bez dopłaty za czas oczekiwania."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ile kosztuje transfer na trasie Lotnisko Split - Roški Slap?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stała cena 100 za pojazd dla maksymalnie 4 pasażerów, w jedną stronę, opłaty drogowe i bagaż w cenie. Przejazd tam i z powrotem kosztuje 200."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Z jakim wyprzedzeniem należy rezerwować?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Co najmniej 2 godziny wcześniej, abym mógł zaplanować przejazd wokół Pana/Pani lotu. W przypadku odbioru tego samego dnia po zmianie na ostatnią chwilę proszę zadzwonić lub napisać na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

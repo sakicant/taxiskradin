@@ -1,0 +1,89 @@
+{
+  "slug": "taxi-split-skradin",
+  "title": "Split - Skradin 出租车 | 固定价格 €140 | TAXI Antonio",
+  "description": "私人出租车与接送，Split - Skradin 路线。固定价格 €140 每车，最多 4 名乘客，门到门。直接向 Antonio 预订。",
+  "keywords": "出租车 split - skradin, 接送 split - skradin, 机场接送 split - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "私人出租车接送",
+      "name": "Split - Skradin 出租车",
+      "description": "固定价格的私人出租车与接送，Split - Skradin 路线，每车 140 欧元，最多 4 名乘客，门到门。",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Split",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/zh/taxi-split-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "140",
+        "priceCurrency": "EUR",
+        "description": "单程私人乘车，Split - Skradin 路线，每车最多 4 名乘客。往返 280 欧元。"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "这条路线有多远，乘车需要多久？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Split - Skradin 路线全程约 93 公里，正常路况下约需 70 min，夏季旺季会稍长一些。我会规划好接您的时间，让缓慢的路段绝不会让您赶时间。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Split - Skradin 路线的出租车多少钱？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "固定 140 每车，最多 4 名乘客，单程，含过路费、燃油和行李。往返为 280。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "接送是私人的还是拼车的？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "每趟接送都是私人的、门到门，乘坐 Škoda Superb。不与他人拼车，除非您要求，否则没有额外停靠。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "途中可以停靠吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "可以。在较长的路程中，我乐意停下来喝杯咖啡、拍张照片或看看短途景点。预订时告诉我即可。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "我该提前多久预订？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "至少提前 2 小时，以便我确认车辆和接送时间。临时用车请致电或在 WhatsApp 上留言。"
+          }
+        }
+      ]
+    }
+  ]
+}

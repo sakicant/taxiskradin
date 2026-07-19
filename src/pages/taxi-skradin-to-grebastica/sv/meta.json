@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-skradin-grebastica",
+  "title": "Taxi Skradin - Grebaštica | Fast pris €80 | TAXI Antonio",
+  "description": "Privat taxi och transfer, Skradin - Grebaštica. Fast pris €80 per fordon, upp till 4 passagerare, dörr till dörr. Boka direkt hos Antonio.",
+  "keywords": "taxi skradin - grebaštica, transfer skradin - grebaštica, flygplatstransfer skradin - grebaštica",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privat taxitransfer",
+      "name": "Taxi Skradin - Grebaštica",
+      "description": "Privat taxi och transfer till fast pris, Skradin - Grebaštica, 80 euro per fordon för upp till 4 passagerare, dörr till dörr.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Grebaštica"
+      ],
+      "url": "https://taxiskradin.hr/sv/taxi-skradin-grebastica/",
+      "offers": {
+        "@type": "Offer",
+        "price": "80",
+        "priceCurrency": "EUR",
+        "description": "Enkel privat resa, Skradin - Grebaštica, per fordon för upp till 4 passagerare. Tur och retur 160 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hur långt är sträckan och hur lång tid tar resan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Resan Skradin - Grebaštica är cirka 40 km lång och tar ungefär 40 min vid normal trafik, något längre under högsommaren. Jag planerar upphämtningen så att en långsam sträcka aldrig gör dig stressad."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hur mycket kostar en taxi på sträckan Skradin - Grebaštica?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fast 80 per fordon för upp till 4 passagerare, enkel resa, bagage ingår. En tur och retur kostar 160."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Var hämtar du mig?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "På din exakta adress, oavsett om det är hus, hotell eller lägenhet. Skicka adressen vid bokningen, så bekräftar jag mötesplatsen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hur långt i förväg bör jag boka?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minst 2 timmar i förväg, så att jag kan bekräfta fordon och upphämtningstid. För en resa med kort varsel, ring eller skriv på WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

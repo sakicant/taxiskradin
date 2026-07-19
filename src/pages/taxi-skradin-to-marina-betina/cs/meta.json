@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-skradin-marina-betina",
+  "title": "Taxi Skradin - Marina Betina | Pevná cena €75 | TAXI Antonio",
+  "description": "Soukromé taxi a transfer, trasa Skradin - Marina Betina. Pevná cena €75 za vozidlo, až 4 cestující, ode dveří ke dveřím. Rezervujte přímo u Antonia.",
+  "keywords": "taxi skradin - marina betina, transfer skradin - marina betina, letištní transfer skradin - marina betina",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Soukromý taxi transfer",
+      "name": "Taxi Skradin - Marina Betina",
+      "description": "Soukromé taxi a transfer za pevnou cenu, trasa Skradin - Marina Betina, 75 eur za vozidlo pro až 4 cestující, ode dveří ke dveřím.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Marina Betina"
+      ],
+      "url": "https://taxiskradin.hr/cs/taxi-skradin-marina-betina/",
+      "offers": {
+        "@type": "Offer",
+        "price": "75",
+        "priceCurrency": "EUR",
+        "description": "Jednosměrná soukromá jízda, trasa Skradin - Marina Betina, za vozidlo pro až 4 cestující. Tam a zpět 150 eur."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kolik stojí transfer na trase Skradin - Marina Betina?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pevně 75 za vozidlo pro až 4 cestující, jednosměrná jízda, s mýtným, palivem a zavazadly. Cesta tam a zpět stojí 150."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Můžete vyzvednout přímo v marině?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ano. Setkám se s vámi u vchodu nebo na recepci mariny a pomůžu se zavazadly, takže jdete rovnou z mola k vozidlu."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Můžete transfer sladit s mojí lodí?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ano. Pošlete mi při rezervaci čas charteru, check-inu nebo odjezdu a vyzvednutí naplánuji kolem toho."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "S jakým předstihem mám rezervovat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nejméně 2 hodiny předem, abych mohl potvrdit vozidlo a čas vyzvednutí. Pro jízdu na poslední chvíli zavolejte nebo mi napište přímo na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

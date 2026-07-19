@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-roski-slap-skradin",
+  "title": "Taksi Roški Slap - Skradin | Kiinteä hinta €50 | TAXI Antonio",
+  "description": "Yksityinen taksi ja kuljetus, reitti Roški Slap - Skradin. Kiinteä hinta €50 per auto, enintään 4 matkustajaa, ovelta ovelle. Varaa suoraan Antoniolta.",
+  "keywords": "taksi roški slap - skradin, kuljetus roški slap - skradin, lentokenttäkuljetus roški slap - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Yksityinen taksikuljetus",
+      "name": "Taksi Roški Slap - Skradin",
+      "description": "Yksityinen taksi ja kuljetus kiinteään hintaan, reitti Roški Slap - Skradin, 50 euroa per auto enintään 4 matkustajalle, ovelta ovelle.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Roški Slap",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/fi/taxi-roski-slap-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "50",
+        "priceCurrency": "EUR",
+        "description": "Yhdensuuntainen yksityinen matka, reitti Roški Slap - Skradin, per auto enintään 4 matkustajalle. Meno ja paluu 100 euroa."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Paljonko taksi maksaa reitillä Roški Slap - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kiinteä 50 per auto enintään 4 matkustajalle, yhdensuuntainen matka, matkatavarat mukana. Meno-paluumatka maksaa 100."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mistä noudatte minut?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tarkasta osoitteestasi, olipa se talo, hotelli tai huoneisto. Lähetä osoite varauksen yhteydessä, niin vahvistan tapaamispaikan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kuinka paljon etukäteen minun pitäisi varata?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vähintään 2 tuntia aiemmin, jotta voin vahvistaa auton ja noutoajan. Lyhyellä varoitusajalla soita tai kirjoita WhatsAppissa."
+          }
+        }
+      ]
+    }
+  ]
+}

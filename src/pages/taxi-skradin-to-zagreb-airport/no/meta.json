@@ -1,0 +1,89 @@
+{
+  "slug": "taxi-skradin-zagreb-lufthavn",
+  "title": "Taxi Skradin - Zagreb lufthavn | Fastpris €485 | TAXI Antonio",
+  "description": "Privat taxi og transport, strekningen Skradin - Zagreb lufthavn. Fastpris €485 per bil, opptil 4 passasjerer, dør til dør. Bestill direkte hos Antonio.",
+  "keywords": "taxi skradin - zagreb lufthavn, transport skradin - zagreb lufthavn, flyplasstransport skradin - zagreb lufthavn",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-airport.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privat taxitransport",
+      "name": "Taxi Skradin - Zagreb lufthavn",
+      "description": "Privat taxi og transport til fastpris, strekningen Skradin - Zagreb lufthavn, 485 euro per bil for opptil 4 passasjerer, dør til dør.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Zagreb lufthavn"
+      ],
+      "url": "https://taxiskradin.hr/no/taxi-skradin-zagreb-lufthavn/",
+      "offers": {
+        "@type": "Offer",
+        "price": "485",
+        "priceCurrency": "EUR",
+        "description": "Enkel privat tur, strekningen Skradin - Zagreb lufthavn, per bil for opptil 4 passasjerer. Tur og retur 970 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hvor lang er strekningen og hvor lenge tar turen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Turen på strekningen Skradin - Zagreb lufthavn er rundt 338 km lang og tar omtrent 3 h 40 min ved normal trafikk, litt lenger i høysesongen om sommeren. Jeg planlegger henting slik at en langsom strekning aldri gjør deg stresset."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hvor mye koster en taxi på strekningen Skradin - Zagreb lufthavn?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fast 485 per bil, en vei, for opptil 4 passasjerer. Prisen gjelder per bil, ikke per person, og inkluderer bompenger, drivstoff og bagasje. Tur og retur koster 970."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Når bør jeg dra til flyplassen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vanligvis omtrent 3 timer før en internasjonal flyvning og 2 timer før en innenriks flyvning. Gi meg flytiden din, så bekrefter jeg nøyaktig henting."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kjører du helt til avgangsterminalen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Jeg kjører deg rett til avgangsterminalen og hjelper med bagasjen. Ingen gange fra parkeringen og ingen shuttle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hvor lang tid i forveien bør jeg bestille?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minst 2 timer i forveien, så jeg kan bekrefte bil og henting, og tidligere for tidlige fly og høysesong. For en tur på kort varsel, ring eller skriv til meg på WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

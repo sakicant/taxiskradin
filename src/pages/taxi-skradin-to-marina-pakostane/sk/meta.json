@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-skradin-marina-pakostane",
+  "title": "Taxi Skradin - Marina Pakoštane | Pevná cena €95 | TAXI Antonio",
+  "description": "Súkromné taxi a transfer, trasa Skradin - Marina Pakoštane. Pevná cena €95 za vozidlo, až 4 cestujúci, od dverí k dverám. Rezervujte priamo u Antonia.",
+  "keywords": "taxi skradin - marina pakoštane, transfer skradin - marina pakoštane, letiskový transfer skradin - marina pakoštane",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Súkromný taxi transfer",
+      "name": "Taxi Skradin - Marina Pakoštane",
+      "description": "Súkromné taxi a transfer za pevnú cenu, trasa Skradin - Marina Pakoštane, 95 eur za vozidlo pre až 4 cestujúcich, od dverí k dverám.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Marina Pakoštane"
+      ],
+      "url": "https://taxiskradin.hr/sk/taxi-skradin-marina-pakostane/",
+      "offers": {
+        "@type": "Offer",
+        "price": "95",
+        "priceCurrency": "EUR",
+        "description": "Jednosmerná súkromná jazda, trasa Skradin - Marina Pakoštane, za vozidlo pre až 4 cestujúcich. Tam a späť 190 eur."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Koľko stojí transfer na trase Skradin - Marina Pakoštane?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pevne 95 za vozidlo pre až 4 cestujúcich, jednosmerná jazda, s mýtom, palivom a batožinou. Jazda tam a späť stojí 190."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Môžete vyzdvihnúť priamo v maríne?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Áno. Stretnem vás pri vchode alebo na recepcii maríny a pomôžem s batožinou, takže idete priamo z móla k vozidlu."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Môžete zladiť transfer s mojou loďou?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Áno. Pri rezervácii mi pošlite čas charteru, check-inu alebo odplávania a ja naplánujem vyzdvihnutie okolo neho."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "S akým predstihom mám rezervovať?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minimálne 2 hodiny vopred, aby som mohol potvrdiť vozidlo a čas vyzdvihnutia. Pri jazde na poslednú chvíľu zavolajte alebo napíšte mi priamo na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

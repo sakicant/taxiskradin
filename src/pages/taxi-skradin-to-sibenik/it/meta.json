@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-skradin-sibenik",
+  "title": "Taxi Skradin - Šibenik | Prezzo fisso €50 | TAXI Antonio",
+  "description": "Taxi e transfer privato, tratta Skradin - Šibenik. Prezzo fisso €50 per veicolo, fino a 4 passeggeri, porta a porta. Prenoti direttamente con Antonio.",
+  "keywords": "taxi skradin - šibenik, transfer skradin - šibenik, transfer aeroportuale skradin - šibenik",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Transfer taxi privato",
+      "name": "Taxi Skradin - Šibenik",
+      "description": "Taxi e transfer privato a prezzo fisso, tratta Skradin - Šibenik, 50 euro per veicolo fino a 4 passeggeri, porta a porta.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Šibenik"
+      ],
+      "url": "https://taxiskradin.hr/it/taxi-skradin-sibenik/",
+      "offers": {
+        "@type": "Offer",
+        "price": "50",
+        "priceCurrency": "EUR",
+        "description": "Corsa privata di sola andata, tratta Skradin - Šibenik, per veicolo fino a 4 passeggeri. Andata e ritorno 100 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quanto è lunga la tratta e quanto dura il viaggio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Il viaggio sulla tratta Skradin - Šibenik è lungo circa 21 km e dura circa 25 min con traffico normale, un po' di più nel pieno dell'estate. Programmo il prelievo in modo che un tragitto lento non La metta mai in affanno."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quanto costa un taxi sulla tratta Skradin - Šibenik?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fisso 50 per veicolo fino a 4 passeggeri, sola andata, bagagli inclusi. Un andata e ritorno costa 100."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dove viene a prendermi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Al Suo indirizzo esatto, che sia casa, hotel o appartamento. Invii l'indirizzo al momento della prenotazione e Le confermo il punto d'incontro."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Con quanto anticipo dovrei prenotare?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Almeno 2 ore prima, così posso confermare veicolo e orario del prelievo. Per una corsa dell'ultimo minuto mi chiami o mi scriva su WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "taxi-trogir-skradin",
+  "title": "Taxi Trogir - Skradin | Festpreis €100 | TAXI Antonio",
+  "description": "Privates Taxi und Transfer, Strecke Trogir - Skradin. Festpreis €100 pro Fahrzeug, bis zu 4 Fahrgäste, Tür zu Tür. Direkt bei Antonio buchen.",
+  "keywords": "taxi trogir - skradin, transfer trogir - skradin, flughafentransfer trogir - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privater Taxitransfer",
+      "name": "Taxi Trogir - Skradin",
+      "description": "Privates Taxi und Transfer zum Festpreis, Strecke Trogir - Skradin, 100 Euro pro Fahrzeug für bis zu 4 Fahrgäste, Tür zu Tür.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Trogir",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/de/taxi-trogir-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "100",
+        "priceCurrency": "EUR",
+        "description": "Einfache private Fahrt, Strecke Trogir - Skradin, pro Fahrzeug für bis zu 4 Fahrgäste. Hin und zurück 200 Euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wie weit ist die Strecke und wie lange dauert die Fahrt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die Fahrt auf der Strecke Trogir - Skradin ist rund 65 km lang und dauert etwa 60 min bei normalem Verkehr, in der Sommerhauptzeit etwas länger. Ich plane die Abholung so, dass eine langsame Strecke Sie nie in Eile bringt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie viel kostet ein Taxi auf der Strecke Trogir - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fest 100 pro Fahrzeug für bis zu 4 Fahrgäste, einfache Fahrt, mit Maut, Kraftstoff und Gepäck. Eine Hin- und Rückfahrt kostet 200."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ist der Transfer privat oder geteilt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Jeder Transfer ist privat und Tür zu Tür, in einer Škoda Superb. Kein Teilen des Fahrzeugs und keine zusätzlichen Stopps, außer Sie wünschen es."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Können Sie unterwegs anhalten?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Auf längeren Strecken halte ich gern für einen Kaffee, ein Foto oder eine kurze Sehenswürdigkeit. Sagen Sie einfach bei der Buchung Bescheid."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie weit im Voraus sollte ich buchen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mindestens 2 Stunden vorher, damit ich Fahrzeug und Abholzeit bestätigen kann. Für eine kurzfristige Fahrt rufen Sie an oder schreiben auf WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

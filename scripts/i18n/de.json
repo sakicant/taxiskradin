@@ -1,0 +1,261 @@
+{
+ "taxi_word": "Taxi",
+ "book_slug": "buchen",
+ "airport_name": {
+  "Split Airport": "Flughafen Split",
+  "Zadar Airport": "Flughafen Zadar",
+  "Zagreb Airport": "Flughafen Zagreb",
+  "Dubrovnik Airport": "Flughafen Dubrovnik"
+ },
+ "airport_slug": {
+  "split-airport": "flughafen-split",
+  "zadar-airport": "flughafen-zadar",
+  "zagreb-airport": "flughafen-zagreb",
+  "dubrovnik-airport": "flughafen-dubrovnik"
+ },
+ "hero_alt": "Taxi {rel}: Škoda Superb von TAXI Antonio an der dalmatinischen Küste",
+ "per_car": "pro Fahrzeug &middot; bis zu 4 Fahrgäste",
+ "book_now": "Jetzt buchen",
+ "book_wa": "Über WhatsApp buchen",
+ "why_eyebrow": "Warum diesen Transfer buchen",
+ "why_title": "Warum Ihr Taxi {rel} bei Antonio buchen?",
+ "price_title": "Preis {rel}",
+ "price_sub": "Festpreis pro Fahrzeug, bis zu 4 Fahrgäste, Gepäck inklusive. Der gleiche Preis gilt in der Gegenrichtung.",
+ "price_oneway_lbl": "Einfach",
+ "price_return_lbl": "Hin &amp; zurück",
+ "price_advance_lbl": "Anzahlung zur Bestätigung",
+ "price_balance_val": "Bar oder Karte",
+ "price_balance_lbl": "Rest am Tag",
+ "hub_note": "Eine Anzahlung von 20% (mindestens &euro;20) bestätigt Ihre Buchung, den Rest zahlen Sie am Tag der Fahrt, bar oder mit Karte. Reisen Sie in die Gegenrichtung? Siehe {revlink}.",
+ "reviews_eyebrow": "Bewertungen",
+ "reviews_title": "Was Fahrgäste sagen",
+ "reviews_sub": "Echte Bewertungen von echten Fahrgästen.",
+ "faq_eyebrow": "FAQ",
+ "faq_title": "Taxi {rel}: Häufige Fragen",
+ "cta_title": "Reservieren Sie Ihren Transfer {rel}",
+ "cta_sub": "Festpreis &euro;{p} pro Fahrzeug, bis zu 4 Fahrgäste. Bestätigung mit wenigen Klicks.",
+ "trust_air": "Bestätigt nach Anzahlung &middot; Keine versteckten Kosten &middot; Flugüberwachung inklusive",
+ "trust_generic": "Bestätigt nach Anzahlung &middot; Keine versteckten Kosten &middot; Festpreis, kein Taxameter",
+ "rf_fixed_oneway_lbl": "Festpreis, einfach",
+ "rf_distance_lbl": "Entfernung",
+ "rf_drivetime_lbl": "Fahrzeit",
+ "rf_return_lbl": "Hin &amp; zurück",
+ "rf_upto4_val": "Bis zu 4",
+ "rf_upto4_lbl": "Fahrgäste",
+ "rf_skoda_lbl": "Privat, Tür zu Tür",
+ "meta_title": "Taxi {rel} | Festpreis €{p} | TAXI Antonio",
+ "meta_desc": "Privates Taxi und Transfer, Strecke {rel}. Festpreis €{p} pro Fahrzeug, bis zu 4 Fahrgäste, Tür zu Tür. Direkt bei Antonio buchen.",
+ "meta_desc_short": "Privates Taxi und Transfer, Strecke {rel}. Festpreis €{p} pro Fahrzeug, bis zu 4. Direkt bei Antonio buchen.",
+ "keywords": "taxi {rell}, transfer {rell}, flughafentransfer {rell}",
+ "schema_servicetype": "Privater Taxitransfer",
+ "schema_name": "Taxi {rel}",
+ "schema_desc": "Privates Taxi und Transfer zum Festpreis, Strecke {rel}, {p} Euro pro Fahrzeug für bis zu 4 Fahrgäste, Tür zu Tür.",
+ "schema_offer_desc": "Einfache private Fahrt, Strecke {rel}, pro Fahrzeug für bis zu 4 Fahrgäste. Hin und zurück {rp} Euro.",
+ "dist_faq_q": "Wie weit ist die Strecke und wie lange dauert die Fahrt?",
+ "dist_faq_a": "Die Fahrt auf der Strecke {rel} ist rund {km} km lang und dauert etwa {t} bei normalem Verkehr, in der Sommerhauptzeit etwas länger. Ich plane die Abholung so, dass eine langsame Strecke Sie nie in Eile bringt.",
+ "types": {
+  "to_airport": {
+   "heading": "Ihr privates Taxi und Transfer, Strecke {rel}",
+   "tagline": "Taxi und privater Transfer zum Festpreis, Strecke {rel}, direkt zum Abflug.",
+   "intro": "Sie fliegen ab Flughafen {city}? Für die Strecke {rel} biete ich ein privates Taxi und einen Transfer zum Festpreis. Ich bin Antonio, ein lokaler Fahrer: Ich hole Sie an Ihrer Adresse ab und fahre Sie in einer komfortablen Škoda Superb direkt zum Abflugterminal. Der Preis ist fest, &euro;{p} für das ganze Fahrzeug, bis zu 4 Fahrgäste, im Voraus vereinbart, ohne Taxameter und ohne Überraschungen. Ich plane die Abholung nach Ihrer Flugzeit, damit Sie mit genug Zeit zum Einchecken ankommen. Das Angebotsformular oben ist für diese Strecke bereits ausgefüllt, sodass Sie den Preis sehen und mit wenigen Klicks buchen können.",
+   "whys": [
+    [
+     "Festpreis &euro;{p}",
+     "Ein Preis für das ganze Fahrzeug, bis zu 4 Fahrgäste, im Voraus vereinbart. Maut, Kraftstoff und Gepäck inklusive, kein Taxameter."
+    ],
+    [
+     "Auf Ihren Flug abgestimmt",
+     "Nennen Sie mir Ihre Abflugzeit und ich rechne zurück, damit Sie mit Zeit zum Einchecken am Terminal sind."
+    ],
+    [
+     "Von der Tür zum Terminal",
+     "Abholung an Ihrer Adresse und Absetzen direkt am Eingang des Abflugterminals."
+    ],
+    [
+     "Zu jeder Zeit",
+     "Frühe und späte Flüge sind kein Problem. Ich fahre rund um die Uhr zu einem im Voraus vereinbarten Preis."
+    ]
+   ],
+   "faqs": [
+    [
+     "Wie viel kostet ein Taxi auf der Strecke {rel}?",
+     "Fest &euro;{p} pro Fahrzeug, einfache Fahrt, für bis zu 4 Fahrgäste. Der Preis gilt pro Fahrzeug, nicht pro Person, und umfasst Maut, Kraftstoff und Gepäck. Eine Hin- und Rückfahrt kostet &euro;{rp}."
+    ],
+    [
+     "Wann sollte ich zum Flughafen aufbrechen?",
+     "In der Regel etwa 3 Stunden vor einem internationalen und 2 Stunden vor einem inländischen Flug. Nennen Sie mir Ihre Flugzeit und ich bestätige die genaue Abholung."
+    ],
+    [
+     "Fahren Sie bis zum Abflugterminal?",
+     "Ja. Ich fahre Sie direkt zum Abflugterminal und helfe mit dem Gepäck. Kein Fußweg vom Parkplatz und kein Shuttle."
+    ],
+    [
+     "Wie weit im Voraus sollte ich buchen?",
+     "Mindestens 2 Stunden vorher, damit ich Fahrzeug und Abholung bestätigen kann, und früher für frühe Flüge und die Hauptsaison. Für eine kurzfristige Fahrt rufen Sie an oder schreiben mir auf WhatsApp."
+    ]
+   ]
+  },
+  "from_airport": {
+   "heading": "Ihre Flughafenabholung und Transfer, Strecke {rel}",
+   "tagline": "Private Flughafenabholung und Transfer zum Festpreis, Strecke {rel}, mit Flugüberwachung.",
+   "intro": "Gerade am Flughafen {city} gelandet? Ein privater Transfer für die Strecke {rel} nimmt den Stress aus der Ankunft. Ich empfange Sie in der Ankunftshalle mit einem Namensschild, helfe mit dem Gepäck und fahre Sie in einer komfortablen Škoda Superb direkt zum Ziel, zum Festpreis von &euro;{p} für das ganze Fahrzeug, bis zu 4 Fahrgäste. Ich verfolge Ihren Flug in Echtzeit, sodass ich da bin, ob Sie früher oder später landen. Keine Taxischlange, kein Sammeltransfer und keine Preisaufschläge. Das Formular oben ist für diese Strecke bereits ausgefüllt.",
+   "whys": [
+    [
+     "Empfang mit Schild",
+     "Ich warte in der Ankunftshalle mit einem Namensschild und helfe mit den Taschen, sodass Sie direkt zum Fahrzeug gehen."
+    ],
+    [
+     "Flugüberwachung",
+     "Ich verfolge Ihren Flug in Echtzeit und passe mich früher Landung oder Verspätung an, mit kostenloser Wartezeit."
+    ],
+    [
+     "Festpreis &euro;{p}",
+     "Ein Preis für das ganze Fahrzeug, bis zu 4 Fahrgäste, im Voraus vereinbart. Maut, Kraftstoff und Gepäck inklusive, kein Taxameter."
+    ],
+    [
+     "Direkt vor Ihre Tür",
+     "Keine Schlange und kein Umsteigen. Ich fahre Sie direkt zu Ihrer Adresse."
+    ]
+   ],
+   "faqs": [
+    [
+     "Wo empfangen Sie mich?",
+     "In der Ankunftshalle, direkt nach der Gepäckausgabe, mit einem Schild mit Ihrem Namen. Ich helfe mit dem Gepäck und begleite Sie zum Fahrzeug."
+    ],
+    [
+     "Was, wenn mein Flug Verspätung hat?",
+     "Kein Problem. Ich verfolge Ihren Flug in Echtzeit und passe die Abholung an die tatsächliche Landung an, ohne Aufpreis für die Wartezeit."
+    ],
+    [
+     "Wie viel kostet der Transfer auf der Strecke {rel}?",
+     "Fest &euro;{p} pro Fahrzeug für bis zu 4 Fahrgäste, einfache Fahrt, Maut und Gepäck inklusive. Eine Hin- und Rückfahrt kostet &euro;{rp}."
+    ],
+    [
+     "Wie weit im Voraus sollte ich buchen?",
+     "Mindestens 2 Stunden vorher, damit ich um Ihren Flug herum planen kann. Für eine Abholung am selben Tag nach einer kurzfristigen Änderung rufen Sie an oder schreiben auf WhatsApp."
+    ]
+   ]
+  },
+  "marina": {
+   "heading": "Privater Marina-Transfer, Strecke {rel}",
+   "tagline": "Privates Taxi und Transfer zum Festpreis, Strecke {rel}, abgestimmt auf Ihr Boot.",
+   "intro": "Fahren Sie auf der Strecke {rel}? Ich fahre ein privates Taxi und einen Transfer zum Festpreis für Marina-Gäste, abgestimmt auf Ihr Boot und Ihre Reisepläne. Ich hole Sie mit viel Platz für Ihr Gepäck ab und fahre Sie den ganzen Weg bequem in einer Škoda Superb, zum Pauschalpreis von &euro;{p} für das Fahrzeug, bis zu 4 Fahrgäste, vor der Fahrt vereinbart. Ob Sie zu Ihrer Yacht kommen oder nach dem Ausschiffen weiterreisen, es gibt kein Taxameter und kein Warten am Stand, nur einen lokalen Fahrer, den Sie direkt buchen. Das ist ein privater Transfer über eine längere Strecke, und das Angebot oben ist für diese Strecke bereits eingestellt.",
+   "whys": [
+    [
+     "Festpreis &euro;{p}",
+     "Ein Preis pro Fahrzeug für bis zu 4 Fahrgäste, im Voraus vereinbart. Maut, Kraftstoff und Gepäck inklusive, kein laufendes Taxameter."
+    ],
+    [
+     "Auf Ihr Boot abgestimmt",
+     "Nennen Sie mir Ihre Charter-, Check-in- oder Abfahrtszeit und ich plane die Abholung darum herum, sodass eine langsame Strecke Sie nie in Eile bringt."
+    ],
+    [
+     "Platz für Ihr Gepäck",
+     "Koffer, Proviant und Bootstaschen passen alle in eine komfortable Škoda Superb, mit einer helfenden Hand beim Ein- und Ausladen."
+    ],
+    [
+     "Ein lokaler Fahrer",
+     "Sie haben direkt mit mir zu tun, von der Buchung bis zur Ankunft, per Telefon, WhatsApp oder E-Mail. Kein Callcenter."
+    ]
+   ],
+   "faqs": [
+    [
+     "Wie viel kostet ein Transfer auf der Strecke {rel}?",
+     "Fest &euro;{p} pro Fahrzeug für bis zu 4 Fahrgäste, einfache Fahrt, mit Maut, Kraftstoff und Gepäck. Eine Hin- und Rückfahrt kostet &euro;{rp}."
+    ],
+    [
+     "Können Sie direkt an der Marina abholen?",
+     "Ja. Ich treffe Sie am Eingang oder an der Rezeption der Marina und helfe mit dem Gepäck, sodass Sie direkt vom Steg zum Fahrzeug gehen."
+    ],
+    [
+     "Können Sie den Transfer auf mein Boot abstimmen?",
+     "Ja. Senden Sie mir bei der Buchung Ihre Charter-, Check-in- oder Abfahrtszeit und ich plane die Abholung darum herum."
+    ],
+    [
+     "Wie weit im Voraus sollte ich buchen?",
+     "Mindestens 2 Stunden vorher, damit ich Fahrzeug und Abholzeit bestätigen kann. Für eine kurzfristige Fahrt rufen Sie an oder schreiben mir direkt auf WhatsApp."
+    ]
+   ]
+  },
+  "city": {
+   "heading": "Privater Transfer, Strecke {rel}",
+   "tagline": "Privates Taxi und Transfer zum Festpreis, Strecke {rel}, Tür zu Tür.",
+   "intro0": "Brauchen Sie einen zuverlässigen Transfer auf der Strecke {rel}? Ich biete ein privates Taxi und einen Transfer zum Festpreis, Tür zu Tür, in einer komfortablen Škoda Superb. Ich hole Sie an Ihrer genauen Adresse ab und fahre Sie direkt zum Ziel, ohne ungewollte Zwischenstopps und ohne Mitfahrer. Der Preis ist fest, &euro;{p} für das ganze Fahrzeug, bis zu 4 Fahrgäste, vor der Abfahrt vereinbart, Maut und Gepäck inklusive. Das Angebot oben ist für diese Strecke ausgefüllt, sodass die Buchung nur wenige Klicks dauert.",
+   "intro1": "Suchen Sie ein Taxi auf der Strecke {rel} ohne Taxameter und Aufwand? Das ist ein privater Transfer zum Festpreis mit einem lokalen Fahrer. Ich hole Sie an der Tür ab und fahre Sie bequem zum Ziel, samt Gepäck, zum Pauschalpreis von &euro;{p} pro Fahrzeug für bis zu 4 Fahrgäste. Für Paare und Familien ist es oft günstiger als getrennte Bus- oder Zugtickets, und immer schneller und Tür zu Tür. Das Angebot oben ist für diese Strecke bereits eingestellt.",
+   "whys": [
+    [
+     "Festpreis &euro;{p}",
+     "Ein Preis pro Fahrzeug für bis zu 4 Fahrgäste, im Voraus vereinbart. Maut, Kraftstoff und Gepäck inklusive, kein laufendes Taxameter."
+    ],
+    [
+     "Tür zu Tür",
+     "Ich hole Sie an Ihrer genauen Adresse ab und setze Sie an der Tür des Ziels ab. Keine Bahnhöfe, kein Umsteigen."
+    ],
+    [
+     "Ein lokaler Fahrer",
+     "Sie haben direkt mit mir zu tun, von der Buchung bis zur Ankunft, per Telefon, WhatsApp oder E-Mail. Kein Callcenter."
+    ],
+    [
+     "Stopps auf Wunsch",
+     "Auf längeren Strecken halte ich gern für einen Kaffee, ein Foto oder eine kurze Sehenswürdigkeit unterwegs."
+    ]
+   ],
+   "faqs": [
+    [
+     "Wie viel kostet ein Taxi auf der Strecke {rel}?",
+     "Fest &euro;{p} pro Fahrzeug für bis zu 4 Fahrgäste, einfache Fahrt, mit Maut, Kraftstoff und Gepäck. Eine Hin- und Rückfahrt kostet &euro;{rp}."
+    ],
+    [
+     "Ist der Transfer privat oder geteilt?",
+     "Jeder Transfer ist privat und Tür zu Tür, in einer Škoda Superb. Kein Teilen des Fahrzeugs und keine zusätzlichen Stopps, außer Sie wünschen es."
+    ],
+    [
+     "Können Sie unterwegs anhalten?",
+     "Ja. Auf längeren Strecken halte ich gern für einen Kaffee, ein Foto oder eine kurze Sehenswürdigkeit. Sagen Sie einfach bei der Buchung Bescheid."
+    ],
+    [
+     "Wie weit im Voraus sollte ich buchen?",
+     "Mindestens 2 Stunden vorher, damit ich Fahrzeug und Abholzeit bestätigen kann. Für eine kurzfristige Fahrt rufen Sie an oder schreiben auf WhatsApp."
+    ]
+   ]
+  },
+  "local": {
+   "heading": "Privates Taxi, Strecke {rel}",
+   "tagline": "Privates Taxi und Transfer zum Festpreis, Strecke {rel}, Tür zu Tür.",
+   "intro0": "Sie reisen auf der Strecke {rel}? Ich fahre ein privates Taxi und einen Transfer zum Festpreis, mit Abholung an Ihrer Tür und Absetzen genau dort, wo Sie hinmüssen. Der Preis ist pauschal &euro;{p} für das ganze Fahrzeug, bis zu 4 Fahrgäste, ohne Taxameter und ohne Warten am Stand. Eine komfortable Škoda Superb, Platz für Ihr Gepäck und ein lokaler Fahrer, den Sie direkt buchen. Das Angebot oben ist für diese Strecke ausgefüllt.",
+   "intro1": "Brauchen Sie ein Taxi auf der Strecke {rel}? Ich biete einen privaten Transfer von Tür zu Tür zum Festpreis von &euro;{p} für das ganze Fahrzeug, bis zu 4 Fahrgäste. Ich komme zur vereinbarten Zeit an Ihre Adresse, sodass Sie nie am Straßenrand warten, und fahre Sie bequem zum Ziel. Kein Taxameter, keine Überraschungen, nur ein lokaler Fahrer von der Buchung bis zur Ankunft. Das Angebot oben ist für diese Strecke bereits eingestellt.",
+   "whys": [
+    [
+     "Festpreis &euro;{p}",
+     "Ein Preis pro Fahrzeug für bis zu 4 Fahrgäste, vor der Fahrt vereinbart. Kein Taxameter, keine Überraschungen."
+    ],
+    [
+     "Tür zu Tür",
+     "Abholung an Ihrer Adresse und Absetzen an der Tür des Ziels, samt Gepäck."
+    ],
+    [
+     "Kein Taxistand nötig",
+     "Im Voraus gebucht, sodass Sie nie auf ein vorbeifahrendes Taxi warten. Ich komme zu Ihnen."
+    ],
+    [
+     "Ein lokaler Fahrer",
+     "Sie haben direkt mit mir zu tun, von der Buchung bis zur Ankunft, per Telefon, WhatsApp oder E-Mail."
+    ]
+   ],
+   "faqs": [
+    [
+     "Wie viel kostet ein Taxi auf der Strecke {rel}?",
+     "Fest &euro;{p} pro Fahrzeug für bis zu 4 Fahrgäste, einfache Fahrt, Gepäck inklusive. Eine Hin- und Rückfahrt kostet &euro;{rp}."
+    ],
+    [
+     "Wo holen Sie mich ab?",
+     "An Ihrer genauen Adresse, ob Haus, Hotel oder Apartment. Senden Sie die Adresse bei der Buchung und ich bestätige den Treffpunkt."
+    ],
+    [
+     "Wie weit im Voraus sollte ich buchen?",
+     "Mindestens 2 Stunden vorher, damit ich Fahrzeug und Abholzeit bestätigen kann. Für eine kurzfristige Fahrt rufen Sie an oder schreiben auf WhatsApp."
+    ]
+   ]
+  }
+ }
+}

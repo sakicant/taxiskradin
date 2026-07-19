@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-skradin-primosten",
+  "title": "Taxi Skradin - Primošten | Fix ár €80 | TAXI Antonio",
+  "description": "Privát taxi és transzfer a Skradin - Primošten útvonalon. Fix ár €80 járművenként, legfeljebb 4 utas, háztól házig. Foglaljon közvetlenül Antoniónál.",
+  "keywords": "taxi skradin - primošten, transzfer skradin - primošten, reptéri transzfer skradin - primošten",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privát taxitranszfer",
+      "name": "Taxi Skradin - Primošten",
+      "description": "Privát taxi és transzfer fix áron a Skradin - Primošten útvonalon, 80 euró járművenként, legfeljebb 4 utas, háztól házig.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Primošten"
+      ],
+      "url": "https://taxiskradin.hr/hu/taxi-skradin-primosten/",
+      "offers": {
+        "@type": "Offer",
+        "price": "80",
+        "priceCurrency": "EUR",
+        "description": "Privát, csak oda út a Skradin - Primošten útvonalon, járművenként, legfeljebb 4 utas. Oda-vissza 160 euró."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Milyen hosszú az útvonal és mennyi ideig tart az út?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Skradin - Primošten útvonalon az út körülbelül 49 km hosszú, és normál forgalomban körülbelül 50 min ideig tart, a nyári főszezonban valamivel tovább. Úgy tervezem meg a felvételt, hogy egy lassabb szakasz miatt soha ne kelljen kapkodnia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mennyibe kerül a taxi a Skradin - Primošten útvonalon?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fix 80 járművenként, legfeljebb 4 utasnak, csak oda, csomagokkal együtt. Az oda-vissza út 160."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hol vesz fel engem?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A pontos címén, legyen az ház, hotel vagy apartman. Foglaláskor küldje el a címet, és megerősítem a találkozási pontot."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mennyivel korábban foglaljak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Legalább 2 órával előtte, hogy megerősíthessem a járművet és a felvétel időpontját. Rövid határidős útért hívjon fel, vagy írjon WhatsAppon."
+          }
+        }
+      ]
+    }
+  ]
+}

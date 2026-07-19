@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-roski-slap-zadar",
+  "title": "Taxi Roški Slap - Zadar | Fastpris €135 | TAXI Antonio",
+  "description": "Privat taxi og transport, strekningen Roški Slap - Zadar. Fastpris €135 per bil, opptil 4 passasjerer, dør til dør. Bestill direkte hos Antonio.",
+  "keywords": "taxi roški slap - zadar, transport roški slap - zadar, flyplasstransport roški slap - zadar",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privat taxitransport",
+      "name": "Taxi Roški Slap - Zadar",
+      "description": "Privat taxi og transport til fastpris, strekningen Roški Slap - Zadar, 135 euro per bil for opptil 4 passasjerer, dør til dør.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Roški Slap",
+        "Zadar"
+      ],
+      "url": "https://taxiskradin.hr/no/taxi-roski-slap-zadar/",
+      "offers": {
+        "@type": "Offer",
+        "price": "135",
+        "priceCurrency": "EUR",
+        "description": "Enkel privat tur, strekningen Roški Slap - Zadar, per bil for opptil 4 passasjerer. Tur og retur 270 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hvor mye koster en taxi på strekningen Roški Slap - Zadar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fast 135 per bil for opptil 4 passasjerer, en vei, med bompenger, drivstoff og bagasje. Tur og retur koster 270."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Er transporten privat eller delt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hver transport er privat og dør til dør, i en Škoda Superb. Ingen deling av bilen og ingen ekstra stopp, med mindre du ønsker det."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan du stoppe underveis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. På lengre strekninger stopper jeg gjerne for en kaffe, et bilde eller en kort severdighet. Bare si fra ved bestilling."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hvor lang tid i forveien bør jeg bestille?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minst 2 timer i forveien, så jeg kan bekrefte bil og hentetidspunkt. For en tur på kort varsel, ring eller skriv på WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

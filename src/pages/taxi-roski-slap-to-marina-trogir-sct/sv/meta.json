@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-roski-slap-marina-trogir-sct",
+  "title": "Taxi Roški Slap - Marina Trogir (SCT) | Fast pris €125 | TAXI Antonio",
+  "description": "Privat taxi och transfer, Roški Slap - Marina Trogir (SCT). Fast pris €125 per fordon, upp till 4 passagerare, dörr till dörr. Boka direkt hos Antonio.",
+  "keywords": "taxi roški slap - marina trogir (sct), transfer roški slap - marina trogir (sct), flygplatstransfer roški slap - marina trogir (sct)",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privat taxitransfer",
+      "name": "Taxi Roški Slap - Marina Trogir (SCT)",
+      "description": "Privat taxi och transfer till fast pris, Roški Slap - Marina Trogir (SCT), 125 euro per fordon för upp till 4 passagerare, dörr till dörr.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Roški Slap",
+        "Marina Trogir (SCT)"
+      ],
+      "url": "https://taxiskradin.hr/sv/taxi-roski-slap-marina-trogir-sct/",
+      "offers": {
+        "@type": "Offer",
+        "price": "125",
+        "priceCurrency": "EUR",
+        "description": "Enkel privat resa, Roški Slap - Marina Trogir (SCT), per fordon för upp till 4 passagerare. Tur och retur 250 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hur mycket kostar en transfer på sträckan Roški Slap - Marina Trogir (SCT)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fast 125 per fordon för upp till 4 passagerare, enkel resa, med vägtull, bränsle och bagage. En tur och retur kostar 250."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan du hämta direkt vid marinan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Jag möter dig vid marinans entré eller reception och hjälper till med bagaget, så att du går direkt från bryggan till fordonet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan du anpassa transfern efter min båt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Skicka mig din charter-, inchecknings- eller avgångstid vid bokningen, så planerar jag upphämtningen kring den."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hur långt i förväg bör jag boka?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minst 2 timmar i förväg, så att jag kan bekräfta fordon och upphämtningstid. För en resa med kort varsel, ring eller skriv till mig direkt på WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

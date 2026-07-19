@@ -1,0 +1,261 @@
+{
+ "taxi_word": "Taxi",
+ "book_slug": "boeken",
+ "airport_name": {
+  "Split Airport": "Luchthaven Split",
+  "Zadar Airport": "Luchthaven Zadar",
+  "Zagreb Airport": "Luchthaven Zagreb",
+  "Dubrovnik Airport": "Luchthaven Dubrovnik"
+ },
+ "airport_slug": {
+  "split-airport": "luchthaven-split",
+  "zadar-airport": "luchthaven-zadar",
+  "zagreb-airport": "luchthaven-zagreb",
+  "dubrovnik-airport": "luchthaven-dubrovnik"
+ },
+ "hero_alt": "Taxi {rel}: Škoda Superb van TAXI Antonio aan de Dalmatische kust",
+ "per_car": "per voertuig &middot; tot 4 passagiers",
+ "book_now": "Nu boeken",
+ "book_wa": "Via WhatsApp boeken",
+ "why_eyebrow": "Waarom deze transfer boeken",
+ "why_title": "Waarom uw Taxi {rel} bij Antonio boeken?",
+ "price_title": "Prijs {rel}",
+ "price_sub": "Vaste prijs per voertuig, tot 4 passagiers, bagage inbegrepen. Dezelfde prijs geldt in de omgekeerde richting.",
+ "price_oneway_lbl": "Enkele reis",
+ "price_return_lbl": "Heen &amp; terug",
+ "price_advance_lbl": "Aanbetaling ter bevestiging",
+ "price_balance_val": "Contant of pin",
+ "price_balance_lbl": "Rest op de dag",
+ "hub_note": "Een aanbetaling van 20% (minimaal &euro;20) bevestigt uw boeking, de rest betaalt u op de dag van de rit, contant of met pin. Reist u in de omgekeerde richting? Zie {revlink}.",
+ "reviews_eyebrow": "Beoordelingen",
+ "reviews_title": "Wat passagiers zeggen",
+ "reviews_sub": "Echte beoordelingen van echte passagiers.",
+ "faq_eyebrow": "FAQ",
+ "faq_title": "Taxi {rel}: veelgestelde vragen",
+ "cta_title": "Reserveer uw transfer {rel}",
+ "cta_sub": "Vaste prijs &euro;{p} per voertuig, tot 4 passagiers. Bevestiging in een paar klikken.",
+ "trust_air": "Bevestigd na aanbetaling &middot; Geen verborgen kosten &middot; Vluchtmonitoring inbegrepen",
+ "trust_generic": "Bevestigd na aanbetaling &middot; Geen verborgen kosten &middot; Vaste prijs, geen taxameter",
+ "rf_fixed_oneway_lbl": "Vaste prijs, enkele reis",
+ "rf_distance_lbl": "Afstand",
+ "rf_drivetime_lbl": "Rijtijd",
+ "rf_return_lbl": "Heen &amp; terug",
+ "rf_upto4_val": "Tot 4",
+ "rf_upto4_lbl": "Passagiers",
+ "rf_skoda_lbl": "Privé, deur tot deur",
+ "meta_title": "Taxi {rel} | Vaste prijs €{p} | TAXI Antonio",
+ "meta_desc": "Privétaxi en transfer, route {rel}. Vaste prijs €{p} per voertuig, tot 4 passagiers, deur tot deur. Rechtstreeks bij Antonio boeken.",
+ "meta_desc_short": "Privétaxi en transfer, route {rel}. Vaste prijs €{p} per voertuig, tot 4. Rechtstreeks bij Antonio boeken.",
+ "keywords": "taxi {rell}, transfer {rell}, luchthaventransfer {rell}",
+ "schema_servicetype": "Privé taxitransfer",
+ "schema_name": "Taxi {rel}",
+ "schema_desc": "Privétaxi en transfer tegen vaste prijs, route {rel}, {p} euro per voertuig voor tot 4 passagiers, deur tot deur.",
+ "schema_offer_desc": "Enkele privérit, route {rel}, per voertuig voor tot 4 passagiers. Heen en terug {rp} euro.",
+ "dist_faq_q": "Hoe ver is de route en hoe lang duurt de rit?",
+ "dist_faq_a": "De rit op de route {rel} is ongeveer {km} km lang en duurt zo'n {t} bij normaal verkeer, in het hoogseizoen iets langer. Ik plan de ophaaltijd zo dat een trage route u nooit in tijdnood brengt.",
+ "types": {
+  "to_airport": {
+   "heading": "Uw privétaxi en transfer, route {rel}",
+   "tagline": "Taxi en privétransfer tegen vaste prijs, route {rel}, rechtstreeks naar uw vertrek.",
+   "intro": "Vertrekt u vanaf Luchthaven {city}? Voor de route {rel} bied ik een privétaxi en transfer tegen vaste prijs. Ik ben Antonio, een lokale chauffeur: ik haal u op uw adres op en breng u in een comfortabele Škoda Superb rechtstreeks naar de vertrekhal. De prijs staat vast, &euro;{p} voor het hele voertuig, tot 4 passagiers, vooraf afgesproken, zonder taxameter en zonder verrassingen. Ik plan de ophaaltijd op basis van uw vluchttijd, zodat u met voldoende tijd om in te checken aankomt. Het aanvraagformulier hierboven is al ingevuld voor deze route, zodat u de prijs ziet en in een paar klikken boekt.",
+   "whys": [
+    [
+     "Vaste prijs &euro;{p}",
+     "Eén prijs voor het hele voertuig, tot 4 passagiers, vooraf afgesproken. Tol, brandstof en bagage inbegrepen, geen taxameter."
+    ],
+    [
+     "Afgestemd op uw vlucht",
+     "Geef mij uw vertrektijd door en ik reken terug, zodat u met tijd om in te checken op de terminal bent."
+    ],
+    [
+     "Van deur tot terminal",
+     "Ophalen op uw adres en afzetten direct bij de ingang van de vertrekhal."
+    ],
+    [
+     "Op elk moment",
+     "Vroege en late vluchten zijn geen probleem. Ik rijd de klok rond tegen een vooraf afgesproken prijs."
+    ]
+   ],
+   "faqs": [
+    [
+     "Hoeveel kost een taxi op de route {rel}?",
+     "Vast &euro;{p} per voertuig, enkele reis, voor tot 4 passagiers. De prijs geldt per voertuig, niet per persoon, en omvat tol, brandstof en bagage. Een heen- en terugrit kost &euro;{rp}."
+    ],
+    [
+     "Wanneer moet ik naar de luchthaven vertrekken?",
+     "Doorgaans zo'n 3 uur voor een internationale en 2 uur voor een binnenlandse vlucht. Geef mij uw vluchttijd door en ik bevestig de exacte ophaaltijd."
+    ],
+    [
+     "Rijdt u tot aan de vertrekhal?",
+     "Ja. Ik breng u rechtstreeks naar de vertrekhal en help met de bagage. Geen looproute vanaf de parkeerplaats en geen shuttle."
+    ],
+    [
+     "Hoe ver van tevoren moet ik boeken?",
+     "Minstens 2 uur vooraf, zodat ik het voertuig en de ophaaltijd kan bevestigen, en eerder voor vroege vluchten en het hoogseizoen. Voor een rit op korte termijn belt u of schrijft u mij op WhatsApp."
+    ]
+   ]
+  },
+  "from_airport": {
+   "heading": "Uw luchthavenophaal en transfer, route {rel}",
+   "tagline": "Privé luchthavenophaal en transfer tegen vaste prijs, route {rel}, met vluchtmonitoring.",
+   "intro": "Net geland op Luchthaven {city}? Een privétransfer voor de route {rel} haalt de stress uit uw aankomst. Ik ontvang u in de aankomsthal met een naambordje, help met de bagage en breng u in een comfortabele Škoda Superb rechtstreeks naar uw bestemming, tegen de vaste prijs van &euro;{p} voor het hele voertuig, tot 4 passagiers. Ik volg uw vlucht in realtime, zodat ik er ben, of u nu eerder of later landt. Geen taxirij, geen gedeelde transfer en geen prijstoeslagen. Het formulier hierboven is al ingevuld voor deze route.",
+   "whys": [
+    [
+     "Ontvangst met bordje",
+     "Ik wacht in de aankomsthal met een naambordje en help met de tassen, zodat u direct naar het voertuig loopt."
+    ],
+    [
+     "Vluchtmonitoring",
+     "Ik volg uw vlucht in realtime en pas mij aan bij een vroege landing of vertraging, met gratis wachttijd."
+    ],
+    [
+     "Vaste prijs &euro;{p}",
+     "Eén prijs voor het hele voertuig, tot 4 passagiers, vooraf afgesproken. Tol, brandstof en bagage inbegrepen, geen taxameter."
+    ],
+    [
+     "Direct tot aan uw deur",
+     "Geen rij en geen overstap. Ik breng u rechtstreeks naar uw adres."
+    ]
+   ],
+   "faqs": [
+    [
+     "Waar ontvangt u mij?",
+     "In de aankomsthal, direct na de bagageband, met een bordje met uw naam. Ik help met de bagage en begeleid u naar het voertuig."
+    ],
+    [
+     "Wat als mijn vlucht vertraging heeft?",
+     "Geen probleem. Ik volg uw vlucht in realtime en pas de ophaaltijd aan op de daadwerkelijke landing, zonder toeslag voor de wachttijd."
+    ],
+    [
+     "Hoeveel kost de transfer op de route {rel}?",
+     "Vast &euro;{p} per voertuig voor tot 4 passagiers, enkele reis, tol en bagage inbegrepen. Een heen- en terugrit kost &euro;{rp}."
+    ],
+    [
+     "Hoe ver van tevoren moet ik boeken?",
+     "Minstens 2 uur vooraf, zodat ik rond uw vlucht kan plannen. Voor een ophaal op dezelfde dag na een wijziging op korte termijn belt u of schrijft u op WhatsApp."
+    ]
+   ]
+  },
+  "marina": {
+   "heading": "Privé jachthaventransfer, route {rel}",
+   "tagline": "Privétaxi en transfer tegen vaste prijs, route {rel}, afgestemd op uw boot.",
+   "intro": "Reist u op de route {rel}? Ik rijd een privétaxi en transfer tegen vaste prijs voor jachthavengasten, afgestemd op uw boot en uw reisplannen. Ik haal u op met volop ruimte voor uw bagage en breng u de hele weg comfortabel in een Škoda Superb, tegen de vaste prijs van &euro;{p} voor het voertuig, tot 4 passagiers, vóór de rit afgesproken. Of u nu naar uw jacht komt of na het ontschepen verder reist, er is geen taxameter en geen wachten bij de standplaats, alleen een lokale chauffeur die u rechtstreeks boekt. Dit is een privétransfer over een langere afstand, en de aanvraag hierboven is al ingesteld voor deze route.",
+   "whys": [
+    [
+     "Vaste prijs &euro;{p}",
+     "Eén prijs per voertuig voor tot 4 passagiers, vooraf afgesproken. Tol, brandstof en bagage inbegrepen, geen lopende taxameter."
+    ],
+    [
+     "Afgestemd op uw boot",
+     "Geef mij uw charter-, incheck- of vertrektijd door en ik plan de ophaaltijd daaromheen, zodat een trage route u nooit in tijdnood brengt."
+    ],
+    [
+     "Ruimte voor uw bagage",
+     "Koffers, proviand en boottassen passen allemaal in een comfortabele Škoda Superb, met een helpende hand bij het in- en uitladen."
+    ],
+    [
+     "Een lokale chauffeur",
+     "U heeft rechtstreeks met mij te maken, van boeking tot aankomst, per telefoon, WhatsApp of e-mail. Geen callcenter."
+    ]
+   ],
+   "faqs": [
+    [
+     "Hoeveel kost een transfer op de route {rel}?",
+     "Vast &euro;{p} per voertuig voor tot 4 passagiers, enkele reis, met tol, brandstof en bagage. Een heen- en terugrit kost &euro;{rp}."
+    ],
+    [
+     "Kunt u rechtstreeks bij de jachthaven ophalen?",
+     "Ja. Ik ontmoet u bij de ingang of de receptie van de jachthaven en help met de bagage, zodat u direct van de steiger naar het voertuig loopt."
+    ],
+    [
+     "Kunt u de transfer op mijn boot afstemmen?",
+     "Ja. Stuur mij bij het boeken uw charter-, incheck- of vertrektijd en ik plan de ophaaltijd daaromheen."
+    ],
+    [
+     "Hoe ver van tevoren moet ik boeken?",
+     "Minstens 2 uur vooraf, zodat ik het voertuig en de ophaaltijd kan bevestigen. Voor een rit op korte termijn belt u of schrijft u mij rechtstreeks op WhatsApp."
+    ]
+   ]
+  },
+  "city": {
+   "heading": "Privétransfer, route {rel}",
+   "tagline": "Privétaxi en transfer tegen vaste prijs, route {rel}, deur tot deur.",
+   "intro0": "Zoekt u een betrouwbare transfer op de route {rel}? Ik bied een privétaxi en transfer tegen vaste prijs, deur tot deur, in een comfortabele Škoda Superb. Ik haal u op uw exacte adres op en breng u rechtstreeks naar uw bestemming, zonder ongewenste tussenstops en zonder medereizigers. De prijs staat vast, &euro;{p} voor het hele voertuig, tot 4 passagiers, vóór vertrek afgesproken, tol en bagage inbegrepen. De aanvraag hierboven is ingevuld voor deze route, zodat het boeken maar een paar klikken kost.",
+   "intro1": "Zoekt u een taxi op de route {rel} zonder taxameter en gedoe? Dit is een privétransfer tegen vaste prijs met een lokale chauffeur. Ik haal u aan de deur op en breng u comfortabel naar uw bestemming, inclusief bagage, tegen de vaste prijs van &euro;{p} per voertuig voor tot 4 passagiers. Voor stellen en gezinnen is het vaak goedkoper dan aparte bus- of treinkaartjes, en altijd sneller en van deur tot deur. De aanvraag hierboven is al ingesteld voor deze route.",
+   "whys": [
+    [
+     "Vaste prijs &euro;{p}",
+     "Eén prijs per voertuig voor tot 4 passagiers, vooraf afgesproken. Tol, brandstof en bagage inbegrepen, geen lopende taxameter."
+    ],
+    [
+     "Deur tot deur",
+     "Ik haal u op uw exacte adres op en zet u af aan de deur van de bestemming. Geen stations, geen overstap."
+    ],
+    [
+     "Een lokale chauffeur",
+     "U heeft rechtstreeks met mij te maken, van boeking tot aankomst, per telefoon, WhatsApp of e-mail. Geen callcenter."
+    ],
+    [
+     "Stops op verzoek",
+     "Op langere routes stop ik graag voor een koffie, een foto of een korte bezienswaardigheid onderweg."
+    ]
+   ],
+   "faqs": [
+    [
+     "Hoeveel kost een taxi op de route {rel}?",
+     "Vast &euro;{p} per voertuig voor tot 4 passagiers, enkele reis, met tol, brandstof en bagage. Een heen- en terugrit kost &euro;{rp}."
+    ],
+    [
+     "Is de transfer privé of gedeeld?",
+     "Elke transfer is privé en van deur tot deur, in een Škoda Superb. Geen delen van het voertuig en geen extra stops, tenzij u dat wenst."
+    ],
+    [
+     "Kunt u onderweg stoppen?",
+     "Ja. Op langere routes stop ik graag voor een koffie, een foto of een korte bezienswaardigheid. Zeg het gewoon bij het boeken."
+    ],
+    [
+     "Hoe ver van tevoren moet ik boeken?",
+     "Minstens 2 uur vooraf, zodat ik het voertuig en de ophaaltijd kan bevestigen. Voor een rit op korte termijn belt u of schrijft u op WhatsApp."
+    ]
+   ]
+  },
+  "local": {
+   "heading": "Privétaxi, route {rel}",
+   "tagline": "Privétaxi en transfer tegen vaste prijs, route {rel}, deur tot deur.",
+   "intro0": "Reist u op de route {rel}? Ik rijd een privétaxi en transfer tegen vaste prijs, met ophalen aan uw deur en afzetten precies waar u moet zijn. De prijs is vast &euro;{p} voor het hele voertuig, tot 4 passagiers, zonder taxameter en zonder wachten bij de standplaats. Een comfortabele Škoda Superb, ruimte voor uw bagage en een lokale chauffeur die u rechtstreeks boekt. De aanvraag hierboven is ingevuld voor deze route.",
+   "intro1": "Heeft u een taxi nodig op de route {rel}? Ik bied een privétransfer van deur tot deur tegen de vaste prijs van &euro;{p} voor het hele voertuig, tot 4 passagiers. Ik kom op de afgesproken tijd naar uw adres, zodat u nooit langs de weg staat te wachten, en breng u comfortabel naar uw bestemming. Geen taxameter, geen verrassingen, alleen een lokale chauffeur van boeking tot aankomst. De aanvraag hierboven is al ingesteld voor deze route.",
+   "whys": [
+    [
+     "Vaste prijs &euro;{p}",
+     "Eén prijs per voertuig voor tot 4 passagiers, vóór de rit afgesproken. Geen taxameter, geen verrassingen."
+    ],
+    [
+     "Deur tot deur",
+     "Ophalen op uw adres en afzetten aan de deur van de bestemming, inclusief bagage."
+    ],
+    [
+     "Geen taxistandplaats nodig",
+     "Vooraf geboekt, zodat u nooit op een langsrijdende taxi wacht. Ik kom naar u toe."
+    ],
+    [
+     "Een lokale chauffeur",
+     "U heeft rechtstreeks met mij te maken, van boeking tot aankomst, per telefoon, WhatsApp of e-mail."
+    ]
+   ],
+   "faqs": [
+    [
+     "Hoeveel kost een taxi op de route {rel}?",
+     "Vast &euro;{p} per voertuig voor tot 4 passagiers, enkele reis, bagage inbegrepen. Een heen- en terugrit kost &euro;{rp}."
+    ],
+    [
+     "Waar haalt u mij op?",
+     "Op uw exacte adres, of het nu een huis, hotel of appartement is. Stuur het adres bij het boeken en ik bevestig de ontmoetingsplek."
+    ],
+    [
+     "Hoe ver van tevoren moet ik boeken?",
+     "Minstens 2 uur vooraf, zodat ik het voertuig en de ophaaltijd kan bevestigen. Voor een rit op korte termijn belt u of schrijft u op WhatsApp."
+    ]
+   ]
+  }
+ }
+}

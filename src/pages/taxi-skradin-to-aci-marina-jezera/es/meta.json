@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-skradin-aci-marina-jezera",
+  "title": "Taxi Skradin - ACI Marina Jezera | Precio fijo €70 | TAXI Antonio",
+  "description": "Taxi y traslado privado, Skradin - ACI Marina Jezera. Precio fijo €70 por vehículo, hasta 4 pasajeros, puerta a puerta. Reserve directamente con Antonio.",
+  "keywords": "taxi skradin - aci marina jezera, traslado skradin - aci marina jezera, traslado al aeropuerto skradin - aci marina jezera",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Traslado privado en taxi",
+      "name": "Taxi Skradin - ACI Marina Jezera",
+      "description": "Taxi y traslado privado a precio fijo, Skradin - ACI Marina Jezera, 70 euros por vehículo para hasta 4 pasajeros, puerta a puerta.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "ACI Marina Jezera"
+      ],
+      "url": "https://taxiskradin.hr/es/taxi-skradin-aci-marina-jezera/",
+      "offers": {
+        "@type": "Offer",
+        "price": "70",
+        "priceCurrency": "EUR",
+        "description": "Trayecto privado de ida, Skradin - ACI Marina Jezera, por vehículo para hasta 4 pasajeros. Ida y vuelta 140 euros."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta un traslado en el trayecto Skradin - ACI Marina Jezera?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fijo 70 por vehículo para hasta 4 pasajeros, solo ida, con peajes, combustible y equipaje. Un viaje de ida y vuelta cuesta 140."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puede recogerme directamente en la marina?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Le encuentro en la entrada o en la recepción de la marina y le ayudo con el equipaje, para que vaya directo del pantalán al vehículo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puede ajustar el traslado a mi barco?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Envíeme al reservar la hora de su chárter, su check-in o su salida y planifico la recogida en torno a ella."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Con cuánta antelación debo reservar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Al menos 2 horas antes, para que pueda confirmar el vehículo y la hora de recogida. Para un viaje de última hora, llame o escríbame directamente por WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-roski-slap-aerodrom-zadar",
+  "title": "Taksi Roški Slap - Aerodrom Zadar | Fiksna cena €110 | TAXI Antonio",
+  "description": "Privatni taksi i transfer, relacija Roški Slap - Aerodrom Zadar. Fiksno €110 po vozilu, do 4 putnika, od vrata do vrata. Rezervišite direktno kod Antonija.",
+  "keywords": "taksi roški slap - aerodrom zadar, transfer roški slap - aerodrom zadar, prevoz roški slap - aerodrom zadar",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-airport-2.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privatni taksi transfer",
+      "name": "Taksi Roški Slap - Aerodrom Zadar",
+      "description": "Privatni taksi i transfer po fiksnoj ceni, relacija Roški Slap - Aerodrom Zadar, 110 evra po vozilu za do 4 putnika, od vrata do vrata.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Roški Slap",
+        "Aerodrom Zadar"
+      ],
+      "url": "https://taxiskradin.hr/sr/taxi-roski-slap-aerodrom-zadar/",
+      "offers": {
+        "@type": "Offer",
+        "price": "110",
+        "priceCurrency": "EUR",
+        "description": "Jednosmerni privatni transfer, relacija Roški Slap - Aerodrom Zadar, po vozilu za do 4 putnika. Povratno 220 evra."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Koliko košta taksi na relaciji Roški Slap - Aerodrom Zadar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fiksno 110 po vozilu, jedan smer, za do 4 putnika. Cena je po vozilu, ne po osobi, i uključuje putarine, gorivo i prtljag. Povratna vožnja je 220."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kada treba da krenem na let?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Po pravilu oko 3 sata pre međunarodnog leta i 2 sata pre domaćeg. Recite mi vreme leta i potvrdiću tačno vreme preuzimanja."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Vozite li do samog odlaznog terminala?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Da. Vozim vas direktno do odlaznog terminala i pomažem s prtljagom. Bez hoda od parkinga i bez shuttle busa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Koliko unapred treba da rezervišem?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Barem 2 sata unapred da potvrdim vozilo i preuzimanje, a ranije za rane jutarnje letove i sezonu. Za brži termin pozovite ili pišite na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "taxi-skradin-zadar",
+  "title": "Taxi Skradin - Zadar | Precio fijo €130 | TAXI Antonio",
+  "description": "Taxi y traslado privado, Skradin - Zadar. Precio fijo €130 por vehículo, hasta 4 pasajeros, puerta a puerta. Reserve directamente con Antonio.",
+  "keywords": "taxi skradin - zadar, traslado skradin - zadar, traslado al aeropuerto skradin - zadar",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Traslado privado en taxi",
+      "name": "Taxi Skradin - Zadar",
+      "description": "Taxi y traslado privado a precio fijo, Skradin - Zadar, 130 euros por vehículo para hasta 4 pasajeros, puerta a puerta.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Zadar"
+      ],
+      "url": "https://taxiskradin.hr/es/taxi-skradin-zadar/",
+      "offers": {
+        "@type": "Offer",
+        "price": "130",
+        "priceCurrency": "EUR",
+        "description": "Trayecto privado de ida, Skradin - Zadar, por vehículo para hasta 4 pasajeros. Ida y vuelta 260 euros."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿A qué distancia está el trayecto y cuánto dura el viaje?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El trayecto Skradin - Zadar tiene unos 76 km y dura alrededor de 60 min con tráfico normal, un poco más en plena temporada de verano. Planifico la recogida de modo que un trayecto lento nunca le meta prisa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta un taxi en el trayecto Skradin - Zadar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fijo 130 por vehículo para hasta 4 pasajeros, solo ida, con peajes, combustible y equipaje. Un viaje de ida y vuelta cuesta 260."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿El traslado es privado o compartido?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cada traslado es privado y puerta a puerta, en un Škoda Superb. Sin compartir el vehículo y sin paradas adicionales, salvo que usted lo desee."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puede parar por el camino?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. En los trayectos más largos, paro con gusto para un café, una foto o un breve punto de interés. Solo dígamelo al reservar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Con cuánta antelación debo reservar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Al menos 2 horas antes, para que pueda confirmar el vehículo y la hora de recogida. Para un viaje de última hora, llame o escriba por WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

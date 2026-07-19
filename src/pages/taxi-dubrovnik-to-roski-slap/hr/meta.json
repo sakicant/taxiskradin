@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-dubrovnik-roski-slap",
+  "title": "Taksi Dubrovnik - Roški Slap | Fiksna cijena €485 | TAXI Antonio",
+  "description": "Privatni taksi i transfer, relacija Dubrovnik - Roški Slap. Fiksno €485 po vozilu, do 4 putnika, od vrata do vrata. Rezervirajte izravno kod Antonija.",
+  "keywords": "taksi dubrovnik - roški slap, transfer dubrovnik - roški slap, prijevoz dubrovnik - roški slap",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privatni taksi transfer",
+      "name": "Taksi Dubrovnik - Roški Slap",
+      "description": "Privatni taksi i transfer po fiksnoj cijeni, relacija Dubrovnik - Roški Slap, 485 eura po vozilu za do 4 putnika, od vrata do vrata.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Dubrovnik",
+        "Roški Slap"
+      ],
+      "url": "https://taxiskradin.hr/hr/taxi-dubrovnik-roski-slap/",
+      "offers": {
+        "@type": "Offer",
+        "price": "485",
+        "priceCurrency": "EUR",
+        "description": "Jednosmjerni privatni transfer, relacija Dubrovnik - Roški Slap, po vozilu za do 4 putnika. Povratno 970 eura."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Koliko košta taksi na relaciji Dubrovnik - Roški Slap?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fiksno 485 po vozilu za do 4 putnika, jedan smjer, s cestarinama, gorivom i prtljagom. Povratna vožnja je 970."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Je li transfer privatan ili dijeljen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Svaki je transfer privatan i od vrata do vrata, u Škodi Superb. Bez dijeljenja vozila i bez dodatnih zaustavljanja osim ako ih zatražite."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Možete li stati usput?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Da. Na duljim rutama rado stanem za kavu, fotografiju ili kratku znamenitost. Samo javite pri rezervaciji."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Koliko unaprijed trebam rezervirati?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Barem 2 sata unaprijed da potvrdim vozilo i vrijeme preuzimanja. Za brži termin nazovite ili pišite na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

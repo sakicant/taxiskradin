@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-skradin-sladic-winery",
+  "title": "Taksi Skradin - Sladić Winery | Kiinteä hinta €40 | TAXI Antonio",
+  "description": "Yksityinen taksi ja kuljetus, reitti Skradin - Sladić Winery. Kiinteä hinta €40 per auto, enintään 4 matkustajaa, ovelta ovelle. Varaa suoraan Antoniolta.",
+  "keywords": "taksi skradin - sladić winery, kuljetus skradin - sladić winery, lentokenttäkuljetus skradin - sladić winery",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Yksityinen taksikuljetus",
+      "name": "Taksi Skradin - Sladić Winery",
+      "description": "Yksityinen taksi ja kuljetus kiinteään hintaan, reitti Skradin - Sladić Winery, 40 euroa per auto enintään 4 matkustajalle, ovelta ovelle.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Sladić Winery"
+      ],
+      "url": "https://taxiskradin.hr/fi/taxi-skradin-sladic-winery/",
+      "offers": {
+        "@type": "Offer",
+        "price": "40",
+        "priceCurrency": "EUR",
+        "description": "Yhdensuuntainen yksityinen matka, reitti Skradin - Sladić Winery, per auto enintään 4 matkustajalle. Meno ja paluu 80 euroa."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Paljonko taksi maksaa reitillä Skradin - Sladić Winery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kiinteä 40 per auto enintään 4 matkustajalle, yhdensuuntainen matka, matkatavarat mukana. Meno-paluumatka maksaa 80."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mistä noudatte minut?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tarkasta osoitteestasi, olipa se talo, hotelli tai huoneisto. Lähetä osoite varauksen yhteydessä, niin vahvistan tapaamispaikan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kuinka paljon etukäteen minun pitäisi varata?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vähintään 2 tuntia aiemmin, jotta voin vahvistaa auton ja noutoajan. Lyhyellä varoitusajalla soita tai kirjoita WhatsAppissa."
+          }
+        }
+      ]
+    }
+  ]
+}

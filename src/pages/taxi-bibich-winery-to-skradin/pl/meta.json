@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-bibich-winery-skradin",
+  "title": "Taxi Bibich Winery - Skradin | Stała cena €40 | TAXI Antonio",
+  "description": "Prywatne taxi i transfer, trasa Bibich Winery - Skradin. Stała cena €40 za pojazd, do 4 pasażerów, od drzwi do drzwi. Rezerwacja bezpośrednio u Antonio.",
+  "keywords": "taxi bibich winery - skradin, transfer bibich winery - skradin, transfer lotniskowy bibich winery - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Prywatny transfer taxi",
+      "name": "Taxi Bibich Winery - Skradin",
+      "description": "Prywatne taxi i transfer w stałej cenie, trasa Bibich Winery - Skradin, 40 euro za pojazd dla maksymalnie 4 pasażerów, od drzwi do drzwi.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Bibich Winery",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/pl/taxi-bibich-winery-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "40",
+        "priceCurrency": "EUR",
+        "description": "Prywatny przejazd w jedną stronę, trasa Bibich Winery - Skradin, za pojazd dla maksymalnie 4 pasażerów. Tam i z powrotem 80 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Ile kosztuje taxi na trasie Bibich Winery - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stała cena 40 za pojazd dla maksymalnie 4 pasażerów, w jedną stronę, bagaż w cenie. Przejazd tam i z powrotem kosztuje 80."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gdzie mnie Pan odbierze?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Spod Pana/Pani dokładnego adresu, czy to dom, hotel, czy apartament. Proszę przesłać adres przy rezerwacji, a ja potwierdzę miejsce spotkania."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Z jakim wyprzedzeniem należy rezerwować?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Co najmniej 2 godziny wcześniej, abym mógł potwierdzić pojazd i godzinę odbioru. W razie przejazdu na ostatnią chwilę proszę zadzwonić lub napisać na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

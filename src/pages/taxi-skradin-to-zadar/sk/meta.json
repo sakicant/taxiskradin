@@ -1,0 +1,89 @@
+{
+  "slug": "taxi-skradin-zadar",
+  "title": "Taxi Skradin - Zadar | Pevná cena €130 | TAXI Antonio",
+  "description": "Súkromné taxi a transfer, trasa Skradin - Zadar. Pevná cena €130 za vozidlo, až 4 cestujúci, od dverí k dverám. Rezervujte priamo u Antonia.",
+  "keywords": "taxi skradin - zadar, transfer skradin - zadar, letiskový transfer skradin - zadar",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Súkromný taxi transfer",
+      "name": "Taxi Skradin - Zadar",
+      "description": "Súkromné taxi a transfer za pevnú cenu, trasa Skradin - Zadar, 130 eur za vozidlo pre až 4 cestujúcich, od dverí k dverám.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Zadar"
+      ],
+      "url": "https://taxiskradin.hr/sk/taxi-skradin-zadar/",
+      "offers": {
+        "@type": "Offer",
+        "price": "130",
+        "priceCurrency": "EUR",
+        "description": "Jednosmerná súkromná jazda, trasa Skradin - Zadar, za vozidlo pre až 4 cestujúcich. Tam a späť 260 eur."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Aká dlhá je trasa a ako dlho trvá jazda?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Jazda na trase Skradin - Zadar je dlhá približne 76 km a trvá asi 60 min pri bežnej premávke, v letnej špičke o niečo dlhšie. Vyzdvihnutie plánujem tak, aby vás pomalá trasa nikdy nedostala do zhonu."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Koľko stojí taxi na trase Skradin - Zadar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pevne 130 za vozidlo pre až 4 cestujúcich, jednosmerná jazda, s mýtom, palivom a batožinou. Jazda tam a späť stojí 260."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Je transfer súkromný alebo zdieľaný?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Každý transfer je súkromný a od dverí k dverám, v Škoda Superb. Žiadne zdieľanie vozidla a žiadne zastávky navyše, iba ak si to želáte."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Môžete zastaviť cestou?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Áno. Na dlhších trasách rád zastavím na kávu, fotku alebo krátku zaujímavosť. Stačí povedať pri rezervácii."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "S akým predstihom mám rezervovať?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minimálne 2 hodiny vopred, aby som mohol potvrdiť vozidlo a čas vyzdvihnutia. Pri jazde na poslednú chvíľu zavolajte alebo napíšte na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

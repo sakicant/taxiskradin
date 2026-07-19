@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-roski-slap-zadar",
+  "title": "タクシー Roški Slap - Zadar | 固定料金 €135 | TAXI Antonio",
+  "description": "貸切タクシー・送迎、Roški Slap - Zadar 区間。固定料金 €135／1台、最大4名様、ドアツードア。Antonioに直接ご予約ください。",
+  "keywords": "タクシー roški slap - zadar, 送迎 roški slap - zadar, 空港送迎 roški slap - zadar",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "貸切タクシー送迎",
+      "name": "タクシー Roški Slap - Zadar",
+      "description": "固定料金の貸切タクシー・送迎、Roški Slap - Zadar 区間、1台 135 ユーロで最大4名様、ドアツードア。",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Roški Slap",
+        "Zadar"
+      ],
+      "url": "https://taxiskradin.hr/ja/taxi-roski-slap-zadar/",
+      "offers": {
+        "@type": "Offer",
+        "price": "135",
+        "priceCurrency": "EUR",
+        "description": "貸切の片道乗車、Roški Slap - Zadar 区間、1台で最大4名様。往復は 270 ユーロ。"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Roški Slap - Zadar 区間のタクシー料金はいくらですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "片道、車1台あたり固定 135、最大4名様、通行料・燃料・荷物込み。往復は 270 です。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "送迎は貸切ですか、乗合ですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "すべての送迎はŠkoda Superbによる貸切で、ドアツードアです。車の相乗りや余計な立ち寄りは、ご希望がない限りありません。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "途中で立ち寄ってもらえますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "はい。長距離では、コーヒーや写真、ちょっとした見どころのために喜んで立ち寄ります。ご予約時にお知らせください。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "どのくらい前に予約すべきですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "車とお迎え時間を確定できるよう、少なくとも2時間前までにご予約ください。直前のご乗車は、お電話またはWhatsAppでご連絡ください。"
+          }
+        }
+      ]
+    }
+  ]
+}

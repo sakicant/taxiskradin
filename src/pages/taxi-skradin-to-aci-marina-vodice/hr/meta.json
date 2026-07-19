@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-skradin-aci-marina-vodice",
+  "title": "Taksi Skradin - ACI Marina Vodice | Fiksna cijena €60 | TAXI Antonio",
+  "description": "Privatni taksi i transfer, relacija Skradin - ACI Marina Vodice. Fiksno €60 po vozilu, do 4 putnika, od vrata do vrata. Rezervirajte izravno kod Antonija.",
+  "keywords": "taksi skradin - aci marina vodice, transfer skradin - aci marina vodice, prijevoz skradin - aci marina vodice",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privatni taksi transfer",
+      "name": "Taksi Skradin - ACI Marina Vodice",
+      "description": "Privatni taksi i transfer po fiksnoj cijeni, relacija Skradin - ACI Marina Vodice, 60 eura po vozilu za do 4 putnika, od vrata do vrata.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "ACI Marina Vodice"
+      ],
+      "url": "https://taxiskradin.hr/hr/taxi-skradin-aci-marina-vodice/",
+      "offers": {
+        "@type": "Offer",
+        "price": "60",
+        "priceCurrency": "EUR",
+        "description": "Jednosmjerni privatni transfer, relacija Skradin - ACI Marina Vodice, po vozilu za do 4 putnika. Povratno 120 eura."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Koliko košta transfer na relaciji Skradin - ACI Marina Vodice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fiksno 60 po vozilu za do 4 putnika, jedan smjer, s cestarinama, gorivom i prtljagom. Povratna vožnja je 120."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Možete li me preuzeti u samoj marini?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Da. Dočekujem vas na ulazu u marinu ili na recepciji i pomažem s prtljagom, da s pontona odmah dođete do vozila."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Možete li uskladiti transfer s mojim plovilom?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Da. Pošaljite mi vrijeme najma, prijave ili polaska pri rezervaciji i planiram preuzimanje prema njemu."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Koliko unaprijed trebam rezervirati?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Barem 2 sata unaprijed da potvrdim vozilo i vrijeme preuzimanja. Za brži termin nazovite ili pišite izravno na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

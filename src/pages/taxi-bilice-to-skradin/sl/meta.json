@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-bilice-skradin",
+  "title": "Taksi Bilice - Skradin | Fiksna cena €40 | TAXI Antonio",
+  "description": "Zasebni taksi in prevoz, relacija Bilice - Skradin. Fiksna cena €40 na vozilo, do 4 potniki, od vrat do vrat. Rezervirajte neposredno pri Antoniu.",
+  "keywords": "taksi bilice - skradin, prevoz bilice - skradin, letališki prevoz bilice - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Zasebni taksi prevoz",
+      "name": "Taksi Bilice - Skradin",
+      "description": "Zasebni taksi in prevoz po fiksni ceni, relacija Bilice - Skradin, 40 evrov na vozilo za do 4 potnike, od vrat do vrat.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Bilice",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/sl/taxi-bilice-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "40",
+        "priceCurrency": "EUR",
+        "description": "Enosmerna zasebna vožnja, relacija Bilice - Skradin, na vozilo za do 4 potnike. Tja in nazaj 80 evrov."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kako dolga je relacija in koliko traja vožnja?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vožnja na relaciji Bilice - Skradin je dolga približno 17 km in traja okoli 20 min pri običajnem prometu, v vrhuncu poletne sezone nekoliko dlje. Prevzem načrtujem tako, da vas počasna pot nikoli ne spravi v naglico."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Koliko stane taksi na relaciji Bilice - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fiksno 40 na vozilo za do 4 potnike, enosmerna vožnja, prtljaga vključena. Vožnja tja in nazaj stane 80."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kje me prevzamete?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Na vašem točnem naslovu, naj bo hiša, hotel ali apartma. Pošljite naslov ob rezervaciji in potrdim mesto srečanja."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kako vnaprej naj rezerviram?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vsaj 2 uri prej, da lahko potrdim vozilo in čas prevzema. Za vožnjo v zadnjem trenutku pokličite ali pišite na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

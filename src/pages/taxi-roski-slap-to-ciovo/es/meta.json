@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-roski-slap-ciovo",
+  "title": "Taxi Roški Slap - Čiovo | Precio fijo €125 | TAXI Antonio",
+  "description": "Taxi y traslado privado, Roški Slap - Čiovo. Precio fijo €125 por vehículo, hasta 4 pasajeros, puerta a puerta. Reserve directamente con Antonio.",
+  "keywords": "taxi roški slap - čiovo, traslado roški slap - čiovo, traslado al aeropuerto roški slap - čiovo",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Traslado privado en taxi",
+      "name": "Taxi Roški Slap - Čiovo",
+      "description": "Taxi y traslado privado a precio fijo, Roški Slap - Čiovo, 125 euros por vehículo para hasta 4 pasajeros, puerta a puerta.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Roški Slap",
+        "Čiovo"
+      ],
+      "url": "https://taxiskradin.hr/es/taxi-roski-slap-ciovo/",
+      "offers": {
+        "@type": "Offer",
+        "price": "125",
+        "priceCurrency": "EUR",
+        "description": "Trayecto privado de ida, Roški Slap - Čiovo, por vehículo para hasta 4 pasajeros. Ida y vuelta 250 euros."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta un taxi en el trayecto Roški Slap - Čiovo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fijo 125 por vehículo para hasta 4 pasajeros, solo ida, equipaje incluido. Un viaje de ida y vuelta cuesta 250."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Dónde me recoge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En su dirección exacta, ya sea casa, hotel o apartamento. Envíe la dirección al reservar y le confirmo el punto de encuentro."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Con cuánta antelación debo reservar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Al menos 2 horas antes, para que pueda confirmar el vehículo y la hora de recogida. Para un viaje de última hora, llame o escriba por WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "taxi-skradin-luchthaven-dubrovnik",
+  "title": "Taxi Skradin - Luchthaven Dubrovnik | Vaste prijs €485 | TAXI Antonio",
+  "description": "Privétaxi en transfer, route Skradin - Luchthaven Dubrovnik. Vaste prijs €485 per voertuig, tot 4. Rechtstreeks bij Antonio boeken.",
+  "keywords": "taxi skradin - luchthaven dubrovnik, transfer skradin - luchthaven dubrovnik, luchthaventransfer skradin - luchthaven dubrovnik",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-airport-2.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privé taxitransfer",
+      "name": "Taxi Skradin - Luchthaven Dubrovnik",
+      "description": "Privétaxi en transfer tegen vaste prijs, route Skradin - Luchthaven Dubrovnik, 485 euro per voertuig voor tot 4 passagiers, deur tot deur.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Luchthaven Dubrovnik"
+      ],
+      "url": "https://taxiskradin.hr/nl/taxi-skradin-luchthaven-dubrovnik/",
+      "offers": {
+        "@type": "Offer",
+        "price": "485",
+        "priceCurrency": "EUR",
+        "description": "Enkele privérit, route Skradin - Luchthaven Dubrovnik, per voertuig voor tot 4 passagiers. Heen en terug 970 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hoe ver is de route en hoe lang duurt de rit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "De rit op de route Skradin - Luchthaven Dubrovnik is ongeveer 306 km lang en duurt zo'n 4 h 20 min bij normaal verkeer, in het hoogseizoen iets langer. Ik plan de ophaaltijd zo dat een trage route u nooit in tijdnood brengt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoeveel kost een taxi op de route Skradin - Luchthaven Dubrovnik?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vast 485 per voertuig, enkele reis, voor tot 4 passagiers. De prijs geldt per voertuig, niet per persoon, en omvat tol, brandstof en bagage. Een heen- en terugrit kost 970."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wanneer moet ik naar de luchthaven vertrekken?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Doorgaans zo'n 3 uur voor een internationale en 2 uur voor een binnenlandse vlucht. Geef mij uw vluchttijd door en ik bevestig de exacte ophaaltijd."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Rijdt u tot aan de vertrekhal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Ik breng u rechtstreeks naar de vertrekhal en help met de bagage. Geen looproute vanaf de parkeerplaats en geen shuttle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoe ver van tevoren moet ik boeken?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minstens 2 uur vooraf, zodat ik het voertuig en de ophaaltijd kan bevestigen, en eerder voor vroege vluchten en het hoogseizoen. Voor een rit op korte termijn belt u of schrijft u mij op WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

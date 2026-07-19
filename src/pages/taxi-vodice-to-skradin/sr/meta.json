@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-vodice-skradin",
+  "title": "Taksi Vodice - Skradin | Fiksna cena €60 | TAXI Antonio",
+  "description": "Privatni taksi i transfer, relacija Vodice - Skradin. Fiksno €60 po vozilu, do 4 putnika, od vrata do vrata. Rezervišite direktno kod Antonija.",
+  "keywords": "taksi vodice - skradin, transfer vodice - skradin, prevoz vodice - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privatni taksi transfer",
+      "name": "Taksi Vodice - Skradin",
+      "description": "Privatni taksi i transfer po fiksnoj ceni, relacija Vodice - Skradin, 60 evra po vozilu za do 4 putnika, od vrata do vrata.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Vodice",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/sr/taxi-vodice-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "60",
+        "priceCurrency": "EUR",
+        "description": "Jednosmerni privatni transfer, relacija Vodice - Skradin, po vozilu za do 4 putnika. Povratno 120 evra."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kolika je udaljenost i koliko traje vožnja?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vožnja na relaciji Vodice - Skradin duga je oko 32 km i traje otprilike 35 min u uobičajenom saobraćaju, nešto duže u letnjim gužvama. Polazak planiram tako da vas usporeni deo nikad ne požuri."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Koliko košta taksi na relaciji Vodice - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fiksno 60 po vozilu za do 4 putnika, jedan smer, prtljag uključen. Povratna vožnja je 120."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gde me preuzimate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Na vašoj tačnoj adresi, bila to kuća, hotel ili apartman. Pošaljite adresu pri rezervaciji i potvrdiću mesto sastanka."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Koliko unapred treba da rezervišem?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Barem 2 sata unapred da potvrdim vozilo i vreme preuzimanja. Za brži termin pozovite ili pišite na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

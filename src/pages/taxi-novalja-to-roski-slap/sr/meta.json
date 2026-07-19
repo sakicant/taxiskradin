@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-novalja-roski-slap",
+  "title": "Taksi Novalja - Roški Slap | Fiksna cena €190 | TAXI Antonio",
+  "description": "Privatni taksi i transfer, relacija Novalja - Roški Slap. Fiksno €190 po vozilu, do 4 putnika, od vrata do vrata. Rezervišite direktno kod Antonija.",
+  "keywords": "taksi novalja - roški slap, transfer novalja - roški slap, prevoz novalja - roški slap",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privatni taksi transfer",
+      "name": "Taksi Novalja - Roški Slap",
+      "description": "Privatni taksi i transfer po fiksnoj ceni, relacija Novalja - Roški Slap, 190 evra po vozilu za do 4 putnika, od vrata do vrata.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Novalja",
+        "Roški Slap"
+      ],
+      "url": "https://taxiskradin.hr/sr/taxi-novalja-roski-slap/",
+      "offers": {
+        "@type": "Offer",
+        "price": "190",
+        "priceCurrency": "EUR",
+        "description": "Jednosmerni privatni transfer, relacija Novalja - Roški Slap, po vozilu za do 4 putnika. Povratno 380 evra."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Koliko košta taksi na relaciji Novalja - Roški Slap?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fiksno 190 po vozilu za do 4 putnika, jedan smer, prtljag uključen. Povratna vožnja je 380."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gde me preuzimate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Na vašoj tačnoj adresi, bila to kuća, hotel ili apartman. Pošaljite adresu pri rezervaciji i potvrdiću mesto sastanka."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Koliko unapred treba da rezervišem?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Barem 2 sata unapred da potvrdim vozilo i vreme preuzimanja. Za brži termin pozovite ili pišite na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-roski-slap-aci-marina-trogir",
+  "title": "Taxi Roški Slap - ACI Marina Trogir | Vaste prijs €125 | TAXI Antonio",
+  "description": "Privétaxi en transfer, route Roški Slap - ACI Marina Trogir. Vaste prijs €125 per voertuig, tot 4. Rechtstreeks bij Antonio boeken.",
+  "keywords": "taxi roški slap - aci marina trogir, transfer roški slap - aci marina trogir, luchthaventransfer roški slap - aci marina trogir",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privé taxitransfer",
+      "name": "Taxi Roški Slap - ACI Marina Trogir",
+      "description": "Privétaxi en transfer tegen vaste prijs, route Roški Slap - ACI Marina Trogir, 125 euro per voertuig voor tot 4 passagiers, deur tot deur.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Roški Slap",
+        "ACI Marina Trogir"
+      ],
+      "url": "https://taxiskradin.hr/nl/taxi-roski-slap-aci-marina-trogir/",
+      "offers": {
+        "@type": "Offer",
+        "price": "125",
+        "priceCurrency": "EUR",
+        "description": "Enkele privérit, route Roški Slap - ACI Marina Trogir, per voertuig voor tot 4 passagiers. Heen en terug 250 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hoeveel kost een transfer op de route Roški Slap - ACI Marina Trogir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vast 125 per voertuig voor tot 4 passagiers, enkele reis, met tol, brandstof en bagage. Een heen- en terugrit kost 250."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kunt u rechtstreeks bij de jachthaven ophalen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Ik ontmoet u bij de ingang of de receptie van de jachthaven en help met de bagage, zodat u direct van de steiger naar het voertuig loopt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kunt u de transfer op mijn boot afstemmen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Stuur mij bij het boeken uw charter-, incheck- of vertrektijd en ik plan de ophaaltijd daaromheen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoe ver van tevoren moet ik boeken?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minstens 2 uur vooraf, zodat ik het voertuig en de ophaaltijd kan bevestigen. Voor een rit op korte termijn belt u of schrijft u mij rechtstreeks op WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

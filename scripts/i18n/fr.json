@@ -1,0 +1,261 @@
+{
+ "taxi_word": "Taxi",
+ "book_slug": "reservation",
+ "airport_name": {
+  "Split Airport": "Aéroport de Split",
+  "Zadar Airport": "Aéroport de Zadar",
+  "Zagreb Airport": "Aéroport de Zagreb",
+  "Dubrovnik Airport": "Aéroport de Dubrovnik"
+ },
+ "airport_slug": {
+  "split-airport": "aeroport-split",
+  "zadar-airport": "aeroport-zadar",
+  "zagreb-airport": "aeroport-zagreb",
+  "dubrovnik-airport": "aeroport-dubrovnik"
+ },
+ "hero_alt": "Taxi {rel} : la Škoda Superb de TAXI Antonio sur la côte dalmate",
+ "per_car": "par véhicule &middot; jusqu'à 4 passagers",
+ "book_now": "Réserver maintenant",
+ "book_wa": "Réserver via WhatsApp",
+ "why_eyebrow": "Pourquoi réserver ce transfert",
+ "why_title": "Pourquoi réserver votre taxi {rel} avec Antonio ?",
+ "price_title": "Prix {rel}",
+ "price_sub": "Prix fixe par véhicule, jusqu'à 4 passagers, bagages inclus. Le même prix s'applique dans le sens inverse.",
+ "price_oneway_lbl": "Aller simple",
+ "price_return_lbl": "Aller &amp; retour",
+ "price_advance_lbl": "Acompte de confirmation",
+ "price_balance_val": "Espèces ou carte",
+ "price_balance_lbl": "Solde le jour même",
+ "hub_note": "Un acompte de 20% (minimum &euro;20) confirme votre réservation, vous réglez le solde le jour de la course, en espèces ou par carte. Vous voyagez dans le sens inverse ? Voir {revlink}.",
+ "reviews_eyebrow": "Avis",
+ "reviews_title": "Ce que disent les passagers",
+ "reviews_sub": "De vrais avis de vrais passagers.",
+ "faq_eyebrow": "FAQ",
+ "faq_title": "Taxi {rel} : questions fréquentes",
+ "cta_title": "Réservez votre transfert {rel}",
+ "cta_sub": "Prix fixe &euro;{p} par véhicule, jusqu'à 4 passagers. Confirmation en quelques clics.",
+ "trust_air": "Confirmé après acompte &middot; Aucun frais caché &middot; Suivi des vols inclus",
+ "trust_generic": "Confirmé après acompte &middot; Aucun frais caché &middot; Prix fixe, sans compteur",
+ "rf_fixed_oneway_lbl": "Prix fixe, aller simple",
+ "rf_distance_lbl": "Distance",
+ "rf_drivetime_lbl": "Durée du trajet",
+ "rf_return_lbl": "Aller &amp; retour",
+ "rf_upto4_val": "Jusqu'à 4",
+ "rf_upto4_lbl": "Passagers",
+ "rf_skoda_lbl": "Privé, de porte à porte",
+ "meta_title": "Taxi {rel} | Prix fixe €{p} | TAXI Antonio",
+ "meta_desc": "Taxi et transfert privé, trajet {rel}. Prix fixe €{p} par véhicule, jusqu'à 4 passagers, de porte à porte. Réservez directement avec Antonio.",
+ "meta_desc_short": "Taxi et transfert privé, trajet {rel}. Prix fixe €{p} par véhicule, jusqu'à 4. Réservez directement avec Antonio.",
+ "keywords": "taxi {rell}, transfert {rell}, transfert aéroport {rell}",
+ "schema_servicetype": "Transfert taxi privé",
+ "schema_name": "Taxi {rel}",
+ "schema_desc": "Taxi et transfert privé à prix fixe, trajet {rel}, {p} euros par véhicule pour jusqu'à 4 passagers, de porte à porte.",
+ "schema_offer_desc": "Course privée aller simple, trajet {rel}, par véhicule pour jusqu'à 4 passagers. Aller et retour {rp} euros.",
+ "dist_faq_q": "Quelle est la distance du trajet et combien de temps dure la course ?",
+ "dist_faq_a": "Le trajet {rel} fait environ {km} km et dure à peu près {t} en circulation normale, un peu plus au cœur de l'été. Je planifie la prise en charge pour qu'un trajet lent ne vous mette jamais en retard.",
+ "types": {
+  "to_airport": {
+   "heading": "Votre taxi et transfert privé, trajet {rel}",
+   "tagline": "Taxi et transfert privé à prix fixe, trajet {rel}, directement au départ.",
+   "intro": "Vous partez de l'aéroport de {city} ? Pour le trajet {rel}, je propose un taxi et un transfert privé à prix fixe. Je m'appelle Antonio, je suis un chauffeur local : je viens vous chercher à votre adresse et je vous conduis dans une Škoda Superb confortable directement au terminal des départs. Le prix est fixe, &euro;{p} pour tout le véhicule, jusqu'à 4 passagers, convenu à l'avance, sans compteur et sans surprise. Je planifie la prise en charge en fonction de l'heure de votre vol, pour que vous arriviez avec assez de temps pour l'enregistrement. Le formulaire de devis ci-dessus est déjà rempli pour ce trajet, vous voyez donc le prix et réservez en quelques clics.",
+   "whys": [
+    [
+     "Prix fixe &euro;{p}",
+     "Un prix pour tout le véhicule, jusqu'à 4 passagers, convenu à l'avance. Péages, carburant et bagages inclus, sans compteur."
+    ],
+    [
+     "Calé sur votre vol",
+     "Donnez-moi votre heure de départ et je calcule à rebours pour que vous soyez au terminal avec le temps de vous enregistrer."
+    ],
+    [
+     "De la porte au terminal",
+     "Prise en charge à votre adresse et dépose directement à l'entrée du terminal des départs."
+    ],
+    [
+     "À toute heure",
+     "Les vols tôt le matin ou tard le soir ne posent aucun problème. Je conduis 24h/24 à un prix convenu à l'avance."
+    ]
+   ],
+   "faqs": [
+    [
+     "Combien coûte un taxi sur le trajet {rel} ?",
+     "&euro;{p} fixe par véhicule, aller simple, pour jusqu'à 4 passagers. Le prix est par véhicule, pas par personne, et comprend péages, carburant et bagages. Un aller-retour coûte &euro;{rp}."
+    ],
+    [
+     "Quand dois-je partir pour l'aéroport ?",
+     "En général environ 3 heures avant un vol international et 2 heures avant un vol intérieur. Donnez-moi votre heure de vol et je confirme l'heure exacte de la prise en charge."
+    ],
+    [
+     "Conduisez-vous jusqu'au terminal des départs ?",
+     "Oui. Je vous dépose directement au terminal des départs et je vous aide avec les bagages. Pas de marche depuis le parking ni de navette."
+    ],
+    [
+     "Combien de temps à l'avance dois-je réserver ?",
+     "Au moins 2 heures avant, pour que je confirme le véhicule et la prise en charge, et plus tôt pour les vols matinaux et la haute saison. Pour une course de dernière minute, appelez-moi ou écrivez-moi sur WhatsApp."
+    ]
+   ]
+  },
+  "from_airport": {
+   "heading": "Votre accueil à l'aéroport et transfert, trajet {rel}",
+   "tagline": "Accueil privé à l'aéroport et transfert à prix fixe, trajet {rel}, avec suivi du vol.",
+   "intro": "Vous venez d'atterrir à l'aéroport de {city} ? Un transfert privé pour le trajet {rel} enlève tout le stress de l'arrivée. Je vous accueille dans le hall d'arrivée avec une pancarte à votre nom, je vous aide avec les bagages et je vous conduis dans une Škoda Superb confortable directement à destination, au prix fixe de &euro;{p} pour tout le véhicule, jusqu'à 4 passagers. Je suis votre vol en temps réel, je suis donc là que vous atterrissiez en avance ou en retard. Pas de file d'attente pour les taxis, pas de transfert collectif et pas de majoration de prix. Le formulaire ci-dessus est déjà rempli pour ce trajet.",
+   "whys": [
+    [
+     "Accueil avec pancarte",
+     "Je vous attends dans le hall d'arrivée avec une pancarte à votre nom et je vous aide avec les sacs, pour que vous alliez directement au véhicule."
+    ],
+    [
+     "Suivi du vol",
+     "Je suis votre vol en temps réel et je m'adapte à un atterrissage en avance ou à un retard, avec temps d'attente offert."
+    ],
+    [
+     "Prix fixe &euro;{p}",
+     "Un prix pour tout le véhicule, jusqu'à 4 passagers, convenu à l'avance. Péages, carburant et bagages inclus, sans compteur."
+    ],
+    [
+     "Directement à votre porte",
+     "Pas de file d'attente ni de correspondance. Je vous conduis directement à votre adresse."
+    ]
+   ],
+   "faqs": [
+    [
+     "Où m'accueillez-vous ?",
+     "Dans le hall d'arrivée, juste après la récupération des bagages, avec une pancarte à votre nom. Je vous aide avec les bagages et je vous accompagne jusqu'au véhicule."
+    ],
+    [
+     "Que se passe-t-il si mon vol a du retard ?",
+     "Aucun problème. Je suis votre vol en temps réel et j'adapte la prise en charge à l'heure réelle d'atterrissage, sans supplément pour le temps d'attente."
+    ],
+    [
+     "Combien coûte le transfert sur le trajet {rel} ?",
+     "&euro;{p} fixe par véhicule pour jusqu'à 4 passagers, aller simple, péages et bagages inclus. Un aller-retour coûte &euro;{rp}."
+    ],
+    [
+     "Combien de temps à l'avance dois-je réserver ?",
+     "Au moins 2 heures avant, pour que je m'organise autour de votre vol. Pour une prise en charge le jour même après un changement de dernière minute, appelez-moi ou écrivez-moi sur WhatsApp."
+    ]
+   ]
+  },
+  "marina": {
+   "heading": "Transfert privé depuis la marina, trajet {rel}",
+   "tagline": "Taxi et transfert privé à prix fixe, trajet {rel}, calé sur votre bateau.",
+   "intro": "Vous voyagez sur le trajet {rel} ? Je propose un taxi et un transfert privé à prix fixe pour les clients des marinas, calé sur votre bateau et vos plans de voyage. Je viens vous chercher avec beaucoup de place pour vos bagages et je vous conduis tout le long confortablement dans une Škoda Superb, au forfait de &euro;{p} pour le véhicule, jusqu'à 4 passagers, convenu avant la course. Que vous rejoigniez votre yacht ou que vous poursuiviez votre route après le débarquement, il n'y a pas de compteur ni d'attente à la station, seulement un chauffeur local que vous réservez directement. C'est un transfert privé sur un long trajet, et le devis ci-dessus est déjà réglé pour cette route.",
+   "whys": [
+    [
+     "Prix fixe &euro;{p}",
+     "Un prix par véhicule pour jusqu'à 4 passagers, convenu à l'avance. Péages, carburant et bagages inclus, sans compteur qui tourne."
+    ],
+    [
+     "Calé sur votre bateau",
+     "Donnez-moi votre heure de charter, de check-in ou de départ et je planifie la prise en charge autour, pour qu'un trajet lent ne vous mette jamais en retard."
+    ],
+    [
+     "De la place pour vos bagages",
+     "Valises, provisions et sacs de bateau tiennent tous dans une Škoda Superb confortable, avec un coup de main au chargement et au déchargement."
+    ],
+    [
+     "Un chauffeur local",
+     "Vous traitez directement avec moi, de la réservation à l'arrivée, par téléphone, WhatsApp ou e-mail. Aucun centre d'appels."
+    ]
+   ],
+   "faqs": [
+    [
+     "Combien coûte un transfert sur le trajet {rel} ?",
+     "&euro;{p} fixe par véhicule pour jusqu'à 4 passagers, aller simple, avec péages, carburant et bagages. Un aller-retour coûte &euro;{rp}."
+    ],
+    [
+     "Pouvez-vous venir me chercher directement à la marina ?",
+     "Oui. Je vous retrouve à l'entrée ou à l'accueil de la marina et je vous aide avec les bagages, pour que vous alliez directement du ponton au véhicule."
+    ],
+    [
+     "Pouvez-vous caler le transfert sur mon bateau ?",
+     "Oui. Envoyez-moi votre heure de charter, de check-in ou de départ au moment de la réservation et je planifie la prise en charge autour."
+    ],
+    [
+     "Combien de temps à l'avance dois-je réserver ?",
+     "Au moins 2 heures avant, pour que je confirme le véhicule et l'heure de prise en charge. Pour une course de dernière minute, appelez-moi ou écrivez-moi directement sur WhatsApp."
+    ]
+   ]
+  },
+  "city": {
+   "heading": "Transfert privé, trajet {rel}",
+   "tagline": "Taxi et transfert privé à prix fixe, trajet {rel}, de porte à porte.",
+   "intro0": "Vous avez besoin d'un transfert fiable sur le trajet {rel} ? Je propose un taxi et un transfert privé à prix fixe, de porte à porte, dans une Škoda Superb confortable. Je viens vous chercher à votre adresse exacte et je vous conduis directement à destination, sans arrêts imprévus ni autres passagers. Le prix est fixe, &euro;{p} pour tout le véhicule, jusqu'à 4 passagers, convenu avant le départ, péages et bagages inclus. Le devis ci-dessus est rempli pour ce trajet, la réservation ne prend donc que quelques clics.",
+   "intro1": "Vous cherchez un taxi sur le trajet {rel} sans compteur ni tracas ? C'est un transfert privé à prix fixe avec un chauffeur local. Je viens vous chercher à votre porte et je vous conduis confortablement à destination, bagages compris, au forfait de &euro;{p} par véhicule pour jusqu'à 4 passagers. Pour les couples et les familles, c'est souvent moins cher que des billets de bus ou de train séparés, et toujours plus rapide et de porte à porte. Le devis ci-dessus est déjà réglé pour ce trajet.",
+   "whys": [
+    [
+     "Prix fixe &euro;{p}",
+     "Un prix par véhicule pour jusqu'à 4 passagers, convenu à l'avance. Péages, carburant et bagages inclus, sans compteur qui tourne."
+    ],
+    [
+     "De porte à porte",
+     "Je viens vous chercher à votre adresse exacte et je vous dépose à la porte de votre destination. Pas de gares, pas de correspondances."
+    ],
+    [
+     "Un chauffeur local",
+     "Vous traitez directement avec moi, de la réservation à l'arrivée, par téléphone, WhatsApp ou e-mail. Aucun centre d'appels."
+    ],
+    [
+     "Arrêts à la demande",
+     "Sur les trajets plus longs, je m'arrête volontiers pour un café, une photo ou un bref point de vue en chemin."
+    ]
+   ],
+   "faqs": [
+    [
+     "Combien coûte un taxi sur le trajet {rel} ?",
+     "&euro;{p} fixe par véhicule pour jusqu'à 4 passagers, aller simple, avec péages, carburant et bagages. Un aller-retour coûte &euro;{rp}."
+    ],
+    [
+     "Le transfert est-il privé ou partagé ?",
+     "Chaque transfert est privé et de porte à porte, dans une Škoda Superb. Pas de partage du véhicule ni d'arrêts supplémentaires, sauf si vous le souhaitez."
+    ],
+    [
+     "Pouvez-vous vous arrêter en chemin ?",
+     "Oui. Sur les trajets plus longs, je m'arrête volontiers pour un café, une photo ou un bref point de vue. Dites-le-moi simplement à la réservation."
+    ],
+    [
+     "Combien de temps à l'avance dois-je réserver ?",
+     "Au moins 2 heures avant, pour que je confirme le véhicule et l'heure de prise en charge. Pour une course de dernière minute, appelez-moi ou écrivez-moi sur WhatsApp."
+    ]
+   ]
+  },
+  "local": {
+   "heading": "Taxi privé, trajet {rel}",
+   "tagline": "Taxi et transfert privé à prix fixe, trajet {rel}, de porte à porte.",
+   "intro0": "Vous voyagez sur le trajet {rel} ? Je conduis un taxi et un transfert privé à prix fixe, avec prise en charge à votre porte et dépose exactement là où vous devez aller. Le prix est forfaitaire, &euro;{p} pour tout le véhicule, jusqu'à 4 passagers, sans compteur ni attente à la station. Une Škoda Superb confortable, de la place pour vos bagages et un chauffeur local que vous réservez directement. Le devis ci-dessus est rempli pour ce trajet.",
+   "intro1": "Vous avez besoin d'un taxi sur le trajet {rel} ? Je propose un transfert privé de porte à porte au prix fixe de &euro;{p} pour tout le véhicule, jusqu'à 4 passagers. J'arrive à votre adresse à l'heure convenue, pour que vous n'attendiez jamais au bord de la route, et je vous conduis confortablement à destination. Pas de compteur, pas de surprises, seulement un chauffeur local de la réservation à l'arrivée. Le devis ci-dessus est déjà réglé pour ce trajet.",
+   "whys": [
+    [
+     "Prix fixe &euro;{p}",
+     "Un prix par véhicule pour jusqu'à 4 passagers, convenu avant la course. Pas de compteur, pas de surprises."
+    ],
+    [
+     "De porte à porte",
+     "Prise en charge à votre adresse et dépose à la porte de votre destination, bagages compris."
+    ],
+    [
+     "Pas besoin de station de taxi",
+     "Réservé à l'avance, pour que vous n'attendiez jamais qu'un taxi passe. C'est moi qui viens à vous."
+    ],
+    [
+     "Un chauffeur local",
+     "Vous traitez directement avec moi, de la réservation à l'arrivée, par téléphone, WhatsApp ou e-mail."
+    ]
+   ],
+   "faqs": [
+    [
+     "Combien coûte un taxi sur le trajet {rel} ?",
+     "&euro;{p} fixe par véhicule pour jusqu'à 4 passagers, aller simple, bagages inclus. Un aller-retour coûte &euro;{rp}."
+    ],
+    [
+     "Où venez-vous me chercher ?",
+     "À votre adresse exacte, que ce soit une maison, un hôtel ou un appartement. Envoyez l'adresse à la réservation et je confirme le point de rendez-vous."
+    ],
+    [
+     "Combien de temps à l'avance dois-je réserver ?",
+     "Au moins 2 heures avant, pour que je confirme le véhicule et l'heure de prise en charge. Pour une course de dernière minute, appelez-moi ou écrivez-moi sur WhatsApp."
+    ]
+   ]
+  }
+ }
+}

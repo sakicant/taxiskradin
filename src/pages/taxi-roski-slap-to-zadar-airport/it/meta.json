@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-roski-slap-aeroporto-zadar",
+  "title": "Taxi Roški Slap - Aeroporto di Zara | Prezzo fisso €110 | TAXI Antonio",
+  "description": "Taxi e transfer privato, tratta Roški Slap - Aeroporto di Zara. Prezzo fisso €110 per veicolo, fino a 4. Prenoti direttamente con Antonio.",
+  "keywords": "taxi roški slap - aeroporto di zara, transfer roški slap - aeroporto di zara, transfer aeroportuale roški slap - aeroporto di zara",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-airport-2.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Transfer taxi privato",
+      "name": "Taxi Roški Slap - Aeroporto di Zara",
+      "description": "Taxi e transfer privato a prezzo fisso, tratta Roški Slap - Aeroporto di Zara, 110 euro per veicolo fino a 4 passeggeri, porta a porta.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Roški Slap",
+        "Aeroporto di Zara"
+      ],
+      "url": "https://taxiskradin.hr/it/taxi-roski-slap-aeroporto-zadar/",
+      "offers": {
+        "@type": "Offer",
+        "price": "110",
+        "priceCurrency": "EUR",
+        "description": "Corsa privata di sola andata, tratta Roški Slap - Aeroporto di Zara, per veicolo fino a 4 passeggeri. Andata e ritorno 220 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quanto costa un taxi sulla tratta Roški Slap - Aeroporto di Zara?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fisso 110 per veicolo, sola andata, fino a 4 passeggeri. Il prezzo è per veicolo, non a persona, e comprende pedaggio, carburante e bagagli. Un andata e ritorno costa 220."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quando dovrei partire per l'aeroporto?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Di norma circa 3 ore prima di un volo internazionale e 2 ore prima di uno nazionale. Mi indichi l'orario del volo e Le confermo il prelievo esatto."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Arriva fino al terminal partenze?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sì. La porto direttamente al terminal partenze e L'aiuto con i bagagli. Niente tragitto a piedi dal parcheggio e niente navetta."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Con quanto anticipo dovrei prenotare?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Almeno 2 ore prima, così posso confermare veicolo e prelievo, e prima per voli mattutini e alta stagione. Per una corsa dell'ultimo minuto mi chiami o mi scriva su WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

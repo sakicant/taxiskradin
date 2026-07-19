@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-marina-kremik-skradin",
+  "title": "Taxi Marina Kremik - Skradin | Stała cena €85 | TAXI Antonio",
+  "description": "Prywatne taxi i transfer, trasa Marina Kremik - Skradin. Stała cena €85 za pojazd, do 4 pasażerów, od drzwi do drzwi. Rezerwacja bezpośrednio u Antonio.",
+  "keywords": "taxi marina kremik - skradin, transfer marina kremik - skradin, transfer lotniskowy marina kremik - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Prywatny transfer taxi",
+      "name": "Taxi Marina Kremik - Skradin",
+      "description": "Prywatne taxi i transfer w stałej cenie, trasa Marina Kremik - Skradin, 85 euro za pojazd dla maksymalnie 4 pasażerów, od drzwi do drzwi.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Marina Kremik",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/pl/taxi-marina-kremik-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "85",
+        "priceCurrency": "EUR",
+        "description": "Prywatny przejazd w jedną stronę, trasa Marina Kremik - Skradin, za pojazd dla maksymalnie 4 pasażerów. Tam i z powrotem 170 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Ile kosztuje transfer na trasie Marina Kremik - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stała cena 85 za pojazd dla maksymalnie 4 pasażerów, w jedną stronę, z opłatami drogowymi, paliwem i bagażem. Przejazd tam i z powrotem kosztuje 170."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy może Pan odebrać bezpośrednio przy marinie?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tak. Spotykam się z Panem/Panią przy wejściu lub w recepcji mariny i pomagam z bagażem, aby przejść prosto z pomostu do pojazdu."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy może Pan dopasować transfer do mojej łodzi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tak. Proszę przesłać przy rezerwacji godzinę czarteru, zameldowania lub wypłynięcia, a ja zaplanuję odbiór wokół niej."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Z jakim wyprzedzeniem należy rezerwować?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Co najmniej 2 godziny wcześniej, abym mógł potwierdzić pojazd i godzinę odbioru. W razie przejazdu na ostatnią chwilę proszę zadzwonić lub napisać do mnie bezpośrednio na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

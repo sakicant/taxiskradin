@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-aeroporto-zagreb-roski-slap",
+  "title": "Taxi Aeroporto di Zagabria - Roški Slap | Prezzo fisso €485 | TAXI Antonio",
+  "description": "Taxi e transfer privato, tratta Aeroporto di Zagabria - Roški Slap. Prezzo fisso €485 per veicolo, fino a 4. Prenoti direttamente con Antonio.",
+  "keywords": "taxi aeroporto di zagabria - roški slap, transfer aeroporto di zagabria - roški slap, transfer aeroportuale aeroporto di zagabria - roški slap",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-airport-2.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Transfer taxi privato",
+      "name": "Taxi Aeroporto di Zagabria - Roški Slap",
+      "description": "Taxi e transfer privato a prezzo fisso, tratta Aeroporto di Zagabria - Roški Slap, 485 euro per veicolo fino a 4 passeggeri, porta a porta.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Aeroporto di Zagabria",
+        "Roški Slap"
+      ],
+      "url": "https://taxiskradin.hr/it/taxi-aeroporto-zagreb-roski-slap/",
+      "offers": {
+        "@type": "Offer",
+        "price": "485",
+        "priceCurrency": "EUR",
+        "description": "Corsa privata di sola andata, tratta Aeroporto di Zagabria - Roški Slap, per veicolo fino a 4 passeggeri. Andata e ritorno 970 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Dove mi accoglie?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nella hall degli arrivi, subito dopo il ritiro bagagli, con un cartello col Suo nome. L'aiuto con i bagagli e L'accompagno al veicolo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "E se il mio volo è in ritardo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nessun problema. Seguo il Suo volo in tempo reale e adatto il prelievo all'atterraggio effettivo, senza sovrapprezzo per l'attesa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quanto costa il transfer sulla tratta Aeroporto di Zagabria - Roški Slap?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fisso 485 per veicolo fino a 4 passeggeri, sola andata, pedaggio e bagagli inclusi. Un andata e ritorno costa 970."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Con quanto anticipo dovrei prenotare?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Almeno 2 ore prima, così posso organizzarmi attorno al Suo volo. Per un prelievo in giornata dopo un cambiamento dell'ultimo minuto mi chiami o mi scriva su WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

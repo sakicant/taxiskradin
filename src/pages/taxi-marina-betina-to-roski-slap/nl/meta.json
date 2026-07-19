@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-marina-betina-roski-slap",
+  "title": "Taxi Marina Betina - Roški Slap | Vaste prijs €115 | TAXI Antonio",
+  "description": "Privétaxi en transfer, route Marina Betina - Roški Slap. Vaste prijs €115 per voertuig, tot 4 passagiers, deur tot deur. Rechtstreeks bij Antonio boeken.",
+  "keywords": "taxi marina betina - roški slap, transfer marina betina - roški slap, luchthaventransfer marina betina - roški slap",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privé taxitransfer",
+      "name": "Taxi Marina Betina - Roški Slap",
+      "description": "Privétaxi en transfer tegen vaste prijs, route Marina Betina - Roški Slap, 115 euro per voertuig voor tot 4 passagiers, deur tot deur.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Marina Betina",
+        "Roški Slap"
+      ],
+      "url": "https://taxiskradin.hr/nl/taxi-marina-betina-roski-slap/",
+      "offers": {
+        "@type": "Offer",
+        "price": "115",
+        "priceCurrency": "EUR",
+        "description": "Enkele privérit, route Marina Betina - Roški Slap, per voertuig voor tot 4 passagiers. Heen en terug 230 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hoeveel kost een transfer op de route Marina Betina - Roški Slap?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vast 115 per voertuig voor tot 4 passagiers, enkele reis, met tol, brandstof en bagage. Een heen- en terugrit kost 230."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kunt u rechtstreeks bij de jachthaven ophalen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Ik ontmoet u bij de ingang of de receptie van de jachthaven en help met de bagage, zodat u direct van de steiger naar het voertuig loopt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kunt u de transfer op mijn boot afstemmen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Stuur mij bij het boeken uw charter-, incheck- of vertrektijd en ik plan de ophaaltijd daaromheen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoe ver van tevoren moet ik boeken?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minstens 2 uur vooraf, zodat ik het voertuig en de ophaaltijd kan bevestigen. Voor een rit op korte termijn belt u of schrijft u mij rechtstreeks op WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

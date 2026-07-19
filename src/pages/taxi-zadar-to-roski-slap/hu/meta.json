@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-zadar-roski-slap",
+  "title": "Taxi Zadar - Roški Slap | Fix ár €135 | TAXI Antonio",
+  "description": "Privát taxi és transzfer a Zadar - Roški Slap útvonalon. Fix ár €135 járművenként, legfeljebb 4 utas, háztól házig. Foglaljon közvetlenül Antoniónál.",
+  "keywords": "taxi zadar - roški slap, transzfer zadar - roški slap, reptéri transzfer zadar - roški slap",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privát taxitranszfer",
+      "name": "Taxi Zadar - Roški Slap",
+      "description": "Privát taxi és transzfer fix áron a Zadar - Roški Slap útvonalon, 135 euró járművenként, legfeljebb 4 utas, háztól házig.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Zadar",
+        "Roški Slap"
+      ],
+      "url": "https://taxiskradin.hr/hu/taxi-zadar-roski-slap/",
+      "offers": {
+        "@type": "Offer",
+        "price": "135",
+        "priceCurrency": "EUR",
+        "description": "Privát, csak oda út a Zadar - Roški Slap útvonalon, járművenként, legfeljebb 4 utas. Oda-vissza 270 euró."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Mennyibe kerül a taxi a Zadar - Roški Slap útvonalon?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fix 135 járművenként, legfeljebb 4 utasnak, csak oda, útdíjjal, üzemanyaggal és csomagokkal. Az oda-vissza út 270."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "A transzfer privát vagy megosztott?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minden transzfer privát és háztól házig tart, egy Škoda Superbben. Nincs járműmegosztás és nincsenek plusz megállók, hacsak Ön nem kéri."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Meg tud állni útközben?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Igen. Hosszabb utakon szívesen megállok egy kávéra, egy fotóra vagy egy rövid látnivalóért. Csak jelezze a foglaláskor."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mennyivel korábban foglaljak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Legalább 2 órával előtte, hogy megerősíthessem a járművet és a felvétel időpontját. Rövid határidős útért hívjon fel, vagy írjon WhatsAppon."
+          }
+        }
+      ]
+    }
+  ]
+}

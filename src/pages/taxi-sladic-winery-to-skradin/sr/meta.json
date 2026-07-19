@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-sladic-winery-skradin",
+  "title": "Taksi Sladić Winery - Skradin | Fiksna cena €40 | TAXI Antonio",
+  "description": "Privatni taksi i transfer, relacija Sladić Winery - Skradin. Fiksno €40 po vozilu, do 4 putnika, od vrata do vrata. Rezervišite direktno kod Antonija.",
+  "keywords": "taksi sladić winery - skradin, transfer sladić winery - skradin, prevoz sladić winery - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privatni taksi transfer",
+      "name": "Taksi Sladić Winery - Skradin",
+      "description": "Privatni taksi i transfer po fiksnoj ceni, relacija Sladić Winery - Skradin, 40 evra po vozilu za do 4 putnika, od vrata do vrata.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Sladić Winery",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/sr/taxi-sladic-winery-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "40",
+        "priceCurrency": "EUR",
+        "description": "Jednosmerni privatni transfer, relacija Sladić Winery - Skradin, po vozilu za do 4 putnika. Povratno 80 evra."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Koliko košta taksi na relaciji Sladić Winery - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fiksno 40 po vozilu za do 4 putnika, jedan smer, prtljag uključen. Povratna vožnja je 80."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gde me preuzimate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Na vašoj tačnoj adresi, bila to kuća, hotel ili apartman. Pošaljite adresu pri rezervaciji i potvrdiću mesto sastanka."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Koliko unapred treba da rezervišem?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Barem 2 sata unapred da potvrdim vozilo i vreme preuzimanja. Za brži termin pozovite ili pišite na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+ "taxi_word": "Taxi",
+ "book_slug": "rezerwacja",
+ "airport_name": {
+  "Split Airport": "Lotnisko Split",
+  "Zadar Airport": "Lotnisko Zadar",
+  "Zagreb Airport": "Lotnisko Zagrzeb",
+  "Dubrovnik Airport": "Lotnisko Dubrownik"
+ },
+ "airport_slug": {
+  "split-airport": "lotnisko-split",
+  "zadar-airport": "lotnisko-zadar",
+  "zagreb-airport": "lotnisko-zagreb",
+  "dubrovnik-airport": "lotnisko-dubrovnik"
+ },
+ "hero_alt": "Taxi {rel}: Škoda Superb od TAXI Antonio na wybrzeżu Dalmacji",
+ "per_car": "za pojazd &middot; do 4 pasażerów",
+ "book_now": "Zarezerwuj teraz",
+ "book_wa": "Zarezerwuj przez WhatsApp",
+ "why_eyebrow": "Dlaczego warto zarezerwować ten transfer",
+ "why_title": "Dlaczego warto zarezerwować Taxi {rel} u Antonio?",
+ "price_title": "Cena {rel}",
+ "price_sub": "Stała cena za pojazd, do 4 pasażerów, bagaż w cenie. Ta sama cena obowiązuje w kierunku powrotnym.",
+ "price_oneway_lbl": "W jedną stronę",
+ "price_return_lbl": "Tam &amp; z powrotem",
+ "price_advance_lbl": "Zaliczka na potwierdzenie",
+ "price_balance_val": "Gotówka lub karta",
+ "price_balance_lbl": "Reszta w dniu przejazdu",
+ "hub_note": "Zaliczka w wysokości 20% (minimum &euro;20) potwierdza Pana/Pani rezerwację, a resztę reguluje Pan/Pani w dniu przejazdu, gotówką lub kartą. Podróżuje Pan/Pani w przeciwnym kierunku? Zobacz {revlink}.",
+ "reviews_eyebrow": "Opinie",
+ "reviews_title": "Co mówią pasażerowie",
+ "reviews_sub": "Prawdziwe opinie prawdziwych pasażerów.",
+ "faq_eyebrow": "FAQ",
+ "faq_title": "Taxi {rel}: Najczęstsze pytania",
+ "cta_title": "Zarezerwuj transfer {rel}",
+ "cta_sub": "Stała cena &euro;{p} za pojazd, do 4 pasażerów. Potwierdzenie w kilku kliknięciach.",
+ "trust_air": "Potwierdzenie po wpłacie zaliczki &middot; Bez ukrytych kosztów &middot; Monitorowanie lotu w cenie",
+ "trust_generic": "Potwierdzenie po wpłacie zaliczki &middot; Bez ukrytych kosztów &middot; Stała cena, bez taksometru",
+ "rf_fixed_oneway_lbl": "Stała cena, w jedną stronę",
+ "rf_distance_lbl": "Odległość",
+ "rf_drivetime_lbl": "Czas przejazdu",
+ "rf_return_lbl": "Tam &amp; z powrotem",
+ "rf_upto4_val": "Do 4",
+ "rf_upto4_lbl": "Pasażerów",
+ "rf_skoda_lbl": "Prywatnie, od drzwi do drzwi",
+ "meta_title": "Taxi {rel} | Stała cena €{p} | TAXI Antonio",
+ "meta_desc": "Prywatne taxi i transfer, trasa {rel}. Stała cena €{p} za pojazd, do 4 pasażerów, od drzwi do drzwi. Rezerwacja bezpośrednio u Antonio.",
+ "meta_desc_short": "Prywatne taxi i transfer, trasa {rel}. Stała cena €{p} za pojazd, do 4 osób. Rezerwacja bezpośrednio u Antonio.",
+ "keywords": "taxi {rell}, transfer {rell}, transfer lotniskowy {rell}",
+ "schema_servicetype": "Prywatny transfer taxi",
+ "schema_name": "Taxi {rel}",
+ "schema_desc": "Prywatne taxi i transfer w stałej cenie, trasa {rel}, {p} euro za pojazd dla maksymalnie 4 pasażerów, od drzwi do drzwi.",
+ "schema_offer_desc": "Prywatny przejazd w jedną stronę, trasa {rel}, za pojazd dla maksymalnie 4 pasażerów. Tam i z powrotem {rp} euro.",
+ "dist_faq_q": "Jak długa jest trasa i ile trwa przejazd?",
+ "dist_faq_a": "Przejazd na trasie {rel} liczy około {km} km i trwa około {t} przy normalnym ruchu, w szczycie sezonu letniego nieco dłużej. Odbiór planuję tak, aby wolniejszy przejazd nigdy nie zmusił Pana/Pani do pośpiechu.",
+ "types": {
+  "to_airport": {
+   "heading": "Pana/Pani prywatne taxi i transfer, trasa {rel}",
+   "tagline": "Taxi i prywatny transfer w stałej cenie, trasa {rel}, prosto na odlot.",
+   "intro": "Wylatuje Pan/Pani z lotniska {city}? Na trasie {rel} oferuję prywatne taxi i transfer w stałej cenie. Nazywam się Antonio, jestem miejscowym kierowcą: odbieram Pana/Panią spod wskazanego adresu i wiozę komfortową Škodą Superb prosto do terminala odlotów. Cena jest stała, &euro;{p} za cały pojazd, do 4 pasażerów, ustalona z góry, bez taksometru i bez niespodzianek. Odbiór planuję według godziny Pana/Pani lotu, aby dotarł Pan/Pani z odpowiednim zapasem czasu na odprawę. Formularz oferty powyżej jest już wypełniony dla tej trasy, więc może Pan/Pani zobaczyć cenę i zarezerwować w kilku kliknięciach.",
+   "whys": [
+    [
+     "Stała cena &euro;{p}",
+     "Jedna cena za cały pojazd, do 4 pasażerów, ustalona z góry. Opłaty drogowe, paliwo i bagaż w cenie, bez taksometru."
+    ],
+    [
+     "Dopasowane do Pana/Pani lotu",
+     "Proszę podać godzinę odlotu, a ja wyliczę czas wstecz, aby był Pan/Pani na terminalu z zapasem na odprawę."
+    ],
+    [
+     "Od drzwi do terminala",
+     "Odbiór spod Pana/Pani adresu i podwiezienie prosto pod wejście do terminala odlotów."
+    ],
+    [
+     "O każdej porze",
+     "Wczesne i późne loty nie są problemem. Jeżdżę całą dobę w cenie ustalonej z góry."
+    ]
+   ],
+   "faqs": [
+    [
+     "Ile kosztuje taxi na trasie {rel}?",
+     "Stała cena &euro;{p} za pojazd, w jedną stronę, dla maksymalnie 4 pasażerów. Cena obowiązuje za pojazd, nie za osobę, i obejmuje opłaty drogowe, paliwo oraz bagaż. Przejazd tam i z powrotem kosztuje &euro;{rp}."
+    ],
+    [
+     "O której godzinie wyruszyć na lotnisko?",
+     "Zwykle około 3 godziny przed lotem międzynarodowym i 2 godziny przed krajowym. Proszę podać godzinę lotu, a ja potwierdzę dokładną godzinę odbioru."
+    ],
+    [
+     "Czy dowozi Pan pod sam terminal odlotów?",
+     "Tak. Podwożę Pana/Panią prosto pod terminal odlotów i pomagam z bagażem. Bez spaceru z parkingu i bez busa dowozowego."
+    ],
+    [
+     "Z jakim wyprzedzeniem należy rezerwować?",
+     "Co najmniej 2 godziny wcześniej, abym mógł potwierdzić pojazd i odbiór, a wcześniej w przypadku wczesnych lotów i szczytu sezonu. W razie przejazdu na ostatnią chwilę proszę zadzwonić lub napisać na WhatsApp."
+    ]
+   ]
+  },
+  "from_airport": {
+   "heading": "Pana/Pani odbiór z lotniska i transfer, trasa {rel}",
+   "tagline": "Prywatny odbiór z lotniska i transfer w stałej cenie, trasa {rel}, z monitorowaniem lotu.",
+   "intro": "Właśnie po lądowaniu na lotnisku {city}? Prywatny transfer na trasie {rel} zdejmuje stres z przyjazdu. Witam Pana/Panią w hali przylotów z tabliczką z nazwiskiem, pomagam z bagażem i wiozę komfortową Škodą Superb prosto do celu, w stałej cenie &euro;{p} za cały pojazd, do 4 pasażerów. Śledzę Pana/Pani lot na bieżąco, więc jestem na miejscu niezależnie od tego, czy wyląduje Pan/Pani wcześniej, czy później. Bez kolejki do taxi, bez transferu zbiorowego i bez dopłat. Formularz powyżej jest już wypełniony dla tej trasy.",
+   "whys": [
+    [
+     "Powitanie z tabliczką",
+     "Czekam w hali przylotów z tabliczką z nazwiskiem i pomagam z torbami, aby od razu przejść do pojazdu."
+    ],
+    [
+     "Monitorowanie lotu",
+     "Śledzę Pana/Pani lot na bieżąco i dostosowuję się do wcześniejszego lądowania lub opóźnienia, z bezpłatnym czasem oczekiwania."
+    ],
+    [
+     "Stała cena &euro;{p}",
+     "Jedna cena za cały pojazd, do 4 pasażerów, ustalona z góry. Opłaty drogowe, paliwo i bagaż w cenie, bez taksometru."
+    ],
+    [
+     "Prosto pod Pana/Pani drzwi",
+     "Bez kolejki i bez przesiadek. Wiozę Pana/Panią prosto pod wskazany adres."
+    ]
+   ],
+   "faqs": [
+    [
+     "Gdzie mnie Pan odbierze?",
+     "W hali przylotów, zaraz za odbiorem bagażu, z tabliczką z Pana/Pani nazwiskiem. Pomagam z bagażem i odprowadzam Pana/Panią do pojazdu."
+    ],
+    [
+     "Co, jeśli mój lot będzie opóźniony?",
+     "Żaden problem. Śledzę Pana/Pani lot na bieżąco i dostosowuję odbiór do rzeczywistego lądowania, bez dopłaty za czas oczekiwania."
+    ],
+    [
+     "Ile kosztuje transfer na trasie {rel}?",
+     "Stała cena &euro;{p} za pojazd dla maksymalnie 4 pasażerów, w jedną stronę, opłaty drogowe i bagaż w cenie. Przejazd tam i z powrotem kosztuje &euro;{rp}."
+    ],
+    [
+     "Z jakim wyprzedzeniem należy rezerwować?",
+     "Co najmniej 2 godziny wcześniej, abym mógł zaplanować przejazd wokół Pana/Pani lotu. W przypadku odbioru tego samego dnia po zmianie na ostatnią chwilę proszę zadzwonić lub napisać na WhatsApp."
+    ]
+   ]
+  },
+  "marina": {
+   "heading": "Prywatny transfer dla gości mariny, trasa {rel}",
+   "tagline": "Prywatne taxi i transfer w stałej cenie, trasa {rel}, dopasowane do Pana/Pani łodzi.",
+   "intro": "Wybiera się Pan/Pani na trasę {rel}? Prowadzę prywatne taxi i transfer w stałej cenie dla gości mariny, dopasowane do Pana/Pani łodzi i planów podróży. Odbieram Pana/Panią z dużą ilością miejsca na bagaż i wiozę całą drogę wygodnie w Škodzie Superb, w cenie ryczałtowej &euro;{p} za pojazd, do 4 pasażerów, ustalonej przed przejazdem. Niezależnie od tego, czy zmierza Pan/Pani na swój jacht, czy podróżuje dalej po zejściu na ląd, nie ma taksometru ani czekania na postoju, jest tylko miejscowy kierowca, którego rezerwuje Pan/Pani bezpośrednio. To prywatny transfer na dłuższej trasie, a oferta powyżej jest już ustawiona dla tej trasy.",
+   "whys": [
+    [
+     "Stała cena &euro;{p}",
+     "Jedna cena za pojazd dla maksymalnie 4 pasażerów, ustalona z góry. Opłaty drogowe, paliwo i bagaż w cenie, bez bijącego taksometru."
+    ],
+    [
+     "Dopasowane do Pana/Pani łodzi",
+     "Proszę podać godzinę czarteru, zameldowania lub wypłynięcia, a ja zaplanuję odbiór wokół niej, aby wolniejszy przejazd nigdy nie zmusił Pana/Pani do pośpiechu."
+    ],
+    [
+     "Miejsce na Pana/Pani bagaż",
+     "Walizki, prowiant i torby żeglarskie mieszczą się w komfortowej Škodzie Superb, z pomocną dłonią przy załadunku i rozładunku."
+    ],
+    [
+     "Miejscowy kierowca",
+     "Ma Pan/Pani kontakt bezpośrednio ze mną, od rezerwacji po przyjazd, telefonicznie, przez WhatsApp lub e-mail. Bez call center."
+    ]
+   ],
+   "faqs": [
+    [
+     "Ile kosztuje transfer na trasie {rel}?",
+     "Stała cena &euro;{p} za pojazd dla maksymalnie 4 pasażerów, w jedną stronę, z opłatami drogowymi, paliwem i bagażem. Przejazd tam i z powrotem kosztuje &euro;{rp}."
+    ],
+    [
+     "Czy może Pan odebrać bezpośrednio przy marinie?",
+     "Tak. Spotykam się z Panem/Panią przy wejściu lub w recepcji mariny i pomagam z bagażem, aby przejść prosto z pomostu do pojazdu."
+    ],
+    [
+     "Czy może Pan dopasować transfer do mojej łodzi?",
+     "Tak. Proszę przesłać przy rezerwacji godzinę czarteru, zameldowania lub wypłynięcia, a ja zaplanuję odbiór wokół niej."
+    ],
+    [
+     "Z jakim wyprzedzeniem należy rezerwować?",
+     "Co najmniej 2 godziny wcześniej, abym mógł potwierdzić pojazd i godzinę odbioru. W razie przejazdu na ostatnią chwilę proszę zadzwonić lub napisać do mnie bezpośrednio na WhatsApp."
+    ]
+   ]
+  },
+  "city": {
+   "heading": "Prywatny transfer, trasa {rel}",
+   "tagline": "Prywatne taxi i transfer w stałej cenie, trasa {rel}, od drzwi do drzwi.",
+   "intro0": "Potrzebuje Pan/Pani niezawodnego transferu na trasie {rel}? Oferuję prywatne taxi i transfer w stałej cenie, od drzwi do drzwi, komfortową Škodą Superb. Odbieram Pana/Panią spod dokładnego adresu i wiozę prosto do celu, bez niechcianych przystanków i bez współpasażerów. Cena jest stała, &euro;{p} za cały pojazd, do 4 pasażerów, ustalona przed wyjazdem, opłaty drogowe i bagaż w cenie. Oferta powyżej jest wypełniona dla tej trasy, więc rezerwacja zajmuje tylko kilka kliknięć.",
+   "intro1": "Szuka Pan/Pani taxi na trasie {rel} bez taksometru i bez kłopotu? To prywatny transfer w stałej cenie z miejscowym kierowcą. Odbieram Pana/Panią spod drzwi i wiozę wygodnie do celu, wraz z bagażem, w cenie ryczałtowej &euro;{p} za pojazd dla maksymalnie 4 pasażerów. Dla par i rodzin jest to często taniej niż osobne bilety autobusowe lub kolejowe, a zawsze szybciej i od drzwi do drzwi. Oferta powyżej jest już ustawiona dla tej trasy.",
+   "whys": [
+    [
+     "Stała cena &euro;{p}",
+     "Jedna cena za pojazd dla maksymalnie 4 pasażerów, ustalona z góry. Opłaty drogowe, paliwo i bagaż w cenie, bez bijącego taksometru."
+    ],
+    [
+     "Od drzwi do drzwi",
+     "Odbieram Pana/Panią spod dokładnego adresu i podwożę pod same drzwi celu. Bez dworców, bez przesiadek."
+    ],
+    [
+     "Miejscowy kierowca",
+     "Ma Pan/Pani kontakt bezpośrednio ze mną, od rezerwacji po przyjazd, telefonicznie, przez WhatsApp lub e-mail. Bez call center."
+    ],
+    [
+     "Przystanki na życzenie",
+     "Na dłuższych trasach chętnie zatrzymam się na kawę, zdjęcie lub krótkie zwiedzanie po drodze."
+    ]
+   ],
+   "faqs": [
+    [
+     "Ile kosztuje taxi na trasie {rel}?",
+     "Stała cena &euro;{p} za pojazd dla maksymalnie 4 pasażerów, w jedną stronę, z opłatami drogowymi, paliwem i bagażem. Przejazd tam i z powrotem kosztuje &euro;{rp}."
+    ],
+    [
+     "Czy transfer jest prywatny czy współdzielony?",
+     "Każdy transfer jest prywatny i od drzwi do drzwi, w Škodzie Superb. Bez dzielenia pojazdu i bez dodatkowych przystanków, chyba że sobie Pan/Pani tego życzy."
+    ],
+    [
+     "Czy może Pan zatrzymać się po drodze?",
+     "Tak. Na dłuższych trasach chętnie zatrzymam się na kawę, zdjęcie lub krótkie zwiedzanie. Wystarczy dać znać przy rezerwacji."
+    ],
+    [
+     "Z jakim wyprzedzeniem należy rezerwować?",
+     "Co najmniej 2 godziny wcześniej, abym mógł potwierdzić pojazd i godzinę odbioru. W razie przejazdu na ostatnią chwilę proszę zadzwonić lub napisać na WhatsApp."
+    ]
+   ]
+  },
+  "local": {
+   "heading": "Prywatne taxi, trasa {rel}",
+   "tagline": "Prywatne taxi i transfer w stałej cenie, trasa {rel}, od drzwi do drzwi.",
+   "intro0": "Podróżuje Pan/Pani na trasie {rel}? Prowadzę prywatne taxi i transfer w stałej cenie, z odbiorem spod Pana/Pani drzwi i podwiezieniem dokładnie tam, gdzie Pan/Pani zmierza. Cena jest ryczałtowa &euro;{p} za cały pojazd, do 4 pasażerów, bez taksometru i bez czekania na postoju. Komfortowa Škoda Superb, miejsce na Pana/Pani bagaż i miejscowy kierowca, którego rezerwuje Pan/Pani bezpośrednio. Oferta powyżej jest wypełniona dla tej trasy.",
+   "intro1": "Potrzebuje Pan/Pani taxi na trasie {rel}? Oferuję prywatny transfer od drzwi do drzwi w stałej cenie &euro;{p} za cały pojazd, do 4 pasażerów. Przyjeżdżam o umówionej godzinie pod Pana/Pani adres, więc nigdy nie czeka Pan/Pani przy drodze, i wiozę wygodnie do celu. Bez taksometru, bez niespodzianek, tylko miejscowy kierowca od rezerwacji po przyjazd. Oferta powyżej jest już ustawiona dla tej trasy.",
+   "whys": [
+    [
+     "Stała cena &euro;{p}",
+     "Jedna cena za pojazd dla maksymalnie 4 pasażerów, ustalona przed przejazdem. Bez taksometru, bez niespodzianek."
+    ],
+    [
+     "Od drzwi do drzwi",
+     "Odbiór spod Pana/Pani adresu i podwiezienie pod drzwi celu, wraz z bagażem."
+    ],
+    [
+     "Bez postoju taxi",
+     "Zarezerwowane z góry, więc nigdy nie czeka Pan/Pani na przejeżdżające taxi. To ja przyjeżdżam do Pana/Pani."
+    ],
+    [
+     "Miejscowy kierowca",
+     "Ma Pan/Pani kontakt bezpośrednio ze mną, od rezerwacji po przyjazd, telefonicznie, przez WhatsApp lub e-mail."
+    ]
+   ],
+   "faqs": [
+    [
+     "Ile kosztuje taxi na trasie {rel}?",
+     "Stała cena &euro;{p} za pojazd dla maksymalnie 4 pasażerów, w jedną stronę, bagaż w cenie. Przejazd tam i z powrotem kosztuje &euro;{rp}."
+    ],
+    [
+     "Gdzie mnie Pan odbierze?",
+     "Spod Pana/Pani dokładnego adresu, czy to dom, hotel, czy apartament. Proszę przesłać adres przy rezerwacji, a ja potwierdzę miejsce spotkania."
+    ],
+    [
+     "Z jakim wyprzedzeniem należy rezerwować?",
+     "Co najmniej 2 godziny wcześniej, abym mógł potwierdzić pojazd i godzinę odbioru. W razie przejazdu na ostatnią chwilę proszę zadzwonić lub napisać na WhatsApp."
+    ]
+   ]
+  }
+ }
+}

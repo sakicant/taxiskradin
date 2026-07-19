@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-split-lentoasema-roski-slap",
+  "title": "Taksi Splitin lentoasema - Roški Slap | Kiinteä hinta €100 | TAXI Antonio",
+  "description": "Yksityinen taksi ja kuljetus, reitti Splitin lentoasema - Roški Slap. Kiinteä hinta €100 per auto, enintään 4. Varaa suoraan Antoniolta.",
+  "keywords": "taksi splitin lentoasema - roški slap, kuljetus splitin lentoasema - roški slap, lentokenttäkuljetus splitin lentoasema - roški slap",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-airport-2.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Yksityinen taksikuljetus",
+      "name": "Taksi Splitin lentoasema - Roški Slap",
+      "description": "Yksityinen taksi ja kuljetus kiinteään hintaan, reitti Splitin lentoasema - Roški Slap, 100 euroa per auto enintään 4 matkustajalle, ovelta ovelle.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Splitin lentoasema",
+        "Roški Slap"
+      ],
+      "url": "https://taxiskradin.hr/fi/taxi-split-lentoasema-roski-slap/",
+      "offers": {
+        "@type": "Offer",
+        "price": "100",
+        "priceCurrency": "EUR",
+        "description": "Yhdensuuntainen yksityinen matka, reitti Splitin lentoasema - Roški Slap, per auto enintään 4 matkustajalle. Meno ja paluu 200 euroa."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Missä otatte minut vastaan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Saapumisaulassa, heti matkatavaroiden noudon jälkeen, kyltillä jossa on nimesi. Autan matkatavaroiden kanssa ja saatan sinut autolle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Entä jos lentoni on myöhässä?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ei ongelmaa. Seuraan lentoasi reaaliajassa ja mukautan noudon todelliseen laskeutumiseen, ilman lisämaksua odotusajasta."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Paljonko kuljetus maksaa reitillä Splitin lentoasema - Roški Slap?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kiinteä 100 per auto enintään 4 matkustajalle, yhdensuuntainen matka, tietullit ja matkatavarat mukana. Meno-paluumatka maksaa 200."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kuinka paljon etukäteen minun pitäisi varata?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vähintään 2 tuntia aiemmin, jotta voin suunnitella lentosi ympärille. Saman päivän noutoa varten lyhyen muutoksen jälkeen soita tai kirjoita WhatsAppissa."
+          }
+        }
+      ]
+    }
+  ]
+}

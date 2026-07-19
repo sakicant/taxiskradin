@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-roski-slap-pirovac",
+  "title": "Taxi Roški Slap - Pirovac | Prezzo fisso €85 | TAXI Antonio",
+  "description": "Taxi e transfer privato, tratta Roški Slap - Pirovac. Prezzo fisso €85 per veicolo, fino a 4 passeggeri, porta a porta. Prenoti direttamente con Antonio.",
+  "keywords": "taxi roški slap - pirovac, transfer roški slap - pirovac, transfer aeroportuale roški slap - pirovac",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Transfer taxi privato",
+      "name": "Taxi Roški Slap - Pirovac",
+      "description": "Taxi e transfer privato a prezzo fisso, tratta Roški Slap - Pirovac, 85 euro per veicolo fino a 4 passeggeri, porta a porta.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Roški Slap",
+        "Pirovac"
+      ],
+      "url": "https://taxiskradin.hr/it/taxi-roski-slap-pirovac/",
+      "offers": {
+        "@type": "Offer",
+        "price": "85",
+        "priceCurrency": "EUR",
+        "description": "Corsa privata di sola andata, tratta Roški Slap - Pirovac, per veicolo fino a 4 passeggeri. Andata e ritorno 170 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quanto costa un taxi sulla tratta Roški Slap - Pirovac?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fisso 85 per veicolo fino a 4 passeggeri, sola andata, bagagli inclusi. Un andata e ritorno costa 170."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dove viene a prendermi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Al Suo indirizzo esatto, che sia casa, hotel o appartamento. Invii l'indirizzo al momento della prenotazione e Le confermo il punto d'incontro."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Con quanto anticipo dovrei prenotare?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Almeno 2 ore prima, così posso confermare veicolo e orario del prelievo. Per una corsa dell'ultimo minuto mi chiami o mi scriva su WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

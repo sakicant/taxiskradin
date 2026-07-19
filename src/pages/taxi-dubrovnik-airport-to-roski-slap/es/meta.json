@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-aeropuerto-dubrovnik-roski-slap",
+  "title": "Taxi Aeropuerto de Dubrovnik - Roški Slap | Precio fijo €485 | TAXI Antonio",
+  "description": "Taxi y traslado privado, Aeropuerto de Dubrovnik - Roški Slap. Precio fijo €485 por vehículo, hasta 4. Reserve directamente con Antonio.",
+  "keywords": "taxi aeropuerto de dubrovnik - roški slap, traslado aeropuerto de dubrovnik - roški slap, traslado al aeropuerto aeropuerto de dubrovnik - roški slap",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-airport-2.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Traslado privado en taxi",
+      "name": "Taxi Aeropuerto de Dubrovnik - Roški Slap",
+      "description": "Taxi y traslado privado a precio fijo, Aeropuerto de Dubrovnik - Roški Slap, 485 euros por vehículo para hasta 4 pasajeros, puerta a puerta.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Aeropuerto de Dubrovnik",
+        "Roški Slap"
+      ],
+      "url": "https://taxiskradin.hr/es/taxi-aeropuerto-dubrovnik-roski-slap/",
+      "offers": {
+        "@type": "Offer",
+        "price": "485",
+        "priceCurrency": "EUR",
+        "description": "Trayecto privado de ida, Aeropuerto de Dubrovnik - Roški Slap, por vehículo para hasta 4 pasajeros. Ida y vuelta 970 euros."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Dónde me recibe?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En la sala de llegadas, justo después de la recogida de equipaje, con un cartel con su nombre. Le ayudo con el equipaje y le acompaño al vehículo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué pasa si mi vuelo se retrasa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No hay problema. Sigo su vuelo en tiempo real y ajusto la recogida al aterrizaje real, sin recargo por el tiempo de espera."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta el traslado en el trayecto Aeropuerto de Dubrovnik - Roški Slap?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fijo 485 por vehículo para hasta 4 pasajeros, solo ida, peajes y equipaje incluidos. Un viaje de ida y vuelta cuesta 970."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Con cuánta antelación debo reservar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Al menos 2 horas antes, para que pueda planificar en torno a su vuelo. Para una recogida el mismo día tras un cambio de última hora, llame o escriba por WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

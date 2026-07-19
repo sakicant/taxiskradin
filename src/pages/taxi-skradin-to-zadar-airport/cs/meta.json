@@ -1,0 +1,89 @@
+{
+  "slug": "taxi-skradin-letiste-zadar",
+  "title": "Taxi Skradin - Letiště Zadar | Pevná cena €105 | TAXI Antonio",
+  "description": "Soukromé taxi a transfer, trasa Skradin - Letiště Zadar. Pevná cena €105 za vozidlo, až 4 cestující, ode dveří ke dveřím. Rezervujte přímo u Antonia.",
+  "keywords": "taxi skradin - letiště zadar, transfer skradin - letiště zadar, letištní transfer skradin - letiště zadar",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-airport-2.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Soukromý taxi transfer",
+      "name": "Taxi Skradin - Letiště Zadar",
+      "description": "Soukromé taxi a transfer za pevnou cenu, trasa Skradin - Letiště Zadar, 105 eur za vozidlo pro až 4 cestující, ode dveří ke dveřím.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Letiště Zadar"
+      ],
+      "url": "https://taxiskradin.hr/cs/taxi-skradin-letiste-zadar/",
+      "offers": {
+        "@type": "Offer",
+        "price": "105",
+        "priceCurrency": "EUR",
+        "description": "Jednosměrná soukromá jízda, trasa Skradin - Letiště Zadar, za vozidlo pro až 4 cestující. Tam a zpět 210 eur."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Jak daleko je trasa a jak dlouho jízda trvá?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Jízda na trase Skradin - Letiště Zadar měří zhruba 61 km a trvá přibližně 50 min při běžném provozu, ve vrcholné letní sezóně o něco déle. Vyzvednutí naplánuji tak, aby vás pomalejší úsek nikdy nedostal do časové tísně."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kolik stojí taxi na trase Skradin - Letiště Zadar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pevně 105 za vozidlo, jednosměrná jízda, pro až 4 cestující. Cena platí za vozidlo, ne za osobu, a zahrnuje mýtné, palivo a zavazadla. Cesta tam a zpět stojí 210."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kdy mám vyrazit na letiště?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Zpravidla asi 3 hodiny před mezinárodním a 2 hodiny před vnitrostátním letem. Řekněte mi čas letu a potvrdím přesné vyzvednutí."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Zavezete mě až k odletovému terminálu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ano. Odvezu vás přímo k odletovému terminálu a pomůžu se zavazadly. Žádná chůze z parkoviště a žádný shuttle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "S jakým předstihem mám rezervovat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nejméně 2 hodiny předem, abych mohl potvrdit vozidlo a vyzvednutí, a dříve u raných letů a v hlavní sezóně. Pro jízdu na poslední chvíli zavolejte nebo mi napište na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

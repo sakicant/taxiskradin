@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-rogoznica-skradin",
+  "title": "Taxi Rogoznica - Skradin | Vaste prijs €90 | TAXI Antonio",
+  "description": "Privétaxi en transfer, route Rogoznica - Skradin. Vaste prijs €90 per voertuig, tot 4 passagiers, deur tot deur. Rechtstreeks bij Antonio boeken.",
+  "keywords": "taxi rogoznica - skradin, transfer rogoznica - skradin, luchthaventransfer rogoznica - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privé taxitransfer",
+      "name": "Taxi Rogoznica - Skradin",
+      "description": "Privétaxi en transfer tegen vaste prijs, route Rogoznica - Skradin, 90 euro per voertuig voor tot 4 passagiers, deur tot deur.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Rogoznica",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/nl/taxi-rogoznica-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "90",
+        "priceCurrency": "EUR",
+        "description": "Enkele privérit, route Rogoznica - Skradin, per voertuig voor tot 4 passagiers. Heen en terug 180 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hoe ver is de route en hoe lang duurt de rit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "De rit op de route Rogoznica - Skradin is ongeveer 55 km lang en duurt zo'n 65 min bij normaal verkeer, in het hoogseizoen iets langer. Ik plan de ophaaltijd zo dat een trage route u nooit in tijdnood brengt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoeveel kost een taxi op de route Rogoznica - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vast 90 per voertuig voor tot 4 passagiers, enkele reis, bagage inbegrepen. Een heen- en terugrit kost 180."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Waar haalt u mij op?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Op uw exacte adres, of het nu een huis, hotel of appartement is. Stuur het adres bij het boeken en ik bevestig de ontmoetingsplek."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoe ver van tevoren moet ik boeken?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minstens 2 uur vooraf, zodat ik het voertuig en de ophaaltijd kan bevestigen. Voor een rit op korte termijn belt u of schrijft u op WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

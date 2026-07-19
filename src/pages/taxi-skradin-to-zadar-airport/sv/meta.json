@@ -1,0 +1,89 @@
+{
+  "slug": "taxi-skradin-flygplats-zadar",
+  "title": "Taxi Skradin - Zadar flygplats | Fast pris €105 | TAXI Antonio",
+  "description": "Privat taxi och transfer, Skradin - Zadar flygplats. Fast pris €105 per fordon, upp till 4 passagerare, dörr till dörr. Boka direkt hos Antonio.",
+  "keywords": "taxi skradin - zadar flygplats, transfer skradin - zadar flygplats, flygplatstransfer skradin - zadar flygplats",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-airport-2.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privat taxitransfer",
+      "name": "Taxi Skradin - Zadar flygplats",
+      "description": "Privat taxi och transfer till fast pris, Skradin - Zadar flygplats, 105 euro per fordon för upp till 4 passagerare, dörr till dörr.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Zadar flygplats"
+      ],
+      "url": "https://taxiskradin.hr/sv/taxi-skradin-flygplats-zadar/",
+      "offers": {
+        "@type": "Offer",
+        "price": "105",
+        "priceCurrency": "EUR",
+        "description": "Enkel privat resa, Skradin - Zadar flygplats, per fordon för upp till 4 passagerare. Tur och retur 210 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hur långt är sträckan och hur lång tid tar resan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Resan Skradin - Zadar flygplats är cirka 61 km lång och tar ungefär 50 min vid normal trafik, något längre under högsommaren. Jag planerar upphämtningen så att en långsam sträcka aldrig gör dig stressad."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hur mycket kostar en taxi på sträckan Skradin - Zadar flygplats?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fast 105 per fordon, enkel resa, för upp till 4 passagerare. Priset gäller per fordon, inte per person, och inkluderar vägtull, bränsle och bagage. En tur och retur kostar 210."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "När bör jag åka till flygplatsen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vanligtvis cirka 3 timmar före ett internationellt flyg och 2 timmar före ett inrikesflyg. Berätta din flygtid, så bekräftar jag den exakta upphämtningen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kör du ända fram till avgångsterminalen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Jag kör dig direkt till avgångsterminalen och hjälper till med bagaget. Ingen promenad från parkeringen och ingen shuttlebuss."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hur långt i förväg bör jag boka?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minst 2 timmar i förväg, så att jag kan bekräfta fordon och upphämtning, och tidigare för tidiga flyg och högsäsongen. För en resa med kort varsel, ring eller skriv till mig på WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

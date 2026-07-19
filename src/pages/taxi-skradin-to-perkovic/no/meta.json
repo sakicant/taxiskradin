@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-skradin-perkovic",
+  "title": "Taxi Skradin - Perković | Fastpris €60 | TAXI Antonio",
+  "description": "Privat taxi og transport, strekningen Skradin - Perković. Fastpris €60 per bil, opptil 4 passasjerer, dør til dør. Bestill direkte hos Antonio.",
+  "keywords": "taxi skradin - perković, transport skradin - perković, flyplasstransport skradin - perković",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privat taxitransport",
+      "name": "Taxi Skradin - Perković",
+      "description": "Privat taxi og transport til fastpris, strekningen Skradin - Perković, 60 euro per bil for opptil 4 passasjerer, dør til dør.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Perković"
+      ],
+      "url": "https://taxiskradin.hr/no/taxi-skradin-perkovic/",
+      "offers": {
+        "@type": "Offer",
+        "price": "60",
+        "priceCurrency": "EUR",
+        "description": "Enkel privat tur, strekningen Skradin - Perković, per bil for opptil 4 passasjerer. Tur og retur 120 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hvor lang er strekningen og hvor lenge tar turen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Turen på strekningen Skradin - Perković er rundt 27 km lang og tar omtrent 20 min ved normal trafikk, litt lenger i høysesongen om sommeren. Jeg planlegger henting slik at en langsom strekning aldri gjør deg stresset."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hvor mye koster en taxi på strekningen Skradin - Perković?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fast 60 per bil for opptil 4 passasjerer, en vei, bagasje inkludert. Tur og retur koster 120."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hvor henter du meg?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "På den nøyaktige adressen din, enten det er hus, hotell eller leilighet. Send adressen ved bestilling, så bekrefter jeg møtestedet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hvor lang tid i forveien bør jeg bestille?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minst 2 timer i forveien, så jeg kan bekrefte bil og hentetidspunkt. For en tur på kort varsel, ring eller skriv på WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

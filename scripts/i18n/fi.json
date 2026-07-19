@@ -1,0 +1,261 @@
+{
+ "taxi_word": "Taksi",
+ "book_slug": "varaa",
+ "airport_name": {
+  "Split Airport": "Splitin lentoasema",
+  "Zadar Airport": "Zadarin lentoasema",
+  "Zagreb Airport": "Zagrebin lentoasema",
+  "Dubrovnik Airport": "Dubrovnikin lentoasema"
+ },
+ "airport_slug": {
+  "split-airport": "split-lentoasema",
+  "zadar-airport": "zadar-lentoasema",
+  "zagreb-airport": "zagreb-lentoasema",
+  "dubrovnik-airport": "dubrovnik-lentoasema"
+ },
+ "hero_alt": "Taksi {rel}: TAXI Antonion Škoda Superb Dalmatian rannikolla",
+ "per_car": "per auto &middot; enintään 4 matkustajaa",
+ "book_now": "Varaa nyt",
+ "book_wa": "Varaa WhatsAppilla",
+ "why_eyebrow": "Miksi varata tämä kuljetus",
+ "why_title": "Miksi varata taksi {rel} Antoniolta?",
+ "price_title": "Hinta {rel}",
+ "price_sub": "Kiinteä hinta per auto, enintään 4 matkustajaa, matkatavarat mukana. Sama hinta pätee vastakkaiseen suuntaan.",
+ "price_oneway_lbl": "Yhdensuuntainen",
+ "price_return_lbl": "Meno &amp; paluu",
+ "price_advance_lbl": "Ennakkomaksu vahvistukseen",
+ "price_balance_val": "Käteinen tai kortti",
+ "price_balance_lbl": "Loppuosa matkapäivänä",
+ "hub_note": "20%:n ennakkomaksu (vähintään &euro;20) vahvistaa varauksesi, loppuosan maksat matkapäivänä käteisellä tai kortilla. Matkustatko vastakkaiseen suuntaan? Katso {revlink}.",
+ "reviews_eyebrow": "Arvostelut",
+ "reviews_title": "Mitä matkustajat sanovat",
+ "reviews_sub": "Aitoja arvosteluja aidoilta matkustajilta.",
+ "faq_eyebrow": "UKK",
+ "faq_title": "Taksi {rel}: Usein kysytyt kysymykset",
+ "cta_title": "Varaa kuljetuksesi {rel}",
+ "cta_sub": "Kiinteä hinta &euro;{p} per auto, enintään 4 matkustajaa. Vahvistus muutamalla klikkauksella.",
+ "trust_air": "Vahvistetaan ennakkomaksun jälkeen &middot; Ei piilokuluja &middot; Lennon seuranta mukana",
+ "trust_generic": "Vahvistetaan ennakkomaksun jälkeen &middot; Ei piilokuluja &middot; Kiinteä hinta, ei taksamittaria",
+ "rf_fixed_oneway_lbl": "Kiinteä hinta, yhdensuuntainen",
+ "rf_distance_lbl": "Etäisyys",
+ "rf_drivetime_lbl": "Ajoaika",
+ "rf_return_lbl": "Meno &amp; paluu",
+ "rf_upto4_val": "Enintään 4",
+ "rf_upto4_lbl": "Matkustajaa",
+ "rf_skoda_lbl": "Yksityinen, ovelta ovelle",
+ "meta_title": "Taksi {rel} | Kiinteä hinta €{p} | TAXI Antonio",
+ "meta_desc": "Yksityinen taksi ja kuljetus, reitti {rel}. Kiinteä hinta €{p} per auto, enintään 4 matkustajaa, ovelta ovelle. Varaa suoraan Antoniolta.",
+ "meta_desc_short": "Yksityinen taksi ja kuljetus, reitti {rel}. Kiinteä hinta €{p} per auto, enintään 4. Varaa suoraan Antoniolta.",
+ "keywords": "taksi {rell}, kuljetus {rell}, lentokenttäkuljetus {rell}",
+ "schema_servicetype": "Yksityinen taksikuljetus",
+ "schema_name": "Taksi {rel}",
+ "schema_desc": "Yksityinen taksi ja kuljetus kiinteään hintaan, reitti {rel}, {p} euroa per auto enintään 4 matkustajalle, ovelta ovelle.",
+ "schema_offer_desc": "Yhdensuuntainen yksityinen matka, reitti {rel}, per auto enintään 4 matkustajalle. Meno ja paluu {rp} euroa.",
+ "dist_faq_q": "Kuinka pitkä reitti on ja kuinka kauan matka kestää?",
+ "dist_faq_a": "Matka reitillä {rel} on noin {km} km ja kestää noin {t} normaalissa liikenteessä, kesän huippukaudella hieman kauemmin. Suunnittelen noudon niin, ettei hidas matka koskaan aiheuta kiirettä.",
+ "types": {
+  "to_airport": {
+   "heading": "Yksityinen taksi ja kuljetus, reitti {rel}",
+   "tagline": "Taksi ja yksityinen kuljetus kiinteään hintaan, reitti {rel}, suoraan lähtöterminaaliin.",
+   "intro": "Lähdetkö lennolle lentoasemalta {city}? Reitille {rel} tarjoan yksityisen taksin ja kuljetuksen kiinteään hintaan. Olen Antonio, paikallinen kuljettaja: nouden sinut osoitteestasi ja vien mukavassa Škoda Superbissa suoraan lähtöterminaaliin. Hinta on kiinteä, &euro;{p} koko autosta, enintään 4 matkustajaa, sovittu etukäteen, ilman taksamittaria ja ilman yllätyksiä. Suunnittelen noudon lentoaikasi mukaan, jotta ehdit ajoissa lähtöselvitykseen. Yllä oleva tarjouslomake on jo täytetty tälle reitille, joten näet hinnan ja voit varata muutamalla klikkauksella.",
+   "whys": [
+    [
+     "Kiinteä hinta &euro;{p}",
+     "Yksi hinta koko autosta, enintään 4 matkustajaa, sovittu etukäteen. Tietullit, polttoaine ja matkatavarat mukana, ei taksamittaria."
+    ],
+    [
+     "Sovitettu lentoosi",
+     "Kerro lähtöaikasi, niin lasken taaksepäin, jotta olet terminaalissa ajoissa lähtöselvitystä varten."
+    ],
+    [
+     "Ovelta terminaaliin",
+     "Nouto osoitteestasi ja jättö suoraan lähtöterminaalin ovelle."
+    ],
+    [
+     "Mihin aikaan tahansa",
+     "Aikaiset ja myöhäiset lennot eivät ole ongelma. Ajan ympäri vuorokauden etukäteen sovittuun hintaan."
+    ]
+   ],
+   "faqs": [
+    [
+     "Paljonko taksi maksaa reitillä {rel}?",
+     "Kiinteä &euro;{p} per auto, yhdensuuntainen matka, enintään 4 matkustajalle. Hinta on per auto, ei per henkilö, ja sisältää tietullit, polttoaineen ja matkatavarat. Meno-paluumatka maksaa &euro;{rp}."
+    ],
+    [
+     "Milloin minun pitäisi lähteä lentoasemalle?",
+     "Yleensä noin 3 tuntia ennen kansainvälistä ja 2 tuntia ennen kotimaista lentoa. Kerro lentoaikasi, niin vahvistan tarkan noutoajan."
+    ],
+    [
+     "Ajatteko lähtöterminaaliin asti?",
+     "Kyllä. Vien sinut suoraan lähtöterminaaliin ja autan matkatavaroiden kanssa. Ei kävelyä parkkipaikalta eikä bussikuljetusta."
+    ],
+    [
+     "Kuinka paljon etukäteen minun pitäisi varata?",
+     "Vähintään 2 tuntia aiemmin, jotta voin vahvistaa auton ja noudon, ja aikaisemmin varhaisia lentoja ja huippukautta varten. Lyhyellä varoitusajalla soita tai kirjoita minulle WhatsAppissa."
+    ]
+   ]
+  },
+  "from_airport": {
+   "heading": "Lentoasemanouto ja kuljetus, reitti {rel}",
+   "tagline": "Yksityinen lentoasemanouto ja kuljetus kiinteään hintaan, reitti {rel}, lennon seurannalla.",
+   "intro": "Juuri laskeutunut lentoasemalle {city}? Yksityinen kuljetus reitille {rel} poistaa saapumisen stressin. Otan sinut vastaan saapumisaulassa nimikyltillä, autan matkatavaroiden kanssa ja vien mukavassa Škoda Superbissa suoraan määränpäähän, kiinteään hintaan &euro;{p} koko autosta, enintään 4 matkustajaa. Seuraan lentoasi reaaliajassa, joten olen paikalla laskeuduitpa aiemmin tai myöhemmin. Ei taksijonoa, ei yhteiskuljetusta eikä hinnankorotuksia. Yllä oleva lomake on jo täytetty tälle reitille.",
+   "whys": [
+    [
+     "Vastaanotto kyltillä",
+     "Odotan saapumisaulassa nimikyltillä ja autan laukkujen kanssa, jotta pääset suoraan autoon."
+    ],
+    [
+     "Lennon seuranta",
+     "Seuraan lentoasi reaaliajassa ja mukaudun aikaisempaan laskeutumiseen tai viivästykseen, ilmaisella odotusajalla."
+    ],
+    [
+     "Kiinteä hinta &euro;{p}",
+     "Yksi hinta koko autosta, enintään 4 matkustajaa, sovittu etukäteen. Tietullit, polttoaine ja matkatavarat mukana, ei taksamittaria."
+    ],
+    [
+     "Suoraan ovellesi",
+     "Ei jonoa eikä vaihtoja. Vien sinut suoraan osoitteeseesi."
+    ]
+   ],
+   "faqs": [
+    [
+     "Missä otatte minut vastaan?",
+     "Saapumisaulassa, heti matkatavaroiden noudon jälkeen, kyltillä jossa on nimesi. Autan matkatavaroiden kanssa ja saatan sinut autolle."
+    ],
+    [
+     "Entä jos lentoni on myöhässä?",
+     "Ei ongelmaa. Seuraan lentoasi reaaliajassa ja mukautan noudon todelliseen laskeutumiseen, ilman lisämaksua odotusajasta."
+    ],
+    [
+     "Paljonko kuljetus maksaa reitillä {rel}?",
+     "Kiinteä &euro;{p} per auto enintään 4 matkustajalle, yhdensuuntainen matka, tietullit ja matkatavarat mukana. Meno-paluumatka maksaa &euro;{rp}."
+    ],
+    [
+     "Kuinka paljon etukäteen minun pitäisi varata?",
+     "Vähintään 2 tuntia aiemmin, jotta voin suunnitella lentosi ympärille. Saman päivän noutoa varten lyhyen muutoksen jälkeen soita tai kirjoita WhatsAppissa."
+    ]
+   ]
+  },
+  "marina": {
+   "heading": "Yksityinen marinakuljetus, reitti {rel}",
+   "tagline": "Yksityinen taksi ja kuljetus kiinteään hintaan, reitti {rel}, sovitettu veneesi mukaan.",
+   "intro": "Matkustatko reitillä {rel}? Ajan yksityistä taksia ja kuljetusta kiinteään hintaan marinan vieraille, sovitettuna veneesi ja matkasuunnitelmiesi mukaan. Nouden sinut runsaalla tilalla matkatavaroillesi ja ajan koko matkan mukavasti Škoda Superbissa, kiinteään hintaan &euro;{p} autosta, enintään 4 matkustajaa, sovittu ennen matkaa. Tuletpa sitten jahtiisi tai jatkatpa matkaa maihinnousun jälkeen, ei ole taksamittaria eikä odottelua asemalla, vain paikallinen kuljettaja, jonka varaat suoraan. Tämä on yksityinen kuljetus pidemmällä reitillä, ja yllä oleva tarjous on jo asetettu tälle reitille.",
+   "whys": [
+    [
+     "Kiinteä hinta &euro;{p}",
+     "Yksi hinta per auto enintään 4 matkustajalle, sovittu etukäteen. Tietullit, polttoaine ja matkatavarat mukana, ei juokseva taksamittaria."
+    ],
+    [
+     "Sovitettu veneesi mukaan",
+     "Kerro charter-, sisäänkirjautumis- tai lähtöaikasi, niin suunnittelen noudon sen ympärille, ettei hidas matka koskaan aiheuta kiirettä."
+    ],
+    [
+     "Tilaa matkatavaroillesi",
+     "Matkalaukut, muonavarat ja venelaukut mahtuvat kaikki mukavaan Škoda Superbiin, auttavan käden kanssa lastauksessa ja purkamisessa."
+    ],
+    [
+     "Paikallinen kuljettaja",
+     "Asioit suoraan minun kanssani, varauksesta perille asti, puhelimitse, WhatsAppilla tai sähköpostilla. Ei puhelinkeskusta."
+    ]
+   ],
+   "faqs": [
+    [
+     "Paljonko kuljetus maksaa reitillä {rel}?",
+     "Kiinteä &euro;{p} per auto enintään 4 matkustajalle, yhdensuuntainen matka, tietullien, polttoaineen ja matkatavaroiden kanssa. Meno-paluumatka maksaa &euro;{rp}."
+    ],
+    [
+     "Voitteko noutaa suoraan marinalta?",
+     "Kyllä. Tapaan sinut marinan sisäänkäynnillä tai vastaanotossa ja autan matkatavaroiden kanssa, jotta pääset suoraan laiturilta autoon."
+    ],
+    [
+     "Voitteko sovittaa kuljetuksen veneeni mukaan?",
+     "Kyllä. Lähetä minulle varauksen yhteydessä charter-, sisäänkirjautumis- tai lähtöaikasi, niin suunnittelen noudon sen ympärille."
+    ],
+    [
+     "Kuinka paljon etukäteen minun pitäisi varata?",
+     "Vähintään 2 tuntia aiemmin, jotta voin vahvistaa auton ja noutoajan. Lyhyellä varoitusajalla soita tai kirjoita minulle suoraan WhatsAppissa."
+    ]
+   ]
+  },
+  "city": {
+   "heading": "Yksityinen kuljetus, reitti {rel}",
+   "tagline": "Yksityinen taksi ja kuljetus kiinteään hintaan, reitti {rel}, ovelta ovelle.",
+   "intro0": "Tarvitsetko luotettavan kuljetuksen reitille {rel}? Tarjoan yksityisen taksin ja kuljetuksen kiinteään hintaan, ovelta ovelle, mukavassa Škoda Superbissa. Nouden sinut tarkasta osoitteestasi ja vien suoraan määränpäähän, ilman ei-toivottuja välipysähdyksiä ja ilman kyytiläisiä. Hinta on kiinteä, &euro;{p} koko autosta, enintään 4 matkustajaa, sovittu ennen lähtöä, tietullit ja matkatavarat mukana. Yllä oleva tarjous on täytetty tälle reitille, joten varaus kestää vain muutaman klikkauksen.",
+   "intro1": "Etsitkö taksia reitille {rel} ilman taksamittaria ja vaivaa? Tämä on yksityinen kuljetus kiinteään hintaan paikallisen kuljettajan kanssa. Nouden sinut ovelta ja vien mukavasti määränpäähän, matkatavaroineen, kiinteään hintaan &euro;{p} per auto enintään 4 matkustajalle. Pareille ja perheille se on usein edullisempaa kuin erilliset bussi- tai junaliput, ja aina nopeampaa ja ovelta ovelle. Yllä oleva tarjous on jo asetettu tälle reitille.",
+   "whys": [
+    [
+     "Kiinteä hinta &euro;{p}",
+     "Yksi hinta per auto enintään 4 matkustajalle, sovittu etukäteen. Tietullit, polttoaine ja matkatavarat mukana, ei juokseva taksamittaria."
+    ],
+    [
+     "Ovelta ovelle",
+     "Nouden sinut tarkasta osoitteestasi ja jätän määränpään ovelle. Ei asemia, ei vaihtoja."
+    ],
+    [
+     "Paikallinen kuljettaja",
+     "Asioit suoraan minun kanssani, varauksesta perille asti, puhelimitse, WhatsAppilla tai sähköpostilla. Ei puhelinkeskusta."
+    ],
+    [
+     "Pysähdyksiä pyynnöstä",
+     "Pidemmillä matkoilla pysähdyn mielelläni kahville, valokuvalle tai lyhyelle nähtävyydelle matkan varrella."
+    ]
+   ],
+   "faqs": [
+    [
+     "Paljonko taksi maksaa reitillä {rel}?",
+     "Kiinteä &euro;{p} per auto enintään 4 matkustajalle, yhdensuuntainen matka, tietullien, polttoaineen ja matkatavaroiden kanssa. Meno-paluumatka maksaa &euro;{rp}."
+    ],
+    [
+     "Onko kuljetus yksityinen vai jaettu?",
+     "Jokainen kuljetus on yksityinen ja ovelta ovelle, Škoda Superbissa. Ei auton jakamista eikä ylimääräisiä pysähdyksiä, ellet niin toivo."
+    ],
+    [
+     "Voitteko pysähtyä matkan varrella?",
+     "Kyllä. Pidemmillä matkoilla pysähdyn mielelläni kahville, valokuvalle tai lyhyelle nähtävyydelle. Kerro vain varauksen yhteydessä."
+    ],
+    [
+     "Kuinka paljon etukäteen minun pitäisi varata?",
+     "Vähintään 2 tuntia aiemmin, jotta voin vahvistaa auton ja noutoajan. Lyhyellä varoitusajalla soita tai kirjoita WhatsAppissa."
+    ]
+   ]
+  },
+  "local": {
+   "heading": "Yksityinen taksi, reitti {rel}",
+   "tagline": "Yksityinen taksi ja kuljetus kiinteään hintaan, reitti {rel}, ovelta ovelle.",
+   "intro0": "Matkustatko reitillä {rel}? Ajan yksityistä taksia ja kuljetusta kiinteään hintaan, noudolla ovellasi ja jätöllä juuri sinne, minne sinun täytyy. Hinta on kiinteä &euro;{p} koko autosta, enintään 4 matkustajaa, ilman taksamittaria ja ilman odottelua asemalla. Mukava Škoda Superb, tilaa matkatavaroillesi ja paikallinen kuljettaja, jonka varaat suoraan. Yllä oleva tarjous on täytetty tälle reitille.",
+   "intro1": "Tarvitsetko taksin reitille {rel}? Tarjoan yksityisen kuljetuksen ovelta ovelle kiinteään hintaan &euro;{p} koko autosta, enintään 4 matkustajaa. Saavun sovittuun aikaan osoitteeseesi, jotta et koskaan odota tien varrella, ja vien sinut mukavasti määränpäähän. Ei taksamittaria, ei yllätyksiä, vain paikallinen kuljettaja varauksesta perille asti. Yllä oleva tarjous on jo asetettu tälle reitille.",
+   "whys": [
+    [
+     "Kiinteä hinta &euro;{p}",
+     "Yksi hinta per auto enintään 4 matkustajalle, sovittu ennen matkaa. Ei taksamittaria, ei yllätyksiä."
+    ],
+    [
+     "Ovelta ovelle",
+     "Nouto osoitteestasi ja jättö määränpään ovelle, matkatavaroineen."
+    ],
+    [
+     "Ei taksiasemaa tarvita",
+     "Varattu etukäteen, jotta et koskaan odota ohi ajavaa taksia. Tulen luoksesi."
+    ],
+    [
+     "Paikallinen kuljettaja",
+     "Asioit suoraan minun kanssani, varauksesta perille asti, puhelimitse, WhatsAppilla tai sähköpostilla."
+    ]
+   ],
+   "faqs": [
+    [
+     "Paljonko taksi maksaa reitillä {rel}?",
+     "Kiinteä &euro;{p} per auto enintään 4 matkustajalle, yhdensuuntainen matka, matkatavarat mukana. Meno-paluumatka maksaa &euro;{rp}."
+    ],
+    [
+     "Mistä noudatte minut?",
+     "Tarkasta osoitteestasi, olipa se talo, hotelli tai huoneisto. Lähetä osoite varauksen yhteydessä, niin vahvistan tapaamispaikan."
+    ],
+    [
+     "Kuinka paljon etukäteen minun pitäisi varata?",
+     "Vähintään 2 tuntia aiemmin, jotta voin vahvistaa auton ja noutoajan. Lyhyellä varoitusajalla soita tai kirjoita WhatsAppissa."
+    ]
+   ]
+  }
+ }
+}

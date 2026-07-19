@@ -1,0 +1,89 @@
+{
+  "slug": "taxi-skradin-dubrovnik-lentoasema",
+  "title": "Taksi Skradin - Dubrovnikin lentoasema | Kiinteä hinta €485 | TAXI Antonio",
+  "description": "Yksityinen taksi ja kuljetus, reitti Skradin - Dubrovnikin lentoasema. Kiinteä hinta €485 per auto, enintään 4. Varaa suoraan Antoniolta.",
+  "keywords": "taksi skradin - dubrovnikin lentoasema, kuljetus skradin - dubrovnikin lentoasema, lentokenttäkuljetus skradin - dubrovnikin lentoasema",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-airport-2.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Yksityinen taksikuljetus",
+      "name": "Taksi Skradin - Dubrovnikin lentoasema",
+      "description": "Yksityinen taksi ja kuljetus kiinteään hintaan, reitti Skradin - Dubrovnikin lentoasema, 485 euroa per auto enintään 4 matkustajalle, ovelta ovelle.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Dubrovnikin lentoasema"
+      ],
+      "url": "https://taxiskradin.hr/fi/taxi-skradin-dubrovnik-lentoasema/",
+      "offers": {
+        "@type": "Offer",
+        "price": "485",
+        "priceCurrency": "EUR",
+        "description": "Yhdensuuntainen yksityinen matka, reitti Skradin - Dubrovnikin lentoasema, per auto enintään 4 matkustajalle. Meno ja paluu 970 euroa."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kuinka pitkä reitti on ja kuinka kauan matka kestää?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Matka reitillä Skradin - Dubrovnikin lentoasema on noin 306 km ja kestää noin 4 h 20 min normaalissa liikenteessä, kesän huippukaudella hieman kauemmin. Suunnittelen noudon niin, ettei hidas matka koskaan aiheuta kiirettä."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Paljonko taksi maksaa reitillä Skradin - Dubrovnikin lentoasema?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kiinteä 485 per auto, yhdensuuntainen matka, enintään 4 matkustajalle. Hinta on per auto, ei per henkilö, ja sisältää tietullit, polttoaineen ja matkatavarat. Meno-paluumatka maksaa 970."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Milloin minun pitäisi lähteä lentoasemalle?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yleensä noin 3 tuntia ennen kansainvälistä ja 2 tuntia ennen kotimaista lentoa. Kerro lentoaikasi, niin vahvistan tarkan noutoajan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ajatteko lähtöterminaaliin asti?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kyllä. Vien sinut suoraan lähtöterminaaliin ja autan matkatavaroiden kanssa. Ei kävelyä parkkipaikalta eikä bussikuljetusta."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kuinka paljon etukäteen minun pitäisi varata?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vähintään 2 tuntia aiemmin, jotta voin vahvistaa auton ja noudon, ja aikaisemmin varhaisia lentoja ja huippukautta varten. Lyhyellä varoitusajalla soita tai kirjoita minulle WhatsAppissa."
+          }
+        }
+      ]
+    }
+  ]
+}

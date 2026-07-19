@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-roski-slap-zadar-airport",
+  "title": "택시 Roški Slap - 자다르 공항 | 고정 요금 €110 | TAXI Antonio",
+  "description": "개인 택시 및 교통편, Roški Slap - 자다르 공항 노선. 고정 요금 €110 차량당, 최대 4명 탑승, 도어 투 도어. Antonio에게 직접 예약하세요.",
+  "keywords": "택시 roški slap - 자다르 공항, 교통편 roški slap - 자다르 공항, 공항 교통편 roški slap - 자다르 공항",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-airport-2.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "개인 택시 교통편",
+      "name": "택시 Roški Slap - 자다르 공항",
+      "description": "고정 요금 개인 택시 및 교통편, Roški Slap - 자다르 공항 노선, 차량당 110 유로, 최대 4명 탑승, 도어 투 도어.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Roški Slap",
+        "자다르 공항"
+      ],
+      "url": "https://taxiskradin.hr/ko/taxi-roski-slap-zadar-airport/",
+      "offers": {
+        "@type": "Offer",
+        "price": "110",
+        "priceCurrency": "EUR",
+        "description": "개인 편도 이동, Roški Slap - 자다르 공항 노선, 차량당 최대 4명 탑승. 왕복 220 유로."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Roški Slap - 자다르 공항 노선의 택시 요금은 얼마인가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "고정 110 차량당, 편도, 최대 4명 탑승. 요금은 인원당이 아니라 차량당이며, 통행료, 연료, 짐이 포함됩니다. 왕복은 220입니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "공항에는 언제 출발해야 하나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "보통 국제선은 약 3시간 전, 국내선은 약 2시간 전입니다. 항공편 시간을 알려주시면 정확한 픽업 시간을 확정해 드립니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "출발 터미널까지 가주시나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "네. 출발 터미널까지 곧장 모셔다 드리고 짐도 도와드립니다. 주차장에서 걷거나 셔틀을 탈 필요가 없습니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "얼마나 미리 예약해야 하나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "차량과 픽업을 확정할 수 있도록 최소 2시간 전, 이른 항공편이나 성수기에는 더 일찍 부탁드립니다. 급한 이동은 전화하시거나 WhatsApp으로 메시지를 보내주세요."
+          }
+        }
+      ]
+    }
+  ]
+}

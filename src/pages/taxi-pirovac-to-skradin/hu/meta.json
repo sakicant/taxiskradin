@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-pirovac-skradin",
+  "title": "Taxi Pirovac - Skradin | Fix ár €65 | TAXI Antonio",
+  "description": "Privát taxi és transzfer a Pirovac - Skradin útvonalon. Fix ár €65 járművenként, legfeljebb 4 utas, háztól házig. Foglaljon közvetlenül Antoniónál.",
+  "keywords": "taxi pirovac - skradin, transzfer pirovac - skradin, reptéri transzfer pirovac - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privát taxitranszfer",
+      "name": "Taxi Pirovac - Skradin",
+      "description": "Privát taxi és transzfer fix áron a Pirovac - Skradin útvonalon, 65 euró járművenként, legfeljebb 4 utas, háztól házig.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Pirovac",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/hu/taxi-pirovac-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "65",
+        "priceCurrency": "EUR",
+        "description": "Privát, csak oda út a Pirovac - Skradin útvonalon, járművenként, legfeljebb 4 utas. Oda-vissza 130 euró."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Milyen hosszú az útvonal és mennyi ideig tart az út?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Pirovac - Skradin útvonalon az út körülbelül 32 km hosszú, és normál forgalomban körülbelül 35 min ideig tart, a nyári főszezonban valamivel tovább. Úgy tervezem meg a felvételt, hogy egy lassabb szakasz miatt soha ne kelljen kapkodnia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mennyibe kerül a taxi a Pirovac - Skradin útvonalon?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fix 65 járművenként, legfeljebb 4 utasnak, csak oda, csomagokkal együtt. Az oda-vissza út 130."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hol vesz fel engem?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A pontos címén, legyen az ház, hotel vagy apartman. Foglaláskor küldje el a címet, és megerősítem a találkozási pontot."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mennyivel korábban foglaljak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Legalább 2 órával előtte, hogy megerősíthessem a járművet és a felvétel időpontját. Rövid határidős útért hívjon fel, vagy írjon WhatsAppon."
+          }
+        }
+      ]
+    }
+  ]
+}

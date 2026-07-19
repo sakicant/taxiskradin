@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-roski-slap-luchthaven-split",
+  "title": "Taxi Roški Slap - Luchthaven Split | Vaste prijs €100 | TAXI Antonio",
+  "description": "Privétaxi en transfer, route Roški Slap - Luchthaven Split. Vaste prijs €100 per voertuig, tot 4. Rechtstreeks bij Antonio boeken.",
+  "keywords": "taxi roški slap - luchthaven split, transfer roški slap - luchthaven split, luchthaventransfer roški slap - luchthaven split",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-airport-2.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privé taxitransfer",
+      "name": "Taxi Roški Slap - Luchthaven Split",
+      "description": "Privétaxi en transfer tegen vaste prijs, route Roški Slap - Luchthaven Split, 100 euro per voertuig voor tot 4 passagiers, deur tot deur.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Roški Slap",
+        "Luchthaven Split"
+      ],
+      "url": "https://taxiskradin.hr/nl/taxi-roski-slap-luchthaven-split/",
+      "offers": {
+        "@type": "Offer",
+        "price": "100",
+        "priceCurrency": "EUR",
+        "description": "Enkele privérit, route Roški Slap - Luchthaven Split, per voertuig voor tot 4 passagiers. Heen en terug 200 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hoeveel kost een taxi op de route Roški Slap - Luchthaven Split?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vast 100 per voertuig, enkele reis, voor tot 4 passagiers. De prijs geldt per voertuig, niet per persoon, en omvat tol, brandstof en bagage. Een heen- en terugrit kost 200."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wanneer moet ik naar de luchthaven vertrekken?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Doorgaans zo'n 3 uur voor een internationale en 2 uur voor een binnenlandse vlucht. Geef mij uw vluchttijd door en ik bevestig de exacte ophaaltijd."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Rijdt u tot aan de vertrekhal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Ik breng u rechtstreeks naar de vertrekhal en help met de bagage. Geen looproute vanaf de parkeerplaats en geen shuttle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoe ver van tevoren moet ik boeken?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minstens 2 uur vooraf, zodat ik het voertuig en de ophaaltijd kan bevestigen, en eerder voor vroege vluchten en het hoogseizoen. Voor een rit op korte termijn belt u of schrijft u mij op WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

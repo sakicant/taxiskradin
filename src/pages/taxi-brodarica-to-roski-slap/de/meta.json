@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-brodarica-roski-slap",
+  "title": "Taxi Brodarica - Roški Slap | Festpreis €80 | TAXI Antonio",
+  "description": "Privates Taxi und Transfer, Strecke Brodarica - Roški Slap. Festpreis €80 pro Fahrzeug, bis zu 4 Fahrgäste, Tür zu Tür. Direkt bei Antonio buchen.",
+  "keywords": "taxi brodarica - roški slap, transfer brodarica - roški slap, flughafentransfer brodarica - roški slap",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privater Taxitransfer",
+      "name": "Taxi Brodarica - Roški Slap",
+      "description": "Privates Taxi und Transfer zum Festpreis, Strecke Brodarica - Roški Slap, 80 Euro pro Fahrzeug für bis zu 4 Fahrgäste, Tür zu Tür.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Brodarica",
+        "Roški Slap"
+      ],
+      "url": "https://taxiskradin.hr/de/taxi-brodarica-roski-slap/",
+      "offers": {
+        "@type": "Offer",
+        "price": "80",
+        "priceCurrency": "EUR",
+        "description": "Einfache private Fahrt, Strecke Brodarica - Roški Slap, pro Fahrzeug für bis zu 4 Fahrgäste. Hin und zurück 160 Euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wie viel kostet ein Taxi auf der Strecke Brodarica - Roški Slap?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fest 80 pro Fahrzeug für bis zu 4 Fahrgäste, einfache Fahrt, Gepäck inklusive. Eine Hin- und Rückfahrt kostet 160."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wo holen Sie mich ab?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An Ihrer genauen Adresse, ob Haus, Hotel oder Apartment. Senden Sie die Adresse bei der Buchung und ich bestätige den Treffpunkt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie weit im Voraus sollte ich buchen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mindestens 2 Stunden vorher, damit ich Fahrzeug und Abholzeit bestätigen kann. Für eine kurzfristige Fahrt rufen Sie an oder schreiben auf WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

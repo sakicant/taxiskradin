@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-aci-marina-jezera-skradin",
+  "title": "Taxi ACI Marina Jezera - Skradin | Festpreis €70 | TAXI Antonio",
+  "description": "Privates Taxi und Transfer, Strecke ACI Marina Jezera - Skradin. Festpreis €70 pro Fahrzeug, bis zu 4 Fahrgäste, Tür zu Tür. Direkt bei Antonio buchen.",
+  "keywords": "taxi aci marina jezera - skradin, transfer aci marina jezera - skradin, flughafentransfer aci marina jezera - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privater Taxitransfer",
+      "name": "Taxi ACI Marina Jezera - Skradin",
+      "description": "Privates Taxi und Transfer zum Festpreis, Strecke ACI Marina Jezera - Skradin, 70 Euro pro Fahrzeug für bis zu 4 Fahrgäste, Tür zu Tür.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "ACI Marina Jezera",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/de/taxi-aci-marina-jezera-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "70",
+        "priceCurrency": "EUR",
+        "description": "Einfache private Fahrt, Strecke ACI Marina Jezera - Skradin, pro Fahrzeug für bis zu 4 Fahrgäste. Hin und zurück 140 Euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wie viel kostet ein Transfer auf der Strecke ACI Marina Jezera - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fest 70 pro Fahrzeug für bis zu 4 Fahrgäste, einfache Fahrt, mit Maut, Kraftstoff und Gepäck. Eine Hin- und Rückfahrt kostet 140."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Können Sie direkt an der Marina abholen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Ich treffe Sie am Eingang oder an der Rezeption der Marina und helfe mit dem Gepäck, sodass Sie direkt vom Steg zum Fahrzeug gehen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Können Sie den Transfer auf mein Boot abstimmen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Senden Sie mir bei der Buchung Ihre Charter-, Check-in- oder Abfahrtszeit und ich plane die Abholung darum herum."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie weit im Voraus sollte ich buchen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mindestens 2 Stunden vorher, damit ich Fahrzeug und Abholzeit bestätigen kann. Für eine kurzfristige Fahrt rufen Sie an oder schreiben mir direkt auf WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

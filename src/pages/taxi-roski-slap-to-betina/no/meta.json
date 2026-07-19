@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-roski-slap-betina",
+  "title": "Taxi Roški Slap - Betina | Fastpris €115 | TAXI Antonio",
+  "description": "Privat taxi og transport, strekningen Roški Slap - Betina. Fastpris €115 per bil, opptil 4 passasjerer, dør til dør. Bestill direkte hos Antonio.",
+  "keywords": "taxi roški slap - betina, transport roški slap - betina, flyplasstransport roški slap - betina",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privat taxitransport",
+      "name": "Taxi Roški Slap - Betina",
+      "description": "Privat taxi og transport til fastpris, strekningen Roški Slap - Betina, 115 euro per bil for opptil 4 passasjerer, dør til dør.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Roški Slap",
+        "Betina"
+      ],
+      "url": "https://taxiskradin.hr/no/taxi-roski-slap-betina/",
+      "offers": {
+        "@type": "Offer",
+        "price": "115",
+        "priceCurrency": "EUR",
+        "description": "Enkel privat tur, strekningen Roški Slap - Betina, per bil for opptil 4 passasjerer. Tur og retur 230 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hvor mye koster en taxi på strekningen Roški Slap - Betina?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fast 115 per bil for opptil 4 passasjerer, en vei, bagasje inkludert. Tur og retur koster 230."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hvor henter du meg?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "På den nøyaktige adressen din, enten det er hus, hotell eller leilighet. Send adressen ved bestilling, så bekrefter jeg møtestedet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hvor lang tid i forveien bør jeg bestille?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minst 2 timer i forveien, så jeg kan bekrefte bil og hentetidspunkt. For en tur på kort varsel, ring eller skriv på WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-roski-slap-split-airport",
+  "title": "Roški Slap - 斯普利特机场 出租车 | 固定价格 €100 | TAXI Antonio",
+  "description": "私人出租车与接送，Roški Slap - 斯普利特机场 路线。固定价格 €100 每车，最多 4 名乘客，门到门。直接向 Antonio 预订。",
+  "keywords": "出租车 roški slap - 斯普利特机场, 接送 roški slap - 斯普利特机场, 机场接送 roški slap - 斯普利特机场",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-airport-2.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "私人出租车接送",
+      "name": "Roški Slap - 斯普利特机场 出租车",
+      "description": "固定价格的私人出租车与接送，Roški Slap - 斯普利特机场 路线，每车 100 欧元，最多 4 名乘客，门到门。",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Roški Slap",
+        "斯普利特机场"
+      ],
+      "url": "https://taxiskradin.hr/zh/taxi-roski-slap-split-airport/",
+      "offers": {
+        "@type": "Offer",
+        "price": "100",
+        "priceCurrency": "EUR",
+        "description": "单程私人乘车，Roški Slap - 斯普利特机场 路线，每车最多 4 名乘客。往返 200 欧元。"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Roški Slap - 斯普利特机场 路线的出租车多少钱？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "固定 100 每车，单程，最多 4 名乘客。价格按车计算，而非按人，含过路费、燃油和行李。往返为 200。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "我该什么时候出发去机场？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "通常国际航班前约 3 小时，国内航班前约 2 小时。告诉我您的航班时间，我会确认确切的接送时间。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "您会送到出发航站楼吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "会的。我直接送您到出发航站楼并帮您搬运行李。无需从停车场步行，也无需摆渡车。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "我该提前多久预订？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "至少提前 2 小时，以便我确认车辆和接送，早班航班和旺季请更早预订。临时用车请致电或在 WhatsApp 上给我留言。"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-tisno-roski-slap",
+  "title": "Taksi Tisno - Roški Slap | Fiksna cijena €90 | TAXI Antonio",
+  "description": "Privatni taksi i transfer, relacija Tisno - Roški Slap. Fiksno €90 po vozilu, do 4 putnika, od vrata do vrata. Rezervirajte izravno kod Antonija.",
+  "keywords": "taksi tisno - roški slap, transfer tisno - roški slap, prijevoz tisno - roški slap",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privatni taksi transfer",
+      "name": "Taksi Tisno - Roški Slap",
+      "description": "Privatni taksi i transfer po fiksnoj cijeni, relacija Tisno - Roški Slap, 90 eura po vozilu za do 4 putnika, od vrata do vrata.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Tisno",
+        "Roški Slap"
+      ],
+      "url": "https://taxiskradin.hr/hr/taxi-tisno-roski-slap/",
+      "offers": {
+        "@type": "Offer",
+        "price": "90",
+        "priceCurrency": "EUR",
+        "description": "Jednosmjerni privatni transfer, relacija Tisno - Roški Slap, po vozilu za do 4 putnika. Povratno 180 eura."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Koliko košta taksi na relaciji Tisno - Roški Slap?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fiksno 90 po vozilu za do 4 putnika, jedan smjer, prtljaga uključena. Povratna vožnja je 180."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gdje me preuzimate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Na vašoj točnoj adresi, bila to kuća, hotel ili apartman. Pošaljite adresu pri rezervaciji i potvrdit ću mjesto sastanka."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Koliko unaprijed trebam rezervirati?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Barem 2 sata unaprijed da potvrdim vozilo i vrijeme preuzimanja. Za brži termin nazovite ili pišite na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

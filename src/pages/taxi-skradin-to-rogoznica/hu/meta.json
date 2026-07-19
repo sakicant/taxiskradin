@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-skradin-rogoznica",
+  "title": "Taxi Skradin - Rogoznica | Fix ár €90 | TAXI Antonio",
+  "description": "Privát taxi és transzfer a Skradin - Rogoznica útvonalon. Fix ár €90 járművenként, legfeljebb 4 utas, háztól házig. Foglaljon közvetlenül Antoniónál.",
+  "keywords": "taxi skradin - rogoznica, transzfer skradin - rogoznica, reptéri transzfer skradin - rogoznica",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privát taxitranszfer",
+      "name": "Taxi Skradin - Rogoznica",
+      "description": "Privát taxi és transzfer fix áron a Skradin - Rogoznica útvonalon, 90 euró járművenként, legfeljebb 4 utas, háztól házig.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Rogoznica"
+      ],
+      "url": "https://taxiskradin.hr/hu/taxi-skradin-rogoznica/",
+      "offers": {
+        "@type": "Offer",
+        "price": "90",
+        "priceCurrency": "EUR",
+        "description": "Privát, csak oda út a Skradin - Rogoznica útvonalon, járművenként, legfeljebb 4 utas. Oda-vissza 180 euró."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Milyen hosszú az útvonal és mennyi ideig tart az út?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Skradin - Rogoznica útvonalon az út körülbelül 54 km hosszú, és normál forgalomban körülbelül 60 min ideig tart, a nyári főszezonban valamivel tovább. Úgy tervezem meg a felvételt, hogy egy lassabb szakasz miatt soha ne kelljen kapkodnia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mennyibe kerül a taxi a Skradin - Rogoznica útvonalon?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fix 90 járművenként, legfeljebb 4 utasnak, csak oda, csomagokkal együtt. Az oda-vissza út 180."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hol vesz fel engem?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A pontos címén, legyen az ház, hotel vagy apartman. Foglaláskor küldje el a címet, és megerősítem a találkozási pontot."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mennyivel korábban foglaljak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Legalább 2 órával előtte, hogy megerősíthessem a járművet és a felvétel időpontját. Rövid határidős útért hívjon fel, vagy írjon WhatsAppon."
+          }
+        }
+      ]
+    }
+  ]
+}

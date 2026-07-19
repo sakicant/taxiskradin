@@ -1,0 +1,89 @@
+{
+  "slug": "taxi-aeropuerto-zadar-skradin",
+  "title": "Taxi Aeropuerto de Zadar - Skradin | Precio fijo €105 | TAXI Antonio",
+  "description": "Taxi y traslado privado, Aeropuerto de Zadar - Skradin. Precio fijo €105 por vehículo, hasta 4. Reserve directamente con Antonio.",
+  "keywords": "taxi aeropuerto de zadar - skradin, traslado aeropuerto de zadar - skradin, traslado al aeropuerto aeropuerto de zadar - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-airport-2.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Traslado privado en taxi",
+      "name": "Taxi Aeropuerto de Zadar - Skradin",
+      "description": "Taxi y traslado privado a precio fijo, Aeropuerto de Zadar - Skradin, 105 euros por vehículo para hasta 4 pasajeros, puerta a puerta.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Aeropuerto de Zadar",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/es/taxi-aeropuerto-zadar-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "105",
+        "priceCurrency": "EUR",
+        "description": "Trayecto privado de ida, Aeropuerto de Zadar - Skradin, por vehículo para hasta 4 pasajeros. Ida y vuelta 210 euros."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿A qué distancia está el trayecto y cuánto dura el viaje?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El trayecto Aeropuerto de Zadar - Skradin tiene unos 62 km y dura alrededor de 50 min con tráfico normal, un poco más en plena temporada de verano. Planifico la recogida de modo que un trayecto lento nunca le meta prisa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Dónde me recibe?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En la sala de llegadas, justo después de la recogida de equipaje, con un cartel con su nombre. Le ayudo con el equipaje y le acompaño al vehículo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué pasa si mi vuelo se retrasa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No hay problema. Sigo su vuelo en tiempo real y ajusto la recogida al aterrizaje real, sin recargo por el tiempo de espera."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta el traslado en el trayecto Aeropuerto de Zadar - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fijo 105 por vehículo para hasta 4 pasajeros, solo ida, peajes y equipaje incluidos. Un viaje de ida y vuelta cuesta 210."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Con cuánta antelación debo reservar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Al menos 2 horas antes, para que pueda planificar en torno a su vuelo. Para una recogida el mismo día tras un cambio de última hora, llame o escriba por WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

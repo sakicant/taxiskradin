@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-roski-slap-zadar",
+  "title": "Taksi Roški Slap - Zadar | Kiinteä hinta €135 | TAXI Antonio",
+  "description": "Yksityinen taksi ja kuljetus, reitti Roški Slap - Zadar. Kiinteä hinta €135 per auto, enintään 4 matkustajaa, ovelta ovelle. Varaa suoraan Antoniolta.",
+  "keywords": "taksi roški slap - zadar, kuljetus roški slap - zadar, lentokenttäkuljetus roški slap - zadar",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Yksityinen taksikuljetus",
+      "name": "Taksi Roški Slap - Zadar",
+      "description": "Yksityinen taksi ja kuljetus kiinteään hintaan, reitti Roški Slap - Zadar, 135 euroa per auto enintään 4 matkustajalle, ovelta ovelle.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Roški Slap",
+        "Zadar"
+      ],
+      "url": "https://taxiskradin.hr/fi/taxi-roski-slap-zadar/",
+      "offers": {
+        "@type": "Offer",
+        "price": "135",
+        "priceCurrency": "EUR",
+        "description": "Yhdensuuntainen yksityinen matka, reitti Roški Slap - Zadar, per auto enintään 4 matkustajalle. Meno ja paluu 270 euroa."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Paljonko taksi maksaa reitillä Roški Slap - Zadar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kiinteä 135 per auto enintään 4 matkustajalle, yhdensuuntainen matka, tietullien, polttoaineen ja matkatavaroiden kanssa. Meno-paluumatka maksaa 270."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Onko kuljetus yksityinen vai jaettu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Jokainen kuljetus on yksityinen ja ovelta ovelle, Škoda Superbissa. Ei auton jakamista eikä ylimääräisiä pysähdyksiä, ellet niin toivo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Voitteko pysähtyä matkan varrella?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kyllä. Pidemmillä matkoilla pysähdyn mielelläni kahville, valokuvalle tai lyhyelle nähtävyydelle. Kerro vain varauksen yhteydessä."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kuinka paljon etukäteen minun pitäisi varata?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vähintään 2 tuntia aiemmin, jotta voin vahvistaa auton ja noutoajan. Lyhyellä varoitusajalla soita tai kirjoita WhatsAppissa."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "taxi-dubrovnik-skradin",
+  "title": "Taxi Dubrovnik - Skradin | Stała cena €485 | TAXI Antonio",
+  "description": "Prywatne taxi i transfer, trasa Dubrovnik - Skradin. Stała cena €485 za pojazd, do 4 pasażerów, od drzwi do drzwi. Rezerwacja bezpośrednio u Antonio.",
+  "keywords": "taxi dubrovnik - skradin, transfer dubrovnik - skradin, transfer lotniskowy dubrovnik - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Prywatny transfer taxi",
+      "name": "Taxi Dubrovnik - Skradin",
+      "description": "Prywatne taxi i transfer w stałej cenie, trasa Dubrovnik - Skradin, 485 euro za pojazd dla maksymalnie 4 pasażerów, od drzwi do drzwi.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Dubrovnik",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/pl/taxi-dubrovnik-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "485",
+        "priceCurrency": "EUR",
+        "description": "Prywatny przejazd w jedną stronę, trasa Dubrovnik - Skradin, za pojazd dla maksymalnie 4 pasażerów. Tam i z powrotem 970 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Jak długa jest trasa i ile trwa przejazd?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Przejazd na trasie Dubrovnik - Skradin liczy około 288 km i trwa około 3 h 45 min przy normalnym ruchu, w szczycie sezonu letniego nieco dłużej. Odbiór planuję tak, aby wolniejszy przejazd nigdy nie zmusił Pana/Pani do pośpiechu."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ile kosztuje taxi na trasie Dubrovnik - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stała cena 485 za pojazd dla maksymalnie 4 pasażerów, w jedną stronę, z opłatami drogowymi, paliwem i bagażem. Przejazd tam i z powrotem kosztuje 970."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy transfer jest prywatny czy współdzielony?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Każdy transfer jest prywatny i od drzwi do drzwi, w Škodzie Superb. Bez dzielenia pojazdu i bez dodatkowych przystanków, chyba że sobie Pan/Pani tego życzy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy może Pan zatrzymać się po drodze?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tak. Na dłuższych trasach chętnie zatrzymam się na kawę, zdjęcie lub krótkie zwiedzanie. Wystarczy dać znać przy rezerwacji."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Z jakim wyprzedzeniem należy rezerwować?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Co najmniej 2 godziny wcześniej, abym mógł potwierdzić pojazd i godzinę odbioru. W razie przejazdu na ostatnią chwilę proszę zadzwonić lub napisać na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

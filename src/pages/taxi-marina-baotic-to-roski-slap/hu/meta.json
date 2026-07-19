@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-marina-baotic-roski-slap",
+  "title": "Taxi Marina Baotić - Roški Slap | Fix ár €110 | TAXI Antonio",
+  "description": "Privát taxi és transzfer a Marina Baotić - Roški Slap útvonalon. Fix ár €110 járművenként, legfeljebb 4 fő. Foglaljon közvetlenül Antoniónál.",
+  "keywords": "taxi marina baotić - roški slap, transzfer marina baotić - roški slap, reptéri transzfer marina baotić - roški slap",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privát taxitranszfer",
+      "name": "Taxi Marina Baotić - Roški Slap",
+      "description": "Privát taxi és transzfer fix áron a Marina Baotić - Roški Slap útvonalon, 110 euró járművenként, legfeljebb 4 utas, háztól házig.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Marina Baotić",
+        "Roški Slap"
+      ],
+      "url": "https://taxiskradin.hr/hu/taxi-marina-baotic-roski-slap/",
+      "offers": {
+        "@type": "Offer",
+        "price": "110",
+        "priceCurrency": "EUR",
+        "description": "Privát, csak oda út a Marina Baotić - Roški Slap útvonalon, járművenként, legfeljebb 4 utas. Oda-vissza 220 euró."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Mennyibe kerül a transzfer a Marina Baotić - Roški Slap útvonalon?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fix 110 járművenként, legfeljebb 4 utasnak, csak oda, útdíjjal, üzemanyaggal és csomagokkal. Az oda-vissza út 220."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Fel tud venni közvetlenül a marinánál?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Igen. A marina bejáratánál vagy a recepcióján találkozunk, és segítek a csomagokkal, hogy egyenesen a mólótól a járműhöz sétálhasson."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hozzá tudja igazítani a transzfert a hajómhoz?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Igen. Foglaláskor küldje el a charter, a becsekkolás vagy az indulás időpontját, és ehhez tervezem a felvételt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mennyivel korábban foglaljak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Legalább 2 órával előtte, hogy megerősíthessem a járművet és a felvétel időpontját. Rövid határidős útért hívjon fel, vagy írjon közvetlenül WhatsAppon."
+          }
+        }
+      ]
+    }
+  ]
+}

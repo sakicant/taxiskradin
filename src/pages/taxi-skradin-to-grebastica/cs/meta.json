@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-skradin-grebastica",
+  "title": "Taxi Skradin - Grebaštica | Pevná cena €80 | TAXI Antonio",
+  "description": "Soukromé taxi a transfer, trasa Skradin - Grebaštica. Pevná cena €80 za vozidlo, až 4 cestující, ode dveří ke dveřím. Rezervujte přímo u Antonia.",
+  "keywords": "taxi skradin - grebaštica, transfer skradin - grebaštica, letištní transfer skradin - grebaštica",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Soukromý taxi transfer",
+      "name": "Taxi Skradin - Grebaštica",
+      "description": "Soukromé taxi a transfer za pevnou cenu, trasa Skradin - Grebaštica, 80 eur za vozidlo pro až 4 cestující, ode dveří ke dveřím.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Grebaštica"
+      ],
+      "url": "https://taxiskradin.hr/cs/taxi-skradin-grebastica/",
+      "offers": {
+        "@type": "Offer",
+        "price": "80",
+        "priceCurrency": "EUR",
+        "description": "Jednosměrná soukromá jízda, trasa Skradin - Grebaštica, za vozidlo pro až 4 cestující. Tam a zpět 160 eur."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Jak daleko je trasa a jak dlouho jízda trvá?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Jízda na trase Skradin - Grebaštica měří zhruba 40 km a trvá přibližně 40 min při běžném provozu, ve vrcholné letní sezóně o něco déle. Vyzvednutí naplánuji tak, aby vás pomalejší úsek nikdy nedostal do časové tísně."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kolik stojí taxi na trase Skradin - Grebaštica?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pevně 80 za vozidlo pro až 4 cestující, jednosměrná jízda, zavazadla v ceně. Cesta tam a zpět stojí 160."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kde mě vyzvednete?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Na vaší přesné adrese, ať jde o dům, hotel nebo apartmán. Pošlete adresu při rezervaci a potvrdím místo setkání."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "S jakým předstihem mám rezervovat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nejméně 2 hodiny předem, abych mohl potvrdit vozidlo a čas vyzvednutí. Pro jízdu na poslední chvíli zavolejte nebo napište na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

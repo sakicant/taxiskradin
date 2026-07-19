@@ -1,0 +1,89 @@
+{
+  "slug": "taxi-split-skradin",
+  "title": "Taksi Split - Skradin | Fiksna cijena €140 | TAXI Antonio",
+  "description": "Privatni taksi i transfer, relacija Split - Skradin. Fiksno €140 po vozilu, do 4 putnika, od vrata do vrata. Rezervirajte izravno kod Antonija.",
+  "keywords": "taksi split - skradin, transfer split - skradin, prijevoz split - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privatni taksi transfer",
+      "name": "Taksi Split - Skradin",
+      "description": "Privatni taksi i transfer po fiksnoj cijeni, relacija Split - Skradin, 140 eura po vozilu za do 4 putnika, od vrata do vrata.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Split",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/hr/taxi-split-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "140",
+        "priceCurrency": "EUR",
+        "description": "Jednosmjerni privatni transfer, relacija Split - Skradin, po vozilu za do 4 putnika. Povratno 280 eura."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kolika je udaljenost i koliko traje vožnja?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vožnja na relaciji Split - Skradin duga je oko 93 km i traje otprilike 70 min u uobičajenom prometu, nešto duže u ljetnim gužvama. Polazak planiram tako da vas usporeni dio nikad ne požuri."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Koliko košta taksi na relaciji Split - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fiksno 140 po vozilu za do 4 putnika, jedan smjer, s cestarinama, gorivom i prtljagom. Povratna vožnja je 280."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Je li transfer privatan ili dijeljen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Svaki je transfer privatan i od vrata do vrata, u Škodi Superb. Bez dijeljenja vozila i bez dodatnih zaustavljanja osim ako ih zatražite."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Možete li stati usput?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Da. Na duljim rutama rado stanem za kavu, fotografiju ili kratku znamenitost. Samo javite pri rezervaciji."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Koliko unaprijed trebam rezervirati?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Barem 2 sata unaprijed da potvrdim vozilo i vrijeme preuzimanja. Za brži termin nazovite ili pišite na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

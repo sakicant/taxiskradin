@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-zaton-roski-slap",
+  "title": "택시 Zaton - Roški Slap | 고정 요금 €75 | TAXI Antonio",
+  "description": "개인 택시 및 교통편, Zaton - Roški Slap 노선. 고정 요금 €75 차량당, 최대 4명 탑승, 도어 투 도어. Antonio에게 직접 예약하세요.",
+  "keywords": "택시 zaton - roški slap, 교통편 zaton - roški slap, 공항 교통편 zaton - roški slap",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "개인 택시 교통편",
+      "name": "택시 Zaton - Roški Slap",
+      "description": "고정 요금 개인 택시 및 교통편, Zaton - Roški Slap 노선, 차량당 75 유로, 최대 4명 탑승, 도어 투 도어.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Zaton",
+        "Roški Slap"
+      ],
+      "url": "https://taxiskradin.hr/ko/taxi-zaton-roski-slap/",
+      "offers": {
+        "@type": "Offer",
+        "price": "75",
+        "priceCurrency": "EUR",
+        "description": "개인 편도 이동, Zaton - Roški Slap 노선, 차량당 최대 4명 탑승. 왕복 150 유로."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Zaton - Roški Slap 노선의 택시 요금은 얼마인가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "고정 75 차량당, 최대 4명 탑승, 편도, 짐 포함. 왕복은 150입니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "어디에서 저를 픽업하시나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "집, 호텔, 아파트 어디든 정확한 주소에서 픽업합니다. 예약 시 주소를 보내주시면 만날 장소를 확정해 드립니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "얼마나 미리 예약해야 하나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "차량과 픽업 시간을 확정할 수 있도록 최소 2시간 전 부탁드립니다. 급한 이동은 전화하시거나 WhatsApp으로 메시지를 보내주세요."
+          }
+        }
+      ]
+    }
+  ]
+}

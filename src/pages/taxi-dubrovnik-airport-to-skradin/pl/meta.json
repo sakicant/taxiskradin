@@ -1,0 +1,89 @@
+{
+  "slug": "taxi-lotnisko-dubrovnik-skradin",
+  "title": "Taxi Lotnisko Dubrownik - Skradin | Stała cena €485 | TAXI Antonio",
+  "description": "Prywatne taxi i transfer, trasa Lotnisko Dubrownik - Skradin. Stała cena €485 za pojazd, do 4 osób. Rezerwacja bezpośrednio u Antonio.",
+  "keywords": "taxi lotnisko dubrownik - skradin, transfer lotnisko dubrownik - skradin, transfer lotniskowy lotnisko dubrownik - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-airport-2.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Prywatny transfer taxi",
+      "name": "Taxi Lotnisko Dubrownik - Skradin",
+      "description": "Prywatne taxi i transfer w stałej cenie, trasa Lotnisko Dubrownik - Skradin, 485 euro za pojazd dla maksymalnie 4 pasażerów, od drzwi do drzwi.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Lotnisko Dubrownik",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/pl/taxi-lotnisko-dubrovnik-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "485",
+        "priceCurrency": "EUR",
+        "description": "Prywatny przejazd w jedną stronę, trasa Lotnisko Dubrownik - Skradin, za pojazd dla maksymalnie 4 pasażerów. Tam i z powrotem 970 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Jak długa jest trasa i ile trwa przejazd?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Przejazd na trasie Lotnisko Dubrownik - Skradin liczy około 305 km i trwa około 4 h 15 min przy normalnym ruchu, w szczycie sezonu letniego nieco dłużej. Odbiór planuję tak, aby wolniejszy przejazd nigdy nie zmusił Pana/Pani do pośpiechu."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gdzie mnie Pan odbierze?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "W hali przylotów, zaraz za odbiorem bagażu, z tabliczką z Pana/Pani nazwiskiem. Pomagam z bagażem i odprowadzam Pana/Panią do pojazdu."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Co, jeśli mój lot będzie opóźniony?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Żaden problem. Śledzę Pana/Pani lot na bieżąco i dostosowuję odbiór do rzeczywistego lądowania, bez dopłaty za czas oczekiwania."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ile kosztuje transfer na trasie Lotnisko Dubrownik - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stała cena 485 za pojazd dla maksymalnie 4 pasażerów, w jedną stronę, opłaty drogowe i bagaż w cenie. Przejazd tam i z powrotem kosztuje 970."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Z jakim wyprzedzeniem należy rezerwować?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Co najmniej 2 godziny wcześniej, abym mógł zaplanować przejazd wokół Pana/Pani lotu. W przypadku odbioru tego samego dnia po zmianie na ostatnią chwilę proszę zadzwonić lub napisać na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

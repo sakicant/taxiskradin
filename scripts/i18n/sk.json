@@ -1,0 +1,261 @@
+{
+ "taxi_word": "Taxi",
+ "book_slug": "rezervacia",
+ "airport_name": {
+  "Split Airport": "Letisko Split",
+  "Zadar Airport": "Letisko Zadar",
+  "Zagreb Airport": "Letisko Zagreb",
+  "Dubrovnik Airport": "Letisko Dubrovnik"
+ },
+ "airport_slug": {
+  "split-airport": "letisko-split",
+  "zadar-airport": "letisko-zadar",
+  "zagreb-airport": "letisko-zagreb",
+  "dubrovnik-airport": "letisko-dubrovnik"
+ },
+ "hero_alt": "Taxi {rel}: Škoda Superb od TAXI Antonio na dalmatínskom pobreží",
+ "per_car": "za vozidlo &middot; až 4 cestujúci",
+ "book_now": "Rezervovať teraz",
+ "book_wa": "Rezervovať cez WhatsApp",
+ "why_eyebrow": "Prečo si rezervovať tento transfer",
+ "why_title": "Prečo si rezervovať vaše Taxi {rel} u Antonia?",
+ "price_title": "Cena {rel}",
+ "price_sub": "Pevná cena za vozidlo, až 4 cestujúci, batožina v cene. Rovnaká cena platí aj v opačnom smere.",
+ "price_oneway_lbl": "Jednosmerne",
+ "price_return_lbl": "Tam &amp; späť",
+ "price_advance_lbl": "Záloha na potvrdenie",
+ "price_balance_val": "Hotovosť alebo karta",
+ "price_balance_lbl": "Doplatok v deň jazdy",
+ "hub_note": "Záloha 20% (minimálne &euro;20) potvrdí vašu rezerváciu, zvyšok zaplatíte v deň jazdy, hotovosťou alebo kartou. Cestujete opačným smerom? Pozrite {revlink}.",
+ "reviews_eyebrow": "Recenzie",
+ "reviews_title": "Čo hovoria cestujúci",
+ "reviews_sub": "Skutočné recenzie od skutočných cestujúcich.",
+ "faq_eyebrow": "FAQ",
+ "faq_title": "Taxi {rel}: Časté otázky",
+ "cta_title": "Rezervujte si svoj transfer {rel}",
+ "cta_sub": "Pevná cena &euro;{p} za vozidlo, až 4 cestujúci. Potvrdenie na pár klikov.",
+ "trust_air": "Potvrdené po zálohe &middot; Žiadne skryté poplatky &middot; Sledovanie letu v cene",
+ "trust_generic": "Potvrdené po zálohe &middot; Žiadne skryté poplatky &middot; Pevná cena, žiadny taxameter",
+ "rf_fixed_oneway_lbl": "Pevná cena, jednosmerne",
+ "rf_distance_lbl": "Vzdialenosť",
+ "rf_drivetime_lbl": "Čas jazdy",
+ "rf_return_lbl": "Tam &amp; späť",
+ "rf_upto4_val": "Až 4",
+ "rf_upto4_lbl": "Cestujúci",
+ "rf_skoda_lbl": "Súkromne, od dverí k dverám",
+ "meta_title": "Taxi {rel} | Pevná cena €{p} | TAXI Antonio",
+ "meta_desc": "Súkromné taxi a transfer, trasa {rel}. Pevná cena €{p} za vozidlo, až 4 cestujúci, od dverí k dverám. Rezervujte priamo u Antonia.",
+ "meta_desc_short": "Súkromné taxi a transfer, trasa {rel}. Pevná cena €{p} za vozidlo, až 4. Rezervujte priamo u Antonia.",
+ "keywords": "taxi {rell}, transfer {rell}, letiskový transfer {rell}",
+ "schema_servicetype": "Súkromný taxi transfer",
+ "schema_name": "Taxi {rel}",
+ "schema_desc": "Súkromné taxi a transfer za pevnú cenu, trasa {rel}, {p} eur za vozidlo pre až 4 cestujúcich, od dverí k dverám.",
+ "schema_offer_desc": "Jednosmerná súkromná jazda, trasa {rel}, za vozidlo pre až 4 cestujúcich. Tam a späť {rp} eur.",
+ "dist_faq_q": "Aká dlhá je trasa a ako dlho trvá jazda?",
+ "dist_faq_a": "Jazda na trase {rel} je dlhá približne {km} km a trvá asi {t} pri bežnej premávke, v letnej špičke o niečo dlhšie. Vyzdvihnutie plánujem tak, aby vás pomalá trasa nikdy nedostala do zhonu.",
+ "types": {
+  "to_airport": {
+   "heading": "Vaše súkromné taxi a transfer, trasa {rel}",
+   "tagline": "Taxi a súkromný transfer za pevnú cenu, trasa {rel}, priamo k odletu.",
+   "intro": "Odlietate z letiska {city}? Na trasu {rel} ponúkam súkromné taxi a transfer za pevnú cenu. Som Antonio, miestny vodič: vyzdvihnem vás na vašej adrese a odveziem vás v pohodlnej Škoda Superb priamo k odletovému terminálu. Cena je pevná, &euro;{p} za celé vozidlo, až 4 cestujúci, dohodnutá vopred, bez taxametra a bez prekvapení. Vyzdvihnutie plánujem podľa času vášho letu, aby ste prišli s dostatkom času na odbavenie. Formulár ponuky vyššie je pre túto trasu už vyplnený, takže vidíte cenu a rezervujete na pár klikov.",
+   "whys": [
+    [
+     "Pevná cena &euro;{p}",
+     "Jedna cena za celé vozidlo, až 4 cestujúci, dohodnutá vopred. Mýto, palivo a batožina v cene, žiadny taxameter."
+    ],
+    [
+     "Zladené s vaším letom",
+     "Povedzte mi čas odletu a ja to prepočítam späť, aby ste boli na termináli s časom na odbavenie."
+    ],
+    [
+     "Od dverí k terminálu",
+     "Vyzdvihnutie na vašej adrese a vysadenie priamo pri vchode do odletového terminálu."
+    ],
+    [
+     "Kedykoľvek",
+     "Skoré aj neskoré lety nie sú problém. Jazdím nonstop za cenu dohodnutú vopred."
+    ]
+   ],
+   "faqs": [
+    [
+     "Koľko stojí taxi na trase {rel}?",
+     "Pevne &euro;{p} za vozidlo, jednosmerná jazda, pre až 4 cestujúcich. Cena platí za vozidlo, nie za osobu, a zahŕňa mýto, palivo a batožinu. Jazda tam a späť stojí &euro;{rp}."
+    ],
+    [
+     "Kedy mám vyraziť na letisko?",
+     "Spravidla asi 3 hodiny pred medzinárodným a 2 hodiny pred vnútroštátnym letom. Povedzte mi čas letu a ja potvrdím presné vyzdvihnutie."
+    ],
+    [
+     "Odveziete ma až k odletovému terminálu?",
+     "Áno. Odveziem vás priamo k odletovému terminálu a pomôžem s batožinou. Žiadna chôdza z parkoviska a žiadny shuttle."
+    ],
+    [
+     "S akým predstihom mám rezervovať?",
+     "Minimálne 2 hodiny vopred, aby som mohol potvrdiť vozidlo a vyzdvihnutie, a skôr pri skorých letoch a v hlavnej sezóne. Pri jazde na poslednú chvíľu zavolajte alebo napíšte na WhatsApp."
+    ]
+   ]
+  },
+  "from_airport": {
+   "heading": "Vaše vyzdvihnutie z letiska a transfer, trasa {rel}",
+   "tagline": "Súkromné vyzdvihnutie z letiska a transfer za pevnú cenu, trasa {rel}, so sledovaním letu.",
+   "intro": "Práve ste pristáli na letisku {city}? Súkromný transfer na trasu {rel} vám zoberie stres z príletu. Privítam vás v príletovej hale s menovkou, pomôžem s batožinou a odveziem vás v pohodlnej Škoda Superb priamo do cieľa, za pevnú cenu &euro;{p} za celé vozidlo, až 4 cestujúci. Váš let sledujem v reálnom čase, takže som tu, či pristanete skôr alebo neskôr. Žiadny rad na taxi, žiadny zdieľaný transfer a žiadne prirážky k cene. Formulár vyššie je pre túto trasu už vyplnený.",
+   "whys": [
+    [
+     "Privítanie s menovkou",
+     "Čakám v príletovej hale s menovkou a pomôžem s taškami, takže idete priamo k vozidlu."
+    ],
+    [
+     "Sledovanie letu",
+     "Váš let sledujem v reálnom čase a prispôsobím sa skoršiemu pristátiu alebo meškaniu, s bezplatným čakaním."
+    ],
+    [
+     "Pevná cena &euro;{p}",
+     "Jedna cena za celé vozidlo, až 4 cestujúci, dohodnutá vopred. Mýto, palivo a batožina v cene, žiadny taxameter."
+    ],
+    [
+     "Priamo k vašim dverám",
+     "Žiadny rad a žiadne prestupovanie. Odveziem vás priamo na vašu adresu."
+    ]
+   ],
+   "faqs": [
+    [
+     "Kde ma privítate?",
+     "V príletovej hale, hneď po výdaji batožiny, s tabuľkou s vaším menom. Pomôžem s batožinou a odprevadím vás k vozidlu."
+    ],
+    [
+     "Čo ak má môj let meškanie?",
+     "Žiadny problém. Váš let sledujem v reálnom čase a vyzdvihnutie prispôsobím skutočnému pristátiu, bez príplatku za čakanie."
+    ],
+    [
+     "Koľko stojí transfer na trase {rel}?",
+     "Pevne &euro;{p} za vozidlo pre až 4 cestujúcich, jednosmerná jazda, mýto a batožina v cene. Jazda tam a späť stojí &euro;{rp}."
+    ],
+    [
+     "S akým predstihom mám rezervovať?",
+     "Minimálne 2 hodiny vopred, aby som mohol plánovať okolo vášho letu. Pri vyzdvihnutí v ten istý deň po zmene na poslednú chvíľu zavolajte alebo napíšte na WhatsApp."
+    ]
+   ]
+  },
+  "marina": {
+   "heading": "Súkromný transfer z maríny, trasa {rel}",
+   "tagline": "Súkromné taxi a transfer za pevnú cenu, trasa {rel}, zladené s vašou loďou.",
+   "intro": "Cestujete na trase {rel}? Jazdím súkromné taxi a transfer za pevnú cenu pre hostí maríny, zladený s vašou loďou a plánmi cesty. Vyzdvihnem vás s množstvom miesta na batožinu a odveziem vás celú cestu pohodlne v Škoda Superb, za paušálnu cenu &euro;{p} za vozidlo, až 4 cestujúci, dohodnutú pred jazdou. Či už prichádzate na svoju jachtu, alebo pokračujete v ceste po vylodení, žiadny taxameter a žiadne čakanie na stanovišti, len miestny vodič, ktorého si rezervujete priamo. Toto je súkromný transfer na dlhšej trase a ponuka vyššie je pre túto trasu už nastavená.",
+   "whys": [
+    [
+     "Pevná cena &euro;{p}",
+     "Jedna cena za vozidlo pre až 4 cestujúcich, dohodnutá vopred. Mýto, palivo a batožina v cene, žiadny bežiaci taxameter."
+    ],
+    [
+     "Zladené s vašou loďou",
+     "Povedzte mi čas charteru, check-inu alebo odplávania a ja naplánujem vyzdvihnutie okolo neho, aby vás pomalá trasa nikdy nedostala do zhonu."
+    ],
+    [
+     "Miesto na vašu batožinu",
+     "Kufre, proviant a lodné tašky sa všetky zmestia do pohodlnej Škoda Superb, s pomocnou rukou pri nakladaní a vykladaní."
+    ],
+    [
+     "Miestny vodič",
+     "Komunikujete priamo so mnou, od rezervácie po príchod, telefonicky, cez WhatsApp alebo e-mailom. Žiadne call centrum."
+    ]
+   ],
+   "faqs": [
+    [
+     "Koľko stojí transfer na trase {rel}?",
+     "Pevne &euro;{p} za vozidlo pre až 4 cestujúcich, jednosmerná jazda, s mýtom, palivom a batožinou. Jazda tam a späť stojí &euro;{rp}."
+    ],
+    [
+     "Môžete vyzdvihnúť priamo v maríne?",
+     "Áno. Stretnem vás pri vchode alebo na recepcii maríny a pomôžem s batožinou, takže idete priamo z móla k vozidlu."
+    ],
+    [
+     "Môžete zladiť transfer s mojou loďou?",
+     "Áno. Pri rezervácii mi pošlite čas charteru, check-inu alebo odplávania a ja naplánujem vyzdvihnutie okolo neho."
+    ],
+    [
+     "S akým predstihom mám rezervovať?",
+     "Minimálne 2 hodiny vopred, aby som mohol potvrdiť vozidlo a čas vyzdvihnutia. Pri jazde na poslednú chvíľu zavolajte alebo napíšte mi priamo na WhatsApp."
+    ]
+   ]
+  },
+  "city": {
+   "heading": "Súkromný transfer, trasa {rel}",
+   "tagline": "Súkromné taxi a transfer za pevnú cenu, trasa {rel}, od dverí k dverám.",
+   "intro0": "Potrebujete spoľahlivý transfer na trase {rel}? Ponúkam súkromné taxi a transfer za pevnú cenu, od dverí k dverám, v pohodlnej Škoda Superb. Vyzdvihnem vás na vašej presnej adrese a odveziem vás priamo do cieľa, bez nechcených zastávok a bez spolujazdcov. Cena je pevná, &euro;{p} za celé vozidlo, až 4 cestujúci, dohodnutá pred odchodom, mýto a batožina v cene. Ponuka vyššie je pre túto trasu vyplnená, takže rezervácia trvá len pár klikov.",
+   "intro1": "Hľadáte taxi na trase {rel} bez taxametra a starostí? Toto je súkromný transfer za pevnú cenu s miestnym vodičom. Vyzdvihnem vás pri dverách a pohodlne vás odveziem do cieľa, aj s batožinou, za paušálnu cenu &euro;{p} za vozidlo pre až 4 cestujúcich. Pre páry a rodiny je to často lacnejšie ako samostatné lístky na autobus či vlak, a vždy rýchlejšie a od dverí k dverám. Ponuka vyššie je pre túto trasu už nastavená.",
+   "whys": [
+    [
+     "Pevná cena &euro;{p}",
+     "Jedna cena za vozidlo pre až 4 cestujúcich, dohodnutá vopred. Mýto, palivo a batožina v cene, žiadny bežiaci taxameter."
+    ],
+    [
+     "Od dverí k dverám",
+     "Vyzdvihnem vás na vašej presnej adrese a vysadím pri dverách cieľa. Žiadne stanice, žiadne prestupovanie."
+    ],
+    [
+     "Miestny vodič",
+     "Komunikujete priamo so mnou, od rezervácie po príchod, telefonicky, cez WhatsApp alebo e-mailom. Žiadne call centrum."
+    ],
+    [
+     "Zastávky na želanie",
+     "Na dlhších trasách rád zastavím na kávu, fotku alebo krátku zaujímavosť cestou."
+    ]
+   ],
+   "faqs": [
+    [
+     "Koľko stojí taxi na trase {rel}?",
+     "Pevne &euro;{p} za vozidlo pre až 4 cestujúcich, jednosmerná jazda, s mýtom, palivom a batožinou. Jazda tam a späť stojí &euro;{rp}."
+    ],
+    [
+     "Je transfer súkromný alebo zdieľaný?",
+     "Každý transfer je súkromný a od dverí k dverám, v Škoda Superb. Žiadne zdieľanie vozidla a žiadne zastávky navyše, iba ak si to želáte."
+    ],
+    [
+     "Môžete zastaviť cestou?",
+     "Áno. Na dlhších trasách rád zastavím na kávu, fotku alebo krátku zaujímavosť. Stačí povedať pri rezervácii."
+    ],
+    [
+     "S akým predstihom mám rezervovať?",
+     "Minimálne 2 hodiny vopred, aby som mohol potvrdiť vozidlo a čas vyzdvihnutia. Pri jazde na poslednú chvíľu zavolajte alebo napíšte na WhatsApp."
+    ]
+   ]
+  },
+  "local": {
+   "heading": "Súkromné taxi, trasa {rel}",
+   "tagline": "Súkromné taxi a transfer za pevnú cenu, trasa {rel}, od dverí k dverám.",
+   "intro0": "Cestujete na trase {rel}? Jazdím súkromné taxi a transfer za pevnú cenu, s vyzdvihnutím pri vašich dverách a vysadením presne tam, kam potrebujete. Cena je paušálna &euro;{p} za celé vozidlo, až 4 cestujúci, bez taxametra a bez čakania na stanovišti. Pohodlná Škoda Superb, miesto na vašu batožinu a miestny vodič, ktorého si rezervujete priamo. Ponuka vyššie je pre túto trasu vyplnená.",
+   "intro1": "Potrebujete taxi na trase {rel}? Ponúkam súkromný transfer od dverí k dverám za pevnú cenu &euro;{p} za celé vozidlo, až 4 cestujúci. Prídem na vašu adresu v dohodnutom čase, takže nikdy nečakáte pri ceste, a pohodlne vás odveziem do cieľa. Žiadny taxameter, žiadne prekvapenia, len miestny vodič od rezervácie po príchod. Ponuka vyššie je pre túto trasu už nastavená.",
+   "whys": [
+    [
+     "Pevná cena &euro;{p}",
+     "Jedna cena za vozidlo pre až 4 cestujúcich, dohodnutá pred jazdou. Žiadny taxameter, žiadne prekvapenia."
+    ],
+    [
+     "Od dverí k dverám",
+     "Vyzdvihnutie na vašej adrese a vysadenie pri dverách cieľa, aj s batožinou."
+    ],
+    [
+     "Bez potreby stanovišťa",
+     "Rezervované vopred, takže nikdy nečakáte na okoloidúce taxi. Prídem k vám."
+    ],
+    [
+     "Miestny vodič",
+     "Komunikujete priamo so mnou, od rezervácie po príchod, telefonicky, cez WhatsApp alebo e-mailom."
+    ]
+   ],
+   "faqs": [
+    [
+     "Koľko stojí taxi na trase {rel}?",
+     "Pevne &euro;{p} za vozidlo pre až 4 cestujúcich, jednosmerná jazda, batožina v cene. Jazda tam a späť stojí &euro;{rp}."
+    ],
+    [
+     "Kde ma vyzdvihnete?",
+     "Na vašej presnej adrese, či už dom, hotel alebo apartmán. Pošlite adresu pri rezervácii a ja potvrdím miesto stretnutia."
+    ],
+    [
+     "S akým predstihom mám rezervovať?",
+     "Minimálne 2 hodiny vopred, aby som mohol potvrdiť vozidlo a čas vyzdvihnutia. Pri jazde na poslednú chvíľu zavolajte alebo napíšte na WhatsApp."
+    ]
+   ]
+  }
+ }
+}

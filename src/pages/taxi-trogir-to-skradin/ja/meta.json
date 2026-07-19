@@ -1,0 +1,89 @@
+{
+  "slug": "taxi-trogir-skradin",
+  "title": "タクシー Trogir - Skradin | 固定料金 €100 | TAXI Antonio",
+  "description": "貸切タクシー・送迎、Trogir - Skradin 区間。固定料金 €100／1台、最大4名様、ドアツードア。Antonioに直接ご予約ください。",
+  "keywords": "タクシー trogir - skradin, 送迎 trogir - skradin, 空港送迎 trogir - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "貸切タクシー送迎",
+      "name": "タクシー Trogir - Skradin",
+      "description": "固定料金の貸切タクシー・送迎、Trogir - Skradin 区間、1台 100 ユーロで最大4名様、ドアツードア。",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Trogir",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/ja/taxi-trogir-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "100",
+        "priceCurrency": "EUR",
+        "description": "貸切の片道乗車、Trogir - Skradin 区間、1台で最大4名様。往復は 200 ユーロ。"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "この区間はどのくらいの距離で、所要時間はどのくらいですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Trogir - Skradin 区間の乗車は約 65 km で、通常の交通状況で約 60 min かかります。夏のハイシーズンは少し長くなります。道が混んでいてもお急ぎにならないよう、余裕を持ってお迎えの時間を計画します。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Trogir - Skradin 区間のタクシー料金はいくらですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "片道、車1台あたり固定 100、最大4名様、通行料・燃料・荷物込み。往復は 200 です。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "送迎は貸切ですか、乗合ですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "すべての送迎はŠkoda Superbによる貸切で、ドアツードアです。車の相乗りや余計な立ち寄りは、ご希望がない限りありません。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "途中で立ち寄ってもらえますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "はい。長距離では、コーヒーや写真、ちょっとした見どころのために喜んで立ち寄ります。ご予約時にお知らせください。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "どのくらい前に予約すべきですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "車とお迎え時間を確定できるよう、少なくとも2時間前までにご予約ください。直前のご乗車は、お電話またはWhatsAppでご連絡ください。"
+          }
+        }
+      ]
+    }
+  ]
+}

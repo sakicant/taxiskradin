@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-roski-slap-seget",
+  "title": "Taxi Roški Slap - Seget | Stała cena €110 | TAXI Antonio",
+  "description": "Prywatne taxi i transfer, trasa Roški Slap - Seget. Stała cena €110 za pojazd, do 4 pasażerów, od drzwi do drzwi. Rezerwacja bezpośrednio u Antonio.",
+  "keywords": "taxi roški slap - seget, transfer roški slap - seget, transfer lotniskowy roški slap - seget",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Prywatny transfer taxi",
+      "name": "Taxi Roški Slap - Seget",
+      "description": "Prywatne taxi i transfer w stałej cenie, trasa Roški Slap - Seget, 110 euro za pojazd dla maksymalnie 4 pasażerów, od drzwi do drzwi.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Roški Slap",
+        "Seget"
+      ],
+      "url": "https://taxiskradin.hr/pl/taxi-roski-slap-seget/",
+      "offers": {
+        "@type": "Offer",
+        "price": "110",
+        "priceCurrency": "EUR",
+        "description": "Prywatny przejazd w jedną stronę, trasa Roški Slap - Seget, za pojazd dla maksymalnie 4 pasażerów. Tam i z powrotem 220 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Ile kosztuje taxi na trasie Roški Slap - Seget?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stała cena 110 za pojazd dla maksymalnie 4 pasażerów, w jedną stronę, bagaż w cenie. Przejazd tam i z powrotem kosztuje 220."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gdzie mnie Pan odbierze?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Spod Pana/Pani dokładnego adresu, czy to dom, hotel, czy apartament. Proszę przesłać adres przy rezerwacji, a ja potwierdzę miejsce spotkania."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Z jakim wyprzedzeniem należy rezerwować?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Co najmniej 2 godziny wcześniej, abym mógł potwierdzić pojazd i godzinę odbioru. W razie przejazdu na ostatnią chwilę proszę zadzwonić lub napisać na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

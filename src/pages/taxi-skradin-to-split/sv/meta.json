@@ -1,0 +1,89 @@
+{
+  "slug": "taxi-skradin-split",
+  "title": "Taxi Skradin - Split | Fast pris €140 | TAXI Antonio",
+  "description": "Privat taxi och transfer, Skradin - Split. Fast pris €140 per fordon, upp till 4 passagerare, dörr till dörr. Boka direkt hos Antonio.",
+  "keywords": "taxi skradin - split, transfer skradin - split, flygplatstransfer skradin - split",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privat taxitransfer",
+      "name": "Taxi Skradin - Split",
+      "description": "Privat taxi och transfer till fast pris, Skradin - Split, 140 euro per fordon för upp till 4 passagerare, dörr till dörr.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Split"
+      ],
+      "url": "https://taxiskradin.hr/sv/taxi-skradin-split/",
+      "offers": {
+        "@type": "Offer",
+        "price": "140",
+        "priceCurrency": "EUR",
+        "description": "Enkel privat resa, Skradin - Split, per fordon för upp till 4 passagerare. Tur och retur 280 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hur långt är sträckan och hur lång tid tar resan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Resan Skradin - Split är cirka 93 km lång och tar ungefär 70 min vid normal trafik, något längre under högsommaren. Jag planerar upphämtningen så att en långsam sträcka aldrig gör dig stressad."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hur mycket kostar en taxi på sträckan Skradin - Split?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fast 140 per fordon för upp till 4 passagerare, enkel resa, med vägtull, bränsle och bagage. En tur och retur kostar 280."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Är transfern privat eller delad?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Varje transfer är privat och dörr till dörr, i en Škoda Superb. Ingen delning av fordonet och inga extra stopp, om du inte önskar det."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan du stanna på vägen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. På längre sträckor stannar jag gärna för en kaffe, ett foto eller en kort sevärdhet. Säg bara till vid bokningen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hur långt i förväg bör jag boka?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minst 2 timmar i förväg, så att jag kan bekräfta fordon och upphämtningstid. För en resa med kort varsel, ring eller skriv på WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

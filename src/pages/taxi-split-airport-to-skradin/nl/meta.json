@@ -1,0 +1,89 @@
+{
+  "slug": "taxi-luchthaven-split-skradin",
+  "title": "Taxi Luchthaven Split - Skradin | Vaste prijs €110 | TAXI Antonio",
+  "description": "Privétaxi en transfer, route Luchthaven Split - Skradin. Vaste prijs €110 per voertuig, tot 4 passagiers, deur tot deur. Rechtstreeks bij Antonio boeken.",
+  "keywords": "taxi luchthaven split - skradin, transfer luchthaven split - skradin, luchthaventransfer luchthaven split - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-airport-2.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privé taxitransfer",
+      "name": "Taxi Luchthaven Split - Skradin",
+      "description": "Privétaxi en transfer tegen vaste prijs, route Luchthaven Split - Skradin, 110 euro per voertuig voor tot 4 passagiers, deur tot deur.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Luchthaven Split",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/nl/taxi-luchthaven-split-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "110",
+        "priceCurrency": "EUR",
+        "description": "Enkele privérit, route Luchthaven Split - Skradin, per voertuig voor tot 4 passagiers. Heen en terug 220 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hoe ver is de route en hoe lang duurt de rit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "De rit op de route Luchthaven Split - Skradin is ongeveer 63 km lang en duurt zo'n 55 min bij normaal verkeer, in het hoogseizoen iets langer. Ik plan de ophaaltijd zo dat een trage route u nooit in tijdnood brengt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Waar ontvangt u mij?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In de aankomsthal, direct na de bagageband, met een bordje met uw naam. Ik help met de bagage en begeleid u naar het voertuig."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wat als mijn vlucht vertraging heeft?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Geen probleem. Ik volg uw vlucht in realtime en pas de ophaaltijd aan op de daadwerkelijke landing, zonder toeslag voor de wachttijd."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoeveel kost de transfer op de route Luchthaven Split - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vast 110 per voertuig voor tot 4 passagiers, enkele reis, tol en bagage inbegrepen. Een heen- en terugrit kost 220."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoe ver van tevoren moet ik boeken?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minstens 2 uur vooraf, zodat ik rond uw vlucht kan plannen. Voor een ophaal op dezelfde dag na een wijziging op korte termijn belt u of schrijft u op WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

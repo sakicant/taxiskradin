@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-skradin-pakostane",
+  "title": "Taxi Skradin - Pakoštane | Fix ár €95 | TAXI Antonio",
+  "description": "Privát taxi és transzfer a Skradin - Pakoštane útvonalon. Fix ár €95 járművenként, legfeljebb 4 utas, háztól házig. Foglaljon közvetlenül Antoniónál.",
+  "keywords": "taxi skradin - pakoštane, transzfer skradin - pakoštane, reptéri transzfer skradin - pakoštane",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privát taxitranszfer",
+      "name": "Taxi Skradin - Pakoštane",
+      "description": "Privát taxi és transzfer fix áron a Skradin - Pakoštane útvonalon, 95 euró járművenként, legfeljebb 4 utas, háztól házig.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Pakoštane"
+      ],
+      "url": "https://taxiskradin.hr/hu/taxi-skradin-pakostane/",
+      "offers": {
+        "@type": "Offer",
+        "price": "95",
+        "priceCurrency": "EUR",
+        "description": "Privát, csak oda út a Skradin - Pakoštane útvonalon, járművenként, legfeljebb 4 utas. Oda-vissza 190 euró."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Mennyibe kerül a taxi a Skradin - Pakoštane útvonalon?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fix 95 járművenként, legfeljebb 4 utasnak, csak oda, csomagokkal együtt. Az oda-vissza út 190."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hol vesz fel engem?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A pontos címén, legyen az ház, hotel vagy apartman. Foglaláskor küldje el a címet, és megerősítem a találkozási pontot."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mennyivel korábban foglaljak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Legalább 2 órával előtte, hogy megerősíthessem a járművet és a felvétel időpontját. Rövid határidős útért hívjon fel, vagy írjon WhatsAppon."
+          }
+        }
+      ]
+    }
+  ]
+}

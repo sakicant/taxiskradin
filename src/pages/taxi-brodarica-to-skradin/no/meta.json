@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-brodarica-skradin",
+  "title": "Taxi Brodarica - Skradin | Fastpris €55 | TAXI Antonio",
+  "description": "Privat taxi og transport, strekningen Brodarica - Skradin. Fastpris €55 per bil, opptil 4 passasjerer, dør til dør. Bestill direkte hos Antonio.",
+  "keywords": "taxi brodarica - skradin, transport brodarica - skradin, flyplasstransport brodarica - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privat taxitransport",
+      "name": "Taxi Brodarica - Skradin",
+      "description": "Privat taxi og transport til fastpris, strekningen Brodarica - Skradin, 55 euro per bil for opptil 4 passasjerer, dør til dør.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Brodarica",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/no/taxi-brodarica-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "55",
+        "priceCurrency": "EUR",
+        "description": "Enkel privat tur, strekningen Brodarica - Skradin, per bil for opptil 4 passasjerer. Tur og retur 110 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hvor lang er strekningen og hvor lenge tar turen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Turen på strekningen Brodarica - Skradin er rundt 25 km lang og tar omtrent 25 min ved normal trafikk, litt lenger i høysesongen om sommeren. Jeg planlegger henting slik at en langsom strekning aldri gjør deg stresset."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hvor mye koster en taxi på strekningen Brodarica - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fast 55 per bil for opptil 4 passasjerer, en vei, bagasje inkludert. Tur og retur koster 110."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hvor henter du meg?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "På den nøyaktige adressen din, enten det er hus, hotell eller leilighet. Send adressen ved bestilling, så bekrefter jeg møtestedet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hvor lang tid i forveien bør jeg bestille?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minst 2 timer i forveien, så jeg kan bekrefte bil og hentetidspunkt. For en tur på kort varsel, ring eller skriv på WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

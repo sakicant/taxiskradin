@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-marina-tribunj-roski-slap",
+  "title": "Taxi Marina Tribunj - Roški Slap | Prezzo fisso €95 | TAXI Antonio",
+  "description": "Taxi e transfer privato, tratta Marina Tribunj - Roški Slap. Prezzo fisso €95 per veicolo, fino a 4. Prenoti direttamente con Antonio.",
+  "keywords": "taxi marina tribunj - roški slap, transfer marina tribunj - roški slap, transfer aeroportuale marina tribunj - roški slap",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Transfer taxi privato",
+      "name": "Taxi Marina Tribunj - Roški Slap",
+      "description": "Taxi e transfer privato a prezzo fisso, tratta Marina Tribunj - Roški Slap, 95 euro per veicolo fino a 4 passeggeri, porta a porta.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Marina Tribunj",
+        "Roški Slap"
+      ],
+      "url": "https://taxiskradin.hr/it/taxi-marina-tribunj-roski-slap/",
+      "offers": {
+        "@type": "Offer",
+        "price": "95",
+        "priceCurrency": "EUR",
+        "description": "Corsa privata di sola andata, tratta Marina Tribunj - Roški Slap, per veicolo fino a 4 passeggeri. Andata e ritorno 190 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quanto costa un transfer sulla tratta Marina Tribunj - Roški Slap?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fisso 95 per veicolo fino a 4 passeggeri, sola andata, con pedaggio, carburante e bagagli. Un andata e ritorno costa 190."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Può venire a prendermi direttamente alla marina?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sì. La incontro all'ingresso o alla reception della marina e L'aiuto con i bagagli, così va direttamente dal pontile al veicolo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Può adattare il transfer alla mia barca?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sì. Al momento della prenotazione mi invii l'orario del charter, del check-in o della partenza e organizzo il prelievo di conseguenza."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Con quanto anticipo dovrei prenotare?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Almeno 2 ore prima, così posso confermare veicolo e orario del prelievo. Per una corsa dell'ultimo minuto mi chiami o mi scriva direttamente su WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

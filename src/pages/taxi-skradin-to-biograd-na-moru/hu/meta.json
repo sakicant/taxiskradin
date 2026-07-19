@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-skradin-biograd-na-moru",
+  "title": "Taxi Skradin - Biograd na Moru | Fix ár €105 | TAXI Antonio",
+  "description": "Privát taxi és transzfer a Skradin - Biograd na Moru útvonalon. Fix ár €105 járművenként, legfeljebb 4 fő. Foglaljon közvetlenül Antoniónál.",
+  "keywords": "taxi skradin - biograd na moru, transzfer skradin - biograd na moru, reptéri transzfer skradin - biograd na moru",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privát taxitranszfer",
+      "name": "Taxi Skradin - Biograd na Moru",
+      "description": "Privát taxi és transzfer fix áron a Skradin - Biograd na Moru útvonalon, 105 euró járművenként, legfeljebb 4 utas, háztól házig.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Biograd na Moru"
+      ],
+      "url": "https://taxiskradin.hr/hu/taxi-skradin-biograd-na-moru/",
+      "offers": {
+        "@type": "Offer",
+        "price": "105",
+        "priceCurrency": "EUR",
+        "description": "Privát, csak oda út a Skradin - Biograd na Moru útvonalon, járművenként, legfeljebb 4 utas. Oda-vissza 210 euró."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Mennyibe kerül a taxi a Skradin - Biograd na Moru útvonalon?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fix 105 járművenként, legfeljebb 4 utasnak, csak oda, csomagokkal együtt. Az oda-vissza út 210."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hol vesz fel engem?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A pontos címén, legyen az ház, hotel vagy apartman. Foglaláskor küldje el a címet, és megerősítem a találkozási pontot."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mennyivel korábban foglaljak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Legalább 2 órával előtte, hogy megerősíthessem a járművet és a felvétel időpontját. Rövid határidős útért hívjon fel, vagy írjon WhatsAppon."
+          }
+        }
+      ]
+    }
+  ]
+}

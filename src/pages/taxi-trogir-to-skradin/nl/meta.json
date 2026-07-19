@@ -1,0 +1,89 @@
+{
+  "slug": "taxi-trogir-skradin",
+  "title": "Taxi Trogir - Skradin | Vaste prijs €100 | TAXI Antonio",
+  "description": "Privétaxi en transfer, route Trogir - Skradin. Vaste prijs €100 per voertuig, tot 4 passagiers, deur tot deur. Rechtstreeks bij Antonio boeken.",
+  "keywords": "taxi trogir - skradin, transfer trogir - skradin, luchthaventransfer trogir - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privé taxitransfer",
+      "name": "Taxi Trogir - Skradin",
+      "description": "Privétaxi en transfer tegen vaste prijs, route Trogir - Skradin, 100 euro per voertuig voor tot 4 passagiers, deur tot deur.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Trogir",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/nl/taxi-trogir-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "100",
+        "priceCurrency": "EUR",
+        "description": "Enkele privérit, route Trogir - Skradin, per voertuig voor tot 4 passagiers. Heen en terug 200 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hoe ver is de route en hoe lang duurt de rit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "De rit op de route Trogir - Skradin is ongeveer 65 km lang en duurt zo'n 60 min bij normaal verkeer, in het hoogseizoen iets langer. Ik plan de ophaaltijd zo dat een trage route u nooit in tijdnood brengt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoeveel kost een taxi op de route Trogir - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vast 100 per voertuig voor tot 4 passagiers, enkele reis, met tol, brandstof en bagage. Een heen- en terugrit kost 200."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is de transfer privé of gedeeld?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Elke transfer is privé en van deur tot deur, in een Škoda Superb. Geen delen van het voertuig en geen extra stops, tenzij u dat wenst."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kunt u onderweg stoppen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Op langere routes stop ik graag voor een koffie, een foto of een korte bezienswaardigheid. Zeg het gewoon bij het boeken."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoe ver van tevoren moet ik boeken?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minstens 2 uur vooraf, zodat ik het voertuig en de ophaaltijd kan bevestigen. Voor een rit op korte termijn belt u of schrijft u op WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

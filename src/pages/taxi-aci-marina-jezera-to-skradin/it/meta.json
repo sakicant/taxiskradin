@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-aci-marina-jezera-skradin",
+  "title": "Taxi ACI Marina Jezera - Skradin | Prezzo fisso €70 | TAXI Antonio",
+  "description": "Taxi e transfer privato, tratta ACI Marina Jezera - Skradin. Prezzo fisso €70 per veicolo, fino a 4. Prenoti direttamente con Antonio.",
+  "keywords": "taxi aci marina jezera - skradin, transfer aci marina jezera - skradin, transfer aeroportuale aci marina jezera - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Transfer taxi privato",
+      "name": "Taxi ACI Marina Jezera - Skradin",
+      "description": "Taxi e transfer privato a prezzo fisso, tratta ACI Marina Jezera - Skradin, 70 euro per veicolo fino a 4 passeggeri, porta a porta.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "ACI Marina Jezera",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/it/taxi-aci-marina-jezera-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "70",
+        "priceCurrency": "EUR",
+        "description": "Corsa privata di sola andata, tratta ACI Marina Jezera - Skradin, per veicolo fino a 4 passeggeri. Andata e ritorno 140 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quanto costa un transfer sulla tratta ACI Marina Jezera - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fisso 70 per veicolo fino a 4 passeggeri, sola andata, con pedaggio, carburante e bagagli. Un andata e ritorno costa 140."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Può venire a prendermi direttamente alla marina?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sì. La incontro all'ingresso o alla reception della marina e L'aiuto con i bagagli, così va direttamente dal pontile al veicolo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Può adattare il transfer alla mia barca?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sì. Al momento della prenotazione mi invii l'orario del charter, del check-in o della partenza e organizzo il prelievo di conseguenza."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Con quanto anticipo dovrei prenotare?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Almeno 2 ore prima, così posso confermare veicolo e orario del prelievo. Per una corsa dell'ultimo minuto mi chiami o mi scriva direttamente su WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

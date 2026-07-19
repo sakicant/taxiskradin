@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-aerodrom-zadar-roski-slap",
+  "title": "Taksi Aerodrom Zadar - Roški Slap | Fiksna cena €110 | TAXI Antonio",
+  "description": "Privatni taksi i transfer, relacija Aerodrom Zadar - Roški Slap. Fiksno €110 po vozilu, do 4 putnika, od vrata do vrata. Rezervišite direktno kod Antonija.",
+  "keywords": "taksi aerodrom zadar - roški slap, transfer aerodrom zadar - roški slap, prevoz aerodrom zadar - roški slap",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-airport.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privatni taksi transfer",
+      "name": "Taksi Aerodrom Zadar - Roški Slap",
+      "description": "Privatni taksi i transfer po fiksnoj ceni, relacija Aerodrom Zadar - Roški Slap, 110 evra po vozilu za do 4 putnika, od vrata do vrata.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Aerodrom Zadar",
+        "Roški Slap"
+      ],
+      "url": "https://taxiskradin.hr/sr/taxi-aerodrom-zadar-roski-slap/",
+      "offers": {
+        "@type": "Offer",
+        "price": "110",
+        "priceCurrency": "EUR",
+        "description": "Jednosmerni privatni transfer, relacija Aerodrom Zadar - Roški Slap, po vozilu za do 4 putnika. Povratno 220 evra."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Gde me dočekujete?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "U dolaznoj zoni, odmah nakon preuzimanja prtljaga, s natpisom s vašim imenom. Pomažem s prtljagom i vodim vas do vozila."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Šta ako mi let kasni?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nema problema. Let pratim u realnom vremenu i prilagođavam preuzimanje stvarnom sletanju, bez dodatne naplate čekanja."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Koliko košta transfer na relaciji Aerodrom Zadar - Roški Slap?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fiksno 110 po vozilu za do 4 putnika, jedan smer, putarine i prtljag uključeni. Povratna vožnja je 220."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Koliko unapred treba da rezervišem?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Barem 2 sata unapred da planiram prema vašem letu. Za isti dan nakon nagle promene pozovite ili pišite na WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

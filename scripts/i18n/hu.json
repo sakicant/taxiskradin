@@ -1,0 +1,261 @@
+{
+ "taxi_word": "Taxi",
+ "book_slug": "foglalas",
+ "airport_name": {
+  "Split Airport": "Split repülőtér",
+  "Zadar Airport": "Zadar repülőtér",
+  "Zagreb Airport": "Zagreb repülőtér",
+  "Dubrovnik Airport": "Dubrovnik repülőtér"
+ },
+ "airport_slug": {
+  "split-airport": "split-repuloter",
+  "zadar-airport": "zadar-repuloter",
+  "zagreb-airport": "zagreb-repuloter",
+  "dubrovnik-airport": "dubrovnik-repuloter"
+ },
+ "hero_alt": "Taxi {rel}: a TAXI Antonio Škoda Superbja a dalmát tengerparton",
+ "per_car": "járművenként &middot; legfeljebb 4 utas",
+ "book_now": "Foglaljon most",
+ "book_wa": "Foglalás WhatsAppon",
+ "why_eyebrow": "Miért érdemes ezt a transzfert foglalni",
+ "why_title": "Miért Antoniónál foglalja a {rel} taxit?",
+ "price_title": "{rel} ára",
+ "price_sub": "Fix ár járművenként, legfeljebb 4 utas, csomagokkal együtt. Ugyanez az ár érvényes az ellenkező irányban is.",
+ "price_oneway_lbl": "Csak oda",
+ "price_return_lbl": "Oda &amp; vissza",
+ "price_advance_lbl": "Előleg a megerősítéshez",
+ "price_balance_val": "Készpénz vagy kártya",
+ "price_balance_lbl": "Fennmaradó rész aznap",
+ "hub_note": "A 20% előleg (legalább &euro;20) megerősíti a foglalását, a fennmaradó részt az utazás napján fizeti, készpénzzel vagy kártyával. Ellenkező irányba utazik? Lásd: {revlink}.",
+ "reviews_eyebrow": "Vélemények",
+ "reviews_title": "Amit az utasok mondanak",
+ "reviews_sub": "Valódi vélemények valódi utasoktól.",
+ "faq_eyebrow": "GYIK",
+ "faq_title": "Taxi {rel}: Gyakori kérdések",
+ "cta_title": "Foglalja le a {rel} transzfert",
+ "cta_sub": "Fix ár &euro;{p} járművenként, legfeljebb 4 utas. Megerősítés néhány kattintással.",
+ "trust_air": "Előleg után megerősítve &middot; Nincsenek rejtett költségek &middot; Járatkövetéssel",
+ "trust_generic": "Előleg után megerősítve &middot; Nincsenek rejtett költségek &middot; Fix ár, nincs taxióra",
+ "rf_fixed_oneway_lbl": "Fix ár, csak oda",
+ "rf_distance_lbl": "Távolság",
+ "rf_drivetime_lbl": "Menetidő",
+ "rf_return_lbl": "Oda &amp; vissza",
+ "rf_upto4_val": "Legfeljebb 4",
+ "rf_upto4_lbl": "Utas",
+ "rf_skoda_lbl": "Privát, háztól házig",
+ "meta_title": "Taxi {rel} | Fix ár €{p} | TAXI Antonio",
+ "meta_desc": "Privát taxi és transzfer a {rel} útvonalon. Fix ár €{p} járművenként, legfeljebb 4 utas, háztól házig. Foglaljon közvetlenül Antoniónál.",
+ "meta_desc_short": "Privát taxi és transzfer a {rel} útvonalon. Fix ár €{p} járművenként, legfeljebb 4 fő. Foglaljon közvetlenül Antoniónál.",
+ "keywords": "taxi {rell}, transzfer {rell}, reptéri transzfer {rell}",
+ "schema_servicetype": "Privát taxitranszfer",
+ "schema_name": "Taxi {rel}",
+ "schema_desc": "Privát taxi és transzfer fix áron a {rel} útvonalon, {p} euró járművenként, legfeljebb 4 utas, háztól házig.",
+ "schema_offer_desc": "Privát, csak oda út a {rel} útvonalon, járművenként, legfeljebb 4 utas. Oda-vissza {rp} euró.",
+ "dist_faq_q": "Milyen hosszú az útvonal és mennyi ideig tart az út?",
+ "dist_faq_a": "A {rel} útvonalon az út körülbelül {km} km hosszú, és normál forgalomban körülbelül {t} ideig tart, a nyári főszezonban valamivel tovább. Úgy tervezem meg a felvételt, hogy egy lassabb szakasz miatt soha ne kelljen kapkodnia.",
+ "types": {
+  "to_airport": {
+   "heading": "Az Ön privát taxija és transzfere a {rel} útvonalon",
+   "tagline": "Taxi és privát transzfer fix áron a {rel} útvonalon, egyenesen az indulási terminálig.",
+   "intro": "A {city} repülőtérről indul? A {rel} útvonalra privát taxit és fix árú transzfert kínálok. Antonio vagyok, helyi sofőr: felveszem Önt a megadott címen, és kényelmes Škoda Superbben egyenesen az indulási terminálig viszem. Az ár fix, &euro;{p} az egész járműért, legfeljebb 4 utas, előre megbeszélve, taxióra és meglepetések nélkül. A felvételt a járata időpontjához igazítom, hogy bőven maradjon ideje a becsekkolásra. A fenti ajánlati űrlap erre az útvonalra már ki van töltve, így láthatja az árat, és néhány kattintással foglalhat.",
+   "whys": [
+    [
+     "Fix ár &euro;{p}",
+     "Egy ár az egész járműért, legfeljebb 4 utas, előre megbeszélve. Útdíj, üzemanyag és csomagok az árban, taxióra nélkül."
+    ],
+    [
+     "A járatához igazítva",
+     "Adja meg az indulás időpontját, és visszaszámolok, hogy időben, kényelmesen érjen a terminálra a becsekkoláshoz."
+    ],
+    [
+     "Ajtótól a terminálig",
+     "Felveszem a megadott címen, és egyenesen az indulási terminál bejáratánál teszem ki."
+    ],
+    [
+     "Bármikor",
+     "A korai és késői járatok sem jelentenek gondot. A nap 24 órájában viszem, előre megbeszélt áron."
+    ]
+   ],
+   "faqs": [
+    [
+     "Mennyibe kerül a taxi a {rel} útvonalon?",
+     "Fix &euro;{p} járművenként, csak oda, legfeljebb 4 utasnak. Az ár járművenként értendő, nem személyenként, és tartalmazza az útdíjat, az üzemanyagot és a csomagokat. Az oda-vissza út &euro;{rp}."
+    ],
+    [
+     "Mikor induljak a repülőtérre?",
+     "Általában körülbelül 3 órával a nemzetközi és 2 órával a belföldi járat előtt. Adja meg a járata időpontját, és megerősítem a pontos felvételt."
+    ],
+    [
+     "Egészen az indulási terminálig visz?",
+     "Igen. Egyenesen az indulási terminálig viszem, és segítek a csomagokkal. Nincs gyaloglás a parkolóból, és nincs transzferbusz."
+    ],
+    [
+     "Mennyivel korábban foglaljak?",
+     "Legalább 2 órával előtte, hogy megerősíthessem a járművet és a felvételt, korai járatokhoz és főszezonban pedig korábban. Rövid határidős útért hívjon fel, vagy írjon WhatsAppon."
+    ]
+   ]
+  },
+  "from_airport": {
+   "heading": "Az Ön repülőtéri felvétele és transzfere a {rel} útvonalon",
+   "tagline": "Privát repülőtéri felvétel és fix árú transzfer a {rel} útvonalon, járatkövetéssel.",
+   "intro": "Épp most landolt a {city} repülőtéren? A {rel} útvonalon a privát transzfer leveszi a válláról az érkezés stresszét. Az érkezési csarnokban névtáblával várom, segítek a csomagokkal, és kényelmes Škoda Superbben egyenesen a célig viszem, &euro;{p} fix áron az egész járműért, legfeljebb 4 utas. Valós időben követem a járatát, így ott vagyok, akár korábban, akár később ér földet. Nincs taxisor, nincs gyűjtőtranszfer és nincsenek felárak. A fenti űrlap erre az útvonalra már ki van töltve.",
+   "whys": [
+    [
+     "Fogadás névtáblával",
+     "Az érkezési csarnokban névtáblával várom, és segítek a táskákkal, hogy egyenesen a járműhöz sétálhasson."
+    ],
+    [
+     "Járatkövetés",
+     "Valós időben követem a járatát, és alkalmazkodom a korábbi landoláshoz vagy a késéshez, ingyenes várakozási idővel."
+    ],
+    [
+     "Fix ár &euro;{p}",
+     "Egy ár az egész járműért, legfeljebb 4 utas, előre megbeszélve. Útdíj, üzemanyag és csomagok az árban, taxióra nélkül."
+    ],
+    [
+     "Egyenesen az ajtajáig",
+     "Nincs sorban állás és nincs átszállás. Egyenesen a megadott címére viszem."
+    ]
+   ],
+   "faqs": [
+    [
+     "Hol fogad engem?",
+     "Az érkezési csarnokban, közvetlenül a csomagkiadás után, egy táblával, amelyen az Ön neve áll. Segítek a csomagokkal, és a járműhöz kísérem."
+    ],
+    [
+     "Mi van, ha a járatom késik?",
+     "Semmi gond. Valós időben követem a járatát, és a felvételt a tényleges landoláshoz igazítom, a várakozásért felár nélkül."
+    ],
+    [
+     "Mennyibe kerül a transzfer a {rel} útvonalon?",
+     "Fix &euro;{p} járművenként, legfeljebb 4 utasnak, csak oda, útdíjjal és csomagokkal együtt. Az oda-vissza út &euro;{rp}."
+    ],
+    [
+     "Mennyivel korábban foglaljak?",
+     "Legalább 2 órával előtte, hogy a járata köré tudjam tervezni. Aznapi felvételhez egy rövid határidős változás után hívjon fel, vagy írjon WhatsAppon."
+    ]
+   ]
+  },
+  "marina": {
+   "heading": "Privát marina transzfer a {rel} útvonalon",
+   "tagline": "Privát taxi és fix árú transzfer a {rel} útvonalon, a hajójához igazítva.",
+   "intro": "A {rel} útvonalon utazik? Privát taxit és fix árú transzfert kínálok a marina vendégeinek, a hajójához és az útiterveihez igazítva. Bőséges csomagtérrel veszem fel Önt, és kényelmesen, egy Škoda Superbben viszem végig az egész úton, &euro;{p} átalányáron a járműért, legfeljebb 4 utas, az út előtt megbeszélve. Akár a jachtjához érkezik, akár a kiszállás után utazik tovább, nincs taxióra és nincs várakozás a taxiállomáson, csak egy helyi sofőr, akit közvetlenül foglal. Ez egy privát transzfer egy hosszabb útvonalon, és a fenti ajánlat erre az útvonalra már be van állítva.",
+   "whys": [
+    [
+     "Fix ár &euro;{p}",
+     "Egy ár járművenként, legfeljebb 4 utasnak, előre megbeszélve. Útdíj, üzemanyag és csomagok az árban, nincs ketyegő taxióra."
+    ],
+    [
+     "A hajójához igazítva",
+     "Adja meg a charter, a becsekkolás vagy az indulás időpontját, és ehhez tervezem a felvételt, hogy egy lassabb szakasz miatt soha ne kelljen kapkodnia."
+    ],
+    [
+     "Hely a csomagjának",
+     "A bőröndök, az élelmiszer és a hajóstáskák mind elférnek egy kényelmes Škoda Superbben, be- és kirakodáskor segítő kézzel."
+    ],
+    [
+     "Egy helyi sofőr",
+     "A foglalástól az érkezésig közvetlenül velem intézi, telefonon, WhatsAppon vagy e-mailben. Nincs ügyfélszolgálati központ."
+    ]
+   ],
+   "faqs": [
+    [
+     "Mennyibe kerül a transzfer a {rel} útvonalon?",
+     "Fix &euro;{p} járművenként, legfeljebb 4 utasnak, csak oda, útdíjjal, üzemanyaggal és csomagokkal. Az oda-vissza út &euro;{rp}."
+    ],
+    [
+     "Fel tud venni közvetlenül a marinánál?",
+     "Igen. A marina bejáratánál vagy a recepcióján találkozunk, és segítek a csomagokkal, hogy egyenesen a mólótól a járműhöz sétálhasson."
+    ],
+    [
+     "Hozzá tudja igazítani a transzfert a hajómhoz?",
+     "Igen. Foglaláskor küldje el a charter, a becsekkolás vagy az indulás időpontját, és ehhez tervezem a felvételt."
+    ],
+    [
+     "Mennyivel korábban foglaljak?",
+     "Legalább 2 órával előtte, hogy megerősíthessem a járművet és a felvétel időpontját. Rövid határidős útért hívjon fel, vagy írjon közvetlenül WhatsAppon."
+    ]
+   ]
+  },
+  "city": {
+   "heading": "Privát transzfer a {rel} útvonalon",
+   "tagline": "Privát taxi és fix árú transzfer a {rel} útvonalon, háztól házig.",
+   "intro0": "Megbízható transzferre van szüksége a {rel} útvonalon? Privát taxit és fix árú transzfert kínálok, háztól házig, egy kényelmes Škoda Superbben. A pontos címén veszem fel, és egyenesen a célig viszem, nem kívánt megállók és útitársak nélkül. Az ár fix, &euro;{p} az egész járműért, legfeljebb 4 utas, indulás előtt megbeszélve, útdíjjal és csomagokkal együtt. A fenti ajánlat erre az útvonalra ki van töltve, így a foglalás csak néhány kattintás.",
+   "intro1": "Taxit keres a {rel} útvonalon taxióra és bonyodalom nélkül? Ez egy privát, fix árú transzfer helyi sofőrrel. Az ajtajánál veszem fel, és kényelmesen, a csomagjaival együtt viszem a célig, &euro;{p} átalányáron járművenként, legfeljebb 4 utasnak. Pároknak és családoknak gyakran olcsóbb, mint a külön busz- vagy vonatjegyek, és mindig gyorsabb, háztól házig. A fenti ajánlat erre az útvonalra már be van állítva.",
+   "whys": [
+    [
+     "Fix ár &euro;{p}",
+     "Egy ár járművenként, legfeljebb 4 utasnak, előre megbeszélve. Útdíj, üzemanyag és csomagok az árban, nincs ketyegő taxióra."
+    ],
+    [
+     "Háztól házig",
+     "A pontos címén veszem fel, és a célállomás ajtajánál teszem ki. Nincsenek pályaudvarok, nincs átszállás."
+    ],
+    [
+     "Egy helyi sofőr",
+     "A foglalástól az érkezésig közvetlenül velem intézi, telefonon, WhatsAppon vagy e-mailben. Nincs ügyfélszolgálati központ."
+    ],
+    [
+     "Megállók igény szerint",
+     "Hosszabb utakon szívesen megállok egy kávéra, egy fotóra vagy egy rövid látnivalóért útközben."
+    ]
+   ],
+   "faqs": [
+    [
+     "Mennyibe kerül a taxi a {rel} útvonalon?",
+     "Fix &euro;{p} járművenként, legfeljebb 4 utasnak, csak oda, útdíjjal, üzemanyaggal és csomagokkal. Az oda-vissza út &euro;{rp}."
+    ],
+    [
+     "A transzfer privát vagy megosztott?",
+     "Minden transzfer privát és háztól házig tart, egy Škoda Superbben. Nincs járműmegosztás és nincsenek plusz megállók, hacsak Ön nem kéri."
+    ],
+    [
+     "Meg tud állni útközben?",
+     "Igen. Hosszabb utakon szívesen megállok egy kávéra, egy fotóra vagy egy rövid látnivalóért. Csak jelezze a foglaláskor."
+    ],
+    [
+     "Mennyivel korábban foglaljak?",
+     "Legalább 2 órával előtte, hogy megerősíthessem a járművet és a felvétel időpontját. Rövid határidős útért hívjon fel, vagy írjon WhatsAppon."
+    ]
+   ]
+  },
+  "local": {
+   "heading": "Privát taxi a {rel} útvonalon",
+   "tagline": "Privát taxi és fix árú transzfer a {rel} útvonalon, háztól házig.",
+   "intro0": "A {rel} útvonalon utazik? Privát taxit és fix árú transzfert kínálok, felvétellel az ajtajánál, és kiteszem pontosan ott, ahová mennie kell. Az ár átalány, &euro;{p} az egész járműért, legfeljebb 4 utas, taxióra és taxiállomáson való várakozás nélkül. Egy kényelmes Škoda Superb, hely a csomagjának és egy helyi sofőr, akit közvetlenül foglal. A fenti ajánlat erre az útvonalra ki van töltve.",
+   "intro1": "Taxira van szüksége a {rel} útvonalon? Privát, háztól házig tartó transzfert kínálok fix &euro;{p} áron az egész járműért, legfeljebb 4 utas. A megbeszélt időben érkezem a címére, így soha nem kell az út szélén várakoznia, és kényelmesen viszem a célig. Nincs taxióra, nincsenek meglepetések, csak egy helyi sofőr a foglalástól az érkezésig. A fenti ajánlat erre az útvonalra már be van állítva.",
+   "whys": [
+    [
+     "Fix ár &euro;{p}",
+     "Egy ár járművenként, legfeljebb 4 utasnak, az út előtt megbeszélve. Nincs taxióra, nincsenek meglepetések."
+    ],
+    [
+     "Háztól házig",
+     "Felveszem a megadott címen, és a célállomás ajtajánál teszem ki, a csomagokkal együtt."
+    ],
+    [
+     "Nincs szükség taxiállomásra",
+     "Előre lefoglalva, így soha nem kell egy arra haladó taxira várnia. Én megyek Önhöz."
+    ],
+    [
+     "Egy helyi sofőr",
+     "A foglalástól az érkezésig közvetlenül velem intézi, telefonon, WhatsAppon vagy e-mailben."
+    ]
+   ],
+   "faqs": [
+    [
+     "Mennyibe kerül a taxi a {rel} útvonalon?",
+     "Fix &euro;{p} járművenként, legfeljebb 4 utasnak, csak oda, csomagokkal együtt. Az oda-vissza út &euro;{rp}."
+    ],
+    [
+     "Hol vesz fel engem?",
+     "A pontos címén, legyen az ház, hotel vagy apartman. Foglaláskor küldje el a címet, és megerősítem a találkozási pontot."
+    ],
+    [
+     "Mennyivel korábban foglaljak?",
+     "Legalább 2 órával előtte, hogy megerősíthessem a járművet és a felvétel időpontját. Rövid határidős útért hívjon fel, vagy írjon WhatsAppon."
+    ]
+   ]
+  }
+ }
+}

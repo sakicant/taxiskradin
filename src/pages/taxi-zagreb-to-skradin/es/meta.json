@@ -1,0 +1,89 @@
+{
+  "slug": "taxi-zagreb-skradin",
+  "title": "Taxi Zagreb - Skradin | Precio fijo €485 | TAXI Antonio",
+  "description": "Taxi y traslado privado, Zagreb - Skradin. Precio fijo €485 por vehículo, hasta 4 pasajeros, puerta a puerta. Reserve directamente con Antonio.",
+  "keywords": "taxi zagreb - skradin, traslado zagreb - skradin, traslado al aeropuerto zagreb - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Traslado privado en taxi",
+      "name": "Taxi Zagreb - Skradin",
+      "description": "Taxi y traslado privado a precio fijo, Zagreb - Skradin, 485 euros por vehículo para hasta 4 pasajeros, puerta a puerta.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Zagreb",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/es/taxi-zagreb-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "485",
+        "priceCurrency": "EUR",
+        "description": "Trayecto privado de ida, Zagreb - Skradin, por vehículo para hasta 4 pasajeros. Ida y vuelta 970 euros."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿A qué distancia está el trayecto y cuánto dura el viaje?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El trayecto Zagreb - Skradin tiene unos 328 km y dura alrededor de 3 h 35 min con tráfico normal, un poco más en plena temporada de verano. Planifico la recogida de modo que un trayecto lento nunca le meta prisa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta un taxi en el trayecto Zagreb - Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fijo 485 por vehículo para hasta 4 pasajeros, solo ida, con peajes, combustible y equipaje. Un viaje de ida y vuelta cuesta 970."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿El traslado es privado o compartido?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cada traslado es privado y puerta a puerta, en un Škoda Superb. Sin compartir el vehículo y sin paradas adicionales, salvo que usted lo desee."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puede parar por el camino?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. En los trayectos más largos, paro con gusto para un café, una foto o un breve punto de interés. Solo dígamelo al reservar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Con cuánta antelación debo reservar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Al menos 2 horas antes, para que pueda confirmar el vehículo y la hora de recogida. Para un viaje de última hora, llame o escriba por WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

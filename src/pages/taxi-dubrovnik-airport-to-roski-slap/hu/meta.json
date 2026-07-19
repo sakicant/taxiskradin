@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-dubrovnik-repuloter-roski-slap",
+  "title": "Taxi Dubrovnik repülőtér - Roški Slap | Fix ár €485 | TAXI Antonio",
+  "description": "Privát taxi és transzfer a Dubrovnik repülőtér - Roški Slap útvonalon. Fix ár €485 járművenként, legfeljebb 4 fő. Foglaljon közvetlenül Antoniónál.",
+  "keywords": "taxi dubrovnik repülőtér - roški slap, transzfer dubrovnik repülőtér - roški slap, reptéri transzfer dubrovnik repülőtér - roški slap",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-airport-2.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privát taxitranszfer",
+      "name": "Taxi Dubrovnik repülőtér - Roški Slap",
+      "description": "Privát taxi és transzfer fix áron a Dubrovnik repülőtér - Roški Slap útvonalon, 485 euró járművenként, legfeljebb 4 utas, háztól házig.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Dubrovnik repülőtér",
+        "Roški Slap"
+      ],
+      "url": "https://taxiskradin.hr/hu/taxi-dubrovnik-repuloter-roski-slap/",
+      "offers": {
+        "@type": "Offer",
+        "price": "485",
+        "priceCurrency": "EUR",
+        "description": "Privát, csak oda út a Dubrovnik repülőtér - Roški Slap útvonalon, járművenként, legfeljebb 4 utas. Oda-vissza 970 euró."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hol fogad engem?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Az érkezési csarnokban, közvetlenül a csomagkiadás után, egy táblával, amelyen az Ön neve áll. Segítek a csomagokkal, és a járműhöz kísérem."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mi van, ha a járatom késik?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Semmi gond. Valós időben követem a járatát, és a felvételt a tényleges landoláshoz igazítom, a várakozásért felár nélkül."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mennyibe kerül a transzfer a Dubrovnik repülőtér - Roški Slap útvonalon?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fix 485 járművenként, legfeljebb 4 utasnak, csak oda, útdíjjal és csomagokkal együtt. Az oda-vissza út 970."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mennyivel korábban foglaljak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Legalább 2 órával előtte, hogy a járata köré tudjam tervezni. Aznapi felvételhez egy rövid határidős változás után hívjon fel, vagy írjon WhatsAppon."
+          }
+        }
+      ]
+    }
+  ]
+}

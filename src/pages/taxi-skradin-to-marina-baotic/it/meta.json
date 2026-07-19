@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-skradin-marina-baotic",
+  "title": "Taxi Skradin - Marina Baotić | Prezzo fisso €100 | TAXI Antonio",
+  "description": "Taxi e transfer privato, tratta Skradin - Marina Baotić. Prezzo fisso €100 per veicolo, fino a 4. Prenoti direttamente con Antonio.",
+  "keywords": "taxi skradin - marina baotić, transfer skradin - marina baotić, transfer aeroportuale skradin - marina baotić",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Transfer taxi privato",
+      "name": "Taxi Skradin - Marina Baotić",
+      "description": "Taxi e transfer privato a prezzo fisso, tratta Skradin - Marina Baotić, 100 euro per veicolo fino a 4 passeggeri, porta a porta.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Marina Baotić"
+      ],
+      "url": "https://taxiskradin.hr/it/taxi-skradin-marina-baotic/",
+      "offers": {
+        "@type": "Offer",
+        "price": "100",
+        "priceCurrency": "EUR",
+        "description": "Corsa privata di sola andata, tratta Skradin - Marina Baotić, per veicolo fino a 4 passeggeri. Andata e ritorno 200 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quanto costa un transfer sulla tratta Skradin - Marina Baotić?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fisso 100 per veicolo fino a 4 passeggeri, sola andata, con pedaggio, carburante e bagagli. Un andata e ritorno costa 200."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Può venire a prendermi direttamente alla marina?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sì. La incontro all'ingresso o alla reception della marina e L'aiuto con i bagagli, così va direttamente dal pontile al veicolo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Può adattare il transfer alla mia barca?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sì. Al momento della prenotazione mi invii l'orario del charter, del check-in o della partenza e organizzo il prelievo di conseguenza."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Con quanto anticipo dovrei prenotare?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Almeno 2 ore prima, così posso confermare veicolo e orario del prelievo. Per una corsa dell'ultimo minuto mi chiami o mi scriva direttamente su WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}

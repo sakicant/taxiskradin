@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-aci-marina-trogir-skradin",
+  "title": "ACI Marina Trogir - Skradin 出租车 | 固定价格 €115 | TAXI Antonio",
+  "description": "私人出租车与接送，ACI Marina Trogir - Skradin 路线。固定价格 €115 每车，最多 4 名乘客，门到门。直接向 Antonio 预订。",
+  "keywords": "出租车 aci marina trogir - skradin, 接送 aci marina trogir - skradin, 机场接送 aci marina trogir - skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "私人出租车接送",
+      "name": "ACI Marina Trogir - Skradin 出租车",
+      "description": "固定价格的私人出租车与接送，ACI Marina Trogir - Skradin 路线，每车 115 欧元，最多 4 名乘客，门到门。",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "ACI Marina Trogir",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/zh/taxi-aci-marina-trogir-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "115",
+        "priceCurrency": "EUR",
+        "description": "单程私人乘车，ACI Marina Trogir - Skradin 路线，每车最多 4 名乘客。往返 230 欧元。"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "ACI Marina Trogir - Skradin 路线的接送多少钱？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "固定 115 每车，最多 4 名乘客，单程，含过路费、燃油和行李。往返为 230。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "您能直接到码头接我吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "可以。我会在码头入口或接待处与您会合，帮您搬运行李，让您从码头栈桥直接走到车辆。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "您能让接送配合我的船只吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "可以。预订时把您的租船、登船或出发时间告诉我，我会据此安排接送。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "我该提前多久预订？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "至少提前 2 小时，以便我确认车辆和接送时间。临时用车请致电或直接在 WhatsApp 上给我留言。"
+          }
+        }
+      ]
+    }
+  ]
+}

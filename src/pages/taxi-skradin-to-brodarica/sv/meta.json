@@ -1,0 +1,81 @@
+{
+  "slug": "taxi-skradin-brodarica",
+  "title": "Taxi Skradin - Brodarica | Fast pris €55 | TAXI Antonio",
+  "description": "Privat taxi och transfer, Skradin - Brodarica. Fast pris €55 per fordon, upp till 4 passagerare, dörr till dörr. Boka direkt hos Antonio.",
+  "keywords": "taxi skradin - brodarica, transfer skradin - brodarica, flygplatstransfer skradin - brodarica",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privat taxitransfer",
+      "name": "Taxi Skradin - Brodarica",
+      "description": "Privat taxi och transfer till fast pris, Skradin - Brodarica, 55 euro per fordon för upp till 4 passagerare, dörr till dörr.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Brodarica"
+      ],
+      "url": "https://taxiskradin.hr/sv/taxi-skradin-brodarica/",
+      "offers": {
+        "@type": "Offer",
+        "price": "55",
+        "priceCurrency": "EUR",
+        "description": "Enkel privat resa, Skradin - Brodarica, per fordon för upp till 4 passagerare. Tur och retur 110 euro."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hur långt är sträckan och hur lång tid tar resan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Resan Skradin - Brodarica är cirka 22 km lång och tar ungefär 25 min vid normal trafik, något längre under högsommaren. Jag planerar upphämtningen så att en långsam sträcka aldrig gör dig stressad."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hur mycket kostar en taxi på sträckan Skradin - Brodarica?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fast 55 per fordon för upp till 4 passagerare, enkel resa, bagage ingår. En tur och retur kostar 110."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Var hämtar du mig?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "På din exakta adress, oavsett om det är hus, hotell eller lägenhet. Skicka adressen vid bokningen, så bekräftar jag mötesplatsen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hur långt i förväg bör jag boka?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minst 2 timmar i förväg, så att jag kan bekräfta fordon och upphämtningstid. För en resa med kort varsel, ring eller skriv på WhatsApp."
+          }
+        }
+      ]
+    }
+  ]
+}
