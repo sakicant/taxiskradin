@@ -253,7 +253,7 @@ def build(frm, to, slug):
         <p class="hero-tagline">%s</p>
         <p class="daytrip-price">&euro;%d per car &middot; up to 4 passengers</p>
         <div class="hero-trust">
-          <script defer async src='https://cdn.trustindex.io/loader.js?3d034c475d3887585236cfe8dbc'></script>
+          <script defer async src='https://cdn.trustindex.io/loader.js?43a5bc1770e0096ff5068047a68'></script>
         </div>
         <div class="hero-actions">
           <a class="btn btn-primary" href="%s">Book now</a>
@@ -310,7 +310,7 @@ def build(frm, to, slug):
       <h2 class="section-title">What Passengers Say</h2>
       <p class="section-subtitle">Real reviews from real passengers.</p>
       <div class="reviews-widget">
-        <script defer async src='https://cdn.trustindex.io/loader.js?4aa50a27517a87560776ec90a85'></script>
+        <script defer async src='https://cdn.trustindex.io/loader.js?8affc48775310964b636fcaecfe'></script>
       </div>
     </div>
   </section>
