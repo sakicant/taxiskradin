@@ -2912,7 +2912,7 @@ if (offersList) {
 
 // Cookie consent banner + Google Analytics gated behind "Accept".
 // Analytics only loads once the visitor accepts; "Reject" leaves it off.
-const GA_ID = 'G-XXXXXXXXXX'; // TODO: replace with your GA4 Measurement ID
+const GA_ID = 'G-R32NY510T8'; // GA4 Measurement ID for taxiskradin.hr
 function loadAnalytics() {
   if (!GA_ID || GA_ID.indexOf('G-XXXX') === 0 || window.__gaLoaded) return;
   window.__gaLoaded = true;
