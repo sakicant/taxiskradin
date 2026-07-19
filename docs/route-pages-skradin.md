@@ -187,3 +187,15 @@ matrix fare; wineries are covered by /skradin-winery-transfers/). Generated batc
 | Šibenik | Roški Slap | `taxi-sibenik-to-roski-slap` | 90 |
 | Roški Slap | Žaborić | `taxi-roski-slap-to-zaboric` | 115 |
 | Žaborić | Roški Slap | `taxi-zaboric-to-roski-slap` | 115 |
+| Skradin | Bibich Winery | `taxi-skradin-to-bibich-winery` | 60 |
+| Bibich Winery | Skradin | `taxi-bibich-winery-to-skradin` | 60 |
+| Skradin | Sladić Winery | `taxi-skradin-to-sladic-winery` | 60 |
+| Sladić Winery | Skradin | `taxi-sladic-winery-to-skradin` | 60 |
+| Roški Slap | Bibich Winery | `taxi-roski-slap-to-bibich-winery` | 60 |
+| Bibich Winery | Roški Slap | `taxi-bibich-winery-to-roski-slap` | 60 |
+| Roški Slap | Sladić Winery | `taxi-roski-slap-to-sladic-winery` | 60 |
+| Sladić Winery | Roški Slap | `taxi-sladic-winery-to-roski-slap` | 60 |
+| Skradin | Novalja | `taxi-skradin-to-novalja` | 190 |
+| Novalja | Skradin | `taxi-novalja-to-skradin` | 190 |
+| Roški Slap | Novalja | `taxi-roski-slap-to-novalja` | 190 |
+| Novalja | Roški Slap | `taxi-novalja-to-roski-slap` | 190 |

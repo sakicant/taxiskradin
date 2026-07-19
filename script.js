@@ -1257,6 +1257,8 @@ if (quoteWidget) {
       "NP Plitvice Lakes": 310
     },
     "Novalja": {
+      "NP Krka - Roški Slap entrance": 190,
+      "Skradin - center": 190,
       "Šibenik - center": 190,
       "Split": 280,
       "Split Airport (SPU)": 245,
@@ -1476,6 +1478,8 @@ if (quoteWidget) {
       "Zagreb Airport (ZAG)": 485
     },
     "Skradin - center": {
+      "Sladić Winery": 60,
+      "Bibich Winery": 60,
       "Šibenik - center": 50,
       "D-Marin Marina Mandalina Šibenik": 50,
       "Amadria Park Hotel Šibenik": 50,
@@ -1643,6 +1647,8 @@ if (quoteWidget) {
       "Zagreb Airport (ZAG)": 450
     },
     "NP Krka - Roški Slap entrance": {
+      "Sladić Winery": 60,
+      "Bibich Winery": 60,
       "Šibenik - center": 90,
       "D-Marin Marina Mandalina Šibenik": 90,
       "Amadria Park Hotel Šibenik": 90,
@@ -2420,7 +2426,7 @@ if (quoteWidget) {
   };
 
   const GROUPS = [
-    { label: 'Skradin area', items: ['Skradin - center', 'Marina ACI Skradin', 'NP Krka - Skradin entrance', 'NP Krka - Lozovac entrance', 'NP Krka - Roški Slap entrance'] },
+    { label: 'Skradin area', items: ['Skradin - center', 'Marina ACI Skradin', 'NP Krka - Skradin entrance', 'NP Krka - Lozovac entrance', 'NP Krka - Roški Slap entrance', 'Sladić Winery', 'Bibich Winery'] },
     { label: 'Airports', items: ['Split Airport (SPU)', 'Zadar Airport (ZAD)', 'Dubrovnik Airport (DBV)', 'Zagreb Airport (ZAG)'] },
     { label: 'Cities and towns', items: ['Šibenik - center', 'Šibenik Bus Station', 'Šibenik Ferry Port', 'Brodarica - Šibenik', 'Zablaće', 'Bilice', 'Žaborić', 'Jadrija', 'Vodice', 'Tribunj', 'Zaton', 'Srima', 'Grebaštica', 'Tisno', 'Murter', 'Betina', 'Jezera', 'Bilo', 'Primošten', 'Rogoznica', 'Pirovac', 'Tromilja', 'Lozovac', 'Drniš', 'Knin', 'Perković', 'Zadar', 'Split', 'Dubrovnik', 'Zagreb', 'Trogir', 'Seget', 'Čiovo', 'Makarska', 'Novalja'] },
     { label: 'Marinas', items: ['D-Marin Marina Mandalina Šibenik', 'Marina Zaton', 'ACI Marina Vodice', 'Marina Tribunj', 'Marina Hramina', 'ACI Marina Jezera', 'Marina Betina', 'Marina Kremik', 'Marina Frapa', 'ACI Marina Trogir', 'Marina Trogir (SCT)', 'Marina Baotić', 'Marina Agana'] },
