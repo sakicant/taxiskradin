@@ -24,6 +24,7 @@
       </div>
 
       <form class="contact-form" id="contact-form" action="/contact.php" method="POST">
+<input type="text" name="company" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
         <h3>Pošaljite mi poruku</h3>
         <label for="name">Ime</label>
         <input type="text" id="name" name="name" required>
@@ -46,6 +47,11 @@
 
         <label for="message">Poruka</label>
         <textarea id="message" name="message" rows="5" required placeholder="Recite mi mjesto preuzimanja, datum i odredište..."></textarea>
+
+        <label class="form-consent">
+          <input type="checkbox" name="consent" value="1" required>
+          <span>Pročitao/la sam i prihvaćam <a href="/hr/politika-privatnosti/">Politiku privatnosti</a>.</span>
+        </label>
 
         <button type="submit" class="btn btn-primary">Pošalji poruku</button>
         <p class="form-note" id="form-note"></p>

@@ -24,6 +24,7 @@
       </div>
 
       <form class="contact-form" id="contact-form" action="/contact.php" method="POST">
+<input type="text" name="company" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
         <h3>Stuur me een bericht</h3>
         <label for="name">Naam</label>
         <input type="text" id="name" name="name" required>
@@ -46,6 +47,11 @@
 
         <label for="message">Bericht</label>
         <textarea id="message" name="message" rows="5" required placeholder="Vertel me uw ophaallocatie, datum en bestemming..."></textarea>
+
+        <label class="form-consent">
+          <input type="checkbox" name="consent" value="1" required>
+          <span>Ik heb het <a href="/nl/privacy/">Privacybeleid</a> gelezen en ga ermee akkoord.</span>
+        </label>
 
         <button type="submit" class="btn btn-primary">Bericht versturen</button>
         <p class="form-note" id="form-note"></p>

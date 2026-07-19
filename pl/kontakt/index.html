@@ -155,6 +155,7 @@
       </div>
 
       <form class="contact-form" id="contact-form" action="/contact.php" method="POST">
+<input type="text" name="company" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
         <h3>Wyślij mi wiadomość</h3>
         <label for="name">Imię</label>
         <input type="text" id="name" name="name" required>
@@ -177,6 +178,11 @@
 
         <label for="message">Wiadomość</label>
         <textarea id="message" name="message" rows="5" required placeholder="Podaj miejsce odbioru, datę i cel podróży..."></textarea>
+
+        <label class="form-consent">
+          <input type="checkbox" name="consent" value="1" required>
+          <span>Przeczytałem/am i akceptuję <a href="/pl/polityka-prywatnosci/">Politykę prywatności</a>.</span>
+        </label>
 
         <button type="submit" class="btn btn-primary">Wyślij wiadomość</button>
         <p class="form-note" id="form-note"></p>
