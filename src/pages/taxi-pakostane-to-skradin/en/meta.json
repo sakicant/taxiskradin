@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-pakostane-to-skradin",
+  "title": "Taxi Pakoštane to Skradin | Fixed €95 Transfer | TAXI Antonio",
+  "description": "Private taxi and transfer from Pakoštane to Skradin. Fixed €95 per car, up to 4 passengers, door to door. Book direct with Antonio.",
+  "keywords": "taxi pakoštane to skradin, transfer pakoštane to skradin, pakoštane to skradin taxi, pakoštane to skradin transfer",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Private taxi transfer",
+      "name": "Taxi Pakoštane to Skradin",
+      "description": "Private, fixed-price taxi and transfer from Pakoštane to Skradin, 95 euros per car for up to 4 passengers, door to door.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Pakoštane",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/taxi-pakostane-to-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "95",
+        "priceCurrency": "EUR",
+        "description": "One-way private transfer from Pakoštane to Skradin, per car for up to 4 passengers. Return 190 euros."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much is a taxi from Pakoštane to Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fixed 95 per car for up to 4 passengers, one way, luggage included. A return trip is 190."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where do you pick up?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At your exact address in Pakoštane, whether a home, hotel or apartment. Send the address when you book and I will confirm the meeting point."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How far in advance should I book?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At least 2 hours ahead so I can confirm the car and your pickup time. For a sooner ride, call or WhatsApp me directly."
+          }
+        }
+      ]
+    }
+  ]
+}

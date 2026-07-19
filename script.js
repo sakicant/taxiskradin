@@ -1478,6 +1478,11 @@ if (quoteWidget) {
       "Zagreb Airport (ZAG)": 485
     },
     "Skradin - center": {
+      "Biograd na Moru": 105,
+      "Pakoštane": 95,
+      "Marina Pakoštane": 95,
+      "Sukošan": 130,
+      "D-Marin Dalmacija": 130,
       "Sladić Winery": 40,
       "Bibich Winery": 40,
       "Šibenik - center": 50,
@@ -2428,8 +2433,8 @@ if (quoteWidget) {
   const GROUPS = [
     { label: 'Skradin area', items: ['Skradin - center', 'Marina ACI Skradin', 'NP Krka - Skradin entrance', 'NP Krka - Lozovac entrance', 'NP Krka - Roški Slap entrance', 'Sladić Winery', 'Bibich Winery'] },
     { label: 'Airports', items: ['Split Airport (SPU)', 'Zadar Airport (ZAD)', 'Dubrovnik Airport (DBV)', 'Zagreb Airport (ZAG)'] },
-    { label: 'Cities and towns', items: ['Šibenik - center', 'Šibenik Bus Station', 'Šibenik Ferry Port', 'Brodarica - Šibenik', 'Zablaće', 'Bilice', 'Žaborić', 'Jadrija', 'Vodice', 'Tribunj', 'Zaton', 'Srima', 'Grebaštica', 'Tisno', 'Murter', 'Betina', 'Jezera', 'Bilo', 'Primošten', 'Rogoznica', 'Pirovac', 'Tromilja', 'Lozovac', 'Drniš', 'Knin', 'Perković', 'Zadar', 'Split', 'Dubrovnik', 'Zagreb', 'Trogir', 'Seget', 'Čiovo', 'Makarska', 'Novalja'] },
-    { label: 'Marinas', items: ['D-Marin Marina Mandalina Šibenik', 'Marina Zaton', 'ACI Marina Vodice', 'Marina Tribunj', 'Marina Hramina', 'ACI Marina Jezera', 'Marina Betina', 'Marina Kremik', 'Marina Frapa', 'ACI Marina Trogir', 'Marina Trogir (SCT)', 'Marina Baotić', 'Marina Agana'] },
+    { label: 'Cities and towns', items: ['Šibenik - center', 'Šibenik Bus Station', 'Šibenik Ferry Port', 'Brodarica - Šibenik', 'Zablaće', 'Bilice', 'Žaborić', 'Jadrija', 'Vodice', 'Tribunj', 'Zaton', 'Srima', 'Grebaštica', 'Tisno', 'Murter', 'Betina', 'Jezera', 'Bilo', 'Primošten', 'Rogoznica', 'Biograd na Moru', 'Pakoštane', 'Sukošan', 'Pirovac', 'Tromilja', 'Lozovac', 'Drniš', 'Knin', 'Perković', 'Zadar', 'Split', 'Dubrovnik', 'Zagreb', 'Trogir', 'Seget', 'Čiovo', 'Makarska', 'Novalja'] },
+    { label: 'Marinas', items: ['D-Marin Marina Mandalina Šibenik', 'Marina Zaton', 'ACI Marina Vodice', 'Marina Tribunj', 'Marina Hramina', 'ACI Marina Jezera', 'Marina Betina', 'Marina Kremik', 'Marina Frapa', 'ACI Marina Trogir', 'Marina Trogir (SCT)', 'Marina Baotić', 'Marina Agana', 'Marina Pakoštane', 'D-Marin Dalmacija'] },
     { label: 'Hotels', items: ['Amadria Park Hotel Šibenik', 'Amadria Park Camp', 'D-Resort Hotel Šibenik', 'Bellevue Superior Hotel Šibenik'] },
     { label: 'Plitvice', items: ['NP Plitvice Lakes'] }
   ];

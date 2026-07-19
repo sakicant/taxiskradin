@@ -199,3 +199,13 @@ matrix fare; wineries are covered by /skradin-winery-transfers/). Generated batc
 | Novalja | Skradin | `taxi-novalja-to-skradin` | 190 |
 | Roški Slap | Novalja | `taxi-roski-slap-to-novalja` | 190 |
 | Novalja | Roški Slap | `taxi-novalja-to-roski-slap` | 190 |
+| Skradin | Biograd na Moru | `taxi-skradin-to-biograd-na-moru` | 105 |
+| Biograd na Moru | Skradin | `taxi-biograd-na-moru-to-skradin` | 105 |
+| Skradin | Pakoštane | `taxi-skradin-to-pakostane` | 95 |
+| Pakoštane | Skradin | `taxi-pakostane-to-skradin` | 95 |
+| Skradin | Marina Pakoštane | `taxi-skradin-to-marina-pakostane` | 95 |
+| Marina Pakoštane | Skradin | `taxi-marina-pakostane-to-skradin` | 95 |
+| Skradin | Sukošan | `taxi-skradin-to-sukosan` | 130 |
+| Sukošan | Skradin | `taxi-sukosan-to-skradin` | 130 |
+| Skradin | D-Marin Dalmacija | `taxi-skradin-to-d-marin-dalmacija` | 130 |
+| D-Marin Dalmacija | Skradin | `taxi-d-marin-dalmacija-to-skradin` | 130 |

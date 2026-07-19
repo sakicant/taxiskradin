@@ -37,7 +37,7 @@ key = lambda n: MAPK.get(n, n)
 
 BIG_CITIES = {'Split','Zadar','Dubrovnik','Zagreb','Trogir'}
 AIRPORT_CITY = {'Split Airport':'Split','Zadar Airport':'Zadar','Zagreb Airport':'Zagreb','Dubrovnik Airport':'Dubrovnik'}
-MARINAS = {'ACI Marina Trogir','Marina Trogir (SCT)','Marina Baotić','Marina Agana','Marina Frapa',
+MARINAS = {'ACI Marina Trogir','Marina Trogir (SCT)','Marina Baotić','Marina Agana','Marina Pakoštane','D-Marin Dalmacija','Marina Frapa',
            'Marina Kremik','ACI Marina Vodice','Marina Tribunj','Marina Hramina','Marina Betina','ACI Marina Jezera'}
 
 PROVIDER = {

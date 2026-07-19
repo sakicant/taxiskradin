@@ -1,0 +1,73 @@
+{
+  "slug": "taxi-sukosan-to-skradin",
+  "title": "Taxi Sukošan to Skradin | Fixed €130 Transfer | TAXI Antonio",
+  "description": "Private taxi and transfer from Sukošan to Skradin. Fixed €130 per car, up to 4 passengers, door to door. Book direct with Antonio.",
+  "keywords": "taxi sukošan to skradin, transfer sukošan to skradin, sukošan to skradin taxi, sukošan to skradin transfer",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Private taxi transfer",
+      "name": "Taxi Sukošan to Skradin",
+      "description": "Private, fixed-price taxi and transfer from Sukošan to Skradin, 130 euros per car for up to 4 passengers, door to door.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Sukošan",
+        "Skradin"
+      ],
+      "url": "https://taxiskradin.hr/taxi-sukosan-to-skradin/",
+      "offers": {
+        "@type": "Offer",
+        "price": "130",
+        "priceCurrency": "EUR",
+        "description": "One-way private transfer from Sukošan to Skradin, per car for up to 4 passengers. Return 260 euros."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much is a taxi from Sukošan to Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fixed 130 per car for up to 4 passengers, one way, luggage included. A return trip is 260."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where do you pick up?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At your exact address in Sukošan, whether a home, hotel or apartment. Send the address when you book and I will confirm the meeting point."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How far in advance should I book?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At least 2 hours ahead so I can confirm the car and your pickup time. For a sooner ride, call or WhatsApp me directly."
+          }
+        }
+      ]
+    }
+  ]
+}
