@@ -1478,8 +1478,8 @@ if (quoteWidget) {
       "Zagreb Airport (ZAG)": 485
     },
     "Skradin - center": {
-      "Sladić Winery": 60,
-      "Bibich Winery": 60,
+      "Sladić Winery": 40,
+      "Bibich Winery": 40,
       "Šibenik - center": 50,
       "D-Marin Marina Mandalina Šibenik": 50,
       "Amadria Park Hotel Šibenik": 50,
@@ -1647,8 +1647,8 @@ if (quoteWidget) {
       "Zagreb Airport (ZAG)": 450
     },
     "NP Krka - Roški Slap entrance": {
-      "Sladić Winery": 60,
-      "Bibich Winery": 60,
+      "Sladić Winery": 50,
+      "Bibich Winery": 50,
       "Šibenik - center": 90,
       "D-Marin Marina Mandalina Šibenik": 90,
       "Amadria Park Hotel Šibenik": 90,

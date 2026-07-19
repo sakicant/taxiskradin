@@ -1,7 +1,7 @@
 {
   "slug": "taxi-sladic-winery-to-roski-slap",
-  "title": "Taxi Sladić Winery to Roški Slap | Fixed €60 Transfer | TAXI Antonio",
-  "description": "Private taxi and transfer from Sladić Winery to Roški Slap. Fixed €60 per car, up to 4 passengers, door to door. Book direct with Antonio.",
+  "title": "Taxi Sladić Winery to Roški Slap | Fixed €50 Transfer | TAXI Antonio",
+  "description": "Private taxi and transfer from Sladić Winery to Roški Slap. Fixed €50 per car, up to 4 passengers, door to door. Book direct with Antonio.",
   "keywords": "taxi sladić winery to roški slap, transfer sladić winery to roški slap, sladić winery to roški slap taxi, sladić winery to roški slap transfer",
   "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
   "schema": [
@@ -10,7 +10,7 @@
       "@type": "Service",
       "serviceType": "Private taxi transfer",
       "name": "Taxi Sladić Winery to Roški Slap",
-      "description": "Private, fixed-price taxi and transfer from Sladić Winery to Roški Slap, 60 euros per car for up to 4 passengers, door to door.",
+      "description": "Private, fixed-price taxi and transfer from Sladić Winery to Roški Slap, 50 euros per car for up to 4 passengers, door to door.",
       "provider": {
         "@type": "LocalBusiness",
         "name": "Taxi Antonio",
@@ -34,9 +34,9 @@
       "url": "https://taxiskradin.hr/taxi-sladic-winery-to-roski-slap/",
       "offers": {
         "@type": "Offer",
-        "price": "60",
+        "price": "50",
         "priceCurrency": "EUR",
-        "description": "One-way private transfer from Sladić Winery to Roški Slap, per car for up to 4 passengers. Return 120 euros."
+        "description": "One-way private transfer from Sladić Winery to Roški Slap, per car for up to 4 passengers. Return 100 euros."
       }
     },
     {
@@ -48,7 +48,7 @@
           "name": "How much is a taxi from Sladić Winery to Roški Slap?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A fixed 60 per car for up to 4 passengers, one way, luggage included. A return trip is 120."
+            "text": "A fixed 50 per car for up to 4 passengers, one way, luggage included. A return trip is 100."
           }
         },
         {

@@ -1,7 +1,7 @@
 {
   "slug": "taxi-skradin-to-sladic-winery",
-  "title": "Taxi Skradin to Sladić Winery | Fixed €60 Transfer | TAXI Antonio",
-  "description": "Private taxi and transfer from Skradin to Sladić Winery. Fixed €60 per car, up to 4 passengers, door to door. Book direct with Antonio.",
+  "title": "Taxi Skradin to Sladić Winery | Fixed €40 Transfer | TAXI Antonio",
+  "description": "Private taxi and transfer from Skradin to Sladić Winery. Fixed €40 per car, up to 4 passengers, door to door. Book direct with Antonio.",
   "keywords": "taxi skradin to sladić winery, transfer skradin to sladić winery, skradin to sladić winery taxi, skradin to sladić winery transfer",
   "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-city.webp",
   "schema": [
@@ -10,7 +10,7 @@
       "@type": "Service",
       "serviceType": "Private taxi transfer",
       "name": "Taxi Skradin to Sladić Winery",
-      "description": "Private, fixed-price taxi and transfer from Skradin to Sladić Winery, 60 euros per car for up to 4 passengers, door to door.",
+      "description": "Private, fixed-price taxi and transfer from Skradin to Sladić Winery, 40 euros per car for up to 4 passengers, door to door.",
       "provider": {
         "@type": "LocalBusiness",
         "name": "Taxi Antonio",
@@ -34,9 +34,9 @@
       "url": "https://taxiskradin.hr/taxi-skradin-to-sladic-winery/",
       "offers": {
         "@type": "Offer",
-        "price": "60",
+        "price": "40",
         "priceCurrency": "EUR",
-        "description": "One-way private transfer from Skradin to Sladić Winery, per car for up to 4 passengers. Return 120 euros."
+        "description": "One-way private transfer from Skradin to Sladić Winery, per car for up to 4 passengers. Return 80 euros."
       }
     },
     {
@@ -48,7 +48,7 @@
           "name": "How much is a taxi from Skradin to Sladić Winery?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A fixed 60 per car for up to 4 passengers, one way, luggage included. A return trip is 120."
+            "text": "A fixed 40 per car for up to 4 passengers, one way, luggage included. A return trip is 80."
           }
         },
         {
