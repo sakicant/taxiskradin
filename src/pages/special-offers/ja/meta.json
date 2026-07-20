@@ -1,0 +1,21 @@
+{
+  "slug": "special-offers",
+  "title": "Skradinタクシーの特別オファー | 最安値・期間限定",
+  "description": "Skradinのタクシー・送迎の特別オファー。直前予約と回送便を最安値でご提供する期間限定プランです。料金は固定制、残りわずかですのでお早めにご予約ください。",
+  "keywords": "skradin タクシー 特別オファー, skradin 送迎 最安値, 期間限定 タクシー オファー, skradin 直前 送迎, krka 空港 送迎 格安",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Skradinタクシーの特別オファー：最安値・期間限定",
+    "description": "Skradinのタクシー・送迎を最安値でご利用いただける期間限定の特別オファー。直前予約と回送便のお得なプラン、料金は固定制です。",
+    "url": "https://taxiskradin.hr/ja/special-offers/",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "Taxi Antonio",
+      "telephone": "+385994471013",
+      "email": "info@taxiskradin.hr",
+      "address": { "@type": "PostalAddress", "addressLocality": "Skradin", "addressCountry": "HR" }
+    }
+  }
+}

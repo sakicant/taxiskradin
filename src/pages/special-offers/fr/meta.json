@@ -1,0 +1,21 @@
+{
+  "slug": "special-offers",
+  "title": "Offres spéciales taxi Skradin | Meilleur prix, durée limitée",
+  "description": "Offres spéciales sur les courses de taxi et les transferts à Skradin : offres de dernière minute et trajets à vide au meilleur prix, pour une durée limitée. Tarifs fixes, réservez tant qu'il en reste.",
+  "keywords": "offres spéciales taxi skradin, meilleur prix transfert skradin, offre taxi durée limitée, transfert dernière minute skradin, transfert aéroport krka pas cher",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Offres spéciales taxi Skradin : meilleur prix, durée limitée",
+    "description": "Offres spéciales à durée limitée sur les courses de taxi et les transferts à Skradin au meilleur prix : offres de dernière minute et trajets à vide, tarifs fixes.",
+    "url": "https://taxiskradin.hr/fr/special-offers/",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "Taxi Antonio",
+      "telephone": "+385994471013",
+      "email": "info@taxiskradin.hr",
+      "address": { "@type": "PostalAddress", "addressLocality": "Skradin", "addressCountry": "HR" }
+    }
+  }
+}

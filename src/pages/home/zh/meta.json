@@ -1,0 +1,255 @@
+{
+  "slug": "",
+  "title": "斯克拉丁出租车 | 游览 Krka | 固定价格接送 | Taxi Antonio",
+  "description": "斯克拉丁(Skradin)出租车,提供市内用车、Krka 国家公园游船码头、ACI Marina Skradin 以及固定价格的机场接送。司机会说英语。直接找 Antonio 预订。",
+  "keywords": "斯克拉丁出租车, 斯克拉丁接送, 斯克拉丁机场接送, 斯克拉丁 krka 出租车, aci marina skradin 出租车, krka 国家公园 出租车",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-bg.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "TAXI Skradin - Antonio",
+      "url": "https://taxiskradin.hr/zh/",
+      "telephone": "+385994471013",
+      "email": "info@taxiskradin.hr",
+      "areaServed": [
+        "Skradin",
+        "Krka National Park",
+        "ACI Marina Skradin",
+        "Šibenik",
+        "Split",
+        "Zadar",
+        "Dubrovnik",
+        "Zagreb"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Skradin",
+        "postalCode": "22222",
+        "addressCountry": "HR"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "142"
+      },
+      "priceRange": "€€",
+      "alternateName": "TAXI Antonio",
+      "@id": "https://taxiskradin.hr/zh/#business",
+      "image": "https://taxiskradin.hr/assets/img/hero-bg.webp",
+      "paymentAccepted": "Cash, Credit Card",
+      "currenciesAccepted": "EUR",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 43.8186,
+        "longitude": 15.9214
+      },
+      "hasMap": "https://www.google.com/maps?cid=4748268601430744277",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "07:00",
+          "closes": "14:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "16:00",
+          "closes": "21:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "06:00",
+          "closes": "16:00"
+        }
+      ],
+      "sameAs": [
+        "https://web.facebook.com/profile.php?id=61579783829997",
+        "https://www.instagram.com/taxi_sibenik/",
+        "https://www.tiktok.com/@taxisibenik",
+        "https://www.tripadvisor.com/Attraction_Review-g295375-d24821165-Reviews-TAXI_Sibenik_Skradin_Antonio-Sibenik_Sibenik_Knin_County_Dalmatia.html",
+        "https://www.google.com/maps?cid=4748268601430744277"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "出租车与接送服务",
+      "name": "TAXI Antonio 的斯克拉丁出租车",
+      "areaServed": {
+        "@type": "City",
+        "name": "Skradin"
+      },
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "出租车与接送服务",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "斯克拉丁市内出租车用车"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Krka 国家公园游船码头接送"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "ACI Marina Skradin 接送"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "机场接送"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "城际接送"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "在斯克拉丁怎么叫出租车?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "拨打 +385 99 447 1013、发 WhatsApp 消息或发电子邮件。Antonio 需要知道上车地点、目的地,以及您希望的上车或到达时间。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "我应该提前多久预订?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "工作时间内可以接受临时用车请求,但预订需要至少提前 2 小时,以便确认车辆和上车时间。提前更久预订可以确保有车。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "\"固定价格\"是什么意思?都包含什么?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "固定价格包含运输、油费、过路费以及行李搬运帮助。没有隐藏费用。额外停靠或长时间等候可能加收费用,会事先说明。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "需要预付款吗?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "需要。确认预订需支付 20% 的预付款(最低 20 欧元)。车费为 20 欧元或以下的行程需全额预付。预付款可通过银行转账(SEPA)或刷卡支付,余款在当天结清,现金或刷卡均可。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "车上可以刷卡吗?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "可以,支持银行卡和其他非接触式支付方式。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "你能送我去斯克拉丁的 Krka 国家公园入口吗?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "可以。斯克拉丁是进入 Krka 的主要门户。Antonio 会把您送到河边的游船码头,公园的船从那里开往 Skradinski Buk 瀑布,您回来时再接您。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "你在 ACI Marina Skradin 接人吗?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "接。Antonio 直接在 ACI Marina Skradin 接送船员,行李和补给都放得下。把泊位号发给他即可约好碰面地点。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "你跑 Šibenik 和各个机场吗?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "跑。Antonio 提供从斯克拉丁到 Šibenik、斯普利特和扎达尔机场以及达尔马提亚各城市的固定价格接送。从 Šibenik 本地出发的行程,请见姊妹网站 taxisibenik.hr。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "如果我的航班延误怎么办?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "航班到达情况会被实时监控,接机时间自动调整,不额外收费。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "如果我需要取消怎么办?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "取消须以电子邮件书面提出。预订时间 72 小时以上取消,银行转账全额退款,刷卡则扣除 10 欧元手续费后退款。72 小时以内取消或未到场,不予退款。改期随时免费。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "人数比较多能安排吗?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Škoda Superb 最多坐 4 位乘客。人数更多时,可以通过精挑细选的本地伙伴来安排。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "提供儿童座椅吗?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "提供,儿童座椅和增高垫可应要求提供。"
+          }
+        }
+      ]
+    }
+  ]
+}

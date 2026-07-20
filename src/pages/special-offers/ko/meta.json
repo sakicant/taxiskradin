@@ -1,0 +1,21 @@
+{
+  "slug": "special-offers",
+  "title": "Skradin 택시 특가 | 최저 요금, 기간 한정",
+  "description": "Skradin 택시 및 교통편 특가: 막바지 예약과 공차 회송 할인 이동을 최저 요금으로, 기간 한정으로 제공합니다. 고정 요금이며, 남아 있을 때 예약하세요.",
+  "keywords": "skradin 택시 특가, skradin 최저 요금 교통편, 기간 한정 택시 특가, skradin 막바지 교통편, 저렴한 krka 공항 교통편",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Skradin 택시 특가: 최저 요금, 기간 한정",
+    "description": "Skradin 택시 및 교통편의 기간 한정 특가입니다. 막바지 예약과 공차 회송 할인 이동을 최저 요금 고정가로 제공합니다.",
+    "url": "https://taxiskradin.hr/ko/special-offers/",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "Taxi Antonio",
+      "telephone": "+385994471013",
+      "email": "info@taxiskradin.hr",
+      "address": { "@type": "PostalAddress", "addressLocality": "Skradin", "addressCountry": "HR" }
+    }
+  }
+}

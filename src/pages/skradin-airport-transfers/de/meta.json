@@ -1,0 +1,85 @@
+{
+  "slug": "skradin-airport-transfers",
+  "title": "Flughafentransfers Skradin | Festpreise | TAXI Antonio",
+  "description": "Flughafentransfers und Taxi von und nach Skradin, zum Flughafen Zadar (ZAD) und zum Flughafen Split (SPU). Festpreise, Flugüberwachung, von Tür zu Tür. Flughäfen Zagreb und Dubrovnik auf Anfrage. Buchen Sie bei Antonio.",
+  "keywords": "flughafentransfer skradin, flughafentransfers skradin, taxi skradin flughafen zadar, skradin zum flughafen split, flughafen zadar nach skradin, flughafen split nach skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Flughafentransfer",
+      "name": "Flughafentransfers Skradin",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Flughafen Zadar",
+        "Flughafen Split",
+        "Flughafen Zagreb",
+        "Flughafen Dubrovnik"
+      ],
+      "url": "https://taxiskradin.hr/de/skradin-airport-transfers/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Was kostet ein Taxitransfer von Skradin zum Flughafen Zadar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ein privater Flughafentransfer von Skradin zum Flughafen Zadar kostet fest 105 Euro pro Fahrzeug für bis zu 4 Personen, inklusive Maut, Kraftstoff und Gepäck."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie finde ich meinen Fahrer am Flughafen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Antonio wartet in der Ankunftshalle nach der Gepäckausgabe und hält ein gut sichtbares Schild mit Ihrem Namen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was passiert, wenn mein Flug Verspätung hat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Flüge werden anhand der bei der Buchung angegebenen Flugnummer in Echtzeit überwacht. Die Abholzeit wird automatisch angepasst, und für die Wartezeit fallen keine zusätzlichen Kosten an."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ist der Preis für den Flughafentransfer fest?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Jeder Flughafentransfer hat einen Festpreis pro Fahrzeug für bis zu 4 Personen, inklusive Maut, Kraftstoff und Gepäck. Kein Taxameter, keine Überraschungen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie bezahle ich einen Flughafentransfer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Eine Anzahlung von 20% (mindestens 20 Euro) bestätigt die Buchung, per Banküberweisung oder Karte. Den Restbetrag zahlen Sie am Tag der Fahrt beim Fahrer, bar oder mit Karte."
+          }
+        }
+      ]
+    }
+  ]
+}

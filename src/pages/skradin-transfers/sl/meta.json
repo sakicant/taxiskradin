@@ -1,0 +1,88 @@
+{
+  "slug": "skradin-transfers",
+  "title": "Prevozi Skradin | Fiksne cene | TAXI Antonio",
+  "description": "Prevozi in taksi iz Skradina ter v Skradin: Split, Zadar, Zagreb, Dubrovnik, Trogir, Vodice in Primošten. Fiksne cene, zasebno od vrat do vrat, en sam domači voznik. Rezervirajte neposredno pri Antonu.",
+  "keywords": "prevoz skradin, prevozi skradin, taksi skradin, skradin split, skradin zadar, skradin zagreb, skradin dubrovnik",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Taksi prevoz med mesti",
+      "name": "Prevozi Skradin",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Split",
+        "Zadar",
+        "Zagreb",
+        "Dubrovnik",
+        "Trogir",
+        "Vodice",
+        "Primošten"
+      ],
+      "url": "https://taxiskradin.hr/sl/skradin-transfers/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Koliko stane taksi prevoz iz Skradina v Split?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Zasebni taksi prevoz iz Skradina v Split stane fiksnih 140 evrov na vozilo za največ 4 potnike, vključno s cestninami, gorivom in prtljago."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ali so cene prevozov fiksne?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Da. Vsak prevoz med mesti ima fiksno ceno na vozilo za največ 4 potnike, dogovorjeno vnaprej. Brez taksimetra in brez presenečenj."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ali je prevoz zaseben ali deljen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vsak prevoz je zaseben in od vrat do vrat, v vozilu Škoda Superb. Vozila ne delite z nikomer in dodatnih postankov ni, razen če zanje zaprosite."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Se lahko med potjo ustavite?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Da. Na daljših prevozih se z veseljem ustavim za kavo, fotografijo ali kratek ogled. Sporočite mi ob rezervaciji in to bom upošteval."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kako plačam prevoz?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rezervacijo potrdi 20-odstotno predplačilo (najmanj 20 evrov), z bančnim nakazilom ali kartico. Preostanek plačate vozniku na dan vožnje, z gotovino ali kartico."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "slug": "skradin-winery-transfers",
+  "title": "Transferi do vinarija iz Skradina | Plastovo, Bibich i Sladić | TAXI Antonio",
+  "description": "Privatni taksi i transfer iz Skradina do vinarija u Plastovu, Bibich i Sladić. Fiksna cena po automobilu, dogovorena unapred. Samo prevoz, degustaciju dogovarate sami.",
+  "keywords": "transfer vinarije skradin, taksi vinarija plastovo, bibich vinarija skradin, transfer vinarija sladić, taksi skradin plastovo",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privatni taksi i transfer do vinarija",
+      "name": "Transferi do vinarija iz Skradina",
+      "description": "Privatni taksi i transfer iz Skradina do vinarija u Plastovu, Bibich i Sladić. Fiksna cena po automobilu za do 4 putnika, dogovorena unapred. Samo prevoz; degustacija se dogovara i plaća vinariji.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": ["Skradin", "Plastovo"],
+      "url": "https://taxiskradin.hr/sr/skradin-winery-transfers/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Koliko košta transfer do vinarije iz Skradina?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reč je o fiksnoj ceni po automobilu, do 4 putnika, dogovorenoj unapred. Zavisi od toga koje vinarije posećujete i da li čekam ili se vraćam kasnije, zato mi pošaljite svoj plan na WhatsApp i potvrdiću tačnu cenu pre rezervacije."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Da li organizujete degustaciju?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ne. Ja se bavim samo prevozom. Degustaciju rezervišete kod vinarije i plaćate direktno njima. Ne naplaćujem posetu niti po osobi."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Možete li da sačekate i vratite nas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Da. Čekam u blizini i vraćam vas kući kada budete spremni, ili se vraćam u vreme koje dogovorimo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Možemo li da posetimo i Bibich i Sladić?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Da. Obe su blizu Skradina i lako se spajaju u jednu vožnju. Recite mi šta biste želeli i isplaniraću vreme i fiksnu cenu."
+          }
+        }
+      ]
+    }
+  ]
+}

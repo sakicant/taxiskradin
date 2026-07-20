@@ -1,0 +1,72 @@
+{
+  "slug": "skradin-winery-transfers",
+  "title": "Skradinのワイナリー送迎 | Plastovo、Bibich、Sladić | TAXI Antonio",
+  "description": "SkradinからPlastovoのワイナリー、BibichとSladićへの貸切タクシー・送迎。料金は1台あたりの固定制で事前に取り決めます。ご提供するのは移動のみで、試飲のご手配はお客様ご自身でお願いします。",
+  "keywords": "skradin ワイナリー 送迎, plastovo ワイナリー タクシー, bibich ワイナリー skradin, sladic ワイナリー 送迎, skradin plastovo タクシー",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "貸切ワイナリータクシー・送迎",
+      "name": "Skradinのワイナリー送迎",
+      "description": "SkradinからPlastovoのワイナリー、BibichとSladićへの貸切タクシー・送迎です。料金は1台あたりの固定制で、最大4名様まで、事前に取り決めます。ご提供するのは移動のみで、試飲はワイナリーとお客様のあいだでご手配、お支払いいただきます。",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": ["Skradin", "Plastovo"],
+      "url": "https://taxiskradin.hr/ja/skradin-winery-transfers/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Skradinからのワイナリー送迎はいくらですか。",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "1台あたりの固定料金で、最大4名様まで、事前に取り決めます。どのワイナリーを訪ねるか、私がお待ちするか後ほど戻るかによって変わりますので、ご予定をWhatsAppでお送りいただければ、ご予約の前に正確な料金をお伝えします。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "試飲の手配もしてもらえますか。",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "いいえ。私がお引き受けするのは移動のみです。試飲はワイナリーに直接ご予約いただき、お支払いもワイナリーにお願いします。訪問に対する料金やおひとりごとの料金はいただきません。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "待っていて、帰りも送ってもらえますか。",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "はい。近くでお待ちして、ご準備ができ次第お送りします。あらかじめ決めた時刻に戻ることもできます。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "BibichとSladićの両方を訪ねられますか。",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "はい。どちらもSkradinから近く、1回のご移動で組み合わせやすい場所にあります。ご希望をお知らせいただければ、時間の配分と固定料金をご提案します。"
+          }
+        }
+      ]
+    }
+  ]
+}

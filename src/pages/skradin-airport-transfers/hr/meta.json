@@ -1,0 +1,85 @@
+{
+  "slug": "skradin-airport-transfers",
+  "title": "Transferi iz Skradina do zračnih luka | Fiksne cijene | TAXI Antonio",
+  "description": "Transferi i taxi iz Skradina do Zračne luke Zadar (ZAD) i Zračne luke Split (SPU) te natrag. Fiksne cijene, praćenje leta, od vrata do vrata. Zagreb i Dubrovnik na upit. Rezervirajte kod Antonija.",
+  "keywords": "transfer skradin zračna luka, taxi skradin zračna luka zadar, skradin do zračne luke split, zračna luka zadar skradin, zračna luka split skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Transfer do zračne luke",
+      "name": "Transferi iz Skradina do zračnih luka",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Zračna luka Zadar",
+        "Zračna luka Split",
+        "Zračna luka Zagreb",
+        "Zračna luka Dubrovnik"
+      ],
+      "url": "https://taxiskradin.hr/hr/skradin-airport-transfers/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Koliko košta taxi transfer od Skradina do Zračne luke Zadar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Privatni transfer od Skradina do Zračne luke Zadar stoji fiksnih 105 eura po vozilu za do 4 putnika, s uključenom cestarinom, gorivom i prtljagom."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kako ću pronaći vozača u zračnoj luci?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Antonio vas čeka u dolaznoj dvorani nakon preuzimanja prtljage, s jasno ispisanom pločom s vašim imenom."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Što ako mi let kasni?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Letovi se prate u stvarnom vremenu prema broju leta koji navedete pri rezervaciji. Vrijeme preuzimanja prilagođava se automatski i čekanje se ne naplaćuje dodatno."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Je li cijena transfera do zračne luke fiksna?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Da. Svaki transfer do zračne luke ima fiksnu cijenu po vozilu za do 4 putnika, s uključenom cestarinom, gorivom i prtljagom. Bez taksimetra, bez iznenađenja."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kako se plaća transfer do zračne luke?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rezervaciju potvrđuje predujam od 20% (najmanje 20 eura), bankovnom uplatom ili karticom. Ostatak se plaća vozaču na dan vožnje, gotovinom ili karticom."
+          }
+        }
+      ]
+    }
+  ]
+}

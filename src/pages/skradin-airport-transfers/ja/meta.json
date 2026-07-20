@@ -1,0 +1,85 @@
+{
+  "slug": "skradin-airport-transfers",
+  "title": "Skradinの空港送迎 | 固定料金 | TAXI Antonio",
+  "description": "SkradinとZadar空港 (ZAD)、Split空港 (SPU) を結ぶ空港送迎・タクシー。固定料金、フライト監視、ドアツードアでお送りします。ZagrebとDubrovnikの空港はご要望に応じて対応。Antonioにご予約ください。",
+  "keywords": "skradin 空港 送迎, skradin 空港 タクシー, skradin zadar 空港 タクシー, skradin split 空港, zadar 空港 skradin, split 空港 skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "空港送迎",
+      "name": "Skradinの空港送迎",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Zadar Airport",
+        "Split Airport",
+        "Zagreb Airport",
+        "Dubrovnik Airport"
+      ],
+      "url": "https://taxiskradin.hr/ja/skradin-airport-transfers/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "SkradinからZadar空港までのタクシー送迎はいくらですか。",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SkradinからZadar空港への貸切空港送迎は、1台あたり105ユーロの固定料金で、最大4名様まで、通行料、燃料、お荷物込みです。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "空港ではどうやってドライバーを見つければよいですか。",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Antonioが手荷物受取所を出た到着ロビーで、お名前を書いた見やすいボードを持ってお待ちしています。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "フライトが遅れた場合はどうなりますか。",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ご予約時にお知らせいただいた便名をもとに、フライトをリアルタイムで確認しています。お迎えの時刻は自動的に調整され、お待ちすることによる追加料金はいただきません。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "空港送迎の料金は固定ですか。",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "はい。空港送迎はすべて1台あたりの固定料金で、最大4名様まで、通行料、燃料、お荷物込みです。メーターもなく、思わぬ請求もありません。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "空港送迎の支払い方法を教えてください。",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "料金の20％（最低20ユーロ）の前払金で、銀行振込またはカードによりご予約が確定します。残額は当日、現金またはカードでドライバーにお支払いください。"
+          }
+        }
+      ]
+    }
+  ]
+}

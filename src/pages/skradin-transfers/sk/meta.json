@@ -1,0 +1,88 @@
+{
+  "slug": "skradin-transfers",
+  "title": "Transfery Skradin | Pevné ceny | TAXI Antonio",
+  "description": "Transfery zo Skradinu a taxi do Splitu, Zadaru, Záhrebu, Dubrovníka, Trogiru, Vodíc a Primoštenu a späť. Pevné ceny, súkromne od dverí k dverám, jeden miestny vodič. Rezervujte priamo u Antonia.",
+  "keywords": "transfer skradin, transfery skradin, taxi skradin, skradin do splitu, skradin do zadaru, skradin do záhrebu, skradin do dubrovníka",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Taxi transfer medzi mestami",
+      "name": "Transfery Skradin",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Split",
+        "Zadar",
+        "Záhreb",
+        "Dubrovnik",
+        "Trogir",
+        "Vodice",
+        "Primošten"
+      ],
+      "url": "https://taxiskradin.hr/sk/skradin-transfers/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Koľko stojí taxi transfer zo Skradinu do Splitu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Súkromný taxi transfer zo Skradinu do Splitu stojí pevných 140 eur za vozidlo pre maximálne 4 cestujúcich, vrátane mýta, paliva a batožiny."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sú ceny transferov pevné?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Áno. Každý transfer medzi mestami má pevnú cenu za vozidlo pre maximálne 4 cestujúcich, dohodnutú vopred. Žiadny taxameter a žiadne prekvapenia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Je transfer súkromný alebo zdieľaný?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Každý transfer je súkromný a od dverí k dverám, v Škode Superb. Vozidlo sa s nikým nezdieľa a nie sú žiadne zastávky navyše, pokiaľ o ne sami nepožiadate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Môžete cestou zastaviť?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Áno. Pri dlhších transferoch rád zastavím na kávu, fotku alebo krátku zaujímavosť. Stačí mi to povedať pri rezervácii a zohľadním to."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ako zaplatím za transfer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rezerváciu potvrdí záloha 20 % (minimálne 20 eur), bankovým prevodom alebo kartou. Zvyšok zaplatíte vodičovi v deň jazdy, v hotovosti alebo kartou."
+          }
+        }
+      ]
+    }
+  ]
+}

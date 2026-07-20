@@ -1,20 +1,22 @@
 {
   "slug": "",
-  "title": "Taxi Šibenik - Service waarop u kunt rekenen | Taxi Antonio",
-  "description": "Taxi Šibenik voor lokale ritten op aanvraag, ophalen bij ziekenhuis en hotel, het bus- en veerbootstation en verbindingen naar de eilanden. Engelssprekende chauffeur. Boek rechtstreeks bij Antonio.",
-  "keywords": "taxi šibenik, taxi sibenik, taxi sibenik ziekenhuis, sibenik hotel taxi, sibenik veerbootstation taxi, taxi zlarin prvic",
-  "og_image": "https://taxisibenik.hr/assets/img/hero-bg.webp",
+  "title": "Taxi Skradin | Bezoek Krka | Transfers tegen vaste prijs | Taxi Antonio",
+  "description": "Taxi Skradin voor lokale ritten, de botensteiger van Nationaal Park Krka, ACI Marina Skradin en luchthaventransfers tegen vaste prijs. Engelssprekende chauffeur. Boek rechtstreeks bij Antonio.",
+  "keywords": "taxi skradin, skradin taxi, transfer skradin, luchthaventransfer skradin, taxi skradin krka, taxi aci marina skradin, taxi nationaal park krka",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-bg.webp",
   "schema": [
     {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "name": "TAXI Šibenik & Skradin - Antonio",
-      "url": "https://taxisibenik.hr/nl/",
+      "name": "TAXI Skradin - Antonio",
+      "url": "https://taxiskradin.hr/",
       "telephone": "+385994471013",
-      "email": "info@taxisibenik.hr",
+      "email": "info@taxiskradin.hr",
       "areaServed": [
-        "Šibenik",
         "Skradin",
+        "Nationaal Park Krka",
+        "ACI Marina Skradin",
+        "Šibenik",
         "Split",
         "Zadar",
         "Dubrovnik",
@@ -22,8 +24,8 @@
       ],
       "address": {
         "@type": "PostalAddress",
-        "addressLocality": "Šibenik",
-        "postalCode": "22000",
+        "addressLocality": "Skradin",
+        "postalCode": "22222",
         "addressCountry": "HR"
       },
       "aggregateRating": {
@@ -33,14 +35,14 @@
       },
       "priceRange": "€€",
       "alternateName": "TAXI Antonio",
-      "@id": "https://taxisibenik.hr/#business",
-      "image": "https://taxisibenik.hr/assets/img/hero-bg.webp",
-      "paymentAccepted": "Contant, Creditcard",
+      "@id": "https://taxiskradin.hr/#business",
+      "image": "https://taxiskradin.hr/assets/img/hero-bg.webp",
+      "paymentAccepted": "Contant, creditcard",
       "currenciesAccepted": "EUR",
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": 43.6956974,
-        "longitude": 15.7891511
+        "latitude": 43.8186,
+        "longitude": 15.9214
       },
       "hasMap": "https://www.google.com/maps?cid=4748268601430744277",
       "openingHoursSpecification": [
@@ -54,6 +56,18 @@
             "Friday"
           ],
           "opens": "07:00",
+          "closes": "14:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "16:00",
           "closes": "21:00"
         },
         {
@@ -63,7 +77,7 @@
             "Sunday"
           ],
           "opens": "06:00",
-          "closes": "15:00"
+          "closes": "16:00"
         }
       ],
       "sameAs": [
@@ -78,10 +92,10 @@
       "@context": "https://schema.org",
       "@type": "Service",
       "serviceType": "Taxi- en transferservice",
-      "name": "Taxi Šibenik door TAXI Antonio",
+      "name": "Taxi Skradin van TAXI Antonio",
       "areaServed": {
         "@type": "City",
-        "name": "Šibenik"
+        "name": "Skradin"
       },
       "provider": {
         "@type": "LocalBusiness",
@@ -95,13 +109,27 @@
       },
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
-        "name": "Taxi- en transferservices",
+        "name": "Taxi- en transferdiensten",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Lokale taxiritten in Šibenik"
+              "name": "Lokale taxiritten in Skradin"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Transfers naar de botensteiger van Nationaal Park Krka"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Transfers van en naar ACI Marina Skradin"
             }
           },
           {
@@ -115,21 +143,7 @@
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Stadstransfers"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Hoteltransfers"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Dagtochten naar Krka en Plitvice"
+              "name": "Transfers tussen steden"
             }
           }
         ]
@@ -141,10 +155,10 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Hoe boek ik een taxi vanuit Šibenik?",
+          "name": "Hoe boek ik een taxi in Skradin?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Bel +385 99 447 1013, stuur een bericht via WhatsApp of stuur een e-mail. Antonio heeft de ophaallocatie, de bestemming en de gewenste ophaal- of aankomsttijd nodig."
+            "text": "Bel +385 99 447 1013, stuur een bericht op WhatsApp of mail. Antonio heeft de ophaallocatie, de bestemming en de gewenste ophaal- of aankomsttijd nodig."
           }
         },
         {
@@ -152,7 +166,7 @@
           "name": "Hoe ver van tevoren moet ik boeken?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Aanvragen op het laatste moment worden binnen de werktijden geaccepteerd, maar door van tevoren te boeken bent u zeker van beschikbaarheid."
+            "text": "Aanvragen op het laatste moment worden binnen werktijden aangenomen, maar een boeking heeft minstens 2 uur vooraf nodig om de auto en de ophaaltijd te kunnen bevestigen. Eerder boeken garandeert beschikbaarheid."
           }
         },
         {
@@ -160,7 +174,7 @@
           "name": "Wat betekent \"vaste prijs\"? Wat is inbegrepen?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Vaste prijzen zijn inclusief vervoer, brandstof, tol en hulp met de bagage. Geen verborgen kosten. Extra stops of lang wachten kunnen meer kosten, wat vooraf wordt gecommuniceerd."
+            "text": "Vaste prijzen omvatten het vervoer, brandstof, tol en hulp met bagage. Geen verborgen kosten. Extra stops of lang wachten kunnen meer kosten, dat wordt vooraf gemeld."
           }
         },
         {
@@ -168,12 +182,12 @@
           "name": "Vraagt u een aanbetaling?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ja. Het bevestigen van een boeking vereist een aanbetaling van 20% (minimaal 20 euro). Ritten met een prijs van 20 euro of lager moeten volledig vooraf worden betaald. Aanbetalingen kunnen worden gedaan via bankoverschrijving (SEPA) of kaart, waarbij het resterende bedrag op de dag van de transfer wordt voldaan."
+            "text": "Ja. Een boeking bevestigen vraagt een aanbetaling van 20% (minimaal 20 euro). Ritten van 20 euro of minder worden volledig vooraf betaald. Aanbetalingen kunnen per bankoverschrijving (SEPA) of kaart, het restant wordt op de dag zelf voldaan, contant of met kaart."
           }
         },
         {
           "@type": "Question",
-          "name": "Accepteert u kaartbetalingen in de auto?",
+          "name": "Kan ik in de auto met kaart betalen?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Ja, kaarten en andere contactloze betaalmethoden worden geaccepteerd."
@@ -181,26 +195,26 @@
         },
         {
           "@type": "Question",
-          "name": "Haalt u ook op bij het ziekenhuis in Šibenik?",
+          "name": "Kunt u mij naar de ingang van Nationaal Park Krka in Skradin brengen?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ja. Antonio brengt passagiers van en naar het Algemeen Ziekenhuis van Šibenik en mag het ziekenhuisterrein oprijden, zodat er geen lange wandeling vanaf een parkeerplaats nodig is."
+            "text": "Ja. Skradin is de belangrijkste toegangspoort tot Krka. Antonio zet u af bij de botensteiger aan de rivier, waar de parkboten naar de watervallen van Skradinski Buk vertrekken, en haalt u weer op als u terug bent."
           }
         },
         {
           "@type": "Question",
-          "name": "Kunt u mij naar de veerboot naar de eilanden brengen?",
+          "name": "Haalt u op bij ACI Marina Skradin?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ja. Antonio zet u af en haalt u op bij de veerboot- en catamaranhaven van Šibenik voor Zlarin, Prvić, Kaprije en Žirje, en de boot naar Obonjan."
+            "text": "Ja. Antonio haalt bemanningen op en zet ze af pal bij ACI Marina Skradin, met ruimte voor bagage en proviand. Stuur het ligplaatsnummer om het ontmoetingspunt af te spreken."
           }
         },
         {
           "@type": "Question",
-          "name": "Haalt u op bij hotels in Šibenik, het bus- en treinstation?",
+          "name": "Rijdt u naar Šibenik en de luchthavens?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ja. Antonio bedient alle lokale hotels, het busstation, de treinstations van Šibenik en Perković en de veerboothaven, met hulp bij de bagage en een naambordje op verzoek."
+            "text": "Ja. Antonio rijdt transfers tegen vaste prijs van Skradin naar Šibenik, de luchthavens van Split en Zadar en steden in heel Dalmatië. Voor ritten die in Šibenik zelf beginnen, zie de zusterdienst op taxisibenik.hr."
           }
         },
         {
@@ -213,10 +227,10 @@
         },
         {
           "@type": "Question",
-          "name": "Wat gebeurt er als ik moet annuleren?",
+          "name": "Wat als ik moet annuleren?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Annuleringen moeten schriftelijk per e-mail worden gedaan. Meer dan 72 uur voor de boeking geldt een volledige terugbetaling bij bankoverschrijving, of een volledige terugbetaling minus 10 euro administratiekosten bij kaart. Annuleringen binnen 72 uur, of niet komen opdagen, komen niet in aanmerking voor terugbetaling. Verzetten is op elk moment gratis."
+            "text": "Annuleringen moeten schriftelijk per e-mail. Meer dan 72 uur voor de boeking geldt volledige terugbetaling bij bankoverschrijving, of volledige terugbetaling minus 10 euro verwerkingskosten bij kaart. Annuleringen binnen 72 uur, of niet komen opdagen, worden niet terugbetaald. Verzetten is altijd gratis."
           }
         },
         {
@@ -224,7 +238,7 @@
           "name": "Kunt u een grotere groep vervoeren?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "De Škoda Superb biedt plaats aan maximaal 4 passagiers. Voor grotere groepen kunnen regelingen worden getroffen via lokale, zorgvuldig geselecteerde partners."
+            "text": "De Škoda Superb biedt plaats aan maximaal 4 passagiers. Voor grotere groepen kan het vervoer geregeld worden via lokale, zorgvuldig gekozen partners."
           }
         },
         {
@@ -232,7 +246,7 @@
           "name": "Biedt u kinderzitjes aan?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ja, kinderzitjes en zitverhogers zijn op verzoek beschikbaar."
+            "text": "Ja, kinderzitjes en stoelverhogers zijn op aanvraag beschikbaar."
           }
         }
       ]

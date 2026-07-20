@@ -1,0 +1,85 @@
+{
+  "slug": "skradin-airport-transfers",
+  "title": "Letališki transferji Skradin | Fiksne cene | TAXI Antonio",
+  "description": "Letališki transferji in taksi iz Skradina do letališč Zadar (ZAD) in Split (SPU) ter nazaj. Fiksne cene, spremljanje letov, od vrat do vrat. Letališči Zagreb in Dubrovnik na zahtevo. Rezervirajte pri Antoniu.",
+  "keywords": "letališki transfer skradin, letališki transferji skradin, taksi skradin letališče zadar, skradin do letališča split, letališče zadar do skradina, letališče split do skradina",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Letališki transfer",
+      "name": "Letališki transferji Skradin",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Letališče Zadar",
+        "Letališče Split",
+        "Letališče Zagreb",
+        "Letališče Dubrovnik"
+      ],
+      "url": "https://taxiskradin.hr/sl/skradin-airport-transfers/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Koliko stane taksi transfer iz Skradina do letališča Zadar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Zasebni letališki transfer iz Skradina do letališča Zadar stane fiksnih 105 evrov na vozilo za do 4 potnike, s cestninami, gorivom in prtljago vključeno."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kako najdem svojega voznika na letališču?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Antonio čaka v prihodni dvorani po prevzemu prtljage in drži jasno tablo z vašim imenom."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kaj če ima moj let zamudo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lete spremljam v realnem času s številko leta, ki jo navedete ob rezervaciji. Čas prevzema se prilagodi samodejno in za čakanje ni dodatnega stroška."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ali je cena letališkega transferja fiksna?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Da. Vsak letališki transfer ima fiksno ceno na vozilo za do 4 potnike, s cestninami, gorivom in prtljago vključeno. Brez taksimetra, brez presenečenj."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kako plačam letališki transfer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rezervacijo potrdi 20 % predplačilo (najmanj 20 evrov), z bančnim nakazilom ali kartico. Preostanek plačate vozniku na dan vožnje, z gotovino ali kartico."
+          }
+        }
+      ]
+    }
+  ]
+}

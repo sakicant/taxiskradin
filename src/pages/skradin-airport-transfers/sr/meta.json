@@ -1,0 +1,85 @@
+{
+  "slug": "skradin-airport-transfers",
+  "title": "Aerodromski transferi iz Skradina | Fiksne cene | TAXI Antonio",
+  "description": "Aerodromski transferi i taksi iz Skradina do aerodroma Zadar (ZAD) i Split (SPU) i nazad. Fiksne cene, praćenje letova, od vrata do vrata. Aerodromi Zagreb i Dubrovnik na upit. Rezervišite kod Antonija.",
+  "keywords": "aerodromski transfer skradin, transferi aerodrom skradin, taksi skradin aerodrom zadar, skradin do aerodroma split, aerodrom zadar do skradina, aerodrom split do skradina",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Aerodromski transfer",
+      "name": "Aerodromski transferi iz Skradina",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Aerodrom Zadar",
+        "Aerodrom Split",
+        "Aerodrom Zagreb",
+        "Aerodrom Dubrovnik"
+      ],
+      "url": "https://taxiskradin.hr/sr/skradin-airport-transfers/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Koliko košta taksi transfer iz Skradina do aerodroma Zadar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Privatni aerodromski transfer iz Skradina do aerodroma Zadar je fiksnih 105 evra po automobilu za do 4 putnika, s uključenim putarinama, gorivom i prtljagom."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kako da pronađem svog vozača na aerodromu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Antonio čeka u dolaznom holu nakon preuzimanja prtljaga, s jasnom tablom na kojoj piše vaše ime."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Šta ako moj let kasni?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Letovi se prate u realnom vremenu pomoću broja leta koji navedete pri rezervaciji. Vreme preuzimanja se automatski prilagođava i čekanje se ne naplaćuje dodatno."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Da li je cena aerodromskog transfera fiksna?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Da. Svaki aerodromski transfer ima fiksnu cenu po automobilu za do 4 putnika, s uključenim putarinama, gorivom i prtljagom. Bez taksimetra, bez iznenađenja."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kako se plaća aerodromski transfer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rezervaciju potvrđuje avans od 20% (najmanje 20 evra), bankovnim prenosom ili karticom. Ostatak se plaća vozaču na dan vožnje, gotovinom ili karticom."
+          }
+        }
+      ]
+    }
+  ]
+}

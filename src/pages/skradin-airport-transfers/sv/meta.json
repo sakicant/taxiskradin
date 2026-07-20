@@ -1,0 +1,85 @@
+{
+  "slug": "skradin-airport-transfers",
+  "title": "Flygplatstransferer Skradin | Fasta priser | TAXI Antonio",
+  "description": "Flygplatstransferer och taxi i Skradin till och från Zadars flygplats (ZAD) och Splits flygplats (SPU). Fasta priser, flygbevakning, dörr till dörr. Zagrebs och Dubrovniks flygplatser på begäran. Boka med Antonio.",
+  "keywords": "flygplatstransfer skradin, flygplatstransferer skradin, taxi skradin zadars flygplats, skradin till splits flygplats, zadars flygplats till skradin, splits flygplats till skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Flygplatstransfer",
+      "name": "Flygplatstransferer i Skradin",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Zadar Airport",
+        "Split Airport",
+        "Zagreb Airport",
+        "Dubrovnik Airport"
+      ],
+      "url": "https://taxiskradin.hr/sv/skradin-airport-transfers/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Vad kostar en taxitransfer från Skradin till Zadars flygplats?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En privat flygplatstransfer från Skradin till Zadars flygplats kostar fasta 105 euro per bil för upp till 4 passagerare, med vägtullar, bränsle och bagage inkluderat."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hur hittar jag min förare på flygplatsen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Antonio väntar i ankomsthallen efter bagageutlämningen med en tydlig skylt med ditt namn."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Vad händer om mitt flyg är försenat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Flygen bevakas i realtid med det flightnummer du anger vid bokningen. Upphämtningstiden justeras automatiskt och väntetiden kostar inget extra."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Är priset för flygplatstransfern fast?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Varje flygplatstransfer har ett fast pris per bil för upp till 4 passagerare, med vägtullar, bränsle och bagage inkluderat. Ingen taxameter, inga överraskningar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hur betalar jag för en flygplatstransfer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En förskottsbetalning på 20 % (minst 20 euro) bekräftar bokningen, via banköverföring eller kort. Resterande belopp betalas till föraren på plats, kontant eller med kort."
+          }
+        }
+      ]
+    }
+  ]
+}

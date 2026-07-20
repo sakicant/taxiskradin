@@ -1,20 +1,22 @@
 {
   "slug": "",
-  "title": "Taxi Šibenik - Un service fiable | Taxi Antonio",
-  "description": "Taxi Šibenik pour les courses locales à la demande, les prises en charge à l'hôpital et à l'hôtel, la gare routière et le port des ferries, et les liaisons vers les îles. Chauffeur anglophone. Réservez directement avec Antonio.",
-  "keywords": "taxi šibenik, taxi sibenik, taxi sibenik hôpital, taxi hôtel sibenik, taxi port des ferries sibenik, taxi zlarin prvic",
-  "og_image": "https://taxisibenik.hr/assets/img/hero-bg.webp",
+  "title": "Taxi Skradin | Visitez Krka | Transferts à prix fixe | Taxi Antonio",
+  "description": "Taxi Skradin pour les courses locales, l'embarcadère du parc national de Krka, ACI Marina Skradin et les transferts aéroport à prix fixe. Chauffeur anglophone. Réservez directement avec Antonio.",
+  "keywords": "taxi skradin, skradin taxi, transfert skradin, transfert aéroport skradin, taxi skradin krka, taxi aci marina skradin, taxi parc national krka",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-bg.webp",
   "schema": [
     {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "name": "TAXI Šibenik & Skradin - Antonio",
-      "url": "https://taxisibenik.hr/fr/",
+      "name": "TAXI Skradin - Antonio",
+      "url": "https://taxiskradin.hr/",
       "telephone": "+385994471013",
-      "email": "info@taxisibenik.hr",
+      "email": "info@taxiskradin.hr",
       "areaServed": [
-        "Šibenik",
         "Skradin",
+        "Parc national de Krka",
+        "ACI Marina Skradin",
+        "Šibenik",
         "Split",
         "Zadar",
         "Dubrovnik",
@@ -22,8 +24,8 @@
       ],
       "address": {
         "@type": "PostalAddress",
-        "addressLocality": "Šibenik",
-        "postalCode": "22000",
+        "addressLocality": "Skradin",
+        "postalCode": "22222",
         "addressCountry": "HR"
       },
       "aggregateRating": {
@@ -33,14 +35,14 @@
       },
       "priceRange": "€€",
       "alternateName": "TAXI Antonio",
-      "@id": "https://taxisibenik.hr/#business",
-      "image": "https://taxisibenik.hr/assets/img/hero-bg.webp",
-      "paymentAccepted": "Espèces, Carte de crédit",
+      "@id": "https://taxiskradin.hr/#business",
+      "image": "https://taxiskradin.hr/assets/img/hero-bg.webp",
+      "paymentAccepted": "Espèces, carte bancaire",
       "currenciesAccepted": "EUR",
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": 43.6956974,
-        "longitude": 15.7891511
+        "latitude": 43.8186,
+        "longitude": 15.9214
       },
       "hasMap": "https://www.google.com/maps?cid=4748268601430744277",
       "openingHoursSpecification": [
@@ -54,6 +56,18 @@
             "Friday"
           ],
           "opens": "07:00",
+          "closes": "14:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "16:00",
           "closes": "21:00"
         },
         {
@@ -63,7 +77,7 @@
             "Sunday"
           ],
           "opens": "06:00",
-          "closes": "15:00"
+          "closes": "16:00"
         }
       ],
       "sameAs": [
@@ -77,11 +91,11 @@
     {
       "@context": "https://schema.org",
       "@type": "Service",
-      "serviceType": "Service de taxi et de transfert",
-      "name": "Taxi Šibenik par TAXI Antonio",
+      "serviceType": "Service de taxi et de transferts",
+      "name": "Taxi Skradin par TAXI Antonio",
       "areaServed": {
         "@type": "City",
-        "name": "Šibenik"
+        "name": "Skradin"
       },
       "provider": {
         "@type": "LocalBusiness",
@@ -95,13 +109,27 @@
       },
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
-        "name": "Services de taxi et de transfert",
+        "name": "Services de taxi et de transferts",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Courses de taxi locales à Šibenik"
+              "name": "Courses de taxi locales à Skradin"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Transferts vers l'embarcadère du parc national de Krka"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Transferts depuis et vers ACI Marina Skradin"
             }
           },
           {
@@ -117,20 +145,6 @@
               "@type": "Service",
               "name": "Transferts entre villes"
             }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Transferts hôtel"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Excursions à Krka et Plitvice"
-            }
           }
         ]
       }
@@ -141,10 +155,10 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Comment réserver un taxi depuis Šibenik ?",
+          "name": "Comment réserver un taxi à Skradin ?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Appelez le +385 99 447 1013, écrivez sur WhatsApp ou envoyez un e-mail. Antonio a besoin du lieu de prise en charge, de la destination et de l'heure de prise en charge ou d'arrivée souhaitée."
+            "text": "Appelez le +385 99 447 1013, écrivez sur WhatsApp ou envoyez un e-mail. Antonio a besoin du lieu de prise en charge, de la destination et de l'heure souhaitée de prise en charge ou d'arrivée."
           }
         },
         {
@@ -152,55 +166,55 @@
           "name": "Combien de temps à l'avance faut-il réserver ?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Les demandes de dernière minute sont acceptées pendant les heures de travail, mais réserver à l'avance garantit la disponibilité."
+            "text": "Les demandes de dernière minute sont acceptées pendant les heures de travail, mais une réservation nécessite au moins 2 heures de préavis pour confirmer la voiture et l'heure de prise en charge. Réserver plus tôt garantit la disponibilité."
           }
         },
         {
           "@type": "Question",
-          "name": "Que signifie « prix fixe » ? Qu'est-ce qui est inclus ?",
+          "name": "Que signifie \"prix fixe\" ? Qu'est-ce qui est inclus ?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Les prix fixes comprennent le transport, le carburant, les péages et l'aide avec les bagages. Aucuns frais cachés. Les arrêts supplémentaires ou les longues attentes peuvent coûter davantage, communiqués à l'avance."
+            "text": "Les prix fixes comprennent le transport, le carburant, les péages et l'aide avec les bagages. Aucun frais caché. Les arrêts supplémentaires ou les longues attentes peuvent coûter plus cher, et sont annoncés à l'avance."
           }
         },
         {
           "@type": "Question",
-          "name": "Acceptez-vous les paiements à l'avance ?",
+          "name": "Demandez-vous un acompte ?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Oui. La confirmation d'une réservation nécessite un acompte de 20 % (minimum 20 euros). Les courses au tarif de 20 euros ou moins doivent être réglées intégralement à l'avance. Les acomptes peuvent être versés par virement bancaire (SEPA) ou par carte, le solde restant étant réglé le jour du transfert."
+            "text": "Oui. Confirmer une réservation demande un acompte de 20 % (minimum 20 euros). Les courses à 20 euros ou moins se règlent intégralement à l'avance. Les acomptes se paient par virement bancaire (SEPA) ou par carte, le solde étant réglé le jour même, en espèces ou par carte."
           }
         },
         {
           "@type": "Question",
-          "name": "Acceptez-vous les paiements par carte dans la voiture ?",
+          "name": "Acceptez-vous la carte dans la voiture ?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Oui, les cartes et autres moyens de paiement sans contact sont acceptés."
+            "text": "Oui, les cartes et les autres moyens de paiement sans contact sont acceptés."
           }
         },
         {
           "@type": "Question",
-          "name": "Assurez-vous les prises en charge à l'hôpital de Šibenik ?",
+          "name": "Pouvez-vous m'emmener à l'entrée du parc national de Krka à Skradin ?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Oui. Antonio conduit les passagers vers et depuis l'hôpital général de Šibenik et est autorisé à entrer dans l'enceinte de l'hôpital, il n'y a donc pas de longue marche depuis un parking."
+            "text": "Oui. Skradin est la porte d'entrée principale de Krka. Antonio vous dépose à l'embarcadère au bord de la rivière, d'où les bateaux du parc partent vers les cascades de Skradinski Buk, et vient vous rechercher à votre retour."
           }
         },
         {
           "@type": "Question",
-          "name": "Pouvez-vous m'emmener au ferry pour les îles ?",
+          "name": "Prenez-vous en charge à ACI Marina Skradin ?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Oui. Antonio dépose et récupère au port des ferries et catamarans de Šibenik pour Zlarin, Prvić, Kaprije et Žirje, ainsi que pour le bateau vers Obonjan."
+            "text": "Oui. Antonio prend et dépose les équipages directement à ACI Marina Skradin, avec de la place pour les bagages et les provisions. Envoyez le numéro de poste d'amarrage pour convenir du point de rencontre."
           }
         },
         {
           "@type": "Question",
-          "name": "Assurez-vous les prises en charge depuis les hôtels de Šibenik, la gare routière et la gare ferroviaire ?",
+          "name": "Conduisez-vous jusqu'à Šibenik et aux aéroports ?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Oui. Antonio dessert tous les hôtels locaux, la gare routière, les gares ferroviaires de Šibenik et de Perković et le port des ferries, avec aide pour les bagages et pancarte nominative sur demande."
+            "text": "Oui. Antonio assure des transferts à prix fixe de Skradin vers Šibenik, les aéroports de Split et Zadar, et les villes de toute la Dalmatie. Pour les courses qui partent de Šibenik même, voyez le service jumeau sur taxisibenik.hr."
           }
         },
         {
@@ -208,7 +222,7 @@
           "name": "Que se passe-t-il si mon vol est retardé ?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Les arrivées des vols sont suivies en temps réel et l'heure de prise en charge est ajustée automatiquement, sans frais supplémentaires."
+            "text": "Les arrivées de vols sont suivies en temps réel et l'heure de prise en charge est ajustée automatiquement, sans frais supplémentaires."
           }
         },
         {
@@ -216,15 +230,15 @@
           "name": "Que se passe-t-il si je dois annuler ?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Les annulations doivent être faites par écrit par e-mail. Plus de 72 heures avant la réservation, un remboursement intégral s'applique pour un virement bancaire, ou un remboursement intégral moins des frais de traitement de 10 euros pour une carte. Les annulations dans les 72 heures, ou les absences, ne sont pas remboursables. Le report est gratuit à tout moment."
+            "text": "Les annulations doivent être faites par écrit par e-mail. Plus de 72 heures avant la réservation, le remboursement est intégral pour un virement bancaire, ou intégral moins 10 euros de frais de traitement pour une carte. Les annulations dans les 72 heures, ou les absences, ne sont pas remboursables. Le report est gratuit à tout moment."
           }
         },
         {
           "@type": "Question",
-          "name": "Pouvez-vous accueillir un groupe plus important ?",
+          "name": "Pouvez-vous prendre un groupe plus important ?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La Škoda Superb accueille jusqu'à 4 passagers. Pour les groupes plus importants, des arrangements peuvent être pris auprès de partenaires locaux triés sur le volet."
+            "text": "La Škoda Superb accueille jusqu'à 4 passagers. Pour les groupes plus importants, le trajet peut s'organiser avec des partenaires locaux soigneusement choisis."
           }
         },
         {
@@ -232,7 +246,7 @@
           "name": "Proposez-vous des sièges enfant ?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Oui, des sièges enfant et rehausseurs sont disponibles sur demande."
+            "text": "Oui, des sièges enfant et des rehausseurs sont disponibles sur demande."
           }
         }
       ]

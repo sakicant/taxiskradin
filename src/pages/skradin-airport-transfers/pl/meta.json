@@ -1,0 +1,85 @@
+{
+  "slug": "skradin-airport-transfers",
+  "title": "Transfery lotniskowe Skradin | Stałe ceny | TAXI Antonio",
+  "description": "Transfery lotniskowe ze Skradina oraz taxi na lotnisko w Zadarze (ZAD) i Splicie (SPU) i z powrotem. Stałe ceny, monitorowanie lotów, od drzwi do drzwi. Lotniska w Zagrzebiu i Dubrowniku na życzenie. Zarezerwuj u Antonio.",
+  "keywords": "transfer lotniskowy skradin, transfery lotniskowe skradin, taxi skradin lotnisko zadar, skradin lotnisko split, lotnisko zadar skradin, lotnisko split skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Transfer lotniskowy",
+      "name": "Transfery lotniskowe Skradin",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Lotnisko Zadar",
+        "Lotnisko Split",
+        "Lotnisko Zagrzeb",
+        "Lotnisko Dubrownik"
+      ],
+      "url": "https://taxiskradin.hr/pl/skradin-airport-transfers/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Ile kosztuje transfer taxi ze Skradina na lotnisko w Zadarze?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Prywatny transfer lotniskowy ze Skradina na lotnisko w Zadarze to stałe 105 euro za samochód dla maksymalnie 4 pasażerów, z opłatami drogowymi, paliwem i bagażem w cenie."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Jak znajdę kierowcę na lotnisku?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Antonio czeka w hali przylotów za odbiorem bagażu, trzymając czytelną tabliczkę z Pana lub Pani nazwiskiem."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Co jeśli mój lot będzie opóźniony?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Loty są monitorowane w czasie rzeczywistym na podstawie numeru lotu podanego przy rezerwacji. Godzina odbioru zostaje dostosowana automatycznie i za oczekiwanie nie ma dopłaty."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy cena transferu lotniskowego jest stała?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tak. Każdy transfer lotniskowy ma stałą cenę za samochód dla maksymalnie 4 pasażerów, z opłatami drogowymi, paliwem i bagażem w cenie. Bez taksometru, bez niespodzianek."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Jak płacę za transfer lotniskowy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Zaliczka 20% (minimum 20 euro) potwierdza rezerwację, przelewem bankowym lub kartą. Resztę płaci się kierowcy w dniu przejazdu, gotówką lub kartą."
+          }
+        }
+      ]
+    }
+  ]
+}

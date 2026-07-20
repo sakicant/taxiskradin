@@ -1,0 +1,72 @@
+{
+  "slug": "skradin-winery-transfers",
+  "title": "Weingut-Transfers ab Skradin | Plastovo, Bibich & Sladić | TAXI Antonio",
+  "description": "Privates Taxi und Transfer von Skradin zu den Weingütern in Plastovo, Bibich und Sladić. Festpreis pro Fahrzeug, vorab vereinbart. Nur Transport, die Verkostung buchen Sie selbst.",
+  "keywords": "weingut transfer skradin, taxi weingut plastovo, weingut bibich skradin, transfer weingut sladic, taxi skradin nach plastovo",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privates Taxi und Transfer zu Weingütern",
+      "name": "Weingut-Transfers ab Skradin",
+      "description": "Privates Taxi und Transfer von Skradin zu den Weingütern in Plastovo, Bibich und Sladić. Festpreis pro Fahrzeug für bis zu 4 Personen, vorab vereinbart. Nur Transport; die Verkostung wird beim Weingut gebucht und dort bezahlt.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": ["Skradin", "Plastovo"],
+      "url": "https://taxiskradin.hr/de/skradin-winery-transfers/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Was kostet ein Weingut-Transfer ab Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Es ist ein vorab vereinbarter Festpreis pro Fahrzeug für bis zu 4 Personen. Er hängt davon ab, welche Weingüter Sie besuchen und ob ich warte oder später zurückkomme. Schicken Sie mir Ihren Plan auf WhatsApp, dann bestätige ich den genauen Preis vor der Buchung."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Organisieren Sie die Verkostung?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nein. Ich übernehme ausschließlich den Transport. Die Verkostung buchen Sie beim Weingut und bezahlen sie dort direkt. Ich berechne nichts für den Besuch und nichts pro Person."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Können Sie warten und uns zurückfahren?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Ich warte in der Nähe und bringe Sie nach Hause, sobald Sie so weit sind, oder komme zu einer vereinbarten Zeit zurück."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Können wir Bibich und Sladić beide besuchen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Beide liegen nahe bei Skradin und lassen sich gut in einer Fahrt verbinden. Sagen Sie mir, was Sie möchten, dann plane ich den Ablauf und den Festpreis."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Rezervacija</span>
+      <h1>Rezervirajte svoj transfer</h1>
+      <p class="page-hero-sub">Upišite podatke o putovanju ispod i potvrdit ću vam vožnju izravno, obično u roku od nekoliko sati.</p>
+    </div>
+  </section>
+
+  <section class="page-content">
+    <div class="container booking-page">
+      <form class="booking-form" id="booking-page-form" action="/booking-submit.php" method="POST">
+        <h3>Vaše putovanje</h3>
+
+        <label for="book-from">Mjesto preuzimanja (od)</label>
+        <input type="text" id="book-from" name="from" required placeholder="Skradin centar, vaš hotel ili adresa">
+
+        <label for="book-to">Mjesto dolaska (do)</label>
+        <input type="text" id="book-to" name="to" required placeholder="Zračna luka Split (SPU), mjesto ili adresa">
+
+        <div class="quote-field-row">
+          <div class="quote-field">
+            <label for="book-trip">Putovanje</label>
+            <select id="book-trip" name="trip">
+              <option value="oneway">U jednom smjeru</option>
+              <option value="return">Povratno</option>
+            </select>
+          </div>
+          <div class="quote-field">
+            <label for="book-pax">Putnici</label>
+            <input type="number" id="book-pax" name="passengers" min="1" max="12" value="1" required>
+          </div>
+          <div class="quote-field">
+            <label for="book-lug">Prtljaga</label>
+            <input type="number" id="book-lug" name="luggage" min="0" max="12" value="1" required>
+          </div>
+        </div>
+
+        <p class="booking-price-line" id="booking-price-line" hidden>Fiksna cijena: <strong id="sum-price">&mdash;</strong> <span class="booking-price-sub">po vozilu, do 4 putnika</span></p>
+
+        <h3>Podaci o putovanju</h3>
+
+        <div class="quote-field-row">
+          <div class="quote-field">
+            <label for="book-date">Datum preuzimanja</label>
+            <input type="date" id="book-date" name="book-date" required>
+          </div>
+          <div class="quote-field">
+            <label for="book-time">Vrijeme preuzimanja</label>
+            <select id="book-time" name="book-time" required><option value="">--:--</option></select>
+          </div>
+        </div>
+        <p class="form-hint">Molimo rezervirajte najmanje 2 sata unaprijed kako bih mogao potvrditi vozilo i vaše preuzimanje. Trebate vožnju ranije? <a href="tel:+385994471013">Nazovite me</a> ili <a href="https://wa.me/385994471013?text=Pozdrav%20Antonio%2C%20prona%C5%A1ao%20sam%20vas%20preko%20va%C5%A1e%20web%20stranice%20taxiskradin.hr%20i%20imam%20upit%3A%20" target="_blank" rel="noopener">pišite na WhatsApp</a>.</p>
+
+        <div class="quote-field-row" id="book-return-fields" hidden>
+          <div class="quote-field">
+            <label for="book-return-date">Datum povratka</label>
+            <input type="date" id="book-return-date" name="book-return-date">
+          </div>
+          <div class="quote-field">
+            <label for="book-return-time">Vrijeme povratka</label>
+            <select id="book-return-time" name="book-return-time"><option value="">--:--</option></select>
+          </div>
+        </div>
+
+        <label for="book-name">Ime</label>
+        <input type="text" id="book-name" name="name" required>
+
+        <label for="book-email">E-mail</label>
+        <input type="email" id="book-email" name="email" required>
+
+        <label for="book-phone">Telefon / WhatsApp</label>
+        <input type="tel" id="book-phone" name="phone" required placeholder="Uključite pozivni broj države">
+
+        <label for="book-flight">Podaci o preuzimanju (broj leta dolaska ili adresa)</label>
+        <input type="text" id="book-flight" name="book-flight" required placeholder="Broj leta ako stižete zrakoplovom, ili vaša adresa preuzimanja">
+
+        <label for="book-dropoff-details">Podaci o odredištu (adresa ili broj leta)</label>
+        <input type="text" id="book-dropoff-details" name="book-dropoff-details" placeholder="Adresa odredišta, ili broj vašeg leta ako morate stići na let">
+
+        <label for="book-notes">Još nešto? (nije obavezno)</label>
+        <textarea id="book-notes" name="book-notes" rows="4" placeholder="Dječja sjedalica, dodatna stajanja, glomazna prtljaga, upute za preuzimanje..."></textarea>
+
+        <input type="text" id="book-company" name="company" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+        <label class="form-consent">
+          <input type="checkbox" id="book-consent" name="consent" value="1" required>
+          <span>Pročitao sam i prihvaćam <a href="/hr/politika-privatnosti/">Pravila privatnosti</a>.</span>
+        </label>
+        <button type="submit" class="btn btn-primary">Pošalji zahtjev za rezervaciju</button>
+        <p class="form-note" id="booking-page-note"></p>
+      </form>
+    </div>
+  </section>
+  <script>
+  (function(){
+    var o='';
+    for(var h=0;h<24;h++){for(var m=0;m<60;m+=5){var t=(h<10?'0':'')+h+':'+(m<10?'0':'')+m;o+='<option value="'+t+'">'+t+'</option>';}}
+    ['book-time','book-return-time'].forEach(function(id){var s=document.getElementById(id);if(s)s.insertAdjacentHTML('beforeend',o);});
+  })();
+  </script>

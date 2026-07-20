@@ -1,0 +1,38 @@
+{
+  "slug": "taxi-roski-slap",
+  "title": "Taxi Roški Slap | Traslados al Parque Nacional Krka | TAXI Antonio",
+  "description": "Taxi privado y traslados desde y hacia Roški Slap, la entrada alta del Parque Nacional Krka. Precios fijos por coche, puerta a puerta. Reserve directamente con Antonio.",
+  "keywords": "taxi roški slap, traslado roški slap, taxi krka roški slap, taxi a roski slap, taxi roski slap skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Taxi privado y traslados",
+      "name": "Taxi Roški Slap",
+      "description": "Taxi privado y traslados desde y hacia la entrada de Roški Slap del Parque Nacional Krka, precio fijo por coche para hasta 4 pasajeros, puerta a puerta.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Roški Slap",
+        "Skradin",
+        "Parque Nacional Krka"
+      ],
+      "url": "https://taxiskradin.hr/es/taxi-roski-slap/"
+    }
+  ]
+}

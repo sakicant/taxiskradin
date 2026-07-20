@@ -1,0 +1,85 @@
+{
+  "slug": "skradin-airport-transfers",
+  "title": "Skradini reptéri transzferek | Fix árak | TAXI Antonio",
+  "description": "Skradini reptéri transzferek és taxi a zadari repülőtérre (ZAD) és a spliti repülőtérre (SPU), valamint onnan vissza. Fix árak, járatkövetés, háztól házig. Zágráb és Dubrovnik repülőtere kérésre. Foglaljon Antoniónál.",
+  "keywords": "skradin reptéri transzfer, skradini reptéri transzferek, taxi skradin zadar repülőtér, skradin spliti repülőtér, zadar repülőtér skradin, split repülőtér skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Reptéri transzfer",
+      "name": "Skradini reptéri transzferek",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Zadar repülőtér",
+        "Split repülőtér",
+        "Zágráb repülőtér",
+        "Dubrovnik repülőtér"
+      ],
+      "url": "https://taxiskradin.hr/hu/skradin-airport-transfers/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Mennyibe kerül a taxitranszfer Skradinból a zadari repülőtérre?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A privát reptéri transzfer Skradinból a zadari repülőtérre fix 105 euró autónként, legfeljebb 4 utasig, az útdíjakkal, az üzemanyaggal és a csomagokkal együtt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hogyan találom meg a sofőrömet a repülőtéren?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Antonio az érkezési csarnokban vár a csomagkiadás után, jól látható táblával, amelyen az Ön neve szerepel."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mi történik, ha késik a járatom?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A járatokat valós időben követem a foglaláskor megadott járatszám alapján. A felvétel időpontja automatikusan igazodik, és a várakozásért nincs felár."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Fix a reptéri transzfer ára?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Igen. Minden reptéri transzfer fix áras autónként, legfeljebb 4 utasig, az útdíjakkal, az üzemanyaggal és a csomagokkal együtt. Nincs taxióra, nincs meglepetés."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hogyan fizethetek a reptéri transzferért?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A foglalást 20% előleg (legalább 20 euró) erősíti meg, banki átutalással vagy kártyával. A fennmaradó összeget a sofőrnek fizeti az adott napon, készpénzben vagy kártyával."
+          }
+        }
+      ]
+    }
+  ]
+}

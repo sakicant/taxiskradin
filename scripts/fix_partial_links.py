@@ -42,8 +42,8 @@ for lang in LANGS:
 
         def repl(m):
             path = m.group(1)          # e.g. "about/" or "" for the home link
-            slug = path.rstrip("/")
-            if slug == "" or slug in have:
+            slug = path.rstrip("/")    # the home page's slug is "" by convention
+            if slug in have:
                 return m.group(0)      # localized page exists, keep it
             fixed[0] += 1
             return 'href="/%s"' % path  # fall back to the English page

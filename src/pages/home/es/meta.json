@@ -1,0 +1,255 @@
+{
+  "slug": "",
+  "title": "Taxi Skradin | Visite Krka | Traslados a precio fijo | Taxi Antonio",
+  "description": "Taxi Skradin para viajes locales, el embarcadero del Parque Nacional de Krka, ACI Marina Skradin y traslados al aeropuerto a precio fijo. Conductor que habla inglés. Reserve directamente con Antonio.",
+  "keywords": "taxi skradin, skradin taxi, traslado skradin, traslado aeropuerto skradin, taxi skradin krka, taxi aci marina skradin, taxi parque nacional krka",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-bg.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "TAXI Skradin - Antonio",
+      "url": "https://taxiskradin.hr/",
+      "telephone": "+385994471013",
+      "email": "info@taxiskradin.hr",
+      "areaServed": [
+        "Skradin",
+        "Parque Nacional de Krka",
+        "ACI Marina Skradin",
+        "Šibenik",
+        "Split",
+        "Zadar",
+        "Dubrovnik",
+        "Zagreb"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Skradin",
+        "postalCode": "22222",
+        "addressCountry": "HR"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "142"
+      },
+      "priceRange": "€€",
+      "alternateName": "TAXI Antonio",
+      "@id": "https://taxiskradin.hr/#business",
+      "image": "https://taxiskradin.hr/assets/img/hero-bg.webp",
+      "paymentAccepted": "Efectivo, tarjeta de crédito",
+      "currenciesAccepted": "EUR",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 43.8186,
+        "longitude": 15.9214
+      },
+      "hasMap": "https://www.google.com/maps?cid=4748268601430744277",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "07:00",
+          "closes": "14:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "16:00",
+          "closes": "21:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "06:00",
+          "closes": "16:00"
+        }
+      ],
+      "sameAs": [
+        "https://web.facebook.com/profile.php?id=61579783829997",
+        "https://www.instagram.com/taxi_sibenik/",
+        "https://www.tiktok.com/@taxisibenik",
+        "https://www.tripadvisor.com/Attraction_Review-g295375-d24821165-Reviews-TAXI_Sibenik_Skradin_Antonio-Sibenik_Sibenik_Knin_County_Dalmatia.html",
+        "https://www.google.com/maps?cid=4748268601430744277"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Servicio de taxi y traslados",
+      "name": "Taxi Skradin de TAXI Antonio",
+      "areaServed": {
+        "@type": "City",
+        "name": "Skradin"
+      },
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Servicios de taxi y traslados",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Viajes de taxi locales en Skradin"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Traslados al embarcadero del Parque Nacional de Krka"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Traslados desde ACI Marina Skradin"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Traslados al aeropuerto"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Traslados entre ciudades"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cómo reservo un taxi en Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Llame al +385 99 447 1013, escriba por WhatsApp o envíe un correo electrónico. Antonio necesita el lugar de recogida, el destino y la hora preferida de recogida o de llegada."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Con cuánta antelación debo reservar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Se aceptan peticiones de última hora dentro del horario de trabajo, pero una reserva necesita al menos 2 horas de antelación para poder confirmar el coche y la hora de recogida. Reservar con más margen garantiza la disponibilidad."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué significa \"precio fijo\"? ¿Qué incluye?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Los precios fijos incluyen el transporte, el combustible, los peajes y la ayuda con el equipaje. Sin cargos ocultos. Las paradas adicionales o las esperas largas pueden costar más, y se comunican de antemano."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cobra un anticipo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Confirmar una reserva requiere un anticipo del 20% (mínimo 20 euros). Los viajes de 20 euros o menos requieren el pago completo por adelantado. Los anticipos se pueden pagar por transferencia bancaria (SEPA) o con tarjeta, y el resto se abona el mismo día, en efectivo o con tarjeta."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Se puede pagar con tarjeta en el coche?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, se aceptan tarjetas y otros métodos de pago sin contacto."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puede llevarme a la entrada del Parque Nacional de Krka en Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Skradin es la puerta principal a Krka. Antonio le deja en el embarcadero del paseo fluvial, donde salen los barcos del parque hacia las cascadas de Skradinski Buk, y le recoge a su vuelta."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Recoge en ACI Marina Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Antonio recoge y deja a las tripulaciones en el mismo ACI Marina Skradin, con sitio para equipaje y provisiones. Envíe el número de amarre para acordar el punto de encuentro."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Conduce hasta Šibenik y los aeropuertos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Antonio hace traslados a precio fijo desde Skradin a Šibenik, a los aeropuertos de Split y Zadar y a ciudades de toda Dalmacia. Para los viajes que empiezan en la propia Šibenik, vea el servicio hermano en taxisibenik.hr."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué pasa si mi vuelo se retrasa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Las llegadas de los vuelos se siguen en tiempo real y la hora de recogida se ajusta automáticamente, sin coste adicional."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué pasa si tengo que cancelar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Las cancelaciones deben hacerse por escrito por correo electrónico. Con más de 72 horas de antelación, se devuelve el importe completo si el pago fue por transferencia bancaria, o el importe completo menos 10 euros de gastos de gestión si fue con tarjeta. Las cancelaciones dentro de las 72 horas, o no presentarse, no dan derecho a reembolso. Cambiar la fecha es gratis en cualquier momento."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puede llevar a un grupo más grande?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El Škoda Superb lleva hasta 4 pasajeros. Para grupos más grandes se puede organizar el viaje con socios locales elegidos uno a uno."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Ofrece sillas infantiles?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, hay sillas infantiles y elevadores disponibles bajo petición."
+          }
+        }
+      ]
+    }
+  ]
+}

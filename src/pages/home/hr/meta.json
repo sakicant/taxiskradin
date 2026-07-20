@@ -1,20 +1,22 @@
 {
   "slug": "",
-  "title": "Taksi Šibenik - Usluga na koju se možete osloniti | Taxi Antonio",
-  "description": "Taksi Šibenik za lokalne vožnje na zahtjev, prijevoz do bolnice i hotela, autobusnog i trajektnog kolodvora te veze s otocima. Vozač govori engleski. Rezervirajte izravno kod Antonija.",
-  "keywords": "taksi šibenik, taxi šibenik, taksi šibenik bolnica, taksi hotel šibenik, taksi trajektna luka šibenik, taksi zlarin prvić",
-  "og_image": "https://taxisibenik.hr/assets/img/hero-bg.webp",
+  "title": "Taksi Skradin | Posjetite Krku | Transferi po fiksnoj cijeni | Taxi Antonio",
+  "description": "Taksi Skradin za lokalne vožnje, brodsko pristanište Nacionalnog parka Krka, ACI Marinu Skradin i transfere do zračnih luka po fiksnoj cijeni. Vozač govori engleski. Rezervirajte izravno kod Antonija.",
+  "keywords": "taxi skradin, taksi skradin, transfer skradin, transfer zračna luka skradin, taksi skradin krka, taksi aci marina skradin, taksi nacionalni park krka",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-bg.webp",
   "schema": [
     {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "name": "TAXI Šibenik & Skradin - Antonio",
-      "url": "https://taxisibenik.hr/hr/",
+      "name": "TAXI Skradin - Antonio",
+      "url": "https://taxiskradin.hr/",
       "telephone": "+385994471013",
-      "email": "info@taxisibenik.hr",
+      "email": "info@taxiskradin.hr",
       "areaServed": [
-        "Šibenik",
         "Skradin",
+        "Nacionalni park Krka",
+        "ACI Marina Skradin",
+        "Šibenik",
         "Split",
         "Zadar",
         "Dubrovnik",
@@ -22,8 +24,8 @@
       ],
       "address": {
         "@type": "PostalAddress",
-        "addressLocality": "Šibenik",
-        "postalCode": "22000",
+        "addressLocality": "Skradin",
+        "postalCode": "22222",
         "addressCountry": "HR"
       },
       "aggregateRating": {
@@ -33,14 +35,14 @@
       },
       "priceRange": "€€",
       "alternateName": "TAXI Antonio",
-      "@id": "https://taxisibenik.hr/#business",
-      "image": "https://taxisibenik.hr/assets/img/hero-bg.webp",
-      "paymentAccepted": "Gotovina, Kreditna kartica",
+      "@id": "https://taxiskradin.hr/#business",
+      "image": "https://taxiskradin.hr/assets/img/hero-bg.webp",
+      "paymentAccepted": "Gotovina, kreditna kartica",
       "currenciesAccepted": "EUR",
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": 43.6956974,
-        "longitude": 15.7891511
+        "latitude": 43.8186,
+        "longitude": 15.9214
       },
       "hasMap": "https://www.google.com/maps?cid=4748268601430744277",
       "openingHoursSpecification": [
@@ -54,6 +56,18 @@
             "Friday"
           ],
           "opens": "07:00",
+          "closes": "14:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "16:00",
           "closes": "21:00"
         },
         {
@@ -63,7 +77,7 @@
             "Sunday"
           ],
           "opens": "06:00",
-          "closes": "15:00"
+          "closes": "16:00"
         }
       ],
       "sameAs": [
@@ -77,11 +91,11 @@
     {
       "@context": "https://schema.org",
       "@type": "Service",
-      "serviceType": "Taksi i transferni prijevoz",
-      "name": "Taksi Šibenik (TAXI Antonio)",
+      "serviceType": "Taksi i transfer usluga",
+      "name": "Taksi Skradin od TAXI Antonio",
       "areaServed": {
         "@type": "City",
-        "name": "Šibenik"
+        "name": "Skradin"
       },
       "provider": {
         "@type": "LocalBusiness",
@@ -95,13 +109,27 @@
       },
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
-        "name": "Taksi i transferne usluge",
+        "name": "Taksi i transfer usluge",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Lokalne taksi vožnje u Šibeniku"
+              "name": "Lokalne taksi vožnje u Skradinu"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Transferi do brodskog pristaništa Nacionalnog parka Krka"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Transferi iz i do ACI Marine Skradin"
             }
           },
           {
@@ -117,20 +145,6 @@
               "@type": "Service",
               "name": "Međugradski transferi"
             }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Hotelski transferi"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Izleti na Krku i Plitvice"
-            }
           }
         ]
       }
@@ -141,10 +155,10 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Kako rezervirati taksi iz Šibenika?",
+          "name": "Kako rezerviram taksi u Skradinu?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Nazovite +385 99 447 1013, pišite na WhatsApp ili pošaljite e-poštu. Antoniju trebaju mjesto polaska, odredište te željeno vrijeme polaska ili dolaska."
+            "text": "Nazovite +385 99 447 1013, javite se na WhatsApp ili pošaljite e-mail. Antoniju trebaju mjesto preuzimanja, odredište i željeno vrijeme preuzimanja ili dolaska."
           }
         },
         {
@@ -152,28 +166,28 @@
           "name": "Koliko unaprijed trebam rezervirati?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Zahtjeve u zadnji čas prihvaćam unutar radnog vremena, ali rezervacija unaprijed jamči dostupnost."
+            "text": "Zahtjevi u zadnji čas prihvaćaju se unutar radnog vremena, ali rezervacija traži najmanje 2 sata unaprijed kako bi se potvrdili vozilo i vrijeme preuzimanja. Ranija rezervacija jamči dostupnost."
           }
         },
         {
           "@type": "Question",
-          "name": "Što znači „fiksna cijena”? Što je uključeno?",
+          "name": "Što znači \"fiksna cijena\"? Što je uključeno?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Fiksne cijene uključuju prijevoz, gorivo, cestarine i pomoć s prtljagom. Bez skrivenih troškova. Dodatna zaustavljanja ili duže čekanje mogu se dodatno naplatiti, o čemu se dogovaramo unaprijed."
+            "text": "Fiksne cijene uključuju prijevoz, gorivo, cestarine i pomoć s prtljagom. Bez skrivenih troškova. Dodatna stajanja ili duže čekanje mogu koštati više, o čemu se javlja unaprijed."
           }
         },
         {
           "@type": "Question",
-          "name": "Primate li plaćanje unaprijed?",
+          "name": "Naplaćujete li predujam?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Da. Za potvrdu rezervacije potrebna je akontacija od 20% (najmanje 20 eura). Vožnje s cijenom do 20 eura plaćaju se u cijelosti unaprijed. Plaćanje unaprijed moguće je bankovnim prijenosom (SEPA) ili karticom, a ostatak se podmiruje na dan prijevoza."
+            "text": "Da. Potvrda rezervacije traži predujam od 20% (najmanje 20 eura). Vožnje s cijenom od 20 eura ili manje plaćaju se u cijelosti unaprijed. Predujam se može platiti bankovnim prijenosom (SEPA) ili karticom, a ostatak se podmiruje na dan vožnje, gotovinom ili karticom."
           }
         },
         {
           "@type": "Question",
-          "name": "Primate li plaćanje karticom u vozilu?",
+          "name": "Prihvaćate li plaćanje karticom u vozilu?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Da, prihvaćaju se kartice i drugi beskontaktni načini plaćanja."
@@ -181,26 +195,26 @@
         },
         {
           "@type": "Question",
-          "name": "Vozite li do i od bolnice u Šibeniku?",
+          "name": "Možete li me odvesti do ulaza u Nacionalni park Krka u Skradinu?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Da. Antonio vozi putnike do i od Opće bolnice Šibenik i smije ući u krug bolnice, pa nema dugog hoda od parkirališta."
+            "text": "Da. Skradin je glavni ulaz u Krku. Antonio vas ostavlja na pristaništu uz rivu odakle brodovi parka polaze prema slapovima Skradinski buk i dolazi po vas kad se vratite."
           }
         },
         {
           "@type": "Question",
-          "name": "Možete li me odvesti do trajekta za otoke?",
+          "name": "Preuzimate li goste u ACI Marini Skradin?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Da. Antonio dovozi i odvozi na šibensku trajektnu i katamaransku luku za Zlarin, Prvić, Kaprije i Žirje te na brod za Obonjan."
+            "text": "Da. Antonio preuzima i dovozi posade točno u ACI Marinu Skradin, s prostorom za prtljagu i namirnice. Pošaljite broj veza kako biste dogovorili mjesto susreta."
           }
         },
         {
           "@type": "Question",
-          "name": "Vozite li od šibenskih hotela, autobusnog i željezničkog kolodvora?",
+          "name": "Vozite li do Šibenika i zračnih luka?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Da. Antonio opslužuje sve lokalne hotele, autobusni kolodvor, željezničke kolodvore Šibenik i Perković te trajektnu luku, uz pomoć s prtljagom i natpis s imenom na zahtjev."
+            "text": "Da. Antonio vozi transfere po fiksnoj cijeni iz Skradina do Šibenika, zračnih luka Split i Zadar te gradova diljem Dalmacije. Za vožnje koje počinju u samom Šibeniku pogledajte sestrinsku uslugu na taxisibenik.hr."
           }
         },
         {
@@ -208,7 +222,7 @@
           "name": "Što ako mi let kasni?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Dolasci letova prate se u stvarnom vremenu i vrijeme preuzimanja prilagođava se automatski, bez dodatnih troškova."
+            "text": "Dolasci letova prate se u stvarnom vremenu i vrijeme preuzimanja prilagođava se automatski, bez dodatnog troška."
           }
         },
         {
@@ -216,7 +230,7 @@
           "name": "Što ako moram otkazati?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Otkazivanja se moraju poslati pisanim putem e-poštom. Više od 72 sata prije rezervacije vrijedi puni povrat za bankovni prijenos, odnosno puni povrat umanjen za 10 eura troškova obrade za karticu. Otkazivanja unutar 72 sata ili nedolazak nisu podložni povratu. Prebacivanje termina uvijek je besplatno."
+            "text": "Otkazivanja se moraju napraviti pisanim putem e-mailom. Više od 72 sata prije rezervacije vrijedi puni povrat za bankovni prijenos ili puni povrat umanjen za 10 eura troška obrade za kartično plaćanje. Otkazivanja unutar 72 sata ili nedolazak ne vraćaju se. Promjena termina besplatna je u svakom trenutku."
           }
         },
         {
@@ -224,7 +238,7 @@
           "name": "Možete li primiti veću grupu?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Škoda Superb prima do 4 putnika. Za veće grupe moguće je organizirati prijevoz preko provjerenih lokalnih partnera."
+            "text": "Škoda Superb prima do 4 putnika. Za veće grupe vožnja se može dogovoriti preko lokalnih, pomno odabranih partnera."
           }
         },
         {
@@ -232,7 +246,7 @@
           "name": "Nudite li dječje sjedalice?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Da, dječje i booster sjedalice dostupne su na zahtjev."
+            "text": "Da, dječje sjedalice i podsjedači dostupni su na zahtjev."
           }
         }
       ]

@@ -1,0 +1,100 @@
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Foglalás</span>
+      <h1>Foglalja le transzferét</h1>
+      <p class="page-hero-sub">Adja meg alább az utazás adatait, és közvetlenül visszaigazolom az utat, általában néhány órán belül.</p>
+    </div>
+  </section>
+
+  <section class="page-content">
+    <div class="container booking-page">
+      <form class="booking-form" id="booking-page-form" action="/booking-submit.php" method="POST">
+        <h3>Az Ön útja</h3>
+
+        <label for="book-from">Felvételi hely (honnan)</label>
+        <input type="text" id="book-from" name="from" required placeholder="Skradin központ, az Ön szállodája vagy címe">
+
+        <label for="book-to">Érkezési hely (hová)</label>
+        <input type="text" id="book-to" name="to" required placeholder="Split repülőtér (SPU), település vagy cím">
+
+        <div class="quote-field-row">
+          <div class="quote-field">
+            <label for="book-trip">Út</label>
+            <select id="book-trip" name="trip">
+              <option value="oneway">Egy irányba</option>
+              <option value="return">Oda-vissza</option>
+            </select>
+          </div>
+          <div class="quote-field">
+            <label for="book-pax">Utasok</label>
+            <input type="number" id="book-pax" name="passengers" min="1" max="12" value="1" required>
+          </div>
+          <div class="quote-field">
+            <label for="book-lug">Csomag</label>
+            <input type="number" id="book-lug" name="luggage" min="0" max="12" value="1" required>
+          </div>
+        </div>
+
+        <p class="booking-price-line" id="booking-price-line" hidden>Fix ár: <strong id="sum-price">&mdash;</strong> <span class="booking-price-sub">autónként, legfeljebb 4 utas</span></p>
+
+        <h3>Utazási adatok</h3>
+
+        <div class="quote-field-row">
+          <div class="quote-field">
+            <label for="book-date">Felvétel dátuma</label>
+            <input type="date" id="book-date" name="book-date" required>
+          </div>
+          <div class="quote-field">
+            <label for="book-time">Felvétel időpontja</label>
+            <select id="book-time" name="book-time" required><option value="">--:--</option></select>
+          </div>
+        </div>
+        <p class="form-hint">Kérjük, legalább 2 órával előre foglaljon, hogy vissza tudjam igazolni az autót és az Ön felvételét. Hamarabb kell az út? <a href="tel:+385994471013">Hívjon fel</a> vagy <a href="https://wa.me/385994471013?text=Hello%20Antonio%2C%20I%20found%20you%20through%20your%20website%20taxiskradin.hr%20and%20I%20have%20an%20inquiry%3A%20" target="_blank" rel="noopener">írjon WhatsAppon</a>.</p>
+
+        <div class="quote-field-row" id="book-return-fields" hidden>
+          <div class="quote-field">
+            <label for="book-return-date">Visszaút dátuma</label>
+            <input type="date" id="book-return-date" name="book-return-date">
+          </div>
+          <div class="quote-field">
+            <label for="book-return-time">Visszaút időpontja</label>
+            <select id="book-return-time" name="book-return-time"><option value="">--:--</option></select>
+          </div>
+        </div>
+
+        <label for="book-name">Név</label>
+        <input type="text" id="book-name" name="name" required>
+
+        <label for="book-email">E-mail</label>
+        <input type="email" id="book-email" name="email" required>
+
+        <label for="book-phone">Telefon / WhatsApp</label>
+        <input type="tel" id="book-phone" name="phone" required placeholder="Az országhívószámmal együtt">
+
+        <label for="book-flight">Felvételi adatok (érkező járatszám vagy cím)</label>
+        <input type="text" id="book-flight" name="book-flight" required placeholder="Járatszám, ha repülővel érkezik, vagy a felvételi címe">
+
+        <label for="book-dropoff-details">Célállomás adatai (cím vagy járatszám)</label>
+        <input type="text" id="book-dropoff-details" name="book-dropoff-details" placeholder="Érkezési cím, vagy a járatszáma, ha repülőt kell elérnie">
+
+        <label for="book-notes">Bármi más? (nem kötelező)</label>
+        <textarea id="book-notes" name="book-notes" rows="4" placeholder="Gyerekülés, extra megállók, túlméretes csomag, felvételi tudnivalók..."></textarea>
+
+        <input type="text" id="book-company" name="company" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+        <label class="form-consent">
+          <input type="checkbox" id="book-consent" name="consent" value="1" required>
+          <span>Elolvastam az <a href="/hu/adatvedelem/">Adatvédelmi szabályzatot</a> és elfogadom.</span>
+        </label>
+        <button type="submit" class="btn btn-primary">Foglalási kérelem küldése</button>
+        <p class="form-note" id="booking-page-note"></p>
+      </form>
+    </div>
+  </section>
+  <script>
+  (function(){
+    var o='';
+    for(var h=0;h<24;h++){for(var m=0;m<60;m+=5){var t=(h<10?'0':'')+h+':'+(m<10?'0':'')+m;o+='<option value="'+t+'">'+t+'</option>';}}
+    ['book-time','book-return-time'].forEach(function(id){var s=document.getElementById(id);if(s)s.insertAdjacentHTML('beforeend',o);});
+  })();
+  </script>

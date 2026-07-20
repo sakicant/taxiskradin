@@ -1,0 +1,88 @@
+{
+  "slug": "skradin-transfers",
+  "title": "Kuljetukset Skradinista | Kiinteät hinnat | TAXI Antonio",
+  "description": "Kuljetukset ja taksi Skradinista Splitiin, Zadariin, Zagrebiin, Dubrovnikiin, Trogiriin, Vodiceen ja Primošteniin sekä takaisin. Kiinteät hinnat, yksityisesti ovelta ovelle, yksi paikallinen kuljettaja. Varaa suoraan Antoniolta.",
+  "keywords": "skradin kuljetus, kuljetukset skradin, taksi skradin, skradin split, skradin zadar, skradin zagreb, skradin dubrovnik",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Kaupunkien välinen taksikuljetus",
+      "name": "Kuljetukset Skradinista",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Split",
+        "Zadar",
+        "Zagreb",
+        "Dubrovnik",
+        "Trogir",
+        "Vodice",
+        "Primošten"
+      ],
+      "url": "https://taxiskradin.hr/fi/skradin-transfers/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Paljonko taksikuljetus Skradinista Splitiin maksaa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yksityinen taksikuljetus Skradinista Splitiin on kiinteä 140 euroa autoa kohti enintään 4 matkustajalle, sisältäen tietullit, polttoaineen ja matkatavarat."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ovatko kuljetushinnat kiinteitä?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kyllä. Jokainen kaupunkien välinen kuljetus on kiinteähintainen autoa kohti enintään 4 matkustajalle, sovittu etukäteen. Ei taksamittaria, ei yllätyksiä."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Onko kuljetus yksityinen vai jaettu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Jokainen kuljetus on yksityinen ja ovelta ovelle, Škoda Superbissa. Autoa ei jaeta muiden kanssa eikä ylimääräisiä pysähdyksiä tehdä, ellet niitä pyydä."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Voitteko pysähtyä matkan varrella?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kyllä. Pidemmillä matkoilla pysähdyn mielelläni kahville, valokuvaa tai pikaista nähtävyyttä varten. Kerro siitä varatessasi, niin otan sen huomioon."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Miten maksan kuljetuksen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "20 %:n ennakkomaksu (vähintään 20 euroa) vahvistaa varauksen, tilisiirrolla tai kortilla. Loppusumma maksetaan kuljettajalle matkapäivänä käteisellä tai kortilla."
+          }
+        }
+      ]
+    }
+  ]
+}

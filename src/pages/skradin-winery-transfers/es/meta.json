@@ -1,0 +1,72 @@
+{
+  "slug": "skradin-winery-transfers",
+  "title": "Traslados a bodegas desde Skradin | Plastovo, Bibich y Sladić | TAXI Antonio",
+  "description": "Taxi privado y traslado de Skradin a las bodegas de Plastovo, Bibich y Sladić. Precio fijo por coche, acordado de antemano. Solo transporte, la cata la organiza usted.",
+  "keywords": "traslado bodegas skradin, taxi bodega plastovo, bodega bibich skradin, traslado bodega sladic, taxi skradin plastovo",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Taxi privado y traslado a bodegas",
+      "name": "Traslados a bodegas desde Skradin",
+      "description": "Taxi privado y traslado de Skradin a las bodegas de Plastovo, Bibich y Sladić. Precio fijo por coche para hasta 4 pasajeros, acordado de antemano. Solo transporte; la cata se organiza y se paga directamente a la bodega.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": ["Skradin", "Plastovo"],
+      "url": "https://taxiskradin.hr/es/skradin-winery-transfers/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta un traslado a las bodegas desde Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Es un precio fijo por coche, hasta 4 pasajeros, acordado de antemano. Depende de qué bodegas visite y de si espero o vuelvo más tarde, así que envíeme su plan por WhatsApp y le confirmaré el precio exacto antes de reservar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Organiza usted la cata?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Yo me encargo solo del transporte. Usted reserva la cata con la bodega y les paga directamente. No cobro por la visita ni por persona."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puede esperar y llevarnos de vuelta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Espero cerca y les llevo de vuelta cuando quieran, o vuelvo a la hora que acordemos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Podemos visitar Bibich y Sladić?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Las dos están cerca de Skradin y es fácil combinarlas en un mismo viaje. Dígame qué le gustaría y yo organizo los horarios y el precio fijo."
+          }
+        }
+      ]
+    }
+  ]
+}

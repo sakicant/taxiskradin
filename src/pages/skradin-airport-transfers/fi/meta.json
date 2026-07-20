@@ -1,0 +1,85 @@
+{
+  "slug": "skradin-airport-transfers",
+  "title": "Lentokenttäkuljetukset Skradinista | Kiinteät hinnat | TAXI Antonio",
+  "description": "Lentokenttäkuljetukset ja taksi Skradinista Zadarin lentoasemalle (ZAD) ja Splitin lentoasemalle (SPU) sekä takaisin. Kiinteät hinnat, lennon seuranta, ovelta ovelle. Zagrebin ja Dubrovnikin lentoasemat pyynnöstä. Varaa Antoniolta.",
+  "keywords": "skradin lentokenttäkuljetus, lentokenttäkuljetukset skradin, taksi skradin zadarin lentoasema, skradin splitin lentoasema, zadarin lentoasema skradin, splitin lentoasema skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Lentokenttäkuljetus",
+      "name": "Lentokenttäkuljetukset Skradinista",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Zadar Airport",
+        "Split Airport",
+        "Zagreb Airport",
+        "Dubrovnik Airport"
+      ],
+      "url": "https://taxiskradin.hr/fi/skradin-airport-transfers/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Paljonko taksikuljetus Skradinista Zadarin lentoasemalle maksaa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yksityinen lentokenttäkuljetus Skradinista Zadarin lentoasemalle on kiinteä 105 euroa autoa kohti enintään 4 matkustajalle, sisältäen tietullit, polttoaineen ja matkatavarat."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Miten löydän kuljettajani lentoasemalta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Antonio odottaa saapuvien aulassa matkatavarahihnan jälkeen ja pitää selkeää kylttiä, jossa lukee nimesi."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Entä jos lentoni myöhästyy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lentoja seurataan reaaliajassa varauksen yhteydessä antamasi lennon numeron avulla. Noutoaika mukautetaan automaattisesti, eikä odottamisesta veloiteta lisää."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Onko lentokenttäkuljetuksen hinta kiinteä?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kyllä. Jokainen lentokenttäkuljetus on kiinteähintainen autoa kohti enintään 4 matkustajalle, sisältäen tietullit, polttoaineen ja matkatavarat. Ei taksamittaria, ei yllätyksiä."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Miten maksan lentokenttäkuljetuksen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "20 %:n ennakkomaksu (vähintään 20 euroa) vahvistaa varauksen, tilisiirrolla tai kortilla. Loppusumma maksetaan kuljettajalle matkapäivänä käteisellä tai kortilla."
+          }
+        }
+      ]
+    }
+  ]
+}

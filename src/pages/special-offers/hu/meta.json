@@ -1,0 +1,21 @@
+{
+  "slug": "special-offers",
+  "title": "Skradini taxi akciók | Legjobb ár, korlátozott ideig",
+  "description": "Akciós skradini taxi és transzfer fuvarok: last minute és üresjárati ajánlatok a legjobb áron, korlátozott ideig. Fix árak, foglaljon, amíg tart.",
+  "keywords": "skradini taxi akciók, legjobb árú transzfer skradin, korlátozott ideig taxi ajánlat, last minute transzfer skradin, olcsó krka reptéri transzfer",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Skradini taxi akciók: legjobb ár, korlátozott ideig",
+    "description": "Korlátozott ideig érvényes akciók skradini taxi és transzfer fuvarokra a legjobb áron: last minute és üresjárati ajánlatok, fix árak.",
+    "url": "https://taxiskradin.hr/hu/special-offers/",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "Taxi Antonio",
+      "telephone": "+385994471013",
+      "email": "info@taxiskradin.hr",
+      "address": { "@type": "PostalAddress", "addressLocality": "Skradin", "addressCountry": "HR" }
+    }
+  }
+}

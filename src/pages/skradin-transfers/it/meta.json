@@ -1,0 +1,88 @@
+{
+  "slug": "skradin-transfers",
+  "title": "Transfer Skradin | Prezzi fissi | TAXI Antonio",
+  "description": "Transfer e taxi da e per Skradin verso Spalato, Zara, Zagabria, Dubrovnik, Traù, Vodice e Primošten. Prezzi fissi, privato porta a porta, un unico autista locale. Prenoti direttamente con Antonio.",
+  "keywords": "transfer skradin, transfer da skradin, taxi skradin, da skradin a spalato, da skradin a zara, da skradin a zagabria, da skradin a dubrovnik",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Transfer in taxi tra città",
+      "name": "Transfer Skradin",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Spalato",
+        "Zara",
+        "Zagabria",
+        "Dubrovnik",
+        "Traù",
+        "Vodice",
+        "Primošten"
+      ],
+      "url": "https://taxiskradin.hr/it/skradin-transfers/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quanto costa un transfer in taxi da Skradin a Spalato?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Un transfer in taxi privato da Skradin a Spalato costa 140 euro fissi per auto fino a 4 passeggeri, con pedaggi, carburante e bagagli inclusi."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "I prezzi dei transfer sono fissi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sì. Ogni transfer tra città ha un prezzo fisso per auto fino a 4 passeggeri, concordato in anticipo. Niente tassametro e nessuna sorpresa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Il transfer è privato o condiviso?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ogni transfer è privato e porta a porta, su una Škoda Superb. Non ci sono veicoli condivisi né fermate extra, a meno che non le chieda Lei."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "È possibile fare una sosta lungo il percorso?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sì. Sui transfer più lunghi sono felice di fermarmi per un caffè, una foto o una breve visita. Basta dirmelo al momento della prenotazione e ne terrò conto."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Come si paga un transfer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Un anticipo del 20% (minimo 20 euro) conferma la prenotazione, con bonifico bancario o carta. Il saldo si paga all'autista il giorno stesso, in contanti o con carta."
+          }
+        }
+      ]
+    }
+  ]
+}

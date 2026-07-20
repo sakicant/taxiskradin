@@ -1,0 +1,100 @@
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">예약</span>
+      <h1>교통편 예약하기</h1>
+      <p class="page-hero-sub">아래에 이동 정보를 남겨주시면 제가 직접 확인해 드립니다. 보통 몇 시간 안에 답변드립니다.</p>
+    </div>
+  </section>
+
+  <section class="page-content">
+    <div class="container booking-page">
+      <form class="booking-form" id="booking-page-form" action="/booking-submit.php" method="POST">
+        <h3>이동 정보</h3>
+
+        <label for="book-from">픽업 장소 (출발지)</label>
+        <input type="text" id="book-from" name="from" required placeholder="Skradin 중심가, 숙소 또는 주소">
+
+        <label for="book-to">하차 장소 (도착지)</label>
+        <input type="text" id="book-to" name="to" required placeholder="Split 공항 (SPU), 도시 또는 주소">
+
+        <div class="quote-field-row">
+          <div class="quote-field">
+            <label for="book-trip">이동 유형</label>
+            <select id="book-trip" name="trip">
+              <option value="oneway">편도</option>
+              <option value="return">왕복</option>
+            </select>
+          </div>
+          <div class="quote-field">
+            <label for="book-pax">탑승 인원</label>
+            <input type="number" id="book-pax" name="passengers" min="1" max="12" value="1" required>
+          </div>
+          <div class="quote-field">
+            <label for="book-lug">짐 개수</label>
+            <input type="number" id="book-lug" name="luggage" min="0" max="12" value="1" required>
+          </div>
+        </div>
+
+        <p class="booking-price-line" id="booking-price-line" hidden>고정 요금: <strong id="sum-price">&mdash;</strong> <span class="booking-price-sub">차량당, 최대 4명 탑승</span></p>
+
+        <h3>여행 세부 정보</h3>
+
+        <div class="quote-field-row">
+          <div class="quote-field">
+            <label for="book-date">픽업 날짜</label>
+            <input type="date" id="book-date" name="book-date" required>
+          </div>
+          <div class="quote-field">
+            <label for="book-time">픽업 시간</label>
+            <select id="book-time" name="book-time" required><option value="">--:--</option></select>
+          </div>
+        </div>
+        <p class="form-hint">차량과 픽업을 확정할 수 있도록 최소 2시간 전에 예약해 주세요. 더 빨리 필요하신가요? <a href="tel:+385994471013">전화 주시거나</a> <a href="https://wa.me/385994471013?text=Hello%20Antonio%2C%20I%20found%20you%20through%20your%20website%20taxiskradin.hr%20and%20I%20have%20an%20inquiry%3A%20" target="_blank" rel="noopener">WhatsApp으로 메시지</a>를 보내주세요.</p>
+
+        <div class="quote-field-row" id="book-return-fields" hidden>
+          <div class="quote-field">
+            <label for="book-return-date">돌아오는 날짜</label>
+            <input type="date" id="book-return-date" name="book-return-date">
+          </div>
+          <div class="quote-field">
+            <label for="book-return-time">돌아오는 시간</label>
+            <select id="book-return-time" name="book-return-time"><option value="">--:--</option></select>
+          </div>
+        </div>
+
+        <label for="book-name">이름</label>
+        <input type="text" id="book-name" name="name" required>
+
+        <label for="book-email">이메일</label>
+        <input type="email" id="book-email" name="email" required>
+
+        <label for="book-phone">전화 / WhatsApp</label>
+        <input type="tel" id="book-phone" name="phone" required placeholder="국가번호를 포함해 주세요">
+
+        <label for="book-flight">픽업 세부 정보 (도착 항공편 번호 또는 주소)</label>
+        <input type="text" id="book-flight" name="book-flight" required placeholder="항공편으로 도착하시면 편명, 아니면 픽업 주소">
+
+        <label for="book-dropoff-details">목적지 세부 정보 (주소 또는 항공편 번호)</label>
+        <input type="text" id="book-dropoff-details" name="book-dropoff-details" placeholder="하차 주소, 또는 타실 항공편이 있으면 편명">
+
+        <label for="book-notes">추가로 알려주실 내용이 있나요? (선택)</label>
+        <textarea id="book-notes" name="book-notes" rows="4" placeholder="유아용 카시트, 추가 경유, 대형 짐, 픽업 안내 사항..."></textarea>
+
+        <input type="text" id="book-company" name="company" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+        <label class="form-consent">
+          <input type="checkbox" id="book-consent" name="consent" value="1" required>
+          <span><a href="/ko/privacy-policy/">개인정보 처리방침</a>을 읽었으며 이에 동의합니다.</span>
+        </label>
+        <button type="submit" class="btn btn-primary">예약 요청 보내기</button>
+        <p class="form-note" id="booking-page-note"></p>
+      </form>
+    </div>
+  </section>
+  <script>
+  (function(){
+    var o='';
+    for(var h=0;h<24;h++){for(var m=0;m<60;m+=5){var t=(h<10?'0':'')+h+':'+(m<10?'0':'')+m;o+='<option value="'+t+'">'+t+'</option>';}}
+    ['book-time','book-return-time'].forEach(function(id){var s=document.getElementById(id);if(s)s.insertAdjacentHTML('beforeend',o);});
+  })();
+  </script>

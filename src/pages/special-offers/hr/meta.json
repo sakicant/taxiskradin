@@ -1,0 +1,21 @@
+{
+  "slug": "special-offers",
+  "title": "Posebne ponude taksija u Skradinu | Najbolja cijena, ograničeno vrijeme",
+  "description": "Posebne ponude za taxi vožnje i transfere iz Skradina: last minute i prazne vožnje po najboljoj cijeni, ograničeno vrijeme. Fiksne cijene, rezervirajte dok traju.",
+  "keywords": "posebne ponude taxi skradin, najbolja cijena transfer skradin, akcijska ponuda taxi, last minute transfer skradin, jeftin transfer krka zračna luka",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Posebne ponude taksija u Skradinu: najbolja cijena, ograničeno vrijeme",
+    "description": "Vremenski ograničene posebne ponude za taxi vožnje i transfere iz Skradina po najboljoj cijeni: last minute i prazne vožnje, fiksne cijene.",
+    "url": "https://taxiskradin.hr/hr/special-offers/",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "Taxi Antonio",
+      "telephone": "+385994471013",
+      "email": "info@taxiskradin.hr",
+      "address": { "@type": "PostalAddress", "addressLocality": "Skradin", "addressCountry": "HR" }
+    }
+  }
+}

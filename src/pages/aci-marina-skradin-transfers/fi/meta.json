@@ -1,0 +1,109 @@
+{
+  "slug": "aci-marina-skradin-transfers",
+  "title": "ACI Marina Skradin -kuljetukset | Kiinteät hinnat | TAXI Antonio",
+  "description": "Yksityiskuljetukset ACI Marina Skradinista Splitin, Zadarin, Zagrebin ja Dubrovnikin lentoasemille ja kaupunkeihin. Kiinteät hinnat, nouto laiturilta, portti Krkan kansallispuistoon.",
+  "keywords": "aci marina skradin kuljetus, skradin marina taksi, aci skradin lentokenttäkuljetus, skradin split lentoasema",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Marinataksi ja lentokenttäkuljetukset",
+      "name": "ACI Marina Skradin -kuljetukset",
+      "description": "Yksityiskuljetukset ACI Marina Skradinista Splitin, Zadarin, Zagrebin ja Dubrovnikin lentoasemille ja kaupunkeihin. Kiinteät hinnat, nouto laiturilta, portti Krkan kansallispuistoon.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "ACI Marina Skradin",
+        "Šibenik"
+      ],
+      "url": "https://taxiskradin.hr/fi/aci-marina-skradin-transfers/",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Kiinteät kuljetushinnat ACI Marina Skradinista",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "ACI Marina Skradin - Splitin lentoasema",
+            "price": "100",
+            "priceCurrency": "EUR"
+          },
+          {
+            "@type": "Offer",
+            "name": "ACI Marina Skradin - Zadarin lentoasema",
+            "price": "100",
+            "priceCurrency": "EUR"
+          },
+          {
+            "@type": "Offer",
+            "name": "ACI Marina Skradin - Zagrebin lentoasema",
+            "price": "485",
+            "priceCurrency": "EUR"
+          },
+          {
+            "@type": "Offer",
+            "name": "ACI Marina Skradin - Dubrovnikin lentoasema",
+            "price": "485",
+            "priceCurrency": "EUR"
+          },
+          {
+            "@type": "Offer",
+            "name": "ACI Marina Skradin - Split",
+            "price": "140",
+            "priceCurrency": "EUR"
+          },
+          {
+            "@type": "Offer",
+            "name": "ACI Marina Skradin - Zadar",
+            "price": "130",
+            "priceCurrency": "EUR"
+          },
+          {
+            "@type": "Offer",
+            "name": "ACI Marina Skradin - Dubrovnik",
+            "price": "485",
+            "priceCurrency": "EUR"
+          },
+          {
+            "@type": "Offer",
+            "name": "ACI Marina Skradin - Trogir",
+            "price": "95",
+            "priceCurrency": "EUR"
+          },
+          {
+            "@type": "Offer",
+            "name": "ACI Marina Skradin - Vodice",
+            "price": "70",
+            "priceCurrency": "EUR"
+          },
+          {
+            "@type": "Offer",
+            "name": "ACI Marina Skradin - Krkan kansallispuisto (Lozovac)",
+            "price": "25",
+            "priceCurrency": "EUR"
+          },
+          {
+            "@type": "Offer",
+            "name": "ACI Marina Skradin - Šibenik",
+            "price": "50",
+            "priceCurrency": "EUR"
+          }
+        ]
+      }
+    }
+  ]
+}

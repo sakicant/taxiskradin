@@ -1,0 +1,88 @@
+{
+  "slug": "skradin-transfers",
+  "title": "Transfery Skradin | Stałe ceny | TAXI Antonio",
+  "description": "Transfery ze Skradina i taxi do Splitu, Zadaru, Zagrzebia, Dubrownika, Trogiru, Vodic i Primoštenu oraz z powrotem. Stałe ceny, prywatnie od drzwi do drzwi, jeden lokalny kierowca. Zarezerwuj bezpośrednio u Antonio.",
+  "keywords": "transfer skradin, transfery skradin, taxi skradin, skradin split, skradin zadar, skradin zagrzeb, skradin dubrownik",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Transfer taxi między miastami",
+      "name": "Transfery Skradin",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Split",
+        "Zadar",
+        "Zagrzeb",
+        "Dubrownik",
+        "Trogir",
+        "Vodice",
+        "Primošten"
+      ],
+      "url": "https://taxiskradin.hr/pl/skradin-transfers/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Ile kosztuje transfer taxi ze Skradina do Splitu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Prywatny transfer taxi ze Skradina do Splitu to stałe 140 euro za samochód dla maksymalnie 4 pasażerów, z opłatami drogowymi, paliwem i bagażem w cenie."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy ceny transferów są stałe?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tak. Każdy transfer między miastami ma stałą cenę za samochód dla maksymalnie 4 pasażerów, uzgodnioną z góry. Bez taksometru i bez niespodzianek."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy transfer jest prywatny czy współdzielony?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Każdy transfer jest prywatny i od drzwi do drzwi, Škodą Superb. Nie ma współdzielenia samochodu ani dodatkowych przystanków, chyba że sami Państwo o nie poproszą."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy można zatrzymać się po drodze?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tak. Przy dłuższych transferach chętnie zatrzymam się na kawę, zdjęcie albo krótkie zwiedzanie. Wystarczy dać znać przy rezerwacji, a uwzględnię to w planie."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Jak płacę za transfer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Zaliczka 20% (minimum 20 euro) potwierdza rezerwację, przelewem bankowym lub kartą. Resztę płaci się kierowcy w dniu przejazdu, gotówką lub kartą."
+          }
+        }
+      ]
+    }
+  ]
+}

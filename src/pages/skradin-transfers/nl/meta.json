@@ -1,0 +1,88 @@
+{
+  "slug": "skradin-transfers",
+  "title": "Transfers Skradin | Vaste Prijzen | TAXI Antonio",
+  "description": "Transfers en taxi van en naar Skradin, Split, Zadar, Zagreb, Dubrovnik, Trogir, Vodice en Primošten. Vaste prijzen, privé van deur tot deur, één lokale chauffeur. Boek rechtstreeks bij Antonio.",
+  "keywords": "transfer skradin, transfers skradin, taxi skradin, skradin naar split, skradin naar zadar, skradin naar zagreb, skradin naar dubrovnik",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Taxitransfer van stad naar stad",
+      "name": "Transfers Skradin",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Split",
+        "Zadar",
+        "Zagreb",
+        "Dubrovnik",
+        "Trogir",
+        "Vodice",
+        "Primošten"
+      ],
+      "url": "https://taxiskradin.hr/nl/skradin-transfers/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hoeveel kost een taxitransfer van Skradin naar Split?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Een privétaxitransfer van Skradin naar Split kost een vaste 140 euro per auto voor maximaal 4 passagiers, inclusief tol, brandstof en bagage."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Zijn de transferprijzen vast?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Elke transfer van stad naar stad heeft een vaste prijs per auto voor maximaal 4 passagiers, vooraf afgesproken. Geen taximeter en geen verrassingen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is de transfer privé of gedeeld?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Elke transfer is privé en van deur tot deur, in een Škoda Superb. Er wordt niet gedeeld en er zijn geen extra stops tenzij u erom vraagt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kunt u onderweg stoppen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Op langere transfers stop ik graag voor een koffie, een foto of een snelle bezienswaardigheid. Laat het me weten bij de boeking, dan houd ik er rekening mee."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoe betaal ik een transfer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Een aanbetaling van 20% (minimaal 20 euro) bevestigt de boeking, per bankoverschrijving of kaart. Het resterende bedrag betaalt u op de dag zelf aan de chauffeur, contant of met kaart."
+          }
+        }
+      ]
+    }
+  ]
+}

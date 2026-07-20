@@ -1,0 +1,109 @@
+{
+  "slug": "aci-marina-skradin-transfers",
+  "title": "ACI Marina Skradin 교통편 | 고정 요금 | TAXI Antonio",
+  "description": "ACI Marina Skradin에서 Split, Zadar, Zagreb, Dubrovnik 공항 및 도심까지 개인 교통편. 고정 요금, 부두 픽업, Krka 국립공원의 관문.",
+  "keywords": "aci marina skradin 교통편, skradin 마리나 택시, aci skradin 공항 교통편, skradin split 공항",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "마리나 택시 및 공항 교통편",
+      "name": "ACI Marina Skradin 교통편",
+      "description": "ACI Marina Skradin에서 Split, Zadar, Zagreb, Dubrovnik 공항 및 도심까지 개인 교통편. 고정 요금, 부두 픽업, Krka 국립공원의 관문.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "ACI Marina Skradin",
+        "Šibenik"
+      ],
+      "url": "https://taxiskradin.hr/ko/aci-marina-skradin-transfers/",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "ACI Marina Skradin 출발 고정 교통편 요금",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "ACI Marina Skradin에서 Split 공항",
+            "price": "100",
+            "priceCurrency": "EUR"
+          },
+          {
+            "@type": "Offer",
+            "name": "ACI Marina Skradin에서 Zadar 공항",
+            "price": "100",
+            "priceCurrency": "EUR"
+          },
+          {
+            "@type": "Offer",
+            "name": "ACI Marina Skradin에서 Zagreb 공항",
+            "price": "485",
+            "priceCurrency": "EUR"
+          },
+          {
+            "@type": "Offer",
+            "name": "ACI Marina Skradin에서 Dubrovnik 공항",
+            "price": "485",
+            "priceCurrency": "EUR"
+          },
+          {
+            "@type": "Offer",
+            "name": "ACI Marina Skradin에서 Split",
+            "price": "140",
+            "priceCurrency": "EUR"
+          },
+          {
+            "@type": "Offer",
+            "name": "ACI Marina Skradin에서 Zadar",
+            "price": "130",
+            "priceCurrency": "EUR"
+          },
+          {
+            "@type": "Offer",
+            "name": "ACI Marina Skradin에서 Dubrovnik",
+            "price": "485",
+            "priceCurrency": "EUR"
+          },
+          {
+            "@type": "Offer",
+            "name": "ACI Marina Skradin에서 Trogir",
+            "price": "95",
+            "priceCurrency": "EUR"
+          },
+          {
+            "@type": "Offer",
+            "name": "ACI Marina Skradin에서 Vodice",
+            "price": "70",
+            "priceCurrency": "EUR"
+          },
+          {
+            "@type": "Offer",
+            "name": "ACI Marina Skradin에서 Krka 국립공원 (Lozovac)",
+            "price": "25",
+            "priceCurrency": "EUR"
+          },
+          {
+            "@type": "Offer",
+            "name": "ACI Marina Skradin에서 Šibenik",
+            "price": "50",
+            "priceCurrency": "EUR"
+          }
+        ]
+      }
+    }
+  ]
+}

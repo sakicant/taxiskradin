@@ -1,29 +1,31 @@
 {
   "slug": "",
-  "title": "Taxi Šibenik - Usługa, na której możesz polegać | Taxi Antonio",
-  "description": "Taxi Šibenik na lokalne przejazdy na żądanie, dojazdy do szpitala i hoteli, dworca autobusowego i portu promowego oraz połączenia z wyspami. Kierowca mówiący po angielsku. Rezerwuj bezpośrednio u Antonia.",
-  "keywords": "taxi šibenik, taxi sibenik, taxi sibenik szpital, taxi hotel sibenik, taxi port promowy sibenik, taxi zlarin prvic",
-  "og_image": "https://taxisibenik.hr/assets/img/hero-bg.webp",
+  "title": "Taxi Skradin | Odwiedź Krkę | Transfery w stałej cenie | Taxi Antonio",
+  "description": "Taxi Skradin na lokalne przejazdy, do przystani statków Parku Narodowego Krka, ACI Mariny Skradin i na transfery lotniskowe w stałej cenie. Kierowca mówiący po angielsku. Rezerwuj bezpośrednio u Antonia.",
+  "keywords": "taxi skradin, skradin taxi, transfer skradin, transfer lotniskowy skradin, taxi skradin krka, taxi aci marina skradin, taxi park narodowy krka",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-bg.webp",
   "schema": [
     {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "name": "TAXI Šibenik & Skradin - Antonio",
-      "url": "https://taxisibenik.hr/pl/",
+      "name": "TAXI Skradin - Antonio",
+      "url": "https://taxiskradin.hr/",
       "telephone": "+385994471013",
-      "email": "info@taxisibenik.hr",
+      "email": "info@taxiskradin.hr",
       "areaServed": [
-        "Šibenik",
         "Skradin",
+        "Park Narodowy Krka",
+        "ACI Marina Skradin",
+        "Šibenik",
         "Split",
         "Zadar",
-        "Dubrovnik",
-        "Zagreb"
+        "Dubrownik",
+        "Zagrzeb"
       ],
       "address": {
         "@type": "PostalAddress",
-        "addressLocality": "Šibenik",
-        "postalCode": "22000",
+        "addressLocality": "Skradin",
+        "postalCode": "22222",
         "addressCountry": "HR"
       },
       "aggregateRating": {
@@ -33,14 +35,14 @@
       },
       "priceRange": "€€",
       "alternateName": "TAXI Antonio",
-      "@id": "https://taxisibenik.hr/#business",
-      "image": "https://taxisibenik.hr/assets/img/hero-bg.webp",
-      "paymentAccepted": "Cash, Credit Card",
+      "@id": "https://taxiskradin.hr/#business",
+      "image": "https://taxiskradin.hr/assets/img/hero-bg.webp",
+      "paymentAccepted": "Gotówka, karta kredytowa",
       "currenciesAccepted": "EUR",
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": 43.6956974,
-        "longitude": 15.7891511
+        "latitude": 43.8186,
+        "longitude": 15.9214
       },
       "hasMap": "https://www.google.com/maps?cid=4748268601430744277",
       "openingHoursSpecification": [
@@ -54,6 +56,18 @@
             "Friday"
           ],
           "opens": "07:00",
+          "closes": "14:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "16:00",
           "closes": "21:00"
         },
         {
@@ -63,7 +77,7 @@
             "Sunday"
           ],
           "opens": "06:00",
-          "closes": "15:00"
+          "closes": "16:00"
         }
       ],
       "sameAs": [
@@ -77,11 +91,11 @@
     {
       "@context": "https://schema.org",
       "@type": "Service",
-      "serviceType": "Usługa taxi i transferów",
-      "name": "Taxi Šibenik od TAXI Antonio",
+      "serviceType": "Usługi taxi i transferów",
+      "name": "Taxi Skradin od TAXI Antonio",
       "areaServed": {
         "@type": "City",
-        "name": "Šibenik"
+        "name": "Skradin"
       },
       "provider": {
         "@type": "LocalBusiness",
@@ -101,7 +115,21 @@
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Lokalne przejazdy taxi w Šibeniku"
+              "name": "Lokalne przejazdy taxi w Skradinie"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Transfery do przystani statków Parku Narodowego Krka"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Transfery z i do ACI Mariny Skradin"
             }
           },
           {
@@ -117,20 +145,6 @@
               "@type": "Service",
               "name": "Transfery międzymiastowe"
             }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Transfery hotelowe"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Wycieczki do Krki i Jezior Plitwickich"
-            }
           }
         ]
       }
@@ -141,10 +155,10 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Jak zarezerwować taxi z Šibenika?",
+          "name": "Jak zamówić taxi w Skradinie?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Zadzwoń pod +385 99 447 1013, napisz na WhatsAppie lub wyślij e-mail. Antonio potrzebuje miejsca odbioru, celu podróży oraz preferowanej godziny odbioru lub przyjazdu."
+            "text": "Zadzwoń pod +385 99 447 1013, napisz na WhatsAppie lub wyślij e-mail. Antonio potrzebuje miejsca odbioru, celu podróży i preferowanej godziny odbioru lub przylotu."
           }
         },
         {
@@ -152,7 +166,7 @@
           "name": "Z jakim wyprzedzeniem należy rezerwować?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Zgłoszenia last minute są przyjmowane w godzinach pracy, ale rezerwacja z wyprzedzeniem gwarantuje dostępność."
+            "text": "Zgłoszenia na ostatnią chwilę przyjmowane są w godzinach pracy, ale rezerwacja wymaga co najmniej 2 godzin wyprzedzenia, aby potwierdzić samochód i godzinę odbioru. Wcześniejsza rezerwacja gwarantuje dostępność."
           }
         },
         {
@@ -160,79 +174,79 @@
           "name": "Co oznacza \"stała cena\"? Co jest w niej zawarte?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Stałe ceny obejmują przejazd, paliwo, opłaty drogowe oraz pomoc z bagażem. Bez ukrytych opłat. Dodatkowe przystanki lub długie oczekiwanie mogą kosztować więcej, o czym informuję z góry."
+            "text": "Stałe ceny obejmują przejazd, paliwo, opłaty drogowe i pomoc z bagażem. Bez ukrytych opłat. Dodatkowe przystanki lub dłuższe oczekiwanie mogą kosztować więcej, o czym informuję z góry."
           }
         },
         {
           "@type": "Question",
-          "name": "Czy pobierasz zaliczki?",
+          "name": "Czy pobierasz zaliczkę?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Tak. Potwierdzenie rezerwacji wymaga zaliczki w wysokości 20% (minimum 20 euro). Przejazdy w cenie 20 euro lub niższej wymagają pełnej płatności z góry. Zaliczki można wpłacać przelewem bankowym (SEPA) lub kartą, a pozostałą część rozlicza się w dniu transferu."
+            "text": "Tak. Potwierdzenie rezerwacji wymaga zaliczki w wysokości 20% (minimum 20 euro). Przejazdy w cenie 20 euro lub niższej opłaca się w całości z góry. Zaliczkę można zapłacić przelewem bankowym (SEPA) lub kartą, a resztę reguluje się w dniu przejazdu, gotówką lub kartą."
           }
         },
         {
           "@type": "Question",
-          "name": "Czy akceptujesz płatności kartą w samochodzie?",
+          "name": "Czy można zapłacić kartą w samochodzie?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Tak, akceptowane są karty oraz inne zbliżeniowe metody płatności."
+            "text": "Tak, przyjmowane są karty i inne zbliżeniowe metody płatności."
           }
         },
         {
           "@type": "Question",
-          "name": "Czy realizujesz odbiory ze szpitala w Šibeniku?",
+          "name": "Czy zawieziesz mnie do wejścia do Parku Narodowego Krka w Skradinie?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Tak. Antonio wozi pasażerów do i ze Szpitala Ogólnego w Šibeniku i ma prawo wjechać na teren szpitala, więc nie trzeba iść daleko z parkingu."
+            "text": "Tak. Skradin to główna brama do Krki. Antonio wysadza przy przystani nad rzeką, skąd statki parku odpływają do wodospadów Skradinski Buk, i odbiera po powrocie."
           }
         },
         {
           "@type": "Question",
-          "name": "Czy możesz zawieźć mnie na prom na wyspy?",
+          "name": "Czy odbierasz z ACI Mariny Skradin?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Tak. Antonio dowozi i odbiera z portu promowego i katamaranowego w Šibeniku, skąd odpływają rejsy na Zlarin, Prvić, Kaprije i Žirje, oraz łódź na Obonjan."
+            "text": "Tak. Antonio odbiera i dowozi załogi prosto do ACI Mariny Skradin, z miejscem na bagaż i zapasy. Wyślij numer miejsca postojowego, aby ustalić miejsce spotkania."
           }
         },
         {
           "@type": "Question",
-          "name": "Czy odbierasz z hoteli w Šibeniku, dworca autobusowego i kolejowego?",
+          "name": "Czy jeździsz do Šibenika i na lotniska?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Tak. Antonio obsługuje wszystkie lokalne hotele, dworzec autobusowy, dworce kolejowe w Šibeniku i Perkoviciu oraz port promowy, z pomocą przy bagażu i tabliczką z imieniem na życzenie."
+            "text": "Tak. Antonio realizuje transfery w stałej cenie ze Skradinu do Šibenika, na lotniska w Splicie i Zadarze oraz do miast w całej Dalmacji. W przypadku przejazdów zaczynających się w samym Šibeniku zobacz siostrzaną usługę na taxisibenik.hr."
           }
         },
         {
           "@type": "Question",
-          "name": "Co jeśli mój lot będzie opóźniony?",
+          "name": "Co jeśli mój lot jest opóźniony?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Przyloty są monitorowane w czasie rzeczywistym, a godzina odbioru jest dostosowywana automatycznie, bez dodatkowych kosztów."
+            "text": "Przyloty są śledzone w czasie rzeczywistym, a godzina odbioru jest korygowana automatycznie, bez dodatkowych kosztów."
           }
         },
         {
           "@type": "Question",
-          "name": "Co się stanie, jeśli będę musiał odwołać rezerwację?",
+          "name": "Co jeśli muszę odwołać rezerwację?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Anulacje należy zgłaszać pisemnie e-mailem. Przy anulacji na więcej niż 72 godziny przed rezerwacją przysługuje pełny zwrot w przypadku przelewu bankowego albo pełny zwrot pomniejszony o 10 euro opłaty manipulacyjnej w przypadku karty. Anulacje w ciągu 72 godzin lub niestawienie się nie podlegają zwrotowi. Zmiana terminu jest zawsze bezpłatna."
+            "text": "Odwołania muszą być zgłoszone pisemnie e-mailem. Ponad 72 godziny przed rezerwacją obowiązuje pełny zwrot przy przelewie bankowym lub pełny zwrot pomniejszony o 10 euro opłaty manipulacyjnej przy płatności kartą. Odwołania w ciągu 72 godzin lub niestawienie się nie podlegają zwrotowi. Zmiana terminu jest zawsze bezpłatna."
           }
         },
         {
           "@type": "Question",
-          "name": "Czy możesz obsłużyć większą grupę?",
+          "name": "Czy obsłużysz większą grupę?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Škoda Superb mieści do 4 pasażerów. W przypadku większych grup można to zorganizować przez starannie dobranych lokalnych partnerów."
+            "text": "Škoda Superb mieści do 4 pasażerów. Dla większych grup przejazd można zorganizować przez lokalnych, starannie wybranych partnerów."
           }
         },
         {
           "@type": "Question",
-          "name": "Czy oferujesz foteliki dla dzieci?",
+          "name": "Czy oferujesz foteliki dziecięce?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Tak, foteliki dla dzieci i podstawki podwyższające są dostępne na życzenie."
+            "text": "Tak, foteliki dziecięce i podstawki są dostępne na życzenie."
           }
         }
       ]

@@ -1,0 +1,72 @@
+{
+  "slug": "skradin-winery-transfers",
+  "title": "Wijnhuistransfers Skradin | Plastovo, Bibich & Sladić | TAXI Antonio",
+  "description": "Privétaxi en transfer van Skradin naar de wijnhuizen in Plastovo, Bibich en Sladić. Vaste prijs per auto, vooraf afgesproken. Alleen vervoer, de proeverij regelt u zelf.",
+  "keywords": "wijnhuistransfer skradin, taxi wijnhuis plastovo, bibich wijnhuis skradin, transfer wijnhuis sladic, taxi skradin naar plastovo",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privétaxi en wijnhuistransfer",
+      "name": "Wijnhuistransfers Skradin",
+      "description": "Privétaxi en transfer van Skradin naar de wijnhuizen in Plastovo, Bibich en Sladić. Vaste prijs per auto voor maximaal 4 passagiers, vooraf afgesproken. Alleen vervoer; de proeverij regelt en betaalt u bij het wijnhuis.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": ["Skradin", "Plastovo"],
+      "url": "https://taxiskradin.hr/nl/skradin-winery-transfers/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wat kost een wijnhuistransfer vanuit Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Het is een vaste prijs per auto, tot 4 passagiers, vooraf afgesproken. Het hangt af van welke wijnhuizen u bezoekt en of ik wacht of later terugkom, dus stuur mij uw plan via WhatsApp en ik bevestig de exacte prijs voordat u boekt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Regelt u de proeverij?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nee. Ik verzorg alleen het vervoer. U boekt de proeverij bij het wijnhuis en betaalt daar rechtstreeks. Ik reken niets voor het bezoek en niets per persoon."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kunt u wachten en ons terugbrengen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Ik wacht in de buurt en breng u terug wanneer u klaar bent, of kom terug op een afgesproken tijd."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kunnen we zowel Bibich als Sladić bezoeken?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Beide liggen dicht bij Skradin en zijn makkelijk te combineren in één rit. Vertel mij wat u wilt en ik plan de tijden en de vaste prijs."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "slug": "aci-marina-skradin-transfers",
+  "title": "ACI Marina Skradinの送迎 | 固定料金 | TAXI Antonio",
+  "description": "ACI Marina SkradinからSplit、Zadar、Zagreb、Dubrovnikの各空港と市内への貸切送迎。固定料金、桟橋までのお迎え、Krka国立公園への玄関口です。",
+  "keywords": "aci marina skradin 送迎, skradin マリーナ タクシー, aci skradin 空港 送迎, skradin split 空港",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "マリーナのタクシー・空港送迎",
+      "name": "ACI Marina Skradinの送迎",
+      "description": "ACI Marina SkradinからSplit、Zadar、Zagreb、Dubrovnikの各空港と市内への貸切送迎です。固定料金、桟橋までのお迎え、Krka国立公園への玄関口です。",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "ACI Marina Skradin",
+        "Šibenik"
+      ],
+      "url": "https://taxiskradin.hr/ja/aci-marina-skradin-transfers/",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "ACI Marina Skradinからの固定送迎料金",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "ACI Marina SkradinからSplit空港へ",
+            "price": "100",
+            "priceCurrency": "EUR"
+          },
+          {
+            "@type": "Offer",
+            "name": "ACI Marina SkradinからZadar空港へ",
+            "price": "100",
+            "priceCurrency": "EUR"
+          },
+          {
+            "@type": "Offer",
+            "name": "ACI Marina SkradinからZagreb空港へ",
+            "price": "485",
+            "priceCurrency": "EUR"
+          },
+          {
+            "@type": "Offer",
+            "name": "ACI Marina SkradinからDubrovnik空港へ",
+            "price": "485",
+            "priceCurrency": "EUR"
+          },
+          {
+            "@type": "Offer",
+            "name": "ACI Marina SkradinからSplitへ",
+            "price": "140",
+            "priceCurrency": "EUR"
+          },
+          {
+            "@type": "Offer",
+            "name": "ACI Marina SkradinからZadarへ",
+            "price": "130",
+            "priceCurrency": "EUR"
+          },
+          {
+            "@type": "Offer",
+            "name": "ACI Marina SkradinからDubrovnikへ",
+            "price": "485",
+            "priceCurrency": "EUR"
+          },
+          {
+            "@type": "Offer",
+            "name": "ACI Marina SkradinからTrogirへ",
+            "price": "95",
+            "priceCurrency": "EUR"
+          },
+          {
+            "@type": "Offer",
+            "name": "ACI Marina SkradinからVodiceへ",
+            "price": "70",
+            "priceCurrency": "EUR"
+          },
+          {
+            "@type": "Offer",
+            "name": "ACI Marina SkradinからKrka国立公園（Lozovac）へ",
+            "price": "25",
+            "priceCurrency": "EUR"
+          },
+          {
+            "@type": "Offer",
+            "name": "ACI Marina SkradinからŠibenikへ",
+            "price": "50",
+            "priceCurrency": "EUR"
+          }
+        ]
+      }
+    }
+  ]
+}

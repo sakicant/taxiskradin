@@ -1,0 +1,85 @@
+{
+  "slug": "skradin-airport-transfers",
+  "title": "斯克拉丁机场接送 | 固定价格 | TAXI Antonio",
+  "description": "斯克拉丁(Skradin)往返扎达尔机场(ZAD)与斯普利特机场(SPU)的机场接送与出租车。固定价格,航班监控,门到门。萨格勒布与杜布罗夫尼克机场可按需安排。找 Antonio 预订。",
+  "keywords": "斯克拉丁机场接送, 斯克拉丁扎达尔机场出租车, 斯克拉丁到斯普利特机场, 扎达尔机场到斯克拉丁, 斯普利特机场到斯克拉丁",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "机场接送",
+      "name": "斯克拉丁机场接送",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Zadar Airport",
+        "Split Airport",
+        "Zagreb Airport",
+        "Dubrovnik Airport"
+      ],
+      "url": "https://taxiskradin.hr/zh/skradin-airport-transfers/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "从斯克拉丁到扎达尔机场的出租车接送多少钱?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "从斯克拉丁到扎达尔机场的私人机场接送为每车固定 105 欧元,最多 4 位乘客,含过路费、油费和行李。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "我怎么在机场找到司机?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Antonio 会在取完行李后的到达大厅等候,举着写有您姓名的醒目牌子。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "如果我的航班延误怎么办?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "我会用您预订时提供的航班号实时监控航班。接机时间会自动调整,等候不额外收费。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "机场接送的价格是固定的吗?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "是的。每一趟机场接送都是按车固定价格,最多 4 位乘客,含过路费、油费和行李。不打表,没有意外费用。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "机场接送怎么付款?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "支付 20% 的预付款(最低 20 欧元)即可确认预订,可用银行转账或刷卡。余款在当天付给司机,现金或刷卡均可。"
+          }
+        }
+      ]
+    }
+  ]
+}

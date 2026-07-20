@@ -1,0 +1,85 @@
+{
+  "slug": "skradin-airport-transfers",
+  "title": "Skradin 공항 교통편 | 고정 요금 | TAXI Antonio",
+  "description": "Zadar 공항(ZAD)과 Split 공항(SPU)을 오가는 Skradin 공항 교통편 및 택시. 고정 요금, 항공편 실시간 확인, 도어 투 도어. Zagreb과 Dubrovnik 공항은 요청 시 운행합니다. Antonio에게 예약하세요.",
+  "keywords": "skradin 공항 교통편, skradin 공항 택시, skradin zadar 공항 택시, skradin split 공항, zadar 공항 skradin, split 공항 skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "공항 교통편",
+      "name": "Skradin 공항 교통편",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Zadar Airport",
+        "Split Airport",
+        "Zagreb Airport",
+        "Dubrovnik Airport"
+      ],
+      "url": "https://taxiskradin.hr/ko/skradin-airport-transfers/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Skradin에서 Zadar 공항까지 택시 교통편은 얼마인가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Skradin에서 Zadar 공항까지의 개인 공항 교통편은 최대 4명 탑승 차량당 고정 105유로이며, 통행료, 연료, 짐이 포함됩니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "공항에서 기사님을 어떻게 찾나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Antonio가 수하물 수취 후 도착장에서 성함이 적힌 알아보기 쉬운 안내판을 들고 기다립니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "항공편이 지연되면 어떻게 되나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "예약 시 알려주신 항공편 번호로 실시간 확인합니다. 픽업 시간은 자동으로 조정되며 대기에 대한 추가 요금은 없습니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "공항 교통편 요금은 고정인가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "네. 모든 공항 교통편은 최대 4명 탑승 차량당 고정 요금이며, 통행료, 연료, 짐이 포함됩니다. 미터기도 없고 예상 밖의 비용도 없습니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "공항 교통편은 어떻게 결제하나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "20% 선결제(최소 20유로)로 예약이 확정되며, 계좌 이체 또는 카드로 결제하십니다. 잔액은 당일 기사에게 현금 또는 카드로 결제하십니다."
+          }
+        }
+      ]
+    }
+  ]
+}

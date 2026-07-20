@@ -1,29 +1,31 @@
 {
   "slug": "",
-  "title": "Taxi Šibenik - Služba, na ktorú sa môžete spoľahnúť | Taxi Antonio",
-  "description": "Taxi Šibenik pre miestne jazdy na požiadanie, vyzdvihnutie pri nemocnici a hoteloch, autobusový a trajektový prístav a spojenia na ostrovy. Vodič hovoriaci po anglicky. Rezervujte priamo s Antoniom.",
-  "keywords": "taxi šibenik, taxi sibenik, taxi sibenik nemocnica, sibenik hotel taxi, sibenik trajektovy pristav taxi, taxi zlarin prvic",
-  "og_image": "https://taxisibenik.hr/assets/img/hero-bg.webp",
+  "title": "Taxi Skradin | Navštívte Krku | Transfery za pevnú cenu | Taxi Antonio",
+  "description": "Taxi Skradin pre miestne jazdy, lodné mólo Národného parku Krka, ACI Marina Skradin a letiskové transfery za pevnú cenu. Vodič hovoriaci po anglicky. Rezervujte priamo u Antonia.",
+  "keywords": "taxi skradin, skradin taxi, transfer skradin, letiskový transfer skradin, taxi skradin krka, taxi aci marina skradin, taxi národný park krka",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-bg.webp",
   "schema": [
     {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "name": "TAXI Šibenik & Skradin - Antonio",
-      "url": "https://taxisibenik.hr/sk/",
+      "name": "TAXI Skradin - Antonio",
+      "url": "https://taxiskradin.hr/",
       "telephone": "+385994471013",
-      "email": "info@taxisibenik.hr",
+      "email": "info@taxiskradin.hr",
       "areaServed": [
-        "Šibenik",
         "Skradin",
+        "Národný park Krka",
+        "ACI Marina Skradin",
+        "Šibenik",
         "Split",
         "Zadar",
         "Dubrovnik",
-        "Zagreb"
+        "Záhreb"
       ],
       "address": {
         "@type": "PostalAddress",
-        "addressLocality": "Šibenik",
-        "postalCode": "22000",
+        "addressLocality": "Skradin",
+        "postalCode": "22222",
         "addressCountry": "HR"
       },
       "aggregateRating": {
@@ -33,14 +35,14 @@
       },
       "priceRange": "€€",
       "alternateName": "TAXI Antonio",
-      "@id": "https://taxisibenik.hr/sk/#business",
-      "image": "https://taxisibenik.hr/assets/img/hero-bg.webp",
-      "paymentAccepted": "Hotovosť, Kreditná karta",
+      "@id": "https://taxiskradin.hr/#business",
+      "image": "https://taxiskradin.hr/assets/img/hero-bg.webp",
+      "paymentAccepted": "Hotovosť, platobná karta",
       "currenciesAccepted": "EUR",
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": 43.6956974,
-        "longitude": 15.7891511
+        "latitude": 43.8186,
+        "longitude": 15.9214
       },
       "hasMap": "https://www.google.com/maps?cid=4748268601430744277",
       "openingHoursSpecification": [
@@ -54,6 +56,18 @@
             "Friday"
           ],
           "opens": "07:00",
+          "closes": "14:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "16:00",
           "closes": "21:00"
         },
         {
@@ -63,7 +77,7 @@
             "Sunday"
           ],
           "opens": "06:00",
-          "closes": "15:00"
+          "closes": "16:00"
         }
       ],
       "sameAs": [
@@ -77,11 +91,11 @@
     {
       "@context": "https://schema.org",
       "@type": "Service",
-      "serviceType": "Taxi a transferová služba",
-      "name": "Taxi Šibenik by TAXI Antonio",
+      "serviceType": "Taxislužba a transfery",
+      "name": "Taxi Skradin od TAXI Antonio",
       "areaServed": {
         "@type": "City",
-        "name": "Šibenik"
+        "name": "Skradin"
       },
       "provider": {
         "@type": "LocalBusiness",
@@ -95,13 +109,27 @@
       },
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
-        "name": "Taxi a transferové služby",
+        "name": "Taxislužba a transfery",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Miestne taxi jazdy v Šibeniku"
+              "name": "Miestne jazdy taxi v Skradine"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Transfery k lodnému mólu Národného parku Krka"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Transfery z a do ACI Marina Skradin"
             }
           },
           {
@@ -117,20 +145,6 @@
               "@type": "Service",
               "name": "Medzimestské transfery"
             }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Hotelové transfery"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Výlety do Krky a na Plitvice"
-            }
           }
         ]
       }
@@ -141,66 +155,66 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Ako si zarezervujem taxi zo Šibeniku?",
+          "name": "Ako si objednám taxi v Skradine?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Zavolajte na +385 99 447 1013, napíšte na WhatsApp alebo pošlite e-mail. Antonio potrebuje miesto vyzdvihnutia, cieľ cesty a preferovaný čas vyzdvihnutia alebo príchodu."
+            "text": "Zavolajte na +385 99 447 1013, napíšte na WhatsApp alebo pošlite e-mail. Antonio potrebuje miesto vyzdvihnutia, cieľ cesty a preferovaný čas vyzdvihnutia alebo príletu."
           }
         },
         {
           "@type": "Question",
-          "name": "Ako dlho vopred si mám rezervovať?",
+          "name": "S akým predstihom si mám rezervovať?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Požiadavky na poslednú chvíľu prijímam v rámci pracovných hodín, no rezervácia vopred zaručuje dostupnosť."
+            "text": "Požiadavky na poslednú chvíľu prijímam počas pracovnej doby, ale rezervácia potrebuje aspoň 2 hodiny vopred, aby sa dalo potvrdiť vozidlo a čas vyzdvihnutia. Rezervácia s väčším predstihom zaručuje dostupnosť."
           }
         },
         {
           "@type": "Question",
-          "name": "Čo znamená „pevná cena“? Čo je zahrnuté?",
+          "name": "Čo znamená \"pevná cena\"? Čo je v nej zahrnuté?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Pevné ceny zahŕňajú prepravu, palivo, mýto a pomoc s batožinou. Žiadne skryté poplatky. Ďalšie zastávky alebo dlhé čakanie môžu stáť viac, čo je oznámené vopred."
+            "text": "Pevné ceny zahŕňajú prepravu, palivo, mýto a pomoc s batožinou. Žiadne skryté poplatky. Zastávky navyše alebo dlhšie čakanie môžu stáť viac, čo sa oznamuje vopred."
           }
         },
         {
           "@type": "Question",
-          "name": "Prijímate zálohové platby?",
+          "name": "Vyberáte zálohu?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Áno. Potvrdenie rezervácie si vyžaduje zálohu vo výške 20 % (minimálne 20 eur). Jazdy s cenou 20 eur alebo nižšou si vyžadujú plnú platbu vopred. Zálohy je možné uhradiť bankovým prevodom (SEPA) alebo kartou, pričom zvyšok sa doplatí v deň transferu."
+            "text": "Áno. Potvrdenie rezervácie vyžaduje zálohu 20 % (minimálne 20 eur). Jazdy s cenou 20 eur a nižšou sa platia vopred v plnej výške. Zálohu možno zaplatiť bankovým prevodom (SEPA) alebo kartou, zvyšok sa doplatí v deň jazdy v hotovosti alebo kartou."
           }
         },
         {
           "@type": "Question",
-          "name": "Prijímate platby kartou v aute?",
+          "name": "Prijímate platbu kartou vo vozidle?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Áno, prijímam karty a iné bezkontaktné spôsoby platby."
+            "text": "Áno, prijímam karty aj ďalšie bezkontaktné spôsoby platby."
           }
         },
         {
           "@type": "Question",
-          "name": "Vyzdvihujete cestujúcich pri nemocnici v Šibeniku?",
+          "name": "Odveziete ma ku vstupu do Národného parku Krka v Skradine?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Áno. Antonio vozí cestujúcich do Všeobecnej nemocnice v Šibeniku a z nej a smie vojsť autom priamo do areálu nemocnice, takže nie je potrebná dlhá chôdza z parkoviska."
+            "text": "Áno. Skradin je hlavnou vstupnou bránou do Krky. Antonio vás vysadí pri móle na nábreží, odkiaľ vyplávajú parkové lode k vodopádom Skradinski Buk, a vyzdvihne vás po návrate."
           }
         },
         {
           "@type": "Question",
-          "name": "Odveziete ma na trajekt na ostrovy?",
+          "name": "Vyzdvihujete v ACI Marina Skradin?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Áno. Antonio vysadí a vyzdvihne v šibenickom trajektovom a katamaranovom prístave pre Zlarin, Prvić, Kaprije a Žirje a pri lodi na Obonjan."
+            "text": "Áno. Antonio vyzdvihuje a vozí posádky priamo do ACI Marina Skradin, s miestom pre batožinu aj zásoby. Pošlite číslo státia a dohodneme miesto stretnutia."
           }
         },
         {
           "@type": "Question",
-          "name": "Vyzdvihujete pri šibenických hoteloch, autobusovej a železničnej stanici?",
+          "name": "Jazdíte do Šibeniku a na letiská?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Áno. Antonio obsluhuje všetky miestne hotely, autobusovú stanicu, železničné stanice Šibenik a Perković a trajektový prístav, s pomocou s batožinou a menovkou na požiadanie."
+            "text": "Áno. Antonio jazdí transfery za pevnú cenu zo Skradinu do Šibeniku, na letiská Split a Zadar a do miest po celej Dalmácii. Pre jazdy začínajúce priamo v Šibeniku navštívte sesterskú službu taxisibenik.hr."
           }
         },
         {
@@ -208,23 +222,23 @@
           "name": "Čo ak má môj let meškanie?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Prílety letov sledujem v reálnom čase a čas vyzdvihnutia sa automaticky prispôsobí, bez príplatku."
+            "text": "Prílety lietadiel sa sledujú v reálnom čase a čas vyzdvihnutia sa automaticky upraví, bez príplatku."
           }
         },
         {
           "@type": "Question",
-          "name": "Čo sa stane, ak potrebujem zrušiť rezerváciu?",
+          "name": "Čo ak potrebujem zrušiť rezerváciu?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Zrušenia sa musia vykonať písomne e-mailom. Viac ako 72 hodín pred rezerváciou platí plná refundácia pri bankovom prevode, alebo plná refundácia znížená o 10 eur manipulačný poplatok pri platbe kartou. Zrušenia v rámci 72 hodín alebo nedostavenie sa nie sú refundovateľné. Zmena termínu je kedykoľvek zdarma."
+            "text": "Zrušenie musí byť vykonané písomne e-mailom. Viac ako 72 hodín pred rezerváciou platí plná refundácia pri bankovom prevode alebo plná refundácia znížená o 10 eur za spracovanie pri platbe kartou. Zrušenie do 72 hodín alebo nedostavenie sa nevracia. Presunutie termínu je kedykoľvek zadarmo."
           }
         },
         {
           "@type": "Question",
-          "name": "Zvládnete väčšiu skupinu?",
+          "name": "Zvládnete aj väčšiu skupinu?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Do Škody Superb sa zmestia až 4 cestujúci. Pri väčších skupinách je možné zariadiť prepravu cez miestnych, starostlivo vybraných partnerov."
+            "text": "Škoda Superb pojme až 4 cestujúcich. Pre väčšie skupiny sa jazda dá dohodnúť cez miestnych, starostlivo vybraných partnerov."
           }
         },
         {
@@ -232,7 +246,7 @@
           "name": "Ponúkate detské sedačky?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Áno, detské a podsedákové sedačky sú dostupné na požiadanie."
+            "text": "Áno, detské sedačky a podsedáky sú k dispozícii na požiadanie."
           }
         }
       ]

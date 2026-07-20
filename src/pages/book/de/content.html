@@ -1,0 +1,100 @@
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Buchung</span>
+      <h1>Buchen Sie Ihren Transfer</h1>
+      <p class="page-hero-sub">Geben Sie unten Ihre Reisedaten an und ich bestätige Ihre Fahrt direkt, meist innerhalb weniger Stunden.</p>
+    </div>
+  </section>
+
+  <section class="page-content">
+    <div class="container booking-page">
+      <form class="booking-form" id="booking-page-form" action="/booking-submit.php" method="POST">
+        <h3>Ihre Fahrt</h3>
+
+        <label for="book-from">Abholort (von)</label>
+        <input type="text" id="book-from" name="from" required placeholder="Skradin Zentrum, Ihr Hotel oder Ihre Adresse">
+
+        <label for="book-to">Zielort (nach)</label>
+        <input type="text" id="book-to" name="to" required placeholder="Flughafen Split (SPU), ein Ort oder eine Adresse">
+
+        <div class="quote-field-row">
+          <div class="quote-field">
+            <label for="book-trip">Fahrt</label>
+            <select id="book-trip" name="trip">
+              <option value="oneway">Einfache Fahrt</option>
+              <option value="return">Hin und zurück</option>
+            </select>
+          </div>
+          <div class="quote-field">
+            <label for="book-pax">Personen</label>
+            <input type="number" id="book-pax" name="passengers" min="1" max="12" value="1" required>
+          </div>
+          <div class="quote-field">
+            <label for="book-lug">Gepäck</label>
+            <input type="number" id="book-lug" name="luggage" min="0" max="12" value="1" required>
+          </div>
+        </div>
+
+        <p class="booking-price-line" id="booking-price-line" hidden>Festpreis: <strong id="sum-price">&mdash;</strong> <span class="booking-price-sub">pro Fahrzeug, bis zu 4 Personen</span></p>
+
+        <h3>Reisedaten</h3>
+
+        <div class="quote-field-row">
+          <div class="quote-field">
+            <label for="book-date">Abholdatum</label>
+            <input type="date" id="book-date" name="book-date" required>
+          </div>
+          <div class="quote-field">
+            <label for="book-time">Abholzeit</label>
+            <select id="book-time" name="book-time" required><option value="">--:--</option></select>
+          </div>
+        </div>
+        <p class="form-hint">Bitte buchen Sie mindestens 2 Stunden im Voraus, damit ich das Fahrzeug und Ihre Abholung bestätigen kann. Brauchen Sie die Fahrt früher? <a href="tel:+385994471013">Rufen Sie mich an</a> oder <a href="https://wa.me/385994471013?text=Hello%20Antonio%2C%20I%20found%20you%20through%20your%20website%20taxiskradin.hr%20and%20I%20have%20an%20inquiry%3A%20" target="_blank" rel="noopener">schreiben Sie per WhatsApp</a>.</p>
+
+        <div class="quote-field-row" id="book-return-fields" hidden>
+          <div class="quote-field">
+            <label for="book-return-date">Rückfahrtdatum</label>
+            <input type="date" id="book-return-date" name="book-return-date">
+          </div>
+          <div class="quote-field">
+            <label for="book-return-time">Rückfahrtzeit</label>
+            <select id="book-return-time" name="book-return-time"><option value="">--:--</option></select>
+          </div>
+        </div>
+
+        <label for="book-name">Name</label>
+        <input type="text" id="book-name" name="name" required>
+
+        <label for="book-email">E-Mail</label>
+        <input type="email" id="book-email" name="email" required>
+
+        <label for="book-phone">Telefon / WhatsApp</label>
+        <input type="tel" id="book-phone" name="phone" required placeholder="Mit Ländervorwahl">
+
+        <label for="book-flight">Abholdetails (Flugnummer bei Ankunft oder Adresse)</label>
+        <input type="text" id="book-flight" name="book-flight" required placeholder="Flugnummer, wenn Sie mit dem Flugzeug ankommen, oder Ihre Abholadresse">
+
+        <label for="book-dropoff-details">Zieldetails (Adresse oder eine Flugnummer)</label>
+        <input type="text" id="book-dropoff-details" name="book-dropoff-details" placeholder="Zieladresse, oder Ihre Flugnummer, wenn Sie einen Flug erreichen müssen">
+
+        <label for="book-notes">Sonst noch etwas? (optional)</label>
+        <textarea id="book-notes" name="book-notes" rows="4" placeholder="Kindersitz, zusätzliche Stopps, übergroßes Gepäck, Hinweise zur Abholung..."></textarea>
+
+        <input type="text" id="book-company" name="company" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+        <label class="form-consent">
+          <input type="checkbox" id="book-consent" name="consent" value="1" required>
+          <span>Ich habe die <a href="/de/datenschutz/">Datenschutzerklärung</a> gelesen und stimme ihr zu.</span>
+        </label>
+        <button type="submit" class="btn btn-primary">Buchungsanfrage senden</button>
+        <p class="form-note" id="booking-page-note"></p>
+      </form>
+    </div>
+  </section>
+  <script>
+  (function(){
+    var o='';
+    for(var h=0;h<24;h++){for(var m=0;m<60;m+=5){var t=(h<10?'0':'')+h+':'+(m<10?'0':'')+m;o+='<option value="'+t+'">'+t+'</option>';}}
+    ['book-time','book-return-time'].forEach(function(id){var s=document.getElementById(id);if(s)s.insertAdjacentHTML('beforeend',o);});
+  })();
+  </script>

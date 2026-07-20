@@ -1,0 +1,85 @@
+{
+  "slug": "skradin-airport-transfers",
+  "title": "Transfer aeroportuali Skradin | Prezzi fissi | TAXI Antonio",
+  "description": "Transfer aeroportuali e taxi da e per Skradin verso l'aeroporto di Zara (ZAD) e l'aeroporto di Spalato (SPU). Prezzi fissi, monitoraggio del volo, porta a porta. Aeroporti di Zagabria e Dubrovnik su richiesta. Prenoti con Antonio.",
+  "keywords": "transfer aeroporto skradin, transfer aeroportuali skradin, taxi skradin aeroporto zara, da skradin all aeroporto di spalato, aeroporto di zara skradin, aeroporto di spalato skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Transfer aeroportuale",
+      "name": "Transfer aeroportuali Skradin",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Aeroporto di Zara",
+        "Aeroporto di Spalato",
+        "Aeroporto di Zagabria",
+        "Aeroporto di Dubrovnik"
+      ],
+      "url": "https://taxiskradin.hr/it/skradin-airport-transfers/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quanto costa un transfer in taxi da Skradin all'aeroporto di Zara?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Un transfer aeroportuale privato da Skradin all'aeroporto di Zara costa 105 euro fissi per auto fino a 4 passeggeri, con pedaggi, carburante e bagagli inclusi."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Come trovo il mio autista in aeroporto?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Antonio aspetta nella sala arrivi dopo il ritiro bagagli, con un cartello ben visibile con il suo nome."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "E se il mio volo è in ritardo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "I voli vengono monitorati in tempo reale grazie al numero di volo che indica al momento della prenotazione. L'orario di ritiro viene adattato automaticamente e l'attesa non comporta alcun costo aggiuntivo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Il prezzo del transfer aeroportuale è fisso?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sì. Ogni transfer aeroportuale ha un prezzo fisso per auto fino a 4 passeggeri, con pedaggi, carburante e bagagli inclusi. Niente tassametro, nessuna sorpresa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Come si paga un transfer aeroportuale?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Un anticipo del 20% (minimo 20 euro) conferma la prenotazione, con bonifico bancario o carta. Il saldo si paga all'autista il giorno stesso, in contanti o con carta."
+          }
+        }
+      ]
+    }
+  ]
+}

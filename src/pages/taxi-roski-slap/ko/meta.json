@@ -1,0 +1,38 @@
+{
+  "slug": "taxi-roski-slap",
+  "title": "로슈키 슬라프 택시 | 크르카 국립공원 트랜스퍼 | TAXI Antonio",
+  "description": "크르카 국립공원 상류 입구인 Roški Slap을 오가는 개인 택시 및 트랜스퍼 서비스입니다. 차량당 고정 요금, 도어 투 도어. Antonio에게 직접 예약하세요.",
+  "keywords": "로슈키 슬라프 택시, roški slap 트랜스퍼, 크르카 로슈키 슬라프 택시, roski slap 택시, roski slap 스크라딘 택시",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "개인 택시 및 트랜스퍼",
+      "name": "로슈키 슬라프 택시",
+      "description": "크르카 국립공원 Roški Slap 입구를 오가는 개인 택시 및 트랜스퍼 서비스로, 최대 4인까지 차량당 고정 요금, 도어 투 도어로 운행합니다.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Roški Slap",
+        "Skradin",
+        "크르카 국립공원"
+      ],
+      "url": "https://taxiskradin.hr/ko/taxi-roski-slap/"
+    }
+  ]
+}

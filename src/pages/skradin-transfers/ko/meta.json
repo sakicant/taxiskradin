@@ -1,0 +1,88 @@
+{
+  "slug": "skradin-transfers",
+  "title": "Skradin 교통편 | 고정 요금 | TAXI Antonio",
+  "description": "Split, Zadar, Zagreb, Dubrovnik, Trogir, Vodice, Primošten을 오가는 Skradin 교통편 및 택시. 고정 요금, 개인 도어 투 도어, 현지 기사 한 명. Antonio에게 직접 예약하세요.",
+  "keywords": "skradin 교통편, skradin 택시, skradin split, skradin zadar, skradin zagreb, skradin dubrovnik, skradin 개인 교통편",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "도시 간 택시 교통편",
+      "name": "Skradin 교통편",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Split",
+        "Zadar",
+        "Zagreb",
+        "Dubrovnik",
+        "Trogir",
+        "Vodice",
+        "Primošten"
+      ],
+      "url": "https://taxiskradin.hr/ko/skradin-transfers/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Skradin에서 Split까지 택시 교통편은 얼마인가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Skradin에서 Split까지의 개인 택시 교통편은 최대 4명 탑승 차량당 고정 140유로이며, 통행료, 연료, 짐이 포함됩니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "교통편 요금은 고정인가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "네. 모든 도시 간 교통편은 최대 4명 탑승 차량당 고정 요금이며 미리 합의합니다. 미터기도 없고 예상 밖의 비용도 없습니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "교통편은 개인인가요 합승인가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "모든 교통편은 Škoda Superb로 개인 도어 투 도어입니다. 차량 공유도 없고, 원하지 않으시면 추가 경유도 없습니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "가는 길에 멈춰주실 수 있나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "네. 긴 노선에서는 커피, 사진, 또는 짧은 볼거리를 위해 기꺼이 멈춰 드립니다. 예약하실 때 말씀해 주시면 일정에 반영하겠습니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "교통편은 어떻게 결제하나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "20% 선결제(최소 20유로)로 예약이 확정되며, 계좌 이체 또는 카드로 결제하십니다. 잔액은 당일 기사에게 현금 또는 카드로 결제하십니다."
+          }
+        }
+      ]
+    }
+  ]
+}

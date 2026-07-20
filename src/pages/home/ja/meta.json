@@ -1,0 +1,255 @@
+{
+  "slug": "",
+  "title": "Skradinのタクシー | Krkaへ | 固定料金の送迎 | Taxi Antonio",
+  "description": "Skradinのタクシー。市内のご移動、Krka国立公園の船着き場、ACI Marina Skradin、固定料金の空港送迎に対応します。英語の話せるドライバー。Antonioに直接ご予約ください。",
+  "keywords": "skradin タクシー, skradin taxi, skradin 送迎, skradin 空港 送迎, skradin krka タクシー, aci marina skradin タクシー, krka 国立公園 タクシー",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-bg.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "TAXI Skradin - Antonio",
+      "url": "https://taxiskradin.hr/ja/",
+      "telephone": "+385994471013",
+      "email": "info@taxiskradin.hr",
+      "areaServed": [
+        "Skradin",
+        "Krka National Park",
+        "ACI Marina Skradin",
+        "Šibenik",
+        "Split",
+        "Zadar",
+        "Dubrovnik",
+        "Zagreb"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Skradin",
+        "postalCode": "22222",
+        "addressCountry": "HR"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "142"
+      },
+      "priceRange": "€€",
+      "alternateName": "TAXI Antonio",
+      "@id": "https://taxiskradin.hr/ja/#business",
+      "image": "https://taxiskradin.hr/assets/img/hero-bg.webp",
+      "paymentAccepted": "Cash, Credit Card",
+      "currenciesAccepted": "EUR",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 43.8186,
+        "longitude": 15.9214
+      },
+      "hasMap": "https://www.google.com/maps?cid=4748268601430744277",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "07:00",
+          "closes": "14:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "16:00",
+          "closes": "21:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "06:00",
+          "closes": "16:00"
+        }
+      ],
+      "sameAs": [
+        "https://web.facebook.com/profile.php?id=61579783829997",
+        "https://www.instagram.com/taxi_sibenik/",
+        "https://www.tiktok.com/@taxisibenik",
+        "https://www.tripadvisor.com/Attraction_Review-g295375-d24821165-Reviews-TAXI_Sibenik_Skradin_Antonio-Sibenik_Sibenik_Knin_County_Dalmatia.html",
+        "https://www.google.com/maps?cid=4748268601430744277"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "タクシー・送迎サービス",
+      "name": "TAXI AntonioのSkradinタクシー",
+      "areaServed": {
+        "@type": "City",
+        "name": "Skradin"
+      },
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "タクシー・送迎サービス",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Skradin市内のタクシー"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Krka国立公園の船着き場への送迎"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "ACI Marina Skradinの送迎"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "空港送迎"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "都市間送迎"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Skradinでタクシーを予約するにはどうすればよいですか。",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "+385 99 447 1013までお電話いただくか、WhatsAppでメッセージをお送りいただくか、メールをお送りください。Antonioがお迎え場所、目的地、ご希望のお迎えまたは到着時刻をお伺いします。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "どのくらい前に予約すればよいですか。",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "営業時間内であれば直前のご依頼も承りますが、車とお迎えの時刻を確定するため、ご予約には2時間以上の余裕が必要です。早めにご予約いただければ、確実にご用意できます。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "「固定料金」とは何ですか。何が含まれますか。",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "固定料金には、移動、燃料、通行料、お荷物のお手伝いが含まれます。隠れた費用はありません。途中の立ち寄りや長い待ち時間は追加になる場合がありますが、事前にお伝えします。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "前払いは必要ですか。",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "はい。ご予約の確定には料金の20％（最低20ユーロ）の前払金が必要です。20ユーロ以下のご乗車は全額前払いとなります。前払金は銀行振込 (SEPA) またはカードでお支払いいただき、残額は当日、現金またはカードで精算します。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "車内でカード払いはできますか。",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "はい、カードやその他の非接触の決済方法をご利用いただけます。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "SkradinのKrka国立公園入口まで送ってもらえますか。",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "はい。SkradinはKrkaへの主要な玄関口です。Skradinski Bukの滝へ向かう公園の船が出る川沿いの船着き場までお送りし、お戻りの際にはお迎えにあがります。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ACI Marina Skradinまで迎えに来てもらえますか。",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "はい。ACI Marina Skradinまで直接お迎えとお送りにあがります。お荷物と食料を積める余裕があります。バース番号をお知らせいただければ、待ち合わせ場所を決めます。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Šibenikや空港にも行けますか。",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "はい。SkradinからŠibenik、SplitとZadarの空港、ダルマチア各地の都市へ、固定料金の送迎をご提供しています。Šibenik発のご移動は姉妹サービスのtaxisibenik.hrをご覧ください。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "フライトが遅れた場合はどうなりますか。",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "到着便はリアルタイムで確認しており、お迎えの時刻は追加料金なしで自動的に調整されます。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "キャンセルが必要になった場合はどうなりますか。",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "キャンセルはメールによる書面でお願いします。ご予約の72時間より前であれば、銀行振込は全額返金、カードは手数料10ユーロを差し引いた全額返金となります。72時間以内のキャンセルと無連絡での不参加は返金いたしません。日程の変更はいつでも無料です。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "人数の多いグループにも対応できますか。",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Škoda Superbは最大4名様までです。それ以上のグループについては、選び抜いた地元のパートナーを通じて手配できます。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "チャイルドシートはありますか。",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "はい、チャイルドシートとブースターシートをご要望に応じてご用意します。"
+          }
+        }
+      ]
+    }
+  ]
+}

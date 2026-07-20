@@ -1,0 +1,21 @@
+{
+  "slug": "special-offers",
+  "title": "斯克拉丁出租车特惠 | 最优价格,限时供应",
+  "description": "斯克拉丁(Skradin)出租车与接送特惠:最后一分钟与空驶回程优惠,价格最优,限时供应。固定车费,售完即止,请尽早预订。",
+  "keywords": "斯克拉丁出租车特惠, 斯克拉丁接送最优价格, 限时出租车优惠, 斯克拉丁最后一分钟接送, 克尔卡机场接送优惠",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "斯克拉丁出租车特惠:最优价格,限时供应",
+    "description": "斯克拉丁(Skradin)出租车与接送的限时特惠:最后一分钟与空驶回程优惠,固定车费,价格最优。",
+    "url": "https://taxiskradin.hr/zh/special-offers/",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "Taxi Antonio",
+      "telephone": "+385994471013",
+      "email": "info@taxiskradin.hr",
+      "address": { "@type": "PostalAddress", "addressLocality": "Skradin", "addressCountry": "HR" }
+    }
+  }
+}

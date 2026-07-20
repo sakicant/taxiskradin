@@ -1,0 +1,59 @@
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">お問い合わせ</span>
+      <h1>TAXI Skradinへのお問い合わせ</h1>
+      <p class="page-hero-sub">コールセンターではなく、私が直接対応します。お電話、WhatsApp、または下記のフォームからご連絡ください。</p>
+      <div class="hero-actions">
+        <a href="tel:+385994471013" class="btn btn-primary">今すぐタクシーを呼ぶ</a>
+        <a href="https://wa.me/385994471013?text=Hello%20Antonio%2C%20I%20found%20you%20through%20your%20website%20taxiskradin.hr%20and%20I%20have%20an%20inquiry%3A%20" target="_blank" rel="noopener" class="btn btn-secondary">WhatsAppでメッセージを送る</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact contact-page">
+    <div class="container contact-inner">
+      <div class="contact-info">
+        <span class="eyebrow">サービス</span>
+        <ul class="contact-details">
+          <li><a href="/ja/">Skradinの地元タクシー</a></li>
+          <li><a href="/ja/skradin-airport-transfers/">空港送迎</a></li>
+          <li><a href="/ja/skradin-transfers/">都市間送迎</a></li>
+          <li><a href="/ja/aci-marina-skradin-transfers/">ACI Marina Skradin</a></li>
+          <li><a href="https://taxisibenik.hr" target="_blank" rel="noopener">Taxi Šibenik</a></li>
+        </ul>
+      </div>
+
+      <form class="contact-form" id="contact-form" action="/contact.php" method="POST">
+        <input type="text" name="company" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <h3>メッセージを送る</h3>
+        <label for="name">お名前</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">メールアドレス</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">WhatsApp番号（任意）</label>
+        <input type="tel" id="phone" name="phone" placeholder="国番号を含めてください">
+
+        <label for="topic">ご用件</label>
+        <select id="topic" name="topic" required>
+          <option value="General inquiry">一般的なお問い合わせ</option>
+          <option value="Booking">ご予約</option>
+          <option value="Quote request">料金のお見積り</option>
+          <option value="Day trip">日帰りのご旅行</option>
+          <option value="Complaint">ご意見・苦情</option>
+          <option value="Other">その他</option>
+        </select>
+
+        <label for="message">メッセージ</label>
+        <textarea id="message" name="message" rows="5" required placeholder="お迎え場所、ご希望の日付、目的地をお知らせください..."></textarea>
+
+        <label class="form-consent">
+          <input type="checkbox" name="consent" value="1" required>
+          <span><a href="/ja/privacy-policy/">プライバシーポリシー</a>を読み、同意します。</span>
+        </label>
+        <button type="submit" class="btn btn-primary">メッセージを送信</button>
+        <p class="form-note" id="form-note"></p>
+      </form>
+    </div>
+  </section>

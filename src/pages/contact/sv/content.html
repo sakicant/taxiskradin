@@ -1,0 +1,59 @@
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Hör av dig</span>
+      <h1>Kontakta TAXI Skradin</h1>
+      <p class="page-hero-sub">Direktkontakt med mig, inte ett callcenter. Ring, skriv på WhatsApp eller skicka ett meddelande nedan.</p>
+      <div class="hero-actions">
+        <a href="tel:+385994471013" class="btn btn-primary">Ring taxi nu</a>
+        <a href="https://wa.me/385994471013?text=Hello%20Antonio%2C%20I%20found%20you%20through%20your%20website%20taxiskradin.hr%20and%20I%20have%20an%20inquiry%3A%20" target="_blank" rel="noopener" class="btn btn-secondary">Skicka WhatsApp-meddelande</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact contact-page">
+    <div class="container contact-inner">
+      <div class="contact-info">
+        <span class="eyebrow">Tjänster</span>
+        <ul class="contact-details">
+          <li><a href="/sv/">Lokal taxi i Skradin</a></li>
+          <li><a href="/sv/skradin-airport-transfers/">Flygplatstransferer</a></li>
+          <li><a href="/sv/skradin-transfers/">Transferer mellan städer</a></li>
+          <li><a href="/sv/aci-marina-skradin-transfers/">ACI Marina Skradin</a></li>
+          <li><a href="https://taxisibenik.hr" target="_blank" rel="noopener">Taxi Šibenik</a></li>
+        </ul>
+      </div>
+
+      <form class="contact-form" id="contact-form" action="/contact.php" method="POST">
+        <input type="text" name="company" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <h3>Skicka ett meddelande till mig</h3>
+        <label for="name">Namn</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">E-post</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">WhatsApp-nummer (valfritt)</label>
+        <input type="tel" id="phone" name="phone" placeholder="Ange landsnummer">
+
+        <label for="topic">Ämne</label>
+        <select id="topic" name="topic" required>
+          <option value="General inquiry">Allmän fråga</option>
+          <option value="Booking">Bokning</option>
+          <option value="Quote request">Prisförfrågan</option>
+          <option value="Day trip">Dagsutflykt</option>
+          <option value="Complaint">Klagomål</option>
+          <option value="Other">Annat</option>
+        </select>
+
+        <label for="message">Meddelande</label>
+        <textarea id="message" name="message" rows="5" required placeholder="Berätta var du ska hämtas, vilket datum och vart du ska..."></textarea>
+
+        <label class="form-consent">
+          <input type="checkbox" name="consent" value="1" required>
+          <span>Jag har läst och godkänner <a href="/sv/privacy-policy/">integritetspolicyn</a>.</span>
+        </label>
+        <button type="submit" class="btn btn-primary">Skicka meddelande</button>
+        <p class="form-note" id="form-note"></p>
+      </form>
+    </div>
+  </section>

@@ -1,0 +1,72 @@
+{
+  "slug": "skradin-winery-transfers",
+  "title": "Skradin 와이너리 교통편 | Plastovo, Bibich & Sladić | TAXI Antonio",
+  "description": "Skradin에서 Plastovo의 와이너리 Bibich와 Sladić까지 개인 택시 및 교통편. 차량당 고정 요금, 사전에 합의합니다. 이동만 제공하며 시음은 직접 예약하십니다.",
+  "keywords": "skradin 와이너리 교통편, plastovo 와이너리 택시, bibich 와이너리 skradin, sladic 와이너리 교통편, skradin plastovo 택시",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "개인 와이너리 택시 및 교통편",
+      "name": "Skradin 와이너리 교통편",
+      "description": "Skradin에서 Plastovo의 와이너리 Bibich와 Sladić까지 개인 택시 및 교통편. 최대 4명 탑승 차량당 고정 요금이며 사전에 합의합니다. 이동만 제공하며, 시음은 와이너리와 직접 예약하고 와이너리에 결제하십니다.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": ["Skradin", "Plastovo"],
+      "url": "https://taxiskradin.hr/ko/skradin-winery-transfers/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Skradin에서 출발하는 와이너리 교통편은 얼마인가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "최대 4명 탑승 차량당 고정 요금이며 사전에 합의합니다. 어느 와이너리를 방문하시는지, 제가 기다릴지 나중에 다시 올지에 따라 달라지므로, WhatsApp으로 계획을 보내주시면 예약 전에 정확한 요금을 확인해 드립니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "시음도 준비해 주시나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "아니요. 저는 이동만 담당합니다. 시음은 와이너리와 직접 예약하시고 와이너리에 결제하십니다. 방문이나 인원수에 대해 제가 따로 요금을 받지 않습니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "기다렸다가 다시 데려다주실 수 있나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "네. 근처에서 기다렸다가 준비되시면 언제든 모셔다 드리거나, 정해둔 시간에 다시 오겠습니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Bibich와 Sladić를 모두 방문할 수 있나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "네. 두 곳 모두 Skradin에서 가까워 한 번의 이동으로 함께 둘러보기 좋습니다. 원하시는 내용을 알려주시면 일정과 고정 요금을 잡아 드리겠습니다."
+          }
+        }
+      ]
+    }
+  ]
+}

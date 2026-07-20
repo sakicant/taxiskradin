@@ -1,0 +1,38 @@
+{
+  "slug": "taxi-roski-slap",
+  "title": "Taxi Roški Slap | Krka Nemzeti Park transzferek | TAXI Antonio",
+  "description": "Privát taxi és transzfer Roški Slapra és onnan vissza, a Krka Nemzeti Park felső bejáratához. Fix ár autónként, háztól házig. Foglaljon közvetlenül Antoniónál.",
+  "keywords": "taxi roški slap, roški slap transzfer, krka roški slap taxi, taxi roski slapra, roski slap skradin taxi",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privát taxi és transzfer",
+      "name": "Taxi Roški Slap",
+      "description": "Privát taxi és transzfer a Krka Nemzeti Park Roški Slap bejáratához és onnan vissza, fix ár autónként legfeljebb 4 utasig, háztól házig.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Roški Slap",
+        "Skradin",
+        "Krka Nemzeti Park"
+      ],
+      "url": "https://taxiskradin.hr/hu/taxi-roski-slap/"
+    }
+  ]
+}

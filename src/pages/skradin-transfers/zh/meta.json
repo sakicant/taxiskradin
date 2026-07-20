@@ -1,0 +1,88 @@
+{
+  "slug": "skradin-transfers",
+  "title": "斯克拉丁接送 | 固定价格 | TAXI Antonio",
+  "description": "斯克拉丁(Skradin)往返斯普利特、扎达尔、萨格勒布、杜布罗夫尼克、特罗吉尔、Vodice 与 Primošten 的接送与出租车。固定价格,私人门到门,一位本地司机。直接找 Antonio 预订。",
+  "keywords": "斯克拉丁接送, 斯克拉丁出租车, 斯克拉丁到斯普利特, 斯克拉丁到扎达尔, 斯克拉丁到萨格勒布, 斯克拉丁到杜布罗夫尼克",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "城际出租车接送",
+      "name": "斯克拉丁接送",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Split",
+        "Zadar",
+        "Zagreb",
+        "Dubrovnik",
+        "Trogir",
+        "Vodice",
+        "Primošten"
+      ],
+      "url": "https://taxiskradin.hr/zh/skradin-transfers/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "从斯克拉丁到斯普利特的出租车接送多少钱?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "从斯克拉丁到斯普利特的私人出租车接送为每车固定 140 欧元,最多 4 位乘客,含过路费、油费和行李。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "接送价格是固定的吗?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "是的。每一趟城际接送都是按车固定价格,最多 4 位乘客,提前谈好。不打表,没有意外费用。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "接送是私人的还是拼车的?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "每一趟接送都是私人门到门的,车是 Škoda Superb。不拼车,除非您提出要求,否则不额外停靠。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "路上可以停车吗?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "可以。较长的行程中,我很乐意停下来喝杯咖啡、拍张照或看个小景点。预订时告诉我,我会把时间算进去。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "接送怎么付款?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "支付 20% 的预付款(最低 20 欧元)即可确认预订,可用银行转账或刷卡。余款在当天付给司机,现金或刷卡均可。"
+          }
+        }
+      ]
+    }
+  ]
+}

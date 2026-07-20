@@ -1,0 +1,72 @@
+{
+  "slug": "skradin-winery-transfers",
+  "title": "斯克拉丁酒庄接送 | Plastovo、Bibich 与 Sladić | TAXI Antonio",
+  "description": "从斯克拉丁(Skradin)到 Plastovo 酒庄 Bibich 与 Sladić 的私人出租车与接送。按车固定价格,提前谈好。只提供交通,品酒由您自行安排。",
+  "keywords": "斯克拉丁酒庄接送, plastovo 酒庄出租车, bibich 酒庄 斯克拉丁, sladic 酒庄接送, 斯克拉丁到 plastovo 出租车",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "私人酒庄出租车与接送",
+      "name": "斯克拉丁酒庄接送",
+      "description": "从斯克拉丁(Skradin)到 Plastovo 酒庄 Bibich 与 Sladić 的私人出租车与接送。按车固定价格,最多 4 位乘客,提前谈好。只提供交通;品酒由您与酒庄安排并直接付费给酒庄。",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": ["Skradin", "Plastovo"],
+      "url": "https://taxiskradin.hr/zh/skradin-winery-transfers/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "从斯克拉丁出发的酒庄接送多少钱?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "按车固定价格,最多 4 位乘客,提前谈好。价格取决于您去哪几家酒庄,以及我是等您还是稍后回来接,请把您的计划发 WhatsApp 给我,我会在您预订前确认准确价格。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "你负责安排品酒吗?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "不。我只负责交通。品酒由您与酒庄预约并直接付费给酒庄。我不对参观收费,也不按人头收费。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "你可以等我们再送我们回去吗?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "可以。我在附近等候,您随时准备好我就送您回去,或者按我们约定的时间回来接您。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "我们可以同时去 Bibich 和 Sladić 吗?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "可以。两家都离斯克拉丁很近,很容易安排在同一趟行程里。告诉我您的想法,我来规划时间和固定价格。"
+          }
+        }
+      ]
+    }
+  ]
+}

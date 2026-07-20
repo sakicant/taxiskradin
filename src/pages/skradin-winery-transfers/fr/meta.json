@@ -1,0 +1,72 @@
+{
+  "slug": "skradin-winery-transfers",
+  "title": "Transferts vignobles Skradin | Plastovo, Bibich & Sladić | TAXI Antonio",
+  "description": "Taxi privé et transfert de Skradin vers les domaines viticoles de Plastovo, Bibich et Sladić. Prix fixe par voiture, convenu à l'avance. Transport uniquement, vous organisez la dégustation.",
+  "keywords": "transfert vignoble skradin, taxi domaine plastovo, bibich vignoble skradin, transfert domaine sladic, taxi skradin plastovo",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Taxi privé et transfert vers les domaines viticoles",
+      "name": "Transferts vignobles Skradin",
+      "description": "Taxi privé et transfert de Skradin vers les domaines viticoles de Plastovo, Bibich et Sladić. Prix fixe par voiture jusqu'à 4 passagers, convenu à l'avance. Transport uniquement ; la dégustation se réserve auprès du domaine et se règle directement à celui-ci.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": ["Skradin", "Plastovo"],
+      "url": "https://taxiskradin.hr/fr/skradin-winery-transfers/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Combien coûte un transfert vers les domaines viticoles depuis Skradin ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "C'est un prix fixe par voiture, jusqu'à 4 passagers, convenu à l'avance. Il dépend des domaines que vous visitez et du fait que je vous attende ou que je revienne plus tard, alors envoyez-moi votre programme sur WhatsApp et je vous confirmerai le prix exact avant la réservation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Organisez-vous la dégustation ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Non. Je m'occupe uniquement du transport. Vous réservez la dégustation auprès du domaine et vous le réglez directement. Je ne facture rien pour la visite ni par personne."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pouvez-vous attendre et nous ramener ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui. J'attends à proximité et je vous ramène dès que vous êtes prêts, ou je reviens à l'heure convenue."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pouvons-nous visiter Bibich et Sladić ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui. Les deux domaines sont proches de Skradin et faciles à combiner en un seul trajet. Dites-moi ce que vous souhaitez et j'organiserai les horaires et le prix fixe."
+          }
+        }
+      ]
+    }
+  ]
+}

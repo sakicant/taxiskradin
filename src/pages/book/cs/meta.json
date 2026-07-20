@@ -1,0 +1,31 @@
+{
+  "slug": "book",
+  "title": "Rezervujte si taxi transfer | TAXI Antonio Skradin",
+  "description": "Potvrďte svou rezervaci taxi a transferu ve Skradinu. Zadejte datum, čas a kontaktní údaje a Antonio vám soukromou jízdu potvrdí přímo, obvykle během několika hodin.",
+  "keywords": "rezervace taxi skradin, rezervace transferu skradin, taxi skradin rezervace, soukromý transfer skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": "https://taxiskradin.hr/cs/book/#webpage",
+      "url": "https://taxiskradin.hr/cs/book/",
+      "name": "Rezervujte si taxi transfer | TAXI Antonio Skradin",
+      "description": "Odešlete žádost o rezervaci soukromého taxi a transferu ze Skradinu. Pevná cena za vůz pro až 4 cestující, dohodnutá předem. Antonio potvrzuje přímo, obvykle během několika hodin.",
+      "inLanguage": "cs",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "TAXI Antonio",
+        "url": "https://taxiskradin.hr/",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "areaServed": "Skradin",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        }
+      }
+    }
+  ]
+}

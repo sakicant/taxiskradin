@@ -1,0 +1,72 @@
+{
+  "slug": "skradin-winery-transfers",
+  "title": "Transfer cantine da Skradin | Plastovo, Bibich e Sladić | TAXI Antonio",
+  "description": "Taxi privato e transfer da Skradin alle cantine di Plastovo, Bibich e Sladić. Prezzo fisso per auto, concordato in anticipo. Solo trasporto, la degustazione la organizza Lei.",
+  "keywords": "transfer cantine skradin, taxi cantina plastovo, cantina bibich skradin, transfer cantina sladic, taxi da skradin a plastovo",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Taxi privato e transfer per le cantine",
+      "name": "Transfer cantine da Skradin",
+      "description": "Taxi privato e transfer da Skradin alle cantine di Plastovo, Bibich e Sladić. Prezzo fisso per auto fino a 4 passeggeri, concordato in anticipo. Solo trasporto; la degustazione si concorda con la cantina e si paga alla cantina.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": ["Skradin", "Plastovo"],
+      "url": "https://taxiskradin.hr/it/skradin-winery-transfers/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quanto costa un transfer per le cantine da Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "È un prezzo fisso per auto, fino a 4 passeggeri, concordato in anticipo. Dipende da quali cantine visita e se aspetto sul posto o torno più tardi, quindi mi mandi il suo programma su WhatsApp e le confermo il prezzo esatto prima della prenotazione."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Organizza Lei la degustazione?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Mi occupo solo del trasporto. La degustazione la prenota Lei con la cantina e la paga direttamente a loro. Non faccio pagare la visita né un supplemento a persona."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Può aspettare e riportarci indietro?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sì. Aspetto qui vicino e la riporto a casa quando ha finito, oppure torno all'ora che stabiliamo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Possiamo visitare sia Bibich sia Sladić?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sì. Sono entrambe vicine a Skradin e facili da unire in un unico giro. Mi dica cosa desidera e organizzo gli orari e il prezzo fisso."
+          }
+        }
+      ]
+    }
+  ]
+}

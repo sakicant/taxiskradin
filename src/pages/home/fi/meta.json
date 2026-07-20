@@ -1,0 +1,255 @@
+{
+  "slug": "",
+  "title": "Taksi Skradin | Vieraile Krkassa | Kiinteähintaiset kuljetukset | Taxi Antonio",
+  "description": "Taksi Skradin paikallisiin kyyteihin, Krkan kansallispuiston venelaiturille, ACI Marina Skradiniin ja kiinteähintaisiin lentokenttäkuljetuksiin. Englantia puhuva kuljettaja. Varaa suoraan Antoniolta.",
+  "keywords": "taksi skradin, skradin taksi, skradin kuljetus, skradin lentokenttäkuljetus, taksi skradin krka, aci marina skradin taksi, krkan kansallispuisto taksi",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-bg.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "TAXI Skradin - Antonio",
+      "url": "https://taxiskradin.hr/",
+      "telephone": "+385994471013",
+      "email": "info@taxiskradin.hr",
+      "areaServed": [
+        "Skradin",
+        "Krka National Park",
+        "ACI Marina Skradin",
+        "Šibenik",
+        "Split",
+        "Zadar",
+        "Dubrovnik",
+        "Zagreb"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Skradin",
+        "postalCode": "22222",
+        "addressCountry": "HR"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "142"
+      },
+      "priceRange": "€€",
+      "alternateName": "TAXI Antonio",
+      "@id": "https://taxiskradin.hr/#business",
+      "image": "https://taxiskradin.hr/assets/img/hero-bg.webp",
+      "paymentAccepted": "Cash, Credit Card",
+      "currenciesAccepted": "EUR",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 43.8186,
+        "longitude": 15.9214
+      },
+      "hasMap": "https://www.google.com/maps?cid=4748268601430744277",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "07:00",
+          "closes": "14:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "16:00",
+          "closes": "21:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "06:00",
+          "closes": "16:00"
+        }
+      ],
+      "sameAs": [
+        "https://web.facebook.com/profile.php?id=61579783829997",
+        "https://www.instagram.com/taxi_sibenik/",
+        "https://www.tiktok.com/@taxisibenik",
+        "https://www.tripadvisor.com/Attraction_Review-g295375-d24821165-Reviews-TAXI_Sibenik_Skradin_Antonio-Sibenik_Sibenik_Knin_County_Dalmatia.html",
+        "https://www.google.com/maps?cid=4748268601430744277"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Taksi- ja kuljetuspalvelu",
+      "name": "Taksi Skradin, TAXI Antonio",
+      "areaServed": {
+        "@type": "City",
+        "name": "Skradin"
+      },
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Taksi- ja kuljetuspalvelut",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Paikalliset taksikyydit Skradinissa"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Kuljetukset Krkan kansallispuiston venelaiturille"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "ACI Marina Skradin -kuljetukset"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Lentokenttäkuljetukset"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Kaupunkien väliset kuljetukset"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Miten varaan taksin Skradinissa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Soita numeroon +385 99 447 1013, lähetä viesti WhatsAppissa tai sähköpostia. Antonio tarvitsee noutopaikan, määränpään ja toivotun nouto- tai saapumisajan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kuinka paljon etukäteen minun pitäisi varata?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Viime hetken pyynnöt hyväksytään aukioloaikojen sisällä, mutta varaus vaatii vähintään 2 tunnin ennakkoilmoituksen, jotta auto ja noutoaika voidaan vahvistaa. Aiempi varaaminen takaa saatavuuden."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mitä \"kiinteä hinta\" tarkoittaa? Mitä siihen sisältyy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kiinteisiin hintoihin sisältyy kuljetus, polttoaine, tietullit ja apu matkatavaroiden kanssa. Ei piilokuluja. Ylimääräiset pysähdykset tai pitkät odotukset voivat maksaa enemmän, mistä kerrotaan etukäteen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otatteko ennakkomaksuja?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kyllä. Varauksen vahvistaminen edellyttää 20 %:n ennakkomaksua (vähintään 20 euroa). Enintään 20 euron kyydit maksetaan kokonaan etukäteen. Ennakkomaksut voi suorittaa tilisiirrolla (SEPA) tai kortilla, ja loppusumma maksetaan matkapäivänä käteisellä tai kortilla."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Voiko autossa maksaa kortilla?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kyllä, kortit ja muut lähimaksutavat käyvät."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Voitteko viedä minut Krkan kansallispuiston sisäänkäynnille Skradinissa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kyllä. Skradin on pääportti Krkaan. Antonio jättää sinut rantabulevardin venelaiturille, josta puiston veneet lähtevät Skradinski Bukin vesiputouksille, ja hakee sinut, kun palaat."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Noudatteko ACI Marina Skradinista?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kyllä. Antonio noutaa ja jättää miehistöt suoraan ACI Marina Skradinissa, ja autossa on tilaa matkatavaroille ja muonavaroille. Lähetä laituripaikan numero, niin sovitaan tapaamispaikka."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ajatteko Šibenikiin ja lentoasemille?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kyllä. Antonio ajaa kiinteähintaisia kuljetuksia Skradinista Šibenikiin, Splitin ja Zadarin lentoasemille ja kaupunkeihin ympäri Dalmatiaa. Šibenikistä alkavat kyydit löytyvät sisarpalvelusta taxisibenik.hr."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Entä jos lentoni myöhästyy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lentojen saapumisia seurataan reaaliajassa ja noutoaika mukautetaan automaattisesti ilman lisäkustannuksia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mitä tapahtuu, jos minun täytyy peruuttaa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Peruutukset on tehtävä kirjallisesti sähköpostitse. Yli 72 tuntia ennen varausta tilisiirrosta hyvitetään koko summa ja korttimaksusta koko summa vähennettynä 10 euron käsittelymaksulla. Alle 72 tunnin peruutuksia tai saapumatta jättämisiä ei hyvitetä. Ajankohdan siirtäminen on aina maksutonta."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Voitteko kuljettaa isomman ryhmän?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Škoda Superbiin mahtuu enintään 4 matkustajaa. Isommille ryhmille voidaan järjestää kyyti paikallisten, huolella valittujen kumppanien kautta."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Onko teillä turvaistuimia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kyllä, turva- ja korotusistuimia on saatavilla pyynnöstä."
+          }
+        }
+      ]
+    }
+  ]
+}

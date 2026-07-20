@@ -1,0 +1,31 @@
+{
+  "slug": "book",
+  "title": "Varaa taksikuljetuksesi | TAXI Antonio Skradin",
+  "description": "Vahvista taksi- ja kuljetusvarauksesi Skradinissa. Lisää päivämäärä, kellonaika ja yhteystietosi, niin Antonio vahvistaa yksityiskyytisi suoraan, yleensä muutamassa tunnissa.",
+  "keywords": "varaa taksi skradin, taksikuljetuksen varaus skradin, skradin taksivaraus, yksityiskuljetus skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": "https://taxiskradin.hr/fi/book/#webpage",
+      "url": "https://taxiskradin.hr/fi/book/",
+      "name": "Varaa taksikuljetuksesi | TAXI Antonio Skradin",
+      "description": "Lähetä varauspyyntö yksityisestä taksikuljetuksesta Skradinista. Kiinteä hinta autoa kohti enintään 4 matkustajalle, sovittu etukäteen. Antonio vahvistaa suoraan, yleensä muutamassa tunnissa.",
+      "inLanguage": "fi",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "TAXI Antonio",
+        "url": "https://taxiskradin.hr/",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "areaServed": "Skradin",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        }
+      }
+    }
+  ]
+}

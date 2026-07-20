@@ -1,0 +1,31 @@
+{
+  "slug": "book",
+  "title": "Boek uw taxitransfer | TAXI Antonio Skradin",
+  "description": "Bevestig uw taxi- en transferboeking in Skradin. Vul uw datum, tijd en contactgegevens in en Antonio bevestigt uw privérit rechtstreeks, meestal binnen enkele uren.",
+  "keywords": "taxi skradin boeken, taxitransfer boeking skradin, skradin taxi boeking, privétransfer skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": "https://taxiskradin.hr/nl/book/#webpage",
+      "url": "https://taxiskradin.hr/nl/book/",
+      "name": "Boek uw taxitransfer | TAXI Antonio Skradin",
+      "description": "Stuur een boekingsaanvraag voor een privétaxi en transfer vanuit Skradin. Vaste prijs per auto voor maximaal 4 passagiers, vooraf afgesproken. Antonio bevestigt rechtstreeks, meestal binnen enkele uren.",
+      "inLanguage": "nl",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "TAXI Antonio",
+        "url": "https://taxiskradin.hr/",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "areaServed": "Skradin",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        }
+      }
+    }
+  ]
+}

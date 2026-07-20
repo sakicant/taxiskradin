@@ -1,0 +1,88 @@
+{
+  "slug": "skradin-transfers",
+  "title": "Traslados desde Skradin | Precios fijos | TAXI Antonio",
+  "description": "Traslados y taxi desde y hacia Skradin con Split, Zadar, Zagreb, Dubrovnik, Trogir, Vodice y Primošten. Precios fijos, privados y puerta a puerta, un solo conductor local. Reserve directamente con Antonio.",
+  "keywords": "traslado skradin, traslados skradin, taxi skradin, skradin a split, skradin a zadar, skradin a zagreb, skradin a dubrovnik",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Traslado en taxi entre ciudades",
+      "name": "Traslados desde Skradin",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Split",
+        "Zadar",
+        "Zagreb",
+        "Dubrovnik",
+        "Trogir",
+        "Vodice",
+        "Primošten"
+      ],
+      "url": "https://taxiskradin.hr/es/skradin-transfers/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta un traslado en taxi de Skradin a Split?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Un traslado privado en taxi de Skradin a Split cuesta 140 euros fijos por coche para hasta 4 pasajeros, con peajes, combustible y equipaje incluidos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Los precios de los traslados son fijos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Todos los traslados entre ciudades tienen un precio fijo por coche para hasta 4 pasajeros, acordado de antemano. Sin taxímetro y sin sorpresas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿El traslado es privado o compartido?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Todos los traslados son privados y puerta a puerta, en un Škoda Superb. No se comparte vehículo y no hay paradas adicionales salvo que las pida."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puede parar por el camino?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. En los traslados largos paro con mucho gusto para un café, una foto o ver algo rápido. Solo tiene que decírmelo al reservar y lo tendré en cuenta."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo se paga un traslado?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Un anticipo del 20% (mínimo 20 euros) confirma la reserva, por transferencia bancaria o tarjeta. El resto se paga al conductor el mismo día, en efectivo o con tarjeta."
+          }
+        }
+      ]
+    }
+  ]
+}

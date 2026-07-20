@@ -1,0 +1,31 @@
+{
+  "slug": "book",
+  "title": "Foglalja le taxitranszferét | TAXI Antonio Skradin",
+  "description": "Erősítse meg taxi- és transzferfoglalását Skradinban. Adja meg a dátumot, az időpontot és elérhetőségeit, Antonio pedig közvetlenül visszaigazolja a magánutat, általában néhány órán belül.",
+  "keywords": "taxi foglalás skradin, taxitranszfer foglalás skradin, skradin taxi foglalás, magántranszfer skradin",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": "https://taxiskradin.hr/hu/book/#webpage",
+      "url": "https://taxiskradin.hr/hu/book/",
+      "name": "Foglalja le taxitranszferét | TAXI Antonio Skradin",
+      "description": "Küldjön foglalási kérelmet magántaxira és transzferre Skradinból. Fix ár autónként, legfeljebb 4 utasra, előre megbeszélve. Antonio közvetlenül visszaigazol, általában néhány órán belül.",
+      "inLanguage": "hu",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "TAXI Antonio",
+        "url": "https://taxiskradin.hr/",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "areaServed": "Skradin",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        }
+      }
+    }
+  ]
+}

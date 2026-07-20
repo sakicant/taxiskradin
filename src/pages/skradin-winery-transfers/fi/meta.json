@@ -1,0 +1,72 @@
+{
+  "slug": "skradin-winery-transfers",
+  "title": "Viinitilakuljetukset Skradinista | Plastovo, Bibich ja Sladić | TAXI Antonio",
+  "description": "Yksityinen taksikuljetus Skradinista Plastovon viinitiloille, Bibichille ja Sladićille. Kiinteä hinta autoa kohti, sovittu etukäteen. Vain kuljetus, maistelun järjestät itse.",
+  "keywords": "skradin viinitilakuljetus, plastovo viinitila taksi, bibich viinitila skradin, sladic viinitila kuljetus, skradin plastovo taksi",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Yksityinen viinitilataksi ja -kuljetus",
+      "name": "Viinitilakuljetukset Skradinista",
+      "description": "Yksityinen taksikuljetus Skradinista Plastovon viinitiloille, Bibichille ja Sladićille. Kiinteä hinta autoa kohti enintään 4 matkustajalle, sovittu etukäteen. Vain kuljetus; maistelu sovitaan ja maksetaan suoraan viinitilalle.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": ["Skradin", "Plastovo"],
+      "url": "https://taxiskradin.hr/fi/skradin-winery-transfers/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Paljonko viinitilakuljetus Skradinista maksaa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hinta on kiinteä autoa kohti, enintään 4 matkustajaa, ja se sovitaan etukäteen. Se riippuu siitä, mitä viinitiloja käytte ja odotanko paikan päällä vai palaanko myöhemmin. Lähetä suunnitelmasi WhatsAppissa, niin vahvistan tarkan hinnan ennen varausta."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Järjestättekö maistelun?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En. Hoidan vain kuljetuksen. Varaat maistelun viinitilalta ja maksat sen suoraan heille. En veloita vierailusta enkä henkilöä kohti."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Voitteko odottaa ja viedä meidät takaisin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kyllä. Odotan lähistöllä ja vien teidät kotiin, kun olette valmiita, tai palaan sovittuun aikaan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Voimmeko käydä sekä Bibichillä että Sladićilla?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kyllä. Molemmat ovat lähellä Skradinia ja helppo yhdistää samalle matkalle. Kerro mitä haluatte, niin suunnittelen aikataulun ja kiinteän hinnan."
+          }
+        }
+      ]
+    }
+  ]
+}

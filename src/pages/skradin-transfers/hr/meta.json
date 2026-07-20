@@ -1,0 +1,88 @@
+{
+  "slug": "skradin-transfers",
+  "title": "Transferi iz Skradina | Fiksne cijene | TAXI Antonio",
+  "description": "Transferi i taxi iz Skradina prema Splitu, Zadru, Zagrebu, Dubrovniku, Trogiru, Vodicama i Primoštenu te natrag. Fiksne cijene, privatna vožnja od vrata do vrata, jedan lokalni vozač. Rezervirajte izravno kod Antonija.",
+  "keywords": "transfer skradin, transferi skradin, taxi skradin, skradin split, skradin zadar, skradin zagreb, skradin dubrovnik",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Taxi transfer između gradova",
+      "name": "Transferi iz Skradina",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Split",
+        "Zadar",
+        "Zagreb",
+        "Dubrovnik",
+        "Trogir",
+        "Vodice",
+        "Primošten"
+      ],
+      "url": "https://taxiskradin.hr/hr/skradin-transfers/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Koliko košta taxi transfer iz Skradina do Splita?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Privatni taxi transfer iz Skradina do Splita stoji fiksnih 140 eura po vozilu za do 4 putnika, s uključenom cestarinom, gorivom i prtljagom."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Jesu li cijene transfera fiksne?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Da. Svaki transfer između gradova ima fiksnu cijenu po vozilu za do 4 putnika, dogovorenu unaprijed. Bez taksimetra i bez iznenađenja."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Je li transfer privatan ili dijeljen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Svaki transfer je privatan i od vrata do vrata, u Škodi Superb. Nema dijeljenja vozila i nema dodatnih stajanja osim ako ih sami zatražite."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Možete li stati usput?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Da. Na duljim transferima rado stanem na kavu, fotografiju ili kratki obilazak. Samo mi javite prilikom rezervacije i uračunat ću to u plan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kako se plaća transfer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Predujam od 20% (najmanje 20 eura) potvrđuje rezervaciju, bankovnom uplatom ili karticom. Ostatak se plaća vozaču na dan vožnje, gotovinom ili karticom."
+          }
+        }
+      ]
+    }
+  ]
+}

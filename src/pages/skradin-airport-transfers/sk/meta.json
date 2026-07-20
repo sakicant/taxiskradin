@@ -1,0 +1,85 @@
+{
+  "slug": "skradin-airport-transfers",
+  "title": "Letiskové transfery Skradin | Pevné ceny | TAXI Antonio",
+  "description": "Letiskové transfery zo Skradinu a taxi na letisko Zadar (ZAD) a letisko Split (SPU) a späť. Pevné ceny, sledovanie letov, od dverí k dverám. Letiská Záhreb a Dubrovnik na požiadanie. Rezervujte si u Antonia.",
+  "keywords": "letiskový transfer skradin, letiskové transfery skradin, taxi skradin letisko zadar, skradin na letisko split, letisko zadar do skradinu, letisko split do skradinu",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Letiskový transfer",
+      "name": "Letiskové transfery Skradin",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": [
+        "Skradin",
+        "Letisko Zadar",
+        "Letisko Split",
+        "Letisko Záhreb",
+        "Letisko Dubrovnik"
+      ],
+      "url": "https://taxiskradin.hr/sk/skradin-airport-transfers/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Koľko stojí taxi transfer zo Skradinu na letisko Zadar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Súkromný letiskový transfer zo Skradinu na letisko Zadar stojí pevných 105 eur za vozidlo pre maximálne 4 cestujúcich, vrátane mýta, paliva a batožiny."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ako nájdem svojho vodiča na letisku?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Antonio čaká v príletovej hale za výdajom batožiny a drží čitateľnú tabuľku s vaším menom."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Čo ak mi mešká let?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lety sledujem v reálnom čase podľa čísla letu, ktoré uvediete pri rezervácii. Čas vyzdvihnutia sa automaticky upraví a za čakanie sa neúčtuje nič navyše."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Je cena letiskového transferu pevná?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Áno. Každý letiskový transfer má pevnú cenu za vozidlo pre maximálne 4 cestujúcich, vrátane mýta, paliva a batožiny. Žiadny taxameter, žiadne prekvapenia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ako zaplatím za letiskový transfer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rezerváciu potvrdí záloha 20 % (minimálne 20 eur), bankovým prevodom alebo kartou. Zvyšok zaplatíte vodičovi v deň jazdy, v hotovosti alebo kartou."
+          }
+        }
+      ]
+    }
+  ]
+}

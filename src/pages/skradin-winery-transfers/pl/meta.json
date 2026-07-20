@@ -1,0 +1,72 @@
+{
+  "slug": "skradin-winery-transfers",
+  "title": "Transfery do winnic ze Skradina | Plastovo, Bibich i Sladić | TAXI Antonio",
+  "description": "Prywatna taksówka i transfer ze Skradina do winnic w Plastovie, Bibich i Sladić. Stała cena za samochód, ustalona z góry. Tylko transport, degustację rezerwuje Pan sam.",
+  "keywords": "transfer do winnicy skradin, taksówka winnica plastovo, winnica bibich skradin, transfer winnica sladic, taksówka skradin plastovo",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Prywatna taksówka i transfer do winnic",
+      "name": "Transfery do winnic ze Skradina",
+      "description": "Prywatna taksówka i transfer ze Skradina do winnic w Plastovie, Bibich i Sladić. Stała cena za samochód dla maksymalnie 4 osób, ustalona z góry. Tylko transport; degustację rezerwuje się i opłaca bezpośrednio w winnicy.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": ["Skradin", "Plastovo"],
+      "url": "https://taxiskradin.hr/pl/skradin-winery-transfers/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Ile kosztuje transfer do winnicy ze Skradina?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "To stała cena za samochód, do 4 pasażerów, ustalona z góry. Zależy od tego, które winnice Państwo odwiedzają i czy czekam na miejscu, czy wracam później. Proszę wysłać mi swój plan na WhatsAppie, a potwierdzę dokładną cenę przed rezerwacją."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy organizuje Pan degustację?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nie. Zajmuję się wyłącznie transportem. Degustację rezerwuje Pan w winnicy i płaci za nią bezpośrednio tam. Nie pobieram opłaty za wizytę ani od osoby."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy może Pan poczekać i odwieźć nas z powrotem?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tak. Czekam w pobliżu i odwożę Państwa, kiedy będą Państwo gotowi, albo wracam o ustalonej godzinie."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy możemy odwiedzić i Bibich, i Sladić?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tak. Obie leżą blisko Skradina i łatwo połączyć je w jednym wyjeździe. Proszę powiedzieć, na czym Państwu zależy, a zaplanuję godziny i stałą cenę."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "slug": "skradin-winery-transfers",
+  "title": "Skradini pincészeti transzferek | Plastovo, Bibich és Sladić | TAXI Antonio",
+  "description": "Privát taxi és transzfer Skradinból a plastovói pincészetekhez, a Bibichhez és a Sladićhoz. Fix ár autónként, előre megállapodva. Csak fuvarozás, a kóstolót Ön intézi.",
+  "keywords": "skradin pincészeti transzfer, plastovo pincészet taxi, bibich pincészet skradin, sladic pincészet transzfer, skradin plastovo taxi",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privát pincészeti taxi és transzfer",
+      "name": "Skradini pincészeti transzferek",
+      "description": "Privát taxi és transzfer Skradinból a plastovói pincészetekhez, a Bibichhez és a Sladićhoz. Fix ár autónként legfeljebb 4 utasig, előre megállapodva. Csak fuvarozás; a kóstolót a pincészettel egyezteti és nekik fizeti.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": ["Skradin", "Plastovo"],
+      "url": "https://taxiskradin.hr/hu/skradin-winery-transfers/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Mennyibe kerül egy pincészeti transzfer Skradinból?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fix ár autónként, legfeljebb 4 utasig, előre megállapodva. Attól függ, mely pincészeteket látogatja meg, és hogy megvárom-e Önöket vagy később térek vissza, ezért küldje el a tervét WhatsAppon, és foglalás előtt megerősítem a pontos árat."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ön szervezi a kóstolót?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nem. Én csak a fuvarozást intézem. A kóstolót a pincészetnél foglalja le, és közvetlenül nekik fizeti. A látogatásért és fejenként nem számítok fel semmit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Meg tud várni és vissza tud vinni minket?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Igen. A közelben várakozom, és hazaviszem Önöket, amint készen állnak, vagy a megbeszélt időpontban visszatérek."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Meglátogathatjuk a Bibichet és a Sladićot is?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Igen. Mindkettő közel van Skradinhoz, és könnyen összeköthető egy úton. Mondja el, mit szeretne, és megtervezem az időzítést és a fix árat."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Bokning</span>
+      <h1>Boka din transfer</h1>
+      <p class="page-hero-sub">Fyll i dina reseuppgifter nedan så bekräftar jag din resa direkt, oftast inom några timmar.</p>
+    </div>
+  </section>
+
+  <section class="page-content">
+    <div class="container booking-page">
+      <form class="booking-form" id="booking-page-form" action="/booking-submit.php" method="POST">
+        <h3>Din resa</h3>
+
+        <label for="book-from">Upphämtningsplats (från)</label>
+        <input type="text" id="book-from" name="from" required placeholder="Skradin centrum, ditt hotell eller en adress">
+
+        <label for="book-to">Avlämningsplats (till)</label>
+        <input type="text" id="book-to" name="to" required placeholder="Splits flygplats (SPU), en ort eller en adress">
+
+        <div class="quote-field-row">
+          <div class="quote-field">
+            <label for="book-trip">Resa</label>
+            <select id="book-trip" name="trip">
+              <option value="oneway">Enkel resa</option>
+              <option value="return">Tur och retur</option>
+            </select>
+          </div>
+          <div class="quote-field">
+            <label for="book-pax">Passagerare</label>
+            <input type="number" id="book-pax" name="passengers" min="1" max="12" value="1" required>
+          </div>
+          <div class="quote-field">
+            <label for="book-lug">Bagage</label>
+            <input type="number" id="book-lug" name="luggage" min="0" max="12" value="1" required>
+          </div>
+        </div>
+
+        <p class="booking-price-line" id="booking-price-line" hidden>Fast pris: <strong id="sum-price">&mdash;</strong> <span class="booking-price-sub">per bil, upp till 4 passagerare</span></p>
+
+        <h3>Resedetaljer</h3>
+
+        <div class="quote-field-row">
+          <div class="quote-field">
+            <label for="book-date">Datum för upphämtning</label>
+            <input type="date" id="book-date" name="book-date" required>
+          </div>
+          <div class="quote-field">
+            <label for="book-time">Tid för upphämtning</label>
+            <select id="book-time" name="book-time" required><option value="">--:--</option></select>
+          </div>
+        </div>
+        <p class="form-hint">Boka minst 2 timmar i förväg så att jag hinner bekräfta bilen och din upphämtning. Behöver du en resa tidigare? <a href="tel:+385994471013">Ring mig</a> eller <a href="https://wa.me/385994471013?text=Hello%20Antonio%2C%20I%20found%20you%20through%20your%20website%20taxiskradin.hr%20and%20I%20have%20an%20inquiry%3A%20" target="_blank" rel="noopener">skriv på WhatsApp</a>.</p>
+
+        <div class="quote-field-row" id="book-return-fields" hidden>
+          <div class="quote-field">
+            <label for="book-return-date">Returdatum</label>
+            <input type="date" id="book-return-date" name="book-return-date">
+          </div>
+          <div class="quote-field">
+            <label for="book-return-time">Returtid</label>
+            <select id="book-return-time" name="book-return-time"><option value="">--:--</option></select>
+          </div>
+        </div>
+
+        <label for="book-name">Namn</label>
+        <input type="text" id="book-name" name="name" required>
+
+        <label for="book-email">E-post</label>
+        <input type="email" id="book-email" name="email" required>
+
+        <label for="book-phone">Telefon / WhatsApp</label>
+        <input type="tel" id="book-phone" name="phone" required placeholder="Ange landsnummer">
+
+        <label for="book-flight">Upphämtningsdetaljer (ankommande flightnummer eller adress)</label>
+        <input type="text" id="book-flight" name="book-flight" required placeholder="Flightnummer om du anländer med flyg, eller din upphämtningsadress">
+
+        <label for="book-dropoff-details">Detaljer om destinationen (adress eller ett flightnummer)</label>
+        <input type="text" id="book-dropoff-details" name="book-dropoff-details" placeholder="Avlämningsadress, eller ditt flightnummer om du ska hinna med ett flyg">
+
+        <label for="book-notes">Något mer? (valfritt)</label>
+        <textarea id="book-notes" name="book-notes" rows="4" placeholder="Barnstol, extra stopp, skrymmande bagage, instruktioner för upphämtning..."></textarea>
+
+        <input type="text" id="book-company" name="company" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+        <label class="form-consent">
+          <input type="checkbox" id="book-consent" name="consent" value="1" required>
+          <span>Jag har läst och godkänner <a href="/sv/privacy-policy/">integritetspolicyn</a>.</span>
+        </label>
+        <button type="submit" class="btn btn-primary">Skicka bokningsförfrågan</button>
+        <p class="form-note" id="booking-page-note"></p>
+      </form>
+    </div>
+  </section>
+  <script>
+  (function(){
+    var o='';
+    for(var h=0;h<24;h++){for(var m=0;m<60;m+=5){var t=(h<10?'0':'')+h+':'+(m<10?'0':'')+m;o+='<option value="'+t+'">'+t+'</option>';}}
+    ['book-time','book-return-time'].forEach(function(id){var s=document.getElementById(id);if(s)s.insertAdjacentHTML('beforeend',o);});
+  })();
+  </script>

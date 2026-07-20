@@ -1,0 +1,72 @@
+{
+  "slug": "skradin-winery-transfers",
+  "title": "Vingårdstransferer Skradin | Plastovo, Bibich och Sladić | TAXI Antonio",
+  "description": "Privat taxi och transfer från Skradin till vingårdarna i Plastovo, Bibich och Sladić. Fast pris per bil, överenskommet i förväg. Endast transport, provsmakningen ordnar du själv.",
+  "keywords": "vingårdstransfer skradin, taxi plastovo vingård, bibich vingård skradin, transfer sladic vingård, taxi skradin till plastovo",
+  "og_image": "https://taxiskradin.hr/assets/img/hero-transfers.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privat taxi och transfer till vingårdar",
+      "name": "Vingårdstransferer från Skradin",
+      "description": "Privat taxi och transfer från Skradin till vingårdarna i Plastovo, Bibich och Sladić. Fast pris per bil för upp till 4 passagerare, överenskommet i förväg. Endast transport; provsmakningen bokar och betalar du direkt hos vingården.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
+      },
+      "areaServed": ["Skradin", "Plastovo"],
+      "url": "https://taxiskradin.hr/sv/skradin-winery-transfers/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Vad kostar en vingårdstransfer från Skradin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Det är ett fast pris per bil, upp till 4 passagerare, överenskommet i förväg. Priset beror på vilka vingårdar ni besöker och om jag väntar eller kommer tillbaka senare, så skicka din plan på WhatsApp så bekräftar jag exakt pris innan du bokar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ordnar du provsmakningen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nej. Jag sköter bara transporten. Du bokar provsmakningen hos vingården och betalar dem direkt. Jag tar inget betalt för besöket eller per person."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan du vänta och köra tillbaka oss?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Jag väntar i närheten och kör hem er när ni är klara, eller kommer tillbaka vid en tid vi bestämmer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan vi besöka både Bibich och Sladić?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Båda ligger nära Skradin och är lätta att kombinera under samma resa. Berätta vad ni vill göra så planerar jag tiderna och det fasta priset."
+          }
+        }
+      ]
+    }
+  ]
+}
