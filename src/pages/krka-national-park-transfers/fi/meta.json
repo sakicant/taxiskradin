@@ -1,0 +1,63 @@
+{
+  "slug": "krka-national-park-transfers",
+  "title": "Taksi Krkan kansallispuistoon | Kaikki sisäänkäynnit Skradinista | TAXI Antonio",
+  "description": "Kiinteähintainen taksi ja kuljetus Krkan kansallispuistoon Skradinista. Skradinin sisäänkäynti 15 €, Lozovac 25 €, Roški Slap 50 € per auto. Varaa suoraan Antoniolta.",
+  "keywords": "taksi krkan kansallispuisto, krka skradin sisäänkäynti, skradin krkaan, krka lozovac sisäänkäynti, taksi skradinski buk, krkan kansallispuisto kuljetus",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Yksityinen taksikuljetus Krkan kansallispuistoon",
+      "name": "Taksi Krkan kansallispuistoon Skradinista",
+      "description": "Yksityinen, kiinteähintainen taksi ja kuljetus Skradinista Krkan kansallispuiston kaikille sisäänkäynneille: Skradinin sisäänkäynnille kansallispuiston venelaiturilla, Lozovacin sisäänkäynnille ja Roški Slapin sisäänkäynnille. Hinta on autokohtainen, enintään 4 matkustajaa.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": { "@type": "PostalAddress", "addressLocality": "Skradin", "addressCountry": "HR" },
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "142" }
+      },
+      "areaServed": ["Skradin", "Krka National Park", "Lozovac", "Roški Slap"],
+      "url": "https://taxiskradin.hr/fi/krka-national-park-transfers/",
+      "offers": {
+        "@type": "Offer",
+        "price": "15",
+        "priceCurrency": "EUR",
+        "description": "Yhdensuuntainen yksityiskuljetus Skradinista Krkan kansallispuiston Skradinin sisäänkäynnille, autokohtainen hinta enintään 4 matkustajalle."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Mitä Krkan kansallispuiston sisäänkäyntiä minun kannattaa käyttää?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Skradinista Skradinin sisäänkäynti on luonteva valinta. Se sijaitsee kansallispuiston venelaiturilla, ja puiston vene Skradinski bukille sisältyy puistolippuun. Lozovac on tiesisäänkäynti, josta puistobussi vie alas putouksille, ja se sopii moottoritieltä autolla saapuville. Roški Slap on rauhallisempi yläosa, kauempana sisämaassa." }
+        },
+        {
+          "@type": "Question",
+          "name": "Paljonko taksi maksaa Skradinista Krkan kansallispuistoon?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Kiinteä 15 euroa per auto Skradinin sisäänkäynnille, 25 euroa Lozovaciin ja 50 euroa Roški Slapille. Hinta on ajoneuvokohtainen enintään 4 matkustajalle, ei henkilökohtainen, ja siitä sovitaan ennen matkaa." }
+        },
+        {
+          "@type": "Question",
+          "name": "Myytkö Krkan kansallispuiston lippuja?",
+          "acceptedAnswer": { "@type": "Answer", "text": "En. Olen taksi- ja kuljetuskuski, en matkatoimisto. Ostat puistolippusi suoraan kansallispuistolta. Minä hoidan vain matkan sinne ja takaisin, etukäteen sovittuun kiinteään hintaan." }
+        },
+        {
+          "@type": "Question",
+          "name": "Voitko odottaa ja ajaa meidät takaisin Krkalta?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Kyllä. Voin odottaa lähistöllä ja viedä teidät takaisin kun olette valmiita, tai palata sovittuun aikaan. Kerro suunnitelmasi varatessasi, niin vahvistan kiinteän hinnan molemmille matkoille." }
+        },
+        {
+          "@type": "Question",
+          "name": "Kuinka paljon etukäteen kannattaa varata?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Vähintään 2 tuntia etukäteen, jotta ehdin vahvistaa auton ja noutoaikasi. Sesonkiaikaan aamun ajat menevät nopeasti, joten mitä aiemmin sen parempi. Jos tarvitset kyydin pikemmin, soita tai laita viestiä WhatsAppissa suoraan." }
+        }
+      ]
+    }
+  ]
+}

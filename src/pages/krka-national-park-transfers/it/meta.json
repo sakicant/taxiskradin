@@ -1,0 +1,63 @@
+{
+  "slug": "krka-national-park-transfers",
+  "title": "Taxi per il Parco Nazionale di Krka | Tutti gli ingressi da Skradin | TAXI Antonio",
+  "description": "Taxi e transfer a prezzo fisso per il Parco Nazionale di Krka da Skradin. Ingresso Skradin 15 €, Lozovac 25 €, Roški Slap 50 € per auto. Prenoti direttamente con Antonio.",
+  "keywords": "taxi parco nazionale krka, ingresso krka skradin, skradin a krka, ingresso krka lozovac, taxi per skradinski buk, transfer parco nazionale krka",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Transfer privato in taxi per il Parco Nazionale di Krka",
+      "name": "Taxi per il Parco Nazionale di Krka da Skradin",
+      "description": "Taxi e transfer privato a prezzo fisso da Skradin verso ogni ingresso del Parco Nazionale di Krka: l'ingresso di Skradin presso il molo delle barche del parco nazionale, l'ingresso di Lozovac e l'ingresso di Roški Slap. Il prezzo è per auto, fino a 4 passeggeri.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": { "@type": "PostalAddress", "addressLocality": "Skradin", "addressCountry": "HR" },
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "142" }
+      },
+      "areaServed": ["Skradin", "Krka National Park", "Lozovac", "Roški Slap"],
+      "url": "https://taxiskradin.hr/it/krka-national-park-transfers/",
+      "offers": {
+        "@type": "Offer",
+        "price": "15",
+        "priceCurrency": "EUR",
+        "description": "Transfer privato di sola andata da Skradin all'ingresso di Skradin del Parco Nazionale di Krka, per auto, fino a 4 passeggeri."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quale ingresso del Parco Nazionale di Krka conviene usare?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Da Skradin la scelta naturale è l'ingresso di Skradin. Si trova presso il molo delle barche del parco nazionale e la barca del parco fino a Skradinski buk è compresa nel biglietto d'ingresso. Lozovac è l'ingresso su strada, con il bus del parco fino alle cascate, ed è adatto a chi arriva in auto dall'autostrada. Roški Slap è la parte alta più tranquilla, più all'interno." }
+        },
+        {
+          "@type": "Question",
+          "name": "Quanto costa un taxi da Skradin al Parco Nazionale di Krka?",
+          "acceptedAnswer": { "@type": "Answer", "text": "15 euro fissi per auto fino all'ingresso di Skradin, 25 euro per Lozovac e 50 euro per Roški Slap. Il prezzo è per veicolo fino a 4 passeggeri, non a persona, e viene concordato prima del viaggio." }
+        },
+        {
+          "@type": "Question",
+          "name": "Vende i biglietti del Parco Nazionale di Krka?",
+          "acceptedAnswer": { "@type": "Answer", "text": "No. Sono un autista di taxi e transfer, non un'agenzia turistica. Il biglietto del parco lo acquista direttamente dal parco nazionale. Io mi occupo solo del viaggio di andata e ritorno, a un prezzo fisso concordato in anticipo." }
+        },
+        {
+          "@type": "Question",
+          "name": "Può aspettare e riportarci indietro da Krka?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Sì. Posso aspettare nelle vicinanze e riportarla indietro quando vuole, oppure tornare a un orario concordato. Mi dica il suo programma al momento della prenotazione e le confermo il prezzo fisso per entrambe le tratte." }
+        },
+        {
+          "@type": "Question",
+          "name": "Con quanto anticipo conviene prenotare?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Almeno 2 ore prima, così posso confermare l'auto e l'orario di ritiro. In alta stagione gli orari del mattino si esauriscono in fretta, quindi prima è meglio. Per una corsa più immediata, mi chiami o mi scriva direttamente su WhatsApp." }
+        }
+      ]
+    }
+  ]
+}

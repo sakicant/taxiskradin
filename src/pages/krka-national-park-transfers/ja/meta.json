@@ -1,0 +1,63 @@
+{
+  "slug": "krka-national-park-transfers",
+  "title": "クルカ国立公園へのタクシー | Skradinから全入口へ | TAXI Antonio",
+  "description": "Skradinからクルカ国立公園への定額タクシー・送迎。Skradin入口15ユーロ、Lozovac 25ユーロ、Roški Slap 50ユーロ、1台あたりの料金です。Antonioに直接ご予約ください。",
+  "keywords": "クルカ国立公園 タクシー, クルカ Skradin 入口, Skradin クルカ, クルカ Lozovac 入口, Skradinski buk タクシー, クルカ国立公園 送迎",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "クルカ国立公園へのプライベートタクシー送迎",
+      "name": "Skradin発クルカ国立公園へのタクシー",
+      "description": "Skradinからクルカ国立公園のすべての入口へ向かう、プライベートで定額のタクシー・送迎サービスです。国立公園のボート乗り場にあるSkradin入口、Lozovac入口、Roški Slap入口へ対応します。料金は最大4名まで1台あたりです。",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": { "@type": "PostalAddress", "addressLocality": "Skradin", "addressCountry": "HR" },
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "142" }
+      },
+      "areaServed": ["Skradin", "Krka National Park", "Lozovac", "Roški Slap"],
+      "url": "https://taxiskradin.hr/ja/krka-national-park-transfers/",
+      "offers": {
+        "@type": "Offer",
+        "price": "15",
+        "priceCurrency": "EUR",
+        "description": "Skradinからクルカ国立公園のSkradin入口までの片道プライベート送迎です。最大4名まで1台あたりの料金です。"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "クルカ国立公園のどの入口を利用すればよいですか。",
+          "acceptedAnswer": { "@type": "Answer", "text": "Skradinからであれば、Skradin入口が自然な選択です。国立公園のボート乗り場にあり、Skradinski bukまで下る公園のボートは入園券に含まれています。Lozovacは道路側の入口で、滝まで公園バスが運行しており、高速道路から車でお越しの方に適しています。Roški Slapはより内陸にある、静かな上流エリアです。" }
+        },
+        {
+          "@type": "Question",
+          "name": "Skradinからクルカ国立公園までのタクシー料金はいくらですか。",
+          "acceptedAnswer": { "@type": "Answer", "text": "Skradin入口まで1台あたり定額15ユーロ、Lozovacまで25ユーロ、Roški Slapまで50ユーロです。料金はお一人あたりではなく、最大4名まで車両単位で、ご出発前にお約束します。" }
+        },
+        {
+          "@type": "Question",
+          "name": "クルカ国立公園の入園券は販売していますか。",
+          "acceptedAnswer": { "@type": "Answer", "text": "いいえ。私はタクシーおよび送迎のドライバーであり、旅行代理店ではありません。入園券は国立公園から直接ご購入ください。私は往復の運転のみを、事前にお約束した定額でお引き受けします。" }
+        },
+        {
+          "@type": "Question",
+          "name": "待っていてクルカから送り返してもらえますか。",
+          "acceptedAnswer": { "@type": "Answer", "text": "はい。近くでお待ちして、ご準備ができ次第お送りすることも、お約束した時間に戻ることもできます。ご予約の際にご予定をお知らせいただければ、往復両方の定額料金を確認いたします。" }
+        },
+        {
+          "@type": "Question",
+          "name": "どのくらい前に予約すればよいですか。",
+          "acceptedAnswer": { "@type": "Answer", "text": "車両とお迎えの時間を確定できるよう、遅くとも2時間前までにお願いします。ハイシーズンは午前の枠がすぐに埋まりますので、お早めのご予約がおすすめです。より早いご乗車をご希望の場合は、お電話またはWhatsAppで直接ご連絡ください。" }
+        }
+      ]
+    }
+  ]
+}

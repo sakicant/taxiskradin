@@ -1,0 +1,63 @@
+{
+  "slug": "krka-national-park-transfers",
+  "title": "Taxi till Krka nationalpark | Alla entréer från Skradin | TAXI Antonio",
+  "description": "Taxi och transfer till fast pris till Krka nationalpark från Skradin. Skradin-entrén 15 €, Lozovac 25 €, Roški Slap 50 € per bil. Boka direkt med Antonio.",
+  "keywords": "taxi krka nationalpark, krka skradin entré, skradin till krka, krka lozovac entré, taxi till skradinski buk, krka nationalpark transfer",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privat taxitransfer till Krka nationalpark",
+      "name": "Taxi till Krka nationalpark från Skradin",
+      "description": "Privat taxi och transfer till fast pris från Skradin till alla entréer till Krka nationalpark: Skradin-entrén vid nationalparkens båtbrygga, Lozovac-entrén och Roški Slap-entrén. Priset gäller per bil för upp till 4 passagerare.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": { "@type": "PostalAddress", "addressLocality": "Skradin", "addressCountry": "HR" },
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "142" }
+      },
+      "areaServed": ["Skradin", "Krka National Park", "Lozovac", "Roški Slap"],
+      "url": "https://taxiskradin.hr/sv/krka-national-park-transfers/",
+      "offers": {
+        "@type": "Offer",
+        "price": "15",
+        "priceCurrency": "EUR",
+        "description": "Enkel privat transfer från Skradin till Krka nationalparks Skradin-entré, per bil för upp till 4 passagerare."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Vilken entré till Krka nationalpark ska jag välja?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Från Skradin är Skradin-entrén det naturliga valet. Den ligger vid nationalparkens båtbrygga, och parkbåten ner till Skradinski buk ingår i din parkbiljett. Lozovac är vägentrén, med parkbussen ner till fallen, och passar resenärer som kommer med bil från motorvägen. Roški Slap är den lugnare övre delen, längre in i landet." }
+        },
+        {
+          "@type": "Question",
+          "name": "Vad kostar en taxi från Skradin till Krka nationalpark?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Fasta 15 euro per bil till Skradin-entrén, 25 euro till Lozovac och 50 euro till Roški Slap. Priset gäller per fordon för upp till 4 passagerare, inte per person, och avtalas innan du åker." }
+        },
+        {
+          "@type": "Question",
+          "name": "Säljer du biljetter till Krka nationalpark?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Nej. Jag är taxi- och transferchaufför, inte en resebyrå. Du köper din parkbiljett direkt av nationalparken. Jag sköter bara resan dit och tillbaka, till ett fast pris som avtalas i förväg." }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan du vänta och köra oss tillbaka från Krka?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Ja. Jag kan vänta i närheten och köra er tillbaka när ni är klara, eller komma tillbaka vid en tid vi kommer överens om. Berätta hur ni tänker när ni bokar, så bekräftar jag det fasta priset för båda resorna." }
+        },
+        {
+          "@type": "Question",
+          "name": "Hur långt i förväg bör jag boka?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Minst 2 timmar i förväg så att jag hinner bekräfta bilen och din upphämtningstid. Under högsäsong går morgontiderna snabbt åt, så ju tidigare desto bättre. Behöver du åka snarare, ring eller skriv på WhatsApp direkt." }
+        }
+      ]
+    }
+  ]
+}

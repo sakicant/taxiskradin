@@ -1,0 +1,63 @@
+{
+  "slug": "krka-national-park-transfers",
+  "title": "Taxi zum Nationalpark Krka | Alle Eingänge ab Skradin | TAXI Antonio",
+  "description": "Taxi und Transfer zum Festpreis von Skradin zum Nationalpark Krka. Eingang Skradin 15 €, Lozovac 25 €, Roški Slap 50 € pro Fahrzeug. Direkt bei Antonio buchen.",
+  "keywords": "taxi nationalpark krka, eingang krka skradin, skradin nach krka, eingang krka lozovac, taxi zum skradinski buk, transfer nationalpark krka",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privater Taxitransfer zum Nationalpark Krka",
+      "name": "Taxi zum Nationalpark Krka ab Skradin",
+      "description": "Privates Taxi und Transfer zum Festpreis von Skradin zu jedem Eingang des Nationalparks Krka: Eingang Skradin am Bootsanleger des Nationalparks, Eingang Lozovac und Eingang Roški Slap. Der Preis gilt pro Fahrzeug für bis zu 4 Personen.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": { "@type": "PostalAddress", "addressLocality": "Skradin", "addressCountry": "HR" },
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "142" }
+      },
+      "areaServed": ["Skradin", "Krka National Park", "Lozovac", "Roški Slap"],
+      "url": "https://taxiskradin.hr/de/krka-national-park-transfers/",
+      "offers": {
+        "@type": "Offer",
+        "price": "15",
+        "priceCurrency": "EUR",
+        "description": "Privater Transfer in eine Richtung von Skradin zum Eingang Skradin des Nationalparks Krka, pro Fahrzeug für bis zu 4 Personen."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Welchen Eingang zum Nationalpark Krka sollte ich nehmen?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Von Skradin aus ist der Eingang Skradin die naheliegende Wahl. Er liegt am Bootsanleger des Nationalparks, und das Parkboot hinunter zum Skradinski buk ist im Parkticket enthalten. Lozovac ist der Straßeneingang mit dem Parkbus hinunter zu den Wasserfällen und passt zu Reisenden, die mit dem Auto von der Autobahn kommen. Roški Slap ist der ruhigere obere Abschnitt, weiter im Landesinneren." }
+        },
+        {
+          "@type": "Question",
+          "name": "Was kostet ein Taxi von Skradin zum Nationalpark Krka?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Feste 15 Euro pro Fahrzeug zum Eingang Skradin, 25 Euro nach Lozovac und 50 Euro nach Roški Slap. Der Preis gilt pro Fahrzeug für bis zu 4 Personen, nicht pro Person, und wird vor der Fahrt vereinbart." }
+        },
+        {
+          "@type": "Question",
+          "name": "Verkaufen Sie Tickets für den Nationalpark Krka?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Nein. Ich bin Taxi- und Transferfahrer, keine Reiseagentur. Ihr Parkticket kaufen Sie direkt beim Nationalpark. Ich übernehme nur die Fahrt hin und zurück, zu einem vorab vereinbarten Festpreis." }
+        },
+        {
+          "@type": "Question",
+          "name": "Können Sie warten und uns von Krka zurückfahren?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Ja. Ich kann in der Nähe warten und Sie zurückbringen, sobald Sie so weit sind, oder zu einer vereinbarten Zeit zurückkommen. Sagen Sie mir bei der Buchung Ihren Plan, dann bestätige ich den Festpreis für beide Strecken." }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie weit im Voraus sollte ich buchen?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Mindestens 2 Stunden vorher, damit ich das Fahrzeug und Ihre Abholzeit bestätigen kann. In der Hochsaison sind die Vormittagstermine schnell vergeben, früher ist also besser. Für eine kurzfristige Fahrt rufen Sie mich an oder schreiben Sie mir direkt auf WhatsApp." }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "krka-national-park-transfers",
+  "title": "Taxi naar Nationaal Park Krka | Alle ingangen vanuit Skradin | TAXI Antonio",
+  "description": "Taxi en transfer met vaste prijs naar Nationaal Park Krka vanuit Skradin. Ingang Skradin € 15, Lozovac € 25, Roški Slap € 50 per auto. Boek rechtstreeks bij Antonio.",
+  "keywords": "taxi nationaal park krka, ingang krka skradin, skradin naar krka, ingang krka lozovac, taxi naar skradinski buk, transfer nationaal park krka",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privétaxitransfer naar Nationaal Park Krka",
+      "name": "Taxi naar Nationaal Park Krka vanuit Skradin",
+      "description": "Privétaxi en transfer met vaste prijs vanuit Skradin naar elke ingang van Nationaal Park Krka: de ingang Skradin bij de botensteiger van het nationale park, de ingang Lozovac en de ingang Roški Slap. De prijs geldt per auto voor maximaal 4 passagiers.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": { "@type": "PostalAddress", "addressLocality": "Skradin", "addressCountry": "HR" },
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "142" }
+      },
+      "areaServed": ["Skradin", "Krka National Park", "Lozovac", "Roški Slap"],
+      "url": "https://taxiskradin.hr/nl/krka-national-park-transfers/",
+      "offers": {
+        "@type": "Offer",
+        "price": "15",
+        "priceCurrency": "EUR",
+        "description": "Privétransfer enkele reis vanuit Skradin naar de ingang Skradin van Nationaal Park Krka, per auto voor maximaal 4 passagiers."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Welke ingang van Nationaal Park Krka kan ik het beste nemen?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Vanuit Skradin is de ingang Skradin de logische keuze. Die ligt bij de botensteiger van het nationale park, en de parkboot naar Skradinski buk zit bij uw entreeticket inbegrepen. Lozovac is de ingang aan de weg, met de parkbus omlaag naar de watervallen, en past bij reizigers die met de auto van de snelweg komen. Roški Slap is het rustigere bovenste deel, verder landinwaarts." }
+        },
+        {
+          "@type": "Question",
+          "name": "Wat kost een taxi van Skradin naar Nationaal Park Krka?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Een vaste 15 euro per auto naar de ingang Skradin, 25 euro naar Lozovac en 50 euro naar Roški Slap. De prijs geldt per voertuig voor maximaal 4 passagiers, niet per persoon, en wordt vooraf afgesproken." }
+        },
+        {
+          "@type": "Question",
+          "name": "Verkoopt u tickets voor Nationaal Park Krka?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Nee. Ik ben taxi- en transferchauffeur, geen reisbureau. Uw entreeticket koopt u rechtstreeks bij het nationale park. Ik verzorg alleen de rit heen en terug, tegen een vooraf afgesproken vaste prijs." }
+        },
+        {
+          "@type": "Question",
+          "name": "Kunt u wachten en ons terugrijden vanaf Krka?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Ja. Ik kan in de buurt wachten en u terugbrengen wanneer u zover bent, of terugkomen op een afgesproken tijd. Vertel me bij het boeken uw plan, dan bevestig ik de vaste prijs voor beide ritten." }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoe ver van tevoren moet ik boeken?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Minstens 2 uur vooraf, zodat ik de auto en uw ophaaltijd kan bevestigen. In het hoogseizoen zijn de ochtendtijden snel vergeven, dus eerder is beter. Voor een rit op korte termijn kunt u me bellen of direct via WhatsApp berichten." }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "krka-national-park-transfers",
+  "title": "前往克尔卡国家公园的出租车 | 从Skradin出发到各个入口 | TAXI Antonio",
+  "description": "从Skradin前往克尔卡国家公园的固定价格出租车与接送服务。Skradin入口15欧元，Lozovac 25欧元，Roški Slap 50欧元，按车计价。直接向Antonio预订。",
+  "keywords": "克尔卡国家公园出租车, 克尔卡 Skradin 入口, Skradin 到克尔卡, 克尔卡 Lozovac 入口, 前往 Skradinski buk 出租车, 克尔卡国家公园接送",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "前往克尔卡国家公园的私人出租车接送",
+      "name": "从Skradin前往克尔卡国家公园的出租车",
+      "description": "从Skradin前往克尔卡国家公园所有入口的私人固定价格出租车与接送服务：位于国家公园码头的Skradin入口、Lozovac入口以及Roški Slap入口。价格按车计算，最多可载4位乘客。",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": { "@type": "PostalAddress", "addressLocality": "Skradin", "addressCountry": "HR" },
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "142" }
+      },
+      "areaServed": ["Skradin", "Krka National Park", "Lozovac", "Roški Slap"],
+      "url": "https://taxiskradin.hr/zh/krka-national-park-transfers/",
+      "offers": {
+        "@type": "Offer",
+        "price": "15",
+        "priceCurrency": "EUR",
+        "description": "从Skradin到克尔卡国家公园Skradin入口的单程私人接送，按车计价，最多4位乘客。"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "我应该选择克尔卡国家公园的哪个入口？",
+          "acceptedAnswer": { "@type": "Answer", "text": "从Skradin出发，Skradin入口是自然的选择。它就位于国家公园的码头，前往Skradinski buk的园区游船已包含在门票内。Lozovac是公路入口，有园区巴士开往瀑布，适合从高速公路自驾前来的旅客。Roški Slap是园区上游较为安静的区域，位置更靠内陆。" }
+        },
+        {
+          "@type": "Question",
+          "name": "从Skradin到克尔卡国家公园的出租车多少钱？",
+          "acceptedAnswer": { "@type": "Answer", "text": "到Skradin入口固定15欧元一车，到Lozovac 25欧元，到Roški Slap 50欧元。价格按车辆计算，最多4位乘客，不按人头收费，出发前即已谈妥。" }
+        },
+        {
+          "@type": "Question",
+          "name": "你出售克尔卡国家公园的门票吗？",
+          "acceptedAnswer": { "@type": "Answer", "text": "不出售。我是出租车与接送司机，不是旅行社。门票请您直接向国家公园购买。我只负责往返的车程，价格固定，事先谈妥。" }
+        },
+        {
+          "@type": "Question",
+          "name": "你能等我们并从克尔卡把我们送回来吗？",
+          "acceptedAnswer": { "@type": "Answer", "text": "可以。我可以在附近等候，等您准备好就送您回去，或者在约定的时间回来接您。预订时告诉我您的计划，我会确认往返两程的固定价格。" }
+        },
+        {
+          "@type": "Question",
+          "name": "我应该提前多久预订？",
+          "acceptedAnswer": { "@type": "Answer", "text": "至少提前2小时，这样我才能确认车辆和接您的时间。旺季时上午的时段很快就满，越早越好。如果需要更快的用车，请直接打电话或用WhatsApp联系我。" }
+        }
+      ]
+    }
+  ]
+}

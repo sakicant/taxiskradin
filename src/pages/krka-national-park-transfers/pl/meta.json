@@ -1,0 +1,63 @@
+{
+  "slug": "krka-national-park-transfers",
+  "title": "Taxi do Parku Narodowego Krka | Wszystkie wejścia ze Skradina | TAXI Antonio",
+  "description": "Taxi i transfer w stałej cenie do Parku Narodowego Krka ze Skradina. Wejście Skradin 15 €, Lozovac 25 €, Roški Slap 50 € za samochód. Rezerwacja bezpośrednio u Antonia.",
+  "keywords": "taxi park narodowy krka, wejście krka skradin, skradin do krki, wejście krka lozovac, taxi do skradinski buk, transfer park narodowy krka",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Prywatny transfer taxi do Parku Narodowego Krka",
+      "name": "Taxi do Parku Narodowego Krka ze Skradina",
+      "description": "Prywatne taxi i transfer w stałej cenie ze Skradina do każdego wejścia do Parku Narodowego Krka: wejście Skradin przy przystani łodzi parku narodowego, wejście Lozovac i wejście Roški Slap. Cena obowiązuje za samochód, do 4 pasażerów.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": { "@type": "PostalAddress", "addressLocality": "Skradin", "addressCountry": "HR" },
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "142" }
+      },
+      "areaServed": ["Skradin", "Krka National Park", "Lozovac", "Roški Slap"],
+      "url": "https://taxiskradin.hr/pl/krka-national-park-transfers/",
+      "offers": {
+        "@type": "Offer",
+        "price": "15",
+        "priceCurrency": "EUR",
+        "description": "Prywatny transfer w jedną stronę ze Skradina do wejścia Skradin do Parku Narodowego Krka, za samochód, do 4 pasażerów."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Które wejście do Parku Narodowego Krka wybrać?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Ze Skradina naturalnym wyborem jest wejście Skradin. Znajduje się przy przystani łodzi parku narodowego, a rejs łodzią w dół do Skradinskiego buka jest wliczony w bilet wstępu. Lozovac to wejście od strony drogi, z autobusem parkowym w dół do wodospadów, i pasuje podróżnym przyjeżdżającym samochodem z autostrady. Roški Slap to spokojniejsza górna część parku, dalej w głąb lądu." }
+        },
+        {
+          "@type": "Question",
+          "name": "Ile kosztuje taxi ze Skradina do Parku Narodowego Krka?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Stałe 15 euro za samochód do wejścia Skradin, 25 euro do Lozovca i 50 euro do Roškiego Slapu. Cena jest za pojazd, do 4 pasażerów, a nie od osoby, i jest ustalana przed przejazdem." }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy sprzedaje Pan bilety do Parku Narodowego Krka?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Nie. Jestem kierowcą taxi i transferów, a nie biurem podróży. Bilet wstępu kupuje Pan lub Pani bezpośrednio w parku narodowym. Ja zajmuję się wyłącznie przejazdem tam i z powrotem, w stałej cenie ustalonej z góry." }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy może Pan poczekać i odwieźć nas z Krki?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Tak. Mogę poczekać w pobliżu i zabrać Państwa z powrotem, kiedy tylko będą gotowi, albo wrócić o ustalonej godzinie. Proszę powiedzieć mi swój plan przy rezerwacji, a potwierdzę stałą cenę za oba przejazdy." }
+        },
+        {
+          "@type": "Question",
+          "name": "Z jakim wyprzedzeniem należy rezerwować?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Co najmniej 2 godziny wcześniej, żebym mógł potwierdzić samochód i godzinę odbioru. W sezonie poranne terminy szybko znikają, więc lepiej wcześniej. Po szybszy przejazd proszę zadzwonić lub napisać do mnie na WhatsAppie." }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "krka-national-park-transfers",
+  "title": "Taxi do NP Krka | Všechny vstupy ze Skradinu | TAXI Antonio",
+  "description": "Taxi a transfer za pevnou cenu do Národního parku Krka ze Skradinu. Vstup Skradin 15 €, Lozovac 25 €, Roški Slap 50 € za vozidlo. Rezervujte přímo u Antonia.",
+  "keywords": "taxi národní park krka, vstup krka skradin, skradin do krky, vstup krka lozovac, taxi na skradinski buk, transfer národní park krka",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Soukromý taxi transfer do Národního parku Krka",
+      "name": "Taxi do Národního parku Krka ze Skradinu",
+      "description": "Soukromé taxi a transfer za pevnou cenu ze Skradinu ke každému vstupu do Národního parku Krka: vstup Skradin u lodního přístaviště národního parku, vstup Lozovac a vstup Roški Slap. Cena je za vozidlo pro až 4 cestující.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": { "@type": "PostalAddress", "addressLocality": "Skradin", "addressCountry": "HR" },
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "142" }
+      },
+      "areaServed": ["Skradin", "Krka National Park", "Lozovac", "Roški Slap"],
+      "url": "https://taxiskradin.hr/cs/krka-national-park-transfers/",
+      "offers": {
+        "@type": "Offer",
+        "price": "15",
+        "priceCurrency": "EUR",
+        "description": "Soukromý jednosměrný transfer ze Skradinu ke vstupu Skradin do Národního parku Krka, za vozidlo pro až 4 cestující."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Který vstup do Národního parku Krka si vybrat?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Ze Skradinu je vstup Skradin přirozenou volbou. Leží u lodního přístaviště národního parku a plavba lodí dolů ke Skradinskému buku je zahrnutá ve vstupence do parku. Lozovac je silniční vstup s parkovým autobusem dolů k vodopádům a hodí se cestujícím přijíždějícím autem z dálnice. Roški Slap je klidnější horní část parku, dál ve vnitrozemí." }
+        },
+        {
+          "@type": "Question",
+          "name": "Kolik stojí taxi ze Skradinu do Národního parku Krka?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Pevných 15 eur za vozidlo ke vstupu Skradin, 25 eur do Lozovce a 50 eur na Roški Slap. Cena je za vozidlo pro až 4 cestující, ne za osobu, a domlouvá se před jízdou." }
+        },
+        {
+          "@type": "Question",
+          "name": "Prodáváte vstupenky do Národního parku Krka?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Ne. Jsem řidič taxi a transferů, ne cestovní agentura. Vstupenku si kupujete přímo u národního parku. Já zajišťuji pouze cestu tam a zpět za pevnou cenu domluvenou předem." }
+        },
+        {
+          "@type": "Question",
+          "name": "Můžete počkat a odvézt nás z Krky zpět?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Ano. Mohu počkat poblíž a odvézt vás zpět, kdykoli budete připraveni, nebo se vrátit v domluvený čas. Řekněte mi svůj plán při rezervaci a potvrdím vám pevnou cenu za obě cesty." }
+        },
+        {
+          "@type": "Question",
+          "name": "Jak dlouho dopředu je třeba rezervovat?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Alespoň 2 hodiny předem, abych mohl potvrdit vozidlo a čas vyzvednutí. V hlavní sezoně jsou ranní termíny rychle pryč, takže dřív je lépe. Pokud potřebujete jízdu dřív, zavolejte mi nebo mi napište přímo na WhatsApp." }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "krka-national-park-transfers",
+  "title": "Taxi pour le parc national de Krka | Toutes les entrées depuis Skradin | TAXI Antonio",
+  "description": "Taxi et transfert à prix fixe vers le parc national de Krka depuis Skradin. Entrée Skradin 15 €, Lozovac 25 €, Roški Slap 50 € par voiture. Réservez directement avec Antonio.",
+  "keywords": "taxi parc national krka, entrée krka skradin, skradin vers krka, entrée krka lozovac, taxi vers skradinski buk, transfert parc national krka",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Transfert privé en taxi vers le parc national de Krka",
+      "name": "Taxi vers le parc national de Krka depuis Skradin",
+      "description": "Taxi et transfert privé à prix fixe depuis Skradin vers chaque entrée du parc national de Krka : l'entrée de Skradin au ponton des bateaux du parc national, l'entrée de Lozovac et l'entrée de Roški Slap. Le prix est par voiture, jusqu'à 4 passagers.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": { "@type": "PostalAddress", "addressLocality": "Skradin", "addressCountry": "HR" },
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "142" }
+      },
+      "areaServed": ["Skradin", "Krka National Park", "Lozovac", "Roški Slap"],
+      "url": "https://taxiskradin.hr/fr/krka-national-park-transfers/",
+      "offers": {
+        "@type": "Offer",
+        "price": "15",
+        "priceCurrency": "EUR",
+        "description": "Transfert privé aller simple depuis Skradin vers l'entrée de Skradin du parc national de Krka, par voiture, jusqu'à 4 passagers."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quelle entrée du parc national de Krka faut-il choisir ?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Depuis Skradin, l'entrée de Skradin est le choix naturel. Elle se trouve au ponton des bateaux du parc national, et le bateau du parc jusqu'à Skradinski buk est compris dans votre billet d'entrée. Lozovac est l'entrée routière, avec la navette du parc qui descend vers les chutes, et elle convient aux voyageurs qui arrivent en voiture par l'autoroute. Roški Slap est la partie haute, plus calme, plus loin dans les terres." }
+        },
+        {
+          "@type": "Question",
+          "name": "Combien coûte un taxi de Skradin au parc national de Krka ?",
+          "acceptedAnswer": { "@type": "Answer", "text": "15 euros fixes par voiture jusqu'à l'entrée de Skradin, 25 euros pour Lozovac et 50 euros pour Roški Slap. Le prix est par véhicule, jusqu'à 4 passagers, et non par personne, et il est convenu avant le départ." }
+        },
+        {
+          "@type": "Question",
+          "name": "Vendez-vous les billets du parc national de Krka ?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Non. Je suis chauffeur de taxi et de transfert, pas une agence de voyages. Vous achetez votre billet directement auprès du parc national. Je m'occupe uniquement du trajet aller et retour, à un prix fixe convenu à l'avance." }
+        },
+        {
+          "@type": "Question",
+          "name": "Pouvez-vous attendre et nous ramener depuis Krka ?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Oui. Je peux attendre à proximité et vous ramener dès que vous êtes prêt, ou revenir à une heure convenue. Dites-moi votre programme au moment de la réservation et je vous confirme le prix fixe pour les deux trajets." }
+        },
+        {
+          "@type": "Question",
+          "name": "Combien de temps à l'avance faut-il réserver ?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Au moins 2 heures à l'avance pour que je puisse confirmer la voiture et votre heure de prise en charge. En haute saison, les créneaux du matin partent vite, donc plus tôt c'est mieux. Pour un trajet plus rapproché, appelez-moi ou écrivez-moi directement sur WhatsApp." }
+        }
+      ]
+    }
+  ]
+}

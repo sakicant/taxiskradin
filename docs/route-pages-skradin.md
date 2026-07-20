@@ -209,3 +209,4 @@ matrix fare; wineries are covered by /skradin-winery-transfers/). Generated batc
 | Sukošan | Skradin | `taxi-sukosan-to-skradin` | 130 |
 | Skradin | D-Marin Dalmacija | `taxi-skradin-to-d-marin-dalmacija` | 130 |
 | D-Marin Dalmacija | Skradin | `taxi-d-marin-dalmacija-to-skradin` | 130 |
+

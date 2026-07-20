@@ -1,0 +1,63 @@
+{
+  "slug": "krka-national-park-transfers",
+  "title": "Taxi al Parque Nacional Krka | Todas las entradas desde Skradin | TAXI Antonio",
+  "description": "Taxi y traslado a precio fijo al Parque Nacional Krka desde Skradin. Entrada de Skradin 15 €, Lozovac 25 €, Roški Slap 50 € por coche. Reserve directamente con Antonio.",
+  "keywords": "taxi parque nacional krka, entrada krka skradin, skradin a krka, entrada krka lozovac, taxi a skradinski buk, traslado parque nacional krka",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Traslado privado en taxi al Parque Nacional Krka",
+      "name": "Taxi al Parque Nacional Krka desde Skradin",
+      "description": "Taxi y traslado privado a precio fijo desde Skradin a todas las entradas del Parque Nacional Krka: la entrada de Skradin en el embarcadero del parque nacional, la entrada de Lozovac y la entrada de Roški Slap. El precio es por coche para un máximo de 4 pasajeros.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": { "@type": "PostalAddress", "addressLocality": "Skradin", "addressCountry": "HR" },
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "142" }
+      },
+      "areaServed": ["Skradin", "Krka National Park", "Lozovac", "Roški Slap"],
+      "url": "https://taxiskradin.hr/es/krka-national-park-transfers/",
+      "offers": {
+        "@type": "Offer",
+        "price": "15",
+        "priceCurrency": "EUR",
+        "description": "Traslado privado de ida desde Skradin a la entrada de Skradin del Parque Nacional Krka, por coche para un máximo de 4 pasajeros."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Qué entrada del Parque Nacional Krka debo usar?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Desde Skradin, la entrada de Skradin es la opción natural. Está en el embarcadero del parque nacional, y el barco del parque hasta Skradinski buk va incluido en su entrada. Lozovac es la entrada por carretera, con el autobús del parque hasta las cascadas, y conviene a quienes llegan en coche desde la autopista. Roški Slap es la zona alta, más tranquila y más hacia el interior." }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta un taxi de Skradin al Parque Nacional Krka?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Un precio fijo de 15 euros por coche hasta la entrada de Skradin, 25 euros hasta Lozovac y 50 euros hasta Roški Slap. El precio es por vehículo para un máximo de 4 pasajeros, no por persona, y se acuerda antes del viaje." }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Vende entradas del Parque Nacional Krka?",
+          "acceptedAnswer": { "@type": "Answer", "text": "No. Soy taxista y conductor de traslados, no una agencia de viajes. La entrada al parque la compra usted directamente al parque nacional. Yo me ocupo solo del trayecto de ida y vuelta, a un precio fijo acordado de antemano." }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puede esperarnos y llevarnos de vuelta desde Krka?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Sí. Puedo esperar cerca y llevarles de vuelta cuando estén listos, o volver a una hora acordada. Cuénteme su plan al reservar y le confirmo el precio fijo de los dos trayectos." }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Con cuánta antelación debo reservar?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Al menos 2 horas antes para que pueda confirmar el coche y la hora de recogida. En temporada alta las horas de la mañana se llenan rápido, así que cuanto antes, mejor. Si necesita un viaje más pronto, llámeme o escríbame por WhatsApp directamente." }
+        }
+      ]
+    }
+  ]
+}

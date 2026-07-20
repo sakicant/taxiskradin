@@ -1,0 +1,63 @@
+{
+  "slug": "krka-national-park-transfers",
+  "title": "Taxi a Krka Nemzeti Parkba | Minden bejárat Skradinból | TAXI Antonio",
+  "description": "Fix áras taxi és transzfer a Krka Nemzeti Parkba Skradinból. Skradin bejárat 15 €, Lozovac 25 €, Roški Slap 50 € autónként. Foglaljon közvetlenül Antoniónál.",
+  "keywords": "taxi krka nemzeti park, krka skradin bejárat, skradin krka, krka lozovac bejárat, taxi skradinski buk, krka nemzeti park transzfer",
+  "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Privát taxitranszfer a Krka Nemzeti Parkba",
+      "name": "Taxi a Krka Nemzeti Parkba Skradinból",
+      "description": "Privát, fix áras taxi és transzfer Skradinból a Krka Nemzeti Park minden bejáratához: a skradini bejárathoz a nemzeti park hajókikötőjénél, a lozovaci bejárathoz és a Roški Slap bejárathoz. Az ár autónként értendő, legfeljebb 4 utasig.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Taxi Antonio",
+        "telephone": "+385994471013",
+        "email": "info@taxiskradin.hr",
+        "address": { "@type": "PostalAddress", "addressLocality": "Skradin", "addressCountry": "HR" },
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "142" }
+      },
+      "areaServed": ["Skradin", "Krka National Park", "Lozovac", "Roški Slap"],
+      "url": "https://taxiskradin.hr/hu/krka-national-park-transfers/",
+      "offers": {
+        "@type": "Offer",
+        "price": "15",
+        "priceCurrency": "EUR",
+        "description": "Egyirányú privát transzfer Skradinból a Krka Nemzeti Park skradini bejáratához, autónként, legfeljebb 4 utasig."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "A Krka Nemzeti Park melyik bejáratát válasszam?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Skradinból a skradini bejárat a természetes választás. A nemzeti park hajókikötőjénél található, és a Skradinski bukhoz levivő parkhajó benne van a belépőjegy árában. Lozovac a közúti bejárat, onnan parkbusz visz le a vízesésekhez, és azoknak felel meg, akik autóval érkeznek az autópályáról. Roški Slap a park csendesebb, feljebb fekvő része, beljebb a szárazföldön." }
+        },
+        {
+          "@type": "Question",
+          "name": "Mennyibe kerül a taxi Skradinból a Krka Nemzeti Parkba?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Fix 15 euró autónként a skradini bejáratig, 25 euró Lozovacig és 50 euró Roški Slapig. Az ár járművenként értendő, legfeljebb 4 utasig, nem személyenként, és az indulás előtt megegyezünk benne." }
+        },
+        {
+          "@type": "Question",
+          "name": "Árul Krka Nemzeti Park belépőjegyet?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Nem. Taxis és transzfersofőr vagyok, nem utazási iroda. A belépőjegyet közvetlenül a nemzeti parktól veszi meg. Én kizárólag az oda- és visszautat intézem, előre megbeszélt fix áron." }
+        },
+        {
+          "@type": "Question",
+          "name": "Meg tud várni és visszavisz minket Krkáról?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Igen. Megvárhatom a közelben és visszaviszem, amikor Önöknek megfelel, vagy visszajövök egy megbeszélt időpontban. Foglaláskor mondja el a tervét, és megerősítem a fix árat mindkét útra." }
+        },
+        {
+          "@type": "Question",
+          "name": "Mennyivel előre érdemes foglalni?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Legalább 2 órával korábban, hogy meg tudjam erősíteni az autót és a felvétel időpontját. Főszezonban a délelőtti időpontok gyorsan elfogynak, szóval minél korábban, annál jobb. Ha hamarabb indulna, hívjon vagy írjon WhatsAppon közvetlenül." }
+        }
+      ]
+    }
+  ]
+}
