@@ -1064,6 +1064,9 @@ a.nav-lang-item:hover { color: var(--gold); background: rgba(255,255,255,0.05); 
   font-size: 0.82rem;
   color: var(--gray-600);
 }
+.footer-credit { margin-top: 6px; font-size: 0.76rem; opacity: 0.75; }
+.footer-credit a { color: var(--gold); text-decoration: none; }
+.footer-credit a:hover { text-decoration: underline; }
 
 /* Floating WhatsApp button */
 /* Honeypot spam trap (hidden from real users) */
