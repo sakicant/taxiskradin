@@ -33,7 +33,7 @@ PHRASE = {
     "fi": "Verkkosivun toteutus",
     "ja": "ウェブサイト制作",
 }
-LINK = '<a href="https://antoniodigital.com" target="_blank" rel="noopener">antoniodigital.com</a>'
+LINK = '<a href="https://antoniodigital.com" target="_blank" rel="noopener">Antonio Digital</a>'
 
 done, skipped, problems = 0, 0, []
 for fn in sorted(os.listdir(PDIR)):
