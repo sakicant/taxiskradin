@@ -580,7 +580,8 @@ a.nav-lang-item:hover { color: var(--gold); background: rgba(255,255,255,0.05); 
   border-radius: 8px;
   padding: 32px;
 }
-.booking-form h3 { font-size: 1.2rem; margin-bottom: 20px; }
+.booking-form h3 { font-size: 1.2rem; margin: 36px 0 20px; }
+.booking-form > h3:first-of-type { margin-top: 0; }
 .booking-form label {
   display: block;
   font-size: 0.82rem;
@@ -1085,6 +1086,7 @@ a.nav-lang-item:hover { color: var(--gold); background: rgba(255,255,255,0.05); 
 
 /* Booking form: section intro + choice groups (contact method, payment) */
 .booking-form .booking-section-hint { margin: -8px 0 4px; font-size: 0.85rem; color: var(--gray-600); }
+.booking-form .form-hint-center { text-align: center; }
 .booking-form .field-flag { font-weight: 400; color: var(--gray-600); font-size: 0.78rem; }
 .form-choice { margin: 18px 0 6px; }
 .form-choice .form-choice-legend {

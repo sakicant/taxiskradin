@@ -42,7 +42,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:wght@600&family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/styles.css?v=80148c173b">
+<link rel="stylesheet" href="/styles.css?v=96259ca5a0">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -159,14 +159,14 @@
         <label for="book-to">Mjesto dolaska (do)</label>
         <input type="text" id="book-to" name="to" required placeholder="Zračna luka Split (SPU), mjesto ili adresa">
 
+        <div class="quote-field">
+          <label for="book-trip">Putovanje</label>
+          <select id="book-trip" name="trip">
+            <option value="oneway">U jednom smjeru</option>
+            <option value="return">Povratno</option>
+          </select>
+        </div>
         <div class="quote-field-row">
-          <div class="quote-field">
-            <label for="book-trip">Putovanje</label>
-            <select id="book-trip" name="trip">
-              <option value="oneway">U jednom smjeru</option>
-              <option value="return">Povratno</option>
-            </select>
-          </div>
           <div class="quote-field">
             <label for="book-pax">Putnici</label>
             <input type="number" id="book-pax" name="passengers" min="1" max="12" value="1" required>
@@ -189,7 +189,7 @@
             <select id="book-time" name="book-time" required><option value="">--:--</option></select>
           </div>
         </div>
-        <p class="form-hint">Molimo rezervirajte najmanje 2 sata unaprijed kako bih mogao potvrditi vozilo i vaše preuzimanje. Trebate vožnju ranije? <a href="tel:+385994471013">Nazovite me</a> ili <a href="https://wa.me/385994471013?text=Pozdrav%20Antonio%2C%20prona%C5%A1ao%20sam%20vas%20preko%20va%C5%A1e%20web%20stranice%20taxiskradin.hr%20i%20imam%20upit%3A%20" target="_blank" rel="noopener">pišite na WhatsApp</a>.</p>
+        <p class="form-hint form-hint-center">Molimo rezervirajte najmanje 2 sata unaprijed kako bih mogao potvrditi dostupnost. Ako trebate vožnju ranije, molimo <a href="tel:+385994471013">nazovite me</a> ili mi <a href="https://wa.me/385994471013?text=Pozdrav%20Antonio%2C%20prona%C5%A1ao%20sam%20vas%20preko%20va%C5%A1e%20web%20stranice%20taxiskradin.hr%20i%20imam%20upit%3A%20" target="_blank" rel="noopener">pišite na WhatsApp</a>.</p>
 
         <div class="quote-field-row" id="book-return-fields" hidden>
           <div class="quote-field">
@@ -243,7 +243,7 @@
           <div class="form-choice-options">
             <label class="form-choice-option">
               <input type="radio" name="payment_option" value="deposit" required>
-              <span>Predujam za potvrdu<span class="opt-sub">20% odmah (najmanje 20 EUR), ostatak na dan vožnje. Prema Uvjetima poslovanja.</span></span>
+              <span>Predujam za potvrdu<span class="opt-sub">20% odmah (najmanje 20 EUR).</span></span>
             </label>
             <label class="form-choice-option">
               <input type="radio" name="payment_option" value="full" required>
@@ -261,7 +261,7 @@
 
         <label class="form-consent">
           <input type="checkbox" id="book-consent" name="consent" value="1" required>
-          <span>Razumijem da šaljem samo zahtjev za rezervaciju te da ću biti kontaktiran putem odabranog načina radi potvrde rezervacije uplatom traženog predujma. Također prihvaćam <a href="/hr/uvjeti-poslovanja/">Uvjete poslovanja</a> i <a href="/hr/politika-privatnosti/">Pravila privatnosti</a>.</span>
+          <span>Razumijem da sada šaljem samo zahtjev za rezervaciju te da ću biti kontaktiran putem odabranog načina kontakta radi potvrde rezervacije (uplatom traženog predujma). Također prihvaćam <a href="/hr/uvjeti-poslovanja/">Uvjete poslovanja</a> i <a href="/hr/politika-privatnosti/">Pravila privatnosti</a>.</span>
         </label>
         <button type="submit" class="btn btn-primary">Pošalji zahtjev za rezervaciju</button>
         <p class="form-note" id="booking-page-note"></p>
@@ -369,6 +369,6 @@
   </svg>
 </a>
 
-<script src="/script.js?v=80148c173b"></script>
+<script src="/script.js?v=96259ca5a0"></script>
 </body>
 </html>
