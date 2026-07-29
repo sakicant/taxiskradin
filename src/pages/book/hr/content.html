@@ -8,8 +8,10 @@
 
   <section class="page-content">
     <div class="container booking-page">
-      <form class="booking-form" id="booking-page-form" action="/booking-submit.php" method="POST">
-        <h3>Vaše putovanje</h3>
+      <form class="booking-form" id="booking-page-form" action="/booking-submit.php" method="POST" data-req-label="obavezno" data-opt-label="nije obavezno">
+
+        <h3>1. Vaše putovanje</h3>
+        <p class="booking-section-hint">Ovi podaci preneseni su iz ponude koju ste odabrali. Izmijenite ono što nije točno.</p>
 
         <label for="book-from">Mjesto preuzimanja (od)</label>
         <input type="text" id="book-from" name="from" required placeholder="Skradin centar, vaš hotel ili adresa">
@@ -37,8 +39,6 @@
 
         <p class="booking-price-line" id="booking-price-line" hidden>Fiksna cijena: <strong id="sum-price">&mdash;</strong> <span class="booking-price-sub">po vozilu, do 4 putnika</span></p>
 
-        <h3>Podaci o putovanju</h3>
-
         <div class="quote-field-row">
           <div class="quote-field">
             <label for="book-date">Datum preuzimanja</label>
@@ -62,17 +62,10 @@
           </div>
         </div>
 
-        <label for="book-name">Ime</label>
-        <input type="text" id="book-name" name="name" required>
-
-        <label for="book-email">E-mail</label>
-        <input type="email" id="book-email" name="email" required>
-
-        <label for="book-phone">Telefon / WhatsApp</label>
-        <input type="tel" id="book-phone" name="phone" required placeholder="Uključite pozivni broj države">
+        <h3>2. Podaci o transferu</h3>
 
         <label for="book-flight">Podaci o preuzimanju (broj leta dolaska ili adresa)</label>
-        <input type="text" id="book-flight" name="book-flight" required placeholder="Broj leta ako stižete zrakoplovom, ili vaša adresa preuzimanja">
+        <input type="text" id="book-flight" name="book-flight" placeholder="Broj leta ako stižete zrakoplovom, ili vaša adresa preuzimanja">
 
         <label for="book-dropoff-details">Podaci o odredištu (adresa ili broj leta)</label>
         <input type="text" id="book-dropoff-details" name="book-dropoff-details" placeholder="Adresa odredišta, ili broj vašeg leta ako morate stići na let">
@@ -80,11 +73,55 @@
         <label for="book-notes">Još nešto? (nije obavezno)</label>
         <textarea id="book-notes" name="book-notes" rows="4" placeholder="Dječja sjedalica, dodatna stajanja, glomazna prtljaga, upute za preuzimanje..."></textarea>
 
+        <h3>3. Vaši podaci</h3>
+
+        <label for="book-name">Ime nositelja rezervacije</label>
+        <input type="text" id="book-name" name="name" required>
+
+        <div class="form-choice" role="group" aria-labelledby="contact-method-legend">
+          <span class="form-choice-legend" id="contact-method-legend">Kako da vas kontaktiram za potvrdu?</span>
+          <div class="form-choice-options">
+            <label class="form-choice-option">
+              <input type="radio" name="contact_method" value="email" required>
+              <span>E-mail</span>
+            </label>
+            <label class="form-choice-option">
+              <input type="radio" name="contact_method" value="whatsapp" required>
+              <span>WhatsApp</span>
+            </label>
+          </div>
+        </div>
+
+        <label for="book-email">E-mail <span class="field-flag" id="email-flag"></span></label>
+        <input type="email" id="book-email" name="email">
+
+        <label for="book-phone">Telefon / WhatsApp <span class="field-flag" id="phone-flag"></span></label>
+        <input type="tel" id="book-phone" name="phone" placeholder="Uključite pozivni broj države">
+
+        <div class="form-choice" role="group" aria-labelledby="payment-legend">
+          <span class="form-choice-legend" id="payment-legend">Kako želite platiti?</span>
+          <div class="form-choice-options">
+            <label class="form-choice-option">
+              <input type="radio" name="payment_option" value="deposit" required>
+              <span>Predujam za potvrdu<span class="opt-sub">20% odmah (najmanje 20 EUR), ostatak na dan vožnje. Prema Uvjetima poslovanja.</span></span>
+            </label>
+            <label class="form-choice-option">
+              <input type="radio" name="payment_option" value="full" required>
+              <span>Plaćanje u cijelosti<span class="opt-sub">Platite cijeli iznos unaprijed.</span></span>
+            </label>
+          </div>
+        </div>
+
+        <label class="form-consent">
+          <input type="checkbox" id="book-invoice" name="invoice_required" value="1">
+          <span>Trebam R1 račun / eRačun.</span>
+        </label>
+
         <input type="text" id="book-company" name="company" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
 
         <label class="form-consent">
           <input type="checkbox" id="book-consent" name="consent" value="1" required>
-          <span>Pročitao sam i prihvaćam <a href="/hr/politika-privatnosti/">Pravila privatnosti</a>.</span>
+          <span>Razumijem da šaljem samo zahtjev za rezervaciju te da ću biti kontaktiran putem odabranog načina radi potvrde rezervacije uplatom traženog predujma. Također prihvaćam <a href="/hr/uvjeti-poslovanja/">Uvjete poslovanja</a> i <a href="/hr/politika-privatnosti/">Pravila privatnosti</a>.</span>
         </label>
         <button type="submit" class="btn btn-primary">Pošalji zahtjev za rezervaciju</button>
         <p class="form-note" id="booking-page-note"></p>
