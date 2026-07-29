@@ -1,0 +1,60 @@
+# Prevent directory listing.
+Options -Indexes
+
+# ---------------------------------------------------------------------------
+# Caching for static assets (fast repeat visits). CSS/JS are versioned with
+# ?v=hash, so a long immutable cache is safe; HTML revalidates hourly.
+# ---------------------------------------------------------------------------
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/webp               "access plus 1 year"
+  ExpiresByType image/jpeg               "access plus 1 year"
+  ExpiresByType image/png                "access plus 1 year"
+  ExpiresByType image/svg+xml            "access plus 1 year"
+  ExpiresByType image/x-icon             "access plus 1 year"
+  ExpiresByType image/vnd.microsoft.icon "access plus 1 year"
+  ExpiresByType text/css                 "access plus 1 year"
+  ExpiresByType application/javascript   "access plus 1 year"
+  ExpiresByType font/woff2               "access plus 1 year"
+  ExpiresByType font/woff                "access plus 1 year"
+  ExpiresByType text/html                "access plus 1 hour"
+</IfModule>
+<IfModule mod_headers.c>
+  <FilesMatch "\.(webp|jpe?g|png|gif|svg|ico|css|js|woff2?|ttf|eot)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  <FilesMatch "\.html$">
+    Header set Cache-Control "public, max-age=3600, must-revalidate"
+  </FilesMatch>
+</IfModule>
+
+# ---------------------------------------------------------------------------
+# Security headers.
+# ---------------------------------------------------------------------------
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+  # HSTS is only honoured over HTTPS, so it is safe to keep here; it activates
+  # once your SSL certificate is live.
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+  # CSP: permissive on the third-party widgets (Trustindex reviews, Google
+  # fonts/analytics) so nothing breaks, strict on the high-risk directives
+  # (object/base/form/frame-ancestors). If you tighten it, re-check that the
+  # reviews, fonts and analytics still load.
+  Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.trustindex.io https://*.trustindex.io https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.trustindex.io https://*.trustindex.io; font-src 'self' data: https://fonts.gstatic.com https://cdn.trustindex.io; img-src 'self' data: https:; connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://cdn.trustindex.io https://*.trustindex.io; frame-src https://cdn.trustindex.io https://*.trustindex.io; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'"
+</IfModule>
+
+# Force HTTPS. Skradin is a fresh site with no legacy WordPress URLs, so
+# there is no 301 redirect list to port (unlike taxisibenik). Add rules
+# here later only if an old Skradin URL needs to point somewhere new.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Force HTTPS (the second condition avoids a redirect loop behind a proxy/CDN
+  # that terminates SSL upstream).
+  RewriteCond %{HTTPS} off
+  RewriteCond %{HTTP:X-Forwarded-Proto} !https
+  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+</IfModule>
