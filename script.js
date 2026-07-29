@@ -2737,14 +2737,40 @@ if (bookingPageForm) {
   if (params.get('pax')) paxEl.value = params.get('pax');
   if (params.get('lug')) lugEl.value = params.get('lug');
 
-  // Show the fixed price when we have one.
-  let priceText = '';
-  if (priceParam === 'meter') priceText = 'Taxi meter (from €10)';
-  else if (priceParam && priceParam !== 'custom') priceText = '€' + priceParam;
-  if (priceText) {
-    document.getElementById('sum-price').textContent = priceText;
-    document.getElementById('booking-price-line').hidden = false;
-  }
+  // The displayed fare is recomputed from the route via prices.json, never from
+  // the ?price= in the URL, so tampering with the link changes nothing on screen
+  // (the server also recomputes it on submit). Recomputes live as the route,
+  // trip type or passenger count change.
+  const sumPriceEl = document.getElementById('sum-price');
+  const priceLineEl = document.getElementById('booking-price-line');
+  let PRICE_TABLE = null;
+  const owLookup = (a, b) => {
+    if (!PRICE_TABLE) return null;
+    if (PRICE_TABLE[a] && PRICE_TABLE[a][b] != null) return PRICE_TABLE[a][b];
+    if (PRICE_TABLE[b] && PRICE_TABLE[b][a] != null) return PRICE_TABLE[b][a];
+    return null;
+  };
+  const refreshPrice = () => {
+    const from = fromEl.value.trim();
+    const to = toEl.value.trim();
+    const pax = parseInt(paxEl.value, 10) || 1;
+    let text = '';
+    if (from && to && pax < 5) {
+      if (from === to) {
+        text = 'Taxi meter (from €10)';
+      } else {
+        const ow = owLookup(from, to);
+        if (ow != null) text = '€' + (tripEl.value === 'return' ? ow * 2 : ow);
+      }
+    }
+    if (text) { sumPriceEl.textContent = text; priceLineEl.hidden = false; }
+    else { priceLineEl.hidden = true; }
+  };
+  fetch('/prices.json').then((r) => (r.ok ? r.json() : null)).then((p) => { PRICE_TABLE = p; refreshPrice(); }).catch(() => {});
+  fromEl.addEventListener('input', refreshPrice);
+  toEl.addEventListener('input', refreshPrice);
+  tripEl.addEventListener('change', refreshPrice);
+  paxEl.addEventListener('change', refreshPrice);
 
   // Return date/time only when a return trip is chosen.
   const returnFields = document.getElementById('book-return-fields');
