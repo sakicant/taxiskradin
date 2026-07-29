@@ -11,3 +11,7 @@ price-matrix*.csv
 
 # Local-only static admin previews (not for production)
 admin/_preview-*.html
+
+# Python bytecode cache
+__pycache__/
+*.pyc
