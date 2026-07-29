@@ -17,8 +17,11 @@ if (!tx_rate_limit('contact', 6, 3600)) {
     exit;
 }
 
-// Honeypot: real users never fill this hidden field.
-if (isset($_POST['company']) && trim((string) $_POST['company']) !== '') {
+// Honeypot: real users never see this hidden field, but form-spam bots fill it
+// with links. Only reject on link-like content, so a browser or password
+// manager auto-filling the hidden "company" field can't silently drop a real
+// message (an autofilled company name has no URL and passes through).
+if (isset($_POST['company']) && preg_match('#https?://|www\.#i', (string) $_POST['company'])) {
     echo json_encode(['success' => true]);
     exit;
 }
