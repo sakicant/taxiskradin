@@ -29,6 +29,21 @@ function field($key, $max = 255)
     return mb_substr($v, 0, $max);
 }
 
+// Authoritative fare lookup. prices.json is generated from the PRICES matrix
+// in script.js at build time, so the server never trusts the ?price= value
+// that came in through the booking URL (which a visitor could edit).
+function tx_price_oneway($from, $to)
+{
+    static $PRICES = null;
+    if ($PRICES === null) {
+        $p = @file_get_contents(__DIR__ . '/prices.json');
+        $PRICES = $p ? (json_decode($p, true) ?: []) : [];
+    }
+    if (isset($PRICES[$from][$to])) return $PRICES[$from][$to];
+    if (isset($PRICES[$to][$from])) return $PRICES[$to][$from];
+    return null;
+}
+
 // Honeypot: real users never fill this hidden field.
 if (field('company') !== '') {
     echo json_encode(['success' => true]);
@@ -85,6 +100,21 @@ if ($errors) {
     http_response_code(400);
     echo json_encode(['success' => false, 'error' => 'Please provide ' . implode(', ', $errors) . '.']);
     exit;
+}
+
+// Recompute the fixed fare from the route itself, ignoring the submitted
+// price, so editing ?price= in the booking link cannot change what is stored.
+if ($passengers >= 5) {
+    $price = 'custom';                       // van needed, quoted by hand
+} elseif ($pickup === $dropoff) {
+    $price = 'meter';                        // local ride, on the taxi meter
+} else {
+    $ow = tx_price_oneway($pickup, $dropoff);
+    if ($ow === null) {
+        $price = 'custom';                   // no fixed fare for this route
+    } else {
+        $price = (string) ($trip === 'return' ? $ow * 2 : $ow);
+    }
 }
 
 $passengers = max(1, min(4, $passengers));
@@ -145,7 +175,7 @@ if ($trip === 'return') {
     $lines[] = 'Return: ' . ($returnDate !== '' ? $returnDate : 'not set') . ' ' . $returnTime;
 }
 $lines[] = "Passengers: {$passengers}   Luggage: {$luggage}";
-$lines[] = 'Quoted price: ' . ($price !== '' ? $price : 'custom');
+$lines[] = 'Fixed price: ' . (is_numeric($price) ? 'EUR ' . $price : ($price !== '' ? $price : 'custom'));
 $lines[] = "Name: {$name}";
 $lines[] = 'Email: ' . ($email !== '' ? $email : 'not provided');
 $lines[] = 'Phone: ' . ($phone !== '' ? $phone : 'not provided');

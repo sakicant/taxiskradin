@@ -19,6 +19,7 @@ import datetime
 import hashlib
 import json
 import os
+import re
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(ROOT, "src")
@@ -244,6 +245,35 @@ def write_sitemap(pages):
     print(f"built sitemap.xml ({len(urls)} URLs)")
 
 
+def write_prices_json():
+    """Export the PRICES fare matrix from script.js to prices.json so the PHP
+    booking backend can recompute the fixed fare server-side. This keeps the
+    client-supplied ?price= URL parameter from being trusted: a tampered price
+    is overridden by the authoritative value looked up here."""
+    js = read(os.path.join(ROOT, "script.js"))
+    i = js.find("const PRICES = {")
+    if i == -1:
+        print("WARN: PRICES not found in script.js; prices.json not written")
+        return
+    start = js.find("{", i)
+    depth, end = 0, None
+    for j in range(start, len(js)):
+        if js[j] == "{":
+            depth += 1
+        elif js[j] == "}":
+            depth -= 1
+            if depth == 0:
+                end = j + 1
+                break
+    obj = js[start:end]
+    obj = re.sub(r"//[^\n]*", "", obj)            # strip line comments
+    obj = re.sub(r",(\s*[}\]])", r"\1", obj)       # strip trailing commas
+    prices = json.loads(obj)
+    write(os.path.join(ROOT, "prices.json"), json.dumps(prices, ensure_ascii=False))
+    fares = sum(len(v) for v in prices.values())
+    print(f"built prices.json ({len(prices)} origins, {fares} fares)")
+
+
 def main():
     base_tpl = read(os.path.join(PARTIALS_DIR, "base.html"))
 
@@ -256,6 +286,7 @@ def main():
             build_variant(lang, meta, content_path, base_tpl, hreflang_block, variants)
 
     write_sitemap(pages)
+    write_prices_json()
 
 
 if __name__ == "__main__":
