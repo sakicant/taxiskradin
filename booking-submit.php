@@ -44,8 +44,11 @@ function tx_price_oneway($from, $to)
     return null;
 }
 
-// Honeypot: real users never fill this hidden field.
-if (field('company') !== '') {
+// Honeypot: real users never see this hidden field, but form-spam bots fill it
+// with links. Only reject on link-like content, so a browser or password
+// manager auto-filling the hidden "company" field can't silently drop a real
+// booking (an autofilled company name has no URL and passes through).
+if (preg_match('#https?://|www\.#i', field('company'))) {
     echo json_encode(['success' => true]);
     exit;
 }
