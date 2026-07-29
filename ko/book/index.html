@@ -42,7 +42,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:wght@600&family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/styles.css?v=96259ca5a0">
+<link rel="stylesheet" href="/styles.css?v=f675311a7c">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -147,8 +147,10 @@
 
   <section class="page-content">
     <div class="container booking-page">
-      <form class="booking-form" id="booking-page-form" action="/booking-submit.php" method="POST">
-        <h3>이동 정보</h3>
+      <form class="booking-form" id="booking-page-form" action="/booking-submit.php" method="POST" data-req-label="필수" data-opt-label="선택">
+
+        <h3>1. 이동 정보</h3>
+        <p class="booking-section-hint">이 정보는 선택하신 견적에서 넘어온 내용입니다. 잘못된 부분이 있으면 수정해 주세요.</p>
 
         <label for="book-from">픽업 장소 (출발지)</label>
         <input type="text" id="book-from" name="from" required placeholder="Skradin 중심가, 숙소 또는 주소">
@@ -156,14 +158,14 @@
         <label for="book-to">하차 장소 (도착지)</label>
         <input type="text" id="book-to" name="to" required placeholder="Split 공항 (SPU), 도시 또는 주소">
 
+        <div class="quote-field">
+          <label for="book-trip">이동 유형</label>
+          <select id="book-trip" name="trip">
+            <option value="oneway">편도</option>
+            <option value="return">왕복</option>
+          </select>
+        </div>
         <div class="quote-field-row">
-          <div class="quote-field">
-            <label for="book-trip">이동 유형</label>
-            <select id="book-trip" name="trip">
-              <option value="oneway">편도</option>
-              <option value="return">왕복</option>
-            </select>
-          </div>
           <div class="quote-field">
             <label for="book-pax">탑승 인원</label>
             <input type="number" id="book-pax" name="passengers" min="1" max="12" value="1" required>
@@ -176,8 +178,6 @@
 
         <p class="booking-price-line" id="booking-price-line" hidden>고정 요금: <strong id="sum-price">&mdash;</strong> <span class="booking-price-sub">차량당, 최대 4명 탑승</span></p>
 
-        <h3>여행 세부 정보</h3>
-
         <div class="quote-field-row">
           <div class="quote-field">
             <label for="book-date">픽업 날짜</label>
@@ -188,7 +188,7 @@
             <select id="book-time" name="book-time" required><option value="">--:--</option></select>
           </div>
         </div>
-        <p class="form-hint">차량과 픽업을 확정할 수 있도록 최소 2시간 전에 예약해 주세요. 더 빨리 필요하신가요? <a href="tel:+385994471013">전화 주시거나</a> <a href="https://wa.me/385994471013?text=Hello%20Antonio%2C%20I%20found%20you%20through%20your%20website%20taxiskradin.hr%20and%20I%20have%20an%20inquiry%3A%20" target="_blank" rel="noopener">WhatsApp으로 메시지</a>를 보내주세요.</p>
+        <p class="form-hint form-hint-center">이용 가능 여부를 확인할 수 있도록 최소 2시간 전에 예약해 주세요. 더 빨리 차량이 필요하시면 <a href="tel:+385994471013">전화 주세요</a> 또는 <a href="https://wa.me/385994471013?text=Hello%20Antonio%2C%20I%20found%20you%20through%20your%20website%20taxiskradin.hr%20and%20I%20have%20an%20inquiry%3A%20" target="_blank" rel="noopener">WhatsApp으로 메시지 주세요</a>.</p>
 
         <div class="quote-field-row" id="book-return-fields" hidden>
           <div class="quote-field">
@@ -201,17 +201,10 @@
           </div>
         </div>
 
-        <label for="book-name">이름</label>
-        <input type="text" id="book-name" name="name" required>
-
-        <label for="book-email">이메일</label>
-        <input type="email" id="book-email" name="email" required>
-
-        <label for="book-phone">전화 / WhatsApp</label>
-        <input type="tel" id="book-phone" name="phone" required placeholder="국가번호를 포함해 주세요">
+        <h3>2. 이동 정보</h3>
 
         <label for="book-flight">픽업 세부 정보 (도착 항공편 번호 또는 주소)</label>
-        <input type="text" id="book-flight" name="book-flight" required placeholder="항공편으로 도착하시면 편명, 아니면 픽업 주소">
+        <input type="text" id="book-flight" name="book-flight" placeholder="항공편으로 도착하시면 편명, 아니면 픽업 주소">
 
         <label for="book-dropoff-details">목적지 세부 정보 (주소 또는 항공편 번호)</label>
         <input type="text" id="book-dropoff-details" name="book-dropoff-details" placeholder="하차 주소, 또는 타실 항공편이 있으면 편명">
@@ -219,11 +212,55 @@
         <label for="book-notes">추가로 알려주실 내용이 있나요? (선택)</label>
         <textarea id="book-notes" name="book-notes" rows="4" placeholder="유아용 카시트, 추가 경유, 대형 짐, 픽업 안내 사항..."></textarea>
 
+        <h3>3. 고객님 정보</h3>
+
+        <label for="book-name">대표 승객 성함</label>
+        <input type="text" id="book-name" name="name" required>
+
+        <div class="form-choice" role="group" aria-labelledby="contact-method-legend">
+          <span class="form-choice-legend" id="contact-method-legend">확인을 위해 어떻게 연락드리면 될까요?</span>
+          <div class="form-choice-options">
+            <label class="form-choice-option">
+              <input type="radio" name="contact_method" value="email" required>
+              <span>이메일</span>
+            </label>
+            <label class="form-choice-option">
+              <input type="radio" name="contact_method" value="whatsapp" required>
+              <span>WhatsApp</span>
+            </label>
+          </div>
+        </div>
+
+        <label for="book-email">이메일 <span class="field-flag" id="email-flag"></span></label>
+        <input type="email" id="book-email" name="email">
+
+        <label for="book-phone">전화 / WhatsApp <span class="field-flag" id="phone-flag"></span></label>
+        <input type="tel" id="book-phone" name="phone" placeholder="국가번호를 포함해 주세요">
+
+        <div class="form-choice" role="group" aria-labelledby="payment-legend">
+          <span class="form-choice-legend" id="payment-legend">어떻게 결제하시겠어요?</span>
+          <div class="form-choice-options">
+            <label class="form-choice-option">
+              <input type="radio" name="payment_option" value="deposit" required>
+              <span>예약 확정 보증금<span class="opt-sub">지금 20% (최소 20유로).</span></span>
+            </label>
+            <label class="form-choice-option">
+              <input type="radio" name="payment_option" value="full" required>
+              <span>전액 결제<span class="opt-sub">요금 전액을 미리 결제합니다.</span></span>
+            </label>
+          </div>
+        </div>
+
+        <label class="form-consent">
+          <input type="checkbox" id="book-invoice" name="invoice_required" value="1">
+          <span>회사용 세금계산서가 필요합니다.</span>
+        </label>
+
         <input type="text" id="book-company" name="company" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
 
         <label class="form-consent">
           <input type="checkbox" id="book-consent" name="consent" value="1" required>
-          <span><a href="/ko/privacy-policy/">개인정보 처리방침</a>을 읽었으며 이에 동의합니다.</span>
+          <span>지금은 예약 요청만 보내는 것이며, 예약 확정을 위해 (필요한 보증금 결제를 통해) 제가 선택한 연락 방법으로 연락받게 된다는 점을 이해합니다. 또한 <a href="/ko/terms-and-conditions/">이용약관</a> 및 <a href="/ko/privacy-policy/">개인정보 처리방침</a>에 동의합니다.</span>
         </label>
         <button type="submit" class="btn btn-primary">예약 요청 보내기</button>
         <p class="form-note" id="booking-page-note"></p>
@@ -331,6 +368,6 @@
   </svg>
 </a>
 
-<script src="/script.js?v=96259ca5a0"></script>
+<script src="/script.js?v=f675311a7c"></script>
 </body>
 </html>

@@ -2679,19 +2679,22 @@ if (quoteWidget) {
     }
   });
 
-  // "Book this" route cards prefill the widget with the route and show the fare.
-  // The link's href="#book" handles the scroll up to the form.
+  // "Book this" route cards go straight to the booking page with the route and
+  // its fixed fare prefilled, instead of only scrolling to the on-page widget.
   document.querySelectorAll('.ar-book[data-from]').forEach((link) => {
-    link.addEventListener('click', () => {
-      const set = (hidId, visId, val) => {
-        const h = document.getElementById(hidId);
-        const v = document.getElementById(visId);
-        if (h) h.value = val;
-        if (v) v.value = val;
-      };
-      set('quote-from', 'quote-from-input', link.dataset.from);
-      set('quote-to', 'quote-to-input', link.dataset.to);
-      document.getElementById('quote-submit').click();
+    link.addEventListener('click', (e) => {
+      const from = link.dataset.from;
+      const to = link.dataset.to;
+      if (!from || !to) return;
+      e.preventDefault();
+      let priceParam;
+      if (from === to) {
+        priceParam = 'meter';
+      } else {
+        const ow = priceOneWay(from, to);
+        priceParam = ow != null ? String(ow) : 'custom';
+      }
+      window.location.href = bookingUrl({ from, to, tripType: 'oneway', passengers: 1, luggage: 1, priceParam });
     });
   });
 

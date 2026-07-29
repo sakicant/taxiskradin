@@ -8,8 +8,10 @@
 
   <section class="page-content">
     <div class="container booking-page">
-      <form class="booking-form" id="booking-page-form" action="/booking-submit.php" method="POST">
-        <h3>您的行程</h3>
+      <form class="booking-form" id="booking-page-form" action="/booking-submit.php" method="POST" data-req-label="必填" data-opt-label="选填">
+
+        <h3>1. 您的行程</h3>
+        <p class="booking-section-hint">这些信息来自您选择的报价。如有不符，请随时修改。</p>
 
         <label for="book-from">上车地点(出发)</label>
         <input type="text" id="book-from" name="from" required placeholder="斯克拉丁中心、您的酒店或地址">
@@ -17,14 +19,14 @@
         <label for="book-to">下车地点(目的地)</label>
         <input type="text" id="book-to" name="to" required placeholder="Split 机场(SPU)、某个城镇或地址">
 
+        <div class="quote-field">
+          <label for="book-trip">行程</label>
+          <select id="book-trip" name="trip">
+            <option value="oneway">单程</option>
+            <option value="return">往返</option>
+          </select>
+        </div>
         <div class="quote-field-row">
-          <div class="quote-field">
-            <label for="book-trip">行程</label>
-            <select id="book-trip" name="trip">
-              <option value="oneway">单程</option>
-              <option value="return">往返</option>
-            </select>
-          </div>
           <div class="quote-field">
             <label for="book-pax">乘客人数</label>
             <input type="number" id="book-pax" name="passengers" min="1" max="12" value="1" required>
@@ -37,8 +39,6 @@
 
         <p class="booking-price-line" id="booking-price-line" hidden>固定价格:<strong id="sum-price">&mdash;</strong> <span class="booking-price-sub">每车,最多 4 名乘客</span></p>
 
-        <h3>行程详情</h3>
-
         <div class="quote-field-row">
           <div class="quote-field">
             <label for="book-date">上车日期</label>
@@ -49,7 +49,7 @@
             <select id="book-time" name="book-time" required><option value="">--:--</option></select>
           </div>
         </div>
-        <p class="form-hint">请至少提前 2 小时预订,以便我确认车辆和您的上车时间。需要更快的行程?<a href="tel:+385994471013">致电给我</a>或<a href="https://wa.me/385994471013?text=Hello%20Antonio%2C%20I%20found%20you%20through%20your%20website%20taxiskradin.hr%20and%20I%20have%20an%20inquiry%3A%20" target="_blank" rel="noopener">通过 WhatsApp 联系</a>。</p>
+        <p class="form-hint form-hint-center">请至少提前2小时预订，以便我确认车辆是否可用。如需更早用车，请<a href="tel:+385994471013">打电话给我</a>或<a href="https://wa.me/385994471013?text=Hello%20Antonio%2C%20I%20found%20you%20through%20your%20website%20taxiskradin.hr%20and%20I%20have%20an%20inquiry%3A%20" target="_blank" rel="noopener">通过WhatsApp给我发消息</a>。</p>
 
         <div class="quote-field-row" id="book-return-fields" hidden>
           <div class="quote-field">
@@ -62,17 +62,10 @@
           </div>
         </div>
 
-        <label for="book-name">姓名</label>
-        <input type="text" id="book-name" name="name" required>
-
-        <label for="book-email">电子邮件</label>
-        <input type="email" id="book-email" name="email" required>
-
-        <label for="book-phone">电话 / WhatsApp</label>
-        <input type="tel" id="book-phone" name="phone" required placeholder="请包含国家区号">
+        <h3>2. 接送详情</h3>
 
         <label for="book-flight">上车详情(抵达航班号或地址)</label>
-        <input type="text" id="book-flight" name="book-flight" required placeholder="如果您乘飞机抵达请填写航班号,否则填写您的上车地址">
+        <input type="text" id="book-flight" name="book-flight" placeholder="如果您乘飞机抵达请填写航班号,否则填写您的上车地址">
 
         <label for="book-dropoff-details">目的地详情(地址或航班号)</label>
         <input type="text" id="book-dropoff-details" name="book-dropoff-details" placeholder="下车地址,或如果您要赶航班请填写航班号">
@@ -80,11 +73,55 @@
         <label for="book-notes">还有其他需求吗?(选填)</label>
         <textarea id="book-notes" name="book-notes" rows="4" placeholder="儿童座椅、额外停靠、超大行李、上车说明……"></textarea>
 
+        <h3>3. 您的信息</h3>
+
+        <label for="book-name">主要乘客姓名</label>
+        <input type="text" id="book-name" name="name" required>
+
+        <div class="form-choice" role="group" aria-labelledby="contact-method-legend">
+          <span class="form-choice-legend" id="contact-method-legend">我该如何联系您以确认？</span>
+          <div class="form-choice-options">
+            <label class="form-choice-option">
+              <input type="radio" name="contact_method" value="email" required>
+              <span>电子邮件</span>
+            </label>
+            <label class="form-choice-option">
+              <input type="radio" name="contact_method" value="whatsapp" required>
+              <span>WhatsApp</span>
+            </label>
+          </div>
+        </div>
+
+        <label for="book-email">电子邮件 <span class="field-flag" id="email-flag"></span></label>
+        <input type="email" id="book-email" name="email">
+
+        <label for="book-phone">电话 / WhatsApp <span class="field-flag" id="phone-flag"></span></label>
+        <input type="tel" id="book-phone" name="phone" placeholder="请包含国家区号">
+
+        <div class="form-choice" role="group" aria-labelledby="payment-legend">
+          <span class="form-choice-legend" id="payment-legend">您希望如何付款？</span>
+          <div class="form-choice-options">
+            <label class="form-choice-option">
+              <input type="radio" name="payment_option" value="deposit" required>
+              <span>确认订金<span class="opt-sub">现付20%（最低20欧元）。</span></span>
+            </label>
+            <label class="form-choice-option">
+              <input type="radio" name="payment_option" value="full" required>
+              <span>全额付款<span class="opt-sub">预先付清全部车费。</span></span>
+            </label>
+          </div>
+        </div>
+
+        <label class="form-consent">
+          <input type="checkbox" id="book-invoice" name="invoice_required" value="1">
+          <span>我需要一张公司发票。</span>
+        </label>
+
         <input type="text" id="book-company" name="company" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
 
         <label class="form-consent">
           <input type="checkbox" id="book-consent" name="consent" value="1" required>
-          <span>我已阅读并同意<a href="/zh/privacy-policy/">隐私政策</a>。</span>
+          <span>我了解现在仅发送预订请求，并将通过我选择的联系方式与我联系以确认预订（支付所需订金）。我同时同意<a href="/zh/terms-and-conditions/">条款与条件</a>和<a href="/zh/privacy-policy/">隐私政策</a>。</span>
         </label>
         <button type="submit" class="btn btn-primary">发送预订请求</button>
         <p class="form-note" id="booking-page-note"></p>

@@ -8,7 +8,7 @@
 
   <section class="page-content">
     <div class="container booking-page">
-      <form class="booking-form" id="booking-page-form" action="/booking-submit.php" method="POST">
+      <form class="booking-form" id="booking-page-form" action="/booking-submit.php" method="POST" data-req-label="required" data-opt-label="optional">
 
         <h3>1. Your trip</h3>
         <p class="booking-section-hint">These details carry over from the quote you picked. Change anything that isn't right.</p>
@@ -103,7 +103,7 @@
           <div class="form-choice-options">
             <label class="form-choice-option">
               <input type="radio" name="payment_option" value="deposit" required>
-              <span>Deposit to confirm<span class="opt-sub">20% now (minimum &euro;20).</span></span>
+              <span>Deposit to confirm<span class="opt-sub">20% now (minimum €20).</span></span>
             </label>
             <label class="form-choice-option">
               <input type="radio" name="payment_option" value="full" required>
@@ -121,7 +121,7 @@
 
         <label class="form-consent">
           <input type="checkbox" id="book-consent" name="consent" value="1" required>
-          <span>I understand that I am now only sending a booking request and that I will be contacted via my preferred contact method to confirm the booking (by paying the required deposit). I also agree to the <a href="/terms-and-conditions/">Terms &amp; Conditions</a> and <a href="/privacy-policy/">Privacy Policy</a>.</span>
+          <span>I understand that I am now only sending a booking request and that I will be contacted via my preferred contact method to confirm the booking (by paying the required deposit). I also agree to the <a href="/terms-and-conditions/">Terms and Conditions</a> and <a href="/privacy-policy/">Privacy Policy</a>.</span>
         </label>
         <button type="submit" class="btn btn-primary">Send Booking Request</button>
         <p class="form-note" id="booking-page-note"></p>

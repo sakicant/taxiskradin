@@ -8,8 +8,10 @@
 
   <section class="page-content">
     <div class="container booking-page">
-      <form class="booking-form" id="booking-page-form" action="/booking-submit.php" method="POST">
-        <h3>Twoja podróż</h3>
+      <form class="booking-form" id="booking-page-form" action="/booking-submit.php" method="POST" data-req-label="wymagane" data-opt-label="opcjonalne">
+
+        <h3>1. Twoja podróż</h3>
+        <p class="booking-section-hint">Te dane zostały przeniesione z wybranej przez Ciebie oferty. Zmień to, co się nie zgadza.</p>
 
         <label for="book-from">Miejsce odbioru (skąd)</label>
         <input type="text" id="book-from" name="from" required placeholder="Skradin centrum, Twój hotel lub adres">
@@ -17,14 +19,14 @@
         <label for="book-to">Miejsce docelowe (dokąd)</label>
         <input type="text" id="book-to" name="to" required placeholder="Lotnisko Split (SPU), miejscowość lub adres">
 
+        <div class="quote-field">
+          <label for="book-trip">Przejazd</label>
+          <select id="book-trip" name="trip">
+            <option value="oneway">W jedną stronę</option>
+            <option value="return">W obie strony</option>
+          </select>
+        </div>
         <div class="quote-field-row">
-          <div class="quote-field">
-            <label for="book-trip">Przejazd</label>
-            <select id="book-trip" name="trip">
-              <option value="oneway">W jedną stronę</option>
-              <option value="return">W obie strony</option>
-            </select>
-          </div>
           <div class="quote-field">
             <label for="book-pax">Pasażerowie</label>
             <input type="number" id="book-pax" name="passengers" min="1" max="12" value="1" required>
@@ -37,8 +39,6 @@
 
         <p class="booking-price-line" id="booking-price-line" hidden>Cena stała: <strong id="sum-price">&mdash;</strong> <span class="booking-price-sub">za samochód, do 4 pasażerów</span></p>
 
-        <h3>Szczegóły podróży</h3>
-
         <div class="quote-field-row">
           <div class="quote-field">
             <label for="book-date">Data odbioru</label>
@@ -49,7 +49,7 @@
             <select id="book-time" name="book-time" required><option value="">--:--</option></select>
           </div>
         </div>
-        <p class="form-hint">Zarezerwuj co najmniej 2 godziny wcześniej, abym mógł potwierdzić samochód i Twój odbiór. Potrzebujesz przejazdu szybciej? <a href="tel:+385994471013">Zadzwoń do mnie</a> lub <a href="https://wa.me/385994471013?text=Hello%20Antonio%2C%20I%20found%20you%20through%20your%20website%20taxiskradin.hr%20and%20I%20have%20an%20inquiry%3A%20" target="_blank" rel="noopener">napisz na WhatsAppie</a>.</p>
+        <p class="form-hint form-hint-center">Prosimy o rezerwację z co najmniej 2-godzinnym wyprzedzeniem, abym mógł potwierdzić dostępność. Jeśli potrzebujesz przejazdu wcześniej, <a href="tel:+385994471013">zadzwoń do mnie</a> lub <a href="https://wa.me/385994471013?text=Hello%20Antonio%2C%20I%20found%20you%20through%20your%20website%20taxiskradin.hr%20and%20I%20have%20an%20inquiry%3A%20" target="_blank" rel="noopener">napisz do mnie na WhatsApp</a>.</p>
 
         <div class="quote-field-row" id="book-return-fields" hidden>
           <div class="quote-field">
@@ -62,17 +62,10 @@
           </div>
         </div>
 
-        <label for="book-name">Imię i nazwisko</label>
-        <input type="text" id="book-name" name="name" required>
-
-        <label for="book-email">E-mail</label>
-        <input type="email" id="book-email" name="email" required>
-
-        <label for="book-phone">Telefon / WhatsApp</label>
-        <input type="tel" id="book-phone" name="phone" required placeholder="Podaj numer kierunkowy kraju">
+        <h3>2. Szczegóły transferu</h3>
 
         <label for="book-flight">Szczegóły odbioru (numer lotu przylotu lub adres)</label>
-        <input type="text" id="book-flight" name="book-flight" required placeholder="Numer lotu, jeśli przylatujesz samolotem, lub adres odbioru">
+        <input type="text" id="book-flight" name="book-flight" placeholder="Numer lotu, jeśli przylatujesz samolotem, lub adres odbioru">
 
         <label for="book-dropoff-details">Szczegóły miejsca docelowego (adres lub numer lotu)</label>
         <input type="text" id="book-dropoff-details" name="book-dropoff-details" placeholder="Adres docelowy lub numer lotu, jeśli masz samolot do złapania">
@@ -80,11 +73,55 @@
         <label for="book-notes">Coś jeszcze? (opcjonalnie)</label>
         <textarea id="book-notes" name="book-notes" rows="4" placeholder="Fotelik dziecięcy, dodatkowe przystanki, ponadwymiarowy bagaż, wskazówki do odbioru..."></textarea>
 
+        <h3>3. Twoje dane</h3>
+
+        <label for="book-name">Imię głównego pasażera</label>
+        <input type="text" id="book-name" name="name" required>
+
+        <div class="form-choice" role="group" aria-labelledby="contact-method-legend">
+          <span class="form-choice-legend" id="contact-method-legend">Jak mam się z Tobą skontaktować, aby potwierdzić?</span>
+          <div class="form-choice-options">
+            <label class="form-choice-option">
+              <input type="radio" name="contact_method" value="email" required>
+              <span>E-mail</span>
+            </label>
+            <label class="form-choice-option">
+              <input type="radio" name="contact_method" value="whatsapp" required>
+              <span>WhatsApp</span>
+            </label>
+          </div>
+        </div>
+
+        <label for="book-email">E-mail <span class="field-flag" id="email-flag"></span></label>
+        <input type="email" id="book-email" name="email">
+
+        <label for="book-phone">Telefon / WhatsApp <span class="field-flag" id="phone-flag"></span></label>
+        <input type="tel" id="book-phone" name="phone" placeholder="Podaj numer kierunkowy kraju">
+
+        <div class="form-choice" role="group" aria-labelledby="payment-legend">
+          <span class="form-choice-legend" id="payment-legend">Jak chcesz zapłacić?</span>
+          <div class="form-choice-options">
+            <label class="form-choice-option">
+              <input type="radio" name="payment_option" value="deposit" required>
+              <span>Zaliczka na potwierdzenie<span class="opt-sub">20% teraz (minimum 20 EUR).</span></span>
+            </label>
+            <label class="form-choice-option">
+              <input type="radio" name="payment_option" value="full" required>
+              <span>Płatność w całości<span class="opt-sub">Zapłać całą kwotę z góry.</span></span>
+            </label>
+          </div>
+        </div>
+
+        <label class="form-consent">
+          <input type="checkbox" id="book-invoice" name="invoice_required" value="1">
+          <span>Potrzebuję faktury na firmę.</span>
+        </label>
+
         <input type="text" id="book-company" name="company" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
 
         <label class="form-consent">
           <input type="checkbox" id="book-consent" name="consent" value="1" required>
-          <span>Przeczytałem i akceptuję <a href="/pl/polityka-prywatnosci/">Politykę prywatności</a>.</span>
+          <span>Rozumiem, że teraz wysyłam tylko prośbę o rezerwację i że zostanę skontaktowany moją preferowaną metodą kontaktu w celu potwierdzenia rezerwacji (poprzez wpłatę wymaganej zaliczki). Akceptuję również <a href="/pl/regulamin/">Regulamin</a> i <a href="/pl/polityka-prywatnosci/">Polityka prywatności</a>.</span>
         </label>
         <button type="submit" class="btn btn-primary">Wyślij zapytanie o rezerwację</button>
         <p class="form-note" id="booking-page-note"></p>

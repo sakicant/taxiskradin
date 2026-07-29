@@ -42,7 +42,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:wght@600&family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/styles.css?v=96259ca5a0">
+<link rel="stylesheet" href="/styles.css?v=f675311a7c">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -148,8 +148,10 @@
 
   <section class="page-content">
     <div class="container booking-page">
-      <form class="booking-form" id="booking-page-form" action="/booking-submit.php" method="POST">
-        <h3>Vaša cesta</h3>
+      <form class="booking-form" id="booking-page-form" action="/booking-submit.php" method="POST" data-req-label="povinné" data-opt-label="nepovinné">
+
+        <h3>1. Vaša cesta</h3>
+        <p class="booking-section-hint">Tieto údaje sa prenášajú z ponuky, ktorú ste si vybrali. Zmeňte čokoľvek, čo nie je správne.</p>
 
         <label for="book-from">Miesto vyzdvihnutia (odkiaľ)</label>
         <input type="text" id="book-from" name="from" required placeholder="Skradin centrum, váš hotel alebo adresa">
@@ -157,14 +159,14 @@
         <label for="book-to">Cieľové miesto (kam)</label>
         <input type="text" id="book-to" name="to" required placeholder="Letisko Split (SPU), obec alebo adresa">
 
+        <div class="quote-field">
+          <label for="book-trip">Cesta</label>
+          <select id="book-trip" name="trip">
+            <option value="oneway">Jednosmerná</option>
+            <option value="return">Spiatočná</option>
+          </select>
+        </div>
         <div class="quote-field-row">
-          <div class="quote-field">
-            <label for="book-trip">Cesta</label>
-            <select id="book-trip" name="trip">
-              <option value="oneway">Jednosmerná</option>
-              <option value="return">Spiatočná</option>
-            </select>
-          </div>
           <div class="quote-field">
             <label for="book-pax">Cestujúci</label>
             <input type="number" id="book-pax" name="passengers" min="1" max="12" value="1" required>
@@ -177,8 +179,6 @@
 
         <p class="booking-price-line" id="booking-price-line" hidden>Pevná cena: <strong id="sum-price">&mdash;</strong> <span class="booking-price-sub">za vozidlo, až 4 cestujúci</span></p>
 
-        <h3>Údaje o ceste</h3>
-
         <div class="quote-field-row">
           <div class="quote-field">
             <label for="book-date">Dátum vyzdvihnutia</label>
@@ -189,7 +189,7 @@
             <select id="book-time" name="book-time" required><option value="">--:--</option></select>
           </div>
         </div>
-        <p class="form-hint">Rezervujte prosím aspoň 2 hodiny vopred, aby som mohol potvrdiť vozidlo a vaše vyzdvihnutie. Potrebujete jazdu skôr? <a href="tel:+385994471013">Zavolajte mi</a> alebo <a href="https://wa.me/385994471013?text=Hello%20Antonio%2C%20I%20found%20you%20through%20your%20website%20taxiskradin.hr%20and%20I%20have%20an%20inquiry%3A%20" target="_blank" rel="noopener">napíšte na WhatsApp</a>.</p>
+        <p class="form-hint form-hint-center">Rezervujte si prosím aspoň 2 hodiny vopred, aby som mohol potvrdiť dostupnosť. Ak potrebujete jazdu skôr, <a href="tel:+385994471013">zavolajte mi</a> alebo mi <a href="https://wa.me/385994471013?text=Hello%20Antonio%2C%20I%20found%20you%20through%20your%20website%20taxiskradin.hr%20and%20I%20have%20an%20inquiry%3A%20" target="_blank" rel="noopener">napíšte na WhatsApp</a>.</p>
 
         <div class="quote-field-row" id="book-return-fields" hidden>
           <div class="quote-field">
@@ -202,17 +202,10 @@
           </div>
         </div>
 
-        <label for="book-name">Meno</label>
-        <input type="text" id="book-name" name="name" required>
-
-        <label for="book-email">E-mail</label>
-        <input type="email" id="book-email" name="email" required>
-
-        <label for="book-phone">Telefón / WhatsApp</label>
-        <input type="tel" id="book-phone" name="phone" required placeholder="Uveďte predvoľbu krajiny">
+        <h3>2. Údaje o transfere</h3>
 
         <label for="book-flight">Údaje k vyzdvihnutiu (číslo príletu alebo adresa)</label>
-        <input type="text" id="book-flight" name="book-flight" required placeholder="Číslo letu, ak prilietate, alebo vaša adresa vyzdvihnutia">
+        <input type="text" id="book-flight" name="book-flight" placeholder="Číslo letu, ak prilietate, alebo vaša adresa vyzdvihnutia">
 
         <label for="book-dropoff-details">Údaje o cieli (adresa alebo číslo letu)</label>
         <input type="text" id="book-dropoff-details" name="book-dropoff-details" placeholder="Cieľová adresa alebo číslo vášho letu, ak musíte stihnúť let">
@@ -220,11 +213,55 @@
         <label for="book-notes">Ešte niečo? (nepovinné)</label>
         <textarea id="book-notes" name="book-notes" rows="4" placeholder="Detská sedačka, zastávky navyše, nadrozmerná batožina, pokyny k vyzdvihnutiu..."></textarea>
 
+        <h3>3. Vaše údaje</h3>
+
+        <label for="book-name">Meno hlavného cestujúceho</label>
+        <input type="text" id="book-name" name="name" required>
+
+        <div class="form-choice" role="group" aria-labelledby="contact-method-legend">
+          <span class="form-choice-legend" id="contact-method-legend">Ako vás mám kontaktovať pre potvrdenie?</span>
+          <div class="form-choice-options">
+            <label class="form-choice-option">
+              <input type="radio" name="contact_method" value="email" required>
+              <span>E-mail</span>
+            </label>
+            <label class="form-choice-option">
+              <input type="radio" name="contact_method" value="whatsapp" required>
+              <span>WhatsApp</span>
+            </label>
+          </div>
+        </div>
+
+        <label for="book-email">E-mail <span class="field-flag" id="email-flag"></span></label>
+        <input type="email" id="book-email" name="email">
+
+        <label for="book-phone">Telefón / WhatsApp <span class="field-flag" id="phone-flag"></span></label>
+        <input type="tel" id="book-phone" name="phone" placeholder="Uveďte predvoľbu krajiny">
+
+        <div class="form-choice" role="group" aria-labelledby="payment-legend">
+          <span class="form-choice-legend" id="payment-legend">Ako chcete zaplatiť?</span>
+          <div class="form-choice-options">
+            <label class="form-choice-option">
+              <input type="radio" name="payment_option" value="deposit" required>
+              <span>Záloha na potvrdenie<span class="opt-sub">20 % teraz (minimálne 20 EUR).</span></span>
+            </label>
+            <label class="form-choice-option">
+              <input type="radio" name="payment_option" value="full" required>
+              <span>Platba v plnej výške<span class="opt-sub">Zaplaťte celú sumu vopred.</span></span>
+            </label>
+          </div>
+        </div>
+
+        <label class="form-consent">
+          <input type="checkbox" id="book-invoice" name="invoice_required" value="1">
+          <span>Potrebujem faktúru na firmu.</span>
+        </label>
+
         <input type="text" id="book-company" name="company" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
 
         <label class="form-consent">
           <input type="checkbox" id="book-consent" name="consent" value="1" required>
-          <span>Prečítal som si <a href="/sk/ochrana-sukromia/">Zásady ochrany osobných údajov</a> a súhlasím s nimi.</span>
+          <span>Rozumiem, že teraz odosielam iba žiadosť o rezerváciu a že ma budete kontaktovať mojím preferovaným spôsobom kontaktu na potvrdenie rezervácie (zaplatením požadovanej zálohy). Súhlasím tiež s <a href="/sk/obchodne-podmienky/">Obchodné podmienky</a> a <a href="/sk/ochrana-sukromia/">Zásady ochrany súkromia</a>.</span>
         </label>
         <button type="submit" class="btn btn-primary">Odoslať žiadosť o rezerváciu</button>
         <p class="form-note" id="booking-page-note"></p>
@@ -332,6 +369,6 @@
   </svg>
 </a>
 
-<script src="/script.js?v=96259ca5a0"></script>
+<script src="/script.js?v=f675311a7c"></script>
 </body>
 </html>
