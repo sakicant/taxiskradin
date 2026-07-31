@@ -2955,7 +2955,7 @@ if (offersList) {
   };
   const hm = (t) => (t ? String(t).slice(0, 5) : '');
 
-  fetch('/offers-api.php', { headers: { Accept: 'application/json' } })
+  fetch('/offers-api.php?t=' + Date.now(), { headers: { Accept: 'application/json' }, cache: 'no-store' })
     .then((r) => r.json())
     .then((data) => {
       const offers = (data && data.offers) || [];
