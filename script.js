@@ -13,14 +13,16 @@ if (siteHeader) {
   window.addEventListener('scroll', toggleHeaderBg);
 }
 
-const navToggle = document.getElementById('nav-toggle');
-const mainNav = document.getElementById('main-nav');
-if (navToggle && mainNav) {
-  navToggle.addEventListener('click', () => {
-    const isOpen = mainNav.classList.toggle('open');
-    navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-  });
-}
+// Delegated so the hamburger keeps working even if the header is re-rendered
+// or another script interferes with a direct element binding.
+document.addEventListener('click', (e) => {
+  const toggle = e.target.closest('#nav-toggle');
+  if (!toggle) return;
+  const nav = document.getElementById('main-nav');
+  if (!nav) return;
+  const isOpen = nav.classList.toggle('open');
+  toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+});
 
 document.querySelectorAll('.nav-dropdown-toggle').forEach((toggle) => {
   toggle.addEventListener('click', () => {
@@ -1310,7 +1312,7 @@ if (quoteWidget) {
       "Skradin - center": 105,
       "NP Krka - Skradin entrance": 105,
       "Marina ACI Skradin": 99,
-      "Drniš": 110,
+      "Drniš": 140,
       "NP Krka - Roški Slap entrance": 110,
       "Knin": 140,
       "NP Plitvice Lakes": 310,
@@ -1639,7 +1641,7 @@ if (quoteWidget) {
       "Murter": 90,
       "Betina": 90,
       "Zadar": 110,
-      "Zadar Airport (ZAD)": 110,
+      "Zadar Airport (ZAD)": 140,
       "Bilice": 65,
       "Tromilja": 60,
       "NP Krka - Lozovac entrance": 65,

@@ -265,6 +265,11 @@ a.nav-lang-item:hover { color: var(--gold); background: rgba(255,255,255,0.05); 
   border: none;
   cursor: pointer;
   padding: 0;
+  /* Keep the hamburger tappable no matter what: above any late-loading
+     widget, and without double-tap zoom delay on touch devices. */
+  position: relative;
+  z-index: 150;
+  touch-action: manipulation;
 }
 .nav-toggle span {
   display: block;
