@@ -2746,10 +2746,41 @@ if (bookingPageForm) {
   const sumPriceEl = document.getElementById('sum-price');
   const priceLineEl = document.getElementById('booking-price-line');
   let PRICE_TABLE = null;
+  let PLACE_INDEX = null;
+  // Same normalisation as the server: lowercase, no diacritics/punctuation,
+  // so a hand-typed "split airport" still resolves to "Split Airport (SPU)".
+  const normPlace = (s) => String(s || '').toLowerCase()
+    .replace(/[š]/g, 's').replace(/[đ]/g, 'd').replace(/[čć]/g, 'c').replace(/[ž]/g, 'z')
+    .replace(/[^a-z0-9]+/g, ' ').trim().replace(/\s+/g, ' ');
+  const resolvePlace = (input) => {
+    if (!PLACE_INDEX) {
+      PLACE_INDEX = {};
+      Object.keys(PRICE_TABLE).forEach((k) => {
+        PLACE_INDEX[normPlace(k)] = k;
+        Object.keys(PRICE_TABLE[k]).forEach((k2) => { PLACE_INDEX[normPlace(k2)] = k2; });
+      });
+    }
+    const n = normPlace(input);
+    if (!n) return null;
+    if (PLACE_INDEX[n]) return PLACE_INDEX[n];
+    if (PLACE_INDEX[n + ' center']) return PLACE_INDEX[n + ' center'];
+    const starts = [], within = [];
+    Object.keys(PLACE_INDEX).forEach((nk) => {
+      if (nk.indexOf(n) === 0) starts.push(PLACE_INDEX[nk]);
+      else if (n.indexOf(nk) === 0) within.push(PLACE_INDEX[nk]);
+    });
+    if (starts.length === 1) return starts[0];
+    if (!starts.length && within.length === 1) return within[0];
+    return null;
+  };
   const owLookup = (a, b) => {
     if (!PRICE_TABLE) return null;
     if (PRICE_TABLE[a] && PRICE_TABLE[a][b] != null) return PRICE_TABLE[a][b];
     if (PRICE_TABLE[b] && PRICE_TABLE[b][a] != null) return PRICE_TABLE[b][a];
+    const f = resolvePlace(a), t = resolvePlace(b);
+    if (!f || !t) return null;
+    if (PRICE_TABLE[f] && PRICE_TABLE[f][t] != null) return PRICE_TABLE[f][t];
+    if (PRICE_TABLE[t] && PRICE_TABLE[t][f] != null) return PRICE_TABLE[t][f];
     return null;
   };
   const refreshPrice = () => {

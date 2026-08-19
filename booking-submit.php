@@ -32,15 +32,67 @@ function field($key, $max = 255)
 // Authoritative fare lookup. prices.json is generated from the PRICES matrix
 // in script.js at build time, so the server never trusts the ?price= value
 // that came in through the booking URL (which a visitor could edit).
-function tx_price_oneway($from, $to)
+function tx_prices()
 {
     static $PRICES = null;
     if ($PRICES === null) {
         $p = @file_get_contents(__DIR__ . '/prices.json');
         $PRICES = $p ? (json_decode($p, true) ?: []) : [];
     }
+    return $PRICES;
+}
+
+// Lowercase, strip diacritics and punctuation, collapse spaces: "Split airport"
+// and "Split Airport (SPU)" both normalise onto comparable strings.
+function tx_norm($s)
+{
+    $s = mb_strtolower(trim((string) $s), 'UTF-8');
+    $s = strtr($s, ['š' => 's', 'đ' => 'd', 'č' => 'c', 'ć' => 'c', 'ž' => 'z']);
+    $s = preg_replace('/[^a-z0-9]+/u', ' ', $s);
+    return trim(preg_replace('/\s+/', ' ', $s));
+}
+
+// Resolve what the visitor typed to a canonical PRICES place name. Customers
+// often type "skradin" or "split airport" by hand; exact matching alone made
+// most bookings fall through to "custom". A fuzzy match is only accepted when
+// it is unambiguous (exactly one candidate), so nobody gets the wrong fare.
+function tx_resolve_place($input)
+{
+    static $index = null;
+    if ($index === null) {
+        $index = [];
+        $prices = tx_prices();
+        $keys = array_keys($prices);
+        foreach ($prices as $sub) {
+            foreach (array_keys($sub) as $k) $keys[] = $k;
+        }
+        foreach (array_unique($keys) as $k) $index[tx_norm($k)] = $k;
+    }
+    $n = tx_norm($input);
+    if ($n === '') return null;
+    if (isset($index[$n])) return $index[$n];         // exact (normalised)
+    if (isset($index[$n . ' center'])) return $index[$n . ' center'];   // "sibenik" -> "Sibenik - center"
+    $starts = [];
+    $within = [];
+    foreach ($index as $nk => $k) {
+        if (strpos($nk, $n) === 0) $starts[$k] = true;          // "split airport" -> "split airport spu"
+        elseif (strpos($n, $nk) === 0) $within[$k] = true;      // "sibenik bus station main" -> "sibenik bus station"
+    }
+    if (count($starts) === 1) return array_key_first($starts);
+    if (count($starts) === 0 && count($within) === 1) return array_key_first($within);
+    return null;                                       // ambiguous or unknown
+}
+
+function tx_price_oneway($from, $to)
+{
+    $PRICES = tx_prices();
     if (isset($PRICES[$from][$to])) return $PRICES[$from][$to];
     if (isset($PRICES[$to][$from])) return $PRICES[$to][$from];
+    $f = tx_resolve_place($from);
+    $t = tx_resolve_place($to);
+    if ($f === null || $t === null) return null;
+    if (isset($PRICES[$f][$t])) return $PRICES[$f][$t];
+    if (isset($PRICES[$t][$f])) return $PRICES[$t][$f];
     return null;
 }
 
@@ -109,7 +161,7 @@ if ($errors) {
 // price, so editing ?price= in the booking link cannot change what is stored.
 if ($passengers >= 5) {
     $price = 'custom';                       // van needed, quoted by hand
-} elseif ($pickup === $dropoff) {
+} elseif (tx_norm($pickup) === tx_norm($dropoff)) {
     $price = 'meter';                        // local ride, on the taxi meter
 } else {
     $ow = tx_price_oneway($pickup, $dropoff);
@@ -178,7 +230,14 @@ if ($trip === 'return') {
     $lines[] = 'Return: ' . ($returnDate !== '' ? $returnDate : 'not set') . ' ' . $returnTime;
 }
 $lines[] = "Passengers: {$passengers}   Luggage: {$luggage}";
-$lines[] = 'Fixed price: ' . (is_numeric($price) ? 'EUR ' . $price : ($price !== '' ? $price : 'custom'));
+if (is_numeric($price)) {
+    $priceLabel = 'EUR ' . $price . ($trip === 'return' ? ' (return total)' : ' (one way)');
+} elseif ($price === 'meter') {
+    $priceLabel = 'Taxi meter (local ride, from EUR 10)';
+} else {
+    $priceLabel = 'To be confirmed by Antonio (no fixed fare listed for this route)';
+}
+$lines[] = 'Price: ' . $priceLabel;
 $lines[] = "Name: {$name}";
 $lines[] = 'Email: ' . ($email !== '' ? $email : 'not provided');
 $lines[] = 'Phone: ' . ($phone !== '' ? $phone : 'not provided');
