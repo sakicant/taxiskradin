@@ -134,7 +134,15 @@ $contactMethod = field('contact_method', 20);
 $paymentOption = field('payment_option', 20);
 $invoiceReq    = !empty($_POST['invoice_required']) ? 1 : 0;
 if ($contactMethod !== 'whatsapp' && $contactMethod !== 'email') $contactMethod = '';
-if ($paymentOption !== 'full' && $paymentOption !== 'deposit') $paymentOption = '';
+// Deposit is the only payment option offered; paying in full up front was removed.
+if ($paymentOption !== 'deposit') $paymentOption = '';
+
+// Company invoice details, only sent when the visitor ticks the invoice box.
+$coName    = $invoiceReq ? field('company_name', 160) : '';
+$coVat     = $invoiceReq ? field('company_vat', 40) : '';
+$coAddress = $invoiceReq ? field('company_address', 160) : '';
+$coZip     = $invoiceReq ? field('company_zip', 20) : '';
+$coCity    = $invoiceReq ? field('company_city', 80) : '';
 
 $errors = [];
 if ($pickup === '' || $dropoff === '') $errors[] = 'pickup and destination';
@@ -184,12 +192,14 @@ try {
          (created_at, pickup, dropoff, trip_type, pickup_date, pickup_time,
           return_date, return_time, passengers, luggage, quoted_price,
           customer_name, customer_email, customer_phone, flight, dropoff_details, notes,
-          contact_method, payment_option, invoice_required)
+          contact_method, payment_option, invoice_required,
+          company_name, company_vat, company_address, company_zip, company_city)
          VALUES
          (NOW(), :pickup, :dropoff, :trip, :pdate, :ptime,
           :rdate, :rtime, :pax, :lug, :price,
           :name, :email, :phone, :flight, :dropoff_details, :notes,
-          :contact_method, :payment_option, :invoice_required)'
+          :contact_method, :payment_option, :invoice_required,
+          :company_name, :company_vat, :company_address, :company_zip, :company_city)'
     );
     $stmt->execute([
         ':pickup' => $pickup,
@@ -211,6 +221,11 @@ try {
         ':contact_method' => $nn($contactMethod),
         ':payment_option' => $nn($paymentOption),
         ':invoice_required' => $invoiceReq,
+        ':company_name' => $nn($coName),
+        ':company_vat' => $nn($coVat),
+        ':company_address' => $nn($coAddress),
+        ':company_zip' => $nn($coZip),
+        ':company_city' => $nn($coCity),
     ]);
     $id = tx_db()->lastInsertId();
 } catch (PDOException $e) {
@@ -245,9 +260,15 @@ if ($contactMethod !== '') {
     $lines[] = 'Preferred contact: ' . ($contactMethod === 'whatsapp' ? 'WhatsApp' : 'Email');
 }
 if ($paymentOption !== '') {
-    $lines[] = 'Payment choice: ' . ($paymentOption === 'full' ? 'Pay in full' : 'Deposit to confirm (20%, min EUR 20)');
+    $lines[] = 'Payment: deposit to confirm (20%, min EUR 20)';
 }
-if ($invoiceReq) $lines[] = 'Company invoice: requested';
+if ($invoiceReq) {
+    $lines[] = 'Company invoice: requested';
+    if ($coName !== '')    $lines[] = "  Company: {$coName}";
+    if ($coVat !== '')     $lines[] = "  VAT ID: {$coVat}";
+    if ($coAddress !== '') $lines[] = "  Address: {$coAddress}";
+    if ($coZip !== '' || $coCity !== '') $lines[] = trim("  {$coZip} {$coCity}");
+}
 if ($flight !== '') $lines[] = "Pickup details: {$flight}";
 if ($dropoffDet !== '') $lines[] = "Destination details: {$dropoffDet}";
 if ($notes !== '') $lines[] = "Notes: {$notes}";

@@ -42,7 +42,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:wght@600&family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/styles.css?v=cc58e2b364">
+<link rel="stylesheet" href="/styles.css?v=3c5558ce0c">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -202,18 +202,7 @@
           </div>
         </div>
 
-        <h3>2. Transfer details</h3>
-
-        <label for="book-flight">Pickup details (arriving flight number or address)</label>
-        <input type="text" id="book-flight" name="book-flight" placeholder="Flight number if you're arriving by air, or your pickup address">
-
-        <label for="book-dropoff-details">Destination details (address or a flight number)</label>
-        <input type="text" id="book-dropoff-details" name="book-dropoff-details" placeholder="Drop-off address, or your flight number if you have a flight to catch">
-
-        <label for="book-notes">Anything else? (optional)</label>
-        <textarea id="book-notes" name="book-notes" rows="4" placeholder="Child seat, extra stops, oversized luggage, pickup instructions..."></textarea>
-
-        <h3>3. Your details</h3>
+        <h3>2. Your details</h3>
 
         <label for="book-name">Lead passenger name</label>
         <input type="text" id="book-name" name="name" required>
@@ -235,19 +224,21 @@
         <label for="book-email">Email <span class="field-flag" id="email-flag"></span></label>
         <input type="email" id="book-email" name="email">
 
-        <label for="book-phone">Phone / WhatsApp <span class="field-flag" id="phone-flag"></span></label>
-        <input type="tel" id="book-phone" name="phone" placeholder="Include country code">
+        <label for="book-phone-cc">Phone / WhatsApp <span class="field-flag" id="phone-flag"></span></label>
+        <div class="phone-row">
+          <select id="book-phone-cc" name="phone_cc"><option value="">Country</option></select>
+          <input type="tel" id="book-phone" name="phone" placeholder="Rest of your number" inputmode="tel">
+        </div>
+        <p class="form-subhint">Pick your country first, then type the rest of your number.</p>
+
+        <h3>3. Payment</h3>
 
         <div class="form-choice" role="group" aria-labelledby="payment-legend">
-          <span class="form-choice-legend" id="payment-legend">How would you like to pay?</span>
+          <span class="form-choice-legend" id="payment-legend">Please confirm how the booking is secured</span>
           <div class="form-choice-options">
             <label class="form-choice-option">
               <input type="radio" name="payment_option" value="deposit" required>
-              <span>Deposit to confirm<span class="opt-sub">20% now (minimum €20).</span></span>
-            </label>
-            <label class="form-choice-option">
-              <input type="radio" name="payment_option" value="full" required>
-              <span>Pay in full<span class="opt-sub">Settle the whole fare upfront.</span></span>
+              <span>Deposit to confirm<span class="opt-sub">20% now (minimum &euro;20), the rest on the day.</span></span>
             </label>
           </div>
         </div>
@@ -256,6 +247,39 @@
           <input type="checkbox" id="book-invoice" name="invoice_required" value="1">
           <span>I need an invoice for my company.</span>
         </label>
+
+        <div id="book-invoice-fields" class="invoice-fields" hidden>
+          <label for="book-co-name">Company full name</label>
+          <input type="text" id="book-co-name" name="company_name" autocomplete="organization">
+
+          <label for="book-co-vat">VAT ID</label>
+          <input type="text" id="book-co-vat" name="company_vat">
+
+          <label for="book-co-address">Address</label>
+          <input type="text" id="book-co-address" name="company_address" autocomplete="street-address">
+
+          <div class="quote-field-row">
+            <div class="quote-field">
+              <label for="book-co-zip">ZIP</label>
+              <input type="text" id="book-co-zip" name="company_zip" autocomplete="postal-code">
+            </div>
+            <div class="quote-field">
+              <label for="book-co-city">Town/City</label>
+              <input type="text" id="book-co-city" name="company_city" autocomplete="address-level2">
+            </div>
+          </div>
+        </div>
+
+        <h3>4. Transfer details</h3>
+
+        <label for="book-flight">Pickup details (arriving flight number or address)</label>
+        <input type="text" id="book-flight" name="book-flight" placeholder="Flight number if you're arriving by air, or your pickup address">
+
+        <label for="book-dropoff-details">Destination details (address or a flight number)</label>
+        <input type="text" id="book-dropoff-details" name="book-dropoff-details" placeholder="Drop-off address, or your flight number if you have a flight to catch">
+
+        <label for="book-notes">Anything else? (optional)</label>
+        <textarea id="book-notes" name="book-notes" rows="4" placeholder="Child seat, extra stops, oversized luggage, pickup instructions..."></textarea>
 
         <input type="text" id="book-company" name="company" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
 
@@ -369,6 +393,6 @@
   </svg>
 </a>
 
-<script src="/script.js?v=cc58e2b364"></script>
+<script src="/script.js?v=3c5558ce0c"></script>
 </body>
 </html>

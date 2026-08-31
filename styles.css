@@ -624,6 +624,26 @@ a.nav-lang-item:hover { color: var(--gold); background: rgba(255,255,255,0.05); 
 .booking-form .form-hint { margin: 10px 0 0; font-size: 0.85rem; color: #6b6b6b; }
 .booking-form .form-hint a { color: var(--gold); text-decoration: underline; }
 
+/* Booking form: phone country picker + company invoice details */
+.phone-row { display: grid; grid-template-columns: minmax(120px, 38%) 1fr; gap: 10px; }
+.booking-form .phone-row select,
+.booking-form .phone-row input { width: 100%; }
+.booking-form .form-subhint { margin: 6px 0 0; font-size: 0.8rem; color: var(--gray-600); }
+.booking-form .invoice-fields {
+  margin: 10px 0 4px;
+  padding: 16px 18px;
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+  border-left: 3px solid var(--gold);
+  border-radius: 6px;
+}
+.booking-form .invoice-fields[hidden] { display: none; }
+.booking-form .invoice-fields label:first-child { margin-top: 0; }
+@media (max-width: 480px) {
+  .phone-row { grid-template-columns: 1fr; }
+}
+
+
 /* About */
 .about { padding: 110px 0; background: var(--white); }
 .about-inner {

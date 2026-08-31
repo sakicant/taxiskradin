@@ -2807,6 +2807,37 @@ if (bookingPageForm) {
     applyContactPref();
   }
 
+  // Phone country picker. Visitors kept leaving the country code off, so the
+  // code is now chosen from a list and only the local part is typed.
+  const DIAL_CODES = 'Afghanistan 93,Albania 355,Algeria 213,Andorra 376,Angola 244,Argentina 54,Armenia 374,Aruba 297,Australia 61,Austria 43,Azerbaijan 994,Bahamas 1242,Bahrain 973,Bangladesh 880,Barbados 1246,Belarus 375,Belgium 32,Belize 501,Benin 229,Bermuda 1441,Bhutan 975,Bolivia 591,Bosnia and Herzegovina 387,Botswana 267,Brazil 55,Brunei 673,Bulgaria 359,Burkina Faso 226,Burundi 257,Cambodia 855,Cameroon 237,Canada 1,Cape Verde 238,Chile 56,China 86,Colombia 57,Costa Rica 506,Croatia 385,Cuba 53,Cyprus 357,Czechia 420,Denmark 45,Dominican Republic 1809,Ecuador 593,Egypt 20,El Salvador 503,Estonia 372,Ethiopia 251,Faroe Islands 298,Fiji 679,Finland 358,France 33,Georgia 995,Germany 49,Ghana 233,Gibraltar 350,Greece 30,Greenland 299,Guatemala 502,Honduras 504,Hong Kong 852,Hungary 36,Iceland 354,India 91,Indonesia 62,Iran 98,Iraq 964,Ireland 353,Israel 972,Italy 39,Jamaica 1876,Japan 81,Jordan 962,Kazakhstan 7,Kenya 254,Kosovo 383,Kuwait 965,Latvia 371,Lebanon 961,Libya 218,Liechtenstein 423,Lithuania 370,Luxembourg 352,Macau 853,Madagascar 261,Malaysia 60,Maldives 960,Malta 356,Mauritius 230,Mexico 52,Moldova 373,Monaco 377,Mongolia 976,Montenegro 382,Morocco 212,Mozambique 258,Namibia 264,Nepal 977,Netherlands 31,New Zealand 64,Nicaragua 505,Nigeria 234,North Macedonia 389,Norway 47,Oman 968,Pakistan 92,Panama 507,Paraguay 595,Peru 51,Philippines 63,Poland 48,Portugal 351,Qatar 974,Romania 40,Russia 7,Saudi Arabia 966,Senegal 221,Serbia 381,Singapore 65,Slovakia 421,Slovenia 386,South Africa 27,South Korea 82,Spain 34,Sri Lanka 94,Sweden 46,Switzerland 41,Taiwan 886,Tanzania 255,Thailand 66,Tunisia 216,Turkey 90,Uganda 256,Ukraine 380,United Arab Emirates 971,United Kingdom 44,United States 1,Uruguay 598,Uzbekistan 998,Venezuela 58,Vietnam 84,Zambia 260,Zimbabwe 263';
+  const ccEl = document.getElementById('book-phone-cc');
+  if (ccEl) {
+    const opts = DIAL_CODES.split(',').map((entry) => {
+      const i = entry.lastIndexOf(' ');
+      const name = entry.slice(0, i);
+      const code = entry.slice(i + 1);
+      return '<option value="+' + code + '">' + name + ' +' + code + '</option>';
+    }).join('');
+    ccEl.insertAdjacentHTML('beforeend', opts);
+  }
+
+  // Company invoice details: hidden until the visitor asks for an invoice.
+  const invoiceBox = document.getElementById('book-invoice');
+  const invoiceFields = document.getElementById('book-invoice-fields');
+  if (invoiceBox && invoiceFields) {
+    const coIds = ['book-co-name', 'book-co-vat', 'book-co-address', 'book-co-zip', 'book-co-city'];
+    const syncInvoice = () => {
+      const on = invoiceBox.checked;
+      invoiceFields.hidden = !on;
+      coIds.forEach((id) => {
+        const el = document.getElementById(id);
+        if (el) el.required = on;
+      });
+    };
+    invoiceBox.addEventListener('change', syncInvoice);
+    syncInvoice();
+  }
+
   // Bookings need at least 2 hours' notice. Block past dates in the picker and
   // enforce the 2-hour minimum on submit.
   const MIN_NOTICE_MS = 2 * 60 * 60 * 1000;
@@ -2864,7 +2895,10 @@ if (bookingPageForm) {
       body.append('price', priceParam);
       body.append('name', name);
       body.append('email', email);
-      body.append('phone', document.getElementById('book-phone').value.trim());
+      const ccSel = document.getElementById('book-phone-cc');
+      const localNum = document.getElementById('book-phone').value.trim();
+      const ccVal = ccSel ? ccSel.value : '';
+      body.append('phone', localNum ? ((ccVal ? ccVal + ' ' : '') + localNum) : '');
       body.append('flight', document.getElementById('book-flight').value.trim());
       body.append('dropoff_details', document.getElementById('book-dropoff-details').value.trim());
       body.append('notes', document.getElementById('book-notes').value.trim());
@@ -2878,6 +2912,14 @@ if (bookingPageForm) {
       if (payEl) body.append('payment_option', payEl.value);
       const invEl = document.getElementById('book-invoice');
       if (invEl) body.append('invoice_required', invEl.checked ? '1' : '');
+      if (invEl && invEl.checked) {
+        [['company_name', 'book-co-name'], ['company_vat', 'book-co-vat'],
+         ['company_address', 'book-co-address'], ['company_zip', 'book-co-zip'],
+         ['company_city', 'book-co-city']].forEach(([field, id]) => {
+          const el = document.getElementById(id);
+          if (el) body.append(field, el.value.trim());
+        });
+      }
 
       const response = await fetch('/booking-submit.php', {
         method: 'POST',
