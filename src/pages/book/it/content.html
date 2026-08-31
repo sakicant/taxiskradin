@@ -62,18 +62,7 @@
           </div>
         </div>
 
-        <h3>2. Dettagli del transfer</h3>
-
-        <label for="book-flight">Dettagli del prelievo (numero del volo in arrivo o indirizzo)</label>
-        <input type="text" id="book-flight" name="book-flight" placeholder="Numero del volo se arrivi in aereo, o il tuo indirizzo di prelievo">
-
-        <label for="book-dropoff-details">Dettagli della destinazione (indirizzo o numero di volo)</label>
-        <input type="text" id="book-dropoff-details" name="book-dropoff-details" placeholder="Indirizzo di arrivo, o il numero del volo se devi prendere un aereo">
-
-        <label for="book-notes">Altro? (facoltativo)</label>
-        <textarea id="book-notes" name="book-notes" rows="4" placeholder="Seggiolino per bambini, soste extra, bagagli ingombranti, istruzioni per il prelievo..."></textarea>
-
-        <h3>3. I suoi dati</h3>
+        <h3>2. I suoi dati</h3>
 
         <label for="book-name">Nome del passeggero principale</label>
         <input type="text" id="book-name" name="name" required>
@@ -95,19 +84,21 @@
         <label for="book-email">Email <span class="field-flag" id="email-flag"></span></label>
         <input type="email" id="book-email" name="email">
 
-        <label for="book-phone">Telefono / WhatsApp <span class="field-flag" id="phone-flag"></span></label>
-        <input type="tel" id="book-phone" name="phone" placeholder="Includi il prefisso internazionale">
+        <label for="book-phone-cc">Telefono / WhatsApp <span class="field-flag" id="phone-flag"></span></label>
+        <div class="phone-row">
+          <select id="book-phone-cc" name="phone_cc"><option value="">Paese</option></select>
+          <input type="tel" id="book-phone" name="phone" placeholder="Resto del numero, senza lo zero iniziale" inputmode="tel">
+        </div>
+        <p class="form-subhint">Selezioni prima il suo Paese, poi digiti il resto del numero.</p>
+
+        <h3>3. Pagamento</h3>
 
         <div class="form-choice" role="group" aria-labelledby="payment-legend">
-          <span class="form-choice-legend" id="payment-legend">Come preferisce pagare?</span>
+          <span class="form-choice-legend" id="payment-legend">La preghiamo di confermare come viene garantita la prenotazione</span>
           <div class="form-choice-options">
             <label class="form-choice-option">
               <input type="radio" name="payment_option" value="deposit" required>
-              <span>Acconto per confermare<span class="opt-sub">20% subito (minimo 20 €).</span></span>
-            </label>
-            <label class="form-choice-option">
-              <input type="radio" name="payment_option" value="full" required>
-              <span>Pagamento completo<span class="opt-sub">Salda l'intera tariffa in anticipo.</span></span>
+              <span>Acconto di conferma<span class="opt-sub">20% subito (minimo &euro;20), il resto il giorno della corsa.</span></span>
             </label>
           </div>
         </div>
@@ -116,6 +107,39 @@
           <input type="checkbox" id="book-invoice" name="invoice_required" value="1">
           <span>Ho bisogno di una fattura per la mia azienda.</span>
         </label>
+
+        <div id="book-invoice-fields" class="invoice-fields" hidden>
+          <label for="book-co-name">Ragione sociale completa</label>
+          <input type="text" id="book-co-name" name="company_name" autocomplete="organization">
+
+          <label for="book-co-vat">Partita IVA</label>
+          <input type="text" id="book-co-vat" name="company_vat">
+
+          <label for="book-co-address">Indirizzo</label>
+          <input type="text" id="book-co-address" name="company_address" autocomplete="street-address">
+
+          <div class="quote-field-row">
+            <div class="quote-field">
+              <label for="book-co-zip">CAP</label>
+              <input type="text" id="book-co-zip" name="company_zip" autocomplete="postal-code">
+            </div>
+            <div class="quote-field">
+              <label for="book-co-city">Località / Città</label>
+              <input type="text" id="book-co-city" name="company_city" autocomplete="address-level2">
+            </div>
+          </div>
+        </div>
+
+        <h3>4. Dettagli del transfer</h3>
+
+        <label for="book-flight">Dettagli del prelievo (numero del volo in arrivo o indirizzo)</label>
+        <input type="text" id="book-flight" name="book-flight" placeholder="Numero del volo se arrivi in aereo, o il tuo indirizzo di prelievo">
+
+        <label for="book-dropoff-details">Dettagli della destinazione (indirizzo o numero di volo)</label>
+        <input type="text" id="book-dropoff-details" name="book-dropoff-details" placeholder="Indirizzo di arrivo, o il numero del volo se devi prendere un aereo">
+
+        <label for="book-notes">Altro? (facoltativo)</label>
+        <textarea id="book-notes" name="book-notes" rows="4" placeholder="Seggiolino per bambini, soste extra, bagagli ingombranti, istruzioni per il prelievo..."></textarea>
 
         <input type="text" id="book-company" name="company" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
 

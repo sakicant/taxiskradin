@@ -71,7 +71,7 @@
 <body>
 <header class="site-header">
   <div class="container header-inner">
-    <a href="/" class="logo-link" aria-label="TAXI Antonio inicio">
+    <a href="/es/" class="logo-link" aria-label="TAXI Antonio inicio">
       <span class="logo-text"><span class="logo-taxi">TAXI</span><span class="logo-antonio"><span class="logo-a">A</span>ntonio</span></span>
     </a>
 
@@ -83,26 +83,26 @@
       <div class="nav-dropdown">
         <button class="nav-dropdown-toggle">Zona de servicio <span class="caret"></span></button>
         <div class="nav-dropdown-menu">
-          <a href="/">Skradin</a>
-          <a href="/taxi-roski-slap/">Roški Slap</a>
-          <a href="/skradin-winery-transfers/">Bodegas de Plastovo</a>
-          <a href="/aci-marina-skradin-transfers/">ACI Marina Skradin</a>
+          <a href="/es/">Skradin</a>
+          <a href="/es/taxi-roski-slap/">Roški Slap</a>
+          <a href="/es/skradin-winery-transfers/">Bodegas de Plastovo</a>
+          <a href="/es/aci-marina-skradin-transfers/">ACI Marina Skradin</a>
         </div>
       </div>
 
       <div class="nav-dropdown">
         <button class="nav-dropdown-toggle">Traslados <span class="caret"></span></button>
         <div class="nav-dropdown-menu">
-          <a href="/skradin-airport-transfers/">Traslados al aeropuerto</a>
-          <a href="/skradin-transfers/">Traslados entre ciudades</a>
+          <a href="/es/skradin-airport-transfers/">Traslados al aeropuerto</a>
+          <a href="/es/skradin-transfers/">Traslados entre ciudades</a>
           <div class="nav-dropdown-divider"></div>
-          <a href="/aci-marina-skradin-transfers/">Traslados ACI Marina Skradin</a>
+          <a href="/es/aci-marina-skradin-transfers/">Traslados ACI Marina Skradin</a>
         </div>
       </div>
 
-      <a href="/special-offers/" class="nav-offers">Ofertas</a>
-      <a href="/about/">Sobre mí</a>
-      <a href="/contact/">Contacto</a>
+      <a href="/es/special-offers/" class="nav-offers">Ofertas</a>
+      <a href="/es/about/">Sobre mí</a>
+      <a href="/es/contact/">Contacto</a>
 
       <div class="nav-dropdown nav-lang-dropdown">
         <button class="nav-dropdown-toggle"><img class="nav-lang-flag" src="/assets/img/flags/es.svg" width="20" height="15" alt="" decoding="async"> ES <span class="caret"></span></button>
@@ -201,18 +201,7 @@
           </div>
         </div>
 
-        <h3>2. Detalles del traslado</h3>
-
-        <label for="book-flight">Datos de recogida (número de vuelo de llegada o dirección)</label>
-        <input type="text" id="book-flight" name="book-flight" placeholder="Número de vuelo si llega en avión, o su dirección de recogida">
-
-        <label for="book-dropoff-details">Datos del destino (dirección o número de vuelo)</label>
-        <input type="text" id="book-dropoff-details" name="book-dropoff-details" placeholder="Dirección de destino, o su número de vuelo si tiene que coger un avión">
-
-        <label for="book-notes">¿Algo más? (opcional)</label>
-        <textarea id="book-notes" name="book-notes" rows="4" placeholder="Silla infantil, paradas adicionales, equipaje voluminoso, instrucciones de recogida..."></textarea>
-
-        <h3>3. Sus datos</h3>
+        <h3>2. Sus datos</h3>
 
         <label for="book-name">Nombre del pasajero principal</label>
         <input type="text" id="book-name" name="name" required>
@@ -234,19 +223,21 @@
         <label for="book-email">Correo electrónico <span class="field-flag" id="email-flag"></span></label>
         <input type="email" id="book-email" name="email">
 
-        <label for="book-phone">Teléfono / WhatsApp <span class="field-flag" id="phone-flag"></span></label>
-        <input type="tel" id="book-phone" name="phone" placeholder="Incluya el prefijo del país">
+        <label for="book-phone-cc">Teléfono / WhatsApp <span class="field-flag" id="phone-flag"></span></label>
+        <div class="phone-row">
+          <select id="book-phone-cc" name="phone_cc"><option value="">País</option></select>
+          <input type="tel" id="book-phone" name="phone" placeholder="Resto de su número, sin el cero inicial" inputmode="tel">
+        </div>
+        <p class="form-subhint">Elija primero su país y luego escriba el resto de su número.</p>
+
+        <h3>3. Pago</h3>
 
         <div class="form-choice" role="group" aria-labelledby="payment-legend">
-          <span class="form-choice-legend" id="payment-legend">¿Cómo prefiere pagar?</span>
+          <span class="form-choice-legend" id="payment-legend">Por favor, confirme cómo se garantiza la reserva</span>
           <div class="form-choice-options">
             <label class="form-choice-option">
               <input type="radio" name="payment_option" value="deposit" required>
-              <span>Anticipo para confirmar<span class="opt-sub">20 % ahora (mínimo 20 €).</span></span>
-            </label>
-            <label class="form-choice-option">
-              <input type="radio" name="payment_option" value="full" required>
-              <span>Pagar el importe completo<span class="opt-sub">Abone la tarifa completa por adelantado.</span></span>
+              <span>Anticipo de confirmación<span class="opt-sub">20% ahora (mínimo &euro;20), el resto el mismo día.</span></span>
             </label>
           </div>
         </div>
@@ -255,6 +246,39 @@
           <input type="checkbox" id="book-invoice" name="invoice_required" value="1">
           <span>Necesito una factura para mi empresa.</span>
         </label>
+
+        <div id="book-invoice-fields" class="invoice-fields" hidden>
+          <label for="book-co-name">Nombre completo de la empresa</label>
+          <input type="text" id="book-co-name" name="company_name" autocomplete="organization">
+
+          <label for="book-co-vat">NIF / CIF</label>
+          <input type="text" id="book-co-vat" name="company_vat">
+
+          <label for="book-co-address">Dirección</label>
+          <input type="text" id="book-co-address" name="company_address" autocomplete="street-address">
+
+          <div class="quote-field-row">
+            <div class="quote-field">
+              <label for="book-co-zip">Código postal</label>
+              <input type="text" id="book-co-zip" name="company_zip" autocomplete="postal-code">
+            </div>
+            <div class="quote-field">
+              <label for="book-co-city">Localidad / Ciudad</label>
+              <input type="text" id="book-co-city" name="company_city" autocomplete="address-level2">
+            </div>
+          </div>
+        </div>
+
+        <h3>4. Detalles del traslado</h3>
+
+        <label for="book-flight">Datos de recogida (número de vuelo de llegada o dirección)</label>
+        <input type="text" id="book-flight" name="book-flight" placeholder="Número de vuelo si llega en avión, o su dirección de recogida">
+
+        <label for="book-dropoff-details">Datos del destino (dirección o número de vuelo)</label>
+        <input type="text" id="book-dropoff-details" name="book-dropoff-details" placeholder="Dirección de destino, o su número de vuelo si tiene que coger un avión">
+
+        <label for="book-notes">¿Algo más? (opcional)</label>
+        <textarea id="book-notes" name="book-notes" rows="4" placeholder="Silla infantil, paradas adicionales, equipaje voluminoso, instrucciones de recogida..."></textarea>
 
         <input type="text" id="book-company" name="company" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
 
@@ -281,19 +305,19 @@
     <div class="footer-col">
       <h4>Mis servicios:</h4>
       <ul class="footer-links">
-        <li><a href="/skradin-airport-transfers/">Traslados al aeropuerto</a></li>
-        <li><a href="/skradin-transfers/">Traslados entre ciudades</a></li>
-        <li><a href="/taxi-roski-slap/">Roški Slap</a></li>
-        <li><a href="/aci-marina-skradin-transfers/">Traslados ACI Marina Skradin</a></li>
-        <li><a href="/skradin-winery-transfers/">Bodegas</a></li>
+        <li><a href="/es/skradin-airport-transfers/">Traslados al aeropuerto</a></li>
+        <li><a href="/es/skradin-transfers/">Traslados entre ciudades</a></li>
+        <li><a href="/es/taxi-roski-slap/">Roški Slap</a></li>
+        <li><a href="/es/aci-marina-skradin-transfers/">Traslados ACI Marina Skradin</a></li>
+        <li><a href="/es/skradin-winery-transfers/">Bodegas</a></li>
       </ul>
 
       <h4>Ayuda</h4>
       <ul class="footer-links">
-        <li><a href="/privacy-policy/">Política de privacidad</a></li>
-        <li><a href="/about/">Sobre mí</a></li>
-        <li><a href="/contact/">Contacto</a></li>
-        <li><a href="/terms-and-conditions/">Términos y condiciones</a></li>
+        <li><a href="/es/privacy-policy/">Política de privacidad</a></li>
+        <li><a href="/es/about/">Sobre mí</a></li>
+        <li><a href="/es/contact/">Contacto</a></li>
+        <li><a href="/es/terms-and-conditions/">Términos y condiciones</a></li>
       </ul>
     </div>
 
@@ -355,7 +379,7 @@
 </footer>
 
 <div class="cookie-banner" id="cookie-banner" hidden>
-  <p>Solo utilizo cookies para medir el rendimiento de este sitio web (análisis). Los datos que envía al reservar se usan únicamente para organizar su traslado, nada más. Consulte mi <a href="/privacy-policy/">Política de privacidad</a>.</p>
+  <p>Solo utilizo cookies para medir el rendimiento de este sitio web (análisis). Los datos que envía al reservar se usan únicamente para organizar su traslado, nada más. Consulte mi <a href="/es/privacy-policy/">Política de privacidad</a>.</p>
   <div class="cookie-actions">
     <button type="button" class="btn btn-primary cookie-btn" id="cookie-accept">Aceptar</button>
     <button type="button" class="btn btn-secondary cookie-btn" id="cookie-decline">Aceptar solo las necesarias</button>

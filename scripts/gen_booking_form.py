@@ -1,15 +1,16 @@
 # -*- coding: utf-8 -*-
-"""Regenerate the /book/ page for every language into the 3-part layout.
+"""Regenerate the /book/ page for every language in the v3 layout.
 
-Reuses each language's EXISTING translated field labels/placeholders (extracted
-by stable element id from the current content.html) and injects the new strings
-from scripts/booking_i18n.json. Terms/Privacy link URLs + labels come from each
-page's meta.json. Run per site:
+Section order: 1 your trip, 2 your details, 3 payment, 4 transfer details,
+then the terms checkbox. Reuses each language's EXISTING translated field
+labels/placeholders (pulled by stable element id from the current
+content.html) and injects the shared strings from scripts/booking_i18n.json.
+Terms/Privacy link URLs and labels come from each page's meta.json.
 
     python scripts/gen_booking_form.py <site-root>
 
-Fails loudly (non-zero exit) if any expected string can't be extracted, so a
-structural change never silently produces a broken page.
+Fails loudly if an expected string cannot be extracted, so a structural change
+never silently produces a broken page.
 """
 import os, io, re, json, sys
 
@@ -31,8 +32,13 @@ def grab(pattern, text, label, flags=re.S):
     return m.group(1).strip()
 
 
-def label_for(text, fid):
-    return grab(r'<label for="%s">(.*?)</label>' % re.escape(fid), text, 'label ' + fid)
+def label_for(text, *fids):
+    """Label text for the first id that is present (ids changed in v3)."""
+    for fid in fids:
+        m = re.search(r'<label for="%s">(.*?)</label>' % re.escape(fid), text, re.S)
+        if m:
+            return m.group(1).strip()
+    raise SystemExit('  MISSING [label %s]' % ' / '.join(fids))
 
 
 def placeholder_of(text, fid):
@@ -84,7 +90,7 @@ def build(lang):
     dropoff_l = label_for(text, 'book-dropoff-details'); dropoff_ph = placeholder_of(text, 'book-dropoff-details')
     notes_l = label_for(text, 'book-notes');       notes_ph = placeholder_of(text, 'book-notes')
     email_l = strip_flag(label_for(text, 'book-email'))
-    phone_l = strip_flag(label_for(text, 'book-phone')); phone_ph = placeholder_of(text, 'book-phone')
+    phone_l = strip_flag(label_for(text, 'book-phone-cc', 'book-phone'))
     submit = grab(r'<button type="submit"[^>]*>(.*?)</button>', text, 'submit button')
     wa_href = grab(r'href="(https://wa\.me/[^"]*)"', text, 'whatsapp href')
 
@@ -156,14 +162,7 @@ def build(lang):
         '            <select id="book-return-time" name="book-return-time"><option value="">--:--</option></select>\n'
         '          </div>\n'
         '        </div>\n\n'
-        '        <h3>2. %(transfer_section)s</h3>\n\n'
-        '        <label for="book-flight">%(flight_l)s</label>\n'
-        '        <input type="text" id="book-flight" name="book-flight" placeholder="%(flight_ph)s">\n\n'
-        '        <label for="book-dropoff-details">%(dropoff_l)s</label>\n'
-        '        <input type="text" id="book-dropoff-details" name="book-dropoff-details" placeholder="%(dropoff_ph)s">\n\n'
-        '        <label for="book-notes">%(notes_l)s</label>\n'
-        '        <textarea id="book-notes" name="book-notes" rows="4" placeholder="%(notes_ph)s"></textarea>\n\n'
-        '        <h3>3. %(details_section)s</h3>\n\n'
+        '        <h3>2. %(details_section)s</h3>\n\n'
         '        <label for="book-name">%(name_label)s</label>\n'
         '        <input type="text" id="book-name" name="name" required>\n\n'
         '        <div class="form-choice" role="group" aria-labelledby="contact-method-legend">\n'
@@ -181,8 +180,13 @@ def build(lang):
         '        </div>\n\n'
         '        <label for="book-email">%(email_l)s <span class="field-flag" id="email-flag"></span></label>\n'
         '        <input type="email" id="book-email" name="email">\n\n'
-        '        <label for="book-phone">%(phone_l)s <span class="field-flag" id="phone-flag"></span></label>\n'
-        '        <input type="tel" id="book-phone" name="phone" placeholder="%(phone_ph)s">\n\n'
+        '        <label for="book-phone-cc">%(phone_l)s <span class="field-flag" id="phone-flag"></span></label>\n'
+        '        <div class="phone-row">\n'
+        '          <select id="book-phone-cc" name="phone_cc"><option value="">%(country_label)s</option></select>\n'
+        '          <input type="tel" id="book-phone" name="phone" placeholder="%(phone_ph)s" inputmode="tel">\n'
+        '        </div>\n'
+        '        <p class="form-subhint">%(phone_subhint)s</p>\n\n'
+        '        <h3>3. %(payment_section)s</h3>\n\n'
         '        <div class="form-choice" role="group" aria-labelledby="payment-legend">\n'
         '          <span class="form-choice-legend" id="payment-legend">%(pay_legend)s</span>\n'
         '          <div class="form-choice-options">\n'
@@ -190,16 +194,37 @@ def build(lang):
         '              <input type="radio" name="payment_option" value="deposit" required>\n'
         '              <span>%(deposit_label)s<span class="opt-sub">%(deposit_sub)s</span></span>\n'
         '            </label>\n'
-        '            <label class="form-choice-option">\n'
-        '              <input type="radio" name="payment_option" value="full" required>\n'
-        '              <span>%(full_label)s<span class="opt-sub">%(full_sub)s</span></span>\n'
-        '            </label>\n'
         '          </div>\n'
         '        </div>\n\n'
         '        <label class="form-consent">\n'
         '          <input type="checkbox" id="book-invoice" name="invoice_required" value="1">\n'
         '          <span>%(invoice_label)s</span>\n'
         '        </label>\n\n'
+        '        <div id="book-invoice-fields" class="invoice-fields" hidden>\n'
+        '          <label for="book-co-name">%(co_name)s</label>\n'
+        '          <input type="text" id="book-co-name" name="company_name" autocomplete="organization">\n\n'
+        '          <label for="book-co-vat">%(co_vat)s</label>\n'
+        '          <input type="text" id="book-co-vat" name="company_vat">\n\n'
+        '          <label for="book-co-address">%(co_address)s</label>\n'
+        '          <input type="text" id="book-co-address" name="company_address" autocomplete="street-address">\n\n'
+        '          <div class="quote-field-row">\n'
+        '            <div class="quote-field">\n'
+        '              <label for="book-co-zip">%(co_zip)s</label>\n'
+        '              <input type="text" id="book-co-zip" name="company_zip" autocomplete="postal-code">\n'
+        '            </div>\n'
+        '            <div class="quote-field">\n'
+        '              <label for="book-co-city">%(co_city)s</label>\n'
+        '              <input type="text" id="book-co-city" name="company_city" autocomplete="address-level2">\n'
+        '            </div>\n'
+        '          </div>\n'
+        '        </div>\n\n'
+        '        <h3>4. %(transfer_section)s</h3>\n\n'
+        '        <label for="book-flight">%(flight_l)s</label>\n'
+        '        <input type="text" id="book-flight" name="book-flight" placeholder="%(flight_ph)s">\n\n'
+        '        <label for="book-dropoff-details">%(dropoff_l)s</label>\n'
+        '        <input type="text" id="book-dropoff-details" name="book-dropoff-details" placeholder="%(dropoff_ph)s">\n\n'
+        '        <label for="book-notes">%(notes_l)s</label>\n'
+        '        <textarea id="book-notes" name="book-notes" rows="4" placeholder="%(notes_ph)s"></textarea>\n\n'
         '        <input type="text" id="book-company" name="company" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">\n\n'
         '        <label class="form-consent">\n'
         '          <input type="checkbox" id="book-consent" name="consent" value="1" required>\n'
@@ -218,16 +243,20 @@ def build(lang):
         'pax_l': pax_l, 'lug_l': lug_l, 'price_inner': price_inner,
         'date_l': date_l, 'time_l': time_l, 'hint': hint,
         'rdate_l': rdate_l, 'rtime_l': rtime_l,
+        'details_section': t['details_section'], 'name_label': t['name_label'],
+        'contact_legend': t['contact_legend'], 'email_l': email_l,
+        'phone_l': phone_l, 'country_label': t['country_label'],
+        'phone_ph': t['phone_ph'], 'phone_subhint': t['phone_subhint'],
+        'payment_section': t['payment_section'], 'pay_legend': t['pay_legend'],
+        'deposit_label': t['deposit_label'], 'deposit_sub': t['deposit_sub'],
+        'invoice_label': t['invoice_label'],
+        'co_name': t['co_name'], 'co_vat': t['co_vat'], 'co_address': t['co_address'],
+        'co_zip': t['co_zip'], 'co_city': t['co_city'],
         'transfer_section': t['transfer_section'],
         'flight_l': flight_l, 'flight_ph': flight_ph,
         'dropoff_l': dropoff_l, 'dropoff_ph': dropoff_ph,
         'notes_l': notes_l, 'notes_ph': notes_ph,
-        'details_section': t['details_section'], 'name_label': t['name_label'],
-        'contact_legend': t['contact_legend'], 'email_l': email_l,
-        'phone_l': phone_l, 'phone_ph': phone_ph, 'pay_legend': t['pay_legend'],
-        'deposit_label': t['deposit_label'], 'deposit_sub': t['deposit_sub'],
-        'full_label': t['full_label'], 'full_sub': t['full_sub'],
-        'invoice_label': t['invoice_label'], 'consent': consent, 'submit': submit,
+        'consent': consent, 'submit': submit,
     }
 
     return hero + form + TIME_SCRIPT
@@ -237,7 +266,9 @@ def main():
     for lang in LANGS:
         out = build(lang)
         dest = os.path.join(ROOT, 'src', 'pages', 'book', lang, 'content.html')
-        io.open(dest, 'w', encoding='utf-8', newline='').write(out)
+        tmp = dest + '.tmp'
+        io.open(tmp, 'w', encoding='utf-8', newline='').write(out)
+        os.replace(tmp, dest)
         print('  wrote', lang)
     print('done:', len(LANGS), 'booking pages')
 

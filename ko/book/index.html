@@ -71,7 +71,7 @@
 <body>
 <header class="site-header">
   <div class="container header-inner">
-    <a href="/" class="logo-link" aria-label="TAXI Antonio 홈">
+    <a href="/ko/" class="logo-link" aria-label="TAXI Antonio 홈">
       <span class="logo-text"><span class="logo-taxi">TAXI</span><span class="logo-antonio"><span class="logo-a">A</span>ntonio</span></span>
     </a>
 
@@ -83,26 +83,26 @@
       <div class="nav-dropdown">
         <button class="nav-dropdown-toggle">서비스 지역 <span class="caret"></span></button>
         <div class="nav-dropdown-menu">
-          <a href="/">Skradin</a>
-          <a href="/taxi-roski-slap/">Roški Slap</a>
-          <a href="/skradin-winery-transfers/">Plastovo 와이너리</a>
-          <a href="/aci-marina-skradin-transfers/">ACI Marina Skradin</a>
+          <a href="/ko/">Skradin</a>
+          <a href="/ko/taxi-roski-slap/">Roški Slap</a>
+          <a href="/ko/skradin-winery-transfers/">Plastovo 와이너리</a>
+          <a href="/ko/aci-marina-skradin-transfers/">ACI Marina Skradin</a>
         </div>
       </div>
 
       <div class="nav-dropdown">
         <button class="nav-dropdown-toggle">트랜스퍼 <span class="caret"></span></button>
         <div class="nav-dropdown-menu">
-          <a href="/skradin-airport-transfers/">공항 트랜스퍼</a>
-          <a href="/skradin-transfers/">도시 간 트랜스퍼</a>
+          <a href="/ko/skradin-airport-transfers/">공항 트랜스퍼</a>
+          <a href="/ko/skradin-transfers/">도시 간 트랜스퍼</a>
           <div class="nav-dropdown-divider"></div>
-          <a href="/aci-marina-skradin-transfers/">ACI Marina Skradin 트랜스퍼</a>
+          <a href="/ko/aci-marina-skradin-transfers/">ACI Marina Skradin 트랜스퍼</a>
         </div>
       </div>
 
-      <a href="/special-offers/" class="nav-offers">특가 혜택</a>
-      <a href="/about/">소개</a>
-      <a href="/contact/">문의</a>
+      <a href="/ko/special-offers/" class="nav-offers">특가 혜택</a>
+      <a href="/ko/about/">소개</a>
+      <a href="/ko/contact/">문의</a>
 
       <div class="nav-dropdown nav-lang-dropdown">
         <button class="nav-dropdown-toggle"><img class="nav-lang-flag" src="/assets/img/flags/ko.svg" width="20" height="15" alt="" decoding="async"> KR <span class="caret"></span></button>
@@ -201,18 +201,7 @@
           </div>
         </div>
 
-        <h3>2. 이동 정보</h3>
-
-        <label for="book-flight">픽업 세부 정보 (도착 항공편 번호 또는 주소)</label>
-        <input type="text" id="book-flight" name="book-flight" placeholder="항공편으로 도착하시면 편명, 아니면 픽업 주소">
-
-        <label for="book-dropoff-details">목적지 세부 정보 (주소 또는 항공편 번호)</label>
-        <input type="text" id="book-dropoff-details" name="book-dropoff-details" placeholder="하차 주소, 또는 타실 항공편이 있으면 편명">
-
-        <label for="book-notes">추가로 알려주실 내용이 있나요? (선택)</label>
-        <textarea id="book-notes" name="book-notes" rows="4" placeholder="유아용 카시트, 추가 경유, 대형 짐, 픽업 안내 사항..."></textarea>
-
-        <h3>3. 고객님 정보</h3>
+        <h3>2. 고객님 정보</h3>
 
         <label for="book-name">대표 승객 성함</label>
         <input type="text" id="book-name" name="name" required>
@@ -234,19 +223,21 @@
         <label for="book-email">이메일 <span class="field-flag" id="email-flag"></span></label>
         <input type="email" id="book-email" name="email">
 
-        <label for="book-phone">전화 / WhatsApp <span class="field-flag" id="phone-flag"></span></label>
-        <input type="tel" id="book-phone" name="phone" placeholder="국가번호를 포함해 주세요">
+        <label for="book-phone-cc">전화 / WhatsApp <span class="field-flag" id="phone-flag"></span></label>
+        <div class="phone-row">
+          <select id="book-phone-cc" name="phone_cc"><option value="">국가</option></select>
+          <input type="tel" id="book-phone" name="phone" placeholder="앞자리 0을 제외한 나머지 번호" inputmode="tel">
+        </div>
+        <p class="form-subhint">먼저 국가를 선택한 다음 나머지 번호를 입력해 주세요.</p>
+
+        <h3>3. 결제</h3>
 
         <div class="form-choice" role="group" aria-labelledby="payment-legend">
-          <span class="form-choice-legend" id="payment-legend">어떻게 결제하시겠어요?</span>
+          <span class="form-choice-legend" id="payment-legend">예약을 확정하는 방법을 확인해 주세요</span>
           <div class="form-choice-options">
             <label class="form-choice-option">
               <input type="radio" name="payment_option" value="deposit" required>
-              <span>예약 확정 보증금<span class="opt-sub">지금 20% (최소 20유로).</span></span>
-            </label>
-            <label class="form-choice-option">
-              <input type="radio" name="payment_option" value="full" required>
-              <span>전액 결제<span class="opt-sub">요금 전액을 미리 결제합니다.</span></span>
+              <span>예약 확정 예약금<span class="opt-sub">지금 20% (최소 &euro;20), 나머지는 당일에 결제합니다.</span></span>
             </label>
           </div>
         </div>
@@ -255,6 +246,39 @@
           <input type="checkbox" id="book-invoice" name="invoice_required" value="1">
           <span>회사용 세금계산서가 필요합니다.</span>
         </label>
+
+        <div id="book-invoice-fields" class="invoice-fields" hidden>
+          <label for="book-co-name">회사 정식 명칭</label>
+          <input type="text" id="book-co-name" name="company_name" autocomplete="organization">
+
+          <label for="book-co-vat">사업자등록번호 / VAT 번호</label>
+          <input type="text" id="book-co-vat" name="company_vat">
+
+          <label for="book-co-address">주소</label>
+          <input type="text" id="book-co-address" name="company_address" autocomplete="street-address">
+
+          <div class="quote-field-row">
+            <div class="quote-field">
+              <label for="book-co-zip">우편번호</label>
+              <input type="text" id="book-co-zip" name="company_zip" autocomplete="postal-code">
+            </div>
+            <div class="quote-field">
+              <label for="book-co-city">시/군/구</label>
+              <input type="text" id="book-co-city" name="company_city" autocomplete="address-level2">
+            </div>
+          </div>
+        </div>
+
+        <h3>4. 이동 정보</h3>
+
+        <label for="book-flight">픽업 세부 정보 (도착 항공편 번호 또는 주소)</label>
+        <input type="text" id="book-flight" name="book-flight" placeholder="항공편으로 도착하시면 편명, 아니면 픽업 주소">
+
+        <label for="book-dropoff-details">목적지 세부 정보 (주소 또는 항공편 번호)</label>
+        <input type="text" id="book-dropoff-details" name="book-dropoff-details" placeholder="하차 주소, 또는 타실 항공편이 있으면 편명">
+
+        <label for="book-notes">추가로 알려주실 내용이 있나요? (선택)</label>
+        <textarea id="book-notes" name="book-notes" rows="4" placeholder="유아용 카시트, 추가 경유, 대형 짐, 픽업 안내 사항..."></textarea>
 
         <input type="text" id="book-company" name="company" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
 
@@ -281,19 +305,19 @@
     <div class="footer-col">
       <h4>제공 서비스:</h4>
       <ul class="footer-links">
-        <li><a href="/skradin-airport-transfers/">공항 트랜스퍼</a></li>
-        <li><a href="/skradin-transfers/">도시 간 트랜스퍼</a></li>
-        <li><a href="/taxi-roski-slap/">Roški Slap</a></li>
-        <li><a href="/aci-marina-skradin-transfers/">ACI Marina Skradin 트랜스퍼</a></li>
-        <li><a href="/skradin-winery-transfers/">와이너리</a></li>
+        <li><a href="/ko/skradin-airport-transfers/">공항 트랜스퍼</a></li>
+        <li><a href="/ko/skradin-transfers/">도시 간 트랜스퍼</a></li>
+        <li><a href="/ko/taxi-roski-slap/">Roški Slap</a></li>
+        <li><a href="/ko/aci-marina-skradin-transfers/">ACI Marina Skradin 트랜스퍼</a></li>
+        <li><a href="/ko/skradin-winery-transfers/">와이너리</a></li>
       </ul>
 
       <h4>고객 지원</h4>
       <ul class="footer-links">
-        <li><a href="/privacy-policy/">개인정보 처리방침</a></li>
-        <li><a href="/about/">소개</a></li>
-        <li><a href="/contact/">문의</a></li>
-        <li><a href="/terms-and-conditions/">이용약관</a></li>
+        <li><a href="/ko/privacy-policy/">개인정보 처리방침</a></li>
+        <li><a href="/ko/about/">소개</a></li>
+        <li><a href="/ko/contact/">문의</a></li>
+        <li><a href="/ko/terms-and-conditions/">이용약관</a></li>
       </ul>
     </div>
 
@@ -355,7 +379,7 @@
 </footer>
 
 <div class="cookie-banner" id="cookie-banner" hidden>
-  <p>저는 이 웹사이트의 성능을 측정하기 위해서만 쿠키를 사용합니다(분석 목적). 예약 시 보내주시는 정보는 오직 이동 서비스를 준비하기 위해서만 사용되며, 다른 용도로는 사용되지 않습니다. 자세한 내용은 <a href="/privacy-policy/">개인정보 처리방침</a>을 참고해 주세요.</p>
+  <p>저는 이 웹사이트의 성능을 측정하기 위해서만 쿠키를 사용합니다(분석 목적). 예약 시 보내주시는 정보는 오직 이동 서비스를 준비하기 위해서만 사용되며, 다른 용도로는 사용되지 않습니다. 자세한 내용은 <a href="/ko/privacy-policy/">개인정보 처리방침</a>을 참고해 주세요.</p>
   <div class="cookie-actions">
     <button type="button" class="btn btn-primary cookie-btn" id="cookie-accept">동의</button>
     <button type="button" class="btn btn-secondary cookie-btn" id="cookie-decline">필수 항목만 동의</button>

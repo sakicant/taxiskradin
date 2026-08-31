@@ -62,18 +62,7 @@
           </div>
         </div>
 
-        <h3>2. 送迎の詳細</h3>
-
-        <label for="book-flight">お迎えの詳細（到着便名またはご住所）</label>
-        <input type="text" id="book-flight" name="book-flight" placeholder="空路でご到着の場合は便名、それ以外はお迎え先のご住所">
-
-        <label for="book-dropoff-details">目的地の詳細（ご住所または便名）</label>
-        <input type="text" id="book-dropoff-details" name="book-dropoff-details" placeholder="お送り先のご住所、またはご搭乗予定がある場合は便名">
-
-        <label for="book-notes">その他ご要望（任意）</label>
-        <textarea id="book-notes" name="book-notes" rows="4" placeholder="チャイルドシート、途中の立ち寄り、大型のお荷物、お迎えに関するご指定など..."></textarea>
-
-        <h3>3. お客様の情報</h3>
+        <h3>2. お客様の情報</h3>
 
         <label for="book-name">代表となるご乗車者のお名前</label>
         <input type="text" id="book-name" name="name" required>
@@ -95,19 +84,21 @@
         <label for="book-email">メールアドレス <span class="field-flag" id="email-flag"></span></label>
         <input type="email" id="book-email" name="email">
 
-        <label for="book-phone">電話番号 / WhatsApp <span class="field-flag" id="phone-flag"></span></label>
-        <input type="tel" id="book-phone" name="phone" placeholder="国番号を含めてください">
+        <label for="book-phone-cc">電話番号 / WhatsApp <span class="field-flag" id="phone-flag"></span></label>
+        <div class="phone-row">
+          <select id="book-phone-cc" name="phone_cc"><option value="">国</option></select>
+          <input type="tel" id="book-phone" name="phone" placeholder="先頭の 0 を除いた電話番号の残り" inputmode="tel">
+        </div>
+        <p class="form-subhint">まず国を選び、次に番号の残りをご入力ください。</p>
+
+        <h3>3. お支払い</h3>
 
         <div class="form-choice" role="group" aria-labelledby="payment-legend">
-          <span class="form-choice-legend" id="payment-legend">お支払い方法をお選びください。</span>
+          <span class="form-choice-legend" id="payment-legend">ご予約の確保方法をご確認ください</span>
           <div class="form-choice-options">
             <label class="form-choice-option">
               <input type="radio" name="payment_option" value="deposit" required>
-              <span>予約確定のための前金<span class="opt-sub">今すぐ20％（最低20ユーロ）。</span></span>
-            </label>
-            <label class="form-choice-option">
-              <input type="radio" name="payment_option" value="full" required>
-              <span>全額のお支払い<span class="opt-sub">料金の全額を前もってお支払いいただきます。</span></span>
+              <span>予約確定のための前金<span class="opt-sub">今 20%（最低 &euro;20）、残りは当日にお支払いください。</span></span>
             </label>
           </div>
         </div>
@@ -116,6 +107,39 @@
           <input type="checkbox" id="book-invoice" name="invoice_required" value="1">
           <span>会社宛ての請求書が必要です。</span>
         </label>
+
+        <div id="book-invoice-fields" class="invoice-fields" hidden>
+          <label for="book-co-name">会社の正式名称</label>
+          <input type="text" id="book-co-name" name="company_name" autocomplete="organization">
+
+          <label for="book-co-vat">VAT番号／法人登録番号</label>
+          <input type="text" id="book-co-vat" name="company_vat">
+
+          <label for="book-co-address">住所</label>
+          <input type="text" id="book-co-address" name="company_address" autocomplete="street-address">
+
+          <div class="quote-field-row">
+            <div class="quote-field">
+              <label for="book-co-zip">郵便番号</label>
+              <input type="text" id="book-co-zip" name="company_zip" autocomplete="postal-code">
+            </div>
+            <div class="quote-field">
+              <label for="book-co-city">市区町村</label>
+              <input type="text" id="book-co-city" name="company_city" autocomplete="address-level2">
+            </div>
+          </div>
+        </div>
+
+        <h3>4. 送迎の詳細</h3>
+
+        <label for="book-flight">お迎えの詳細（到着便名またはご住所）</label>
+        <input type="text" id="book-flight" name="book-flight" placeholder="空路でご到着の場合は便名、それ以外はお迎え先のご住所">
+
+        <label for="book-dropoff-details">目的地の詳細（ご住所または便名）</label>
+        <input type="text" id="book-dropoff-details" name="book-dropoff-details" placeholder="お送り先のご住所、またはご搭乗予定がある場合は便名">
+
+        <label for="book-notes">その他ご要望（任意）</label>
+        <textarea id="book-notes" name="book-notes" rows="4" placeholder="チャイルドシート、途中の立ち寄り、大型のお荷物、お迎えに関するご指定など..."></textarea>
 
         <input type="text" id="book-company" name="company" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
 

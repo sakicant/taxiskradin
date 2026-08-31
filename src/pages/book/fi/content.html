@@ -62,18 +62,7 @@
           </div>
         </div>
 
-        <h3>2. Kuljetuksen tiedot</h3>
-
-        <label for="book-flight">Noudon tiedot (saapuvan lennon numero tai osoite)</label>
-        <input type="text" id="book-flight" name="book-flight" placeholder="Lennon numero, jos saavut lentäen, tai noutopaikkasi osoite">
-
-        <label for="book-dropoff-details">Määränpään tiedot (osoite tai lennon numero)</label>
-        <input type="text" id="book-dropoff-details" name="book-dropoff-details" placeholder="Jättöosoite tai lentosi numero, jos sinulla on lento">
-
-        <label for="book-notes">Jotain muuta? (valinnainen)</label>
-        <textarea id="book-notes" name="book-notes" rows="4" placeholder="Turvaistuin, ylimääräiset pysähdykset, ylisuuret matkatavarat, nouto-ohjeet..."></textarea>
-
-        <h3>3. Omat tietosi</h3>
+        <h3>2. Omat tietosi</h3>
 
         <label for="book-name">Päämatkustajan nimi</label>
         <input type="text" id="book-name" name="name" required>
@@ -95,19 +84,21 @@
         <label for="book-email">Sähköposti <span class="field-flag" id="email-flag"></span></label>
         <input type="email" id="book-email" name="email">
 
-        <label for="book-phone">Puhelin / WhatsApp <span class="field-flag" id="phone-flag"></span></label>
-        <input type="tel" id="book-phone" name="phone" placeholder="Lisää maatunnus">
+        <label for="book-phone-cc">Puhelin / WhatsApp <span class="field-flag" id="phone-flag"></span></label>
+        <div class="phone-row">
+          <select id="book-phone-cc" name="phone_cc"><option value="">Maa</option></select>
+          <input type="tel" id="book-phone" name="phone" placeholder="Numeronne loppuosa, ilman alkunollaa" inputmode="tel">
+        </div>
+        <p class="form-subhint">Valitkaa ensin maa ja kirjoittakaa sitten numeronne loppuosa.</p>
+
+        <h3>3. Maksu</h3>
 
         <div class="form-choice" role="group" aria-labelledby="payment-legend">
-          <span class="form-choice-legend" id="payment-legend">Miten haluat maksaa?</span>
+          <span class="form-choice-legend" id="payment-legend">Vahvistakaa, miten varaus varmistetaan</span>
           <div class="form-choice-options">
             <label class="form-choice-option">
               <input type="radio" name="payment_option" value="deposit" required>
-              <span>Vahvistava ennakkomaksu<span class="opt-sub">20% nyt (vähintään 20 EUR).</span></span>
-            </label>
-            <label class="form-choice-option">
-              <input type="radio" name="payment_option" value="full" required>
-              <span>Maksa koko summa<span class="opt-sub">Maksa koko hinta etukäteen.</span></span>
+              <span>Vahvistava ennakkomaksu<span class="opt-sub">20% heti (vähintään &euro;20), loput matkapäivänä.</span></span>
             </label>
           </div>
         </div>
@@ -116,6 +107,39 @@
           <input type="checkbox" id="book-invoice" name="invoice_required" value="1">
           <span>Tarvitsen laskun yritykselleni.</span>
         </label>
+
+        <div id="book-invoice-fields" class="invoice-fields" hidden>
+          <label for="book-co-name">Yrityksen koko nimi</label>
+          <input type="text" id="book-co-name" name="company_name" autocomplete="organization">
+
+          <label for="book-co-vat">ALV-numero</label>
+          <input type="text" id="book-co-vat" name="company_vat">
+
+          <label for="book-co-address">Osoite</label>
+          <input type="text" id="book-co-address" name="company_address" autocomplete="street-address">
+
+          <div class="quote-field-row">
+            <div class="quote-field">
+              <label for="book-co-zip">Postinumero</label>
+              <input type="text" id="book-co-zip" name="company_zip" autocomplete="postal-code">
+            </div>
+            <div class="quote-field">
+              <label for="book-co-city">Paikkakunta/Kaupunki</label>
+              <input type="text" id="book-co-city" name="company_city" autocomplete="address-level2">
+            </div>
+          </div>
+        </div>
+
+        <h3>4. Kuljetuksen tiedot</h3>
+
+        <label for="book-flight">Noudon tiedot (saapuvan lennon numero tai osoite)</label>
+        <input type="text" id="book-flight" name="book-flight" placeholder="Lennon numero, jos saavut lentäen, tai noutopaikkasi osoite">
+
+        <label for="book-dropoff-details">Määränpään tiedot (osoite tai lennon numero)</label>
+        <input type="text" id="book-dropoff-details" name="book-dropoff-details" placeholder="Jättöosoite tai lentosi numero, jos sinulla on lento">
+
+        <label for="book-notes">Jotain muuta? (valinnainen)</label>
+        <textarea id="book-notes" name="book-notes" rows="4" placeholder="Turvaistuin, ylimääräiset pysähdykset, ylisuuret matkatavarat, nouto-ohjeet..."></textarea>
 
         <input type="text" id="book-company" name="company" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
 

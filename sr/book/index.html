@@ -71,7 +71,7 @@
 <body>
 <header class="site-header">
   <div class="container header-inner">
-    <a href="/" class="logo-link" aria-label="TAXI Antonio početna">
+    <a href="/sr/" class="logo-link" aria-label="TAXI Antonio početna">
       <span class="logo-text"><span class="logo-taxi">TAXI</span><span class="logo-antonio"><span class="logo-a">A</span>ntonio</span></span>
     </a>
 
@@ -83,24 +83,24 @@
       <div class="nav-dropdown">
         <button class="nav-dropdown-toggle">Područje usluge <span class="caret"></span></button>
         <div class="nav-dropdown-menu">
-          <a href="/">Skradin</a>
-          <a href="/taxi-roski-slap/">Roški Slap</a>
-          <a href="/skradin-winery-transfers/">Vinarije Plastovo</a>
-          <a href="/aci-marina-skradin-transfers/">ACI Marina Skradin</a>
+          <a href="/sr/">Skradin</a>
+          <a href="/sr/taxi-roski-slap/">Roški Slap</a>
+          <a href="/sr/skradin-winery-transfers/">Vinarije Plastovo</a>
+          <a href="/sr/aci-marina-skradin-transfers/">ACI Marina Skradin</a>
         </div>
       </div>
 
       <div class="nav-dropdown">
         <button class="nav-dropdown-toggle">Transferi <span class="caret"></span></button>
         <div class="nav-dropdown-menu">
-          <a href="/skradin-airport-transfers/">Transferi do aerodroma</a>
-          <a href="/skradin-transfers/">Međugradski transferi</a>
+          <a href="/sr/skradin-airport-transfers/">Transferi do aerodroma</a>
+          <a href="/sr/skradin-transfers/">Međugradski transferi</a>
           <div class="nav-dropdown-divider"></div>
-          <a href="/aci-marina-skradin-transfers/">ACI Marina Skradin transferi</a>
+          <a href="/sr/aci-marina-skradin-transfers/">ACI Marina Skradin transferi</a>
         </div>
       </div>
 
-      <a href="/special-offers/" class="nav-offers">Ponude</a>
+      <a href="/sr/special-offers/" class="nav-offers">Ponude</a>
       <a href="/sr/about/">O meni</a>
       <a href="/sr/contact/">Kontakt</a>
 
@@ -201,18 +201,7 @@
           </div>
         </div>
 
-        <h3>2. Podaci o transferu</h3>
-
-        <label for="book-flight">Detalji preuzimanja (broj dolaznog leta ili adresa)</label>
-        <input type="text" id="book-flight" name="book-flight" placeholder="Broj leta ako stižete avionom, ili adresa preuzimanja">
-
-        <label for="book-dropoff-details">Detalji odredišta (adresa ili broj leta)</label>
-        <input type="text" id="book-dropoff-details" name="book-dropoff-details" placeholder="Adresa dolaska, ili broj leta ako imate let koji morate stići">
-
-        <label for="book-notes">Još nešto? (opciono)</label>
-        <textarea id="book-notes" name="book-notes" rows="4" placeholder="Dečje sedište, dodatna zaustavljanja, glomazan prtljag, uputstva za preuzimanje..."></textarea>
-
-        <h3>3. Vaši podaci</h3>
+        <h3>2. Vaši podaci</h3>
 
         <label for="book-name">Ime nosioca rezervacije</label>
         <input type="text" id="book-name" name="name" required>
@@ -234,19 +223,21 @@
         <label for="book-email">Imejl <span class="field-flag" id="email-flag"></span></label>
         <input type="email" id="book-email" name="email">
 
-        <label for="book-phone">Telefon / WhatsApp <span class="field-flag" id="phone-flag"></span></label>
-        <input type="tel" id="book-phone" name="phone" placeholder="Uključite pozivni broj države">
+        <label for="book-phone-cc">Telefon / WhatsApp <span class="field-flag" id="phone-flag"></span></label>
+        <div class="phone-row">
+          <select id="book-phone-cc" name="phone_cc"><option value="">Država</option></select>
+          <input type="tel" id="book-phone" name="phone" placeholder="Ostatak broja, bez početne nule" inputmode="tel">
+        </div>
+        <p class="form-subhint">Prvo izaberite državu, zatim upišite ostatak broja.</p>
+
+        <h3>3. Plaćanje</h3>
 
         <div class="form-choice" role="group" aria-labelledby="payment-legend">
-          <span class="form-choice-legend" id="payment-legend">Kako želite da platite?</span>
+          <span class="form-choice-legend" id="payment-legend">Molimo potvrdite kako se rezervacija obezbeđuje</span>
           <div class="form-choice-options">
             <label class="form-choice-option">
               <input type="radio" name="payment_option" value="deposit" required>
-              <span>Avans za potvrdu<span class="opt-sub">20% odmah (najmanje 20 EUR).</span></span>
-            </label>
-            <label class="form-choice-option">
-              <input type="radio" name="payment_option" value="full" required>
-              <span>Plaćanje u celosti<span class="opt-sub">Platite ceo iznos unapred.</span></span>
+              <span>Avans za potvrdu<span class="opt-sub">20% odmah (najmanje &euro;20), ostatak na dan vožnje.</span></span>
             </label>
           </div>
         </div>
@@ -255,6 +246,39 @@
           <input type="checkbox" id="book-invoice" name="invoice_required" value="1">
           <span>Potreban mi je račun za firmu.</span>
         </label>
+
+        <div id="book-invoice-fields" class="invoice-fields" hidden>
+          <label for="book-co-name">Pun naziv firme</label>
+          <input type="text" id="book-co-name" name="company_name" autocomplete="organization">
+
+          <label for="book-co-vat">PIB</label>
+          <input type="text" id="book-co-vat" name="company_vat">
+
+          <label for="book-co-address">Adresa</label>
+          <input type="text" id="book-co-address" name="company_address" autocomplete="street-address">
+
+          <div class="quote-field-row">
+            <div class="quote-field">
+              <label for="book-co-zip">Poštanski broj</label>
+              <input type="text" id="book-co-zip" name="company_zip" autocomplete="postal-code">
+            </div>
+            <div class="quote-field">
+              <label for="book-co-city">Mesto / Grad</label>
+              <input type="text" id="book-co-city" name="company_city" autocomplete="address-level2">
+            </div>
+          </div>
+        </div>
+
+        <h3>4. Podaci o transferu</h3>
+
+        <label for="book-flight">Detalji preuzimanja (broj dolaznog leta ili adresa)</label>
+        <input type="text" id="book-flight" name="book-flight" placeholder="Broj leta ako stižete avionom, ili adresa preuzimanja">
+
+        <label for="book-dropoff-details">Detalji odredišta (adresa ili broj leta)</label>
+        <input type="text" id="book-dropoff-details" name="book-dropoff-details" placeholder="Adresa dolaska, ili broj leta ako imate let koji morate stići">
+
+        <label for="book-notes">Još nešto? (opciono)</label>
+        <textarea id="book-notes" name="book-notes" rows="4" placeholder="Dečje sedište, dodatna zaustavljanja, glomazan prtljag, uputstva za preuzimanje..."></textarea>
 
         <input type="text" id="book-company" name="company" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
 
@@ -281,19 +305,19 @@
     <div class="footer-col">
       <h4>Moje usluge:</h4>
       <ul class="footer-links">
-        <li><a href="/skradin-airport-transfers/">Transferi do aerodroma</a></li>
-        <li><a href="/skradin-transfers/">Međugradski transferi</a></li>
-        <li><a href="/taxi-roski-slap/">Roški Slap</a></li>
-        <li><a href="/aci-marina-skradin-transfers/">ACI Marina Skradin transferi</a></li>
-        <li><a href="/skradin-winery-transfers/">Vinarije</a></li>
+        <li><a href="/sr/skradin-airport-transfers/">Transferi do aerodroma</a></li>
+        <li><a href="/sr/skradin-transfers/">Međugradski transferi</a></li>
+        <li><a href="/sr/taxi-roski-slap/">Roški Slap</a></li>
+        <li><a href="/sr/aci-marina-skradin-transfers/">ACI Marina Skradin transferi</a></li>
+        <li><a href="/sr/skradin-winery-transfers/">Vinarije</a></li>
       </ul>
 
       <h4>Podrška</h4>
       <ul class="footer-links">
-        <li><a href="/privacy-policy/">Politika privatnosti</a></li>
+        <li><a href="/sr/privacy-policy/">Politika privatnosti</a></li>
         <li><a href="/sr/about/">O meni</a></li>
         <li><a href="/sr/contact/">Kontakt</a></li>
-        <li><a href="/terms-and-conditions/">Uslovi poslovanja</a></li>
+        <li><a href="/sr/terms-and-conditions/">Uslovi poslovanja</a></li>
       </ul>
     </div>
 
@@ -355,7 +379,7 @@
 </footer>
 
 <div class="cookie-banner" id="cookie-banner" hidden>
-  <p>Kolačiće koristim samo da bih merio rad ovog sajta (analitika). Podatke koje pošaljete prilikom rezervacije koristim isključivo za organizaciju vašeg prevoza i ništa drugo. Pogledajte moju <a href="/privacy-policy/">Politiku privatnosti</a>.</p>
+  <p>Kolačiće koristim samo da bih merio rad ovog sajta (analitika). Podatke koje pošaljete prilikom rezervacije koristim isključivo za organizaciju vašeg prevoza i ništa drugo. Pogledajte moju <a href="/sr/privacy-policy/">Politiku privatnosti</a>.</p>
   <div class="cookie-actions">
     <button type="button" class="btn btn-primary cookie-btn" id="cookie-accept">Prihvati</button>
     <button type="button" class="btn btn-secondary cookie-btn" id="cookie-decline">Prihvati samo neophodne</button>

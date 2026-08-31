@@ -71,7 +71,7 @@
 <body>
 <header class="site-header">
   <div class="container header-inner">
-    <a href="/" class="logo-link" aria-label="TAXI Antonio startside">
+    <a href="/no/" class="logo-link" aria-label="TAXI Antonio startside">
       <span class="logo-text"><span class="logo-taxi">TAXI</span><span class="logo-antonio"><span class="logo-a">A</span>ntonio</span></span>
     </a>
 
@@ -83,26 +83,26 @@
       <div class="nav-dropdown">
         <button class="nav-dropdown-toggle">Serviceområde <span class="caret"></span></button>
         <div class="nav-dropdown-menu">
-          <a href="/">Skradin</a>
-          <a href="/taxi-roski-slap/">Roški Slap</a>
-          <a href="/skradin-winery-transfers/">Vingårder i Plastovo</a>
-          <a href="/aci-marina-skradin-transfers/">ACI Marina Skradin</a>
+          <a href="/no/">Skradin</a>
+          <a href="/no/taxi-roski-slap/">Roški Slap</a>
+          <a href="/no/skradin-winery-transfers/">Vingårder i Plastovo</a>
+          <a href="/no/aci-marina-skradin-transfers/">ACI Marina Skradin</a>
         </div>
       </div>
 
       <div class="nav-dropdown">
         <button class="nav-dropdown-toggle">Transport <span class="caret"></span></button>
         <div class="nav-dropdown-menu">
-          <a href="/skradin-airport-transfers/">Flyplasstransfer</a>
-          <a href="/skradin-transfers/">Transport mellom byer</a>
+          <a href="/no/skradin-airport-transfers/">Flyplasstransfer</a>
+          <a href="/no/skradin-transfers/">Transport mellom byer</a>
           <div class="nav-dropdown-divider"></div>
-          <a href="/aci-marina-skradin-transfers/">ACI Marina Skradin-transport</a>
+          <a href="/no/aci-marina-skradin-transfers/">ACI Marina Skradin-transport</a>
         </div>
       </div>
 
-      <a href="/special-offers/" class="nav-offers">Tilbud</a>
-      <a href="/about/">Om meg</a>
-      <a href="/contact/">Kontakt</a>
+      <a href="/no/special-offers/" class="nav-offers">Tilbud</a>
+      <a href="/no/about/">Om meg</a>
+      <a href="/no/contact/">Kontakt</a>
 
       <div class="nav-dropdown nav-lang-dropdown">
         <button class="nav-dropdown-toggle"><img class="nav-lang-flag" src="/assets/img/flags/no.svg" width="20" height="15" alt="" decoding="async"> NO <span class="caret"></span></button>
@@ -201,18 +201,7 @@
           </div>
         </div>
 
-        <h3>2. Transferdetaljer</h3>
-
-        <label for="book-flight">Henteopplysninger (flynummer ved ankomst eller adresse)</label>
-        <input type="text" id="book-flight" name="book-flight" placeholder="Flynummer hvis du ankommer med fly, eller henteadressen din">
-
-        <label for="book-dropoff-details">Destinasjonsopplysninger (adresse eller et flynummer)</label>
-        <input type="text" id="book-dropoff-details" name="book-dropoff-details" placeholder="Avleveringsadresse, eller flynummeret ditt hvis du skal rekke et fly">
-
-        <label for="book-notes">Noe annet? (valgfritt)</label>
-        <textarea id="book-notes" name="book-notes" rows="4" placeholder="Barnesete, ekstra stopp, stor bagasje, beskjed om henting..."></textarea>
-
-        <h3>3. Dine opplysninger</h3>
+        <h3>2. Dine opplysninger</h3>
 
         <label for="book-name">Navn på hovedpassasjer</label>
         <input type="text" id="book-name" name="name" required>
@@ -234,19 +223,21 @@
         <label for="book-email">E-post <span class="field-flag" id="email-flag"></span></label>
         <input type="email" id="book-email" name="email">
 
-        <label for="book-phone">Telefon / WhatsApp <span class="field-flag" id="phone-flag"></span></label>
-        <input type="tel" id="book-phone" name="phone" placeholder="Ta med landkode">
+        <label for="book-phone-cc">Telefon / WhatsApp <span class="field-flag" id="phone-flag"></span></label>
+        <div class="phone-row">
+          <select id="book-phone-cc" name="phone_cc"><option value="">Land</option></select>
+          <input type="tel" id="book-phone" name="phone" placeholder="Resten av nummeret ditt, uten den innledende 0" inputmode="tel">
+        </div>
+        <p class="form-subhint">Velg landet ditt først, og skriv deretter resten av nummeret.</p>
+
+        <h3>3. Betaling</h3>
 
         <div class="form-choice" role="group" aria-labelledby="payment-legend">
-          <span class="form-choice-legend" id="payment-legend">Hvordan vil du betale?</span>
+          <span class="form-choice-legend" id="payment-legend">Bekreft gjerne hvordan bestillingen sikres</span>
           <div class="form-choice-options">
             <label class="form-choice-option">
               <input type="radio" name="payment_option" value="deposit" required>
-              <span>Depositum for å bekrefte<span class="opt-sub">20% nå (minst 20 EUR).</span></span>
-            </label>
-            <label class="form-choice-option">
-              <input type="radio" name="payment_option" value="full" required>
-              <span>Betal alt<span class="opt-sub">Betal hele prisen på forhånd.</span></span>
+              <span>Forskudd som bekrefter<span class="opt-sub">20% nå (minst &euro;20), resten på reisedagen.</span></span>
             </label>
           </div>
         </div>
@@ -255,6 +246,39 @@
           <input type="checkbox" id="book-invoice" name="invoice_required" value="1">
           <span>Jeg trenger en faktura for firmaet mitt.</span>
         </label>
+
+        <div id="book-invoice-fields" class="invoice-fields" hidden>
+          <label for="book-co-name">Firmaets fulle navn</label>
+          <input type="text" id="book-co-name" name="company_name" autocomplete="organization">
+
+          <label for="book-co-vat">MVA-nummer</label>
+          <input type="text" id="book-co-vat" name="company_vat">
+
+          <label for="book-co-address">Adresse</label>
+          <input type="text" id="book-co-address" name="company_address" autocomplete="street-address">
+
+          <div class="quote-field-row">
+            <div class="quote-field">
+              <label for="book-co-zip">Postnummer</label>
+              <input type="text" id="book-co-zip" name="company_zip" autocomplete="postal-code">
+            </div>
+            <div class="quote-field">
+              <label for="book-co-city">Sted/By</label>
+              <input type="text" id="book-co-city" name="company_city" autocomplete="address-level2">
+            </div>
+          </div>
+        </div>
+
+        <h3>4. Transferdetaljer</h3>
+
+        <label for="book-flight">Henteopplysninger (flynummer ved ankomst eller adresse)</label>
+        <input type="text" id="book-flight" name="book-flight" placeholder="Flynummer hvis du ankommer med fly, eller henteadressen din">
+
+        <label for="book-dropoff-details">Destinasjonsopplysninger (adresse eller et flynummer)</label>
+        <input type="text" id="book-dropoff-details" name="book-dropoff-details" placeholder="Avleveringsadresse, eller flynummeret ditt hvis du skal rekke et fly">
+
+        <label for="book-notes">Noe annet? (valgfritt)</label>
+        <textarea id="book-notes" name="book-notes" rows="4" placeholder="Barnesete, ekstra stopp, stor bagasje, beskjed om henting..."></textarea>
 
         <input type="text" id="book-company" name="company" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
 
@@ -281,19 +305,19 @@
     <div class="footer-col">
       <h4>Mine tjenester:</h4>
       <ul class="footer-links">
-        <li><a href="/skradin-airport-transfers/">Flyplasstransfer</a></li>
-        <li><a href="/skradin-transfers/">Transport mellom byer</a></li>
-        <li><a href="/taxi-roski-slap/">Roški Slap</a></li>
-        <li><a href="/aci-marina-skradin-transfers/">ACI Marina Skradin-transport</a></li>
-        <li><a href="/skradin-winery-transfers/">Vingårder</a></li>
+        <li><a href="/no/skradin-airport-transfers/">Flyplasstransfer</a></li>
+        <li><a href="/no/skradin-transfers/">Transport mellom byer</a></li>
+        <li><a href="/no/taxi-roski-slap/">Roški Slap</a></li>
+        <li><a href="/no/aci-marina-skradin-transfers/">ACI Marina Skradin-transport</a></li>
+        <li><a href="/no/skradin-winery-transfers/">Vingårder</a></li>
       </ul>
 
       <h4>Hjelp</h4>
       <ul class="footer-links">
-        <li><a href="/privacy-policy/">Personvern</a></li>
-        <li><a href="/about/">Om meg</a></li>
-        <li><a href="/contact/">Kontakt</a></li>
-        <li><a href="/terms-and-conditions/">Vilkår og betingelser</a></li>
+        <li><a href="/no/privacy-policy/">Personvern</a></li>
+        <li><a href="/no/about/">Om meg</a></li>
+        <li><a href="/no/contact/">Kontakt</a></li>
+        <li><a href="/no/terms-and-conditions/">Vilkår og betingelser</a></li>
       </ul>
     </div>
 
@@ -355,7 +379,7 @@
 </footer>
 
 <div class="cookie-banner" id="cookie-banner" hidden>
-  <p>Jeg bruker bare informasjonskapsler for å måle hvordan dette nettstedet fungerer (analyse). Opplysningene du sender ved bestilling, brukes utelukkende til å organisere transporten din, ingenting annet. Se min <a href="/privacy-policy/">personvernerklæring</a>.</p>
+  <p>Jeg bruker bare informasjonskapsler for å måle hvordan dette nettstedet fungerer (analyse). Opplysningene du sender ved bestilling, brukes utelukkende til å organisere transporten din, ingenting annet. Se min <a href="/no/privacy-policy/">personvernerklæring</a>.</p>
   <div class="cookie-actions">
     <button type="button" class="btn btn-primary cookie-btn" id="cookie-accept">Godta</button>
     <button type="button" class="btn btn-secondary cookie-btn" id="cookie-decline">Godta bare nødvendige</button>

@@ -62,18 +62,7 @@
           </div>
         </div>
 
-        <h3>2. Údaje o transfere</h3>
-
-        <label for="book-flight">Údaje k vyzdvihnutiu (číslo príletu alebo adresa)</label>
-        <input type="text" id="book-flight" name="book-flight" placeholder="Číslo letu, ak prilietate, alebo vaša adresa vyzdvihnutia">
-
-        <label for="book-dropoff-details">Údaje o cieli (adresa alebo číslo letu)</label>
-        <input type="text" id="book-dropoff-details" name="book-dropoff-details" placeholder="Cieľová adresa alebo číslo vášho letu, ak musíte stihnúť let">
-
-        <label for="book-notes">Ešte niečo? (nepovinné)</label>
-        <textarea id="book-notes" name="book-notes" rows="4" placeholder="Detská sedačka, zastávky navyše, nadrozmerná batožina, pokyny k vyzdvihnutiu..."></textarea>
-
-        <h3>3. Vaše údaje</h3>
+        <h3>2. Vaše údaje</h3>
 
         <label for="book-name">Meno hlavného cestujúceho</label>
         <input type="text" id="book-name" name="name" required>
@@ -95,19 +84,21 @@
         <label for="book-email">E-mail <span class="field-flag" id="email-flag"></span></label>
         <input type="email" id="book-email" name="email">
 
-        <label for="book-phone">Telefón / WhatsApp <span class="field-flag" id="phone-flag"></span></label>
-        <input type="tel" id="book-phone" name="phone" placeholder="Uveďte predvoľbu krajiny">
+        <label for="book-phone-cc">Telefón / WhatsApp <span class="field-flag" id="phone-flag"></span></label>
+        <div class="phone-row">
+          <select id="book-phone-cc" name="phone_cc"><option value="">Krajina</option></select>
+          <input type="tel" id="book-phone" name="phone" placeholder="Zvyšok čísla, bez úvodnej nuly" inputmode="tel">
+        </div>
+        <p class="form-subhint">Najprv vyberte krajinu, potom zadajte zvyšok čísla.</p>
+
+        <h3>3. Platba</h3>
 
         <div class="form-choice" role="group" aria-labelledby="payment-legend">
-          <span class="form-choice-legend" id="payment-legend">Ako chcete zaplatiť?</span>
+          <span class="form-choice-legend" id="payment-legend">Potvrďte prosím, ako je rezervácia zabezpečená</span>
           <div class="form-choice-options">
             <label class="form-choice-option">
               <input type="radio" name="payment_option" value="deposit" required>
-              <span>Záloha na potvrdenie<span class="opt-sub">20 % teraz (minimálne 20 EUR).</span></span>
-            </label>
-            <label class="form-choice-option">
-              <input type="radio" name="payment_option" value="full" required>
-              <span>Platba v plnej výške<span class="opt-sub">Zaplaťte celú sumu vopred.</span></span>
+              <span>Záloha na potvrdenie<span class="opt-sub">20% ihneď (najmenej &euro;20), zvyšok v deň jazdy.</span></span>
             </label>
           </div>
         </div>
@@ -116,6 +107,39 @@
           <input type="checkbox" id="book-invoice" name="invoice_required" value="1">
           <span>Potrebujem faktúru na firmu.</span>
         </label>
+
+        <div id="book-invoice-fields" class="invoice-fields" hidden>
+          <label for="book-co-name">Úplný názov firmy</label>
+          <input type="text" id="book-co-name" name="company_name" autocomplete="organization">
+
+          <label for="book-co-vat">IČ DPH</label>
+          <input type="text" id="book-co-vat" name="company_vat">
+
+          <label for="book-co-address">Adresa</label>
+          <input type="text" id="book-co-address" name="company_address" autocomplete="street-address">
+
+          <div class="quote-field-row">
+            <div class="quote-field">
+              <label for="book-co-zip">PSČ</label>
+              <input type="text" id="book-co-zip" name="company_zip" autocomplete="postal-code">
+            </div>
+            <div class="quote-field">
+              <label for="book-co-city">Obec / Mesto</label>
+              <input type="text" id="book-co-city" name="company_city" autocomplete="address-level2">
+            </div>
+          </div>
+        </div>
+
+        <h3>4. Údaje o transfere</h3>
+
+        <label for="book-flight">Údaje k vyzdvihnutiu (číslo príletu alebo adresa)</label>
+        <input type="text" id="book-flight" name="book-flight" placeholder="Číslo letu, ak prilietate, alebo vaša adresa vyzdvihnutia">
+
+        <label for="book-dropoff-details">Údaje o cieli (adresa alebo číslo letu)</label>
+        <input type="text" id="book-dropoff-details" name="book-dropoff-details" placeholder="Cieľová adresa alebo číslo vášho letu, ak musíte stihnúť let">
+
+        <label for="book-notes">Ešte niečo? (nepovinné)</label>
+        <textarea id="book-notes" name="book-notes" rows="4" placeholder="Detská sedačka, zastávky navyše, nadrozmerná batožina, pokyny k vyzdvihnutiu..."></textarea>
 
         <input type="text" id="book-company" name="company" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
 

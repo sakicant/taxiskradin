@@ -1,7 +1,7 @@
 {
   "slug": "krka-national-park-transfers",
   "title": "Taksi do Nacionalnog parka Krka | Svi ulazi iz Skradina | TAXI Antonio",
-  "description": "Taksi i transfer po fiksnoj ceni do Nacionalnog parka Krka iz Skradina. Ulaz Skradin 15 €, Lozovac 25 €, Roški Slap 50 € po vozilu. Rezervišite direktno kod Antonija.",
+  "description": "Taksi i transfer po fiksnoj ceni do Nacionalnog parka Krka iz Skradina. Ulazi Skradin, Lozovac i Roški Slap, cena po vozilu na upit. Rezervišite direktno kod Antonija.",
   "keywords": "taksi nacionalni park krka, ulaz krka skradin, skradin do krke, ulaz krka lozovac, taksi do skradinski buk, transfer nacionalni park krka",
   "og_image": "https://taxiskradin.hr/assets/img/skradin-hero-roski.webp",
   "schema": [
@@ -16,10 +16,23 @@
         "name": "Taxi Antonio",
         "telephone": "+385994471013",
         "email": "info@taxiskradin.hr",
-        "address": { "@type": "PostalAddress", "addressLocality": "Skradin", "addressCountry": "HR" },
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "142" }
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Skradin",
+          "addressCountry": "HR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "142"
+        }
       },
-      "areaServed": ["Skradin", "Krka National Park", "Lozovac", "Roški Slap"],
+      "areaServed": [
+        "Skradin",
+        "Krka National Park",
+        "Lozovac",
+        "Roški Slap"
+      ],
       "url": "https://taxiskradin.hr/sr/krka-national-park-transfers/",
       "offers": {
         "@type": "Offer",
@@ -35,27 +48,42 @@
         {
           "@type": "Question",
           "name": "Koji ulaz u Nacionalni park Krka da izaberem?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Iz Skradina je ulaz Skradin prirodan izbor. Nalazi se na brodskom pristaništu nacionalnog parka, a brod parka do Skradinskog buka uključen je u vašu ulaznicu. Lozovac je drumski ulaz, sa autobusom parka do vodopada, i odgovara putnicima koji dolaze automobilom sa autoputa. Roški Slap je mirniji gornji deo parka, dublje u unutrašnjosti." }
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Iz Skradina je ulaz Skradin prirodan izbor. Nalazi se na brodskom pristaništu nacionalnog parka, a brod parka do Skradinskog buka uključen je u vašu ulaznicu. Lozovac je drumski ulaz, sa autobusom parka do vodopada, i odgovara putnicima koji dolaze automobilom sa autoputa. Roški Slap je mirniji gornji deo parka, dublje u unutrašnjosti."
+          }
         },
         {
           "@type": "Question",
           "name": "Koliko košta taksi od Skradina do Nacionalnog parka Krka?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Fiksnih 15 evra po vozilu do ulaza Skradin, 25 evra do Lozovca i 50 evra do Roškog Slapa. Cena je po vozilu za najviše 4 putnika, ne po osobi, i dogovara se pre polaska." }
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fiksna cena po vozilu do ulaza Skradin, do Lozovca i do Roškog Slapa, na upit. Cena je po vozilu za najviše 4 putnika, ne po osobi, i dogovara se pre polaska."
+          }
         },
         {
           "@type": "Question",
           "name": "Da li prodajete ulaznice za Nacionalni park Krka?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Ne. Ja sam taksista i vozač transfera, ne turistička agencija. Ulaznicu kupujete direktno od nacionalnog parka. Ja obavljam samo vožnju tamo i nazad, po fiksnoj ceni dogovorenoj unapred." }
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ne. Ja sam taksista i vozač transfera, ne turistička agencija. Ulaznicu kupujete direktno od nacionalnog parka. Ja obavljam samo vožnju tamo i nazad, po fiksnoj ceni dogovorenoj unapred."
+          }
         },
         {
           "@type": "Question",
           "name": "Možete li da nas sačekate i vratite sa Krke?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Da. Mogu da sačekam u blizini i vratim vas kada budete spremni, ili da se vratim u dogovoreno vreme. Recite mi svoj plan prilikom rezervacije i potvrdiću fiksnu cenu za obe vožnje." }
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Da. Mogu da sačekam u blizini i vratim vas kada budete spremni, ili da se vratim u dogovoreno vreme. Recite mi svoj plan prilikom rezervacije i potvrdiću fiksnu cenu za obe vožnje."
+          }
         },
         {
           "@type": "Question",
           "name": "Koliko unapred treba da rezervišem?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Najmanje 2 sata unapred da bih mogao da potvrdim vozilo i vreme preuzimanja. U sezoni jutarnji termini brzo popune, pa je ranije bolje. Za raniju vožnju, pozovite me ili pišite na WhatsApp direktno." }
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Najmanje 2 sata unapred da bih mogao da potvrdim vozilo i vreme preuzimanja. U sezoni jutarnji termini brzo popune, pa je ranije bolje. Za raniju vožnju, pozovite me ili pišite na WhatsApp direktno."
+          }
         }
       ]
     }

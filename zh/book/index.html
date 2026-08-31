@@ -71,7 +71,7 @@
 <body>
 <header class="site-header">
   <div class="container header-inner">
-    <a href="/" class="logo-link" aria-label="TAXI Antonio 首页">
+    <a href="/zh/" class="logo-link" aria-label="TAXI Antonio 首页">
       <span class="logo-text"><span class="logo-taxi">TAXI</span><span class="logo-antonio"><span class="logo-a">A</span>ntonio</span></span>
     </a>
 
@@ -83,24 +83,24 @@
       <div class="nav-dropdown">
         <button class="nav-dropdown-toggle">服务区域 <span class="caret"></span></button>
         <div class="nav-dropdown-menu">
-          <a href="/">Skradin</a>
-          <a href="/taxi-roski-slap/">Roški Slap</a>
-          <a href="/skradin-winery-transfers/">Plastovo 酒庄</a>
-          <a href="/aci-marina-skradin-transfers/">ACI Marina Skradin</a>
+          <a href="/zh/">Skradin</a>
+          <a href="/zh/taxi-roski-slap/">Roški Slap</a>
+          <a href="/zh/skradin-winery-transfers/">Plastovo 酒庄</a>
+          <a href="/zh/aci-marina-skradin-transfers/">ACI Marina Skradin</a>
         </div>
       </div>
 
       <div class="nav-dropdown">
         <button class="nav-dropdown-toggle">接送服务 <span class="caret"></span></button>
         <div class="nav-dropdown-menu">
-          <a href="/skradin-airport-transfers/">机场接送</a>
-          <a href="/skradin-transfers/">城际接送</a>
+          <a href="/zh/skradin-airport-transfers/">机场接送</a>
+          <a href="/zh/skradin-transfers/">城际接送</a>
           <div class="nav-dropdown-divider"></div>
-          <a href="/aci-marina-skradin-transfers/">ACI Marina Skradin 接送</a>
+          <a href="/zh/aci-marina-skradin-transfers/">ACI Marina Skradin 接送</a>
         </div>
       </div>
 
-      <a href="/special-offers/" class="nav-offers">优惠</a>
+      <a href="/zh/special-offers/" class="nav-offers">优惠</a>
       <a href="/zh/about/">关于我</a>
       <a href="/zh/contact/">联系我</a>
 
@@ -201,18 +201,7 @@
           </div>
         </div>
 
-        <h3>2. 接送详情</h3>
-
-        <label for="book-flight">上车详情(抵达航班号或地址)</label>
-        <input type="text" id="book-flight" name="book-flight" placeholder="如果您乘飞机抵达请填写航班号,否则填写您的上车地址">
-
-        <label for="book-dropoff-details">目的地详情(地址或航班号)</label>
-        <input type="text" id="book-dropoff-details" name="book-dropoff-details" placeholder="下车地址,或如果您要赶航班请填写航班号">
-
-        <label for="book-notes">还有其他需求吗?(选填)</label>
-        <textarea id="book-notes" name="book-notes" rows="4" placeholder="儿童座椅、额外停靠、超大行李、上车说明……"></textarea>
-
-        <h3>3. 您的信息</h3>
+        <h3>2. 您的信息</h3>
 
         <label for="book-name">主要乘客姓名</label>
         <input type="text" id="book-name" name="name" required>
@@ -234,19 +223,21 @@
         <label for="book-email">电子邮件 <span class="field-flag" id="email-flag"></span></label>
         <input type="email" id="book-email" name="email">
 
-        <label for="book-phone">电话 / WhatsApp <span class="field-flag" id="phone-flag"></span></label>
-        <input type="tel" id="book-phone" name="phone" placeholder="请包含国家区号">
+        <label for="book-phone-cc">电话 / WhatsApp <span class="field-flag" id="phone-flag"></span></label>
+        <div class="phone-row">
+          <select id="book-phone-cc" name="phone_cc"><option value="">国家/地区</option></select>
+          <input type="tel" id="book-phone" name="phone" placeholder="电话号码的其余部分，不含开头的 0" inputmode="tel">
+        </div>
+        <p class="form-subhint">请先选择您所在的国家/地区，然后输入号码的其余部分。</p>
+
+        <h3>3. 付款</h3>
 
         <div class="form-choice" role="group" aria-labelledby="payment-legend">
-          <span class="form-choice-legend" id="payment-legend">您希望如何付款？</span>
+          <span class="form-choice-legend" id="payment-legend">请确认此次预订的担保方式</span>
           <div class="form-choice-options">
             <label class="form-choice-option">
               <input type="radio" name="payment_option" value="deposit" required>
-              <span>确认订金<span class="opt-sub">现付20%（最低20欧元）。</span></span>
-            </label>
-            <label class="form-choice-option">
-              <input type="radio" name="payment_option" value="full" required>
-              <span>全额付款<span class="opt-sub">预先付清全部车费。</span></span>
+              <span>用于确认预订的订金<span class="opt-sub">现在支付 20%（最低 &euro;20），余款在用车当天支付。</span></span>
             </label>
           </div>
         </div>
@@ -255,6 +246,39 @@
           <input type="checkbox" id="book-invoice" name="invoice_required" value="1">
           <span>我需要一张公司发票。</span>
         </label>
+
+        <div id="book-invoice-fields" class="invoice-fields" hidden>
+          <label for="book-co-name">公司全称</label>
+          <input type="text" id="book-co-name" name="company_name" autocomplete="organization">
+
+          <label for="book-co-vat">增值税税号</label>
+          <input type="text" id="book-co-vat" name="company_vat">
+
+          <label for="book-co-address">地址</label>
+          <input type="text" id="book-co-address" name="company_address" autocomplete="street-address">
+
+          <div class="quote-field-row">
+            <div class="quote-field">
+              <label for="book-co-zip">邮政编码</label>
+              <input type="text" id="book-co-zip" name="company_zip" autocomplete="postal-code">
+            </div>
+            <div class="quote-field">
+              <label for="book-co-city">城镇/城市</label>
+              <input type="text" id="book-co-city" name="company_city" autocomplete="address-level2">
+            </div>
+          </div>
+        </div>
+
+        <h3>4. 接送详情</h3>
+
+        <label for="book-flight">上车详情(抵达航班号或地址)</label>
+        <input type="text" id="book-flight" name="book-flight" placeholder="如果您乘飞机抵达请填写航班号,否则填写您的上车地址">
+
+        <label for="book-dropoff-details">目的地详情(地址或航班号)</label>
+        <input type="text" id="book-dropoff-details" name="book-dropoff-details" placeholder="下车地址,或如果您要赶航班请填写航班号">
+
+        <label for="book-notes">还有其他需求吗?(选填)</label>
+        <textarea id="book-notes" name="book-notes" rows="4" placeholder="儿童座椅、额外停靠、超大行李、上车说明……"></textarea>
 
         <input type="text" id="book-company" name="company" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
 
@@ -281,19 +305,19 @@
     <div class="footer-col">
       <h4>我的服务：</h4>
       <ul class="footer-links">
-        <li><a href="/skradin-airport-transfers/">机场接送</a></li>
-        <li><a href="/skradin-transfers/">城际接送</a></li>
-        <li><a href="/taxi-roski-slap/">Roški Slap</a></li>
-        <li><a href="/aci-marina-skradin-transfers/">ACI Marina Skradin 接送</a></li>
-        <li><a href="/skradin-winery-transfers/">酒庄</a></li>
+        <li><a href="/zh/skradin-airport-transfers/">机场接送</a></li>
+        <li><a href="/zh/skradin-transfers/">城际接送</a></li>
+        <li><a href="/zh/taxi-roski-slap/">Roški Slap</a></li>
+        <li><a href="/zh/aci-marina-skradin-transfers/">ACI Marina Skradin 接送</a></li>
+        <li><a href="/zh/skradin-winery-transfers/">酒庄</a></li>
       </ul>
 
       <h4>支持</h4>
       <ul class="footer-links">
-        <li><a href="/privacy-policy/">隐私政策</a></li>
+        <li><a href="/zh/privacy-policy/">隐私政策</a></li>
         <li><a href="/zh/about/">关于我</a></li>
         <li><a href="/zh/contact/">联系我</a></li>
-        <li><a href="/terms-and-conditions/">条款与条件</a></li>
+        <li><a href="/zh/terms-and-conditions/">条款与条件</a></li>
       </ul>
     </div>
 
@@ -355,7 +379,7 @@
 </footer>
 
 <div class="cookie-banner" id="cookie-banner" hidden>
-  <p>我仅使用 Cookie 来衡量本网站的运行情况（分析用途）。您在预订时提供的信息仅用于安排您的接送，绝不用于其他用途。请参阅我的<a href="/privacy-policy/">隐私政策</a>。</p>
+  <p>我仅使用 Cookie 来衡量本网站的运行情况（分析用途）。您在预订时提供的信息仅用于安排您的接送，绝不用于其他用途。请参阅我的<a href="/zh/privacy-policy/">隐私政策</a>。</p>
   <div class="cookie-actions">
     <button type="button" class="btn btn-primary cookie-btn" id="cookie-accept">接受</button>
     <button type="button" class="btn btn-secondary cookie-btn" id="cookie-decline">仅接受必要的</button>

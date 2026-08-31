@@ -62,18 +62,7 @@
           </div>
         </div>
 
-        <h3>2. Transferdetaljer</h3>
-
-        <label for="book-flight">Henteopplysninger (flynummer ved ankomst eller adresse)</label>
-        <input type="text" id="book-flight" name="book-flight" placeholder="Flynummer hvis du ankommer med fly, eller henteadressen din">
-
-        <label for="book-dropoff-details">Destinasjonsopplysninger (adresse eller et flynummer)</label>
-        <input type="text" id="book-dropoff-details" name="book-dropoff-details" placeholder="Avleveringsadresse, eller flynummeret ditt hvis du skal rekke et fly">
-
-        <label for="book-notes">Noe annet? (valgfritt)</label>
-        <textarea id="book-notes" name="book-notes" rows="4" placeholder="Barnesete, ekstra stopp, stor bagasje, beskjed om henting..."></textarea>
-
-        <h3>3. Dine opplysninger</h3>
+        <h3>2. Dine opplysninger</h3>
 
         <label for="book-name">Navn på hovedpassasjer</label>
         <input type="text" id="book-name" name="name" required>
@@ -95,19 +84,21 @@
         <label for="book-email">E-post <span class="field-flag" id="email-flag"></span></label>
         <input type="email" id="book-email" name="email">
 
-        <label for="book-phone">Telefon / WhatsApp <span class="field-flag" id="phone-flag"></span></label>
-        <input type="tel" id="book-phone" name="phone" placeholder="Ta med landkode">
+        <label for="book-phone-cc">Telefon / WhatsApp <span class="field-flag" id="phone-flag"></span></label>
+        <div class="phone-row">
+          <select id="book-phone-cc" name="phone_cc"><option value="">Land</option></select>
+          <input type="tel" id="book-phone" name="phone" placeholder="Resten av nummeret ditt, uten den innledende 0" inputmode="tel">
+        </div>
+        <p class="form-subhint">Velg landet ditt først, og skriv deretter resten av nummeret.</p>
+
+        <h3>3. Betaling</h3>
 
         <div class="form-choice" role="group" aria-labelledby="payment-legend">
-          <span class="form-choice-legend" id="payment-legend">Hvordan vil du betale?</span>
+          <span class="form-choice-legend" id="payment-legend">Bekreft gjerne hvordan bestillingen sikres</span>
           <div class="form-choice-options">
             <label class="form-choice-option">
               <input type="radio" name="payment_option" value="deposit" required>
-              <span>Depositum for å bekrefte<span class="opt-sub">20% nå (minst 20 EUR).</span></span>
-            </label>
-            <label class="form-choice-option">
-              <input type="radio" name="payment_option" value="full" required>
-              <span>Betal alt<span class="opt-sub">Betal hele prisen på forhånd.</span></span>
+              <span>Forskudd som bekrefter<span class="opt-sub">20% nå (minst &euro;20), resten på reisedagen.</span></span>
             </label>
           </div>
         </div>
@@ -116,6 +107,39 @@
           <input type="checkbox" id="book-invoice" name="invoice_required" value="1">
           <span>Jeg trenger en faktura for firmaet mitt.</span>
         </label>
+
+        <div id="book-invoice-fields" class="invoice-fields" hidden>
+          <label for="book-co-name">Firmaets fulle navn</label>
+          <input type="text" id="book-co-name" name="company_name" autocomplete="organization">
+
+          <label for="book-co-vat">MVA-nummer</label>
+          <input type="text" id="book-co-vat" name="company_vat">
+
+          <label for="book-co-address">Adresse</label>
+          <input type="text" id="book-co-address" name="company_address" autocomplete="street-address">
+
+          <div class="quote-field-row">
+            <div class="quote-field">
+              <label for="book-co-zip">Postnummer</label>
+              <input type="text" id="book-co-zip" name="company_zip" autocomplete="postal-code">
+            </div>
+            <div class="quote-field">
+              <label for="book-co-city">Sted/By</label>
+              <input type="text" id="book-co-city" name="company_city" autocomplete="address-level2">
+            </div>
+          </div>
+        </div>
+
+        <h3>4. Transferdetaljer</h3>
+
+        <label for="book-flight">Henteopplysninger (flynummer ved ankomst eller adresse)</label>
+        <input type="text" id="book-flight" name="book-flight" placeholder="Flynummer hvis du ankommer med fly, eller henteadressen din">
+
+        <label for="book-dropoff-details">Destinasjonsopplysninger (adresse eller et flynummer)</label>
+        <input type="text" id="book-dropoff-details" name="book-dropoff-details" placeholder="Avleveringsadresse, eller flynummeret ditt hvis du skal rekke et fly">
+
+        <label for="book-notes">Noe annet? (valgfritt)</label>
+        <textarea id="book-notes" name="book-notes" rows="4" placeholder="Barnesete, ekstra stopp, stor bagasje, beskjed om henting..."></textarea>
 
         <input type="text" id="book-company" name="company" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
 
