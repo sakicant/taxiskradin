@@ -44,8 +44,8 @@ project (C:\Users\sakic\taxisibenik-code) so any session here starts informed.
 - Prices are fixed per car (up to 4 passengers), agreed in advance. A 20%
   advance (minimum 20 EUR) confirms a booking; balance on the day, cash or
   card. Bookings need at least 2 hours notice.
-- Working hours (updated 2026-07-15): Mon-Fri 07:00-14:00 and 16:00-21:00,
-  Sat-Sun 06:00-16:00. Available 24/7 for rides booked in advance. Keep the
+- Working hours (summer, updated 2026-08-19): Mon-Fri 07:00-20:00,
+  Sat-Sun 07:00-16:00. Available 24/7 for rides booked in advance. Keep the
   footer, home page and LocalBusiness openingHoursSpecification in sync.
 - Git: descriptive commits explaining why; end every commit message with
   the trailer: Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>
