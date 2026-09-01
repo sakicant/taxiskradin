@@ -156,6 +156,7 @@ if ($contactMethod === 'whatsapp') {
 } else {
     if ($email === '' || !filter_var($email, FILTER_VALIDATE_EMAIL)) $errors[] = 'a valid email';
 }
+if ($flight === '') $errors[] = 'pickup details (flight number or address)';
 if ($pickupDate === '') $errors[] = 'pickup date';
 if ($pickupTime === '') $errors[] = 'pickup time';
 

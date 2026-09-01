@@ -220,7 +220,7 @@ def build(lang):
         '        </div>\n\n'
         '        <h3>4. %(transfer_section)s</h3>\n\n'
         '        <label for="book-flight">%(flight_l)s</label>\n'
-        '        <input type="text" id="book-flight" name="book-flight" placeholder="%(flight_ph)s">\n\n'
+        '        <input type="text" id="book-flight" name="book-flight" required placeholder="%(flight_ph)s">\n\n'
         '        <label for="book-dropoff-details">%(dropoff_l)s</label>\n'
         '        <input type="text" id="book-dropoff-details" name="book-dropoff-details" placeholder="%(dropoff_ph)s">\n\n'
         '        <label for="book-notes">%(notes_l)s</label>\n'
